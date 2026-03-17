@@ -1,0 +1,2 @@
+# ghandwa
+conlang called ghandwa
