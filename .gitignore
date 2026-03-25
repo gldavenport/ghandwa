@@ -1,2 +1,7 @@
+# macOS
 .DS_Store
-.DS_Store
+corpus/.DS_Store
+docs/.DS_Store
+grammar/.DS_Store
+tools/.DS_Store
+vocab/.DS_Store
