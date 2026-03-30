@@ -1,54 +1,89 @@
 # Ghandwa Daughter Languages
 
 ---
-last_updated: 2026-03-19T18:10-04:00
-session: "GitHub prep — consolidated daughters-framework.md + daughters-sprachbund.md + decisions-cs-dialects.md into single file"
+last_updated: 2026-03-29T18:30-04:00
+session: "Integrated historical framing overlay; landed B fricative pipeline; stress and cluster spirantization decisions"
 changelog:
+  - 2026-03-29T19:15-04:00 | 796 lines | Added §8.K: prioritized future phonological domains for daughter divergence (unstressed reduction, vowel mergers, palatalization, voiceless fricative instability, nasal vowels, hiatus resolution, final consonant changes), ranked by impact.
+  - 2026-03-29T19:00-04:00 | 773 lines | Documented full /z/ lexicon inventory in §8.A (3 environments, ~55 lemmas, with representative forms and open questions). Updated §3 2B /z/ section to remove vacuous working ideas (post-nasal affrication, pre-voiceless devoicing) and cross-reference §8.A.
+  - 2026-03-29T18:30-04:00 | 732 lines | Reverted stress to Stage 2 (A/C initial, B bounded nonfinal — convergent, not shared). Moved cluster spirantization before s from 3A to 2A. Stage 2 framing: rapid change under poor standardization in the Dark Ages. Updated §1, §3 (matrix, formulations, summary), §4 (3A/3B/3C trimmed), §7, §8.D, §8.I.1, §8.I.2, Appendix A Rule 5 note, §10.
+  - 2026-03-29T18:00-04:00 | 725 lines | Briefly relocated stress from Stage 2 to Stage 3; reverted in next edit.
+  - 2026-03-29T17:30-04:00 | 732 lines | Landed 2B non-sibilant voiced fricative pipeline: (1) post-sonorant hardening (post-nasal + post-liquid → stops), (2) intervocalic [+labial] lenition (VβV, VɣʷV → VwV), (3) remainder devoices. Updated §3 matrix, 2B formulation, Stage 2 summary. Narrowed §8.A to /z/ only.
+  - 2026-03-29T16:00-04:00 | 720 lines | Integrated §10 (Historical Framing Overlay, from 2026-03-29/30 ChatGPT session) into §§1–4. Civilizational stage labels, Stage 0 sociolinguistic profile, design principle, surviving corpus, substrate model, and social memory moved into §1. Collapse context added as preamble to §2 (Stage 1). Dark Ages context added as preamble to §3 (Stage 2). Dawn Age / Neo-Ghandwa context added as preamble to §4 (Stage 3). Stage 4 (Flourishing) added as new §5. Remaining sections renumbered §6–§10 (formerly §5–§9). §10 deleted. Appendices unchanged.
   - 2026-03-19T18:10-04:00 | 657 lines | Consolidated three files into one. A/B/C staged framework (from daughters-framework.md, 2026-03-18) is primary content. Seven-zone dialect geography (from daughters-sprachbund.md, 2026-03-08 ChatGPT export) demoted to Appendix A as provisional historical notes. CS/dialect decisions (from decisions_summary_utf8.pdf, 2026-03-01 ChatGPT export) placed in Appendix B as provisional notes. Both appendices flagged for future harvesting/reconciliation with the A/B/C framework.
 ---
 
 This document records the daughter-language framework for Ghandwa. All rules here operate on Ghandwa surface forms — they are post-Ghandwa, not part of the parent-language derivation.
 
-The primary framework (§§1–9) uses a staged A/B/C branch model. Provisional material from earlier sessions is preserved in the appendices for future harvesting.
+The primary framework (§§1–10) uses a staged A/B/C branch model. Provisional material from earlier sessions is preserved in the appendices for future harvesting.
 
 ---
 
 ## 1. Current overall framing
 
-The daughter-language project is a staged historical framework with three main daughter branches.
+The daughter-language project is a staged historical framework with three main daughter branches, set against a civilizational arc from Bronze Age unity through collapse and dialectalization to recovery and restandardization.
+
+### Stage labels
+
+- **Stage 0 = Bronze Age = Ghandwa**
+- **Stage 1 = Collapse = Late Common Ghandwa**
+- **Stage 2 = Dark Ages = dialectalization into A / B / C**
+- **Stage 3 = Dawn Age = literary standards begin to appear; Neo-Ghandwa**
+- **Stage 4 = Flourishing = stabilized mature standards; spoken change continues but becomes less visible in elite written language**
 
 ### Preferred structure
 
-- **Stage 0 = Ghandwa**
-- **Stage 1 = Late Common Ghandwa**
-- **Stage 2 = early daughter divergence into A / B / C**
-- **Stage 3 = later branch-specific developments**
+The project uses a staged model:
 
-The project is now being thought of as a **3 x 3 matrix**:
+- **Stage 1:** shared late-Ghandwa changes (prosody, nasal assimilation, trimoraic regularization)
+- **Stage 2:** divergent A/B/C responses in the Dark Ages — rapid change under low standardization (stress, fricatives, labiovelars, early cluster developments)
+- **Stage 3:** later branch-specific developments (morphological divergence, further phonological change under emerging standards)
 
-- **three common late-Ghandwa changes**
-- **three domains of divergent A/B/C response**
-- **three branch-specific later developments**
+The three main daughters are referred to simply as **A**, **B**, and **C**. Possible later subbranches can be labeled in a nested way (e.g., AA, AB; BA, BB, BC; CA, CB) or in a stage-sensitive way if needed later.
 
-The current preference is to refer to the three main daughters simply as:
+### Stage 0: the Ghandwa-speaking world
 
-- **A**
-- **B**
-- **C**
+Stage 0 should not be imagined as a broadly literate classical culture. Ghandwa in this phase is better understood as a **prestige spoken language**, a **restricted scribal norm**, a **cult-administrative written register**, and a **formulaic written tradition** concentrated in urban and priestly settings.
 
-Possible later subbranches can be labeled in a nested way, for example:
+Ordinary people are not freely literate. Many may know or use fixed formulas, names, blessings, curses, funerary phrases, and very short conventional texts, but substantial writing usually requires a specialist — a local scribe, temple functionary, or minor clergy. The cities have much more literacy than the countryside, but even there literacy is still largely in the hands of a **priestly caste** or other specialists.
 
-- **AA, AB**
-- **BA, BB, BC**
-- **CA, CB**
+Typical written uses in Stage 0 include grave markers, dedications, defixiones / curse texts, road or boundary markers, short proclamations, administrative and storage records, legal and cultic formulae, and a limited amount of hymnic or other elevated material.
 
-or in a stage-sensitive way if needed later.
+### The surviving Stage 0 corpus
+
+The corpus that actually survives into later ages is a narrow and skewed sample of the writing practices listed above. It over-represents durable media (stone, metal, fired clay) and institutional genres (legal, cultic, funerary), and under-represents perishable administrative records, private correspondence, and any oral-traditional material that was never written down. Later recovery efforts therefore do not reconstruct "the whole language" — they reconstruct the portion that scribes, priests, and urban institutions happened to leave behind on materials that lasted.
+
+### Social memory of the old order
+
+The old Ghandwa-speaking hegemonic order is not assumed to remain the focus of daily consciousness for most people in later periods. Social memory is **diffuse**, **uneven by culture and institution**, and preserved more in residues than in constant ideological discourse. Some resulting cultures may remember more than others. Old titles, taboos, political associations, or ritual terms can survive even when their original setting is forgotten or transformed. A useful analogy is the survival of a title like *rēks* in a world where kingship itself may have become morally or politically suspect in some traditions.
+
+### Substrate and local carryover
+
+The strength of local non-Ghandwa carryover is not fixed uniformly across the daughter languages. Working assumptions:
+
+- some daughters remain relatively straightforward descendants of regional Ghandwa;
+- others, especially in more peripheral, socially discontinuous, or less centrally controlled zones, preserve stronger local phonological, lexical, and structural influence;
+- in general, substrate/local carryover should be treated as **variable by region**, ranging from light to moderate by default, with stronger effects possible in selected daughters later.
+
+A useful practical expectation: **delta / core urban zones** tend toward lighter substrate effects; **river transition zones** tend toward moderate mixed effects; **islands / hills / peripheral states** may show stronger local carryover.
+
+### Design principle
+
+The daughter languages should be understood primarily as descendants of **regional common Ghandwa**, not as straightforward continuations of a single broad literary standard. This keeps the historical model compatible with restricted literacy in Stage 0, collapse of centralized authority in Stage 1, dialectalization in Stage 2, and uneven restandardization in Stages 3–4.
 
 ---
 
-## 2. Stage 1: Late Common Ghandwa
+## 2. Stage 1: Late Common Ghandwa (Collapse)
 
-These are the currently landed-on **shared** changes.
+Late Ghandwa is the last shared phase before real breakup. It is the linguistic face of political and environmental breakdown.
+
+The collapse is the product of both **internal socio-economic and political strain** and **environmental / climate pressure**. The working historical model is that the original Ghandwa-speaking expansion produced a hegemonic order of conquerors, tyrants, or ruling elites centered on major urban nodes such as *Septakvās*. Under climate stress and internal crisis, this order fragmented and/or was overthrown by the populations that had long been subject to it.
+
+This does **not** imply the disappearance of the language. The old regime falls; the old high register loses continuity and prestige stability; but the regional vernacular reflexes of Ghandwa remain in ordinary use. The later daughter languages are thus not the direct continuation of a pure court language, but the continuation of **regional common Ghandwa** as spoken by populations who had already shifted into its orbit.
+
+### Shared changes
+
+These are the currently landed-on **shared** changes that define the Late Common Ghandwa period.
 
 ### 1.1 Prosodic restructuring
 
@@ -85,7 +120,7 @@ Interpretation:
 ### Summary of Stage 1
 
 ```text
-Stage 1: Late Common Ghandwa
+Stage 1: Late Common Ghandwa (Collapse)
 
 1.1  pitch accent > stress-like prominence
      final-syllable accent prohibited
@@ -105,19 +140,25 @@ Stage 1: Late Common Ghandwa
 
 ---
 
-## 3. Stage 2: Early divergent A / B / C responses
+## 3. Stage 2: Early divergent A / B / C responses (Dark Ages)
 
-This is now the main daughter-defining stage.
+This is the main age of regional fragmentation and the most Greek-like phase in the overall comparison set. Its main characteristics are: no single uncontested supraregional standard; strong regional divergence; continuing but uneven contact between regions; island, delta, riverine, and hill-zone differentiation; and the beginning of durable daughter-language identities.
 
-The core idea is that the same inherited problem set is resolved in **different ways** across A, B, and C.
+During this stage, innovations spread through contact networks rather than along a perfectly clean family-tree pattern. Major regions diverge first; finer city-by-city diversification is secondary.
+
+### Divergent responses
+
+The core idea is that the same inherited instabilities are resolved in **different ways** across A, B, and C. This is an era of rapid change under poor standardization — language change moves fast when there is no educational infrastructure or literary norm to slow it down.
 
 ### Stage 2 matrix
 
 | Domain | A | B | C |
 |---|---|---|---|
 | **2.1 Stress** | **initial stress** | **bounded nonfinal stress**, tending penultimate | **initial stress** |
-| **2.2 Fricatives** | voiced fricatives resolve by **devoicing** | fricatives resolve **by environment**, not uniformly | voiced fricatives resolve by **hardening** |
+| **2.2 Fricatives** | voiced fricatives resolve by **devoicing** | voiced fricatives resolve **by environment**: post-sonorant **hardening**, intervocalic labial **lenition**, remainder **devoicing** | voiced fricatives resolve by **hardening** |
 | **2.3 Labiovelars** | labiovelars **delabialize** | labiovelars reduce only in **conditioned environments** | labiovelars **develarize** to labials |
+
+A and C both innovating initial stress is understood as **convergent, not shared** — an areal feature arising independently through contact in a dialect continuum, not a shared innovation implying a subgroup.
 
 ### 2A current formulation
 
@@ -128,29 +169,36 @@ The core idea is that the same inherited problem set is resolved in **different 
 - **ɣʷ > xʷ** (in practice often treated in running tests as leading to **x** in A)
 - **kʷ > k**
 - **gʷ > g**
+- **cluster spirantization before s** (not before t):
+  - **ks > xs**
+  - **ps > ɸs**
 
 ### 2B current formulation
 
 B is explicitly the **slower, central, intermediate branch**.
 
 #### Stress
-- **bounded nonfinal stress**
-- tends toward **penultimate** as a default, but not necessarily in a fully categorical way at this stage
+- **bounded nonfinal stress**, tending penultimate
+- B does not innovate initial stress; it retains the Stage 1 prosodic system with a gradual penultimate default
 
-#### Non-sibilant fricatives
-Current working concept:
-- after nasals: they may harden
-- in stronger positions: they may remain fricatives longer
-- in weaker positions: they may weaken or disappear
+#### Non-sibilant voiced fricatives
+
+Resolved by a three-step ordered pipeline (excluding /z/, which is handled separately):
+
+1. **Post-sonorant hardening.** After nasals and liquids, voiced fricatives harden to stops:
+   - β → b, ð → d, ɣ → g, ɣʷ → gʷ / {N, R}\_
+
+2. **Intervocalic labial lenition.** Between vowels, the [+labial] voiced fricatives weaken to the labial glide:
+   - β → w, ɣʷ → w / V\_V
+
+3. **Default devoicing.** All remaining voiced fricatives devoice:
+   - β → ɸ, ð → θ, ɣ → x, ɣʷ → xʷ
+   - Covers: word-initial, pre-consonantal (including pre-liquid), and intervocalic ð/ɣ
+
+The ordering matters: post-sonorant hardening bleeds intervocalic lenition (e.g., *anβrís* — β is post-nasal, so it hardens to b rather than falling through to the intervocalic check).
 
 #### /z/ as a separate instability channel
-This has been singled out as important and should **not** be buried inside the general fricative rules.
-
-Current working idea:
-- preserved in strong positions
-- affricates after nasals
-- devoices before voiceless consonants
-- may later yield **z / s / r / ∅** in different B-descendants
+/z/ is excluded from the non-sibilant pipeline above and handled independently. It is the most important unresolved consonant question in B. The lexicon contains ~55 lemmas with /z/ across three environments (intervocalic, pre-consonantal, post-liquid); no word-initial, post-nasal, or word-final /z/ is attested. Full inventory and open questions in §8.A.
 
 #### Labiovelars
 - reduced only in **specific conditioned environments**
@@ -169,17 +217,22 @@ Current working idea:
 ### Summary of Stage 2
 
 ```text
-Stage 2
+Stage 2 (Dark Ages) — rapid change under poor standardization
 
 2A
   1. stress > initial
   2. β ð ɣ ɣʷ > ɸ θ x xʷ
   3. kʷ gʷ > k g
+  4. cluster spirantization before s: ks > xs, ps > ɸs
 
 2B
   1. bounded nonfinal stress, tending penultimate
-  2. fricatives resolve by environment
+  2. non-sibilant voiced fricatives resolve by ordered pipeline:
+     a. post-sonorant (N_, R_): β ð ɣ ɣʷ > b d g gʷ
+     b. intervocalic [+labial] (V_V): β ɣʷ > w
+     c. elsewhere: β ð ɣ ɣʷ > ɸ θ x xʷ
   3. labiovelars reduce only under conditioned environments
+  /z/ handled separately (see §8)
 
 2C
   1. stress > initial
@@ -189,7 +242,21 @@ Stage 2
 
 ---
 
-## 4. Stage 3: later branch-specific developments
+## 4. Stage 3: Later branch-specific developments (Dawn Age)
+
+Stage 3 is the first real recovery phase. It is not the return of Stage 0, but a new order growing out of the post-collapse dialect world.
+
+Three sociolinguistic layers are to be distinguished:
+
+1. **Neo-Ghandwa** at the top, primarily **priestly-scholarly** in status;
+2. beneath it, a practical **merchant-warrior koine** serving trade, movement, and interregional contact;
+3. beneath that, the **common tongues**, i.e. the ordinary daughter vernaculars.
+
+Neo-Ghandwa is not the continuous survival of old Ghandwa. It is a later learned recovery built from fragmentary evidence. Because the surviving corpus is narrow and skewed (see §1), Neo-Ghandwa is expected to be formulaic, conservative in ideology, only partly authentic to Stage 0 speech, and disproportionately influenced by priestly, ritual, legal, and inscriptional language.
+
+At the same time, some daughter vernaculars begin to acquire their own local literary or scribal norms.
+
+### Branch-specific developments
 
 This is the stage where the daughters no longer simply respond differently to the same pressures, but begin developing branch-specific histories.
 
@@ -197,26 +264,19 @@ This is the stage where the daughters no longer simply respond differently to th
 
 Current landed decisions:
 
-1. **cluster spirantization only before s**
-   - not before t
-   - practical examples:
-     - **ks > xs**
-     - **ps > ɸs**
-
-2. **later loss/simplification of x, ɸ in some of those clusters with compensatory lengthening**
+1. **later loss/simplification of x, ɸ in some Stage 2 spirantization clusters with compensatory lengthening**
    - not necessarily fully general or immediate
    - example:
      - **kréps > kreɸs > kreːs** (possible later development)
 
-3. **no rhoticism**
+2. **no rhoticism**
 
 ### 3B current direction
 
 B remains the least fixed, but the following broad profile is now in place:
 
 1. **/z/ becomes the main unstable channel**
-2. more conservative/mixed accentual residues survive
-3. bridge-zone mergers and mixed local reflexes develop
+2. bridge-zone mergers and mixed local reflexes develop
 
 ### 3C current direction
 
@@ -230,7 +290,20 @@ C is expected to sound heavier and more clipped at the right edge than A.
 
 ---
 
-## 5. Broad morphological directions now adopted
+## 5. Stage 4: Flourishing / stabilized standards
+
+By Stage 4, strong literary, scribal, and educational traditions exist. Language change in speech continues normally, but visible high-register change slows because standards become entrenched.
+
+This is therefore not a period in which language stops changing. Rather, it is a period in which:
+
+- conservative writing systems stabilize;
+- schools and learned traditions preserve older norms;
+- canonical texts constrain elite usage;
+- and the difference between written prestige forms and everyday speech becomes more socially significant.
+
+---
+
+## 6. Broad morphological directions now adopted
 
 Phonology alone is not enough. The daughters should also remodel grammar differently.
 
@@ -287,7 +360,7 @@ Compact characterization:
 
 ---
 
-## 6. Lexicon testing already done
+## 7. Lexicon testing already done
 
 A first pass of test forms has already been run for A and C. This matters because the project has now reached a point where the transformations are **actionable**, not merely speculative.
 
@@ -330,20 +403,63 @@ This confirms that A and C are already becoming clearly distinct in sound.
 
 ---
 
-## 7. Pending decisions
+## 8. Pending decisions
 
 The following decisions remain open and should be continued in the next chat.
 
-### A. Stage 2.B fricative environments
-This is the biggest open phonological task.
+### A. Stage 2.B /z/ behavior
+The non-sibilant voiced fricative pipeline is now landed (see §3). /z/ was explicitly excluded from that pipeline and remains open.
 
-Need to decide:
+#### Lexicon inventory (~55 lemmas with /z/)
 
-- exact environments for hardening
-- exact environments for retention
-- exact environments for deletion
-- exact behavior of **/z/**
-- whether any intervocalic **z > r** belongs in common B or only later B subbranches
+**Not attested:** word-initial (#z), post-nasal (Nz), word-final (z#), z + voiceless consonant. Earlier working ideas about post-nasal affrication and pre-voiceless devoicing are therefore vacuous against the current lexicon.
+
+**Intervocalic (VzV) — ~40 lemmas.** By far the largest environment. Dominated by *vezu-* compounds and *-oizos* / *-ezos* suffixal elements. Core vocabulary includes:
+
+- *vezús* 'good' (e\_z\_u)
+- *ézar* 'blood' (e\_z\_a)
+- *nā́zā* 'nose' (a\_z\_a)
+- *ɣoizós* 'spear' (i\_z\_o)
+- *lóizā* 'furrow, track' (i\_z\_a)
+- *vézonts* 'bison' (e\_z\_o)
+- *svézōr* 'sister' (e\_z\_o)
+- *álizos* 'alder' (i\_z\_o)
+- *auzantóm* 'gold' (u\_z\_a)
+
+**Pre-consonantal (VzC) — 11 lemmas.** All clusters are z + voiced consonant:
+
+- zd: *nizdós* 'nest', *ózdos* 'branch', *sízdeti* 'be sitting'
+- zl: *kózlos* 'hazel', *nā́zlos* 'nostril'
+- zr: *vózrā* 'springtime', *vózrī* 'Spring (personification)'
+- zn: *ðúznos* 'light brown', *úznos* 'onion'
+- zv: *ðúzvos* 'dark', *duzvirós* 'ne'er-do-well'
+
+**Post-liquid (Rz) — 8 lemmas:**
+
+- rz: *órzos* 'arse', *ðarzús* 'bold', *tarzús* 'dry'
+- lz: *palzā́* 'cliff', *pálzā* 'woman's dress', *palzóm* 'boulder'
+- rz(+n): *pérznā* 'heel', *karznóm* 'top of skull'
+
+#### Decisions needed
+
+1. **Intervocalic /z/:** The central question. Possible outcomes:
+   - z > r (rhotacism, cf. Latin *-osis* > *-oris*) — high-impact, would affect core vocabulary
+   - z > j (glide outcome, cf. the CS glide-creation idea in Appendix B)
+   - z > ∅ (loss, with possible compensatory lengthening)
+   - z preserved as /z/
+   - split by sub-environment (e.g., front-vowel context vs. back-vowel context)
+   - different outcomes in different B-descendants rather than common B
+
+2. **Pre-consonantal /z/:** All before voiced consonants. Possible outcomes:
+   - assimilation to following consonant (zd > dd, zn > nn, etc.)
+   - devoicing to /s/
+   - preservation as /z/
+   - same outcome as intervocalic, or different
+
+3. **Post-liquid /z/:** Reinforcing (post-sonorant) environment. Possible outcomes:
+   - hardening to /d/ (parallel to non-sibilant post-sonorant hardening)
+   - devoicing to /s/
+   - preservation as /z/
 
 ### B. Stage 2.B labiovelar triggers
 Need to decide exactly what counts as a conditioning environment for labiovelar reduction in B.
@@ -356,12 +472,11 @@ In practical testing:
 These practical results are useful, but the exact formal statement still needs to be locked down.
 
 ### D. Exact shape of Stage 2.B stress
-Current wording is:
+B retains bounded nonfinal stress at Stage 2 while A and C innovate initial stress. Need to decide:
 
-- bounded nonfinal stress
-- tending penultimate
-
-Need to decide how much older lexical accent survives in B.
+- how strongly the penultimate default develops
+- how much older lexical accent variation survives in B
+- whether B eventually categoricalizes to penultimate or remains mixed
 
 ### E. Stage 3B morphology
 Need to decide whether B:
@@ -393,16 +508,14 @@ Stage 1.3 currently includes them **if such sequences arise**, but their actual 
 ### I. Additional sound changes considered but not adopted
 These should be remembered as possibilities, but are **not** currently part of the landed system unless decided later.
 
-1. **3A-stage cluster spirantization before t**
+1. **Cluster spirantization before t (in addition to s)**
    - earlier broader idea: spirantization in **_{s,t}**
-   - current landed system narrows this to **_s only**
+   - current landed system narrows this to **_s only** (now a 2A rule)
+   - spirantization before t remains a possible later A-subbranch development
 
 2. **Blanket daughter-wide initial stress**
    - earlier idea: all daughters shift to initial stress
-   - current landed system rejects this in favor of:
-     - A = initial
-     - B = bounded nonfinal / tending penultimate
-     - C = initial
+   - rejected: A and C innovate initial stress at Stage 2 (convergent, not shared); B retains bounded nonfinal
 
 3. **More fully regular penultimate B**
    - possible future choice, but not yet adopted
@@ -423,28 +536,53 @@ Need to test more items, especially:
 - longer polysyllables
 - forms with **z**
 
+### K. Future phonological domains for daughter divergence
+The current Stage 2 changes are almost entirely consonantal. Real dialectal drift into unintelligibility requires vowel changes and additional innovations. Prioritized by impact:
+
+**Non-negotiable** (without these, divergence stays superficial):
+
+1. **Unstressed vowel reduction and syncope.** Initial stress in A and C weakens non-initial syllables — the question is how far. Reduction to schwa? Full syncope of medials? Only in open syllables? B with penultimate stress would erode different positions. This is probably the single biggest missing piece.
+
+2. **Vowel mergers and shifts.** The five-vowel system (i e a o u, each long and short) is ripe for partial merger or chain shift. Natural candidates: a/o merger in some daughter; ē/ī or ō/ū merger; diphthongization of long vowels (ē → ie, ō → uo); monophthongization of old diphthongs (ei → ē, ou → ō). Could split three ways (e.g., A monophthongizes, B preserves, C diphthongizes).
+
+**High impact:**
+
+3. **Palatalization.** The most common consonant innovation in IE daughter histories. Natural triggers: k/g → palatals or affricates before front vowels; t/d → affricates before j/i; s → ʃ before i/j. Different daughters could palatalize different series or resist palatalization entirely. Interacts with vowel changes (front-vowel mergers can feed or bleed palatalization).
+
+**Secondary / flavor:**
+
+4. **Voiceless fricative instability in A.** A has ɸ, θ, x with no voiced counterparts — typologically unstable. Natural outcomes: ɸ → f, θ → t or s, x → h. Some of these are already anticipated in the 7-zone model (Appendix A Rule 7: x → h word-initially).
+
+5. **Nasal vowel development.** If any daughter loses nasals before fricatives or in codas, preceding vowels nasalize. VN → Ṽ is extremely common (cf. French, Portuguese, Polish, Old Irish).
+
+6. **Hiatus resolution.** Syncope and consonant loss create new vowel-vowel contacts. Daughters would resolve them differently — contraction, glide insertion, elision. Cascading morphological consequences.
+
+7. **Final consonant changes.** Final devoicing, final fricative weakening, final stop loss — interacts with C's right-edge morphological erosion.
+
 ---
 
-## 8. Best immediate next steps
+## 9. Best immediate next steps
 
 Recommended next tasks:
 
-1. lock down **2B fricative environments**, especially **/z/**
+1. lock down **2B /z/ behavior** and **2B labiovelar triggers**
 2. lock down **B morphology**
 3. write one or two **sample noun paradigms** through A, B, and C
 4. test more lexical items through all stages
+5. decide on **daughter-level vowel changes** (unstressed reduction, mergers/shifts, palatalization) to deepen A/B/C divergence beyond consonants
 
 ---
 
-## 9. Short project status statement
+## 10. Short project status statement
 
 The project is now at a useful turning point:
 
 - Stage 1 is **solid enough to treat as fixed**
-- Stage 2 is **mostly fixed**, with B still needing detail
-- Stage 3 is **directionally clear**, especially for A and C
+- Stage 2 is **mostly fixed**: A stress, fricatives, labiovelars, and cluster spirantization are landed; B non-sibilant fricative pipeline is landed; C stress, fricatives, and labiovelars are landed; B labiovelars and /z/ still need detail
+- Stage 3 is **directionally clear** for A (compensatory lengthening, no rhoticism) and C (rhoticism, apocope, right-edge erosion); B remains the least fixed
 - the sound changes are already **actionable**
 - morphology has started to differentiate in a historically meaningful way
+- vowel changes (unstressed reduction, mergers/shifts, palatalization) are the main gap for deepening daughter divergence
 
 That is enough structure to continue productively in a new chat without starting over.
 
@@ -453,7 +591,7 @@ That is enough structure to continue productively in a new chat without starting
 
 # Appendices — Provisional Notes
 
-The material below comes from earlier ChatGPT sessions and uses a different organizational model (seven dialect zones rather than three staged branches). It is retained as a source of ideas to harvest — individual rules and decisions may be adopted into the A/B/C framework above, at which point they should be removed from here. **Nothing in these appendices is canonical unless it also appears in §§1–9 above.**
+The material below comes from earlier ChatGPT sessions and uses a different organizational model (seven dialect zones rather than three staged branches). It is retained as a source of ideas to harvest — individual rules and decisions may be adopted into the A/B/C framework above, at which point they should be removed from here. **Nothing in these appendices is canonical unless it also appears in §§1–10 above.**
 
 ---
 
@@ -594,6 +732,8 @@ Stops spirantize before s or t in western dialects only.
 **Scope**: all dialects
 
 Stress shifts to initial syllable. Ghandwa stress is free/lexical; daughters regularize to initial.
+
+**Note:** This blanket formulation is superseded by the A/B/C framework (§3), which distinguishes A and C (initial stress) from B (bounded nonfinal stress, tending penultimate). Retained here for archival completeness only.
 
 ### Rule 6 — Final-Syllable Vowel Shortening
 
