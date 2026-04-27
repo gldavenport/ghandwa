@@ -300,6 +300,22 @@ Current landed decisions:
 2. **final-vowel shortening and later apocope**
 3. **right-edge morphological erosion**
 
+#### Current z-resolution map for C
+
+Currently committed outcomes:
+
+- **#zV- > #dV-**
+- **-Nz-, -Nz# > -Nd-, -Nd#**
+- **-VzV- > -VrV-**
+- **-Vz# > -V#**
+- **-RzV- > -RRV-**
+- **-Rz# > -Vr#**
+
+Still unresolved and to be worked out in detail:
+
+- **-VzC-**
+- **-RzC-**
+
 C is expected to sound heavier and more clipped at the right edge than A.
 
 ---
