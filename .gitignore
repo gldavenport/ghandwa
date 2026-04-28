@@ -6,3 +6,7 @@ grammar/.DS_Store
 tools/.DS_Store
 vocab/.DS_Store
 .DS_Store
+
+# Reference PDFs — stored locally, not version-controlled
+# Extraction packages (markdown + TSV) are committed; source PDFs are not.
+references/**/*.pdf
