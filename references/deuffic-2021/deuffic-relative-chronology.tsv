@@ -1,0 +1,69 @@
+subperiod	macro_stage	qualifier	change	relative_note
+1.1	Late Indo-European changes		*Ḱ > *K	
+1.1	Late Indo-European changes		*TK > *KT	
+1.1	Late Indo-European changes		*T[dental]T[dental] > *tst	
+1.1	Late Indo-European changes		*HV > *V	
+1.1	Late Indo-European changes		*VH > *V̄(H)	
+1.1	Late Indo-European changes		*#HC > *#C	
+2.1	Italo-Celtic changes	a.q.	*CRHC > *CRāC	before Dybo’s law, *CHC > *CaC
+2.1	Italo-Celtic changes	a.q.	*CHC > *CC	before *T[labial/velar]t/s > *χt/s
+2.1	Italo-Celtic changes	a.q.	*pe(R)kw > *kwe(R)kw	before *p > Ø, *T[labial/velar]t/s > *χt/s
+2.1	Italo-Celtic changes	a.q.	*HRC > *aRC	before *CLT > *CLiT
+2.1	Italo-Celtic changes	a.q.	*RDC > *RaDC	before *CLT > *CLiT, *R̥ > *aR
+2.1	Italo-Celtic changes	a.q.	*mu̯ > *u̯	
+2.2	Italo-Celtic changes		Dybo’s law	before *ē > *ī, *ō > *ā
+2.2	Italo-Celtic changes	p.q.	*CHC > *CaC	before *pL > *bL, *eRa > *aRa, *pn > *u̥n
+2.2	Italo-Celtic changes	p.q.	*CHC > *CC	before *T[labial/velar]t/s > *χt/s
+2.2	Italo-Celtic changes	p.q.	*pe(R)kw > *kwe(R)kw	before *p > Ø, *T[labial/velar]t/s > *χt/s
+2.2	Italo-Celtic changes	p.q.	*HRC > *aRC	before *CLT > *CLiT
+2.2	Italo-Celtic changes	p.q.	*RDC > *RaDC	before *CLT > *CLiT, *R̥ > *aR
+2.2	Italo-Celtic changes	p.q.	*mu̯ > *u̯	
+3.1	Proto-Celtic stage		*CLT > *CLiT	before *R̥ > *aR, *T[labial/velar]t/s > *χt/s
+3.1	Proto-Celtic stage		*eRa > *aRa	before *R̥ > *aR
+3.1	Proto-Celtic stage	a.q.	*pL > *bL	before *p > Ø
+3.1	Proto-Celtic stage	a.q.	*gw > *b	before *Dh > *D
+3.1	Proto-Celtic stage	a.q.	*u̥n > *bn	before *pn > *u̥n
+3.1	Proto-Celtic stage	a.q.	*ō(C)# > *ū(C)#	before *ō > *ā
+3.1	Proto-Celtic stage	a.q.	*ei̯e > *ī	before *ē > *ī
+3.2	Proto-Celtic stage		*R̥ > *aR	before *CHV > *CV, *pn > *u̥n
+3.2	Proto-Celtic stage		*pL > *bL	before *p > Ø
+3.2	Proto-Celtic stage		*gw > *b	before *Dh > *D
+3.2	Proto-Celtic stage	a.q.	*Dh > *D	
+3.2	Proto-Celtic stage	p.q.	*u̥n > *bn	before *pn > *u̥n
+3.2	Proto-Celtic stage		*ō(C)# > *ū(C)#	before *ō > *ā
+3.2	Proto-Celtic stage	a.q.	*ō > *ā	before *V̄RC > *V̆RC
+3.2	Proto-Celtic stage	a.q.	*T[labial/velar]t/s > *χt/s	before *p > Ø
+3.2	Proto-Celtic stage		*ei̯e > *ī	before *ē > *ī
+3.3	Proto-Celtic stage		*pn > *u̥n	before *p > Ø
+3.3	Proto-Celtic stage	a.q.	*CHV > *CV	
+3.3	Proto-Celtic stage		*gw > *b	before *Dh > *D
+3.3	Proto-Celtic stage		*Dh > *D	
+3.3	Proto-Celtic stage		*ō(C)# > *ū(C)#	before *ō > *ā
+3.3	Proto-Celtic stage		*ō > *ā	before *V̄RC > *V̆RC
+3.3	Proto-Celtic stage		*T[labial/velar]t/s > *χt/s	before *p > Ø
+3.3	Proto-Celtic stage	p.q.	*pL > *bL	before *p > Ø
+3.3	Proto-Celtic stage		*ei̯e > *ī	before *ē > *ī
+3.3	Proto-Celtic stage	a.q.	*V̄RC > *V̆RC	
+3.4	Proto-Celtic stage		*p > Ø	before *ē > *ī, *ei̥ > *ē
+3.4	Proto-Celtic stage		*CHV > *CV	
+3.4	Proto-Celtic stage		*gw > *b	before *Dh > *D
+3.4	Proto-Celtic stage		*Dh > *D	
+3.4	Proto-Celtic stage	p.q.	*ei̯e > *ī	before *ē > *ī
+3.4	Proto-Celtic stage		*ō(C)# > *ū(C)#	before *ō > *ā
+3.4	Proto-Celtic stage		*ō > *ā	before *V̄RC > *V̆RC
+3.4	Proto-Celtic stage		*V̄RC > *V̆RC	
+3.5	Proto-Celtic stage		*ē > *ī	before *V̄RC > *V̆RC, *ei̥ > *ē
+3.5	Proto-Celtic stage		*CHV > *CV	
+3.5	Proto-Celtic stage		*gw > *b	before *Dh > *D
+3.5	Proto-Celtic stage		*Dh > *D	
+3.5	Proto-Celtic stage	p.q.	*ō(C)# > *ū(C)#	before *ō > *ā
+3.5	Proto-Celtic stage		*ō > *ā	before *V̄RC > *V̆RC
+3.5	Proto-Celtic stage		*V̄RC > *V̆RC	
+3.6	Proto-Celtic stage		*ei̥ > *ē	
+3.6	Proto-Celtic stage	p.q.	*CHV > *CV	
+3.6	Proto-Celtic stage	p.q.	*gw > *b	before *Dh > *D
+3.6	Proto-Celtic stage		*Dh > *D	
+3.6	Proto-Celtic stage	p.q.	*ō > *ā	before *V̄RC > *V̆RC
+3.6	Proto-Celtic stage		*V̄RC > *V̆RC	
+3.6b	Proto-Celtic stage	p.q.	*Dh > *D	
+3.6b	Proto-Celtic stage	p.q.	*V̄RC > *V̆RC	

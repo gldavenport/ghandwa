@@ -1,0 +1,22 @@
+ordered	stage	change	description	section	notes
+yes	1	*HV > *V	loss of initial/pre-vocalic laryngeal with colouring	Appendix C; cf. §4	
+yes	2	*VH > *V̄	laryngeal colouring and compensatory lengthening after vowel	Appendix C; cf. §4	
+yes	3	*gh /g/ > *ǥ /ɣ/	fricativization of mediae aspiratae	§2.3	Preserve source notation.
+yes	4	*RD̉C > *RHDC	development involving glottalic media in resonant-stop clusters	§5.1.1	
+yes	5	*g /g̉/ > *g /g/	deglottalization of voiced mediae	§2.3	Except in devoiced/glottalic allophonic position.
+yes	6	Loss of laryngeals	stage heading in source; includes two listed subchanges	Appendix C	
+yes	6a	*CHCC > *CCC	loss of laryngeals in consonant clusters	§2.3	Listed under stage 6.
+yes	6b	*HC- > *C-	word-initial laryngeal loss except before *-RC-	§4.1.3	Listed under stage 6.
+yes	7	Vocalization of laryngeals	stage heading in source; includes two listed subchanges	Appendix C	
+yes	7a	*H̥ > *a	vocalization of syllabic laryngeals	§4.1	Listed under stage 7.
+yes	7b	*CRHC > *CRāC	laryngeal vocalization/colouring in resonant-laryngeal clusters	§4.1.1	Listed under stage 7.
+yes	8	Vocalization of vocalic resonants	stage heading in source; includes two listed subchanges	Appendix C	
+yes	8a	*N̥ > *əN	vocalization of vocalic nasals with prop vowel	§3.1.1	Listed under stage 8.
+yes	8b	*L̥V > *aLV	vocalization of vocalic liquids before vowel	§3.1.2	Listed under stage 8.
+no	unordered	*p…kw > *kw…kw	Italo-Celtic assimilation in the word for five and comparable forms	Appendix C	Order with respect to other changes cannot be established in appendix.
+no	unordered	*mw > *w	loss/simplification of *m before *w	Appendix C	Order with respect to other changes cannot be established in appendix.
+no	unordered	*mj > *nj	change of *mj to *nj	Appendix C	Order with respect to other changes cannot be established in appendix.
+no	unordered	Vine’s Law and reduction of *e after *i̯	unordered change group	§5.1.2	Includes *ei̯e > *ii̯e and *i̯e > *i.
+no	unordered.1	*ei̯e > *ii̯e	Vine’s Law / reduction of *e after *i̯, step 1	§5.1.2	Listed under unordered Vine’s Law group.
+no	unordered.2	*i̯e > *i	reduction of *e after *i̯, step 2	§5.1.2	Listed under unordered Vine’s Law group.
+no	unordered	*sr /sr/ > *þr /θr/	dissimilation of the sibilant before *r	§2.2.2	Appendix also writes (-)þr- in obstruent systems.

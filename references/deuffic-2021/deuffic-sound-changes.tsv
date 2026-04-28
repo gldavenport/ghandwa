@@ -1,0 +1,35 @@
+id	category	change	subchanges	page	stage	included_in_final_chronology	status	relative_notes	examples	notes
+1.1	Laryngeals	*HV > *V	*h1/2/3 > *e/a/o; *Ho > *o; *Hi, *Hu > *i, *u	7	Late Indo-European	yes	ordered	Before or coincident with *CHV > *CV; interacts with coloring effects.	*h1eḱuo- > OIr. ech; *h2eǵeti > OIr. agaid; *h3ergeti > OIr. orcaid	
+1.2	Laryngeals	*CHV > *CV		8	Proto-Celtic	yes	ordered	After *h1/2/3 > *e/a/o and after *R̥ > *aR; occurs late enough that other Celtic-specific developments can precede total laryngeal loss.	*ḱl̥Heto- > *kalHeto > *kaleto- > OIr. calad; *snHi > *sanHi > *sani > OIr. sain	
+1.3	Laryngeals	*VH > *V̄(H)	*eh1 > *ē(H); *eh2 > *ā(H); *eh3 > *ō(H); *oH > *ō(H); *IH > *Ī(H)	8	Late Indo-European	yes	ordered	Before Dybo's law, *ē > *ī, *V̄RC > *V̆RC, and *ō > *ā.	*seh1-lo- > *sēlo- > OIr. síl; *deh3- > *dō-nu- > *dānu- > OIr. dán	
+1.4	Laryngeals	*#HRC- > *#aRC- / *#RiC-	*#HRC > *#aRC; alternative *#RiC reflexes	10	Italo-Celtic	yes	ordered	Listed as *HRC > *aRC before *CLT > *CLiT in final relative chronology.		Table normalizes final chronology's *HRC > *aRC notation to section heading.
+1.5	Laryngeals	*#HC > *#C		11	Late Indo-European	yes	ordered	Listed under Late Indo-European changes.		
+1.6	Laryngeals	*CHC > *CaC, *CC	*CHC > *CaC; *CHC > *CC	11	Italo-Celtic	yes	ordered	*CHC > *CaC before *pL > *bL, *eRa > *aRa, *pn > *u̥n; *CHC > *CC before *T[labial/velar]t/s > *χt/s.		
+1.7	Laryngeals	*CRHC > CRāC, CRăC	*CRHC > *CRāC; *CRHC > *CRăC	12	Italo-Celtic / uncertain	partial	partly excluded	*CRHC > *CRāC listed before Dybo's law and *CHC > *CaC. *CRHC > *CRăC is excluded from the final relative chronology as impossible to relate or doubtful.		Split treatment in final chronology.
+1.8	Laryngeals	*V̄CV́ > *V̆CV́ (Dybo's law) and *CHIC > *CĪC, *CĬC	Dybo's law; *CHIC > *CĪC/*CĬC	14	Italo-Celtic	yes	ordered	Dybo's law before *ē > *ī and *ō > *ā.	OIr. úasal, MW. uchel, Gaul. Uxello-dunum < *o(u)psĕlos	
+2.1	Stops	*TK > *KT		15	Late Indo-European	yes	ordered	Listed under Late Indo-European changes.		
+2.2	Stops	*T[dental]T[dental] > *tst		16	Late Indo-European	yes	ordered	Listed under Late Indo-European changes.		
+2.3	Stops	*Ḱ > *K		17	Late Indo-European	yes	ordered	Listed under Late Indo-European changes.		
+2.4	Stops	*RDC- > *RaDC		17	Italo-Celtic	yes	ordered	Before *CLT > *CLiT and *R̥ > *aR.		
+2.5	Stops	*gw > *b		18	Proto-Celtic	yes	ordered	Before *Dh > *D; can occur in several Proto-Celtic subperiods before 3.6b.		
+2.6	Stops	*Dh > D		19	Proto-Celtic	yes	ordered	After *gw > *b; potentially as late as 3.6b.		
+2.7	Stops	*pe(R)kw > *kwe(R)kw		24	Italo-Celtic	yes	ordered	Before *p > Ø and before *T[labial/velar]t/s > *χt/s.	PIE *penkwe ‘five’ type comparison	
+2.8	Stops	*T[labial/velar]t/s > *χt/s		27	Proto-Celtic	yes	ordered	Before *p > Ø; after *CHC > *CC and after *pe(R)kw > *kwe(R)kw; after *CLT > *CLiT.		
+2.9	Stops	*-pL- > *-bL-		29	Proto-Celtic	yes	ordered	Before *p > Ø; may precede or follow several early Proto-Celtic changes.		
+2.10	Stops	*pn > *u̥n		29	Proto-Celtic	yes	ordered	After *u̥n > *bn and after *R̥ > *aR; before *p > Ø.		
+2.11	Stops	*p > (φ) > Ø		30	Proto-Celtic	yes	ordered	After *pL > *bL, *pn > *u̥n, *T[labial/velar]t/s > *χt/s; before *ē > *ī and *ei̥ > *ē.		
+3.1	Fricative *s	*-sl/n/m- > *-ll- / *-nn- / *-mm-		33	uncertain	no	excluded	Excluded from final relative chronology as impossible to relate or doubtful.		
+3.2	Fricative *s	*#sr- and *-sr-		33	uncertain	no	not formalized in final chronology			Section title describes cluster behavior rather than a single arrow-form rule.
+4.1	Resonants	*CLT > *CLiT		35	Proto-Celtic	yes	ordered	One of the earliest Proto-Celtic changes; before *R̥ > *aR and before *T[labial/velar]t/s > *χt/s.		
+4.2	Resonants	*R̥ > *aR		35	Proto-Celtic	yes	ordered	After *CLT > *CLiT and *eRa > *aRa; before *CHV > *CV and *pn > *u̥n.	*snHi > *sanHi in discussion of laryngeals	
+4.3	Resonants	*mu̯ > *u̯		36	Italo-Celtic	yes	ordered	Listed among Italo-Celtic changes; no narrower relative constraints given in final list.		
+4.4	Resonants	*u̥n > *bn		37	Proto-Celtic	yes	ordered	Before *pn > *u̥n.		
+4.5	Resonants	*i̯e > *i, *ei̯e > *ē > *ī	*-i̯e- > *-i-; *ei̯e > *ē > *ī	37	Proto-Celtic / uncertain	partial	partly excluded	Final chronology lists *ei̯e > *ī before *ē > *ī; *-i̯e- > *-i- is excluded.		The section combines a glide contraction and an *ei̯e sequence development.
+5.1	Vowels	*eRă > ăRă		38	Proto-Celtic	yes	ordered	Listed as *eRa > *aRa before *R̥ > *aR and among earliest Proto-Celtic changes.		
+5.2	Vowels	*ē > *ī		39	Proto-Celtic	yes	ordered	After *p > Ø and Dybo's law; before *V̄RC > *V̆RC and *ei̥ > *ē.	*h2weh1nto > *wēnto > *wīnto	
+5.3	Vowels	*ō(C)# > *ū(C)#		40	Proto-Celtic	yes	ordered	Before *ō > *ā.		
+5.4	Vowels	*V̄RC > *VRC	shortening of long vowel before resonant + consonant; final chronology writes *V̄RC > *V̆RC	42	Proto-Celtic	yes	ordered	After *ō > *ā and after *ē > *ī; can occur as late as 3.6b.	*h2weh1nto > wēnto > wīnto > winto	Table preserves section heading but records final-list notation in subchanges.
+5.5	Vowels	*ō > *ā		42	Proto-Celtic	yes	ordered	After Dybo's law and after *ō(C)# > *ū(C)#; before *V̄RC > *V̆RC.	*deh3- > *dōno- > *dāno-	
+5.6	Vowels	*ei̥ > *ē		43	Proto-Celtic	yes	ordered	After *p > Ø and after *ē > *ī; defines subperiod 3.6.		
+5.7	Vowels	*eu̥ > *ou̥		43	late / Continental Celtic in progress	no	excluded	Excluded; probably recent and possibly in progress in Continental Celtic.		
+5.8	Vowels	*uu̥ > *ou̥		44	late / Continental Celtic in progress	no	excluded	Excluded; probably recent and possibly in progress in Continental Celtic.		

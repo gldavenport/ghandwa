@@ -1,0 +1,11 @@
+subsystem	category	labial	dental	velar	labiovelar	glottal	short	long	diphthong	notes
+consonants	Stops	*p	*t, *d	*k, *g	*kw, *gw	*H				Voiced stops have a glottalic voiceless allophone when followed by a voiceless obstruent; e.g. /gt/ > [k̉t] (§ 2.3.2). *H only if merged laryngeals persisted into PIC.
+consonants	Fricatives	*ƀ	*đ, *s	*ǥ	*ǥw					
+consonants	Nasals	*m	*n							Vocalic nasals are phonetically realized with a prop vowel; e.g. /n̥/ > [ən] (§ 3.1.1).
+consonants	Liquids		*r, *l							
+consonants	Approximants	*w	*j							
+vowels	Vowel series						*i	*ī		
+vowels	Vowel series						*e	*ē	*ei	
+vowels	Vowel series						*a	*ā	*ai, *au	
+vowels	Vowel series						*o	*ō	*oi, *ou	
+vowels	Vowel series						*u	*ū		

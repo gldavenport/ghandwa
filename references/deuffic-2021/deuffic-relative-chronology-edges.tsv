@@ -1,0 +1,36 @@
+change_before	change_after	relation	source_location	note	table_status
+*HV > *V	*CHV > *CV	before_or_coincident	1.1 conclusion	Coloring effect requires *HV > *V before or at least coincident with *CHV > *CV.	derived_analytical_table_not_direct_source_table
+*h1/2/3 > *e/a/o	*CHV > *CV	before	1.2 conclusion	Laryngeal coloring must precede loss in *CHV.	derived_analytical_table_not_direct_source_table
+*R̥ > *aR	*CHV > *CV	before	1.2 / final chronology	Examples such as *ḱl̥Heto- require vocalic resonant treatment before laryngeal loss.	derived_analytical_table_not_direct_source_table
+*VH > *V̄(H)	Dybo’s law	before	1.3 conclusion	Lengthening supplies inputs to Dybo's law.	derived_analytical_table_not_direct_source_table
+*VH > *V̄(H)	*ē > *ī	before	1.3 conclusion	*eh1 > *ē then *ē > *ī.	derived_analytical_table_not_direct_source_table
+*VH > *V̄(H)	*ō > *ā	before	1.3 conclusion	*eh3/*oH > *ō then *ō > *ā.	derived_analytical_table_not_direct_source_table
+*CRHC > *CRāC	Dybo’s law	before	final chronology 2.1	Listed before Dybo's law.	derived_analytical_table_not_direct_source_table
+*CRHC > *CRāC	*CHC > *CaC	before	final chronology 2.1	Listed before *CHC > *CaC.	derived_analytical_table_not_direct_source_table
+*CHC > *CC	*T[labial/velar]t/s > *χt/s	before	final chronology 2.1/2.2	Cluster output feeds later stop-cluster treatment.	derived_analytical_table_not_direct_source_table
+*pe(R)kw > *kwe(R)kw	*p > Ø	before	final chronology 2.1/2.2	Requires *p still present.	derived_analytical_table_not_direct_source_table
+*pe(R)kw > *kwe(R)kw	*T[labial/velar]t/s > *χt/s	before	final chronology 2.1/2.2	Listed before cluster treatment.	derived_analytical_table_not_direct_source_table
+*HRC > *aRC	*CLT > *CLiT	before	final chronology 2.1/2.2	Listed before *CLT > *CLiT.	derived_analytical_table_not_direct_source_table
+*RDC > *RaDC	*CLT > *CLiT	before	final chronology 2.1/2.2	Listed before *CLT > *CLiT.	derived_analytical_table_not_direct_source_table
+*RDC > *RaDC	*R̥ > *aR	before	final chronology 2.1/2.2	Listed before *R̥ > *aR.	derived_analytical_table_not_direct_source_table
+Dybo’s law	*ē > *ī	before	final chronology 2.2	Listed before *ē > *ī.	derived_analytical_table_not_direct_source_table
+Dybo’s law	*ō > *ā	before	final chronology 2.2	Listed before *ō > *ā.	derived_analytical_table_not_direct_source_table
+*CHC > *CaC	*pL > *bL	before	final chronology 2.2	Listed before *pL > *bL.	derived_analytical_table_not_direct_source_table
+*CHC > *CaC	*eRa > *aRa	before	final chronology 2.2	Listed before *eRa > *aRa.	derived_analytical_table_not_direct_source_table
+*CHC > *CaC	*pn > *u̥n	before	final chronology 2.2	Listed before *pn > *u̥n.	derived_analytical_table_not_direct_source_table
+*CLT > *CLiT	*R̥ > *aR	before	final chronology 3.1	One of earliest Proto-Celtic changes.	derived_analytical_table_not_direct_source_table
+*CLT > *CLiT	*T[labial/velar]t/s > *χt/s	before	final chronology 3.1	Listed before cluster treatment.	derived_analytical_table_not_direct_source_table
+*eRa > *aRa	*R̥ > *aR	before	final chronology 3.1	Listed before *R̥ > *aR.	derived_analytical_table_not_direct_source_table
+*pL > *bL	*p > Ø	before	final chronology 3.1/3.2/3.3	Requires *p retained in cluster.	derived_analytical_table_not_direct_source_table
+*gw > *b	*Dh > *D	before	final chronology 3.1+	Listed throughout as before merger.	derived_analytical_table_not_direct_source_table
+*u̥n > *bn	*pn > *u̥n	before	final chronology 3.1/3.2	Listed before *pn > *u̥n.	derived_analytical_table_not_direct_source_table
+*ō(C)# > *ū(C)#	*ō > *ā	before	final chronology 3.1+	Final *ō raising must precede general *ō > *ā.	derived_analytical_table_not_direct_source_table
+*ei̯e > *ī	*ē > *ī	before	final chronology 3.1+	Listed before *ē > *ī.	derived_analytical_table_not_direct_source_table
+*R̥ > *aR	*pn > *u̥n	before	final chronology 3.2	Listed before *pn > *u̥n.	derived_analytical_table_not_direct_source_table
+*ō > *ā	*V̄RC > *V̆RC	before	final chronology 3.2+	Listed before shortening.	derived_analytical_table_not_direct_source_table
+*T[labial/velar]t/s > *χt/s	*p > Ø	before	final chronology 3.2+	Listed before *p > Ø.	derived_analytical_table_not_direct_source_table
+*pn > *u̥n	*p > Ø	before	final chronology 3.3	Listed before *p > Ø.	derived_analytical_table_not_direct_source_table
+*p > Ø	*ē > *ī	before	final chronology 3.4	Listed before *ē > *ī.	derived_analytical_table_not_direct_source_table
+*p > Ø	*ei̥ > *ē	before	final chronology 3.4	Listed before *ei̥ > *ē.	derived_analytical_table_not_direct_source_table
+*ē > *ī	*V̄RC > *V̆RC	before	final chronology 3.5	Listed before shortening.	derived_analytical_table_not_direct_source_table
+*ē > *ī	*ei̥ > *ē	before	final chronology 3.5	Material refutes *ei̥ > *ē > *ī.	derived_analytical_table_not_direct_source_table
