@@ -1,0 +1,34 @@
+{
+  "source_file": "friedman-2025.pdf",
+  "output_combined_file": "friedman-2025-the-balkan-languages-pass-3.md",
+  "pass": "second and third passes completed",
+  "pdf_page_anchors": 1088,
+  "expected_pdf_pages": 1092,
+  "headings_detected": 777,
+  "tables_detected": 85,
+  "tables_normalized_wide_space": 37,
+  "examples_detected": 566,
+  "figures_detected": 3,
+  "footnotes_detected": 1784,
+  "cambridge_footer_fragments_remaining": 0,
+  "problematic_character_counts": {
+    "�": 0,
+    "￾": 0,
+    "ﬁ": 0,
+    "ﬂ": 0
+  },
+  "notes": [
+    "Main pass-3 Markdown is reflowed for clean reading while retaining PDF page anchors.",
+    "Table extraction is indexed and partly normalized; complex linguistic tables are retained as raw blocks for manual verification before data use.",
+    "Examples were indexed by numbered example label; complex multi-line examples should be checked against the page image before quotation or data extraction.",
+    "Figures are indexed by caption only; image/diagram content was not redrawn.",
+    "PDF pages without text anchors are cover/blank or pages with no retained extractable text: 1, 2, 18, 40"
+  ],
+  "pdf_page_anchors_unique": 1088,
+  "pdf_pages_without_text_anchors": [
+    1,
+    2,
+    18,
+    40
+  ]
+}

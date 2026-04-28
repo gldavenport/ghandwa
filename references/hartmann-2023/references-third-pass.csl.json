@@ -1,0 +1,4786 @@
+[
+  {
+    "id": "Agee2018",
+    "type": "document",
+    "title": "A glottometric subgrouping of the early Germanic languages",
+    "author": [
+      {
+        "family": "Agee",
+        "given": "Joshua"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use."
+  },
+  {
+    "id": "Aikhenvald2007",
+    "type": "chapter",
+    "title": "Grammars in contact: A cross-linguistic perspective",
+    "author": [
+      {
+        "family": "Aikhenvald",
+        "given": "Alexandra Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Grammars in contact: A cross-linguistic typology",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Aikhenvald and Robert M. W. Dixon. Oxford",
+    "page": "1–54"
+  },
+  {
+    "id": "Alkire2010",
+    "type": "book",
+    "title": "Romance",
+    "author": [
+      {
+        "family": "Alkire",
+        "given": "Ti"
+      },
+      {
+        "literal": "Carol Rosen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "A historical introduction. Cambridge: Cambridge University Press",
+    "publisher-place": "languages"
+  },
+  {
+    "id": "Andersen2006",
+    "type": "chapter",
+    "title": "Synchrony, diachrony, and evolution",
+    "author": [
+      {
+        "family": "Andersen",
+        "given": "Henning"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Competing models of linguistic change: Evolution and beyond",
+    "publisher": "John Benjamins Publishing",
+    "publisher-place": "Vol. 279. Amsterdam",
+    "page": "59–90"
+  },
+  {
+    "id": "Antonsen1965",
+    "type": "article-journal",
+    "title": "On Defining Stages in Prehistoric Germanic",
+    "author": [
+      {
+        "family": "Antonsen",
+        "given": "Elmer H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1965
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language",
+    "page": "19–36",
+    "volume": "41",
+    "issue": "1"
+  },
+  {
+    "id": "Anttila1989",
+    "type": "book",
+    "title": "Historical",
+    "author": [
+      {
+        "family": "Anttila",
+        "given": "Raimo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "John Benjamins",
+    "publisher-place": "and comparative linguistics Amsterdam/Philadelphia"
+  },
+  {
+    "id": "Atkinson2005",
+    "type": "article-journal",
+    "title": "Curious parallels and curious connections—phylogenetic thinking in biology and historical linguistics",
+    "author": [
+      {
+        "family": "Atkinson",
+        "given": "Quentin D."
+      },
+      {
+        "literal": "Russell D. Gray"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Systematic biology",
+    "page": "513–526",
+    "volume": "54",
+    "issue": "4"
+  },
+  {
+    "id": "BaridoSottani2020",
+    "type": "chapter",
+    "title": "Estimating a time-calibrated phylogeny of fossil and extant taxa using RevBayes",
+    "author": [
+      {
+        "family": "Barido-Sottani",
+        "given": "Joëlle"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Phylogenetics in the genomic era"
+  },
+  {
+    "id": "Barrack1987",
+    "type": "article-journal",
+    "title": "The fate of Protogermanic ∗x",
+    "author": [
+      {
+        "family": "Barrack",
+        "given": "Charles M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1987
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Zeitschrift für Dialektologie und Linguistik",
+    "page": "340–344",
+    "volume": "54",
+    "issue": "3"
+  },
+  {
+    "id": "Bergsland1962",
+    "type": "article-journal",
+    "title": "On the validity of glottochronology",
+    "author": [
+      {
+        "family": "Bergsland",
+        "given": "Knut"
+      },
+      {
+        "literal": "Hans Vogt"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1962
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Current anthropology",
+    "page": "115–153",
+    "volume": "3",
+    "issue": "2"
+  },
+  {
+    "id": "Bergstra2013",
+    "type": "article-journal",
+    "title": "Making a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures",
+    "author": [
+      {
+        "family": "Bergstra",
+        "given": "James, Daniel Yamins,"
+      },
+      {
+        "literal": "David Cox"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Proceedings of the 30th international conference on machine learning Vol.",
+    "page": "115–123",
+    "volume": "28",
+    "issue": "1"
+  },
+  {
+    "id": "Bhavnani2014",
+    "type": "article-journal",
+    "title": "Group segregation and urban violence",
+    "author": [
+      {
+        "family": "Bhavnani",
+        "given": "Ravi"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "American journal of political science",
+    "page": "226–245",
+    "volume": "58",
+    "issue": "1"
+  },
+  {
+    "id": "Bishop2006",
+    "type": "book",
+    "title": "Pattern",
+    "author": [
+      {
+        "family": "Bishop",
+        "given": "Christopher M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Springer",
+    "publisher-place": "recognition and machine learning New York"
+  },
+  {
+    "id": "Bleiker1963",
+    "type": "article-journal",
+    "title": "Das Burgunderproblem in germanistischer Sicht",
+    "author": [
+      {
+        "family": "Bleiker",
+        "given": "Jürg"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1963
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Vox Romanica",
+    "page": "13–58",
+    "volume": "22"
+  },
+  {
+    "id": "Bouckaert2012",
+    "type": "article-journal",
+    "title": "Mapping the origins and expansion of the Indo-European language family",
+    "author": [
+      {
+        "family": "Bouckaert",
+        "given": "Remco"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Science",
+    "page": "957–960",
+    "volume": "337",
+    "issue": "6097"
+  },
+  {
+    "id": "Bowern2006",
+    "type": "article-journal",
+    "title": "Punctuated equilibrium and language change",
+    "author": [
+      {
+        "family": "Bowern",
+        "given": "Claire"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Encyclopedia of language and linguistics 286–289"
+  },
+  {
+    "id": "Bowern2012",
+    "type": "article-journal",
+    "title": "The riddle of Tasmanian languages",
+    "author": [
+      {
+        "family": "Bowern",
+        "given": "Claire"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Proceedings of the Royal Society B: Biological sciences",
+    "page": "4590–4595",
+    "volume": "279",
+    "issue": "1747"
+  },
+  {
+    "id": "Bowern2013",
+    "type": "article-journal",
+    "title": "Relatedness as a Factor in Language Contact",
+    "author": [
+      {
+        "family": "Bowern",
+        "given": "Claire"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of language contact",
+    "page": "411–432",
+    "volume": "6",
+    "issue": "2"
+  },
+  {
+    "id": "Bowern2018",
+    "type": "article-journal",
+    "title": "Computational phylogenetics",
+    "author": [
+      {
+        "family": "Bowern",
+        "given": "Claire"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Annual review of linguistics",
+    "page": "281–296",
+    "volume": "4"
+  },
+  {
+    "id": "Bowern2012a",
+    "type": "article-journal",
+    "title": "Computational phylogenetics and the internal structure of Pama-Nyungan",
+    "author": [
+      {
+        "family": "Bowern",
+        "given": "Claire"
+      },
+      {
+        "literal": "Quentin D. Atkinson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language 817–845"
+  },
+  {
+    "id": "Boyd2005",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Boyd",
+        "given": "Robert"
+      },
+      {
+        "literal": "Peter J. Richerson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Oxford University Press",
+    "publisher-place": "origin and evolution of cultures. Oxford"
+  },
+  {
+    "id": "Brandt2014",
+    "type": "chapter",
+    "title": "Soziologische Aspekte des Jastorf-Konzepts",
+    "author": [
+      {
+        "family": "Brandt",
+        "given": "Jochen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Das Jastorf- Konzept und die vorrömische Eisenzeit im nördlichen Mitteleuropa",
+    "publisher": "Archäologisches Museum Hamburg",
+    "publisher-place": "Hamburg",
+    "page": "69–80"
+  },
+  {
+    "id": "Braune1987",
+    "type": "book",
+    "title": "Althochdeutsche",
+    "author": [
+      {
+        "family": "Braune",
+        "given": "Wilhelm"
+      },
+      {
+        "literal": "Hans Eggers"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1987
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "de Gruyter",
+    "publisher-place": "Grammatik Tübingen"
+  },
+  {
+    "id": "Braune2004",
+    "type": "book",
+    "title": "Gotische",
+    "author": [
+      {
+        "family": "Braune",
+        "given": "Wilhelm"
+      },
+      {
+        "literal": "Frank Heidermanns"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Mit Lesestücken und Wörterverzeichnis 20. Aufl. Vol. 1. Sammlung kurzer Grammatiken germanischer Dialekte A, Hauptreihe. Tübingen: Niemeyer",
+    "publisher-place": "Grammatik"
+  },
+  {
+    "id": "Braune2004a",
+    "type": "book",
+    "title": "Althochdeutsche",
+    "author": [
+      {
+        "family": "Braune",
+        "given": "Wilhelm"
+      },
+      {
+        "literal": "Ingo Reiffenstein"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Niemeyer",
+    "publisher-place": "Grammatik 15th ed. Tübingen"
+  },
+  {
+    "id": "Bremmer2009",
+    "type": "book",
+    "title": "An",
+    "author": [
+      {
+        "family": "Bremmer",
+        "given": "Rolf H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "History, grammar, reader, glossary Amsterdam: John Benjamins Publishing",
+    "publisher-place": "introduction to Old Frisian"
+  },
+  {
+    "id": "Brumlich2020",
+    "type": "chapter",
+    "title": "The Teltow—an early iron smelting district of the Jastorf Culture",
+    "author": [
+      {
+        "family": "Brumlich",
+        "given": "Markolf"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "The coming of iron. The beginnings of iron smelting in central Europe",
+    "publisher": "Marie Leidorf",
+    "publisher-place": "Rahden",
+    "page": "127–154"
+  },
+  {
+    "id": "Bryant2002",
+    "type": "article-journal",
+    "title": "NeighborNet: An agglomerative method for the construction of planar phylogenetic networks",
+    "author": [
+      {
+        "family": "Bryant",
+        "given": "David"
+      },
+      {
+        "literal": "Vincent Moulton"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "2nd international workshop on algorithms in bioinformatics, 375–391"
+  },
+  {
+    "id": "Burkner2017",
+    "type": "article-journal",
+    "title": "brms: An R Package for Bayesian Multilevel Models Using Stan",
+    "author": [
+      {
+        "family": "Bürkner",
+        "given": "Paul-Christian"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of statistical software",
+    "page": "1–28",
+    "volume": "80",
+    "issue": "1"
+  },
+  {
+    "id": "Bussmann2004",
+    "type": "book",
+    "title": "Diphthongs",
+    "author": [
+      {
+        "family": "Bussmann",
+        "given": "Kathrin S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "A comparative analysis of phonemic inventories past and present. Heidelberg: Winter",
+    "publisher-place": "in Frisian"
+  },
+  {
+    "id": "Campbell2013",
+    "type": "book",
+    "title": "Historical",
+    "author": [
+      {
+        "family": "Campbell",
+        "given": "Lyle"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "An introduction 3. ed. Edinburgh: Edinburgh University Press",
+    "publisher-place": "linguistics"
+  },
+  {
+    "id": "Chang2015",
+    "type": "article-journal",
+    "title": "Ancestry-constrained phylogenetic analysis supports the Indo- European steppe hypothesis",
+    "author": [
+      {
+        "family": "Chang",
+        "given": "Will"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language",
+    "page": "194–244",
+    "volume": "91",
+    "issue": "1"
+  },
+  {
+    "id": "Clackson2007",
+    "type": "book",
+    "title": "Indo-European",
+    "author": [
+      {
+        "family": "Clackson",
+        "given": "James"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "An introduction Cambridge textbooks in linguistics. Cambridge: Cambridge University Press",
+    "publisher-place": "linguistics"
+  },
+  {
+    "id": "Colleran2017",
+    "type": "document",
+    "title": "Keeping it in the family: Disentangling contact and inheritance in closely related languages",
+    "author": [
+      {
+        "family": "Colleran",
+        "given": "Rebecca Anne Bills"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use."
+  },
+  {
+    "id": "Condamine2013",
+    "type": "article-journal",
+    "title": "Macroevolutionary perspectives to environmental change",
+    "author": [
+      {
+        "family": "Condamine",
+        "given": "Fabien L., Jonathan Rolland,"
+      },
+      {
+        "literal": "Helene Morlon"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Ecology letters",
+    "page": "72–85",
+    "volume": "16"
+  },
+  {
+    "id": "Croft2000",
+    "type": "book",
+    "title": "Explaining",
+    "author": [
+      {
+        "family": "Croft",
+        "given": "William"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "An evolutionary approach Harlow: Pearson Education",
+    "publisher-place": "language change"
+  },
+  {
+    "id": "Crowley2010",
+    "type": "book",
+    "title": "An",
+    "author": [
+      {
+        "family": "Crowley",
+        "given": "Terry"
+      },
+      {
+        "literal": "Claire Bowern"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Oxford University Press",
+    "publisher-place": "introduction to historical linguistics Oxford"
+  },
+  {
+    "id": "Daniels2019",
+    "type": "article-journal",
+    "title": "Subgrouping the Sogeram languages: A critical appraisal of historical glottometry",
+    "author": [
+      {
+        "family": "Daniels",
+        "given": "Don, Danielle Barth,"
+      },
+      {
+        "literal": "Wolfgang Barth"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of historical linguistics",
+    "page": "92–127",
+    "volume": "9",
+    "issue": "1"
+  },
+  {
+    "id": "Dixon1997",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Dixon",
+        "given": "Robert M.W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "rise and fall of languages Cambridge"
+  },
+  {
+    "id": "Drinka2013",
+    "type": "article-journal",
+    "title": "Phylogenetic and areal models of Indo-European relatedness: The role of contact in reconstruction",
+    "author": [
+      {
+        "family": "Drinka",
+        "given": "Bridget"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of language contact",
+    "page": "379–410",
+    "volume": "6",
+    "issue": "2"
+  },
+  {
+    "id": "Dunn2008",
+    "type": "article-journal",
+    "title": "Structural phylogeny in historical linguistics: Methodological explorations applied in Island Melanesia",
+    "author": [
+      {
+        "family": "Dunn",
+        "given": "Michael"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language",
+    "page": "710–759",
+    "volume": "84",
+    "issue": "4"
+  },
+  {
+    "id": "Euler2009",
+    "type": "book",
+    "title": "Sprache",
+    "author": [
+      {
+        "family": "Euler",
+        "given": "Wolfram"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Inspiration Un Limited",
+    "publisher-place": "und Herkunft der Germanen Hamburg, London"
+  },
+  {
+    "id": "Fortson2010",
+    "type": "book",
+    "title": "Indo-European",
+    "author": [
+      {
+        "family": "Fortson",
+        "given": "Benjamin W. IV."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "An introduction Chichester: Wiley-Blackwell",
+    "publisher-place": "language and culture"
+  },
+  {
+    "id": "Fox1995",
+    "type": "book",
+    "title": "Linguistic",
+    "author": [
+      {
+        "family": "Fox",
+        "given": "Anthony"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "An introduction to theory and method Oxford: Oxford University Press",
+    "publisher-place": "reconstruction"
+  },
+  {
+    "id": "François2015",
+    "type": "chapter",
+    "title": "Trees, waves and linkages: Models of language diversification",
+    "author": [
+      {
+        "family": "François",
+        "given": "Alexandre"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "The Routledge handbook of historical linguistics",
+    "publisher": "Routledge",
+    "publisher-place": "New York",
+    "page": "161–189"
+  },
+  {
+    "id": "FrancovichOnesti2002",
+    "type": "book",
+    "title": "I",
+    "author": [
+      {
+        "family": "Francovich Onesti",
+        "given": "Nicoletta"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Lingua e storia Vol. 14. Lingue e letterature Carocci. Roma: Carocci",
+    "publisher-place": "Vandali"
+  },
+  {
+    "id": "FrancovichOnesti2008",
+    "type": "chapter",
+    "title": "Ostrogothic and Burgundian personal names in comparison: A contrastive study",
+    "author": [
+      {
+        "family": "Francovich Onesti",
+        "given": "Nicoletta"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Studien zu Literatur, Sprache und Geschichte in Europa: Wolfgang Haubrichs zum 65. Geburtstag gewidmet",
+    "publisher": "Röhrig Universitätsverlag",
+    "publisher-place": "St. Ingbert",
+    "page": "267–280"
+  },
+  {
+    "id": "Frey2012",
+    "type": "chapter",
+    "title": "Dialect and language contact in emerging Germanic",
+    "author": [
+      {
+        "family": "Frey",
+        "given": "Benjamin"
+      },
+      {
+        "literal": "Joseph Salmons"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Archaeology and language: Indo-European studies presented to James P. Mallory",
+    "publisher": "Institute for the Study of Man",
+    "publisher-place": "Huld, Karlene Jones-Bley, and Dean Miller. Washington, D.C.",
+    "page": "95–120"
+  },
+  {
+    "id": "Fulk2018",
+    "type": "book",
+    "title": "A",
+    "author": [
+      {
+        "family": "Fulk",
+        "given": "Robert Dennis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "John Benjamins Publishing Company",
+    "publisher-place": "comparative grammar of the early Germanic languages Vol. 3. Amsterdam/Philadelphia"
+  },
+  {
+    "id": "Garamszegi2014",
+    "type": "book",
+    "title": "Modern",
+    "author": [
+      {
+        "family": "Garamszegi",
+        "given": "László Zsolt"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Concepts and practice Berlin: Springer",
+    "publisher-place": "phylogenetic comparative methods and their application in evolutionary biology"
+  },
+  {
+    "id": "Gelman2013",
+    "type": "book",
+    "title": "Bayesian",
+    "author": [
+      {
+        "family": "Gelman",
+        "given": "Andrew"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "CRC press",
+    "publisher-place": "data analysis New York"
+  },
+  {
+    "id": "Giles1991",
+    "type": "book",
+    "title": "Contexts",
+    "author": [
+      {
+        "family": "Giles",
+        "given": "Howard, Nikolas Coupland,"
+      },
+      {
+        "literal": "Justine Coupland"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Developments in applied sociolinguistics Studies in Emotion and Social Interaction. Cambridge: Cambridge University Press",
+    "publisher-place": "of accommodation"
+  },
+  {
+    "id": "Gong2006",
+    "type": "article-journal",
+    "title": "Language origin and the effects of individuals’ popularity",
+    "author": [
+      {
+        "family": "Gong",
+        "given": "Tao, James W. Minett,"
+      },
+      {
+        "literal": "W.S.-Y. Wang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "2006 IEEE international conference on evolutionary computation IEEE, 999–1006"
+  },
+  {
+    "id": "Grant2020",
+    "type": "chapter",
+    "title": "Contact and convergence",
+    "author": [
+      {
+        "family": "Grant",
+        "given": "Anthony P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "The handbook of language contact",
+    "publisher": "John Wiley & Sons",
+    "publisher-place": "Hoboken",
+    "page": "113–128"
+  },
+  {
+    "id": "Gray2003",
+    "type": "article-journal",
+    "title": "Language-tree divergence times support the Anatolian theory of Indo-European origin",
+    "author": [
+      {
+        "family": "Gray",
+        "given": "Russell D."
+      },
+      {
+        "literal": "Quentin D. Atkinson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Nature",
+    "page": "435–439",
+    "volume": "426",
+    "issue": "6965"
+  },
+  {
+    "id": "Gray2010",
+    "type": "article-journal",
+    "title": "On the shape and fabric of human history",
+    "author": [
+      {
+        "family": "Gray",
+        "given": "Russell D., David Bryant,"
+      },
+      {
+        "literal": "Simon J. Greenhill"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Philosophical transactions of the Royal Society B: Biological sciences",
+    "page": "3923–3933",
+    "volume": "365",
+    "issue": "1559"
+  },
+  {
+    "id": "Gray2013",
+    "type": "chapter",
+    "title": "Phylogenetic models of language change: Three new questions",
+    "author": [
+      {
+        "family": "Gray",
+        "given": "Russell D., Simon J. Greenhill, Quentin D. Atkinson,"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Cultural evolution: Society, technology, language, and religion",
+    "publisher": "MIT Press",
+    "publisher-place": "Richerson and Morten H. Christiansen. Cambridge",
+    "page": "285–300"
+  },
+  {
+    "id": "Gray2007",
+    "type": "article-journal",
+    "title": "The pleasures and perils of Darwinizing culture (with phylogenies)",
+    "author": [
+      {
+        "family": "Gray",
+        "given": "Russell D., Simon J. Greenhill,"
+      },
+      {
+        "literal": "Robert M. Ross"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Biological theory",
+    "page": "360–375",
+    "volume": "2",
+    "issue": "4"
+  },
+  {
+    "id": "Greenhill2010",
+    "type": "book",
+    "title": "“How",
+    "author": [
+      {
+        "family": "Greenhill",
+        "given": "Simon J., Alexei J. Drummond,"
+      },
+      {
+        "literal": "Russell D. Gray"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "PloS one 5.3",
+    "publisher-place": "accurate and robust are the phylogenetic estimates of Austronesian language relationships?” In"
+  },
+  {
+    "id": "Greenhill2012",
+    "type": "article-journal",
+    "title": "Basic vocabulary and Bayesian phylolinguistics: Issues of understanding and representation",
+    "author": [
+      {
+        "family": "Greenhill",
+        "given": "Simon J."
+      },
+      {
+        "literal": "Russell D. Gray"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Diachronica",
+    "page": "523–537",
+    "volume": "29",
+    "issue": "4"
+  },
+  {
+    "id": "Greenhill2009",
+    "type": "chapter",
+    "title": "Austronesian language phylogenies: myths and misconceptions about Bayesian computational methods",
+    "author": [
+      {
+        "family": "Greenhill",
+        "given": "Simon J., Russell D. Gray,"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Austronesian historical linguistics and culture history: A festschrift for Robert Blust",
+    "publisher": "Pacific Linguistics",
+    "publisher-place": "Canberra",
+    "page": "375–397"
+  },
+  {
+    "id": "Grønvik1983",
+    "type": "book",
+    "title": "Die",
+    "author": [
+      {
+        "family": "Grønvik",
+        "given": "Ottar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1983
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Univ.-Forl",
+    "publisher-place": "dialektgeographische Stellung des Krimgotischen und die krimgotische cantilena Oslo/Bergen/Stavanger/Tromsø"
+  },
+  {
+    "id": "Grønvik1998",
+    "type": "book",
+    "title": "Untersuchungen",
+    "author": [
+      {
+        "family": "Grønvik",
+        "given": "Ottar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Peter Lang",
+    "publisher-place": "zur älteren nordischen und germanischen Sprachgeschichte. Vol. 18. Frankfurt am Main"
+  },
+  {
+    "id": "Hachmann1970",
+    "type": "book",
+    "title": "Die",
+    "author": [
+      {
+        "family": "Hachmann",
+        "given": "Rolf"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1970
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "de Gruyter",
+    "publisher-place": "Goten und Skandinavien Berlin"
+  },
+  {
+    "id": "Harbert2007",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Harbert",
+        "given": "Wayne"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Germanic languages Cambridge language surveys. Cambridge"
+  },
+  {
+    "id": "Hartmann2020",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Hartmann",
+        "given": "Frederik"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Winter",
+    "publisher-place": "Vandalic language—Origins and relationships Heidelberg"
+  },
+  {
+    "id": "Hartmann2021",
+    "type": "document",
+    "title": "Old Frisian Breaking and Labial Mutation Revisited, Amsterdamer Beiträge zur älteren Germanistik, 80(4), 462–475",
+    "author": [
+      {
+        "family": "Hartmann",
+        "given": "Frederik"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use."
+  },
+  {
+    "id": "Hartmann2022",
+    "type": "article-journal",
+    "title": "The Burgundian language and its phylogeny. A cladistical investigation",
+    "author": [
+      {
+        "family": "Hartmann",
+        "given": "Frederik"
+      },
+      {
+        "literal": "Chiara Riegger"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "North-Western European language evolution (NOWELE)",
+    "page": "42–80",
+    "volume": "75",
+    "issue": "1"
+  },
+  {
+    "id": "Hasegawa1985",
+    "type": "article-journal",
+    "title": "Dating of the human-ape splitting by a molecular clock of mitochondrial DNA",
+    "author": [
+      {
+        "family": "Hasegawa",
+        "given": "Masami, Hirohisa Kishino,"
+      },
+      {
+        "literal": "Taka-aki Yano"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1985
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of molecular evolution",
+    "page": "160–174",
+    "volume": "22",
+    "issue": "2"
+  },
+  {
+    "id": "Haubrichs2014",
+    "type": "article-journal",
+    "title": "Personennamen sprachlich ostgermanischer Provenienz",
+    "author": [
+      {
+        "family": "Haubrichs",
+        "given": "Wolfgang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Studia anthroponymica scandinavica",
+    "page": "5–35",
+    "volume": "32"
+  },
+  {
+    "id": "Haubrichs2008",
+    "type": "chapter",
+    "title": "Burgundisch (Burgundian)",
+    "author": [
+      {
+        "family": "Haubrichs",
+        "given": "Wolfgang"
+      },
+      {
+        "literal": "Max Pfister"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Wieser Enzyklopädie. Sprachen des europäischen Westens",
+    "publisher": "Wieser Verlag",
+    "publisher-place": "Klagenfurt",
+    "page": "73–80"
+  },
+  {
+    "id": "Haugen1982",
+    "type": "book",
+    "title": "Scandinavian",
+    "author": [
+      {
+        "family": "Haugen",
+        "given": "Einar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1982
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "A comparative historical survey Tübingen: Niemeyer",
+    "publisher-place": "language structures"
+  },
+  {
+    "id": "Haugen1984",
+    "type": "book",
+    "title": "Die",
+    "author": [
+      {
+        "family": "Haugen",
+        "given": "Einar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1984
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Helmut Buske Verlag",
+    "publisher-place": "Skandinavischen Sprachen Hamburg"
+  },
+  {
+    "id": "Heath2014",
+    "type": "article-journal",
+    "title": "The fossilized birth– death process for coherent calibration of divergence-time estimates",
+    "author": [
+      {
+        "family": "Heath",
+        "given": "Tracy A., John P. Huelsenbeck,"
+      },
+      {
+        "literal": "Tanja Stadler"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "page": "2957–2966",
+    "volume": "111",
+    "issue": "29"
+  },
+  {
+    "id": "Heather1996",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Heather",
+        "given": "Peter"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Blackwell",
+    "publisher-place": "Goths Oxford"
+  },
+  {
+    "id": "Heather2009",
+    "type": "book",
+    "title": "Empires",
+    "author": [
+      {
+        "family": "Heather",
+        "given": "Peter"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "The fall of Rome and the birth of Europe Oxford: Oxford University Press",
+    "publisher-place": "and barbarians"
+  },
+  {
+    "id": "Heggarty2021",
+    "type": "article-journal",
+    "title": "Cognacy databases and phylogenetic research on Indo-European",
+    "author": [
+      {
+        "family": "Heggarty",
+        "given": "Paul"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Annual review of linguistics",
+    "page": "371–394",
+    "volume": "7"
+  },
+  {
+    "id": "Heggarty2010",
+    "type": "article-journal",
+    "title": "Splits or waves? Trees or webs? How divergence measures and network analysis can unravel language histories",
+    "author": [
+      {
+        "family": "Heggarty",
+        "given": "Paul, Warren Maguire,"
+      },
+      {
+        "literal": "April McMahon"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Philosophical transactions of the Royal Society B: Biological sciences 365.1559, 3829– 3843"
+  },
+  {
+    "id": "Heine2020",
+    "type": "chapter",
+    "title": "Contact and grammaticalization",
+    "author": [
+      {
+        "family": "Heine",
+        "given": "Bernd"
+      },
+      {
+        "literal": "Tania Kuteva"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "The handbook of language contact",
+    "publisher": "John Wiley & Sons",
+    "publisher-place": "Hoboken",
+    "page": "93–112"
+  },
+  {
+    "id": "Heled2012",
+    "type": "article-journal",
+    "title": "Calibrated tree priors for relaxed phylogenetics and divergence time estimation",
+    "author": [
+      {
+        "family": "Heled",
+        "given": "Joseph"
+      },
+      {
+        "literal": "Alexei J. Drummond"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Systematic biology",
+    "page": "138–149",
+    "volume": "61",
+    "issue": "1"
+  },
+  {
+    "id": "Hickey2020",
+    "type": "chapter",
+    "title": "Contact and language shift",
+    "author": [
+      {
+        "family": "Hickey",
+        "given": "Raymond"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "The handbook of language contact",
+    "publisher": "John Wiley & Sons",
+    "publisher-place": "Hoboken",
+    "page": "149–168"
+  },
+  {
+    "id": "Ho2009",
+    "type": "article-journal",
+    "title": "Accounting for calibration uncertainty in phylogenetic estimation of evolutionary divergence times",
+    "author": [
+      {
+        "family": "Ho",
+        "given": "Simon Y. W."
+      },
+      {
+        "literal": "Matthew J. Phillips"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Systematic biology",
+    "page": "367–380",
+    "volume": "58",
+    "issue": "3"
+  },
+  {
+    "id": "Hock1991",
+    "type": "book",
+    "title": "Principles",
+    "author": [
+      {
+        "family": "Hock",
+        "given": "Hans Henrich"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Walter de Gruyter",
+    "publisher-place": "of historical linguistics Berlin"
+  },
+  {
+    "id": "Höhna2014",
+    "type": "article-journal",
+    "title": "Likelihood inference of non-constant diversification rates with incomplete taxon sampling",
+    "author": [
+      {
+        "family": "Höhna",
+        "given": "Sebastian"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "PLoS one 9.1"
+  },
+  {
+    "id": "Höhna2015",
+    "type": "article-journal",
+    "title": "The time-dependent reconstructed evolutionary process with a key-role for mass-extinction events",
+    "author": [
+      {
+        "family": "Höhna",
+        "given": "Sebastian"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of theoretical biology",
+    "page": "321–331",
+    "volume": "380"
+  },
+  {
+    "id": "Höhna2016",
+    "type": "document",
+    "title": "RevGadgets: Process output generated by RevBayes R package version 1.0.0",
+    "author": [
+      {
+        "family": "Höhna",
+        "given": "Sebastian"
+      },
+      {
+        "literal": "Will A. Freyman"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use."
+  },
+  {
+    "id": "Höhna2017",
+    "type": "book",
+    "title": "Statistical",
+    "author": [
+      {
+        "family": "Höhna",
+        "given": "Sebastian, Michael J. Landis,"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "18.5.2021",
+    "publisher-place": "phylogenetic inference using RevBayes Accessed"
+  },
+  {
+    "id": "Holm2000",
+    "type": "article-journal",
+    "title": "Genealogy of the main Indo-European branches applying the separation base method",
+    "author": [
+      {
+        "family": "Holm",
+        "given": "Hans J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of quantitative linguistics",
+    "page": "73–95",
+    "volume": "7",
+    "issue": "2"
+  },
+  {
+    "id": "Huson2006",
+    "type": "article-journal",
+    "title": "Application of phylogenetic networks in evolutionary studies",
+    "author": [
+      {
+        "family": "Huson",
+        "given": "Daniel H."
+      },
+      {
+        "literal": "David Bryant"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Molecular biology and evolution",
+    "page": "254–267",
+    "volume": "23",
+    "issue": "2"
+  },
+  {
+    "id": "Hutterer1975",
+    "type": "book",
+    "title": "Die",
+    "author": [
+      {
+        "family": "Hutterer",
+        "given": "Claus Jurgen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1975
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Akadémiai Kiadó",
+    "publisher-place": "germanischen Sprachen Budapest"
+  },
+  {
+    "id": "Iverson1994",
+    "type": "article-journal",
+    "title": "Blocking environments in Old High German umlaut",
+    "author": [
+      {
+        "family": "Iverson",
+        "given": "Gregory K., Garry W. Davis,"
+      },
+      {
+        "literal": "Joseph C. Salmons"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Folia linguistica historica",
+    "page": "131–148",
+    "volume": "15"
+  },
+  {
+    "id": "Jacques2019",
+    "type": "article-journal",
+    "title": "Save the trees: Why we need tree models in linguistic reconstruction (and when we should apply them)",
+    "author": [
+      {
+        "family": "Jacques",
+        "given": "Guillaume"
+      },
+      {
+        "literal": "Johann-Mattis List"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of historical linguistics",
+    "page": "128–167",
+    "volume": "9",
+    "issue": "1"
+  },
+  {
+    "id": "Jukes1969",
+    "type": "chapter",
+    "title": "Evolution of protein molecules",
+    "author": [
+      {
+        "family": "Jukes",
+        "given": "Thomas H., Charles R. Cantor,"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1969
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Mammalian protein metabolism"
+  },
+  {
+    "id": "Karstien1939",
+    "type": "book",
+    "title": "Historische",
+    "author": [
+      {
+        "family": "Karstien",
+        "given": "Carl"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1939
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Winter",
+    "publisher-place": "deutsche Grammatik Vol. 20. Heidelberg"
+  },
+  {
+    "id": "Kassambara2020",
+    "type": "book",
+    "title": "factoextra:",
+    "author": [
+      {
+        "family": "Kassambara",
+        "given": "Alboukadel"
+      },
+      {
+        "literal": "Fabian Mundt"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "https://CRAN.Rproject.org/package=factoextra",
+    "publisher-place": "Extract and visualize the results of multivariate data analyses R package version 1.0.7. URL"
+  },
+  {
+    "id": "Koch2020",
+    "type": "book",
+    "title": "Celto-Germanic.",
+    "author": [
+      {
+        "family": "Koch",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "University of Wales Centre for Advanced Welsh and Celtic Studies",
+    "publisher-place": "Later prehistory and post-Proto-Indo-European vocabulary in the north and west Aberystwyth"
+  },
+  {
+    "id": "Konig1994",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "König",
+        "given": "Ekkehard"
+      },
+      {
+        "literal": "Johan van der Auwera"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Routledge",
+    "publisher-place": "Germanic languages London"
+  },
+  {
+    "id": "Konig2007",
+    "type": "book",
+    "title": "dtv-Atlas",
+    "author": [
+      {
+        "family": "König",
+        "given": "Werner"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Deutscher Taschenbuch Verlag",
+    "publisher-place": "deutsche Sprache 16th ed. München"
+  },
+  {
+    "id": "Kortlandt2001",
+    "type": "article-journal",
+    "title": "The origin of the Goths",
+    "author": [
+      {
+        "family": "Kortlandt",
+        "given": "Frederik"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Amsterdamer Beiträge zur älteren Germanistik",
+    "page": "21–25",
+    "volume": "55",
+    "issue": "1"
+  },
+  {
+    "id": "Kortlandt2017",
+    "type": "article-journal",
+    "title": "Old English and Old Frisian",
+    "author": [
+      {
+        "family": "Kortlandt",
+        "given": "Frederik"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Us Wurk 66.3–4, 122–127"
+  },
+  {
+    "id": "Krahe1948",
+    "type": "book",
+    "title": "Historische",
+    "author": [
+      {
+        "family": "Krahe",
+        "given": "Hans"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1948
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Winter",
+    "publisher-place": "Laut-und Formenlehre des Gotischen Heidelberg"
+  },
+  {
+    "id": "Krahe1969",
+    "type": "book",
+    "title": "Germanische",
+    "author": [
+      {
+        "family": "Krahe",
+        "given": "Hans"
+      },
+      {
+        "literal": "Wolfgang Meid"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1969
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "De Gruyter",
+    "publisher-place": "Sprachwissenschaft Berlin"
+  },
+  {
+    "id": "Krause1953",
+    "type": "book",
+    "title": "Handbuch",
+    "author": [
+      {
+        "family": "Krause",
+        "given": "Wolfgang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1953
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Handbücher für das germanistische Studium München: Beck",
+    "publisher-place": "des Gotischen"
+  },
+  {
+    "id": "Krogh1996",
+    "type": "book",
+    "title": "Die",
+    "author": [
+      {
+        "family": "Krogh",
+        "given": "Steffen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Vandenhoeck & Ruprecht",
+    "publisher-place": "Stellung des Altsächsischen im Rahmen der germanischen Sprachen Vol. 29. Göttingen"
+  },
+  {
+    "id": "Krogh2013",
+    "type": "article-journal",
+    "title": "Die Anfänge des Altsächsischen",
+    "author": [
+      {
+        "family": "Krogh",
+        "given": "Steffen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "NOWELE",
+    "page": "141–168",
+    "volume": "66",
+    "issue": "2"
+  },
+  {
+    "id": "Kufner1972",
+    "type": "chapter",
+    "title": "The grouping and separation of the Germanic languages",
+    "author": [
+      {
+        "family": "Kufner",
+        "given": "Herbert L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1972
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Toward a grammar of Proto-Germanic",
+    "publisher": "Niemeyer",
+    "publisher-place": "Kufner. Tübingen",
+    "page": "71–98"
+  },
+  {
+    "id": "Kuhn1955",
+    "type": "article-journal",
+    "title": "Zur Gliederung der germanischen Sprachen",
+    "author": [
+      {
+        "family": "Kuhn",
+        "given": "Hans"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1955
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Zeitschrift für deutsches Altertum und deutsche Literatur",
+    "page": "1–47",
+    "volume": "86",
+    "issue": "1"
+  },
+  {
+    "id": "Labov2001",
+    "type": "book",
+    "title": "Principles",
+    "author": [
+      {
+        "family": "Labov",
+        "given": "William"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Social factors. Malden: Blackwell",
+    "publisher-place": "of linguistic change Volume 2"
+  },
+  {
+    "id": "Landis2013",
+    "type": "article-journal",
+    "title": "Bayesian analysis of biogeography when the number of areas is large",
+    "author": [
+      {
+        "family": "Landis",
+        "given": "Michael J."
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Systematic biology",
+    "page": "789–804",
+    "volume": "62",
+    "issue": "6"
+  },
+  {
+    "id": "Lass1994",
+    "type": "book",
+    "title": "Old",
+    "author": [
+      {
+        "family": "Lass",
+        "given": "Roger"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "A historical linguistic companion Cambridge: Cambridge University Press",
+    "publisher-place": "English"
+  },
+  {
+    "id": "Lê2008",
+    "type": "article-journal",
+    "title": "FactoMineR: A package for multivariate analysis",
+    "author": [
+      {
+        "family": "Lê",
+        "given": "Sébastien, Julie Josse,"
+      },
+      {
+        "literal": "François Husson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of statistical software",
+    "page": "1–18",
+    "volume": "25",
+    "issue": "1"
+  },
+  {
+    "id": "Lehmann1961",
+    "type": "article-journal",
+    "title": "A definition of Proto-Germanic: A study in the chronological delimitation of languages",
+    "author": [
+      {
+        "family": "Lehmann",
+        "given": "Winfred P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1961
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language",
+    "page": "67–74",
+    "volume": "37",
+    "issue": "1"
+  },
+  {
+    "id": "Lehmann1966",
+    "type": "chapter",
+    "title": "The grouping of the Germanic languages",
+    "author": [
+      {
+        "family": "Lehmann",
+        "given": "Winfred P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1966
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Ancient Indo- European dialects: Proceedings of the conference on Indo-European linguistics held at the University of California, Los Angeles, April 25–27, 1963",
+    "publisher": "University of California Press",
+    "publisher-place": "Berkeley",
+    "page": "13–28"
+  },
+  {
+    "id": "Lekvam2014",
+    "type": "article-journal",
+    "title": "Agent-based modeling of language evolution",
+    "author": [
+      {
+        "family": "Lekvam",
+        "given": "Torvald, Björn Gambäck,"
+      },
+      {
+        "literal": "Lars Bungum"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Proceedings of the 5th workshop on cognitive aspects of computational language learning (CogACLL) 49–54"
+  },
+  {
+    "id": "Levy2011",
+    "type": "article-journal",
+    "title": "The neighbor-net algorithm",
+    "author": [
+      {
+        "family": "Levy",
+        "given": "Dan"
+      },
+      {
+        "literal": "Lior Pachter"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Advances in applied mathematics",
+    "page": "240–258",
+    "volume": "47",
+    "issue": "2"
+  },
+  {
+    "id": "Longobardi2009",
+    "type": "article-journal",
+    "title": "Evidence for syntax as a signal of historical relatedness",
+    "author": [
+      {
+        "family": "Longobardi",
+        "given": "Giuseppe"
+      },
+      {
+        "literal": "Cristina Guardiano"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Lingua",
+    "page": "1679–1706",
+    "volume": "119",
+    "issue": "11"
+  },
+  {
+    "id": "Longobardi2013",
+    "type": "article-journal",
+    "title": "Toward a syntactic phylogeny of modern Indo-European languages",
+    "author": [
+      {
+        "family": "Longobardi",
+        "given": "Giuseppe, Cristina Guardiano,"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of historical linguistics",
+    "page": "122–152",
+    "volume": "3",
+    "issue": "1"
+  },
+  {
+    "id": "Mallory1989",
+    "type": "book",
+    "title": "In",
+    "author": [
+      {
+        "family": "Mallory",
+        "given": "James P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Language, archaeology and myth Vol. 186. London: Thames and Hudson",
+    "publisher-place": "search of the Indo-Europeans"
+  },
+  {
+    "id": "Manczak1982",
+    "type": "book",
+    "title": "“Kamen",
+    "author": [
+      {
+        "family": "Manczak",
+        "given": "Witold"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1982
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Indogermanische Forschungen 87, 127",
+    "publisher-place": "die Goten aus Skandinavien?” In"
+  },
+  {
+    "id": "Manczak1987",
+    "type": "article-journal",
+    "title": "On the Ausgliederung of Germanic languages",
+    "author": [
+      {
+        "family": "Manczak",
+        "given": "Witold"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1987
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of Indo-European studies 15.1–2, 1–17"
+  },
+  {
+    "id": "Markey1976",
+    "type": "document",
+    "title": "Germanic dialect grouping and the position of Ingvæonic. Vol. 15. Institut für Sprachwissenschaft der Universität Innsbruck",
+    "author": [
+      {
+        "family": "Markey",
+        "given": "Thomas"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1976
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use."
+  },
+  {
+    "id": "Martens2014",
+    "type": "chapter",
+    "title": "Jastorf and Jutland",
+    "author": [
+      {
+        "family": "Martens",
+        "given": "Jes"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Das Jastorf-Konzept und die vor-römische Eisenzeit im nördlichen Mitteleuropa",
+    "publisher": "Archäologisches Museum Hamburg",
+    "publisher-place": "Hamburg",
+    "page": "245–266"
+  },
+  {
+    "id": "Martens2017",
+    "type": "chapter",
+    "title": "Continuity or rupture? Some remarks on the transition from the Early to the Late Pre-Roman Iron Age in Northern Central Europe",
+    "author": [
+      {
+        "family": "Martens",
+        "given": "Jes"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Settlements pottery of the pre-Roman Iron Age in central European Barbaricum—new research perspectives",
+    "publisher": "Biblioteka Telgte Wydawnictwo",
+    "publisher-place": "Poznań",
+    "page": "31–39"
+  },
+  {
+    "id": "Maurer1952",
+    "type": "book",
+    "title": "Nordgermanen",
+    "author": [
+      {
+        "family": "Maurer",
+        "given": "Friedrich"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1952
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Francke/Lehnen",
+    "publisher-place": "und Alemannen, Studien zur germanischen und frühdeutschen Sprachgeschichte, Stammes-und Volkskunde 3rd ed. Bern/München"
+  },
+  {
+    "id": "McElreath2020",
+    "type": "book",
+    "title": "Statistical",
+    "author": [
+      {
+        "family": "McElreath",
+        "given": "Richard"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "A Bayesian course with examples in R and Stan Boca Raton: CRC press",
+    "publisher-place": "rethinking"
+  },
+  {
+    "id": "McMahon2008",
+    "type": "article-journal",
+    "title": "Genetics, historical linguistics and language variation",
+    "author": [
+      {
+        "family": "McMahon",
+        "given": "April"
+      },
+      {
+        "literal": "Robert McMahon"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language and linguistics compass",
+    "page": "264–288",
+    "volume": "2",
+    "issue": "2"
+  },
+  {
+    "id": "Mesoudi2004",
+    "type": "article-journal",
+    "title": "Perspective: Is human cultural evolution Darwinian? Evidence reviewed from the perspective of The Origin of Species",
+    "author": [
+      {
+        "family": "Mesoudi",
+        "given": "Alex, Andrew Whiten,"
+      },
+      {
+        "literal": "Kevin N. Laland"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Evolution",
+    "page": "1–11",
+    "volume": "58",
+    "issue": "1"
+  },
+  {
+    "id": "Mesoudi2006",
+    "type": "article-journal",
+    "title": "Towards a unified science of cultural evolution",
+    "author": [
+      {
+        "family": "Mesoudi",
+        "given": "Alex, Andrew Whiten,"
+      },
+      {
+        "literal": "Kevin N. Laland"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Behavioral and brain sciences",
+    "page": "329",
+    "volume": "29",
+    "issue": "4"
+  },
+  {
+    "id": "Miller2019",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Miller",
+        "given": "D. Gary"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford Gothic grammar Oxford"
+  },
+  {
+    "id": "Nedoma2017",
+    "type": "chapter",
+    "title": "The documentation of Germanic",
+    "author": [
+      {
+        "family": "Nedoma",
+        "given": "Robert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Handbook of comparative and historical Indo-European linguistics",
+    "publisher": "De Gruyter Mouton",
+    "publisher-place": "Vol. 2. Berlin",
+    "page": "875–888"
+  },
+  {
+    "id": "Nee1994",
+    "type": "article-journal",
+    "title": "The reconstructed evolutionary process",
+    "author": [
+      {
+        "family": "Nee",
+        "given": "Sean, Robert Mccredie May,"
+      },
+      {
+        "literal": "Paul H. Harvey"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Philosophical transactions of the Royal Society of London. Series B: Biological sciences",
+    "page": "305–311",
+    "volume": "344",
+    "issue": "1309"
+  },
+  {
+    "id": "Nichols2008",
+    "type": "article-journal",
+    "title": "Tutorial on computational linguistic phylogeny",
+    "author": [
+      {
+        "family": "Nichols",
+        "given": "Johanna"
+      },
+      {
+        "literal": "Tandy Warnow"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language and linguistics compass",
+    "page": "760–820",
+    "volume": "2",
+    "issue": "5"
+  },
+  {
+    "id": "Nielsen1981",
+    "type": "book",
+    "title": "Old",
+    "author": [
+      {
+        "family": "Nielsen",
+        "given": "Hans Frede"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1981
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "a survey of morphological and phonological interrelations Vol. 33. Innsbruck: Institut für Sprachwissenschaft der Universität Innsbruck",
+    "publisher-place": "English and the continental Germanic languages"
+  },
+  {
+    "id": "Nielsen1989",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Nielsen",
+        "given": "Hans Frede"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Origins and early dialectal interrelations Tuscaloosa: University of Alabama Press",
+    "publisher-place": "Germanic languages"
+  },
+  {
+    "id": "Nielsen1995",
+    "type": "chapter",
+    "title": "Methodological problems in Germanic dialect grouping",
+    "author": [
+      {
+        "family": "Nielsen",
+        "given": "Hans Frede"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Nord-westgermanisch",
+    "publisher": "de Gruyter",
+    "publisher-place": "Berlin",
+    "page": "115–124"
+  },
+  {
+    "id": "Nielsen2000",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Nielsen",
+        "given": "Hans Frede"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Winter",
+    "publisher-place": "early runic language of Scandinavia Heidelberg"
+  },
+  {
+    "id": "Nielsen2017",
+    "type": "chapter",
+    "title": "The phonological systems of Biblical Gothic and Crimean Gothic compared",
+    "author": [
+      {
+        "family": "Nielsen",
+        "given": "Hans Frede"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Die Faszination des Verborgenen und seine Entschlusselung-Rāð i sāR kunni: Beiträge zur Runologie, skandinavistischen Mediävistik und germanischen Sprachwissenschaft",
+    "publisher": "De Gruyter",
+    "publisher-place": "Berlin/Boston",
+    "page": "277–290"
+  },
+  {
+    "id": "Noreen1923",
+    "type": "book",
+    "title": "Altisländische",
+    "author": [
+      {
+        "family": "Noreen",
+        "given": "Adolf"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1923
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Unter Berücksichtigung des Urnordischen 4th ed. Vol. I. Halle (Saale): Niemeyer",
+    "publisher-place": "und altnorwegische Grammatik (Laut- und Flexionslehre)"
+  },
+  {
+    "id": "Penzl1985",
+    "type": "article-journal",
+    "title": "Zur gotischen Urheimat und Ausgliederung der germanischen Dialekte",
+    "author": [
+      {
+        "family": "Penzl",
+        "given": "Herbert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1985
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Indogermanische Forschungen",
+    "page": "147–167",
+    "volume": "90",
+    "issue": "1985"
+  },
+  {
+    "id": "Penzl1989",
+    "type": "chapter",
+    "title": "Die Gallehusinschrift: Trummer der nordisch-westgermanischen Ursprache",
+    "author": [
+      {
+        "family": "Penzl",
+        "given": "Herbert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Germanische Rest- und Trümmersprachen",
+    "publisher": "De Gruyter",
+    "publisher-place": "Berlin/Boston",
+    "page": "87–96"
+  },
+  {
+    "id": "Pereltsvaig2015",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Pereltsvaig",
+        "given": "Asya"
+      },
+      {
+        "literal": "Martin W. Lewis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Indo-European controversy Cambridge"
+  },
+  {
+    "id": "Pickering2004",
+    "type": "article-journal",
+    "title": "The interactive-alignment model: Developments and refinements",
+    "author": [
+      {
+        "family": "Pickering",
+        "given": "Martin J."
+      },
+      {
+        "literal": "Simon Garrod"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Behavioral and brain sciences",
+    "page": "212225",
+    "volume": "27",
+    "issue": "2"
+  },
+  {
+    "id": "Plassmann2009",
+    "type": "book",
+    "title": "Origo",
+    "author": [
+      {
+        "family": "Plassmann",
+        "given": "Alheydis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Akademie Verlag",
+    "publisher-place": "gentis Berlin"
+  },
+  {
+    "id": "Plummer2006",
+    "type": "article-journal",
+    "title": "CODA: Convergence diagnosis and output analysis for MCMC",
+    "author": [
+      {
+        "family": "Plummer",
+        "given": "Martyn"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "R News",
+    "page": "7–11",
+    "volume": "6",
+    "issue": "1"
+  },
+  {
+    "id": "Polomé1992",
+    "type": "chapter",
+    "title": "Zur Chronologie des Germanischen",
+    "author": [
+      {
+        "family": "Polomé",
+        "given": "Edgar C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Rekonstruktion und relative Chronologie: Akten der VIII. Fachtagung der Indogermanischen Gesellschaft, Leiden, 31. August–4. September 1987",
+    "publisher": "Institut für Sprachwissenschaft der Universität Innsbruck",
+    "publisher-place": "Vol. 65. Innsbruck",
+    "page": "55–73"
+  },
+  {
+    "id": "Prokosch1939",
+    "type": "book",
+    "title": "A",
+    "author": [
+      {
+        "family": "Prokosch",
+        "given": "Eduard"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1939
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Linguistic Society of America",
+    "publisher-place": "comparative Germanic grammar Vol. 4. Philadelphia"
+  },
+  {
+    "id": "Pyron2011",
+    "type": "article-journal",
+    "title": "Divergence time estimation using fossils as terminal taxa and the origins of Lissamphibia",
+    "author": [
+      {
+        "family": "Pyron",
+        "given": "R. Alexander"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Systematic biology",
+    "page": "466–481",
+    "volume": "60",
+    "issue": "4"
+  },
+  {
+    "id": "Railsback2019",
+    "type": "book",
+    "title": "Agent-based",
+    "author": [
+      {
+        "family": "Railsback",
+        "given": "Steven F."
+      },
+      {
+        "literal": "Volker Grimm"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "A practical introduction Princeton: Princeton University Press",
+    "publisher-place": "and individual-based modeling"
+  },
+  {
+    "id": "Rauch1992",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Rauch",
+        "given": "Irmengard"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Grammar, epic narrative, linguistic interference Vol. 1. New York: Peter Lang",
+    "publisher-place": "Old Saxon language"
+  },
+  {
+    "id": "Ree2005",
+    "type": "article-journal",
+    "title": "A likelihood framework for inferring the evolution of geographic range on phylogenetic trees",
+    "author": [
+      {
+        "family": "Ree",
+        "given": "Richard H."
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Evolution",
+    "page": "2299–2311",
+    "volume": "59",
+    "issue": "11"
+  },
+  {
+    "id": "Reichert2009",
+    "type": "chapter",
+    "title": "Sprache und Namen der Wandalen in Afrika",
+    "author": [
+      {
+        "family": "Reichert",
+        "given": "Hermann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Namen des Frühmittelalters als sprachliche Zeugnisse und als Geschichtsquellen.",
+    "publisher": "De Gruyter",
+    "publisher-place": "Reallexikon der Germanischen Altertumskunde— Ergänzungsbände. Berlin/Boston",
+    "page": "43–120"
+  },
+  {
+    "id": "Ren2009",
+    "type": "article-journal",
+    "title": "Agent-based modeling and simulation on emergency evacuation",
+    "author": [
+      {
+        "family": "Ren",
+        "given": "Chuanjun, Chenghui Yang,"
+      },
+      {
+        "literal": "Shiyao Jin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "International conference on complex sciences 1451–1461"
+  },
+  {
+    "id": "Ringe2017",
+    "type": "book",
+    "title": "From",
+    "author": [
+      {
+        "family": "Ringe",
+        "given": "Donald A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Proto-Indo-European to Proto-Germanic Second edition. Vol. 1. A linguistic history of English. Oxford"
+  },
+  {
+    "id": "Ringe2014",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Ringe",
+        "given": "Donald A."
+      },
+      {
+        "literal": "Ann Taylor"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Oxford University Press",
+    "publisher-place": "development of Old English 1st ed. Vol. 2. A linguistic history of English Oxford"
+  },
+  {
+    "id": "Ringe2002",
+    "type": "article-journal",
+    "title": "Indo-European and Computational Cladistics",
+    "author": [
+      {
+        "family": "Ringe",
+        "given": "Donald A., Tandy Warnow,"
+      },
+      {
+        "literal": "Ann Taylor"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Transactions of the Philological Society",
+    "page": "59–129",
+    "volume": "100",
+    "issue": "1"
+  },
+  {
+    "id": "Roberge2020",
+    "type": "chapter",
+    "title": "Contact and the history of Germanic languages",
+    "author": [
+      {
+        "family": "Roberge",
+        "given": "Paul"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "The handbook of language contact",
+    "publisher": "John Wiley & Sons",
+    "publisher-place": "Hoboken",
+    "page": "406–431"
+  },
+  {
+    "id": "Robinson1993",
+    "type": "book",
+    "title": "Old",
+    "author": [
+      {
+        "family": "Robinson",
+        "given": "Orrin W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "a survey of the earliest Germanic languages Stanford: Stanford University Press",
+    "publisher-place": "English and its closest relatives"
+  },
+  {
+    "id": "Ronquist2012",
+    "type": "article-journal",
+    "title": "A total-evidence approach to dating with fossils, applied to the early radiation of the Hymenoptera",
+    "author": [
+      {
+        "family": "Ronquist",
+        "given": "Fredrik, Seraina Klopfstein,"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Systematic biology",
+    "page": "973–999",
+    "volume": "61",
+    "issue": "6"
+  },
+  {
+    "id": "Ronquist2009",
+    "type": "article-journal",
+    "title": "Bayesian phylogenetic analysis using MrBayes",
+    "author": [
+      {
+        "family": "Ronquist",
+        "given": "Fredrik, Paul van der Mark,"
+      },
+      {
+        "literal": "John P. Huelsenbeck"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Cambridge: Cambridge University Press, 210–266"
+  },
+  {
+    "id": "Rubekeil2017",
+    "type": "article-journal",
+    "title": "The dialectology of Germanic",
+    "author": [
+      {
+        "family": "Rübekeil",
+        "given": "Ludwig"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Handbücher zur Sprachund Kommunikationswissenschaft/Handbooks of linguistics and communication science",
+    "page": "986–1002",
+    "volume": "41",
+    "issue": "2"
+  },
+  {
+    "id": "Saitou1987",
+    "type": "book",
+    "title": "“The",
+    "author": [
+      {
+        "family": "Saitou",
+        "given": "Naruya"
+      },
+      {
+        "literal": "Masatoshi Nei"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1987
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "a new method for reconstructing phylogenetic trees.” In: Molecular biology and evolution 4.4, 406–425",
+    "publisher-place": "neighbor-joining method"
+  },
+  {
+    "id": "Salmons2018",
+    "type": "book",
+    "title": "A",
+    "author": [
+      {
+        "family": "Salmons",
+        "given": "Joseph"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "What the past reveals about today’s language 2nd ed. Oxford: Oxford University Press",
+    "publisher-place": "history of German"
+  },
+  {
+    "id": "Schleicher1860",
+    "type": "book",
+    "title": "Die",
+    "author": [
+      {
+        "family": "Schleicher",
+        "given": "August"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1860
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Cotta",
+    "publisher-place": "deutsche Sprache Stuttgart"
+  },
+  {
+    "id": "Schliep2011",
+    "type": "article-journal",
+    "title": "phangorn: phylogenetic analysis in R",
+    "author": [
+      {
+        "family": "Schliep",
+        "given": "Klaus P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Bioinformatics",
+    "page": "592–593",
+    "volume": "27",
+    "issue": "4"
+  },
+  {
+    "id": "Schmidt1872",
+    "type": "book",
+    "title": "Die",
+    "author": [
+      {
+        "family": "Schmidt",
+        "given": "Johannes"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1872
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Bohlau",
+    "publisher-place": "Verwandtschaftsverhältnisse der indogermanischen Sprachen Weimar"
+  },
+  {
+    "id": "Schulte2011",
+    "type": "article-journal",
+    "title": "Romanian studies: Language and linguistics",
+    "author": [
+      {
+        "family": "Schulte",
+        "given": "Kim"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "The year’s work in modern language studies",
+    "page": "266–283",
+    "volume": "73",
+    "issue": "1"
+  },
+  {
+    "id": "Schulze2007",
+    "type": "article-journal",
+    "title": "Birth, survival and death of languages by Monte Carlo simulation",
+    "author": [
+      {
+        "family": "Schulze",
+        "given": "Christian, Dietrich Stauffer,"
+      },
+      {
+        "literal": "Søren Wichmann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "arXiv preprint arXiv:0704.0691"
+  },
+  {
+    "id": "Schwartz1968",
+    "type": "article-journal",
+    "title": "The use of onomastics in Germanic linguistics: The first steps",
+    "author": [
+      {
+        "family": "Schwartz",
+        "given": "Stephen P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1968
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Names",
+    "page": "119–126",
+    "volume": "16",
+    "issue": "2"
+  },
+  {
+    "id": "Schwarz1951",
+    "type": "book",
+    "title": "Goten,",
+    "author": [
+      {
+        "family": "Schwarz",
+        "given": "Ernst"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1951
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Studien zur Ausgliederung der germanischen Sprachen Vol. 2. Bibliotheca Germanica. Bern: Francke",
+    "publisher-place": "Nordgermanen, Angelsachsen"
+  },
+  {
+    "id": "Seebold2013",
+    "type": "article-journal",
+    "title": "Die Aufgliederung der germanischen Sprachen",
+    "author": [
+      {
+        "family": "Seebold",
+        "given": "Elmar"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "NOW-ELE",
+    "page": "55–77",
+    "volume": "66",
+    "issue": "1"
+  },
+  {
+    "id": "Shahriari2016",
+    "type": "article-journal",
+    "title": "Taking the human out of the loop: A review of Bayesian optimization",
+    "author": [
+      {
+        "family": "Shahriari",
+        "given": "Bobak"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Proceedings of the IEEE",
+    "page": "148–175",
+    "volume": "104",
+    "issue": "1"
+  },
+  {
+    "id": "Smith2009",
+    "type": "book",
+    "title": "Old",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "Jeremy J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "A linguistic introduction Cambridge: Cambridge University Press",
+    "publisher-place": "English"
+  },
+  {
+    "id": "Sokal1958",
+    "type": "book",
+    "title": "A",
+    "author": [
+      {
+        "family": "Sokal",
+        "given": "Robert R."
+      },
+      {
+        "literal": "Charles D. Michener"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1958
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "University of Kansas",
+    "publisher-place": "statistical method for evaluating systematic relationships. Lawrence"
+  },
+  {
+    "id": "Sonderegger2012",
+    "type": "book",
+    "title": "Althochdeutsche",
+    "author": [
+      {
+        "family": "Sonderegger",
+        "given": "Stefan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Eine Einführung in das älteste Deutsch. Darstellung und Grammatik Berlin: Walter de Gruyter",
+    "publisher-place": "Sprache und Literatur"
+  },
+  {
+    "id": "Sóskuthy2015",
+    "type": "article-journal",
+    "title": "Understanding change through stability: A computational study of sound change actuation",
+    "author": [
+      {
+        "family": "Sóskuthy",
+        "given": "Márton"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Lingua",
+    "page": "40–60",
+    "volume": "163"
+  },
+  {
+    "id": "Stearns1989",
+    "type": "chapter",
+    "title": "Das Krimgotische",
+    "author": [
+      {
+        "family": "Stearns",
+        "given": "MacDonald"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Germanische Rest- und Trümmersprachen",
+    "publisher": "de Gruyter",
+    "publisher-place": "Berlin",
+    "page": "175–194"
+  },
+  {
+    "id": "Steels2011",
+    "type": "article-journal",
+    "title": "Modeling the cultural evolution of language",
+    "author": [
+      {
+        "family": "Steels",
+        "given": "Luc"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Physics of life reviews",
+    "page": "339–356",
+    "volume": "8",
+    "issue": "4"
+  },
+  {
+    "id": "Steinacher2020",
+    "type": "chapter",
+    "title": "Rome and its created northerners",
+    "author": [
+      {
+        "family": "Steinacher",
+        "given": "Roland"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Interrogating the ‘Germanic’",
+    "publisher": "De Gruyter",
+    "publisher-place": "Harland. Berlin/Boston",
+    "page": "31–66"
+  },
+  {
+    "id": "Stiles1995",
+    "type": "book",
+    "title": "“Remarks",
+    "author": [
+      {
+        "family": "Stiles",
+        "given": "Patrick V."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Friesische Studien II. Ed. by Volkert F. Faltings, Alastair G. H. Walker, and Ommo Wilts. Odense: Odense University Press, 177–220",
+    "publisher-place": "on the “Anglo-Frisian” thesis”. In"
+  },
+  {
+    "id": "Stiles2013",
+    "type": "article-journal",
+    "title": "The Pan-West Germanic isoglosses and the sub-relationships of West Germanic to other branches",
+    "author": [
+      {
+        "family": "Stiles",
+        "given": "Patrick V."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "North-Western European language evolution (NOWELE)",
+    "page": "5–38",
+    "volume": "66",
+    "issue": "1"
+  },
+  {
+    "id": "Streitberg1896",
+    "type": "book",
+    "title": "Urgermanische",
+    "author": [
+      {
+        "family": "Streitberg",
+        "given": "Wilhelm"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1896
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Einführung in das vergleichende Studium der altgermanischen Dialekte Vol. 1. Heidelberg: Winter",
+    "publisher-place": "Grammatik"
+  },
+  {
+    "id": "Tavaré1986",
+    "type": "article-journal",
+    "title": "Some probabilistic and statistical problems in the analysis of DNA sequences",
+    "author": [
+      {
+        "family": "Tavaré",
+        "given": "Simon"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Lectures on mathematics in the life sciences",
+    "page": "57–86",
+    "volume": "17",
+    "issue": "2"
+  },
+  {
+    "id": "Tischler1982",
+    "type": "article-journal",
+    "title": "Die Aufschriften auf burgundischen Danielschnallen: Mit Zeichnungen von R. Moosbrugger-Leu",
+    "author": [
+      {
+        "family": "Tischler",
+        "given": "Daniel"
+      },
+      {
+        "literal": "Rudolf Moosbrugger-Leu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1982
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Beiträge zur Namenforschung",
+    "page": "113–160",
+    "volume": "17",
+    "issue": "2"
+  },
+  {
+    "id": "Todd2009",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Todd",
+        "given": "Malcolm"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "John Wiley & Sons",
+    "publisher-place": "early Germans New York"
+  },
+  {
+    "id": "Turchin2013",
+    "type": "article-journal",
+    "title": "War, space, and the evolution of Old World complex societies",
+    "author": [
+      {
+        "family": "Turchin",
+        "given": "Peter"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "page": "16384–16389",
+    "volume": "110",
+    "issue": "41"
+  },
+  {
+    "id": "VanCoetsem1994",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Van Coetsem",
+        "given": "Frans"
+      },
+      {
+        "literal": "Alfred Bammesberger"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Systemic evolution and sociohistorical context Vol. 4. Heidelberg: Winter",
+    "publisher-place": "vocalism of the Germanic parent language"
+  },
+  {
+    "id": "VanGelderen2014",
+    "type": "book",
+    "title": "A",
+    "author": [
+      {
+        "family": "Van Gelderen",
+        "given": "Elly"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "John Benjamins",
+    "publisher-place": "history of the English language 2nd ed. Amsterdam/Philadelphia"
+  },
+  {
+    "id": "Verkerk2019",
+    "type": "article-journal",
+    "title": "Detecting non-tree-like signal using multiple tree topologies",
+    "author": [
+      {
+        "family": "Verkerk",
+        "given": "Annemarie"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of historical linguistics",
+    "page": "9–69",
+    "volume": "9",
+    "issue": "1"
+  },
+  {
+    "id": "Versloot2004",
+    "type": "article-journal",
+    "title": "Why Old Frisian is still quite old",
+    "author": [
+      {
+        "family": "Versloot",
+        "given": "Arjen P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Folia linguistica historica 25.1–2, 253–304"
+  },
+  {
+    "id": "VonDerLeyen1908",
+    "type": "book",
+    "title": "Einführung",
+    "author": [
+      {
+        "family": "Von Der Leyen",
+        "given": "Friedrich"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1908
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Althochdeutsche und mittelhochdeutsche Munchen: C.H. Beck’sche Verlagsbuchhandlung",
+    "publisher-place": "in das gotische"
+  },
+  {
+    "id": "Voyles1968",
+    "type": "article-journal",
+    "title": "Gothic and Germanic",
+    "author": [
+      {
+        "family": "Voyles",
+        "given": "Joseph B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1968
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language",
+    "page": "720–746",
+    "volume": "44",
+    "issue": "4"
+  },
+  {
+    "id": "Voyles1971",
+    "type": "article-journal",
+    "title": "The Problem of West Germanic",
+    "author": [
+      {
+        "family": "Voyles",
+        "given": "Joseph B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1971
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Folia Linguistica 5.1–2, 117– 150"
+  },
+  {
+    "id": "Voyles1992",
+    "type": "book",
+    "title": "Early",
+    "author": [
+      {
+        "family": "Voyles",
+        "given": "Joseph B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Pre-, proto-, and post-Germanic languages. San Diego: Acaddemic press Press",
+    "publisher-place": "Germanic grammar"
+  },
+  {
+    "id": "Walkden2012",
+    "type": "article-journal",
+    "title": "Against inertia",
+    "author": [
+      {
+        "family": "Walkden",
+        "given": "George"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Lingua",
+    "page": "891–901",
+    "volume": "122",
+    "issue": "8"
+  },
+  {
+    "id": "Walkden2019",
+    "type": "article-journal",
+    "title": "The many faces of uniformitarianism in linguistics",
+    "author": [
+      {
+        "family": "Walkden",
+        "given": "George"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Glossa: A journal of general linguistics",
+    "page": "1–17",
+    "volume": "4",
+    "issue": "1"
+  },
+  {
+    "id": "Warnock2015",
+    "type": "article-journal",
+    "title": "Calibration uncertainty in molecular dating analyses: there is no substitute for the prior evaluation of time priors",
+    "author": [
+      {
+        "family": "Warnock",
+        "given": "Rachel C. M."
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Proceedings of the Royal Society B: Biological sciences",
+    "page": "20141013",
+    "volume": "282",
+    "issue": "1798"
+  },
+  {
+    "id": "Wei2017",
+    "type": "book",
+    "title": "R",
+    "author": [
+      {
+        "family": "Wei",
+        "given": "Taiyun"
+      },
+      {
+        "literal": "Viliam Simko"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "Visualization of a correlation matrix (Version 0.84). URL: https://github.com/taiyun/corrplot",
+    "publisher-place": "package “corrplot”"
+  },
+  {
+    "id": "Weidmann2013",
+    "type": "article-journal",
+    "title": "Violence and ethnic segregation: A computational model applied to Baghdad",
+    "author": [
+      {
+        "family": "Weidmann",
+        "given": "Nils B."
+      },
+      {
+        "literal": "Idean Salehyan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "International studies quarterly",
+    "page": "52–64",
+    "volume": "57",
+    "issue": "1"
+  },
+  {
+    "id": "Wichmann2008",
+    "type": "article-journal",
+    "title": "The emerging field of language dynamics",
+    "author": [
+      {
+        "family": "Wichmann",
+        "given": "Søren"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Language and linguistics compass",
+    "page": "442–455",
+    "volume": "2",
+    "issue": "3"
+  },
+  {
+    "id": "Wickham2016",
+    "type": "book",
+    "title": "ggplot2:",
+    "author": [
+      {
+        "family": "Wickham",
+        "given": "Hadley"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "978–3-319–24277-4. URL: https://ggplot2.tidyverse.org",
+    "publisher-place": "Elegant graphics for data analysis Springer-Verlag New York. ISBN"
+  },
+  {
+    "id": "Winter2016",
+    "type": "article-journal",
+    "title": "The co-evolution of speech and the lexicon: The interaction of functional pressures, redundancy, and category variation",
+    "author": [
+      {
+        "family": "Winter",
+        "given": "Bodo"
+      },
+      {
+        "literal": "Andrew Wedel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Topics in cognitive science",
+    "page": "503–513",
+    "volume": "8",
+    "issue": "2"
+  },
+  {
+    "id": "Wolfram1990",
+    "type": "chapter",
+    "title": "Einleitung oder Überlegungen zur origo gentis",
+    "author": [
+      {
+        "family": "Wolfram",
+        "given": "Herwig"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1990
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Typen der Ethnogenese unter besonderer Berücksichtigung der Bayern",
+    "publisher": "Verlag d. Österreichischen Akad. d. Wiss.",
+    "publisher-place": "Wien",
+    "page": "19–34"
+  },
+  {
+    "id": "Wolfram1997",
+    "type": "book",
+    "title": "The",
+    "author": [
+      {
+        "family": "Wolfram",
+        "given": "Herwig"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "University of California Press",
+    "publisher-place": "Roman empire and its Germanic peoples Berkeley"
+  },
+  {
+    "id": "Wrede1886",
+    "type": "book",
+    "title": "Über",
+    "author": [
+      {
+        "family": "Wrede",
+        "given": "Ferdinand"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1886
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "publisher": "K. J. Trübner",
+    "publisher-place": "die Sprache der Wandalen. I. Teil Strassburg"
+  },
+  {
+    "id": "Wrede1924",
+    "type": "article-journal",
+    "title": "Ingwäonisch und Westgermanisch",
+    "author": [
+      {
+        "family": "Wrede",
+        "given": "Ferdinand"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1924
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Zeitschrift für deutsche Mundarten 19.3/4, 270–284"
+  },
+  {
+    "id": "Xie2011",
+    "type": "article-journal",
+    "title": "Improving marginal likelihood estimation for Bayesian phylogenetic model selection",
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Wangang"
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Systematic biology",
+    "page": "150–160",
+    "volume": "60",
+    "issue": "2"
+  },
+  {
+    "id": "Yang1994",
+    "type": "article-journal",
+    "title": "Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: Approximate methods",
+    "author": [
+      {
+        "family": "Yang",
+        "given": "Ziheng"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Journal of molecular evolution",
+    "page": "306–314",
+    "volume": "39",
+    "issue": "3"
+  },
+  {
+    "id": "Yanovich2020",
+    "type": "article-journal",
+    "title": "Phylogenetic linguistic evidence and the Dene-Yeniseian homeland",
+    "author": [
+      {
+        "family": "Yanovich",
+        "given": "Igor"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Third-pass best-effort normalization from PDF reference list; verify before formal citation use.",
+    "container-title": "Diachronica",
+    "page": "410–446",
+    "volume": "37",
+    "issue": "3"
+  }
+]

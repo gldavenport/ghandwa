@@ -1,0 +1,86 @@
+table_id,title,pdf_page,split_file,heading,status
+A,gives those orthographic conventions that are not uniform across the,35,00-front-matter.md,"word boundary (thus, word-initial or word-final)",raw
+A,Non-uniform orthographic conventions across Balkan orthographies (except Greek),36,00-front-matter.md,"word boundary (thus, word-initial or word-final)",normalized-wide-space
+A,(cont.),37,00-front-matter.md,"word boundary (thus, word-initial or word-final)",normalized-wide-space
+B,gives a guide to pronunciation in Ancient Greek and in Modern Greek;,37,00-front-matter.md,"word boundary (thus, word-initial or word-final)",raw
+B,Greek alphabet/pronunciation key,38,00-front-matter.md,"word boundary (thus, word-initial or word-final)",normalized-wide-space
+B,(cont.),39,00-front-matter.md,"word boundary (thus, word-initial or word-final)",normalized-wide-space
+3.1,Mechanisms/processes for contact-induced change – some comparisons,147,04-chapter-3-concepts-theories-methods.md,3.2.1.2 Agentivity in Language Contact Situations and Bilingualism:,normalized-wide-space
+4.1,Topic distribution in Balkan handbooks 1975–2012,220,05-chapter-4-lexicon-and-semantics.md,4.1 On the Nature of Balkan Lexical Evidence and Lexical Evidence in General,normalized-wide-space
+4.2,Latin loans into Greek by semantic domain,230,05-chapter-4-lexicon-and-semantics.md,4.2.1.2 Latinity (The Roman Era),normalized-wide-space
+4.3,Turkish -CI,246,05-chapter-4-lexicon-and-semantics.md,4.2.2.4 Turkish By far the most important source language for derivational material in the early,raw
+4.4,ERIC loanword categories,262,05-chapter-4-lexicon-and-semantics.md,4.3 Adding to the Typology of Loanwords: ERIC Loans,raw
+4.4,". We start with the closed class items, both lexical and grammatical, and",264,05-chapter-4-lexicon-and-semantics.md,4.3 Adding to the Typology of Loanwords: ERIC Loans,raw
+4.5,"‘11’ and ‘16’ in Alb, BRo, BSl",284,05-chapter-4-lexicon-and-semantics.md,4.3.2.2 Teens as ‘X-on-TEN’,raw
+4.6,‘11’ and ‘16’ in selected non-Balkan Slavic languages,285,05-chapter-4-lexicon-and-semantics.md,4.3.2.2 Teens as ‘X-on-TEN’,raw
+4.7,‘11’ and ‘16’ in selected,286,05-chapter-4-lexicon-and-semantics.md,4.3.2.2 Teens as ‘X-on-TEN’,raw
+4.7,", which are simply ‘one-ten,’ ‘six-ten,’ ‘one-ten,’ and ‘ten-six’ respectively,",286,05-chapter-4-lexicon-and-semantics.md,4.3.2.2 Teens as ‘X-on-TEN’,raw
+4.8,Gendered numerals in Balkan languages,287,05-chapter-4-lexicon-and-semantics.md,4.3.2.2 Teens as ‘X-on-TEN’,normalized-wide-space
+4.9,Compound numerals with ‘ten’ in Balkan languages,288,05-chapter-4-lexicon-and-semantics.md,4.3.2.2 Teens as ‘X-on-TEN’,raw
+4.10,‘but’ in the Balkans,307,05-chapter-4-lexicon-and-semantics.md,4.3.4.1 Connective Discourse Elements,raw
+4.11,Borrowing of adversatives in the Balkans,308,05-chapter-4-lexicon-and-semantics.md,4.3.4.1 Connective Discourse Elements,raw
+4.12,Selected borrowed Balkan modifiers,316,05-chapter-4-lexicon-and-semantics.md,4.3.4.2.1 Modifiers,normalized-wide-space
+4.12,(cont.),317,05-chapter-4-lexicon-and-semantics.md,4.3.4.2.1 Modifiers,normalized-wide-space
+4.13,Borrowed Balkan sentence adverbs,318,05-chapter-4-lexicon-and-semantics.md,4.3.4.2.1 Modifiers,normalized-wide-space
+4.14,A widespread Balkan exhortative,326,05-chapter-4-lexicon-and-semantics.md,4.3.4.3.3 Exhortatives,raw
+4.15,A widely diffused Balkan particle of address,329,05-chapter-4-lexicon-and-semantics.md,4.3.5 Lexical Vocatives and Related Elements,raw
+4.16,Reduplicated ‘slowly’ in the Balkans,339,05-chapter-4-lexicon-and-semantics.md,4.3.7.1 Whole-Word Reduplication,raw
+4.17,More reduplicated ‘slowly’ in the Balkans,339,05-chapter-4-lexicon-and-semantics.md,4.3.7.1 Whole-Word Reduplication,raw
+4.18,Examples of [-itsa] in the Balkans,349,05-chapter-4-lexicon-and-semantics.md,"4.3.8 Diminutives, Hypocoristics, and Endearing Terms of Address",raw
+4.19,Classes of taboo items in the Balkans,353,05-chapter-4-lexicon-and-semantics.md,"4.3.9 Taboo Expressions, Insults, and Other Terms of Abuse For our purposes here, taboo refers to socially negatively sanctioned expressions",raw
+4.20,WHERE/WHITHER in the,365,05-chapter-4-lexicon-and-semantics.md,4.3.10 Isosemy,raw
+4.21,‘Once upon a time’ in the Balkan languages and some relevant others,373,05-chapter-4-lexicon-and-semantics.md,4.3.10.1.2.1 Shared Expressions Rooted in Folk Culture,normalized-wide-space
+4.21,(cont.),374,05-chapter-4-lexicon-and-semantics.md,4.3.10.1.2.1 Shared Expressions Rooted in Folk Culture,normalized-wide-space
+5.1,A key Greek vowel isogloss,428,06-chapter-5-phonology.md,5.4.1.5 Variable Realization of Features,raw
+6.1,Pomak masculine animate singular nouns,543,07-chapter-6-morphology-and-morphosyntax.md,"6.1.1 Case, an Overview: Loss, Maintenance, and Analytism",raw
+6.2,Boboshtica Macedonian noun paradigms,543,07-chapter-6-morphology-and-morphosyntax.md,"6.1.1 Case, an Overview: Loss, Maintenance, and Analytism",normalized-wide-space
+6.3,Possible steps leading to Northern Greek acc indirect,557,07-chapter-6-morphology-and-morphosyntax.md,6.1.1.1.3.1 Merger to Accusative Case Alone,raw
+6.4,Standard Modern Greek,559,07-chapter-6-morphology-and-morphosyntax.md,6.1.1.1.3.2 Prepositional Realization of Dative,raw
+6.5,"with the noun ‘man,’ the first person pronouns, and a demonstrative",566,07-chapter-6-morphology-and-morphosyntax.md,"6.1.1.2.1.1 Greek In Greek, for both nouns and pronouns, the genitive form replaced the dative form, in both the singular and plural, although the more usual way of describing this",raw
+6.5,Ancient Greek/Modern Greek case paradigms,566,07-chapter-6-morphology-and-morphosyntax.md,"6.1.1.2.1.1 Greek In Greek, for both nouns and pronouns, the genitive form replaced the dative form, in both the singular and plural, although the more usual way of describing this",normalized-wide-space
+6.6,Meglenoromanian noun paradigm,569,07-chapter-6-morphology-and-morphosyntax.md,"6.1.1.2.1.3 Balkan Romance In Balkan Romance, in a development that is evident only in masculine definite forms,",normalized-wide-space
+6.7,Albanian noun paradigms (showing gen/dat merger),570,07-chapter-6-morphology-and-morphosyntax.md,6.1.1.2.1.4 Albanian,raw
+6.8,Possible sources of Albanian genitive plural,570,07-chapter-6-morphology-and-morphosyntax.md,6.1.1.2.1.4 Albanian,raw
+6.9,Romani noun paradigms for čhavo ‘Romani boy’ / čhaj,571,07-chapter-6-morphology-and-morphosyntax.md,6.1.1.2.1.5 Romani and Turkish,normalized-wide-space
+6.10,Middle Balkan Slavic noun paradigm,573,07-chapter-6-morphology-and-morphosyntax.md,6.1.1.2.2 Chronological Considerations,normalized-wide-space
+6.11,Greek demonstrative oppositions,611,07-chapter-6-morphology-and-morphosyntax.md,6.1.2.1 Deixis: Two versus Three Distinctions,raw
+6.12,Balkan Slavic deictic categories,614,07-chapter-6-morphology-and-morphosyntax.md,6.1.2.1 Deixis: Two versus Three Distinctions,normalized-wide-space
+6.13,"Turkish plurals in Albanian, I",659,07-chapter-6-morphology-and-morphosyntax.md,6.1.4.1.2 Albanian,raw
+6.14,"Turkish plurals in Albanian, II",660,07-chapter-6-morphology-and-morphosyntax.md,6.1.4.1.2 Albanian,raw
+6.15,"shows that in the superlative, Turkish and Balkan Slavic represent one",666,07-chapter-6-morphology-and-morphosyntax.md,6.1.5 Adjectives – Gradation,raw
+6.15,Adjective gradation of ‘big’ in Balkan languages,666,07-chapter-6-morphology-and-morphosyntax.md,6.1.5 Adjectives – Gradation,normalized-wide-space
+6.16,The basic tense/aspect system of Romani ker- ‘do’ (Arli) (3sg,675,07-chapter-6-morphology-and-morphosyntax.md,6.2.1.1 The Morphology of Tense–Person Markers,raw
+6.18,gives a synopsis of the Turkish verb forms that occur in a variety of,676,07-chapter-6-morphology-and-morphosyntax.md,6.2.1.1.1 Romani from Turkish (and Possible Slavic Influence),raw
+6.17,"Native and Turkish conjugation (Agía Varvára, Athens [S. Vlax]; Igla",676,07-chapter-6-morphology-and-morphosyntax.md,6.2.1.1.1 Romani from Turkish (and Possible Slavic Influence),raw
+6.18,Turkish conjugations occurring in Romani dialects202,676,07-chapter-6-morphology-and-morphosyntax.md,6.2.1.1.1 Romani from Turkish (and Possible Slavic Influence),normalized-wide-space
+6.19,Romani 1pl/2pl person markers (Balkan,677,07-chapter-6-morphology-and-morphosyntax.md,6.2.1.1.1 Romani from Turkish (and Possible Slavic Influence),normalized-wide-space
+6.20,Macedonian modal particles occurring with perfective present/imperfect,697,07-chapter-6-morphology-and-morphosyntax.md,6.2.2.3 Intersection of Superordinate Aspect and Mood,raw
+6.21,Four stages of Macedonian–Aromanian calquing ‘I have dined’,709,07-chapter-6-morphology-and-morphosyntax.md,6.2.3.2.1 Macedonian and Aromanian,raw
+6.22,"Greek future developments, I",718,07-chapter-6-morphology-and-morphosyntax.md,"6.2.4.1.1 Greek For Greek, ἔχω ‘have’ and μέλλω ‘be about to’ + infinitive emerged as the main",raw
+6.23,"Greek future developments, II",719,07-chapter-6-morphology-and-morphosyntax.md,"6.2.4.1.1 Greek For Greek, ἔχω ‘have’ and μέλλω ‘be about to’ + infinitive emerged as the main",raw
+6.24,Parameters for variation in Balkan future,727,07-chapter-6-morphology-and-morphosyntax.md,6.2.4.1.8 Futures: Summary,raw
+6.25,Overview of Balkan future vis-à-vis parameters in Table 6.24,728,07-chapter-6-morphology-and-morphosyntax.md,6.2.4.1.8 Futures: Summary,normalized-wide-space
+6.25,(cont.),729,07-chapter-6-morphology-and-morphosyntax.md,6.2.4.1.8 Futures: Summary,normalized-wide-space
+6.26,Balkan conditionals: parallel constructions,735,07-chapter-6-morphology-and-morphosyntax.md,6.2.4.2 Conditionals: An Overview289,normalized-wide-space
+6.27,Balkan parallels for ‘let me,768,07-chapter-6-morphology-and-morphosyntax.md,6.2.4.3.2 Analytic Optatives,normalized-wide-space
+6.28,Relationship of evidential to perfect participle,775,07-chapter-6-morphology-and-morphosyntax.md,"6.2.5.1 Turkish and Balkan Slavic In both Turkish and Bulgarian, the same form can still be both a perfect participle and an evidential, whereas in Macedonian, the l-form is no longer a participle and can only be used to form analytic paradigms, the verbal adjective (descended from the old past passive participle but now derivable from any verb, both transitive and intransitive) having replaced any participial uses of the verbal l-form. The differ-",normalized-wide-space
+6.29,Meglenoromanian inverted perfect/pluperfect of ‘see’,787,07-chapter-6-morphology-and-morphosyntax.md,6.2.5.4 Meglenoromanian,normalized-wide-space
+6.30,Albanian (non)confirmative form of ‘have’,789,07-chapter-6-morphology-and-morphosyntax.md,6.2.5.5 Albanian,normalized-wide-space
+6.31,Aromanian (Frasheriote–Bela di Suprã) and Albanian indicatives (3sg ‘work’),796,07-chapter-6-morphology-and-morphosyntax.md,6.2.5.6 Aromanian: The Frasheriote Dialect of Bela di Suprã,normalized-wide-space
+6.32,illustrates the arguments for positing the way in which the,797,07-chapter-6-morphology-and-morphosyntax.md,6.2.5.6 Aromanian: The Frasheriote Dialect of Bela di Suprã,raw
+6.32,"Albanian suppletion in ‘have,’ ‘be,’ ‘see’",798,07-chapter-6-morphology-and-morphosyntax.md,6.2.5.6 Aromanian: The Frasheriote Dialect of Bela di Suprã,normalized-wide-space
+6.33,Romanian presumptive mood forms,799,07-chapter-6-morphology-and-morphosyntax.md,6.2.5.7 The Romanian Presumptive,raw
+6.34,Novo Selo Bulgarian probabilitive paradigm of gled- ‘see’,808,07-chapter-6-morphology-and-morphosyntax.md,6.2.5.9 Novo Selo Bulgarian,raw
+6.35,Albanian and Greek nonactive and active present paradigms,814,07-chapter-6-morphology-and-morphosyntax.md,6.2.6.1 Nonactive Parallelisms,normalized-wide-space
+6.36,Albanian and Greek nonactive and active past,814,07-chapter-6-morphology-and-morphosyntax.md,6.2.6.1 Nonactive Parallelisms,normalized-wide-space
+6.37,Ancient Greek nonactive and active present and past,815,07-chapter-6-morphology-and-morphosyntax.md,6.2.6.1 Nonactive Parallelisms,normalized-wide-space
+7.1,Balkan indicative versus modal complement,944,08-chapter-7-syntax.md,7.7.2.1.3.1 Indicative versus Modal Complementation,normalized-wide-space
+7.2,‘in order that’ in the Balkans,957,08-chapter-7-syntax.md,7.7.2.1.3.3 Composite Finite Subordinators,raw
+7.2,).197,957,08-chapter-7-syntax.md,7.7.2.1.3.3 Composite Finite Subordinators,raw
+7.3,Geography of Balkan infinitive-loss,964,08-chapter-7-syntax.md,7.7.2.1.5 The Fall of Nonfinite Subordination and Rise of Finite,raw
+7.4,Balkan gerund suffixes,975,08-chapter-7-syntax.md,7.7.2.3.1 Verbal Adverbs (Gerunds),raw
+7.5,Weak nominative pronouns in Greek,995,08-chapter-7-syntax.md,7.8.1.2 Presentational Sentences with Weak Object Pronouns,raw
+7.6,Strong versus weak third-person pronouns in the,996,08-chapter-7-syntax.md,7.8.1.2 Presentational Sentences with Weak Object Pronouns,normalized-wide-space
+7.7,Expressions meaning ‘it is raining/snowing’,1004,08-chapter-7-syntax.md,7.8.2.2.1 Atmospheric and Natural Phenomena,raw
+7.8,Expressions meaning ‘it is cold’,1004,08-chapter-7-syntax.md,7.8.2.2.1 Atmospheric and Natural Phenomena,raw
+7.9,Prepositional isosyntagms,1040,08-chapter-7-syntax.md,7.9 Prepositional Syntax,normalized-wide-space
