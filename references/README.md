@@ -46,7 +46,7 @@ Known gaps: superscript aspirates and some combining diacritics need checking be
 
 ---
 
-### Van Sluis, Jørgensen & Kroonen 2023 — `van-sluis-et-al-2023/`
+### Van Sluis, Jørgensen & Kroonen 2023 — `sluis-2023/`
 **Paulus van Sluis, Anders Richardt Jørgensen, Guus Kroonen. "European Prehistory between Celtic and Germanic: the Celto-Germanic Isoglosses Revisited." In Kristiansen & Willerslev (eds.), *The Indo-European Puzzle Revisited*. Cambridge University Press.**  
 Roles: `LEX` `SUB`  
 Extraction: complete-working. Markdown + 7 structured TSVs: full isogloss table, compelling isoglosses (80), doubtful isoglosses (50), rejected isoglosses (140), classification schema (RT/MO/SM/LX × IE/loan categories), temporal strata (0–IV), contact mechanisms.  
@@ -54,19 +54,91 @@ Primary use: determining whether a Ghandwa lexical item reflects NWIE inheritanc
 
 ---
 
-### Eska 2018 — `eska-2018/`
+### Eska 2018a — `eska-2018-laryngeal-realism/`
 **Joseph F. Eska. "Laryngeal Realism and the Prehistory of Celtic." *Transactions of the Philological Society* 116/3: 320–331.**  
 Roles: `DIAC` `SUB`  
-Extraction: complete, second pass. See `eska-2018/eska-2018.md`.  
+Extraction: complete, second pass. See `eska-2018-laryngeal-realism/eska-2018-laryngeal-realism.md`.  
 Primary use: laryngeal methodology as applied to the Celtic branch; argues from laryngeal evidence for a specific model of Celtic prehistory relevant to NWIE reconstruction. Cross-reference with Deuffic and Swanenvleugel on the Celtic phonological history side.
 
 ---
 
+### Eska 2018b — `eska-2018-celto-germanic-lexis/`
+**Joseph F. Eska. "Celto-Germanic Lexis in Light of Laryngeal Realism." In Goldstein, Jamison & Vine (eds.), *Proceedings of the 29th Annual UCLA Indo-European Conference*. Bremen: Hempen. pp. 29–45.**  
+Roles: `LEX` `SUB` `DIAC`  
+Extraction: in progress (second-pass OCR cleanup exists in directory but not yet finalized). Raw OCR and first-pass retained for audit.  
+Primary use: applies the laryngeal realism framework to shared Celtic-Germanic lexical material; directly relevant to Ghandwa's WIE positioning and to lexical items in the van Sluis isogloss set.
+
+---
+
+### Eska 2023 — `eska-2023/`
+**Joseph F. Eska. "Grounding Celtic diachronic phonology II." *Die Sprache: Zeitschrift für Sprachwissenschaft* 55 (2022/2023): 1–21.**  
+Roles: `DIAC`  
+Extraction: in progress.  
+Primary use: part of Eska's laryngeal realism / Celtic phonology series (alongside 2018a, 2018b, 2024). Covers \*/j/ > /ð/ in proto-Brittonic, \*-/nthL/- > -/θL/- in Old Welsh, and \*/lthr/ evolution in Welsh — relevant as comparanda for Ghandwa consonant cluster outcomes.
+
+---
+
+### Eska 2024 — `eska-2024/`
+**Joseph F. Eska. "Celtic in Greek characters and implications for Greek and Celtic phonology." *Indogermanische Forschungen* (2024): 199–212. DOI: 10.1515/if-2024-0009.**  
+Roles: `DIAC` `SUB`  
+Extraction: in progress.  
+Primary use: fourth item in the Eska laryngeal realism series. Uses Transalpine Celtic inscriptions in Greek characters to argue for [spread glottis] vs. [voice] feature specification in proto-Celtic — has indirect implications for Ghandwa's aspiration treatment and the voiced fricative outcomes of PIE aspirates.
+
+---
+
+### Höfler 2024 — `hofler-2024/`
+**Stefan Höfler. "Linnaean linguistics: 'Bear', 'horse', 'wolf' and the Indo-European phylogeny from a zoographical perspective." In Larsson, Olander & Jørgensen (eds.), *Indo-European Interfaces: Integrating Linguistics, Mythology and Archaeology*. Stockholm University Press. pp. 57–90.**  
+Roles: `LEX` `SUB`  
+Extraction: complete, second pass (2026-04-28).  
+Primary use: phylogenetic argumentation from fauna vocabulary (bear, horse, wolf taboo terms and their replacements); relevant to Ghandwa animal lexicon entries and to subgrouping evidence from semantic shift patterns.
+
+---
+
 ### Hyllested 2010 — `hyllested-2010/`
-**Adam Hyllested. "Precursors to Celtic and Germanic."**  
+**Adam Hyllested. "Precursors to Celtic and Germanic." In Sørensen (ed.), *Per Aspera ad Asteriscos*. 22 pp.**  
 Roles: `SUB`  
-Extraction: PDF only (Xerox scan, 22 pp., landscape, rotated). ChatGPT extraction in progress. See `hyllested-2010/notes.md`.  
-Primary use: direct argument for the NWIE subgrouping question — what Celtic and Germanic share before either set of branch-specific innovations. Directly bears on Ghandwa's position in the family.
+Extraction: in progress (Xerox WorkCentre scan, landscape A4, rotated 270°; rotation correction required before OCR).  
+Primary use: direct argument for the NWIE subgrouping question — shared innovations that precede both PC and PGmc branch-defining sound changes. Directly bears on Ghandwa's position in the family and on how to classify shared lexical material.
+
+---
+
+### Klimp 2013 — `klimp-2013/`
+**J. Klimp. *Remnants of \*r/n-stem Heteroclite Inflection in Germanic*. MA thesis (Research Master Linguistics), University of Groningen. Supervisors: G. Kroonen, J.-W. Zwart.**  
+Roles: `DIAC` `LEX`  
+Extraction: in progress (third-pass draft exists in directory but not yet finalized).  
+Primary use: r/n-stem heteroclitic inflection in Germanic, supervised by Kroonen and methodologically aligned with EDPG; relevant to Ghandwa's nominal morphology for neuters with nom./acc. \*-r ~ oblique \*-n-, and to the \*-mn̥ > -man suffix entries.
+
+---
+
+### Koch 2019 — `koch-2019/`
+**John T. Koch. "Formation of the Indo-European branches in the light of the Archaeogenetic Revolution." Conference paper, Austrian Academy of Sciences, Vienna, December 2018. Draft dated 19 March 2019.**  
+Roles: `SUB`  
+Extraction: in progress.  
+Primary use: IE branch formation integrating archaeogenetic data; background for the cultural and historical framing in `daughters.md`. Lower priority than the lexical and phonological works.
+
+---
+
+### Koch 2024 — `koch-2024/`
+**John T. Koch. "Celto-Germanic and North-West Indo-European vocabulary: Resonances in myth and rock art iconography." Ch. 10 in Larsson, Olander & Jørgensen (eds.), *Indo-European Interfaces: Integrating Linguistics, Mythology and Archaeology*. Stockholm University Press.**  
+Roles: `LEX` `SUB`  
+Extraction: complete, second pass (2026-04-28). Figures (7) copied from EPUB source and linked. Page anchors from PDF added.  
+Primary use: NWIE shared vocabulary with mythological and iconographic comparanda; relevant to Ghandwa lexical strata and to `lore.md` cultural content.
+
+---
+
+### Kroonen, Wigman & Thorsø 2021 — `kroonen-2021/`
+**Guus Kroonen, Andrew Wigman & Rasmus Thorsø. "Proto-Indo-European \*sneigʷʰ- 'to fall down; to snow'." *Historische Sprachforschung / Historical Linguistics* 134/1: 214–224. DOI: 10.13109/hisp.2021.134.1.214.**  
+Roles: `LEX` `DIAC`  
+Extraction: in progress.  
+Primary use: reconstruction and cross-branch comparanda for a labiovelar root — directly relevant since Ghandwa preserves labiovelars. Part of the Kroonen–Wigman–Thorsø research cluster alongside Kroonen et al. 2022 and Wigman 2023.
+
+---
+
+### Kroonen et al. 2022 — `kroonen-2022/`
+**Guus Kroonen, Anthony Jakob, Axel I. Palmér, Paulus van Sluis & Andrew Wigman. "Indo-European cereal terminology suggests a Northwest Pontic homeland for the core Indo-European languages." *PLOS ONE* (2022).**  
+Roles: `LEX` `SUB`  
+Extraction: in progress (third-pass draft with structured tables exists in directory but not yet finalized).  
+Primary use: agricultural/cereal vocabulary comparanda and reconstruction depth; Northwest Pontic homeland argument. Two uses: (1) grain vocabulary comparanda in the Ghandwa lexicon; (2) cultural-historical framing for `daughters.md`.
 
 ---
 
@@ -86,11 +158,33 @@ Primary use: Latin/Italic comparanda; Italic sound changes for comparison with G
 
 ---
 
+### Wigman 2023 — `wigman-2023-prehistory-italic/`
+**A. M. Wigman. *Unde vēnistī? The Prehistory of Italic through its Loanword Lexicon*. PhD thesis, Leiden University, November 2023.**  
+Roles: `LEX` `SUB`  
+Extraction: in progress (second-pass + automated third-pass drafts exist in directory but not yet finalized).  
+Primary use: Italic branch prehistory through its loanword stratum — distinguishes inherited NWIE/PIt material from substrate and contact loans. Complements Weiss 2020 (sound changes); high priority for LEX work once de Vaan is extracted.
+
+---
+
 ### Witczak 2024 — `witczak-2024/`
 **Krzysztof Tomasz Witczak. "Greek *Megas* and Latin *Magnus* 'Great, Big, Large': A New Contribution to the Laryngeal Theory." *Linguistica Silesiana* 45/1: 7–20.**  
 Roles: `LEX`  
 Extraction: complete, second pass. See `witczak-2024/witczak-2024.md`.  
 Primary use: specific etymology for PIE \*méǵh₂- 'great'; laryngeal argument relevant to the *magnus* family and secondary *a*-vocalism. Narrow scope — consult when working on this root or adjacent laryngeal questions.
+
+---
+
+## _inbox — stubs not yet processed
+
+| Dir | Work | Status |
+|---|---|---|
+| `clackson-2007` | Clackson 2007 | Stub only |
+| `de-goede-2014` | de Goede 2014 | Stub only |
+| `keydana-hock-widmer-eds` | Keydana, Hock & Widmer (eds.) | Stub only |
+| `koch-2020` | Koch 2020 | Stub only |
+| `kroonen-2012` | Kroonen 2012 | Stub only |
+| `kroonen-2016` | Kroonen 2016 | Stub only |
+| `matasovic-2010` | Matasović 2010 | Stub only |
 
 ---
 
@@ -116,4 +210,5 @@ Primary use: specific etymology for PIE \*méǵh₂- 'great'; laryngeal argument
 
 | Date | Change |
 |---|---|
+| 2026-04-28 | Added 10 missing entries (Eska 2018b, Eska 2023, Eska 2024, Höfler 2024, Klimp 2013, Koch 2019, Koch 2024, Kroonen et al. 2021, Kroonen et al. 2022, Wigman 2023). Corrected two wrong paths: `eska-2018/` → split into `eska-2018-laryngeal-realism/` and `eska-2018-celto-germanic-lexis/`; `van-sluis-et-al-2023/` → `sluis-2023/`. Added _inbox table. Marked in-progress extractions correctly (not complete until finalized and migrated). Moved 9 stale notes.md files to `_delete/`. |
 | 2026-04-27 | Restructured into per-work subdirectories. Added .gitignore rule for PDFs. Added `hyllested-2010/notes.md` stub. Updated README paths. Initial inventory as of commit `07d7540`. |
