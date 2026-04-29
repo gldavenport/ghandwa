@@ -1,5 +1,5 @@
 ---
-source_title: "A Handbook of Germanic Etymology"
+title: "A Handbook of Germanic Etymology"
 author: "Vladimir Orel"
 year: 2003
 publisher: "Brill"

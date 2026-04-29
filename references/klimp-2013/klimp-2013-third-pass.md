@@ -1,8 +1,9 @@
 ---
 title: "Remnants of *r/n-Stem Heteroclite Inflection in Germanic*"
 author: "J. Klimp"
-date: "2013-09-25"
+year: 2013
 document_type: "master thesis"
+source_type: "MA-thesis"
 institution: "University of Groningen"
 source_file: "klimp-2013.pdf"
 source_pages: 158
@@ -15,6 +16,8 @@ known_limitations:
   - "Third pass checked the second-pass flag list against rendered PDF page images and repaired the principal damaged specialized forms in those flagged passages."
   - "Some individual specialized forms outside the third-pass flag set may still require diplomatic verification against the PDF before formal quotation."
   - "Page anchors are included as HTML comments."
+extraction_status: "in-progress"
+keywords_source: "(none)"
 ---
 
 # Remnants of *r/n-Stem Heteroclite Inflection in Germanic*

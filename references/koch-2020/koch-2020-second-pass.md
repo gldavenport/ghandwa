@@ -8,6 +8,8 @@ page_count: 186
 extraction_pass: "second-pass clean Markdown + third-pass structured extraction"
 ocr_performed: false
 notes: "Second pass normalized headings, repaired obvious extraction artifacts, retained figure captions, and added companion structured lexical/bibliography files. Character-sensitive forms are improved but not manually verified against every PDF glyph."
+extraction_status: "in-progress"
+keywords_source: "(none)"
 ---
 
 <!--

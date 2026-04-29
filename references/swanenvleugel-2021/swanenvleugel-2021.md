@@ -8,6 +8,7 @@ corpus_role: "Proto-Italo-Celtic phonology and verbal TAM reconstruction"
 extraction_status: "complete-working"
 review_status: "appendices-cleanup-complete"
 canonical_form_level: "appendices-only"
+keywords_source: "(none)"
 page_anchors: true
 tables_extracted: true
 notation_policy: "preserve source notation; normalize obvious extraction artifacts only"

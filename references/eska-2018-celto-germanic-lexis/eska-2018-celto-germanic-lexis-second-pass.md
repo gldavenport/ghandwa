@@ -16,6 +16,7 @@ notes:
   - "Page anchors are retained as HTML comments."
   - "Sound-change diagrams have been rebuilt as Markdown code blocks using normalized Unicode phonetic symbols where the scan was legible."
   - "A few specialized epigraphic forms remain marked as uncertain where the scan does not support citation-grade verification."
+keywords_source: "(none)"
 ---
 
 # Celto-Germanic Lexis in Light of Laryngeal Realism

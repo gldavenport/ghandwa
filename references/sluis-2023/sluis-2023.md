@@ -14,6 +14,7 @@ canonical_form_level: false
 page_anchors: true
 tables_extracted: true
 notation_policy: "preserve source notation; normalize obvious extraction artifacts and ligatures only"
+keywords_source: "(none)"
 ---
 
 # European prehistory between Celtic and Germanic: the Celto-Germanic isoglosses revisited

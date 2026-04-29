@@ -13,6 +13,7 @@ volume_issue: "17(10)"
 article_id: "e0275744"
 doi: "10.1371/journal.pone.0275744"
 source_file: "kroonen-2022.pdf"
+source_type: "journal-article"
 extraction_status: "third-pass Markdown with reconstructed-form verification and normalized bibliography"
 extraction_passes:
   - "First pass: generated cleaned Markdown from embedded PDF text and extracted figures."
@@ -25,6 +26,7 @@ extraction_notes:
   - "The article uses more than one notation convention: prose often uses subscript/superscript characters, while some source tables preserve older plain-text conventions such as h2 and separate acute marks. The third pass preserves the printed convention by context rather than forcing a single standardized notation everywhere."
   - "The reconstructed-form audit files list every star-marked form occurrence detected from the source PDF, with page and context."
   - "Bibliography normalization is source-derived and DOI/PMID-aware where the source reference provides those identifiers. It does not claim full Crossref/WorldCat authority control for references lacking identifiers."
+keywords_source: "(none)"
 ---
 
 # Indo-European cereal terminology suggests a Northwest Pontic homeland for the core Indo-European languages

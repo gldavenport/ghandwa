@@ -20,6 +20,7 @@ table_outputs:
   - "deuffic-relative-chronology.tsv"
   - "deuffic-relative-chronology-edges.tsv"
 notation_policy: "Preserve source notation; normalize only obvious extraction artifacts; do not silently harmonize Celtic/Italo-Celtic notation with other sources."
+keywords_source: "(none)"
 created_utc: "2026-04-28T00:00:00Z"
 last_cleanup_utc: "2026-04-28T00:25:00Z"
 ---

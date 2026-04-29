@@ -1,5 +1,6 @@
 ---
 type: book-chapter
+source_type: "book-chapter"
 title: Celto-Germanic and North-West Indo-European vocabulary
 subtitle: Resonances in myth and rock art iconography
 author: John T. Koch
@@ -23,6 +24,8 @@ source-files:
 extraction-basis: EPUB primary; PDF rendered and checked for page/figure coverage
 extraction-pass: second-pass-cleanup
 extracted-date: '2026-04-28'
+extraction_status: "in-progress"
+keywords_source: "(none)"
 ---
 
 <!-- p. 195 -->

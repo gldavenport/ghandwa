@@ -3,6 +3,7 @@ title: "The Precursors of Celtic and Germanic"
 author: "Adam Hyllested"
 year: 2010
 source_file: "hyllested-precursors-celtic-germanic.pdf"
+source_type: "conference-proceedings-chapter"
 publication: "Proceedings of the Twenty-first Annual UCLA Indo-European Conference, Los Angeles, October 30th and 31st, 2009"
 editors:
   - "Stephanie W. Jamison"
@@ -18,6 +19,7 @@ extraction_notes:
   - "This Markdown was reconstructed from OCR text and given structural cleanup, then checked in a second pass against page-level OCR and the rendered scan."
   - "Residual OCR errors may remain in reconstructed forms, diacritics, Greek, Gothic, Old Irish, Old Norse, and bibliography punctuation."
   - "Second pass: verified item numbering, section sequence, footnote count, and corrected a set of lexical/OCR errors visible in the rendered scan."
+keywords_source: "(none)"
 ---
 
 # The Precursors of Celtic and Germanic

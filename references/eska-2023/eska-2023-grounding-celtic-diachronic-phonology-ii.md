@@ -7,6 +7,8 @@ year: "2022/2023"
 publication_year: 2023
 pages: "1-21"
 source_file: "eska-2023.pdf"
+source_type: "journal-article"
+extraction_status: "in-progress"
 extraction_date: "2026-04-28"
 extraction_scope: "Article text, bibliography, and notes; offprint cover and journal table of contents omitted."
 extraction_method: "Embedded PDF text layer, cleaned to Markdown; third-pass verification against PDF text and rendered page images."
@@ -17,6 +19,7 @@ extraction_notes:
   - "Second pass normalized footnote callouts, repaired several line-wrap artifacts, and corrected bibliography/list structure."
   - "Third pass spot-checked specialized notation, IPA, Celtic forms, sigla, URLs, bibliography entries, and rendered formula diagrams against the PDF."
   - "Aspirated plosives represented with IPA superscript aspiration (pʰ tʰ kʰ) where the PDF used superscript h."
+keywords_source: "(none)"
 ---
 
 # Grounding Celtic diachronic phonology II[^author-note]

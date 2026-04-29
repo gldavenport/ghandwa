@@ -1,3 +1,15 @@
+---
+title: "From Proto-Indo-European to Proto-Germanic"
+author: "Don Ringe"
+year: 2017
+edition: 2
+publisher: "Oxford University Press"
+series: "Oxford Linguistics"
+source_type: "book"
+extraction_status: "complete"
+keywords_source: "(none)"
+---
+
 # Ringe 2017 corpus QA-reviewed bundle
 
 This bundle contains the latest generated Markdown/CSV/TSV corpus files for Don Ringe, *From Proto-Indo-European to Proto-Germanic*, second edition (2017), plus a whole-volume QA review.

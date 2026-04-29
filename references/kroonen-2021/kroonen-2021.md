@@ -13,6 +13,7 @@ doi: "10.13109/hisp.2021.134.1.214"
 version: "Publisher's Version"
 license: "Licensed under Article 25fa Copyright Act/Law (Amendment Taverne)"
 source_file: "kroonen-2021.pdf"
+source_type: "journal-article"
 source_url: "https://hdl.handle.net/1887/3655684"
 extraction_date: "2026-04-28"
 extraction_status: "second-pass markdown; specialist-character cleanup"
@@ -21,6 +22,7 @@ second_pass_scope:
   - "checked PIE, Sanskrit, Avestan, Greek, Armenian, and Latin forms against embedded PDF text and page-image crops where needed"
   - "normalized private-use glyph for u̯ where recoverable"
   - "checked bibliography and footnotes for line-break artifacts"
+keywords_source: "(none)"
 ---
 
 # Proto-Indo-European \*sneigʷʰ- ‘to fall down; to snow’

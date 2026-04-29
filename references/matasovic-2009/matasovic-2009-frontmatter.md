@@ -1,11 +1,14 @@
 ---
 title: "Etymological Dictionary of Proto-Celtic — front matter and introduction"
 author: "Ranko Matasović"
+year: 2009
+source_type: "dictionary-front-matter"
 source_file: "EDPC.pdf"
 source_pages: "PDF pages 1-27"
 stop_point: "Stops before the dictionary proper; PDF page 28 begins the first lexical entry, *abalnA 'apple-tree'."
 extraction_status: "second-pass transcription"
 extraction_note: "Second-pass transcription from the PDF text layer with targeted verification against page images, especially the phonological notation and sound-law sections. Tables and diagrams are normalized into Markdown; physical page layout is not preserved."
+keywords_source: "(none)"
 ---
 
 # Etymological Dictionary of Proto-Celtic

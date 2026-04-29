@@ -7,6 +7,7 @@ volume: "116"
 issue: "3"
 pages: "320-331"
 doi: "10.1111/1467-968X.12122"
+source_type: "journal-article"
 source_file: "eska-laryngeal-realism-prehistory-celtic.pdf"
 markdown_filename: "eska-laryngeal-realism-celtic-2018-pass-2.md"
 extraction_status: "second-pass Markdown extraction from embedded PDF text, with targeted visual checks of symbol-heavy pages"
@@ -15,6 +16,7 @@ notes:
   - "Core structure, examples, abbreviations, references, and article footnotes retained."
   - "Second pass normalized laryngeal-feature examples, sound-change stage displays, footnote references, and several diacritic/reference artifacts."
   - "Remaining uncertainties are documented at the bottom under Extraction Notes."
+keywords_source: "(none)"
 ---
 
 # Laryngeal Realism and the Prehistory of Celtic[^1]

@@ -3,7 +3,10 @@ title: "Unde vēnistī? The Prehistory of Italic through its Loanword Lexicon"
 author: "Andrew Michael Wigman"
 year: 2023
 source: "wigman-2023-prehistory-italic.pdf"
+source_type: "PhD-thesis"
 extraction: "second-pass Markdown extraction with third-pass structured data"
+extraction_status: "in-progress"
+keywords_source: "(none)"
 split_files: "chapters/*.md"
 ---
 
