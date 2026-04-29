@@ -1,10 +1,11 @@
 # From Proto-Indo-European to Ghandwa
 
 ---
-last_updated: 2026-03-17T00:00:00Z
+last_updated: 2026-04-13T00:00-04:00
 status: draft — first complete pass; examples to be expanded as lexicon grows
 related: ghandwa-prompt.md, ghandwa_comparanda.md, pie_2_ghandwa.jsx
 changelog:
+  - 2026-04-13T00:00-04:00 | 572 lines | Added §5.6 Haplology (adjacent identical CV sequences reduced to one; examples *sanantóm→santóm*, *βornonóman→βornóman*). Added morphological productivity note to §5.1 on \*-mn̥ > -man as productive resultative/abstraction suffix (cites *nóman, sḗman, térman, ménman, éngman*, *-nóman* compound series). Added rule 23 (Haplology) to §9 rule ordering summary. Content absorbed from project instructions.
   - 2026-03-17T01:00:00Z | 556 lines | Replaced §5.2 Juwankos rule (narrow ū→uw/_V) with general hiatus glide insertion rule (i→ij/_V, u→uw/_V). Rewrote §4.6 (ew→ow) to clarify tautosyllabic condition, add u-stem paradigm examples, and document coda-w orthographic convention (⟨u⟩ for /w/ in coda). Fixed *newos* example: ne.wos is heterosyllabic (w is onset before vowel), so rule does not fire — was incorrectly shown as firing. Updated §9 rule summary, §10.6 worked example, and §7 tension inventory accordingly.
   - 2026-03-17T00:00:00Z | 565 lines | Initial creation. Full rule inventory from transformer and comparanda; staged presentation with formal statements, examples, ordering arguments, and design rationale. Standing rules treated as synchronic surface constraints.
 ---
@@ -303,6 +304,8 @@ The PIE syllabic resonants vocalize with an epenthetic *a* preceding the resonan
 
 Ghandwa's *aR* outcome is closest to Celtic in vowel quality and partially aligns with Germanic in having the vowel precede the resonant (CaRC, not CRaC). This hybrid outcome is phonetically natural — *a* is the cross-linguistically most common epenthetic vowel — and does not require positing that Ghandwa inherited from or imitated any single branch.
 
+**Morphological productivity of \*-mn̥ > -man.** The PIE neuter action-noun suffix \*-mn̥ surfaces in Ghandwa as *-man* by regular application of this rule (see §10.4 for the worked derivation of *noman* 'name'). The suffix is productive in Ghandwa as a resultative/abstraction formant. Inherited examples include *nóman* 'name', *sḗman* 'seed', *térman* 'boundary', *ménman* 'understanding'; internal derivations include *éngman* 'sacred fire-nature' and a series of *-nóman* compounds (*βornóman, datonóman, koimonóman, klutonóman*, and others) attesting continued productivity within the language.
+
 ### 5.2. Hiatus Glide Insertion
 
 > i → ij / _V (high front vowel inserts homorganic glide before a following vowel)
@@ -360,6 +363,19 @@ The voiceless fricative \*s becomes voiced *z* when flanked by voiced sounds (vo
 > y → j (orthographic)
 
 The palatal glide, inherited as PIE \*y, is respelled as *j* in Ghandwa orthography. This is a writing convention, not a sound change; the phonetic value remains [j].
+
+### 5.6. Haplology
+
+> …σσ… → …σ… (identical or near-identical adjacent syllables reduced to one)
+
+When a derivation produces two adjacent syllables with identical or near-identical onset-nucleus sequences, one of the two is lost. The process is attested and appears to be productive; it is not a one-off simplification of isolated forms.
+
+**Examples:**
+
+- \*sanantóm 'iron' (< zero-grade oblique \*h₁sh₂n- of \*h₁esh₂r ~ \*h₁sh₂n- 'blood' + substantival \*-n̥t-óm) → *santóm* via reduction of medial *-anan-* to *-an-*.
+- \*βornonóman 'birth-name' (< *βornos* 'baby' + *nóman* 'name', with expected compound linker) → *βornóman* via reduction of *-nono-* to *-no-*. The genitive *βornoméns* (< \*βornonoméns) haplologizes identically.
+
+Haplology of this kind — reduction of adjacent identical CV sequences in compounds and suffixed derivations — is a cross-linguistically well-attested process and appears to have operated productively in Ghandwa rather than being restricted to fossilized forms.
 
 ---
 
@@ -457,6 +473,7 @@ The complete derivation, in order:
 20. Aspirate fricativization: bʰ → β, dʰ → ð, gʰ → ɣ, gʷʰ → ɣʷ
 21. Intervocalic s-voicing: s → z / [+voiced]_[+voiced]
 22. Glide respelling: y → j
+23. Haplology: adjacent identical CV sequences reduced to one (morphologically conditioned; applies in compounds and suffixed derivations)
 
 *Standing rules apply (§6)*
 

@@ -1,9 +1,10 @@
 # Ghandwa: Notation System
 
 ---
-last_updated: 2026-03-22T18:00-04:00
-session: "Added §7 Lexicon Entry Status Pipeline — formal definitions for entry_status values (stub, draft, hold, canon)"
+last_updated: 2026-04-13T00:00-04:00
+session: "Added §§8–11: glide/semivowel conventions, Sharpscript long vowels, lexicon field conventions (verb citation, provenance, pre_root), and markdown document conventions (italicization, cognate column formatting). Absorbed content previously living only in project instructions."
 changelog:
+  - 2026-04-13T00:00-04:00 | 204 lines | Added §8 Glide and Semivowel Conventions (/j/ → ⟨i⟩; /w/ onset ⟨v⟩ vs coda ⟨u⟩). Added §9 Sharpscript Long Vowels (vowel doubling in script). Added §10 Lexicon Field Conventions (verb citation form = 3sg pres act ind; provenance PIE/PGh; pre_root asterisk convention). Added §11 Markdown and Document Conventions (italicization rule; cognate column `\*form-` vs `*form*`). Added normalization rule to §3 (ğ → ɣ in output).
   - 2026-03-22T18:00-04:00 | 139 lines | Added §7 Lexicon Entry Status Pipeline. Four tiers: stub (gloss reservation, no form), draft (has form, awaiting vetting), hold (has form, blocked on open question), canon (settled, usable in text). Minimum field requirements defined for each tier. Replaces prior ad-hoc labels (candidate→draft, unresolved→hold, canonical→canon).
   - 2026-03-14 | 129 lines | Converted from `ghandwa_notation.docx` to proper markdown. Reformatted all tables from whitespace-aligned to pipe-delimited markdown. Added metadata header. Content unchanged.
 ---
@@ -47,6 +48,8 @@ A distinction exists between the formal Ghandwa transliteration and the author's
 ğ is the author's input convenience for ɣ, accessible via macOS press-and-hold on 'g'. It does not appear in formal notation. The fricative series (β, ð, ɣ) borrows IPA symbols directly into transliteration, as no clean press-and-hold Latin alternatives exist for these sounds on macOS.
 
 ð is accessible via press-and-hold on 'd' on macOS.
+
+**Normalize ğ → ɣ in all generated output.** ğ is an input-time convenience only; any file, table, or quoted form produced by tools or assistants should use ɣ.
 
 ---
 
@@ -137,3 +140,65 @@ Minimum fields for all entries: `lemma_1`, `lemma_1_ipa`, `lemma_1_ipa_status`, 
 ### Label history
 
 Prior to 2026-03-22, the labels were: `stub`, `candidate` (now draft), `unresolved` (now hold), `canonical` (now canon). Old labels may appear in changelog entries predating the rename; these are historical record.
+
+---
+
+## 8. Glide and Semivowel Conventions
+
+**/j/ (palatal glide).** Appears only in IPA transcription. In transliteration it is written ⟨i⟩. There is no ⟨j⟩ in Ghandwa transliteration.
+
+**/w/ (labial glide).** Two transliteration values depending on syllable position:
+
+| Position | Transliteration | Example |
+|---|---|---|
+| Onset (syllable-initial) | v | *vódar* /ˈwo.dar/ |
+| Coda (syllable-final) | u | *néu* /new/ |
+
+This parallels the convention of Latin orthography and is distinct from the ⟨v⟩ that serves as a labiovelarization modifier after a consonant (see §6).
+
+---
+
+## 9. Sharpscript Long Vowels
+
+In the native writing system (Sharpscript, rendered here in Old Italic Unicode), long vowels are written by doubling the vowel character. The macron is a transliteration-layer diacritic only.
+
+| Script | Transliteration | IPA |
+|---|---|---|
+| 𐌄𐌄 | ē | eː |
+| 𐌏𐌏 | ō | oː |
+| 𐌀𐌀 | ā | aː |
+| 𐌉𐌉 | ī | iː |
+
+---
+
+## 10. Lexicon Field Conventions
+
+Conventions for values in `lexicon.tsv` columns. Column schema itself is authoritative in the TSV header row.
+
+**Verb citation form.** Verbs are cited in the 3sg present active indicative (e.g., *tékseti*, *ɣénti*). Not the bare root, not the infinitive, not the full paradigm.
+
+**Provenance.** Two values:
+
+- `PIE` — inherited from Proto-Indo-European.
+- `PGh` — Proto-Ghandwa innovation; a form or formation that arose within the Ghandwa branch after divergence from PIE.
+
+**`pre_root` asterisk convention.** The `lemma_1_pre_root` field stores the PIE root *without* the leading `*`. Rendering conventions (in markdown tables, prose, etc.) add the `*` back. Example: the field stores `tek-`; output renders `*tek-`.
+
+---
+
+## 11. Markdown and Document Conventions
+
+Conventions for prose documents, tables, and generated output across the project.
+
+**Italicization.** All Ghandwa forms (script renderings and transliterations) are italicized in running prose: *ékvos*, *ɣvḗr*. IPA, glosses, and PIE reconstructions are **not** italicized. Example:
+
+> The word *ékvos* /ˈe.kʷos/ 'horse' derives from PIE \*h₁éḱwos.
+
+**Cognate column formatting.** In markdown tables listing cognates, the asterisk distinguishes reconstructed from attested forms:
+
+- Reconstructed proto-forms: escaped asterisk, no italics. `\*kurną` renders as `*kurną`.
+- Attested forms: italics via surrounding asterisks. `*equus*` renders as *equus*.
+
+This applies to `cog_Celtic`, `cog_Germanic`, `cog_Italic`, and the other `cog_*` columns when their contents are rendered into documentation.
+
+**PIE reconstructions in prose.** Use escaped asterisk: `\*h₁éḱwos` → `*h₁éḱwos`. Not italicized.
