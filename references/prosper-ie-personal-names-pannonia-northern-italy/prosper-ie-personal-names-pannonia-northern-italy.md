@@ -1,12 +1,14 @@
 ---
 title: "The Indo-European Personal Names of Pannonia, Noricum and Northern Italy: Comparative and Superlative Forms in Celtic, Venetic, and South-Picene"
 author: "Blanca María Prósper"
-date: "2018"
+year: 2018
 source_type: "journal article"
 original_file: "prósper-ie-personal-names-pannonia-northern-italy.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF; one or more custom-glyph technical signs may remain explicitly marked."
+extraction_status: complete
+keywords_source: "Italic languages; Celtic languages; Gaulish; Oscan; Umbrian; Venetic; South-Picene; personal names; Indo-European onomastics; Indo-European word formation; Latin epigraphy"
 ---
 
 # The Indo-European Personal Names of Pannonia, Noricum and Northern Italy: Comparative and Superlative Forms in Celtic, Venetic, and South-Picene

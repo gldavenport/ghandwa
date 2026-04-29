@@ -1,12 +1,14 @@
 ---
 title: "Ancient Gaulish and British Divinities: Notes on the Reconstruction of Celtic Phonology and Morphology"
 author: "Blanca María Prósper; Marcos Medrano Duque"
-date: "2022"
+year: 2022
 source_type: "journal article"
 original_file: "prósper-ancient-gaulish-british-divinities.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Small-cap Latin epigraphic text is encoded in the PDF with non-Latin glyph code points; these were mapped back to uppercase Latin letters where the mapping was recoverable."
+extraction_status: complete
+keywords_source: "Celtic languages; Gaulish religion; Celtic phonology; Indo-European onomastics; Indo-European word formation; Latin epigraphy; Latin alphabet; Celtic theonymy"
 ---
 
 # Ancient Gaulish and British Divinities: Notes on the Reconstruction of Celtic Phonology and Morphology

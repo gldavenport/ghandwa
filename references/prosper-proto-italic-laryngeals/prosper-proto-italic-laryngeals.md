@@ -1,12 +1,14 @@
 ---
 title: "Proto-Italic Laryngeals in the Context CL̥HC- and New Italic and Celtic Etymological Connections"
 author: "Blanca María Prósper"
-date: "2017"
+year: 2017
 source_type: "journal article"
 original_file: "prósper-proto-italic-laryngeals.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "PDF contains custom-font Greek and technical signs; unresolved custom glyphs are marked explicitly."
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # Proto-Italic Laryngeals in the Context CL̥HC- and New Italic and Celtic Etymological Connections

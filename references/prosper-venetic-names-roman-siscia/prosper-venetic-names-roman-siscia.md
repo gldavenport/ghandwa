@@ -1,12 +1,14 @@
 ---
 title: "The Venetic Names of Roman Siscia"
 author: "Blanca María Prósper"
-date: "2018"
+year: 2018
 source_type: "journal article / article PDF"
 original_file: "prósper-venetic-names-roman-siscia.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF; text extraction preserves most technical notation."
+extraction_status: complete
+keywords_source: "Italic languages; Celtic languages; Venetic; Gaulish; Illyrian; Italic onomastics; Pannonia; language contacts; Indo-European morphology; morphophonemics"
 ---
 
 # The Venetic Names of Roman Siscia

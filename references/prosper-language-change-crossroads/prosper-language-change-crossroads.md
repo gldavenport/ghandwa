@@ -1,12 +1,14 @@
 ---
 title: "Language Change at the Crossroads: What Celtic, What Venetic, and What Else in the Personal Names of Emona?"
 author: "Blanca María Prósper"
-date: "2019"
+year: 2019
 source_type: "journal article"
 original_file: "prósper-language-change-crossroads.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF; text extraction preserves most diacritics."
+extraction_status: complete
+keywords_source: "Indo-European; Celtic; Gaulish; Italic; Venetic; personal names; Latin epigraphy; Emona; Pannonia; language contacts"
 ---
 
 # Language Change at the Crossroads: What Celtic, What Venetic, and What Else in the Personal Names of Emona?

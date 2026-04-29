@@ -1,9 +1,11 @@
 ---
 source_title: "A Handbook of Germanic Etymology"
 author: "Vladimir Orel"
-date: "2003"
+year: 2003
 publisher: "Brill"
-source_type: "PDF book; etymological dictionary"
+source_type: dictionary
+extraction_status: complete
+keywords_source: "(none)"
 section: "front matter"
 extraction_date: "2026-04-28"
 notes:

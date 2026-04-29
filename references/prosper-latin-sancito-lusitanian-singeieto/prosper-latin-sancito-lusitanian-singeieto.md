@@ -1,12 +1,14 @@
 ---
 title: "Latin sancītō vs. Lusitanian SINGEIETO: Is the Lusitanian Inscription of Arroyo de la Luz I the Westernmost lex sacra?"
 author: "Blanca María Prósper"
-date: "2021"
+year: 2021
 source_type: "book chapter / proceedings article"
 original_file: "prósper-latin-sancito-lusitanian-singeieto.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "PDF includes volume front matter before the article; front matter was excluded from the main Markdown body."
+extraction_status: complete
+keywords_source: "Lusitanian language; Indo-European linguistics; Ancient animal sacrifice; Latin language"
 ---
 
 # Latin sancītō vs. Lusitanian SINGEIETO: Is the Lusitanian Inscription of Arroyo de la Luz I the Westernmost lex sacra?

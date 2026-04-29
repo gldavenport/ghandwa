@@ -1,12 +1,14 @@
 ---
 title: "The Sibilant Sounds of Hispano-Celtic: Phonetics, Phonology and Orthography"
 author: "Blanca María Prósper"
-date: "2022"
+year: 2022
 source_type: "journal article"
 original_file: "prósper-sibilant-sounds-hispano-celtic.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF; text extraction preserves most technical notation."
+extraction_status: complete
+keywords_source: "Celtiberian languages; Indo-European reconstruction; Celtic etymology"
 ---
 
 # The Sibilant Sounds of Hispano-Celtic: Phonetics, Phonology and Orthography

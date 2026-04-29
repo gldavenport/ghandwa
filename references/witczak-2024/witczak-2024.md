@@ -8,6 +8,8 @@ pages: "7-20"
 doi: "10.24425/linsi.2024.150388"
 issn: "0208-4228"
 source_file: "witczak-2024.pdf"
+source_type: journal-article
+extraction_status: complete
 extraction_date: "2026-04-28"
 second_pass_date: "2026-04-28"
 extraction_type: "second-pass clean markdown transcription from embedded PDF text"

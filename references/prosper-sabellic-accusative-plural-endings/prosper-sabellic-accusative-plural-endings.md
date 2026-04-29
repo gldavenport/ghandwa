@@ -1,12 +1,14 @@
 ---
 title: "The Sabellic Accusative Plural Endings and the Outcome of the Indo-European Sibilants in Italic"
 author: "Blanca María Prósper"
-date: "2020"
+year: 2020
 source_type: "journal article"
 original_file: "prósper-sabellic-accusative-plural-endings.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF; most special characters are recoverable; unresolved private-use glyphs are marked explicitly."
+extraction_status: complete
+keywords_source: "Indo-European linguistics; Sabellic languages; Ancient Italy; general phonetics"
 ---
 
 # The Sabellic Accusative Plural Endings and the Outcome of the Indo-European Sibilants in Italic

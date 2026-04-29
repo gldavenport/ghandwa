@@ -1,12 +1,14 @@
 ---
 title: "The Lusitanian Oblique Cases Revisited: New Light on the Dative Endings"
 author: "Blanca María Prósper"
-date: "2022"
+year: 2022
 source_type: "journal article / article PDF"
 original_file: "prósper-lusitanian-oblique-cases-revisited.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF; text extraction preserves most technical notation."
+extraction_status: complete
+keywords_source: "Indo-European language reconstruction; Lusitanian language; Latin epigraphy; Ancient religion; Proto-History of the Iberian Peninsula"
 ---
 
 # The Lusitanian Oblique Cases Revisited: New Light on the Dative Endings

@@ -1,12 +1,14 @@
 ---
 title: "The Venetic Inscription from Monte Manicola and Three termini publici from Padua: A Reappraisal"
 author: "Blanca María Prósper"
-date: "2018"
+year: 2018
 source_type: "journal article"
 original_file: "prósper-venetic-inscription-monte-manicola.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Older embedded-font PDF has many custom-glyph characters in Greek, long vowels, and technical notation. These are marked explicitly where not recoverable."
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # The Venetic Inscription from Monte Manicola and Three termini publici from Padua: A Reappraisal

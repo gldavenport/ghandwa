@@ -1,0 +1,270 @@
+# PDF Outline / Structural Index
+
+- Contents — PDF page 8
+- Abbreviations — PDF page 11
+- Note on Translations Quoted — PDF page 14
+- Introduction — PDF page 16
+  - The Indo-Europeans in Space and Time — PDF page 20
+  - Chronological Parameters — PDF page 22
+  - Sources — PDF page 27
+  - Considerations of Method — PDF page 34
+  - Conclusion — PDF page 39
+- 1. Poet and Poesy — PDF page 41
+  - The Poet — PDF page 42
+    - Status, Training, Rewards — PDF page 44
+    - Concepts of Poetry — PDF page 46
+    - Poetry as Recall — PDF page 48
+    - Poesy as Construction — PDF page 50
+    - Poesy as Weaving — PDF page 51
+    - Poesy as Carpentry — PDF page 53
+    - The Ship of Song — PDF page 55
+    - The Chariot of Song — PDF page 56
+    - The Song Takes Off — PDF page 58
+  - Versification — PDF page 60
+    - Graeco-Aryan Metre — PDF page 61
+    - Other Indo-European Metre — PDF page 66
+    - Alliteration — PDF page 73
+    - Metrical Terminology — PDF page 74
+    - Poetic Prose — PDF page 76
+    - Verse in a Prose Setting — PDF page 76
+  - Occasions and Genres — PDF page 78
+    - Hymns and Praise Poetry — PDF page 78
+    - Narrative Poetry — PDF page 81
+    - Personation — PDF page 83
+    - Invectives? — PDF page 84
+    - Codifications — PDF page 85
+    - Assemblies and Contests — PDF page 87
+- 2. Phrase and Figure — PDF page 90
+  - Vocabulary and Phraseology — PDF page 93
+    - Compound Words — PDF page 94
+    - Kennings — PDF page 96
+    - Epitheta Ornātia — PDF page 98
+    - Various Idioms — PDF page 100
+  - Narrative Gambits — PDF page 107
+  - Similes — PDF page 110
+  - Figures — PDF page 114
+    - Polar Expressions (“Merisms”) — PDF page 114
+    - Positive Reinforced by Negated Opposite — PDF page 120
+    - Epanadiplosis — PDF page 121
+    - Epanalepsis — PDF page 121
+    - Questioner’s Suggestions Negated in Turn — PDF page 122
+    - Anaphora — PDF page 123
+    - Anaphora of First Element of Compounds — PDF page 124
+    - Juxtaposition of Opposed Terms — PDF page 125
+    - Juxtaposition of Like Terms (Polyptoton) — PDF page 126
+    - The Priamel — PDF page 131
+    - Behaghel’s Law; the Augmented Triad — PDF page 132
+- 3. Gods and Goddesses — PDF page 135
+  - Upper and Lower Gods — PDF page 137
+  - Gods and Men: Two Races — PDF page 139
+  - Characteristics of Divinity — PDF page 142
+  - Relations with Mankind — PDF page 145
+  - Gods’ Names — PDF page 149
+  - Female Deities — PDF page 153
+    - “Mothers” — PDF page 155
+  - Some Individuals — PDF page 156
+  - *Aryomen — PDF page 157
+    - Some Western Goddesses — PDF page 158
+    - Velesu, Velinas, and Others: a Dubious Equation — PDF page 161
+    - Heteronymous Homologues — PDF page 162
+  - Mythical Themes — PDF page 164
+    - The Mighty Infant; the Typical Weapon — PDF page 164
+    - The Gods’ Assembly — PDF page 165
+    - Getting About — PDF page 167
+    - El Dorado — PDF page 168
+    - The Divine Smith — PDF page 169
+    - The Food of the Gods — PDF page 172
+    - The Language of the Gods — PDF page 175
+    - Predecessors and Antagonists — PDF page 177
+    - Assaults on Heaven — PDF page 179
+- 4. Sky and Earth — PDF page 181
+  - The Divine Sky — PDF page 181
+    - Father Sky — PDF page 185
+    - The All-Seeing, All-Knowing God — PDF page 186
+  - The Divine Earth — PDF page 188
+    - Mother Earth — PDF page 190
+    - Attributes of Earth — PDF page 193
+    - Earth and the Dead — PDF page 195
+  - Sky and Earth as a Pair — PDF page 196
+    - Bull and Cow — PDF page 199
+  - Children of *Dyeus — PDF page 200
+    - The Divine Twins — PDF page 201
+    - A One-Parent Family? — PDF page 206
+- 5. Sun and Daughter — PDF page 209
+  - The Divine Sun — PDF page 209
+    - The Sun as a Deity — PDF page 211
+    - Attributes; the All-Seeing God — PDF page 213
+    - Oaths by the Sun — PDF page 214
+  - The Sun’s Motion Conceptualized — PDF page 216
+    - The Solar Wheel — PDF page 216
+    - The Solar Steed(s) — PDF page 218
+    - The Solar Boat — PDF page 222
+    - The Dark Side of the Sun — PDF page 224
+    - How Old Is All This? — PDF page 225
+  - Further Mythical Motifs — PDF page 226
+  - Cultic Observance — PDF page 227
+    - Salutation of the Rising and Setting Sun — PDF page 230
+    - A Taboo — PDF page 232
+  - Dawn (and Night) — PDF page 232
+    - Attributes; Imagery — PDF page 233
+    - Dawn’s Lovers — PDF page 239
+    - The Dawn Goddess and the Spring Festival — PDF page 240
+  - The Daughter of the Sun — PDF page 242
+    - The Vedic Evidence — PDF page 242
+    - The Baltic and Slavic Evidence — PDF page 243
+    - The Greek Evidence — PDF page 244
+    - Daughters of the Sun in Other Traditions — PDF page 247
+    - Astronomical Interpretations — PDF page 248
+    - Ritual Aspects — PDF page 249
+  - Conclusion — PDF page 252
+- 6. Storm and Stream — PDF page 253
+  - The God of Thunder — PDF page 253
+    - Perkunas — PDF page 254
+    - Fiorgynn — PDF page 256
+    - Perún — PDF page 257
+    - Possible Cognates in South-East Europe — PDF page 258
+    - Parjanya, Indra — PDF page 259
+    - Tarhunna — PDF page 262
+    - Zeus, Jupiter, Heracles — PDF page 262
+    - Taranis, Thor — PDF page 264
+    - The Thunder-Weapon — PDF page 266
+    - The Water Dragon — PDF page 270
+    - Viśvarūpa and His Cows — PDF page 274
+    - Triśiras, Ullikummi, Hrungnir — PDF page 277
+  - Wind Gods — PDF page 278
+  - Fire Gods — PDF page 280
+    - The Fire in the Waters — PDF page 285
+    - The Acquisition of Fire — PDF page 287
+  - The Waters — PDF page 289
+- 7. Nymphs and Gnomes — PDF page 295
+  - A God of Ways and Byways — PDF page 296
+  - Nymphs — PDF page 299
+    - Indian Nymphs — PDF page 299
+    - Iranian, Lycian, Armenian — PDF page 300
+    - Greek, Roman — PDF page 301
+    - Albanian — PDF page 303
+    - Germanic — PDF page 304
+    - Celtic — PDF page 305
+    - Slavonic — PDF page 306
+    - Baltic — PDF page 306
+  - Elves, Dwarfs, and Satyrs — PDF page 307
+    - Beings with Elements of Animal Physique — PDF page 307
+    - Dancers and Mischief-Makers — PDF page 309
+    - Dwarfs and Manufacturers — PDF page 310
+  - Giants — PDF page 312
+    - Multiple Heads and Limbs — PDF page 314
+    - By Their Works Shall Ye Know Them — PDF page 315
+    - Strange Meeting — PDF page 316
+  - Conclusion — PDF page 317
+- 8. Hymns and Spells — PDF page 319
+  - Invocatory Hymns — PDF page 319
+    - Calling the God — PDF page 320
+    - Praise of the God’s Status and Powers — PDF page 322
+    - Narrative Elements — PDF page 327
+    - “Hear Us” — PDF page 331
+    - “Look on Us” — PDF page 333
+    - “Come” — PDF page 333
+    - “Come with——” — PDF page 335
+    - Finding Range and Direction — PDF page 336
+    - Prayers — PDF page 338
+  - Magic, Charms — PDF page 341
+    - Incantations: Style and Delivery — PDF page 341
+    - Nine as a Sacral Number — PDF page 344
+    - Herbs — PDF page 346
+    - Maledictions — PDF page 347
+    - Healing — PDF page 349
+    - Legendenzauber — PDF page 351
+- 9. Cosmos and Canon — PDF page 355
+  - Cosmology — PDF page 355
+    - Heaven and Earth — PDF page 355
+    - Stony Skies — PDF page 357
+    - Body Imagery — PDF page 358
+    - World Pillar, World Tree — PDF page 360
+    - The Cosmic Serpent — PDF page 362
+    - The Land of the Blest — PDF page 364
+    - Celestial River — PDF page 365
+    - Moon and Stars — PDF page 366
+  - Cosmogony — PDF page 369
+    - Before Heaven and Earth — PDF page 370
+    - The Solitary Twin — PDF page 371
+  - Canon and Catechism — PDF page 374
+    - Proverbs — PDF page 377
+  - Riddles — PDF page 378
+    - Year Riddles — PDF page 385
+  - The World Wide Web — PDF page 387
+- 10. Mortality and Fame — PDF page 390
+  - The Origin of Humankind — PDF page 390
+    - Human and Animal Lifespans — PDF page 392
+  - The Fates — PDF page 394
+    - Images of Destiny — PDF page 400
+  - Death — PDF page 402
+    - Death as Sleep; Death as a Journey — PDF page 402
+    - Crossing the Water — PDF page 404
+    - Gates, Border Control — PDF page 406
+    - Beware of the Dog — PDF page 407
+    - Pastures and Herds — PDF page 408
+    - Going to Join the Fathers — PDF page 408
+    - All Souls Day — PDF page 409
+  - Transcending Mortality through Fame — PDF page 411
+    - Names — PDF page 413
+    - Fame Won in Combat — PDF page 416
+    - Fame Valued above Life — PDF page 417
+    - Fame Conferred and Sustained by Poetry — PDF page 418
+    - The Embedding of Names in Poetry — PDF page 419
+    - A Thesaurus of Glory — PDF page 421
+- 11. King and Hero — PDF page 426
+  - Kings — PDF page 427
+    - The Queen — PDF page 429
+    - King and Horse — PDF page 432
+    - King and Priest — PDF page 434
+    - The King’s Qualities — PDF page 435
+    - The King’s Justice and the Land’s Fertility — PDF page 437
+    - The King’s Liberality — PDF page 439
+  - The Hero — PDF page 440
+    - His Exceptional Nature — PDF page 440
+    - Birth and Infancy — PDF page 442
+    - Boyhood Feats — PDF page 443
+    - Bigger Animal Challenges — PDF page 444
+    - The Hero in Dialogue — PDF page 445
+  - The Hero and Women — PDF page 447
+    - Winning a Bride — PDF page 447
+    - The Sword in the Bed — PDF page 451
+    - Winning Her Back; the Husband’s Return — PDF page 452
+  - The Hero and His Son — PDF page 455
+    - The Sohrab and Rustum Motif — PDF page 455
+    - The Hero’s Child as Object of Pathos — PDF page 457
+  - How to Kill a Hero — PDF page 458
+    - Invulnerability; the Weak Spot — PDF page 459
+  - Conclusion — PDF page 461
+- 12. Arms and the Man — PDF page 462
+  - The War-Band — PDF page 463
+  - Cattle Raids — PDF page 466
+  - Strongholds — PDF page 467
+  - The Hero as Warrior — PDF page 469
+    - Predicates — PDF page 469
+    - Alarming Symptoms — PDF page 470
+    - Eagerness to Fight — PDF page 473
+    - The Vow of Abnegation — PDF page 474
+  - Weapons — PDF page 475
+  - Horses — PDF page 480
+    - Chariots — PDF page 483
+  - Battle Narrative: Setting the Scene — PDF page 485
+  - The Time Frame — PDF page 488
+  - Speeches — PDF page 491
+    - Altercations — PDF page 491
+    - Exhortations — PDF page 492
+  - Events on the Field — PDF page 494
+    - Divine Participation — PDF page 498
+    - Archers — PDF page 500
+    - Chariots — PDF page 500
+    - Single Combat — PDF page 501
+    - Doom and Downfall — PDF page 503
+    - Vindictive Victory — PDF page 507
+  - Similes — PDF page 509
+  - The Hero’s Funeral — PDF page 511
+    - Laments — PDF page 513
+    - Suttee — PDF page 514
+    - Funeral Games — PDF page 516
+- Elegy on an Indo-European Hero — PDF page 519
+- Bibliography — PDF page 520
+- Index — PDF page 526

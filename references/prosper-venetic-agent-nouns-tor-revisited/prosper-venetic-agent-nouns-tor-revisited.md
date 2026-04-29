@@ -1,12 +1,14 @@
 ---
 title: "The Venetic Agent Nouns in -tōr- Revisited"
 author: "Blanca María Prósper"
-date: "2018"
+year: 2018
 source_type: "book chapter / article in edited volume"
 original_file: "prósper-venetic-agent-nouns-tor-revisited.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "PDF includes edited-volume front matter before the article; front matter was excluded from the main Markdown body. Two private-use dash glyphs in the title were normalized to hyphens."
+extraction_status: complete
+keywords_source: "Italic languages; Sabellic; Venetic; Latin epigraphy; Indo-European linguistics"
 ---
 
 # The Venetic Agent Nouns in -tōr- Revisited

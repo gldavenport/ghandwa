@@ -1,11 +1,15 @@
 ---
 title: "Non-Indo-European root nouns in Germanic: evidence in support of the Agricultural Substrate Hypothesis"
 author: "Guus Kroonen"
+year: 2012
+source_type: book-chapter
 source: "A Linguistic Map of Prehistoric Northern Europe. Suomalais-Ugrilaisen Seuran Toimituksia = Mémoires de la Société Finno-Ougrienne 266. Helsinki 2012. 239–260."
 pdf_filename: "kroonen-2012.pdf"
 extraction_date: "2026-04-28"
 extraction_type: "clean markdown from text-based PDF; second pass targeted character/form verification"
 passes_completed: ["initial clean extraction", "second-pass character/form verification", "third-pass lexical dataset and normalized bibliography"]
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # Non-Indo-European root nouns in Germanic: evidence in support of the Agricultural Substrate Hypothesis

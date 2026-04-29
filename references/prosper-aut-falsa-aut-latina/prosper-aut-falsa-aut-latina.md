@@ -1,12 +1,14 @@
 ---
 title: "Aut Falsa aut Latina? The Fibula of Praeneste: Another Turn of the Screw"
 author: "Blanca María Prósper"
-date: "2020"
+year: 2020
 source_type: "journal article"
 original_file: "prósper-aut-falsa-aut-latina.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF with some custom-glyph technical characters; unresolved custom glyphs are marked explicitly."
+extraction_status: complete
+keywords_source: "Latin Morphology; Latin Phonetics; Latin Epigraphy; Sabellic Languages; Italic Divine Names"
 ---
 
 # Aut Falsa aut Latina? The Fibula of Praeneste: Another Turn of the Screw

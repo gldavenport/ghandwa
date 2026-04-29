@@ -1,12 +1,14 @@
 ---
 title: "The Indo-European Ordinal Numerals “Fourth” and “Fifth” and the Reconstruction of the Celtic and Italic Numeral Systems"
 author: "Blanca María Prósper"
-date: "2016"
+year: 2016
 source_type: "journal article offprint"
 original_file: "prósper-indo-european-ordinal-numerals-fourth-fifth.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "PDF includes journal front matter before the article; front matter was excluded from the main Markdown body. Several custom-glyph PIE signs were mapped where recoverable; unresolved glyphs are marked explicitly."
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # The Indo-European Ordinal Numerals “Fourth” and “Fifth” and the Reconstruction of the Celtic and Italic Numeral Systems

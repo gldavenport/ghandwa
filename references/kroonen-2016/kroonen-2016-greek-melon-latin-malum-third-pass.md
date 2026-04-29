@@ -5,9 +5,11 @@ affiliation: "Institute for Nordic Studies and Linguistics, University of Copenh
 journal: "The Journal of Indo-European Studies"
 volume: 44
 number: "1 & 2"
-date: "Spring/Summer 2016"
+year: 2016
 pages: "85-91"
 source_file: "kroonen-2016.pdf"
+source_type: journal-article
+keywords_source: "(none)"
 extraction_status: "third-pass clean Markdown"
 passes_completed: 3
 third_pass_scope: "bibliography normalization; structured lexical comparanda dataset; verification of special linguistic forms against rendered pages"

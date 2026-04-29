@@ -1,12 +1,14 @@
 ---
 title: "Mars Veneticus and the “Palma Rule”"
 author: "Blanca María Prósper"
-date: "2020"
+year: 2020
 source_type: "journal article / article PDF"
 original_file: "prósper-mars-veneticus.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "PDF uses inconsistent capitalization and some embedded-font artifacts; mechanical cleanup was applied."
+extraction_status: complete
+keywords_source: "Historical Linguistics; Latin Phonetics and Morphology; Ancient religion; Indo-European Language reconstruction"
 ---
 
 # Mars Veneticus and the “Palma Rule”

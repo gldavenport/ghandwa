@@ -1,12 +1,14 @@
 ---
 title: "What Became of “Sabine l”? An Overlooked Proto-Italic Sound Law"
 author: "Blanca María Prósper"
-date: "2019"
+year: 2019
 source_type: "journal article"
 original_file: "prósper-what-became-sabine-l.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Older embedded-font PDF has custom-glyph characters, especially in Greek and technical notation; unresolved glyphs are marked explicitly."
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # What Became of “Sabine l”? An Overlooked Proto-Italic Sound Law

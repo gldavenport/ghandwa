@@ -1,12 +1,14 @@
 ---
 title: "The Inscriptions of Todi (Umbria) and Vergiate (Transpadana): A Study in Cisalpine Celtic Epigraphic Habits, Noun Morphology, and the Linguistic Classification of Lepontic"
 author: "Blanca María Prósper"
-date: "2024"
+year: 2024
 source_type: "conference proceedings article"
 original_file: "prósper-inscriptions-todi-vergiate.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "PDF includes proceedings front matter before the article; front matter was excluded from the main Markdown body."
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # The Inscriptions of Todi (Umbria) and Vergiate (Transpadana): A Study in Cisalpine Celtic Epigraphic Habits, Noun Morphology, and the Linguistic Classification of Lepontic

@@ -210,5 +210,6 @@ Primary use: specific etymology for PIE \*méǵh₂- 'great'; laryngeal argument
 
 | Date | Change |
 |---|---|
+| 2026-04-28 | Added `references-index.tsv` — 50-row lookup index with `roles`, `extraction_status`, `keywords_source`, `keywords_parsed`, and `ghandwa_notes` for all current sources. |
 | 2026-04-28 | Added 10 missing entries (Eska 2018b, Eska 2023, Eska 2024, Höfler 2024, Klimp 2013, Koch 2019, Koch 2024, Kroonen et al. 2021, Kroonen et al. 2022, Wigman 2023). Corrected two wrong paths: `eska-2018/` → split into `eska-2018-laryngeal-realism/` and `eska-2018-celto-germanic-lexis/`; `van-sluis-et-al-2023/` → `sluis-2023/`. Added _inbox table. Marked in-progress extractions correctly. Moved 9 stale notes.md files to `_delete/`. |
 | 2026-04-27 | Restructured into per-work subdirectories. Added .gitignore rule for PDFs. Added `hyllested-2010/notes.md` stub. Updated README paths. Initial inventory as of commit `07d7540`. |

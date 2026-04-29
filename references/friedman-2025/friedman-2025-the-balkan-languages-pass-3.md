@@ -8,6 +8,9 @@ publisher: "Cambridge University Press"
 doi: "10.1017/9781139019095"
 license_note: "PDF states the online version is under Creative Commons Attribution 4.0 (CC-BY 4.0)."
 source_file: "friedman-2025.pdf"
+source_type: monograph
+extraction_status: complete
+keywords_source: "(none)"
 source_pdf_pages: 1092
 extraction_pass: 3
 pass_notes: "Second pass cleanup/reflow plus third pass structured-data extraction, table/example indexing, and QA."

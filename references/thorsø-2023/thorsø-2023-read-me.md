@@ -1,8 +1,8 @@
-# wigman-2023-word-mining third-pass package
+# thorsø-2023 third-pass package
 
-Source PDF: `wigman-2023-word-mining.pdf`
+Source PDF: `thorsø-2023.pdf`
 
-Primary output: `wigman-2023-word-mining-third-pass.md`
+Primary output: `thorsø-2023.md`
 
 ## Pass status
 

@@ -4,6 +4,9 @@ author: "Rick Derksen"
 publisher: "Brill"
 year: 2015
 source_pdf: "EDBIL.pdf"
+source_type: dictionary
+extraction_status: complete
+keywords_source: "(none)"
 pdf_pages: 698
 extraction_date_utc: "2026-04-28T18:55:29Z"
 extraction_pass: 4

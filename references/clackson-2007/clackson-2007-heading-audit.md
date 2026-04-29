@@ -1,0 +1,185 @@
+# clackson-2007 heading audit
+
+- False headings demoted during pass 2: 113
+- Additional broken heading joins repaired after audit: 9
+- Remaining Markdown headings: 177
+
+## Remaining headings
+
+- # Indo-European Linguistics: An Introduction
+- # Contents
+- # Figures
+- # Tables
+- # Preface
+- # Transliteration conventions
+- # 1 The Indo-European language family
+- ## 1.1 Introduction
+- ## 1.2 The IE languages
+- ## 1.3 The branches of the IE tree
+- ### Table 1.1 IE languages by date and place of first attestation.
+- ## 1.4 Cladistics: constructing family trees
+- ### Table 1.2 Instrumental plural markers in various IE languages.
+- ## 1.5 The time and place of PIE
+- ## 1.6 Nostratic and other supergroups
+- ### Table 1.3 Nostratic and PIE stop comparisons.
+- ## Further reading
+- ### General
+- ## Discussion points
+- # 2 Phonology
+- ## 2.1 Reconstruction and the comparative method
+- ### Table 2.1 A correspondence set for English *t* and German *ss*.
+- ### Table 2.2 Extended correspondence set for medial *t* in Germanic.
+- ### Exercise 2.1
+- ### Table 2.3 Six sound-laws and a rule of Indo-European.
+- ## 2.2 The sounds of PIE
+- ### Table 2.4 Phonological inventory of PIE.
+- ### Table 2.5a Comparative IE phonology: stops.
+- ### Table 2.5b Comparative IE phonology: other consonants and consonantal resonants.
+- ### Table 2.5c Comparative IE phonology: vowels, vocalic resonants and diphthongs.
+- ## 2.3 The realisation of PIE phonemes: the glottalic model
+- ### Exercise 2.2
+- ### Exercise 2.3
+- ### Exercise 2.4
+- ### Table 2.7 Reconstructed four-way stop system of PIE.
+- ### Table 2.8 Glottalic and traditional PIE reconstructed stop system.
+- ### Exercise 2.5
+- ### Exercise 2.6
+- ### Exercise 2.7
+- ## 2.4 Mergers and splits: PIE velars
+- ### Exercise 2.8
+- ## 2.5 Reconstructing lost phonemes: laryngeals
+- ### Table 2.10 ‘Irregular’ ablaut series.
+- ### Table 2.11 Sanskrit nasal infix verbs.
+- ### Table 2.12 Laryngeal developments in some early IE languages.
+- ### Table 2.13 The triple reflex of laryngeals in Greek.
+- ### Exercise 2.9
+- ### Exercise 2.10
+- ## Further reading
+- ## Discussion points
+- # 3 Morphophonology
+- ## 3.1 Introduction
+- ## 3.2 Morpheme structure constraints
+- ## 3.3 PIE ablaut and word-structure
+- ### Table 3.1 ‘Foot’ in various IE languages.
+- ### Table 3.2 Ablaut grades of *ped-*
+- ### Table 3.3 The morphological structure of inflected words in PIE.
+- ### Exercise 3.1
+- ### Exercise 3.2
+- ## 3.4 PIE accent
+- ### Table 3.4 Accent and ablaut in a PIE paradigm.
+- ### Table 3.5 Putative correlations of accent and ablaut.
+- ## 3.5 Accent and ablaut paradigms
+- ### Table 3.6 Strong and weak forms of nouns and verbs.
+- ### Table 3.7 Accent / ablaut paradigms.
+- ### Exercise 3.3
+- ### Table 3.8 Generating accent paradigms from inherent accents.
+- ### Exercise 3.4
+- ## 3.6 The relation of accent and ablaut
+- ## Further reading
+- ## Discussion points
+- # 4 Nominal morphology
+- ## 4.1 Introduction
+- ## 4.2 Overview of nominal declensions
+- ### Table 4.1 The singular paradigm for ‘father’ in PIE.
+- ### Table 4.2 The singular paradigm for ‘sky / god’ in PIE.
+- ### Table 4.3 The paradigm for ‘cloud’ in PIE.
+- ### Table 4.4 The paradigm for ‘liver’ in PIE.
+- ### Exercise 4.1
+- ### Exercise 4.2
+- ### Exercise 4.3
+- ### Table 4.5 PIE feminine stems in *-eh₂*
+- ### Table 4.6 PIE feminine stems in *-ih₂*
+- ### Table 4.7 The paradigm for ‘wolf’ in PIE.
+- ### Table 4.8 Possible ablaut grades for PIE ‘sleep, dream’.
+- ### Table 4.9 The paradigm for ‘yoke’ in PIE.
+- ### Exercise 4.4
+- ### Exercise 4.5
+- ## 4.3 Reconstructing number: the collective
+- ### Table 4.10 Nouns with two plurals.
+- ### Table 4.11 Number in PIE nouns.
+- ## 4.4 Reconstructing gender: the feminine
+- ### Table 4.12 Feminine abstract nouns derived from verbal stems.
+- ### Table 4.13 The paradigm for ‘woman’ in PIE.
+- ### Table 4.14 i-motion in Luwian participles.
+- ### Exercise 4.6
+- ### Exercise 4.7
+- ## Further reading
+- ## Discussion points
+- # 5 Verbal morphology
+- ## 5.1 Introduction
+- ## 5.2 The Greco-Aryan model of the PIE verb
+- ### Table 5.1 Greek verbal stems.
+- ### Table 5.2 Vedic Sanskrit verbal stems.
+- ### Table 5.3 Latin verbal stems.
+- ### Table 5.4 Gothic verbal stems.
+- ### Table 5.5 Comparison of stem formations in Greek and Vedic Sanskrit.
+- ### Table 5.6 The Greco-Aryan model of the PIE verb.
+- ### Table 5.7 Mergers of the inherited preterite formations.
+- ### Table 5.8 Active personal endings in Sanskrit.
+- ### Table 5.9 Athematic active primary endings: PIE ‘to be’.
+- ### Table 5.10 Athematic active secondary endings: PIE ‘to be’.
+- ### Exercise 5.1
+- ### Exercise 5.2
+- ### Exercise 5.3
+- ### Table 5.11 Reconstructed thematic primary and secondary endings.
+- ### Exercise 5.4
+- ### Table 5.12 The reconstructed perfect: PIE ‘know’.
+- ## 5.3 Reconciling Anatolian to the Greco-Aryan model
+- ### Table 5.13 Exact matches between Anatolian and Sanskrit verbal forms.
+- ### Table 5.14 The injunctive compared with indicative tenses.
+- ### Table 5.15 PIE eventive endings.
+- ### Table 5.16 Eventive formations in early PIE.
+- ### Table 5.17 The athematic optative of PIE ‘to be’.
+- ### Table 5.18 An ‘improved’ Greco-Aryan model of the PIE verb.
+- ### Table 5.19 An alternative ‘improved’ Greco-Aryan model of the PIE verb.
+- ## 5.4 The Hittite -hi conjugation
+- ### Table 5.20 The Hittite *-hi* and *-mi* active conjugations.
+- ## 5.5 The PIE middle
+- ### Table 5.21 Lexical assignments of roots to active or middle paradigms.
+- ### Table 5.22 Middle endings in IE languages.
+- ### Exercise 5.5
+- ### Table 5.23 Reconstruction from archaic middle endings.
+- ### Table 5.24 Vedic Sanskrit third singular middle forms without t.
+- ### Table 5.25 Vedic Sanskrit third plural middle forms with r.
+- ### Table 5.26 Reconstruction of PIE middle endings.
+- ### Table 5.27 Comparison of PIE middle endings, perfect
+- ### Exercise 5.6
+- ## 5.6 Roots and stems
+- ### Table 5.28 Present and aorist formations from three roots.
+- ### Exercise 5.7
+- ### Table 5.29 Aorist formations from nasal infix presents.
+- ## Further reading
+- ## Discussion points
+- # 6 Syntax
+- ## 6.1 Syntactic reconstruction
+- ### Table 6.1 Comparison of negative particles in prohibitions and statements.
+- ## 6.2 Word order
+- ### Table 6.2 Position of enclitics in early IE languages.
+- ## 6.3 Clause-linking and subordination
+- ### Table 6.3 Summary of relative clause types in early IE languages.
+- ## 6.4 Alignment change
+- ### Table 6.4 Nominative and ergative alignment systems.
+- ### Table 6.5 Case-marking in active systems.
+- ### Table 6.6 Active and inactive verbs in PIE.
+- ## 6.5 PIE phraseology
+- ## Further reading
+- ## Discussion points
+- # 7 Lexicon and lexical semantics
+- ## 7.1 The PIE lexicon
+- ## 7.2 Derivation
+- ## 7.3 PIE lexical semantics
+- ### Table 7.2 Selected derivatives of the root med-.
+- ## 7.4 Reconstructed lexical fields
+- ### Table 7.3 IE numerals.
+- ### Table 7.4 PIE formation of decads.
+- ### Table 7.6 Some PIE animal names.
+- ## 7.5 Uses of the reconstructed lexicon
+- ### Table 7.7 ‘Life’ in PIE and Indo-Iranian.
+- ## Further reading
+- ## Discussion points
+- # Glossary
+- # References
+- # Word index
+- # Language index
+- # Person index
+- # Subject index

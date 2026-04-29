@@ -1,12 +1,14 @@
 ---
 title: "Sifting the Evidence: New Interpretations on Celtic and Non-Celtic Personal Names of Western Hispania in the Light of Phonetics, Composition and Suffixation"
 author: "Blanca María Prósper"
-date: "2013"
+year: 2013
 source_type: "article PDF"
 original_file: "prósper-new-interpretations-celtic-personal-names.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF with mostly recoverable text; some line-level cleanup applied."
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # Sifting the Evidence: New Interpretations on Celtic and Non-Celtic Personal Names of Western Hispania in the Light of Phonetics, Composition and Suffixation

@@ -1,4 +1,4 @@
-# Third-pass QA notes: Wigman/Thorsø et al. 2023
+# Third-pass QA notes: Thorsø et al. 2023
 
 ## High-priority repairs made
 

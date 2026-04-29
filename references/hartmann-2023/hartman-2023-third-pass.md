@@ -5,6 +5,9 @@ publisher: "Oxford University Press"
 year: 2023
 series: "Oxford Studies in Diachronic and Historical Linguistics"
 source_file: "hartman-2023.pdf"
+source_type: monograph
+extraction_status: complete
+keywords_source: "(none)"
 source_pages: 305
 extraction_pass: "third pass"
 extraction_method: "embedded PDF text layer; second-pass table normalization; third-pass Appendix anomaly check, figure-description sidecar, special-character audit, and bibliography normalization"

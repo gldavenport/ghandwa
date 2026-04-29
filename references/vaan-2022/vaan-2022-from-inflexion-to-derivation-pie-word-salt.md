@@ -7,6 +7,8 @@ volume: "18.1"
 pages: "412–425"
 doi: "10.30842/alp23065737181412425"
 source_file: "vaan-2022.pdf"
+source_type: journal-article
+keywords_source: "(none)"
 extraction_status: "third-pass clean Markdown extraction"
 passes:
   - "first pass: born-digital PDF text extraction"

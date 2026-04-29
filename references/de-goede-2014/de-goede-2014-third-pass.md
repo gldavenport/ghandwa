@@ -3,7 +3,9 @@ title: "Derivational Morphology: New Perspectives on the Italo-Celtic Hypothesis
 author: "Tim de Goede"
 year: 2014
 source_file: "de-goede-2014.pdf"
-source_type: "PDF thesis"
+source_type: phd-thesis
+extraction_status: complete
+keywords_source: "(none)"
 extraction_date_utc: "2026-04-28"
 extraction_method: "third-pass extraction from patched PDF text layer; targeted visual correction of glide, breve/macron-breve notation, footnotes, bibliography, and suffix overview"
 status: "third-pass clean Markdown; reference-grade character normalization and structured suffix/bibliography companions"

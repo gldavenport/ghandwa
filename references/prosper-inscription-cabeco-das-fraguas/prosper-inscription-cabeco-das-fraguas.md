@@ -1,12 +1,14 @@
 ---
 title: "The Inscription of Cabeço das Fráguas Revisited: Lusitanian and Alteuropäisch Populations in the West of the Iberian Peninsula"
 author: "Blanca María Prósper"
-date: "1999"
+year: 1999
 source_type: "journal article"
 original_file: "prósper-inscription-cabeço.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Older embedded-font PDF with mojibake in accented text and technical notation. Mechanical cleanup was applied, but citation-grade character fidelity would require manual collation against page images."
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # The Inscription of Cabeço das Fráguas Revisited: Lusitanian and Alteuropäisch Populations in the West of the Iberian Peninsula

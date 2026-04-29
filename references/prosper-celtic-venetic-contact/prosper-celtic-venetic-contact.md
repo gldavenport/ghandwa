@@ -1,12 +1,14 @@
 ---
 title: "Celtic and Venetic in Contact: The Dialectal Attribution of the Personal Names in the Venetic Record"
 author: "Blanca María Prósper"
-date: "2019"
+year: 2019
 source_type: "journal article"
 original_file: "prósper-celtic-venetic-contact.pdf"
 extraction_date: "2026-04-28"
 extraction_mode: "clean corpus-ready Markdown from embedded PDF text; not diplomatic transcription"
 notes: "Born-digital PDF; text extraction preserves most diacritics and Greek."
+extraction_status: complete
+keywords_source: "(none)"
 ---
 
 # Celtic and Venetic in Contact: The Dialectal Attribution of the Personal Names in the Venetic Record

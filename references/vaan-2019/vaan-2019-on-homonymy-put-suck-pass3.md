@@ -10,6 +10,8 @@ pages: "176–193"
 doi: "10.1163/22125892-00701008"
 license: "CC-BY-NC 4.0"
 source_file: "vaan-2019.pdf"
+source_type: journal-article
+keywords_source: "(none)"
 extraction_status: "third-pass clean Markdown with verified tables, normalized bibliography, and structured table dataset"
 extraction_date: "2026-04-28"
 passes_completed:

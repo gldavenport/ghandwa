@@ -8,13 +8,14 @@ authors:
   - Paulus van Sluis
   - Guus Kroonen
 year: 2023
-source_file: "wigman-2023-word-mining.pdf"
+source_file: "thorsø-2023.pdf"
 source_type: "book chapter"
 container_title: "The Indo-European puzzle revisited"
 pages: "105-126"
 publisher: "Cambridge University Press"
 doi: "10.1017/9781009261753.012"
 extraction_status: "third-pass citation-oriented Markdown; two-column reading order normalized; endnotes repaired; special forms and bibliography spot-verified against source PDF; not diplomatic"
+keywords_source: "(none)"
 ---
 
 # 8. Word Mining: Metal Names and the Indo-European Dispersal[^author-note]
