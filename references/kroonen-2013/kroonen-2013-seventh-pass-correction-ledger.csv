@@ -1,0 +1,31 @@
+page,category,before,after,count,confidence,reason
+,arrow-remnant,:::>,⇒,22,high,OCR artifact for etymological arrow
+,arrow-remnant,::>,⇒,2,high,OCR artifact for etymological arrow
+,arrow-remnant,Ϥ,⇒,4,high,OCR artifact for etymological arrow
+,arrow-remnant,â \*,⇒ \*,14,high,OCR artifact for etymological arrow
+"36,512",terminology,Verschii.rfung,Verschärfung,4,high,German term; page-image/PDF context verified in Holtzmann's-law discussion
+432,terminology,Verschiirfung,Verschärfung,4,high,German term; page-image/PDF context verified in Holtzmann's-law discussion
+,OCR-common-word,Jndogerman,Indogerman,3,high,High-confidence OCR error in German Indogermanisch family
+,bibliography-diacritic,fiir,für,10,high,High-confidence German für OCR error
+,bibliography-diacritic,Beitriige,Beiträge,20,high,High-confidence German Beiträge OCR error
+,bibliography-diacritic,Miinchener,Münchener,8,high,High-confidence German Münchener OCR error
+,bibliography-diacritic,Goteborg,Göteborg,2,high,High-confidence Swedish place-name OCR error
+,bibliography-diacritic,Kl?lbenhavn,København,1,high,High-confidence Danish place-name OCR error
+,bibliography-diacritic,FPlroysk,Føroysk,1,high,High-confidence Faroese title OCR error
+,bibliography-diacritic,oroab6k,orðabók,2,high,High-confidence Faroese orðabók OCR error
+676,bibliography-diacritic,iiigis,iūgis,2,high,Latin iūgis in Weiss 1995 reference
+676,thorn/eth,Gothic ajukdups,Gothic ajukduþs,1,high,Gothic thorn in Weiss 1995 reference
+91,greek-page-image-verified,"Gr. q>apuyΘ m./f. 'pharynx', qiapay[unclear] f. 'crevice'","Gr. φάρυγξ m./f. 'pharynx', φάραγξ f. 'crevice'",1,high,Page image checked; Greek forms in *barkjan- entry
+310,greek-page-image-verified,"Gr. Mp[unclear], 06p[unclear], Hsch. fopKEc;, '(upK£c; (pl.) 'kind of deer, roe, gazelle'","Gr. δόρξ, ζόρξ, Hsch. ἴορκες, ὕρκες (pl.) 'kind of deer, roe, gazelle'",1,high,Page image checked; Greek/Hesychius forms in *irha- entry
+531,greek-page-image-verified,"Gr. [unclear]Ka adv. 'slightly, softly'","Gr. ἧκα adv. 'slightly, softly'",1,high,Page image checked; Greek adverb in *suk(k)ōn- entry
+172,thorn-eth-page-image-verified,"\*faPma- m. 'fathom' - ON faomr m. 'id.', Far. favnur m. 'id.', Elfd. farm m. 'id.', OE f«!am m. 'fathom; bosom'","\*faþma- m. 'fathom' - ON faðmr m. 'id.', Far. favnur m. 'id.', Elfd. farm m. 'id.', OE fæþm m. 'fathom; bosom'",1,high,Page image checked; headword and first attestations in *faþma- entry
+172,thorn-eth-page-image-verified,\*fapmjan-,\*faþmjan-,1,high,Page image checked; derived form in *faþma- entry
+172,thorn-eth-page-image-verified,\*fapmojan-,\*faþmōjan-,1,high,Page image checked; derived form in *faþma- entry
+172,thorn-eth-page-image-verified,"\*fa/Jo- f. 'fence' - Go. fapa f. 'hedge, fence, wall'","\*faþō- f. 'fence' - Go. faþa f. 'hedge, fence, wall'",1,high,Page image checked; headword and Gothic form in *faþō- entry
+172,thorn-eth-page-image-verified,\*fappon-,\*faþþōn-,1,high,Page image checked; geminate thorn in *faþō- entry
+,metadata,front matter without seventh pass date,front matter with seventh pass date,1,high,Updated pass metadata
+references,terminology,Verscharfung,Verschärfung,2,high,German term in Rasmussen/Smith reference
+references,bibliography-diacritic,F12Jroysk,Føroysk,1,high,Faroese title OCR error
+references,bibliography-grammar,Fachtagung der Indogermanische Gesellschaft,Fachtagung der Indogermanischen Gesellschaft,1,high,German case ending in conference name
+310,greek-page-image-verified,"The variation of Gr. Mp[unclear], 06pΕ, '(op[unclear] and Lat. hircus, ircus is unexplained.","The variation of Gr. δόρξ, ζόρξ, ἴορκες and Lat. hircus, ircus is unexplained.",1,high,Page image checked; second Greek sequence in *irha- entry
+531,greek-page-image-verified,"Gr. [unclear]Ka, Lat. segnis and Olr. socht","Gr. ἧκα, Lat. segnis and Olr. socht",1,high,Page image checked; later reference to same Greek adverb in *suk(k)on- entry

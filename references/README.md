@@ -18,6 +18,8 @@ Each reference is tagged with one or more roles:
 
 Works that serve multiple roles are tagged accordingly. The tags determine which references to consult for a given task, not how to cite them.
 
+**Note on source_id convention:** `references-index.tsv` source_id values are ASCII-normalized (umlauts and diacritics dropped). Directory names preserve Unicode. This is intentional.
+
 ---
 
 ## Reference inventory
@@ -28,6 +30,14 @@ Roles: `DIAC`
 Extraction: complete, QA-reviewed (three passes). Structured index (4,802 rows: PIE protoforms + attested forms with page references). Chapters 1–4 in markdown. See `ringe-2017/README.md` for full bundle details.  
 Primary use: sound change ordering and relative chronology for PGmc; PIE morphology reference (Ch. 2); structured index for root lookup.  
 Known gaps: paradigm cells in Chs. 2 and 4 need spot-check against PDF before citation; prose-in-fence artifacts and paradigm cell spacing artifacts pending cleanup (see `ringe-2017-cleanup-handoff.md` in repo root).
+
+---
+
+### Ringe 2024 — `ringe-2024/`
+**Don Ringe, *The Linguistic Roots of Ancient Greek*. Oxford University Press.**  
+Roles: `DIAC`  
+Extraction: complete. Character-fidelity-verified extraction with high-risk form index TSV and visual-text reference file. See `ringe-2024/README.md`.  
+Primary use: thorn-cluster outcomes; Greek phonological history as comparanda for Ghandwa; laryngeal evidence from Greek. Previously listed as "not yet acquired" — present and extracted.
 
 ---
 
@@ -176,17 +186,113 @@ Primary use: specific etymology for PIE \*méǵh₂- 'great'; laryngeal argument
 
 ---
 
-## _inbox — stubs not yet processed
+### Kroonen 2013 — `kroonen-2013/`
+**Guus Kroonen, *Etymological Dictionary of Proto-Germanic*. Brill.**  
+Roles: `LEX`  
+Extraction: complete (seventh combined targeted pass). Structured lexical dataset (CSV + Markdown), correction ledger, headword-line verification, residual audit. See `kroonen-2013/README.md`.  
+Primary use: PGmc cognates and etymologies for lexicon `cog_Germanic` column backfill; primary PGmc etymological dictionary alongside Orel 2003. Previously listed as "not yet extracted" — present and extracted.
 
-| Dir | Work | Status |
+---
+
+### LIV² — `LIV²/`
+**Helmut Rix et al., *Lexikon der indogermanischen Verben*, 2nd ed. Reichert.**  
+Roles: `LEX` `DIAC`  
+Extraction: complete for the addenda/corrigenda (LIV²add). Structured dataset (CSV + JSONL): lexical entries, stem statements, reconstructed forms index, cross-references. Main dictionary body not separately extracted. See `LIV²/README.md`.  
+Primary use: verbal root inventory and stem-type coverage; addenda/corrigenda cover roots revised or added after the first edition. Cross-reference with Ghandwa lexicon `verb_stem_type` and `lemma_1_pre_root` columns. Full dictionary body actively sought.
+
+---
+
+### Olander 2022 — `olander-2022/`
+**Thomas Olander, ed. *The Indo-European Language Family: A Phylogenetic Perspective*. Cambridge University Press.**  
+Roles: `DIAC` `SUB`  
+Extraction: complete (fourth pass). Full-volume Markdown + chapter-by-chapter files + figures/tables companion + character audit. See `olander-2022/README.md`.  
+Primary use: IE phylogeny from multiple disciplinary angles; subgrouping evidence relevant to Ghandwa's WIE position; chapter-level extraction enables targeted lookup.  
+Note: previously listed in Pending as "Olander 2023, not yet acquired" — year is 2022; present and extracted.
+
+---
+
+### West 2007 — `west-2007/`
+**M. L. West, *Indo-European Poetry and Myth*. Oxford University Press.**  
+Roles: `LEX` `CORP`  
+Extraction: complete (third pass). Main Markdown + structural outline + extraction notes. See `west-2007/README.md`.  
+Primary use: comparative IE poetic and mythological formulae; directly feeds `lore.md` religious/ritual vocabulary and `corpus/` composition. High priority for CORP and ONOM tasks. Caution: verify Greek, Vedic, and PIE reconstructions against page images before citation.
+
+---
+
+### Bjørn 2017 — `bjørn-2017/`
+**Rasmus Gudmundsen Bjørn, "Foreign elements in the Proto-Indo-European vocabulary: A Comparative Loanword Study." Prize paper / MA thesis (2017).**  
+Roles: `LEX` `SUB`  
+Extraction: complete (fourth pass). Main Markdown + structured lexical dataset (135 items, CSV + Markdown) + normalized bibliography. See `bjørn-2017/README.md`.  
+Primary use: systematic catalog of non-PIE-inherited vocabulary (substrate candidates, Wanderwörter); methodology for distinguishing inherited vs. borrowed in the Ghandwa lexicon. Cross-reference with van Sluis 2023 and Wigman 2023.
+
+---
+
+### Clackson 2007 — `clackson-2007/`
+**James Clackson, *Indo-European Linguistics: An Introduction*. Cambridge University Press.**  
+Roles: `DIAC` `SUB`  
+Extraction: complete (fourth pass). Main Markdown + character audit + heading and table audit + extraction notes. See `clackson-2007/README.md`.  
+Primary use: standard IE linguistics textbook; broad phonological and morphological reference for all branches; useful orientation for sound rule application and branch-level survey. Tables and indexes are text-extraction artifacts — verify layout from PDF for source-critical use.
+
+---
+
+### Clackson 2013 — `clackson-2013/`
+**James Clackson, "Subgrouping in the Sabellian Branch of Indo-European." *Transactions of the Philological Society* (2013). DOI: 10.1111/1467-968X.12034.**  
+Roles: `DIAC` `SUB`  
+Extraction: complete (fifth pass). Main Markdown + normalized bibliography + character audit. See `clackson-2013/README.md`.  
+Primary use: Sabellian internal subgrouping evidence (Oscan, Umbrian, South Picene); Italic sub-branch isoglosses as comparanda for Ghandwa's Proto-Italic positioning.
+
+---
+
+### Fagiolo et al. 2024 — `fagiolo-2024/`
+**Virna Fagiolo, Daniel Ayora Estevan & Esteban Ngomo Fernández. "Snakes, dragons, and hydras: the Indo-European terminology for serpent." *Cuadernos de Filología Clásica. Estudios griegos e indoeuropeos* 34 (2024): 17–28. DOI: 10.5209/cfcg.91438.**  
+Roles: `LEX`  
+Extraction: complete (fourth pass). Main Markdown + extracted forms index. See `fagiolo-2024/README.md`.  
+Primary use: cross-branch reconstruction of IE serpent/dragon vocabulary; relevant to Ghandwa fauna lexicon entries and `lore.md` mythological content.
+
+---
+
+### Graça da Silva & Tehrani 2016 — `graça-da-silva-2016/`
+**Sara Graça da Silva & Jamshid J. Tehrani. "Comparative phylogenetic analyses uncover the ancient roots of Indo-European folktales." *Royal Society Open Science* 3 (2016): 150645. DOI: 10.1098/rsos.150645.**  
+Roles: `SUB`  
+Extraction: complete. Main Markdown + Figure 4 ancestral-tale-corpora CSV + confidence/character/bibliography audits. See `graça-da-silva-2016/README.md`.  
+Primary use: phylogenetic analysis of IE folktale distribution; background methodology for `daughters.md` mythology-subgrouping claims. Lower priority than linguistic sources.
+
+---
+
+### Mikhailova 2021 — `mikhailova-2021/`
+**Tatyana A. Mikhailova. "Night-mare: on the origin of a trope in Celtic and Germanic (a response to Stephen Pax Leonard)." *Journal of Language Relationship* 19/1 (2021): 15–24.**  
+Roles: `LEX` `SUB`  
+Extraction: complete (third pass). Main Markdown + extracted forms table + extraction notes. See `mikhailova-2021/README.md`.  
+Primary use: Celtic-Germanic shared trope in the night-mare complex; NWIE vocabulary with mythological comparanda for Ghandwa fauna/mythology vocabulary and `lore.md`.
+
+---
+
+### Anthony 2013 — `anthony-2013/`
+**David W. Anthony. "Two IE phylogenies, three PIE migrations, and four kinds of steppe pastoralism." *Journal of Language Relationship* 9 (2013): 1–21.**  
+Roles: `SUB`  
+Extraction: complete (third pass). Main Markdown. See `anthony-2013/README.md`.  
+Primary use: IE phylogeny and steppe migration model; background for `daughters.md` cultural-historical framing. Lower priority than linguistic sources.
+
+---
+
+### Anthony 2023 — `anthony-2023/`
+**David W. Anthony. "Ten Constraints that Limit the Late PIE Homeland to the Steppes." (2023).**  
+Roles: `SUB`  
+Extraction: complete. Main Markdown + extracted forms companion + bibliography files. See `anthony-2023/anthony-2023-readme.md`.  
+Primary use: systematic constraint model for PIE steppe homeland; background for `daughters.md` cultural framing. Lower priority than linguistic sources.
+
+---
+
+## _inbox — stubs and works needing narrative entries
+
+| Dir | Work | Notes |
 |---|---|---|
-| `clackson-2007` | Clackson 2007 | Stub only |
-| `de-goede-2014` | de Goede 2014 | Stub only |
-| `keydana-hock-widmer-eds` | Keydana, Hock & Widmer (eds.) | Stub only |
-| `koch-2020` | Koch 2020 | Stub only |
-| `kroonen-2012` | Kroonen 2012 | Stub only |
-| `kroonen-2016` | Kroonen 2016 | Stub only |
-| `matasovic-2010` | Matasović 2010 | Stub only |
+| `de-goede-2014` | de Goede 2014 — PhD thesis, derivational morphology as PIC evidence | Complete (third pass); suffix dataset (TSV + JSON) extracted. Needs narrative entry. TSV row present and marked complete. |
+| `kroonen-2012` | Kroonen 2012 — substrate root-noun candidates in PGmc | Complete (second pass); lexical dataset (CSV) extracted. Needs narrative entry. TSV row present and marked complete. |
+| `kroonen-2016` | Kroonen 2016 — etymology of 'apple', Wanderwort methodology | Complete (third pass); lexical comparanda (CSV) extracted. Needs narrative entry. TSV row present and marked complete. |
+| `matasovic-2008` | Matasović 2008 | PDF only; bibliographic details unconfirmed — verify title before adding entry. |
+| `matasovic-2010` | Matasović 2010 — "The etymology of Latin *focus* and the devoicing of final stops before \*s in PIE," *Historische Sprachforschung* 123: 212–216 | Third-pass extraction present. TSV status listed as stub — correct to complete. |
+| `koch-2020` | Koch 2020 | Extraction status unknown — check directory. |
 
 ---
 
@@ -194,15 +300,16 @@ Primary use: specific etymology for PIE \*méǵh₂- 'great'; laryngeal argument
 
 | Work | Roles | Status |
 |---|---|---|
-| Ringe 2024, *A Linguistic History of Greek* | `DIAC` | Not yet acquired |
-| Kroonen 2013, *Etymological Dictionary of Proto-Germanic* | `LEX` | Not yet extracted |
-| De Vaan 2008, *Etymological Dictionary of Latin* | `LEX` | Not yet extracted |
-| Derksen 2008, *Etymological Dictionary of the Slavic Inherited Lexicon* | `LEX` | Not yet acquired |
-| Derksen 2015, *Etymological Dictionary of the Baltic Inherited Lexicon* | `LEX` | Not yet acquired |
-| Beekes 2010, *Etymological Dictionary of Greek* | `LEX` | Not yet acquired |
-| LIV = Rix et al. 2001, *Lexikon der indogermanischen Verben*, 2nd ed. | `LEX` `DIAC` | Not yet acquired |
+| Kroonen 2013 (*EDPG*) | `LEX` | **Complete** — seventh-pass in `kroonen-2013/` |
+| Ringe 2024 | `DIAC` | **Complete** — in `ringe-2024/` |
+| LIV² — full dictionary body | `LEX` `DIAC` | Addenda/corrigenda complete (see `LIV²/`); full dictionary body not yet acquired — actively sought |
+| Olander 2022 | `DIAC` `SUB` | **Complete** — fourth-pass in `olander-2022/` (was listed as "Olander 2023") |
+| Derksen 2015 (*EDBIL*) | `LEX` | **Complete** — fourth-pass in `derksen-2015/` |
+| De Vaan 2008 (*EDL*) | `LEX` | PDF in `vaan-2008/` — extraction in progress (multiple passes) — incoming |
+| Matasović 2009 (*EDPC*) | `LEX` | Extraction in progress (multiple passes) — incoming |
+| Derksen 2008 (*EDLIL*) | `LEX` | PDF in `derksen-2008/` — extraction in progress (multiple passes) — incoming |
+| Beekes 2010 (*EDG*) | `LEX` | PDF in `beekes-2010/` — extraction in progress (multiple passes) — incoming |
 | Schrijver, Italo-Celtic linguistic unity | `DIAC` `SUB` | Not yet acquired — verify format (may be article, not monograph) |
-| Olander (ed.) 2023, *The Indo-European Language Family* | `SUB` | Not yet acquired |
 | Fortson 2010, *Indo-European Language and Culture*, 2nd ed. | `DIAC` `SUB` | Not yet acquired |
 | Dunkel 2014, *Lexikon der indogermanischen Partikeln und Pronominalstämme* | `LEX` | Not yet acquired |
 
@@ -212,6 +319,7 @@ Primary use: specific etymology for PIE \*méǵh₂- 'great'; laryngeal argument
 
 | Date | Change |
 |---|---|
+| 2026-05-02 | Filesystem audit. Added narrative entries for 13 previously undocumented or misclassified works: Ringe 2024, Kroonen 2013, LIV², Olander 2022, West 2007, Bjørn 2017, Clackson 2007, Clackson 2013, Fagiolo et al. 2024, Graça da Silva & Tehrani 2016, Mikhailova 2021, Anthony 2013, Anthony 2023. Updated _inbox: de-goede-2014, kroonen-2012, kroonen-2016 are complete (not stubs); matasović-2008 flagged as unconfirmed; keydana-hock-widmer-eds removed (no directory). Updated Pending table. Noted five etymological dictionaries extraction in progress. LIV² full body actively sought. Added source_id ASCII-normalization note. |
 | 2026-04-28 | Added `ONOM` and `CORP` role codes to taxonomy; updated 15 Prósper rows in `references-index.tsv`. |
 | 2026-04-28 | Added `references-index.tsv` — 50-row lookup index with `roles`, `extraction_status`, `keywords_source`, `keywords_parsed`, and `ghandwa_notes` for all current sources. |
 | 2026-04-28 | Added 10 missing entries (Eska 2018b, Eska 2023, Eska 2024, Höfler 2024, Klimp 2013, Koch 2019, Koch 2024, Kroonen et al. 2021, Kroonen et al. 2022, Wigman 2023). Corrected two wrong paths: `eska-2018/` → split into `eska-2018-laryngeal-realism/` and `eska-2018-celto-germanic-lexis/`; `van-sluis-et-al-2023/` → `sluis-2023/`. Added _inbox table. Marked in-progress extractions correctly. Moved 9 stale notes.md files to `_delete/`. |
