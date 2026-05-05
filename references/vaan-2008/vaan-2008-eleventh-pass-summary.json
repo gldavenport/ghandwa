@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-05-05T02:08:20Z",
+  "dictionary_entries": 1807,
+  "correction_actions_logged": 2285,
+  "remaining_page_collation_worklist_rows": 1431,
+  "field_verification_audit_rows": 2327,
+  "entries_needing_page_image_verification": 1604,
+  "missing_bibliography_rows": 10,
+  "character_authority_gate_passed": false,
+  "stress_terms_not_found": 2
+}

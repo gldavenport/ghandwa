@@ -1,0 +1,66 @@
+category,before,after,count,note
+Greek,aμcpL,ἀμφί,1,Greek ἀμφί; OCR mixed Latin/Greek/mu/cp/L
+Greek,μaKp6c;,μακρός,3,"Greek μακρός; OCR Latin K, 6, c;"
+Greek,μaKp6<;,μακρός,1,"Greek μακρός; OCR Latin K, 6, <;"
+Greek,μdKwv,μήκων,1,Greek μήκων; OCR d/K/w/v
+Greek,ovoμa,ὄνομα,3,Greek ὄνομα; OCR Latin o/v plus Greek μ
+Greek,Kanpoc;,κάπρος,1,Greek κάπρος; OCR K/an/c;
+Greek,Kavva.pLc;,κάνναβις,1,Greek κάνναβις; OCR Latin K/v/p/L/c;
+Greek,cptpw,φέρω,1,Greek φέρω; OCR cp/t/p/w
+Greek,£8w,ἔδω,1,Greek ἔδω; OCR pound/eight
+Greek,rrwA.oc;,πῶλος,1,Greek πῶλος; OCR rr/w/A/c;
+Greek,wA.EVTJ,ὠλένη,1,Greek ὠλένη; OCR w/A/EV/TJ
+Greek,8TJAd,θηλή,1,Greek θηλή; OCR 8/TJ/A/d
+Greek,ciJ6v,ᾠόν,1,Greek ᾠόν; OCR ciJ6v
+Greek,yuviJ,γυνή,1,Greek γυνή; OCR y/u/v/J
+Greek,nou<;,πούς,1,Greek πούς; OCR n/ou/<;
+Greek,noM<;,ποδός,1,Greek ποδός; OCR n/o/M/<;
+Greek,μi]TI]p,μήτηρ,1,Greek μήτηρ; OCR i]/TI]
+Greek,crrEi.xw,στείχω,1,Greek στείχω; OCR crr/Ei.xw
+Greek,μu<;,μῦς,2,Greek μῦς; OCR u/<;
+Greek,ZEU<;,Ζεύς,1,Greek Ζεύς; OCR <;
+Greek,£5EL4a,ἔδειξα,1,Greek ἔδειξα; OCR pound/5/4
+Greek,mtpvri,πτέρνη,1,Greek πτέρνη; OCR mtpvri
+Greek,6KTw,ὀκτώ,1,Greek ὀκτώ; OCR 6/K/w
+Greek,q>uoμm,φύομαι,1,Greek φύομαι; OCR q>/m
+Greek,ilA.Loc;,ἥλιος,1,Greek ἥλιος; OCR ilA.Loc;
+Greek,MA.we;,ἅλιος,1,Greek Doric ἅλιος; OCR MA.we;
+Greek,n:6TEpo<;,πότερος,1,Greek πότερος; OCR n:/6/TE/<;
+Greek,y6vu,γόνυ,4,Greek γόνυ; OCR y/6/v
+Greek,l'lEpμ6c;,θερμός,1,Greek θερμός; OCR l'lEpμ6c;
+Greek,not'lfo.>,ποθέω,1,Greek ποθέω; OCR not/lfo/>
+Greek,-3i)p,θήρ,1,Greek θήρ; OCR -3i)p
+Greek,£v(v)£nw,ἐν(ν)έπω,1,Greek ἐν(ν)έπω; OCR pound signs
+Greek,"aLO""'CO؏",ἄιστος,1,Greek ἄιστος; OCR Latin/Arabic mark
+Greek,TtETawuμL,πετάννυμι,1,Greek πετάννυμι; OCR Tt/aw/μL
+Greek,Ttfiμa,πῆμα,1,Greek πῆμα; OCR Ttfiμa
+Greek,TtTlaaw,πτίσσω,1,Greek πτίσσω; OCR TtTlaaw
+Greek,TtTlOaVTJ,πτισάνη,1,Greek πτισάνη; OCR TtTlOaVTJ
+Greek,x-OE<;,χθές,1,Greek χθές; OCR x-OE<;
+Greek,xfJ£<;,χθές,1,Greek χθές; OCR xfJ£<;
+Greek,xav&xvw,χανδάνω,1,Greek χανδάνω; OCR &/vw
+Greek,cp£pw,φέρω,2,Greek φέρω; OCR cp£pw
+Indic,pdr$Qi-,pārṣṇi-,1,Sanskrit pārṣṇi-; OCR $Q
+Indic,mtiTJ1sa-,māṃsa-,1,Sanskrit māṃsa-; OCR tiTJ1
+Indic,v&ta-,vāta-,5,Sanskrit vāta-; OCR ampersand
+Indic,a$t&,aṣṭā,1,Sanskrit aṣṭā; OCR dollar/ampersand
+Indic,a$t<iu,aṣṭaú,1,Sanskrit aṣṭaú; OCR dollar/<i
+Indic,panthtis,pánthās,2,Sanskrit pánthās; OCR ti for ā
+Indic,path<is,pathás,1,Sanskrit genitive pathás; OCR <i
+Indic,bhT)dh,bhṇdh,1,Sanskrit/PIE syllabic nasal in bhṇdh; OCR T)
+Indic,puraJ:i,puráḥ,1,Sanskrit puráḥ; OCR J:i
+Indic,cakr<i-,cakrá-,1,Sanskrit cakrá-; OCR <i
+Indic,up<iri,upári,1,Sanskrit upári; OCR <i
+Indic,6.pi,ápi,1,Sanskrit ápi; OCR 6
+Indic,tfTJ.a-,tṛṇa-,1,Sanskrit tṛṇa-; OCR fTJ
+Indic,muݺ-,mūṣ-,1,Sanskrit mūṣ-; OCR Arabic/Indic remnant
+Indic,mp:i&ti,mṛṇāti,1,Sanskrit mṛṇāti; OCR p:i&
+Indic,pin6$ti,pináṣṭi,1,Sanskrit pináṣṭi; OCR 6/$
+Indic,pif!l.$Gnti,piṃṣánti,1,Sanskrit piṃṣánti; OCR !l.$G
+Indic,$thivati,ṣṭhívati,3,Sanskrit ṣṭhívati; OCR $
+Indic,stabhn&ti,stabhnāti,2,Sanskrit stabhnāti; OCR &
+Indic,s&khii-,sákhā-,2,Sanskrit sákhā-; OCR &/ii
+Indic,bij6ti,bíbhēti,3,Sanskrit bíbhēti; OCR bij6
+Indic,bibh&ya,bibhā́ya,3,Sanskrit bibhā́ya; OCR &
+Indic,s<irikate,śr̥ṇóti,2,Sanskrit śr̥ṇóti; OCR cluster; conservative common reading
+Greek,Gr\. £m\b,Gr. ἐπί,1,Greek ἐπί after Gr. abbreviation

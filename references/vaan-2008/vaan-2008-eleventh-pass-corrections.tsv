@@ -1,0 +1,35 @@
+kind	old	new	count	scope	note
+metadata	"extraction_date: ""[^""]+"""	"extraction_date: ""2026-05-05"""	1	main-markdown	
+metadata	"extraction_method: ""[^""]+"""	"extraction_method: ""Eleventh-pass residual-label repair, bibliography-field rescue, limited page-image Sanskrit correction, gate retest"""	1	main-markdown	
+metadata	"pass_status: ""[^""]+"""	"pass_status: ""eleventh pass; residual parser/label cleanup and retest; not character-authoritative because remaining page-image collation worklist persists"""	1	main-markdown	
+residual-bibliography-label-repair	Bibt:	Bibl.:	3	main-markdown	
+residual-bibliography-label-repair	Bibh:	Bibl.:	5	main-markdown	
+residual-bibliography-label-repair	Bibl;	Bibl.:	1	main-markdown	
+targeted-residual-form-repair	IEW 935-938. → cnnis	IEW 935-938. → crinis	1	main-markdown	
+targeted-residual-form-repair	EM 151, IEW	EM 151, IEW	5	main-markdown	
+targeted-residual-form-repair	WH I: 292f,	WH I: 292f.,	1	main-markdown	
+targeted-residual-form-repair	WH I: 640f,	WH I: 640f.,	1	main-markdown	
+targeted-residual-form-repair	Bibl.: WH I: 57, EM 38, IEW 50f → ab	Bibl.: WH I: 57, EM 38, IEW 50f. → ab	1	main-markdown	
+targeted-residual-form-repair	Untermann 2000:44ff.	Untermann 2000: 44ff.	1	main-markdown	
+targeted-residual-form-repair	LIV ?*hjerk-.	LIV ?*h₁erk-.	1	main-markdown	
+targeted-residual-form-repair	ercTscO, -ere 4to divide	ercīscō, -ere 'to divide	1	main-markdown	
+targeted-residual-form-repair	genuT, ppp, gentium	genuī, ppp. genitum	1	main-markdown	
+targeted-residual-form-repair	Vairo	Varro	15	main-markdown	
+targeted-residual-form-repair	Pl.Cato	Pl., Cato	1	main-markdown	
+targeted-residual-form-repair	iuvo, -are 'to help	iuvō, -āre 'to help	1	main-markdown	
+targeted-residual-form-repair	pf iuvi, ppp. iutum	pf. iūvī, ppp. iūtum	1	main-markdown	
+targeted-residual-form-repair	li/ubitum	lubitum	1	main-markdown	
+targeted-residual-form-repair	mando, -ere 'to chew	mandō, -ere 'to chew	1	main-markdown	
+targeted-residual-form-repair	pf. mandi, ppp. mansurn	pf. mandī, ppp. mānsum	1	main-markdown	
+targeted-residual-form-repair	pango,-ere	pangō, -ere	2	main-markdown	
+targeted-residual-form-repair	sepeliO, -ire	sepeliō, -īre	1	main-markdown	
+targeted-residual-form-repair	s.v. apncus	s.v. aprīcus	1	main-markdown	
+targeted-residual-form-repair	apio from aplscor	apio from apīscor	1	main-markdown	
+page-image-spot-collation	Skt pr \fnoti (RV+), urnui^ aor. avar	Skt. pr. vṛṇóti (RV+), vṛṇute, aor. avar	1	aperiō entry	visible enough in rendered page; other Indo-Iranian forms left flagged
+page-image-spot-collation	pf. vavara [3s.act.], caus. varaya-	pf. vavāra [3s.act.], caus. vāraya-	1	aperiō entry	
+targeted-ocr-cleanup	Pit. *ap-wer-je-9	Pit. *ap-wer-je-	1	aperiō entry	
+targeted-ocr-cleanup	probus9 Paelign.	probus, Paelign.	1	aperiō entry	
+targeted-ocr-cleanup	operto 'to cover*	operīre 'to cover'	1	aperiō entry	
+ocr-quote-repair	\b4to 	'to 	184	main-markdown	
+ocr-quote-repair	\b4([A-Za-z])	'\1	173	main-markdown	
+label-linebreak-normalization	(?<!\n)\s+(Bibl\.:)	\n\n\1	1872	main-markdown	

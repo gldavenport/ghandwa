@@ -1,0 +1,23 @@
+test,before,after,status,note
+<E artifacts,131,0,PASS,automated count
+<i! artifacts,10,0,PASS,automated count
+<l! artifacts,20,16,PASS,automated count
+Latin-cluster angle artifacts,491,349,PASS,automated count
+replacement character,0,0,INFO,automated count
+control characters,0,0,INFO,automated count
+exact token <E,131,0,PASS,exact residual check
+exact token <i!,10,0,PASS,exact residual check
+exact token OEf<est,1,0,PASS,exact residual check
+exact token f<et,1,0,PASS,exact residual check
+exact token b<l!c,1,0,PASS,exact residual check
+exact token sp<Ec,4,0,PASS,exact residual check
+exact token spr<Ec,3,0,PASS,exact residual check
+exact token bh<irati,3,0,PASS,exact residual check
+exact token d<idhiiti,2,0,PASS,exact residual check
+exact token p<lr$ɣi,1,0,PASS,exact residual check
+exact token d<io,2,0,PASS,exact residual check
+exact token g<itt,2,0,PASS,exact residual check
+exact token t<ittur,2,0,PASS,exact residual check
+exact token �,0,0,PASS,exact residual check
+lexical dataset rows,,2867,INFO,simple regenerated entry-opening export
+page anchors,,0,PASS,expected 833

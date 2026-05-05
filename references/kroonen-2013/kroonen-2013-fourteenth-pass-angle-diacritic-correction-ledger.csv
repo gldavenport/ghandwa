@@ -1,0 +1,31 @@
+find,replace,hits,note
+<E,æ,131,OCR artifact for æ in Old English/Old Norse/phonetic [æ] and index forms
+<i!,ǣ,10,OCR artifact for ǣ in Old English forms
+OEf<est,OE fæst,1,High-confidence exact angle/diacritic artifact correction
+OE f<est,OE fæst,0,High-confidence exact angle/diacritic artifact correction
+ f<est, fæst,0,High-confidence exact angle/diacritic artifact correction
+f<et,fæt,1,High-confidence exact angle/diacritic artifact correction
+b<l!c,bæc,1,High-confidence exact angle/diacritic artifact correction
+ON r<l!na,ON ræna,1,High-confidence exact angle/diacritic artifact correction
+ r<l!na, ræna,0,High-confidence exact angle/diacritic artifact correction
+ON s<l!r,ON sær,1,High-confidence exact angle/diacritic artifact correction
+ s<l!r, sær,0,High-confidence exact angle/diacritic artifact correction
+ON k<l!sa,ON kæsa,1,High-confidence exact angle/diacritic artifact correction
+ k<l!sa, kæsa,0,High-confidence exact angle/diacritic artifact correction
+fj<ir,fjár,1,High-confidence exact angle/diacritic artifact correction
+d<io,dáð,2,High-confidence exact angle/diacritic artifact correction
+g<itt,gátt,2,High-confidence exact angle/diacritic artifact correction
+t<ittur,táttur,2,High-confidence exact angle/diacritic artifact correction
+bh<irati,bhárati,3,High-confidence exact angle/diacritic artifact correction
+d<idhiiti,dádhāti,2,High-confidence exact angle/diacritic artifact correction
+d<ihati,dáhati,1,High-confidence exact angle/diacritic artifact correction
+p<lr$ɣi-,pārṣṇi-,1,High-confidence exact angle/diacritic artifact correction
+p<lr$Qi-,pārṣṇi-,0,High-confidence exact angle/diacritic artifact correction
+p<irdate,párdate,1,High-confidence exact angle/diacritic artifact correction
+t<irati,tárati,2,High-confidence exact angle/diacritic artifact correction
+m<i!l,mǣl,0,High-confidence exact angle/diacritic artifact correction
+d<i!l,dǣl,0,High-confidence exact angle/diacritic artifact correction
+gr<i!g,grǣg,0,High-confidence exact angle/diacritic artifact correction
+st<i!l,stǣl,0,High-confidence exact angle/diacritic artifact correction
+cel-t<i!we,cel-tǣwe,0,High-confidence exact angle/diacritic artifact correction
+\bOEfæs(t)\b,OE fæs\1,0,insert missing space in OE fæst after angle correction
