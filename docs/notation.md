@@ -1,9 +1,10 @@
 # Ghandwa: Notation System
 
 ---
-last_updated: 2026-04-13T00:00-04:00
+last_updated: 2026-05-05T00:00-04:00
 session: "Added §§8–11: glide/semivowel conventions, Sharpscript long vowels, lexicon field conventions (verb citation, provenance, pre_root), and markdown document conventions (italicization, cognate column formatting). Absorbed content previously living only in project instructions."
 changelog:
+  - 2026-05-05T00:00-04:00 | stub sections added | Added §12 TODO stub (doublets/dialectal variants framework) and §13 TODO stub (Sophomore list gap analysis). Changelog and last_updated updated.
   - 2026-04-13T00:00-04:00 | 204 lines | Added §8 Glide and Semivowel Conventions (/j/ → ⟨i⟩; /w/ onset ⟨v⟩ vs coda ⟨u⟩). Added §9 Sharpscript Long Vowels (vowel doubling in script). Added §10 Lexicon Field Conventions (verb citation form = 3sg pres act ind; provenance PIE/PGh; pre_root asterisk convention). Added §11 Markdown and Document Conventions (italicization rule; cognate column `\*form-` vs `*form*`). Added normalization rule to §3 (ğ → ɣ in output).
   - 2026-03-22T18:00-04:00 | 139 lines | Added §7 Lexicon Entry Status Pipeline. Four tiers: stub (gloss reservation, no form), draft (has form, awaiting vetting), hold (has form, blocked on open question), canon (settled, usable in text). Minimum field requirements defined for each tier. Replaces prior ad-hoc labels (candidate→draft, unresolved→hold, canonical→canon).
   - 2026-03-14 | 129 lines | Converted from `ghandwa_notation.docx` to proper markdown. Reformatted all tables from whitespace-aligned to pipe-delimited markdown. Added metadata header. Content unchanged.
@@ -202,3 +203,39 @@ Conventions for prose documents, tables, and generated output across the project
 This applies to `cog_Celtic`, `cog_Germanic`, `cog_Italic`, and the other `cog_*` columns when their contents are rendered into documentation.
 
 **PIE reconstructions in prose.** Use escaped asterisk: `\*h₁éḱwos` → `*h₁éḱwos`. Not italicized.
+
+---
+
+## 12. Doublets and Dialectal Variants
+
+<!-- TODO: Write this section. -->
+
+**Status:** Stub. Content to be drafted.
+
+**Scope:** Conventions for when two reflexes of the same PIE root may coexist as separate canon entries in the lexicon, versus when one is a variant to be documented inline.
+
+**Criteria to formalize:**
+- Different stress environment at the syllabic resonant vocalization stage, producing distinct surface forms (e.g. *udṓr* vs. *vódar*)
+- Different dialect stratum within the pre-Ghandwa continuum (geographic split)
+- Different register (archaic/learned vs. vernacular)
+- Contact borrowing from Crotonian or another branch producing a form that diverges systematically from the inherited Ghandwa reflex (see `provenance` = `Crotonian` in lexicon schema)
+
+**Worked example to develop:** *udṓr* / *vódar* — two water words currently on hold; their relationship and distribution are unresolved. This pair should be the primary example once the criteria above are settled.
+
+**See also:** `docs/alt-phonologies.md` §6 (Crotonian) for the borrowing scenario that generates contact doublets.
+
+---
+
+## 13. Sophomore List Gap Analysis
+
+<!-- TODO: Execute this analysis when verb system is settled. -->
+
+**Status:** Stub. Task to be executed, not a convention to document.
+
+**What it is:** Rosenfelder's *Language Construction Kit* (2011) includes a ~350-word "Sophomore list" — a semantic extension of Swadesh 207 organized by domain (emotions, social/political structure, religion, material culture, cognitive verbs, speech act verbs, modals, seasons, time divisions). Swadesh 207 is the floor; the Sophomore list maps the next layer of coverage.
+
+**Task:** Run the Sophomore list against the current lexicon. For each item: (a) covered by a canon or draft entry, (b) covered by a stub, (c) not present. Output as a gap report in `docs/lexicon-gaps.md`.
+
+**When to do it:** After the verb system is settled, so that verbal entries (cognitive verbs, speech act verbs, modals) can be generated alongside nominals in the same pass.
+
+**Delegation:** Suitable for ChatGPT batch pass once the lexicon TSV is stable.
