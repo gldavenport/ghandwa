@@ -429,7 +429,7 @@ septám	sep.ˈtam	complete			seven		num		indecl				September		septḿ̥						can
 septamdekam	sep.tam.de.kam				seventeen (17)		num														draft	simplex	inherited																																																			
 sessós	ses.ˈsos	untested	sessozio	ses.ˈso.z͡jo	"seated, having sat"		adj		o/ā				sed		sedtós		sedtósyo				canon	simplex	inherited																		Motion	Posture																1																
 sī́	ˈsiː	complete	siā́s	si.ˈaːs	3sg feminine pronoun		pronoun														draft	simplex	inherited																		Quantity	Pronouns																																
-sízdeti	ˈsiz.de.ti	untested	sísdonti	ˈsiz.don.ti	to be sitting		verb				thematic	Ci-reduplicated	sed		sísdeti		sísdonti				draft	simplex	inherited																		Motion	Posture																																
+sízdeti	ˈsiz.de.ti	untested	sísdonti	ˈsiz.don.ti	to be sitting		verb				thematic	Ci-reduplicated	sed		sísdeti		sísdonti				draft	simplex	inherited																		Motion	Posture										to sit																						
 skaltís	skal.ˈtis	untested	skaltéis	skal.ˈte͡js	"splitting, cleaving"		noun		i	f			skelH		skl̥Htís		skl̥Htéys				draft	derivation	innovation																		Basic actions and technology	Making and crafting																																
 skéleti	ˈske.le.ti	untested	skélonti	ˈske.lon.ti	"to split, cleave"		verb				thematic	root	skelH								draft	simplex	inherited																		Basic actions and technology	Physical manipulation																																
 skélieti	ˈskel.je.ti	untested	skélionti	ˈskel.jon.ti	"to split, cleave"		verb				thematic	*-ye/o-	skelH		skelHyeti		skelHyonti				draft	simplex	inherited																		Basic actions and technology	Making and crafting										1																						
@@ -669,16 +669,16 @@ vrā́ts	ˈrʷaːts	complete	vardés	war.ˈdes	root		noun		root noun	f			wreh₂
 					"smear, daub"		verb						h₂lei								stub				Smear/daub family from *h₂lei-; same root with different derivatives (EDL; EDPG). Concordance PG form garbled.			*slīman-	"linō, -ere"												Basic actions and technology	Making and crafting																																
 					spin		verb						(s)pen								stub				Spin family *(s)pen-; Germanic and Italic (EDL; EDPG). Concordance PIE form was truncated; root reconstructed.			*spinnan-	neō (< *sneh₁-												Basic actions and technology	Making and crafting																																
 					"talk, speak"		verb														stub				Talk/speak from *tlokʷ-; Celtic-Italic isogloss (EDL; EDPC). Significant for western branch positioning.		*tlokʷ-i-		loquor												Speech and language	Speaking																																
-					sit		verb						sed								stub				Verb from *sed-; Celtic and Germanic (EDPC; EDPG). Cf. sessos (#329) for the participle. Swadesh core.		*sed-o-	*setjan-; *si-sd-e-													Motion	Posture					sessós					to sit																						
+					sit		verb						sed								stub				Verb from *sed-; Celtic and Germanic (EDPC; EDPG). Cf. sessos (#329) for the participle. Swadesh core.	Swadesh slot resolved by sízdeti	*sed-o-	*setjan-; *si-sd-e-													Motion	Posture					sízdeti					to sit																						
 					to scratch		verb														stub				verb; *(s)ker-																											1																						
 					to dig		verb						bʰedʰ								stub				verb; *bʰedʰ- or *gʷeydʰ-																											1																						
-					to tie		verb						bʰendʰ								stub				verb; *bʰendʰ- or *ney-																											1																						
-					to bite		verb						bʰeyd								stub				verb; *bʰeyd- or *denḱ-																											1																						
+léigeti	ˈlei̯.ɡe.ti	untested			to tie		verb				thematic	root	leig		leig-e-ti						draft	simplex	inherited		verb; *bʰendʰ- or *ney-																											1																						
+βéideti	ˈβei̯.de.ti	untested			to bite		verb				thematic	root	bheid		bheid-e-ti						draft	simplex	inherited		verb; *bʰeyd- or *denḱ-																											1																						
 					to fear		verb						bʰeyH								stub				verb; *bʰeyH-																											1																						
-					to blow		verb						bʰleh₁								stub				verb; *bʰleh₁-																											1																						
-					to suck		verb						dʰeh₁(y								stub				verb; *dʰeh₁(y)-																											1																						
-					to freeze		verb						gel								stub				"verb; *gel- — cf. gélu, gelús"																											1																						
-					to live		verb						gʷeyh₃								stub				"verb; *gʷeyh₃- — cf. gvītis, gvīvós"																											1																						
+βlēti	ˈβleː.ti	untested			to blow		verb				athematic	root	bhleh1		bhleh1-ti						draft	simplex	inherited		verb; *bʰleh₁-																											1																						
+sóugeti	ˈsou̯.ɡe.ti	untested			to suck		verb				thematic	root	sewg		sewg-e-ti						draft	simplex	inherited		verb; *dʰeh₁(y)-																											1																						
+próuzeti	ˈprou̯.ze.ti	untested			to freeze		verb				thematic	root	prews		prews-e-ti						draft	simplex	inherited		"verb; *gel- — cf. gélu, gelús"																											1																						
+gʷéjeti	ˈɡʷe.je.ti	untested			to live		verb				thematic	*-ye/o-	gwyh1		gwyh1-e-ti						draft	simplex	inherited		"verb; *gʷeyh₃- — cf. gvītis, gvīvós"																											1																						
 					to squeeze		verb						gʷʰen								stub				verb; *gʷʰen- or *mer-																											1																						
 					to breathe		verb						h₂enh₁								stub				verb; *h₂enh₁-																											1																						
 					to count		verb						h₂reyH								stub				verb; *h₂reyH- or *leyH-																											1																						
@@ -686,9 +686,9 @@ vrā́ts	ˈrʷaːts	complete	vardés	war.ˈdes	root		noun		root noun	f			wreh₂
 					to rub		verb						h₃er								stub				verb; *h₃er- or *terg-																											1																						
 					to fight		verb						katu								stub				verb; *katu- noun exists but no verb																											1																						
 					to laugh		verb						kleh₂								stub				verb; *kleh₂-																											1																						
-					to turn		verb														stub				verb; *kʷel- — cf. kvéklos																											1																						
+wérteti	ˈwer.te.ti	untested			to turn		verb				thematic	root	wert		wert-e-ti						draft	simplex	inherited		verb; *kʷel- — cf. kvéklos																											1																						
 					to swell		verb						ḱwey								stub				verb; *ḱwey- or *tewh₂-																											1																						
-					to lie (recline)		verb														stub				verb; *leǵʰ- or *ḱey-																											1																						
+léɣeti	ˈle.ɣe.ti	untested			to lie (recline)		verb				thematic	root	legh		legh-e-ti						draft	simplex	inherited		verb; *leǵʰ- or *ḱey-																											1																						
 					to wash		verb						lewh₃								stub				verb; *lewh₃-																											1																						
 					to wipe		verb						merg								stub				verb; *merg- or *terh₁-																											1																						
 					to fall		verb						ped								stub				verb; *ped- or *ḱad-																											1																						
@@ -696,18 +696,18 @@ vrā́ts	ˈrʷaːts	complete	vardés	war.ˈdes	root		noun		root noun	f			wreh₂
 					to float		verb						plew								stub				verb; *plew-																											1																						
 					to pull		verb						selk								stub				verb; *selk- or *dewk-																											1																						
 					to swim		verb						sneh₂								stub				verb; *sneh₂- or *plew-																											1																						
-					to spit		verb						spyew								stub				verb; *spyew-																											1																						
-					to stab		verb						stebʰ								stub				verb; *stebʰ- or *ḱer-																											1																						
+spéweti	ˈspe.we.ti	untested			to spit		verb				thematic	root	spew		spew-e-ti						draft	simplex	inherited		verb; *spyew-																											1																						
+stéigeti	ˈstei̯.ɡe.ti	untested			to stab		verb				thematic	root	steig		steig-e-ti						draft	simplex	inherited		verb; *stebʰ- or *ḱer-																											1																						
 					to push		verb						stewd								stub				verb; *stew-d- or *bʰew-																											1																						
-					to sew		verb						syuh₁								stub				verb; *syuh₁-																											1																						
+sjūjéti	sjuː.ˈje.ti	untested			to sew		verb				thematic	*-ye/o-	syuh1		syuh1-ye-ti						draft	simplex	inherited		verb; *syuh₁-																											1																						
 					to vomit		verb						wemh₁								stub				verb; *wemh₁-																											1																						
-					to hunt		verb						weyh₁								stub				verb; *weyh₁- or periphrastic																											1																						
+wéjeti	ˈwe.je.ti	untested			to hunt		verb				thematic	*-ye/o-	weyh1		weyh1-e-ti						draft	simplex	inherited		verb; *weyh₁- or periphrastic																											1																						
 					to hold		verb						seǵʰ								stub				verb; gap #17; *seǵʰ- or *kap-																											1																						
 					to flow		verb						srew								stub				verb; gap #18; *srew-																											1																						
-					to throw		verb						h₁yeh₁								stub				verb; gap #19; *h₁yeh₁- or *gʷelh₁-																											1																						
+wérpeti	ˈwer.pe.ti	untested			to throw		verb				thematic	root	werp		werp-e-ti						draft	simplex	inherited		verb; gap #19; *h₁yeh₁- or *gʷelh₁-																											1																						
 					to cut		verb						sek								stub				verb; gap #20; *sek-																											1																						
 					to play		verb														stub				verb; no obvious PIE root																											1																						
-					to sing		verb						keh₂n or geyH								stub																															1																						
-					to think		verb						men								stub																															1																						
+káneti	ˈka.ne.ti	untested			to sing		verb				thematic	root	kh2an		kh2an-e-ti						draft	simplex	inherited																													1																						
+méneti	ˈme.ne.ti	untested			to think		verb				thematic	root	men		men-e-ti						draft	simplex	inherited																													1																						
 					"save, help"		verb						ser or h₂ewk								stub																														1																							
 					rule (verb)		verb						h₃reǵ								stub																												1																									
