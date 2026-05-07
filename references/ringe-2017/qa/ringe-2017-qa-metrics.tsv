@@ -1,8 +1,0 @@
-file	bytes	chars	lines	page_anchors_numeric	page_anchor_range	front_matter_anchors	missing_numeric_page_anchors	pua_chars	replacement_chars	oldstyle_digit_glyphs	ligatures	literal_backslash_n	fence_tick_count	unbalanced_fences	linebreak_hyphen_candidates	long_alpha_words
-front	10833	10818	172	0		4		0	0	0	0	0	4	0	0	0
-chapter-1	11927	11884	64	4	1-4	0		0	0	0	0	0	0	0	0	0
-chapter-2	259032	246094	1909	79	5-83	0		0	0	0	0	0	90	0	1	0
-chapter-3	477423	454598	5625	157	84-240	0		0	0	0	0	0	610	0	0	0
-chapter-4	261566	251906	3570	89	241-329	0		0	0	0	0	0	232	0	5	0
-index-md	128972	119563	6118	0		0		0	0	0	0	0	0	0	0	0
-references-md	52364	50382	729	17	331-347	0		0	0	0	0	0	0	0	0	0

@@ -1,0 +1,38 @@
+{
+  "source_file": "ringe-pie-to-proto-germanic-2nd-ed.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "ringe-pie-to-proto-germanic-2nd-ed.md",
+    "ringe-pie-to-proto-germanic-2nd-ed-extraction-report.md",
+    "manifest.json"
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "applied; count unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "not applied globally; layout-preserving extraction used"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 1176,
+      "h2": 1414,
+      "h3": 176
+    },
+    "macron_a": 1028,
+    "macron_e": 1155,
+    "macron_i": 953,
+    "macron_o": 2000,
+    "macron_u": 401,
+    "schwa": 188,
+    "greek_chars": 4762,
+    "combining_diacritics": 1640,
+    "dagger": 0
+  },
+  "unresolved_count": 6,
+  "notes": "First-pass born-digital extraction; superscript ʷ/ʰ normalization and dense tables require targeted follow-up for character-authoritative use."
+}

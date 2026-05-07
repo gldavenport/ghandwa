@@ -1,0 +1,38 @@
+{
+  "source_file": "zair-2012-reflexes-pie-laryngeals-celtic.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "zair-2012-reflexes-pie-laryngeals-celtic.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-extraction-report.md",
+    "manifest.json"
+  ],
+  "corrections_applied": {
+    "ligature_repairs": 1205,
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": 1064
+  },
+  "markers_inserted": {
+    "unclear": 4,
+    "inferred_char": 2
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 860,
+      "h2": 1419,
+      "h3": 484
+    },
+    "macron_a": 1170,
+    "macron_e": 325,
+    "macron_i": 538,
+    "macron_o": 332,
+    "macron_u": 334,
+    "schwa": 84,
+    "greek_chars": 6845,
+    "combining_diacritics": 5420,
+    "dagger": 0
+  },
+  "unresolved_count": 6,
+  "notes": "Born-digital text-layer extraction; cover image described; index decolumnized; four Brill glyph mappings left as [unclear glyph]."
+}
