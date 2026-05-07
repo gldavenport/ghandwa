@@ -1,0 +1,1462 @@
+# Matasović 2009 — Proto-Celtic Entry Index
+
+Regenerated after tenth pass. Total lexical headings: 1456.
+
+| Page | Line | Headword | Gloss | Class | Heading |
+|---:|---:|---|---|---|---|
+| 28 | 1078 | *abalnā | apple-tree | Noun | *abalnā 'apple-tree' [Noun] |
+| 28 | 1089 | *abalo- | apple | Noun | *abalo- 'apple' [Noun] |
+| 28 | 1109 | *abanko- | beaver | Noun | *abanko- 'beaver' [Noun] |
+| 28 | 1113 | *abon- | river | Noun | *abon- 'river' [Noun] |
+| 29 | 1140 | *abrant- | eyelid | Noun | *abrant- 'eyelid' [Noun] |
+| 29 | 1144 | *ad | to | Prep | *ad 'to' [Prep] |
+| 29 | 1159 | *ada | hawthorn | Noun | *ada 'hawthorn' [Noun] |
+| 30 | 1172 | *ad-ber-tā | offering, victim | Noun | *ad-ber-tā 'offering, victim' [Noun] |
+| 30 | 1180 | *ad-dam-yo- | allow, permit | Vb | *ad-dam-yo- 'allow, permit' [Vb] |
+| 30 | 1188 | *adestu- | merit | Noun | *adestu- 'merit' [Noun] |
+| 30 | 1192 | *ad-kʷis-o- | see | Vb | *ad-kʷis-o- 'see' [Vb] |
+| 30 | 1201 | *ad-kubro- | wish | Noun | *ad-kubro- 'wish' [Noun] |
+| 30 | 1217 | *ad-ret-o- | reach, grasp | Vb | *ad-ret-o- 'reach, grasp' [Vb] |
+| 31 | 1227 | *ad-sad-yo- | very easy | Adverb | *ad-sad-yo- 'very easy' [Adverb] |
+| 31 | 1231 | *ad-tekʷ-o- | run to, approach | Vb | *ad-tekʷ-o- 'run to, approach' [Vb] |
+| 31 | 1240 | *ad(u)- | law | Noun | *ad(u)- 'law' [Noun] |
+| 31 | 1255 | *āg-V- | fear | Vb | *āg-V- 'fear' [Vb] |
+| 31 | 1269 | *aglo- | brood, litter | Noun | *aglo- 'brood, litter' [Noun] |
+| 32 | 1281 | *aglo- | wound, affliction | Noun | *aglo- 'wound, affliction' [Noun] |
+| 32 | 1294 | *ag-o- | drive | Vb | *ag-o- 'drive' [Vb] |
+| 32 | 1309 | *agos- | cow | Noun | *agos- 'cow' [Noun] |
+| 33 | 1339 | *agro- | carnage, battle | Noun | *agro- 'carnage, battle' [Noun] |
+| 33 | 1354 | *akro- | high | Adj | *akro- 'high' [Adj] |
+| 33 | 1370 | *alal(i)yo- | another, other | Pron | *alal(i)yo- 'another, other' [Pron] |
+| 34 | 1385 | *alamo- | herd, flock, movable proprety | Noun | *alamo- 'herd, flock, movable proprety' [Noun] |
+| 34 | 1395 | *albiyo- | world | Noun | *albiyo- 'world' [Noun] |
+| 34 | 1408 | *alnostu- | sweat, perspiration | Noun | *alnostu- 'sweat, perspiration' [Noun] |
+| 35 | 1425 | *al-o- | feed, raise | Vb | *al-o- 'feed, raise' [Vb] |
+| 35 | 1439 | *alten- | razor | Noun | *alten- 'razor' [Noun] |
+| 35 | 1453 | *altiyo- | fosterling, client | Noun | *altiyo- 'fosterling, client' [Noun] |
+| 35 | 1461 | *alto- | height, cliff | Noun | *alto- 'height, cliff' [Noun] |
+| 36 | 1475 | *altr-awon- | foster-uncle | Noun | *altr-awon- 'foster-uncle' [Noun] |
+| 36 | 1488 | *alyo- | other | Pron | *alyo- 'other' [Pron] |
+| 36 | 1505 | *am-o- | wash | Vb | *am-o- 'wash' [Vb] |
+| 37 | 1525 | *amaro- | wailing, crying | Noun | *amaro- 'wailing, crying' [Noun] |
+| 37 | 1531 | *ambaxto- | servant | Noun | *ambaxto- 'servant' [Noun] |
+| 37 | 1542 | *amben- | butter | Noun | *amben- 'butter' [Noun] |
+| 37 | 1565 | *ambi- | around | Prep | *ambi- 'around' [Prep] |
+| 37 | 1577 | *ambi-gʷan-o- | fight (each other) |  | *ambi-gʷan-o- 'fight (each other)' |
+| 38 | 1587 | *ambi-gab- | meet | Vb | *ambi-gab- 'meet' [Vb] |
+| 38 | 1595 | *ambi-rād-ī- | think | Vb | *ambi-rād-ī- 'think' [Vb] |
+| 38 | 1602 | *ambliyon- | navel | Noun | *ambliyon- 'navel' [Noun] |
+| 38 | 1612 | *amo- | time | Noun | *amo- 'time' [Noun] |
+| 38 | 1622 | *amsterā | time, moment | Noun | *amsterā 'time, moment' [Noun] |
+| 39 | 1643 | *ana- | remain | Vb | *ana- 'remain' [Vb] |
+| 39 | 1663 | *anami | blemish, fault | Noun | *anami 'blemish, fault' [Noun] |
+| 39 | 1679 | *anamon- | soul | Noun | *anamon- 'soul' [Noun] |
+| 40 | 1694 | *anatla | breath | Noun | *anatla 'breath' [Noun] |
+| 40 | 1709 | *andera | young woman | Noun | *andera 'young woman' [Noun] |
+| 40 | 1725 | *andom | inside, there | Adverb | *andom 'inside, there' [Adverb] |
+| 41 | 1743 | *aneg-tlo- | refuge, protection | Noun | *aneg-tlo- 'refuge, protection' [Noun] |
+| 41 | 1754 | *angʷina | nail | Noun | *angʷina 'nail' [Noun] |
+| 41 | 1769 | *angu- | narrow | Adj | *angu- 'narrow' [Adj] |
+| 42 | 1800 | *ankoto- | hook, paw | Noun | *ankoto- 'hook, paw' [Noun] |
+| 42 | 1815 | *anku- | death | Noun | *anku- 'death' [Noun] |
+| 43 | 1837 | *anman | name | Noun | *anman 'name' [Noun] |
+| 43 | 1859 | *an-men-V- | patience, forbearance | Noun | *an-men-V- 'patience, forbearance' [Noun] |
+| 43 | 1874 | *anniyo- | ring | Noun | *anniyo- 'ring' [Noun] |
+| 44 | 1889 | *ansyo- | reins | Noun | *ansyo- 'reins' [Noun] |
+| 44 | 1898 | *anto- | border, limit | Noun | *anto- 'border, limit' [Noun] |
+| 44 | 1909 | *antono- | forehead | Noun | *antono- 'forehead' [Noun] |
+| 44 | 1921 | *anuxto- | what is unpronounced, mistake in versification |  | *anuxto- 'what is unpronounced, mistake in versification' |
+| 44 | 1927 | *anxtu- | slaughter | Noun | *anxtu- 'slaughter' [Noun] |
+| 44 | 1931 | *aramo- | quiet | Adj | *aramo- 'quiet' [Adj] |
+| 45 | 1949 | *aratro- | plow | Noun | *aratro- 'plow' [Noun] |
+| 45 | 1961 | *arawar | grain, cereal | Noun | *arawar / *arawen- 'grain, cereal' [Noun] |
+| 45 | 1978 | *ardi- | point, extremity, direction | Noun | *ardi- 'point, extremity, direction' [Noun] |
+| 45 | 1986 | *ardwo- | high | Adj | *ardwo- 'high' [Adj] |
+| 46 | 2009 | *arganto- | silver | Noun | *arganto- 'silver' [Noun] |
+| 46 | 2038 | *argyo- | white | Noun | *argyo- 'white' [Adj], 'snow' [Noun] |
+| 47 | 2056 | *aro- | ploughing, ploughed land | Noun | *aro- 'ploughing, ploughed land' [Noun] |
+| 47 | 2066 | *aron- | kidney | Noun | *aron- 'kidney' [Noun] |
+| 47 | 2085 | *arto- | bear | Noun | *arto- 'bear' [Noun] |
+| 48 | 2110 | *arto- | stone | Noun | *arto- 'stone' [Noun] |
+| 48 | 2119 | *aryo- | free man | Noun | *aryo- 'free man' [Noun] |
+| 48 | 2134 | *ar-yo- | to plough | Vb | *ar-yo- 'to plough' [Vb] |
+| 49 | 2151 | *ās- | mouth | Noun | *ās- 'mouth' [Noun] |
+| 49 | 2169 | *asseli- | joint, part | Noun | *asseli- 'joint, part' [Noun] |
+| 49 | 2178 | *assowyo- | left | Adj | *assowyo- 'left' [Adj] |
+| 49 | 2190 | *astn(iy)o- | rib | Noun | *astn(iy)o- 'rib' [Noun] |
+| 50 | 2210 | *ati- | furnace, oven | Noun | *ati- 'furnace, oven' [Noun] |
+| 50 | 2222 | *ati-daw-ino- | firebrand |  | *ati-daw-ino- 'firebrand' |
+| 50 | 2228 | *ati-gʷan-o- | strike again | Vb | *ati-gʷan-o- 'strike again' [Vb] |
+| 50 | 2235 | *ati-liy-o- | stick, adhere to | Vb | *ati-liy-o- 'stick, adhere to' [Vb] |
+| 50 | 2242 | *ati-nuw-o- | promise, assent to | Vb | *ati-nuw-o- 'promise, assent to' [Vb] |
+| 51 | 2261 | *attreba | settlement | Noun | *attreba 'settlement' [Noun] |
+| 51 | 2274 | *attyo- | father, foster father | Noun | *attyo- 'father, foster father' [Noun] |
+| 51 | 2289 | *aw | from | Prep | *aw 'from' [Prep] |
+| 51 | 2308 | *aw- | negative prefix and particle | Particle | *aw- 'negative prefix and particle' [Particle] |
+| 52 | 2320 | *aw-bero- | vain | Adj | *aw-bero- 'vain' [Adj] |
+| 52 | 2332 | *awē-C- | inspiration, insight | Noun | *awē-C- 'inspiration, insight' [Noun] |
+| 52 | 2343 | *awela | breeze, wind | Noun | *awela 'breeze, wind' [Noun] |
+| 52 | 2357 | *awislo- | wish, desire | Noun | *awislo- 'wish, desire' [Noun] |
+| 53 | 2373 | *awon-tir, | uncle | Noun | *awon-tir, *awon-tro- 'uncle' [Noun] |
+| 53 | 2388 | *awsetlo- | (flesh-)fork | Noun | *awsetlo- '(flesh-)fork' [Noun] |
+| 53 | 2404 | *awsos- | ear | Noun | *awsos- 'ear' [Noun] |
+| 54 | 2420 | *aw-tlto- | scarce | Adj | *aw-tlto- 'scarce' [Adj] |
+| 54 | 2435 | *awV- | liver | Noun | *awV- (?) 'liver' [Noun] |
+| 54 | 2454 | *aw-yo- | protect | Vb | *aw-yo- 'protect' [Vb] |
+| 55 | 2488 | *awyo- | egg | Noun | *awyo- 'egg' [Noun] |
+| 55 | 2505 | *axsi- | back | Noun | *axsi- 'back' [Noun] |
+| 55 | 2509 | *axsila | axis | Noun | *axsila 'axis' [Noun] |
+| 56 | 2535 | *ay-sso-, | life, age | Noun | *ay-sso-, *ay-to- 'life, age' [Noun] |
+| 56 | 2555 | *aydu- | fire | Noun | *aydu- 'fire' [Noun] |
+| 57 | 2573 | *bl-, | die | Vb | *bl-, *ba-yo- 'die' [Vb] |
+| 57 | 2584 | *bād-ī- | dive, drown | Vb | *bād-ī- 'dive, drown' [Vb] |
+| 57 | 2601 | *bakko- | hook, (curved) stick, hook | Noun | *bakko- 'hook, (curved) stick, hook' [Noun] |
+| 58 | 2623 | *balko- | strong | Adj | *balko- 'strong' [Adj] |
+| 58 | 2643 | *ballo- | member, penis | Noun | *ballo- 'member, penis' [Noun] |
+| 58 | 2654 | *bal-ni- | throw away, die | Vb | *bal-ni- 'throw away, die' [Vb] |
+| 59 | 2680 | *bandi-, | melodious, harmonious | Adj | *bandi-, *bando- 'melodious, harmonious' [Adj] |
+| 59 | 2691 | *bando- | peak, top | Noun | *bando- 'peak, top' [Noun] |
+| 59 | 2709 | *bandyo- | drop | Noun | *bandyo- 'drop' [Noun] |
+| 60 | 2722 | *bllno- | white, shining | Adj | *bllno- 'white, shining' [Adj] |
+| 60 | 2732 | *banssu- | custom, habit |  | *banssu- 'custom, habit' |
+| 60 | 2753 | *banwo- | young pig, piglet | Noun | *banwo- 'young pig, piglet' [Noun] |
+| 61 | 2768 | *barag(en)o/a | (barley) bread | Noun | *barag(en)o/a '(barley) bread' [Noun] |
+| 61 | 2785 | *bar(an)- | fury, anger | Noun | *bar(an)- 'fury, anger' [Noun] |
+| 61 | 2799 | *bardo- | bard, poet | Noun | *bardo- 'bard, poet' [Noun] |
+| 62 | 2820 | *btrego- | morning | Noun | *btrego- 'morning' [Noun] |
+| 62 | 2837 | *barina | rock, rocky ground | Noun | *barina 'rock, rocky ground' [Noun] |
+| 63 | 2865 | *barro- | point, top | Noun | *barro- 'point, top' [Noun] |
+| 63 | 2880 | *baski- | bundle | Noun | *baski- 'bundle' [Noun] |
+| 63 | 2896 | *basko- | red | Adj | *basko- 'red' [Adj] |
+| 64 | 2912 | *basto- | death | Noun | *basto- 'death' [Noun] |
+| 64 | 2925 | *bato- | death | Noun | *bato- 'death' [Noun] |
+| 64 | 2937 | *bebru- | beaver | Noun | *bebru- 'beaver' [Noun] |
+| 64 | 2951 | *bedo- | grave, ditch | Noun | *bedo- 'grave, ditch' [Noun] |
+| 65 | 2974 | *bego- | break | Vb | *bego- 'break' [Vb] |
+| 65 | 2988 | *bek(k)o- | beak, snout |  | *bek(k)o- 'beak, snout' |
+| 65 | 2996 | *bekko- | small | Adj | *bekko- 'small' [Adj] |
+| 66 | 3012 | *bel-o- | strike | Vb | *bel-o- 'strike' [Vb] |
+| 66 | 3024 | *belyo- | tree | Noun | *belyo- 'tree' [Noun] |
+| 66 | 3036 | *benā,*bena | woman | Noun | *benā,*bena 'woman' [Noun] |
+| 67 | 3063 | *berga | pillage, robbery | Noun | *berga 'pillage, robbery' [Noun] |
+| 67 | 3074 | *ber-o- | carry, bear, bring | Vb | *ber-o- 'carry, bear, bring' [Vb] |
+| 67 | 3091 | *beru- | spit | Noun | *beru- 'spit' [Noun] |
+| 67 | 3105 | *beruro- | watercress | Noun | *beruro- 'watercress' [Noun] |
+| 68 | 3125 | *berw-a-, | brew, cook | Vb | *berw-a-, *berw-i- 'brew, cook' [Vb] |
+| 68 | 3142 | *berwo- | stew | Noun | *berwo- 'stew' [Noun] |
+| 68 | 3146 | *berxto- | bright, beautiful | Adj | *berxto- 'bright, beautiful' [Adj] |
+| 69 | 3169 | *be-sman | blow | Noun | *be-sman 'blow' [Noun] |
+| 69 | 3181 | *beto-, | food | Noun | *beto-, *biyato- 'food' [Noun] |
+| 69 | 3198 | *betu- | birch | Noun | *betu- 'birch' [Noun] |
+| 70 | 3227 | *bibud- | guilty | Adj | *bibud- 'guilty' [Adj] |
+| 70 | 3239 | *biko- | bee | Noun | *biko- 'bee' [Noun] |
+| 70 | 3256 | *bi-na- | strike, hit | Vb | *bi-na- 'strike, hit' [Vb] |
+| 71 | 3276 | *birro- | short | Adj | *birro- 'short' [Adj] |
+| 71 | 3287 | *bisli- | gall | Noun | *bisli- 'gall' [Noun] |
+| 71 | 3300 | *bisti- | finger | Noun | *bisti- 'finger' [Noun] |
+| 72 | 3317 | *bitu- | world | Noun | *bitu- 'world' [Noun] |
+| 72 | 3336 | *biwo- | alive | Adj | *biwo- 'alive' [Adj] |
+| 72 | 3351 | *bīwV- | pitch | Noun | *bīwV- 'pitch' [Noun] |
+| 72 | 3361 | *blātu- | flower | Noun | *blātu- 'flower' [Noun] |
+| 73 | 3379 | *blāwo- | yellow | Adj | *blāwo- 'yellow' [Adj] |
+| 73 | 3399 | *blVdV- | wolf, ?large predator | Noun | *blVdV- 'wolf, ?large predator' [Noun] |
+| 74 | 3417 | *bledā | year | Noun | *bledā 'year' [Noun] |
+| 74 | 3421 | *bledani | year | Noun | *bledani 'year' [Noun] |
+| 74 | 3440 | *bodaro- | deaf | Adj | *bodaro- 'deaf' [Adj] |
+| 74 | 3451 | *bodiyā | pleasure | Noun | *bodiyā 'pleasure' [Noun] |
+| 74 | 3455 | *bodo- | pleasure | Noun | *bodo- 'pleasure' [Noun] |
+| 75 | 3470 | *bodwo- | crow | Noun | *bodwo- 'crow' [Noun] |
+| 75 | 3483 | *bodyo- | yellow | Adj | *bodyo- 'yellow' [Adj] |
+| 75 | 3495 | *bolgo- | sack, bag, stomach | Noun | *bolgo- 'sack, bag, stomach' [Noun] |
+| 75 | 3510 | *bondyo- | (arm-)ring, circlet, bracelet | Noun | *bondyo- '(arm-)ring, circlet, bracelet' [Noun] |
+| 76 | 3524 | *bonu- | foundation, base, butt | Noun | *bonu- 'foundation, base, butt' [Noun] |
+| 76 | 3533 | *bostā | palm, fist | Noun | *bostā 'palm, fist' [Noun] |
+| 76 | 3552 | *bow- | cow | Noun | *bow- 'cow' [Noun] |
+| 77 | 3575 | *bowdi- | booty, victory | Noun | *bowdi- 'booty, victory' [Noun] |
+| 77 | 3590 | *bowd-ro- | dirty | Adj | *bowd-ro- 'dirty' [Adj] |
+| 77 | 3602 | *bow-koli- | cowherd, herdsman | Noun | *bow-koli- 'cowherd, herdsman' [Noun] |
+| 77 | 3614 | *bragant- | neck, throat | Noun | *bragant- 'neck, throat' [Noun] |
+| 78 | 3637 | *bragno-, | rotten, faul | Adj | *bragno-, *bragni- 'rotten, faul' [Adj] |
+| 78 | 3650 | *brag-(y)o- | fart | Vb | *brag-(y)o- 'fart' [Vb] |
+| 78 | 3664 | *brano- | raven | Noun | *brano- 'raven' [Noun] |
+| 79 | 3682 | *brasso- | great, violent | Adj | *brasso- 'great, violent' [Adj] |
+| 79 | 3702 | *brltir | brother | Noun | *brltir 'brother' [Noun] |
+| 79 | 3715 | *brltu- | judgement | Noun | *brltu- 'judgement' [Noun] |
+| 80 | 3730 | *bratto-, | mantle, cloak | Noun | *bratto-, *brattino- 'mantle, cloak' [Noun] |
+| 80 | 3745 | *brawon- | quem, millstone | Noun | *brawon- 'quem, millstone' [Noun] |
+| 80 | 3765 | *braxsman- | fart | Noun | *braxsman- 'fart' [Noun] |
+| 81 | 3777 | *bre-/*bri- | cut, crumble | Vb | *bre-/*bri- 'cut, crumble' [Vb] |
+| 81 | 3784 | *brem-o- | bleat, bellow, roar | Vb | *brem-o- 'bleat, bellow, roar' [Vb] |
+| 81 | 3792 | *brend-o- | flow, spurt out | Vb | *brend-o- 'flow, spurt out' [Vb] |
+| 81 | 3806 | *brenk- | bring | Vb | *brenk- 'bring' [Vb] |
+| 81 | 3818 | *bresta | fight, combat | Noun | *bresta 'fight, combat' [Noun] |
+| 82 | 3835 | *bretrā | word | Noun | *bretrā 'word' [Noun] |
+| 82 | 3852 | *brig- | hill | Noun | *brig- 'hill' [Noun] |
+| 82 | 3871 | *brigantīno- | chief | Noun | *brigantīno- 'chief' [Noun] |
+| 82 | 3875 | *brigo/ā | might, power | Noun | *brigo/ā 'might, power' [Noun] |
+| 83 | 3896 | *brikko- | speckled | Adj | *brikko- 'speckled' [Adj] |
+| 83 | 3912 | *brisko- | weak, fragile | Adj | *brisko- 'weak, fragile' [Adj] |
+| 83 | 3924 | *bristi- | haste | Noun | *bristi- 'haste' [Noun] |
+| 84 | 3937 | *briti- | carrying, judgement | Noun | *briti- 'carrying, judgement' [Noun] |
+| 84 | 3950 | *brīwā | bridge | Noun | *brīwā 'bridge' [Noun] |
+| 84 | 3965 | *brixtilo- | trout | Noun | *brixtilo- 'trout' or 'mackerel' [Noun] |
+| 84 | 3969 | *brixtu- | magical formula, incantation | Noun | *brixtu- 'magical formula, incantation' [Noun] |
+| 85 | 3991 | *brokko- | badger | Noun | *brokko- 'badger' [Noun] |
+| 85 | 4004 | *brozdo- | point, tip | Noun | *brozdo- 'point, tip' [Noun] |
+| 85 | 4020 | *brii- | brow | Noun | *brii- 'brow' [Noun] |
+| 86 | 4047 | *bruso- | fragile | Adj | *bruso- 'fragile' [Adj] |
+| 86 | 4051 | *bruson- | abdomen, womb | Noun | *bruson- 'abdomen, womb' [Noun] |
+| 86 | 4064 | *brustniyo- | faggot, (bundle of) firewood | Noun | *brustniyo- 'faggot, (bundle of) firewood' [Noun] |
+| 86 | 4081 | *brutu- | fermentation, (boiling) heat | Noun | *brutu- 'fermentation, (boiling) heat' [Noun] |
+| 87 | 4098 | *bruwo- | quantity, multitude | Noun | *bruwo- 'quantity, multitude' [Noun] |
+| 87 | 4110 | *budīnā | troop, host | Noun | *budīnā 'troop, host' [Noun] |
+| 87 | 4121 | *buggo- | soft, tender | Adj | *buggo- 'soft, tender' [Adj] |
+| 88 | 4138 | *bukko- | goat | Noun | *bukko- 'goat' [Noun] |
+| 88 | 4155 | *bundo- | sole of foot, base, floor | Noun | *bundo- 'sole of foot, base, floor' [Noun] |
+| 88 | 4165 | *bu-n-do- | proclaim, give notice | Vb | *bu-n-do- 'proclaim, give notice' [Vb] |
+| 89 | 4189 | *bu-n-g-o- | break | Vb | *bu-n-g-o- 'break' [Vb] |
+| 89 | 4204 | *bunno- | owl, bittern | Noun | *bunno- 'owl, bittern' [Noun] |
+| 89 | 4215 | *burro- | inflated, swollen | Adj | *burro- 'inflated, swollen' [Adj] |
+| 89 | 4224 | *bussu- | lip | Noun | *bussu- 'lip' [Noun] |
+| 89 | 4237 | *butl | place, dwelling, hut | Noun | *butl 'place, dwelling, hut' [Noun] |
+| 90 | 4257 | *bu-yo- | be, become | Vb | *bu-yo- 'be, become' [Vb] |
+| 90 | 4280 | *buzdo- | tail, penis | Noun | *buzdo- 'tail, penis' [Noun] |
+| 91 | 4306 | *da- | give | Vb | *da- 'give' [Vb] |
+| 91 | 4330 | *dago- | good | Adj | *dago- 'good' [Adj] |
+| 92 | 4349 | *dakro- | tear | Noun | *dakro- 'tear' [Noun] |
+| 92 | 4375 | *dallo- | blind | Adj | *dallo- 'blind' [Adj] |
+| 93 | 4396 | *dal-n- | come into being, turn into something | Vb | *dal-n- 'come into being, turn into something' [Vb] |
+| 93 | 4413 | *dīlo- | share, part | Noun | *dīlo- 'share, part' [Noun] |
+| 93 | 4423 | *dam-na- | subdue, break a horse | Vb | *dam-na- 'subdue, break a horse' [Vb] |
+| 93 | 4432 | *damo/a- | retinue | Noun | *damo/a- 'retinue' [Noun] |
+| 94 | 4460 | *damo-, | bull | Noun | *damo-, *damato- 'bull' [Noun] |
+| 94 | 4477 | *dam-yo- | allow, permit, endure | Vb | *dam-yo- 'allow, permit, endure' [Vb] |
+| 95 | 4498 | *danu- | gift | Noun | *danu- 'gift' [Noun] |
+| 95 | 4508 | *danto- | tooth | Noun | *danto- 'tooth' [Noun] |
+| 95 | 4523 | *darno- | piece, part | Noun | *darno- 'piece, part' [Noun] |
+| 96 | 4545 | *daru- | oak | Noun | *daru- 'oak' [Noun] |
+| 96 | 4562 | *dar(y)o- | bull | Vb | *dar(y)o- 'bull' [Vb] |
+| 96 | 4573 | *dasti- | heap, pile | Noun | *dasti- 'heap, pile' [Noun] |
+| 97 | 4591 | *datla | assembly, meeting | Noun | *datla 'assembly, meeting' [Noun] |
+| 97 | 4609 | *dawna | poem | Noun | *dawna 'poem' [Noun] |
+| 97 | 4623 | *daw-yo- | kindle, bum | Vb | *daw-yo- 'kindle, bum' [Vb] |
+| 98 | 4638 | *da-yo- | ail, trouble | Vb | *da-yo- 'ail, trouble' [Vb] |
+| 98 | 4651 | *dedmV- | rite, ceremony, usage | Noun | *dedmV- 'rite, ceremony, usage' [Noun] |
+| 98 | 4663 | *degʷi- | flame, blaze | Noun | *degʷi- 'flame, blaze' [Noun] |
+| 98 | 4677 | *dekam | ten | Num | *dekam 'ten' [Num] |
+| 99 | 4696 | *dekos | honor, pride | Noun | *dekos 'honor, pride' [Noun] |
+| 99 | 4709 | *delg-o- | hold, contain | Vb | *delg-o- 'hold, contain' [Vb] |
+| 99 | 4722 | *delgo- | pin, needle | Noun | *delgo- 'pin, needle' [Noun] |
+| 100 | 4738 | *delto- | moist | Adj | *delto- 'moist' [Adj] |
+| 100 | 4751 | *delwa | form, appearance, image | Noun | *delwa 'form, appearance, image' [Noun] |
+| 100 | 4765 | *demi- | dim, dark | Adj | *demi- 'dim, dark' [Adj] |
+| 100 | 4777 | *demya | darkness | Noun | *demya 'darkness' [Noun] |
+| 100 | 4781 | *deno- | fast | Adj | *deno- 'fast' [Adj] |
+| 101 | 4791 | *dergo- | red, blood-red | Adj | *dergo- 'red, blood-red' [Adj] |
+| 101 | 4801 | *derk- | see | Vb | *derk- 'see' [Vb] |
+| 101 | 4817 | *derwo- | firm (as an oak) | Noun | *derwo- 'firm (as an oak)' [Adj]; 'oak' [Noun] |
+| 101 | 4834 | *dewo- | god | Noun | *dewo- 'god' [Noun] |
+| 102 | 4850 | *dexs(i)wo- | right, south | Adj | *dexs(i)wo- 'right, south' [Adj] |
+| 102 | 4869 | *dī | from, of | Prep | *dī 'from, of' [Prep] |
+| 102 | 4882 | *dī-ākV- | lazy, lit. un-swift | Adj | *dī-ākV- 'lazy, lit. un-swift' [Adj] |
+| 103 | 4909 | *di-berga | robbery, brigandage | Noun | *di-berga 'robbery, brigandage' [Noun] |
+| 103 | 4917 | *di-bi-na- | take away | Vb | *di-bi-na- 'take away' [Vb] |
+| 103 | 4924 | *di-gala | vengeance | Noun | *di-gala 'vengeance' [Noun] |
+| 103 | 4936 | *dig-ed- | chafer, beetle | Noun | *dig-ed- 'chafer, beetle' [Noun] |
+| 104 | 4949 | *dilā | teat, dug | Noun | *dilā 'teat, dug' [Noun] |
+| 104 | 4967 | *di-na- | suck | Vb | *di-na- 'suck' [Vb] |
+| 104 | 4983 | *di-n-g-o- | knead, form, press | Vb | *di-n-g-o- 'knead, form, press' [Vb] |
+| 105 | 5005 | *dīro- | proper, needed | Adj | *dīro- 'proper, needed' [Adj] |
+| 105 | 5018 | *dis-smi- | something, anything, a small quantity | Pron | *dis-smi- 'something, anything, a small quantity' [Pron] |
+| 105 | 5029 | *dī-wed-o- | stop | Vb | *dī-wed-o- 'stop' [Vb] |
+| 105 | 5040 | *dī-wedo- | end | Noun | *dī-wedo- 'end' [Noun] |
+| 106 | 5061 | *dī-wik-o- | punish, avenge | Vb | *dī-wik-o- 'punish, avenge' [Vb] |
+| 106 | 5069 | *diy(w)o- | day | Noun | *diy(w)o- 'day' [Noun] |
+| 106 | 5088 | *dlig-o- | owe, be entitled to | Vb | *dlig-o- 'owe, be entitled to' [Vb] |
+| 106 | 5100 | *dligito- | duty, debt | Noun | *dligito- 'duty, debt' [Noun] |
+| 107 | 5112 | *dlo-n-g-o- | split | Vb | *dlo-n-g-o- 'split' [Vb] |
+| 107 | 5123 | *do | to | Prep | *do 'to' [Prep] |
+| 107 | 5134 | *doklo- | hair, lock of hair | Noun | *doklo- 'hair, lock of hair' [Noun] |
+| 107 | 5145 | *dol-V- | leaf | Noun | *dol-V- 'leaf' [Noun] |
+| 108 | 5168 | *dola | meadow, dale | Noun | *dola 'meadow, dale' [Noun] |
+| 108 | 5179 | *dol-isko- | seaweed, Palmaria palmata | Noun | *dol-isko- 'seaweed, Palmaria palmata'[Noun] |
+| 108 | 5191 | *dolwo- | appearance | Noun | *dolwo- 'appearance' [Noun] |
+| 108 | 5195 | *dorro- | harsh, rough | Adj | *dorro- 'harsh, rough' [Adj] |
+| 108 | 5206 | *dowsant- | arm, hand | Noun | *dowsant- 'arm, hand' [Noun] |
+| 109 | 5223 | *dragena | sloetree, blackthorn, Prunus spinosa | Noun | *dragena 'sloetree, blackthorn, Prunus spinosa' [Noun] |
+| 109 | 5246 | *drika | face, appearance | Noun | *drika 'face, appearance' [Noun] |
+| 110 | 5263 | *dri-n-g-o- | climb, advance | Vb | *dri-n-g-o- 'climb, advance' [Vb] |
+| 110 | 5272 | *dristi- | bramble, thornbush | Noun | *dristi- 'bramble, thornbush' [Noun] |
+| 110 | 5284 | *droko- | wheel | Noun | *droko- 'wheel' [Noun] |
+| 110 | 5300 | *druko- | bad | Adj | *druko- 'bad' [Adj] |
+| 111 | 5324 | *drungo- | detachment, troop | Noun | *drungo- 'detachment, troop' [Noun] |
+| 111 | 5340 | *drusli(yo)- | fragment | Noun | *drusli(yo)- 'fragment' [Noun] |
+| 111 | 5350 | *driito- | foolish, lewd | Adj | *driito- 'foolish, lewd' [Adj] |
+| 112 | 5364 | *druwid- | priest, druid | Noun | *druwid- 'priest, druid' [Noun] |
+| 112 | 5374 | *druxto- | vessel | Noun | *druxto- 'vessel' [Noun] |
+| 112 | 5378 | *dubno- | deep | Noun | *dubno- 'deep' [Adj], 'world' [Noun] |
+| 112 | 5396 | *dubro- | dark | Adj | *dubro- 'dark' [Adj] |
+| 113 | 5415 | *dubu- | black | Adj | *dubu- 'black' [Adj] |
+| 113 | 5431 | *duk-o- | lead, carry | Vb | *duk-o- 'lead, carry' [Vb] |
+| 113 | 5443 | *diino- | fort, rampart | Noun | *diino- 'fort, rampart' [Noun] |
+| 113 | 5460 | *durno- | fist | Noun | *durno- 'fist' [Noun] |
+| 114 | 5477 | *dus- | bad, ill- | Prefixed adjective, Adverb | *dus- 'bad, ill-' [Prefixed adjective, Adverb] |
+| 114 | 5486 | *du(s)bwuyo- | gloom, grief | Noun | *du(s)bwuyo- 'gloom, grief' [Noun] |
+| 114 | 5494 | *dusno- | dark, brown | Adj | *dusno- 'dark, brown' [Adj] |
+| 114 | 5506 | *duxtlr | daughter | Noun | *duxtlr 'daughter' [Noun] |
+| 115 | 5523 | *dwaw | two | Num | *dwaw 'two' [Num] |
+| 115 | 5539 | *dwayo- | slow | Adj | *dwayo- 'slow' [Adj] |
+| 115 | 5551 | *dweblo- | double | Adj | *dweblo- 'double' [Adj] |
+| 115 | 5558 | *dweno- | strong | Adj | *dweno- 'strong' [Adj] |
+| 116 | 5583 | *dwī | two | Num | *dwī 'two' (f.) [Num] |
+| 116 | 5587 | *dwis | twice | Adverb | *dwis 'twice' [Adverb] |
+| 116 | 5591 | *dwītu- | loss, destruction | Noun | *dwītu- 'loss, destruction' [Noun] |
+| 116 | 5601 | *dwīyot- | smoke | Noun | *dwīyot- 'smoke' [Noun] |
+| 116 | 5612 | *dwora, | door | Noun | *dwora, *duro-, *dworestu- 'door' [Noun] |
+| 117 | 5633 | *dwosyo- | human being | Noun | *dwosyo- 'human being' [Noun] |
+| 117 | 5643 | *l\- | this, that | Pron | *l\- 'this, that' [Pron] |
+| 117 | 5654 | *eburo- | yew | Noun | *eburo- 'yew' [Noun] |
+| 118 | 5676 | *ed-o- | eat | Vb | *ed-o- 'eat' [Vb] |
+| 118 | 5696 | *efmo- | right, correct, equal | Adj | *efmo- 'right, correct, equal' [Adj] |
+| 118 | 5711 | *efirom | after, behind | Prep | *efirom 'after, behind' [Prep] |
+| 119 | 5726 | *ekʷalo- | foal | Noun | *ekʷalo- 'foal' [Noun] |
+| 119 | 5730 | *ekʷo- | horse | Noun | *ekʷo- 'horse' [Noun] |
+| 119 | 5752 | *elV- | swan | Noun | *elV- 'swan' [Noun] |
+| 120 | 5774 | *elan(t)i | doe, hind | Noun | *elan(t)i 'doe, hind' [Noun] |
+| 120 | 5792 | *em-o- | take | Vb | *em-o- 'take' [Vb] |
+| 120 | 5801 | *enatro- | entrails, bowels | Noun | *enatro- 'entrails, bowels' [Noun] |
+| 120 | 5809 | *enekʷo- | face | Noun | *enekʷo- 'face' [Noun] |
+| 121 | 5829 | *eni | in | Prep | *eni 'in' [Prep] |
+| 121 | 5843 | *eni-fedo- | position, place | Noun | *eni-fedo- 'position, place' [Noun] |
+| 121 | 5853 | *eni-sti | island | Noun | *eni-sti 'island' [Noun] |
+| 122 | 5875 | *enter | between | Prep | *enter 'between' [Prep] |
+| 122 | 5890 | *erba | fallow deer, roedeer | Noun | *erba 'fallow deer, roedeer' [Noun] |
+| 122 | 5905 | *erb-(y)o- | entrust, leave (after death) | Vb | *erb-(y)o- 'entrust, leave (after death)' [Vb] |
+| 122 | 5920 | *eriro- | eagle | Noun | *eriro- 'eagle' [Noun] |
+| 123 | 5942 | *erra | back, hinder-part, extremity | Noun | *erra 'back, hinder-part, extremity' [Noun] |
+| 123 | 5956 | *es- | be | Vb | *es- 'be' [Vb] |
+| 123 | 5969 | *eskyo- | moon | Noun | *eskyo- 'moon' [Noun] |
+| 124 | 5988 | *esok- | salmon | Noun | *esok- 'salmon' [Noun] |
+| 124 | 6003 | *eti | yet, still, but | Conjunction | *eti 'yet, still, but' [Conjunction] |
+| 124 | 6012 | *exs | out of, from | Prep | *exs 'out of, from' [Prep] |
+| 124 | 6024 | *exs-obniya | boldness | Noun | *exs-obniya 'boldness' [Noun] |
+| 124 | 6028 | *exs-obno- | fearless | Adj | *exs-obno- 'fearless' [Adj] |
+| 125 | 6040 | *extero- | without, outside | Prep | *extero- 'without, outside' [Prep] |
+| 125 | 6047 | *extos | except, but | Conjunction, Preposition | *extos 'except, but' [Conjunction, Preposition] |
+| 125 | 6055 | *fales- | rock, stone | Noun | *fales- 'rock, stone' [Noun] |
+| 126 | 6088 | *fal-na- | approach, drive | Vb | *fal-na- 'approach, drive' [Vb] |
+| 126 | 6103 | *falto- | joint | Noun | *falto- 'joint' [Noun] |
+| 126 | 6114 | *fanssā | footprint | Noun | *fanssā 'footprint' [Noun] |
+| 127 | 6132 | *far-na- | bestow | Vb | *far-na- 'bestow' [Vb] |
+| 127 | 6143 | *farV- | prepare | Vb | *farV- 'prepare' [Vb] |
+| 127 | 6159 | *fare | in front of | Prep | *fare 'in front of' [Prep] |
+| 128 | 6181 | *fare-ber-o- | use | Vb | *fare-ber-o- 'use' [Vb] |
+| 128 | 6189 | *fare-derko- | visible | Adj | *fare-derko- 'visible' [Adj] |
+| 128 | 6197 | *fare-kʷenno- | end, extremity | Noun | *fare-kʷenno- 'end, extremity' [Noun] |
+| 128 | 6208 | *fare-kʷet- | spare, have mercy on | Vb | *fare-kʷet- 'spare, have mercy on' [Vb] |
+| 128 | 6219 | *fare-kom-wed-o- | prevent, wound | Vb | *fare-kom-wed-o- 'prevent, wound' [Vb] |
+| 129 | 6237 | *fare-kri-ni- | fear, perish | Vb | *fare-kri-ni- 'fear, perish' [Vb] |
+| 129 | 6248 | *fare-mert-o- | prepare | Vb | *fare-mert-o- 'prepare' [Vb] |
+| 129 | 6255 | *fare-sed- | charioteer | Noun | *fare-sed- 'charioteer' [Noun] |
+| 129 | 6263 | *fare-wed-o- | lead, bring to | Vb | *fare-wed-o- 'lead, bring to' [Vb] |
+| 129 | 6270 | *fare-wed-yo- | sign | Noun | *fare-wed-yo- 'sign' [Noun] |
+| 130 | 6281 | *fare-xtu- | conversation, assembly, meeting | Noun | *fare-xtu- 'conversation, assembly, meeting' [Noun] |
+| 130 | 6292 | *far-sko- | ask, plead | Vb | *far-sko- 'ask, plead' [Vb] |
+| 130 | 6308 | *flsto- | growth | Noun | *flsto- 'growth' [Noun] |
+| 130 | 6328 | *fatamā | palm of the hand, talon | Noun | *fatamā 'palm of the hand, talon' [Noun] |
+| 131 | 6342 | *fatar | wing, bird | Noun | *fatar / Gen. *fatanos, *fetnos 'wing, bird' [Noun] |
+| 131 | 6359 | *fatir | father | Noun | *fatir 'father' [Noun] |
+| 131 | 6368 | *fatna | drinking vessel | Noun | *fatna 'drinking vessel' [Noun] |
+| 131 | 6378 | *fatriyo- | paternal | Adj | *fatriyo- 'paternal' [Adj] |
+| 132 | 6387 | *fedon- | birthpangs | Noun | *fedon- 'birthpangs' [Noun] |
+| 132 | 6402 | *feno- | moor, swamp | Noun | *feno- 'moor, swamp' [Noun] |
+| 132 | 6422 | *fenllkos- | swamp | Noun | *fenllkos- 'swamp' [Noun] |
+| 132 | 6426 | *ferikll | concubine | Noun | *ferikll 'concubine' [Noun] |
+| 133 | 6440 | *ferissā | religion, belief | Noun | *ferissā 'religion, belief' [Noun] |
+| 133 | 6450 | *ferko- | perch | Adj | *ferko- 'perch' [Noun], 'speckled' [Adj] |
+| 133 | 6459 | *feruti | last year | Adverb | *feruti 'last year' [Adverb] |
+| 133 | 6469 | *ēsko- | fish | Noun | *ēsko- 'fish' [Noun] |
+| 133 | 6481 | *fesskiitl | (leather) boot, shoe |  | *fesskiitl '(leather) boot, shoe' |
+| 134 | 6498 | *fet-no- | bird | Noun | *fet-no- 'bird' [Noun] |
+| 134 | 6516 | *fet-o- | fly | Vb | *fet-o- 'fly' [Vb] |
+| 134 | 6526 | *tltu- | (grass- )land, territory | Noun | *tltu- '(grass- )land, territory' [Noun] |
+| 135 | 6540 | *fextu- | breast | Noun | *fextu- 'breast' [Noun] |
+| 135 | 6555 | *fib-o- | drink | Vb | *fib-o- 'drink' [Vb] |
+| 135 | 6572 | *flū- | many | Adj | *flū- 'many' [Adj] |
+| 135 | 6583 | *flīselo- | low | Adj | *flīselo- 'low' [Adj] |
+| 136 | 6598 | *ftssu- | under | Prep | *ftssu- 'under' [Prep] |
+| 136 | 6616 | *fitu- | food | Noun | *fitu- 'food' [Noun] |
+| 136 | 6631 | *tlweryon- | earth, soil | Noun | *tlweryon- 'earth, soil' [Noun] |
+| 137 | 6647 | *flāmā | palm, hand | Noun | *flāmā 'palm, hand' [Noun] |
+| 137 | 6663 | *flāno- | full | Adj | *flāno- 'full' [Adj] |
+| 137 | 6680 | *flāro- | floor | Noun | *flāro- 'floor' [Noun] |
+| 138 | 6698 | *flatro- | position, (flat) layer | Noun | *flatro- 'position, (flat) layer' [Noun] |
+| 138 | 6709 | *fled-o- | succeed | Vb | *fled-o- 'succeed' [Vb] |
+| 138 | 6718 | *flenstu- | light | Noun | *flenstu- 'light' [Noun] |
+| 138 | 6729 | *fleto- | gray | Adj | *fleto- 'gray' [Adj] |
+| 139 | 6750 | *fletro- | hide, leather | Noun | *fletro- 'hide, leather' [Noun] |
+| 139 | 6761 | *fletyo- | shoulder, shoulder blade | Noun | *fletyo- 'shoulder, shoulder blade' [Noun] |
+| 139 | 6772 | *flikka | (flat) stone | Noun | *flikka '(flat) stone' [Noun] |
+| 139 | 6783 | *fli-nu- | flow | Vb | *fli-nu- 'flow' [Vb] |
+| 140 | 6798 | *flitano-, | broad | Adj | *flitano-, *flitawī [f] 'broad' [Adj] |
+| 140 | 6816 | *flittV- | pap, porridge | Noun | *flittV- 'pap, porridge' [Noun] |
+| 140 | 6832 | *flowdyo- | lead | Noun | *flowdyo- 'lead' [Noun] |
+| 141 | 6845 | *flowyo-, | rudder | Noun | *flowyo-, *flowyi 'rudder' [Noun] |
+| 141 | 6858 | *fod- | foot | Noun | *fod- 'foot' [Noun] |
+| 141 | 6874 | *folki | arable land | Noun | *folki 'arable land' [Noun] |
+| 141 | 6885 | *folno- | great, vast | Adj | *folno- 'great, vast' [Adj] |
+| 142 | 6899 | *fondos- | stone | Noun | *fondos- 'stone' [Noun] |
+| 142 | 6909 | *forko- | pork, young pig | Noun | *forko- 'pork, young pig' [Noun] |
+| 142 | 6919 | *foro- | edge, limit | Noun | *foro- 'edge, limit' [Noun] |
+| 142 | 6934 | *fotlo- | drink, act of drinking | Noun | *fotlo- 'drink, act of drinking' [Noun] |
+| 143 | 6949 | *fowino- | foam, froth | Noun | *fowino- 'foam, froth' [Noun] |
+| 143 | 6964 | *fowmosnl | skin | Noun | *fowmosnl 'skin' [Noun] |
+| 143 | 6974 | *fowtu- | fear | Noun | *fowtu- 'fear' [Noun] |
+| 143 | 6991 | *frasnl | part | Noun | *frasnl 'part' [Noun] |
+| 144 | 7011 | *frati- | fern | Noun | *frati- 'fern' [Noun] |
+| 144 | 7034 | *frati- | fort, rampart | Noun | *frati- 'fort, rampart' [Noun] |
+| 145 | 7053 | *frato- | grace, virtue, good fortune | Noun | *frato- 'grace, virtue, good fortune' [Noun] |
+| 145 | 7067 | *freswo- | strong cold | Noun | *freswo- 'strong cold' [Noun] |
+| 145 | 7082 | *frikka | fart | Noun | *frikka 'fart' [Noun] |
+| 145 | 7091 | *frika | furrow | Noun | *frika 'furrow' [Noun] |
+| 146 | 7106 | *fritu- | ford | Noun | *fritu- 'ford' [Noun] |
+| 146 | 7121 | *frixtu- | form, appearance | Noun | *frixtu- 'form, appearance' [Noun] |
+| 146 | 7133 | *friyo- | free | Adj | *friyo- 'free' [Adj] |
+| 146 | 7146 | *fro-ank-o- | reach | Vb | *fro-ank-o- 'reach' [Vb] |
+| 147 | 7162 | *fro-bowdo- | notice, warning | Noun | *fro-bowdo- 'notice, warning' [Noun] |
+| 147 | 7166 | *fro-gus-o- | choice | Noun | *fro-gus-o- 'choice' [Noun] |
+| 147 | 7176 | *fromo- | soon | Adverb | *fromo- 'soon' [Adverb] |
+| 147 | 7186 | *frosto- | height, elevated land, (wooded) hill | Noun | *frosto- 'height, elevated land, (wooded) hill' [Noun] |
+| 147 | 7202 | *fstr-ew- | sneeze | Noun | *fstr-ew- 'sneeze' [Noun] |
+| 148 | 7219 | *wul-V- | beard | Noun | *wul-V- 'beard' [Noun] |
+| 148 | 7233 | *filro- | fresh | Adj | *filro- 'fresh' [Adj] |
+| 148 | 7252 | *futro- | ill | Adj | *futro- 'ill' [Adj] |
+| 149 | 7264 | *fuxtākā | pine | Noun | *fuxtākā 'pine' [Noun] |
+| 149 | 7274 | *gʷan-o- | strike, kill | Vb | *gʷan-o- 'strike, kill' [Vb] |
+| 149 | 7291 | *gʷariyā | duty | Noun | *gʷariyā 'duty' [Noun] |
+| 150 | 7307 | *gʷed-yo- | ask, plead, pray | Vb | *gʷed-yo- 'ask, plead, pray' [Vb] |
+| 150 | 7327 | *gʷel-o- | graze, eat | Vb | *gʷel-o- 'graze, eat' [Vb] |
+| 150 | 7341 | *gʷelti- | madman, lunatic | Noun | *gʷelti- 'madman, lunatic' [Noun] |
+| 151 | 7362 | *gʷelta | grass | Noun | *gʷelta 'grass' [Noun] |
+| 151 | 7376 | *gʷeno- | smile | Noun | *gʷeno- 'smile' [Noun] |
+| 151 | 7387 | *gʷer-o- | warm up, heat | Vb | *gʷer-o- 'warm up, heat' [Vb] |
+| 151 | 7400 | *gʷered- | animal fat, tallow | Noun | *gʷered- 'animal fat, tallow' [Noun] |
+| 152 | 7414 | *gʷorno- | fire | Noun | *gʷorno- 'fire' [Noun] |
+| 152 | 7418 | *gʷoro- | pious | Adj | *gʷoro- 'pious' [Adj] |
+| 152 | 7422 | *gʷorti- | bitter | Adj | *gʷorti- 'bitter' [Adj] |
+| 152 | 7426 | *gʷrensna | sun | Noun | *gʷrensna 'sun' [Noun] |
+| 152 | 7430 | *gʷrensu- | zeal, work, practice |  | *gʷrensu- 'zeal, work, practice' |
+| 152 | 7434 | *gʷnns-/ | heat | Noun | *gʷnns-/ *gʷrenso- 'heat' [Noun] |
+| 152 | 7452 | *gablo/a- | fork, forked branch | Noun | *gablo/a- 'fork, forked branch' [Noun] |
+| 153 | 7474 | *gabro- | he-goat |  | *gabro- 'he-goat' [Noun]; *gabra 'she-goat' |
+| 153 | 7493 | *gab-yo- | take, hold | Vb | *gab-yo- 'take, hold' [Vb] |
+| 154 | 7532 | *galll | valor, ability | Noun | *galll 'valor, ability' [Noun] |
+| 154 | 7546 | *galaro- | sickness, distress, pain | Noun | *galaro- 'sickness, distress, pain' [Noun] |
+| 154 | 7559 | *gal-n- | be able | Vb | *gal-n- 'be able' [Vb] |
+| 155 | 7580 | *galw-o- | call | Vb | *galw-o- 'call' [Vb] |
+| 155 | 7594 | *gan-d-o- | take place | Vb | *gan-d-o- 'take place' [Vb] |
+| 155 | 7606 | *gan-yo- | be born | Vb | *gan-yo- 'be born' [Vb] |
+| 156 | 7636 | *gansi- | swan | Noun | *gansi- 'swan' [Noun] |
+| 156 | 7646 | *garano- | crane | Noun | *garano- 'crane' [Noun] |
+| 156 | 7659 | *gargo- | rough | Adj | *gargo- 'rough' [Adj] |
+| 157 | 7671 | *gari- | shout, call | Noun | *gari- 'shout, call' [Noun] |
+| 157 | 7684 | *garrV- | calf of the leg, shank | Noun | *garrV- 'calf of the leg, shank' [Noun] |
+| 157 | 7702 | *gar(r)man- | cry, shout | Noun | *gar(r)man- 'cry, shout' [Noun] |
+| 158 | 7719 | *garwo- | rough, coarse | Adj | *garwo- 'rough, coarse' [Adj] |
+| 158 | 7735 | *gar-yo- | call, cry | Vb | *gar-yo- 'call, cry' [Vb] |
+| 158 | 7750 | *garyo- | word, command | Noun | *garyo- 'word, command' [Noun] |
+| 158 | 7762 | *gasso- | sprig | Noun | *gasso- 'sprig' [Noun] |
+| 159 | 7768 | *glwi | falsehood, lie | Noun | *glwi 'falsehood, lie' [Noun] |
+| 159 | 7788 | *gayso- | spear | Noun | *gayso- 'spear' [Noun] |
+| 159 | 7806 | *gaysseto- | mane, hair of beasts | Noun | *gaysseto- 'mane, hair of beasts' [Noun] |
+| 160 | 7820 | *gazdo- | withe | Noun | *gazdo- 'withe' [Noun] |
+| 160 | 7837 | *gdesi | yesterday | Adverb | *gdesi 'yesterday' [Adverb] |
+| 160 | 7856 | *gdon- | earth, place | Noun | *gdon- 'earth, place' [Noun] |
+| 161 | 7869 | *gdonyo- | human, person | Noun | *gdonyo- 'human, person' [Noun] |
+| 161 | 7886 | *gelo- | yellow, white | Adj | *gelo- 'yellow, white' [Adj] |
+| 161 | 7902 | *gelu- | leech | Noun | *gelu- 'leech' [Noun] |
+| 162 | 7920 | *gem-eno-, | chain, shackle | Noun | *gem-eno-, *gemelo- 'chain, shackle' [Noun] |
+| 162 | 7936 | *genan- | birth | Noun | *genan- 'birth' [Noun] |
+| 162 | 7940 | *gendV- | wedge, block, lump | Noun | *gendV- 'wedge, block, lump' [Noun] |
+| 162 | 7954 | *genetl | girl | Noun | *genetl 'girl' [Noun] |
+| 163 | 7973 | *genos- | family, gens | Noun | *genos- 'family, gens' [Noun] |
+| 163 | 7985 | *genu- | jaw | Noun | *genu- 'jaw' [Noun] |
+| 163 | 8000 | *gessī | taboo, prohibition | Noun | *gessī 'taboo, prohibition' [Noun] |
+| 164 | 8018 | *gestlo- | surety, pledge, hostage | Noun | *gestlo- 'surety, pledge, hostage' [Noun] |
+| 164 | 8034 | *gexdo/ā- | goose | Noun | *gexdo/ā- 'goose' [Noun] |
+| 164 | 8047 | *glaxsmā | cry, shout | Noun | *glaxsmā 'cry, shout' [Noun] |
+| 164 | 8058 | *glan-n-d-o- | show | Vb | *glan-n-d-o- 'show' [Vb] |
+| 165 | 8071 | *glano- | clean, clear | Adj | *glano- 'clean, clear' [Adj] |
+| 165 | 8085 | *glasto- | green, blue | Adj | *glasto- 'green, blue' [Adj] |
+| 165 | 8099 | *glendos- | valley, shore | Noun | *glendos- 'valley, shore' [Noun] |
+| 165 | 8111 | *gli-na- | glue | Vb | *gli-na- 'glue' [Vb] |
+| 166 | 8127 | *glomro- | bridle-bit, muzzle | Noun | *glomro- 'bridle-bit, muzzle' [Noun] |
+| 166 | 8139 | *glowo- | charcoal |  | *glowo- 'charcoal' |
+| 166 | 8150 | *gloydo- | glue, lime | Noun | *gloydo- 'glue, lime' [Noun] |
+| 166 | 8163 | *gloywo-, | liquid, clear | Adj | *gloywo-, *glewi- 'liquid, clear' [Adj] |
+| 167 | 8182 | *gliinos- | knee | Noun | *gliinos- 'knee' [Noun] |
+| 167 | 8201 | *gnasto- | custom, usage | Noun | *gnasto- 'custom, usage' [Noun] |
+| 167 | 8205 | *gnato- | known, usual | Adj | *gnato- 'known, usual' [Adj] |
+| 168 | 8223 | *gnimu- | work, action |  | *gnimu- 'work, action' |
+| 168 | 8234 | *gni-na- | recognize | Vb | *gni-na- 'recognize' [Vb] |
+| 168 | 8249 | *gn-iyo- | beget, create, do | Vb | *gn-iyo- 'beget, create, do' [Vb] |
+| 169 | 8283 | *goban- | smith | Noun | *goban- 'smith' [Noun] |
+| 169 | 8304 | *gobbo- | muzzle, snout, beak | Noun | *gobbo- 'muzzle, snout, beak' [Noun] |
+| 169 | 8317 | *gorto- | fence, enclosure, pen | Noun | *gorto- 'fence, enclosure, pen' [Noun] |
+| 170 | 8345 | *gowlo- | charcoal | Noun | *gowlo- 'charcoal' [Noun] |
+| 170 | 8365 | *gowrya | animal hair | Noun | *gowrya 'animal hair' [Noun] |
+| 171 | 8379 | *gozdi- | theft | Noun | *gozdi- 'theft' [Noun] |
+| 171 | 8383 | *gragni- | awful | Adj | *gragni- 'awful' [Adj] |
+| 171 | 8392 | *grando-, | beard | Noun | *grando-, *grendo- 'beard' [Noun] |
+| 171 | 8412 | *grāno- | grain | Noun | *grāno- 'grain' [Noun] |
+| 172 | 8432 | *grawa | gravel, pebbles | Noun | *grawa 'gravel, pebbles' [Noun] |
+| 172 | 8449 | *gregi- | herd | Noun | *gregi- 'herd' [Noun] |
+| 172 | 8464 | *gremmen- | seizure, grasp | Noun | *gremmen- 'seizure, grasp' [Noun] |
+| 173 | 8482 | *gri-n-d-o- | follow, drive | Vb | *gri-n-d-o- 'follow, drive' [Vb] |
+| 173 | 8493 | *griyano- | gravel | Noun | *griyano- 'gravel' [Noun] |
+| 173 | 8508 | *growdos- | cheek | Noun | *growdos- 'cheek' [Noun] |
+| 173 | 8523 | *gulbV-, | beak | Noun | *gulbV-, *gulbino- 'beak' [Noun] |
+| 174 | 8541 | *gurmo- | dun, dark | Adj | *gurmo- 'dun, dark' [Adj] |
+| 174 | 8550 | *gus-o- | choose | Vb | *gus-o- 'choose' [Vb] |
+| 174 | 8559 | *gustu- | excellence, force | Noun | *gustu- 'excellence, force' [Noun] |
+| 174 | 8575 | *gutu- | voice | Noun | *gutu- 'voice' [Noun] |
+| 175 | 8592 | *gyemo- | winter | Noun | *gyemo- 'winter' [Noun] |
+| 175 | 8609 | *gyo- | sinew | Noun | *gyo- 'sinew' [Noun] |
+| 175 | 8619 | *i- | go | Vb | *i- 'go' [Vb] |
+| 176 | 8635 | *i- | it | Demonstrative Pronoun | *i- 'it' [Demonstrative Pronoun] |
+| 176 | 8646 | *īkkā, | cure, treatment, salvation | Noun | *īkkā, *yekkā 'cure, treatment, salvation' [Noun] |
+| 176 | 8666 | *ikʷori- | roe, spawn | Noun | *ikʷori- 'roe, spawn' [Noun] |
+| 177 | 8683 | *imbeto- | great quantity | Noun | *imbeto- 'great quantity' [Noun] |
+| 177 | 8701 | *isarno- | iron | Noun | *isarno- / *īsarno- 'iron' [Noun] |
+| 177 | 8719 | *isk-a- | look for lice | Vb | *isk-a- 'look for lice' [Vb] |
+| 178 | 8733 | *iwo- | shaft, yew | Noun | *iwo- 'shaft, yew' [Noun] |
+| 178 | 8765 | *kʷākʷo- | everyone | Pron | *kʷākʷo- 'everyone' [Pron] |
+| 179 | 8787 | *kʷal-na- | go around | Vb | *kʷal-na- 'go around' [Vb] |
+| 179 | 8801 | *kʷantyo- | flat hill | Noun | *kʷantyo- 'flat hill' [Noun] |
+| 179 | 8820 | *kʷana | where from | Particle | *kʷana 'where from' [Particle] |
+| 180 | 8830 | *kʷaryo- | cauldron | Noun | *kʷaryo- 'cauldron' [Noun] |
+| 180 | 8847 | *kʷaso- | cough | Noun | *kʷaso- 'cough' [Noun] |
+| 180 | 8860 | *kʷati- | chaff, husks | Noun | *kʷati- 'chaff, husks' [Noun] |
+| 180 | 8871 | *-kʷe | and | Conjunction | *-kʷe 'and' [Conjunction] |
+| 181 | 8885 | *kʷef- | pant, breathe | Vb | *kʷef- 'pant, breathe' [Vb] |
+| 181 | 8897 | *kʷello- | far | Adj | *kʷello- 'far' [Adj] |
+| 181 | 8911 | *kʷend-s-o- | suffer | Vb | *kʷend-s-o- 'suffer' [Vb] |
+| 181 | 8922 | *kʷenkʷe | five | Num | *kʷenkʷe 'five' [Num] |
+| 182 | 8951 | *kʷenkʷeto- | fifth | Num | *kʷenkʷeto- 'fifth' [Num] |
+| 182 | 8955 | *kʷenno- | head | Noun | *kʷenno- 'head' [Noun] |
+| 182 | 8973 | *kʷēno- | long | Adj | *kʷēno- 'long' [Adj] |
+| 183 | 8985 | *kʷer- | make, cause | Vb | *kʷer- 'make, cause' [Vb] |
+| 183 | 8996 | *kʷerxt- | bush | Noun | *kʷerxt- 'bush' (?) [Noun] |
+| 183 | 9014 | *kʷes | who | Pron | *kʷes 'who' [Pron] |
+| 184 | 9035 | *kʷesla | mind, spirit, reason | Noun | *kʷesla 'mind, spirit, reason' [Noun] |
+| 184 | 9048 | *kʷetwores | four | Num | *kʷetwores 'four' [Num] |
+| 184 | 9061 | *kʷezdi- | piece, portion | Noun | *kʷezdi- 'piece, portion' [Noun] |
+| 184 | 9074 | *kʷid | what |  | *kʷid 'what' |
+| 185 | 9083 | *kʷinut- | crime, mistake, guilt | Noun | *kʷinut- 'crime, mistake, guilt' [Noun] |
+| 185 | 9097 | *kʷis-o- | see | Vb | *kʷis-o- 'see' [Vb] |
+| 185 | 9110 | *kʷo- | to | Prep | *kʷo- 'to' [Prep] |
+| 185 | 9119 | *kʷokʷ-o- | cook, bake | Vb | *kʷokʷ-o- 'cook, bake' [Vb] |
+| 186 | 9135 | *kʷolu- | wheel | Noun | *kʷolu- 'wheel' [Noun] |
+| 186 | 9145 | *kʷon- | dog |  | *kʷon- 'dog' [Noun] (Nom. s *k(w)ii, Gen. s *kunos) |
+| 186 | 9168 | *kʷoxto- | hot | Adj | *kʷoxto- 'hot' [Adj] |
+| 186 | 9172 | *kʷresno- | wood, tree | Noun | *kʷresno- 'wood, tree' [Noun] |
+| 186 | 9185 | *kʷrimi- | worm | Noun | *kʷrimi- 'worm' [Noun] |
+| 187 | 9202 | *kʷri-na- | buy | Vb | *kʷri-na- 'buy' [Vb] |
+| 187 | 9220 | *kʷritu- | magical transformation, shape | Noun | *kʷritu- 'magical transformation, shape' [Noun] |
+| 187 | 9237 | *kʷriyet- | clay, earth, mud | Noun | *kʷriyet- 'clay, earth, mud' [Noun] |
+| 188 | 9256 | *klldo- | regret, anger | Noun | *klldo- 'regret, anger' [Noun] |
+| 188 | 9270 | *kii(g)ni- | law, tribute | Noun | *kii(g)ni- 'law, tribute' [Noun] |
+| 189 | 9291 | *kag-o- | get, receive | Vb | *kag-o- 'get, receive' [Vb] |
+| 189 | 9304 | *kagro- | enclosure, fort | Noun | *kagro- 'enclosure, fort' [Noun] |
+| 189 | 9308 | *kagyo- | pen, enclosure | Noun | *kagyo- 'pen, enclosure' [Noun] |
+| 189 | 9323 | *kakka | excrement | Noun | *kakka 'excrement' [Noun] |
+| 190 | 9338 | *kaleto- | hard, cruel, strong | Adj | *kaleto- 'hard, cruel, strong' [Adj] |
+| 190 | 9355 | *kallī- | wood, grove | Noun | *kallī- 'wood, grove' [Noun] |
+| 190 | 9371 | *kalmiyo- | skilful, skilled |  | *kalmiyo- 'skilful, skilled' |
+| 191 | 9402 | *kalyo- | spot | Noun | *kalyo- 'spot' [Noun] |
+| 191 | 9413 | *kambo- | crooked, twisted | Adj | *kambo- 'crooked, twisted' [Adj] |
+| 192 | 9437 | *kanawon- | young animal, young dog, whelp | Noun | *kanawon- 'young animal, young dog, whelp' [Noun] |
+| 192 | 9453 | *kani- | good, nice | Adj | *kani- 'good, nice' [Adj] |
+| 192 | 9463 | *kanka | branch | Noun | *kanka 'branch' [Noun] |
+| 192 | 9475 | *kan-o- | sing | Vb | *kan-o- 'sing' [Vb] |
+| 193 | 9489 | *kanta-bw-iyo- | perceive | Vb | *kanta-bw-iyo- 'perceive' [Vb] |
+| 193 | 9496 | *kanti | together with | Prep | *kanti 'together with' [Prep] |
+| 193 | 9511 | *kantlo- | song, singing | Noun | *kantlo- 'song, singing' [Noun] |
+| 193 | 9520 | *kantom | 100 | Num | *kantom '100' [Num] |
+| 194 | 9552 | *kanxtV- | power | Noun | *kanxtV- 'power' [Noun] |
+| 194 | 9562 | *kanxtu- | plough, plough-beam | Noun | *kanxtu- 'plough, plough-beam' [Noun] |
+| 194 | 9574 | *karafyo-(mon)- | shoemaker |  | *karafyo-(mon)- 'shoemaker' |
+| 195 | 9602 | *karant- | friend | Noun | *karant- 'friend' [Noun] |
+| 195 | 9614 | *karbanto- | (war) chariot | Noun | *karbanto- '(war) chariot' [Noun] |
+| 195 | 9625 | *karno- | horn, hoof | Noun | *karno- 'horn, hoof' [Noun] |
+| 196 | 9647 | *karno- | heap of stones, tomb |  | *karno- 'heap of stones, tomb' |
+| 196 | 9662 | *kar-o- | love | Vb | *kar-o- 'love' [Vb] |
+| 196 | 9678 | *karro- | wagon | Noun | *karro- 'wagon' [Noun] |
+| 197 | 9697 | *karut- | champion | Noun | *karut- 'champion' [Noun] |
+| 197 | 9701 | *karwo- | deer | Noun | *karwo- 'deer' [Noun] |
+| 197 | 9717 | *karya | mistake, sin | Noun | *karya 'mistake, sin' [Noun] |
+| 197 | 9729 | *kasni- | hare | Noun | *kasni- 'hare' [Noun] |
+| 198 | 9744 | *kasnina | garlic, leek | Noun | *kasnina 'garlic, leek' [Noun] |
+| 198 | 9761 | *kassara | hail-shower, lightning | Noun | *kassara 'hail-shower, lightning' [Noun] |
+| 198 | 9781 | *kassi- | hatred, hate | Noun | *kassi- 'hatred, hate' [Noun] |
+| 199 | 9801 | *kasso- | curly, woven, twisted | Adj | *kasso- 'curly, woven, twisted' [Adj] |
+| 199 | 9812 | *kato- | wise, able | Adj | *kato- 'wise, able' [Adj] |
+| 199 | 9827 | *katrik- | fortification | Noun | *katrik- 'fortification' [Noun] |
+| 200 | 9842 | *katto- | cat | Noun | *katto- 'cat' [Noun] |
+| 200 | 9857 | *katu- | battle | Noun | *katu- 'battle' [Noun] |
+| 200 | 9883 | *kat-yo- | throw | Vb | *kat-yo- 'throw' [Vb] |
+| 201 | 9896 | *kawanno- | owl | Noun | *kawanno- 'owl' [Noun] |
+| 201 | 9915 | *kawaro- | hero, champion | Noun | *kawaro- 'hero, champion' [Noun] |
+| 201 | 9929 | *kawla | faggot | Noun | *kawla 'faggot' [Noun] |
+| 202 | 9941 | *kawno- | port, haven | Noun | *kawno- 'port, haven' [Noun] |
+| 202 | 9952 | *kaxto- | prisoner, slave | Noun | *kaxto- 'prisoner, slave' [Noun] |
+| 202 | 9969 | *kayko- | having an eye defect, blind | Adj | *kayko- 'having an eye defect, blind' [Adj] |
+| 202 | 9984 | *kaylo- | omen | Noun | *kaylo- 'omen' [Noun] |
+| 203 | 10006 | *kayto- | wood | Noun | *kayto- 'wood' [Noun] |
+| 203 | 10021 | *kekʷora | swamp, mud |  | *kekʷora 'swamp, mud' |
+| 203 | 10036 | *kelfurno- | pail, bucket | Noun | *kelfurno- 'pail, bucket' [Noun] |
+| 204 | 10049 | *kel-o- | hide | Vb | *kel-o- 'hide' [Vb] |
+| 204 | 10066 | *keluiko- | fight, war | Noun | *keluiko- 'fight, war' [Noun] |
+| 204 | 10085 | *kelyo- | companion | Noun | *kelyo- / *kilyo- 'companion' [Noun] |
+| 205 | 10101 | *kenetlo- | race, kind | Noun | *kenetlo- 'race, kind' [Noun] |
+| 205 | 10115 | *kenget- | warrior | Noun | *kenget- 'warrior' [Noun] |
+| 205 | 10125 | *keng-o- | tread, step, walk | Vb | *keng-o- 'tread, step, walk' [Vb] |
+| 206 | 10143 | *kenno- | skin | Noun | *kenno- 'skin' [Noun] |
+| 206 | 10157 | *ken-o- | descend from, come into being, be born | Vb | *ken-o- 'descend from, come into being, be born' [Vb] |
+| 206 | 10169 | *kentu- | first | Adj | *kentu- 'first' [Adj] |
+| 206 | 10183 | *kentu-samonyo- | May | Noun | *kentu-samonyo- 'May' [Noun] |
+| 207 | 10193 | *kerV- | fall | Vb | *kerV- 'fall' [Vb] |
+| 207 | 10204 | *kerbo- | pointed, sharp | Adj | *kerbo- 'pointed, sharp' [Adj] |
+| 207 | 10215 | *kerda | art, skill | Noun | *kerda 'art, skill' [Noun] |
+| 207 | 10232 | *kerd-o- | put, lay, move | Vb | *kerd-o- 'put, lay, move' [Vb] |
+| 208 | 10256 | *kerka | hen | Noun | *kerka 'hen' [Noun] |
+| 208 | 10260 | *kerna | angle, comer | Noun | *kerna 'angle, comer' [Noun] |
+| 208 | 10277 | *ki |  | Demonstrative Particle or pronoun | *ki / *koy / *kē [Demonstrative Particle or pronoun] |
+| 209 | 10297 | *kīkā | breast | Noun | *kīkā 'breast' [Noun] |
+| 209 | 10311 | *kina, | besides | Prep | *kina, *kinl 'besides' [Prep] |
+| 209 | 10322 | *kīsrā | comb | Noun | *kīsrā 'comb' [Noun] |
+| 209 | 10335 | *kistl | (woven) basket | Noun | *kistl '(woven) basket' [Noun] |
+| 210 | 10351 | *kiw-o- | fog | Noun | *kiw-o- 'fog' [Noun] |
+| 210 | 10362 | *ki-yo- | fall, cry | Vb | *ki-yo- 'fall, cry' [Vb] |
+| 210 | 10376 | *kladiwo- | sword | Noun | *kladiwo- 'sword' [Noun] |
+| 210 | 10386 | *klad-o- | dig, bury | Vb | *klad-o- 'dig, bury' [Vb] |
+| 211 | 10407 | *klido-, | trench | Noun | *klido-, *klado- 'trench' [Noun] |
+| 211 | 10426 | *klamo- | sick, suffering from leprosy | Adj | *klamo- 'sick, suffering from leprosy' [Adj] |
+| 211 | 10436 | *klaro- | board, plank | Noun | *klaro- 'board, plank' [Noun] |
+| 212 | 10455 | *klīwo- | bolt | Noun | *klīwo- 'bolt' [Noun] |
+| 212 | 10467 | *kleta | palisade, hurdle | Noun | *kleta 'palisade, hurdle' [Noun] |
+| 212 | 10480 | *kleyo- | left | Adj | *kleyo- 'left' [Adj] |
+| 213 | 10497 | *kli-nu- | hear | Vb | *kli-nu- 'hear' [Vb] |
+| 213 | 10509 | *klisso-, | feat | Noun | *klisso-, *klissu- 'feat' [Noun] |
+| 213 | 10522 | *klit- | pillar, post | Noun | *klit- 'pillar, post' [Noun] |
+| 213 | 10536 | *klito- | warm | Adj | *klito- 'warm' [Adj] |
+| 214 | 10547 | *klokko- | bell | Noun | *klokko- 'bell' [Noun] |
+| 214 | 10561 | *klowni- | meadow | Noun | *klowni- 'meadow' [Noun] |
+| 214 | 10572 | *klowni- | thigh | Noun | *klowni- 'thigh' [Noun] |
+| 214 | 10583 | *klowsta | hearing, ear | Noun | *klowsta 'hearing, ear' [Noun] |
+| 214 | 10593 | *klukaro- | heap of stones, rocky place | Noun | *klukaro- 'heap of stones, rocky place' [Noun] |
+| 215 | 10599 | *klukll | stone, rock | Noun | *klukll 'stone, rock' [Noun] |
+| 215 | 10611 | *klus-i- | hear | Vb | *klus-i- 'hear' [Vb] |
+| 215 | 10624 | *kluto- | fame | Noun | *kluto- 'fame' [Noun] |
+| 215 | 10638 | *kluwos | fame | Noun | *kluwos 'fame' [Noun] |
+| 216 | 10656 | *knami- | bone | Noun | *knami- 'bone' [Noun] |
+| 216 | 10666 | *knawi | fleece | Noun | *knawi 'fleece' [Noun] |
+| 216 | 10676 | *kna-yo- | bite, chew | Vb | *kna-yo- 'bite, chew' [Vb] |
+| 216 | 10687 | *knokko- | protuberance, hill | Noun | *knokko- 'protuberance, hill' [Noun] |
+| 217 | 10705 | *knu- | nut | Noun | *knu- 'nut' [Noun] |
+| 217 | 10720 | *kob(o)- | victory | Noun | *kob(o)- 'victory' [Noun] |
+| 217 | 10732 | *koldo- | destruction | Noun | *koldo- 'destruction' [Noun] |
+| 217 | 10743 | *kolga | sword, dagger | Noun | *kolga 'sword, dagger' [Noun] |
+| 218 | 10761 | *koligno- | pup, small animal | Noun | *koligno- 'pup, small animal' [Noun] |
+| 218 | 10776 | *kolino- | holly tree | Noun | *kolino- 'holly tree' [Noun] |
+| 218 | 10794 | *kom | with | Prep | *kom 'with' [Prep] |
+| 219 | 10810 | *kom-altiyo- | foster-brother | Noun | *kom-altiyo- 'foster-brother' [Noun] |
+| 219 | 10818 | *kom-angu- | narrow | Adj | *kom-angu- 'narrow' [Adj] |
+| 219 | 10827 | *kom-are-(yo)- | direction, presence | Noun | *kom-are-(yo)- 'direction, presence' [Noun] |
+| 219 | 10837 | *kom-ber-o- | bring together | Vb | *kom-ber-o- 'bring together' [Vb] |
+| 219 | 10846 | *kom-bero- | confluence (of rivers) | Noun | *kom-bero- 'confluence (of rivers)' [Noun] |
+| 219 | 10854 | *kom-bi-na- | cut off | Vb | *kom-bi-na- 'cut off' [Vb] |
+| 220 | 10864 | *kom-dati- | confluence | Noun | *kom-dati- 'confluence' [Noun] |
+| 220 | 10868 | *kom-daw-to- | firewood | Noun | *kom-daw-to- 'firewood' [Noun] |
+| 220 | 10872 | *kom-delgo- | contract, comparison |  | *kom-delgo- 'contract, comparison' |
+| 220 | 10876 | *kom-fro-ank-o- | meet, fight | Vb | *kom-fro-ank-o- 'meet, fight' [Vb] |
+| 220 | 10883 | *kom-koro- | meeting | Noun | *kom-koro- 'meeting' (?) [Noun] |
+| 220 | 10890 | *kom-men- | memory | Noun | *kom-men- 'memory' [Noun] |
+| 220 | 10900 | *kom-oxti- | power, wealth | Noun | *kom-oxti- 'power, wealth' [Noun] |
+| 220 | 10907 | *kom-riga | binding, bond | Noun | *kom-riga 'binding, bond' [Noun] |
+| 220 | 10911 | *kom-skara- | divide, destroy | Vb | *kom-skara- 'divide, destroy' [Vb] |
+| 221 | 10921 | *kom-sniy-o- | contend, strive for | Vb | *kom-sniy-o- 'contend, strive for' [Vb] |
+| 221 | 10928 | *kondo- | protuberance, preeminence, reason | Noun | *kondo- 'protuberance, preeminence, reason' [Noun] |
+| 221 | 10937 | *koret- | palisade, wall | Noun | *koret- 'palisade, wall' [Noun] |
+| 221 | 10949 | *korkkyo- | oats | Noun | *korkkyo- 'oats' [Noun] |
+| 222 | 10966 | *kormi | beer | Noun | *kormi 'beer' [Noun] |
+| 222 | 10984 | *korno- | horn | Noun | *korno- 'horn' [Noun] |
+| 222 | 10988 | *koro- | act of putting, casting, a throw | Noun | *koro- 'act of putting, casting, a throw' [Noun] |
+| 222 | 11004 | *koruko- | (leather) boat | Noun | *koruko- '(leather) boat' [Noun] |
+| 222 | 11014 | *korxsā | heron, crane | Noun | *korxsā 'heron, crane' [Noun] |
+| 223 | 11033 | *koryo- | troop, tribe | Noun | *koryo- 'troop, tribe' [Noun] |
+| 223 | 11046 | *koslo- | hazel | Noun | *koslo- 'hazel' [Noun] |
+| 223 | 11065 | *kotto- | old | Adj | *kotto- 'old' [Adj] |
+| 224 | 11079 | *kowdo- | hiding place | Adj | *kowdo- 'hiding place' [Adj] |
+| 224 | 11089 | *kowik- | cuckoo | Noun | *kowik- 'cuckoo' [Noun] |
+| 224 | 11100 | *kowna | litter (of dogs) | Noun | *kowna 'litter (of dogs)' [Noun] |
+| 224 | 11113 | *kow-wari- | proper, fitting | Adj | *kow-wari- 'proper, fitting' [Adj] |
+| 225 | 11130 | *koxsā | leg | Noun | *koxsā 'leg' [Noun] |
+| 225 | 11138 | *koylo- | thin | Adj | *koylo- 'thin' [Adj] |
+| 225 | 11152 | *koymo- | dear, nice | Adj | *koymo- 'dear, nice' [Adj] |
+| 225 | 11166 | *krābi- | devotion, religious practice | Noun | *krābi- 'devotion, religious practice' [Noun] |
+| 226 | 11181 | *krlifo- | stable, enclosure | Noun | *krlifo- 'stable, enclosure' [Noun] |
+| 226 | 11203 | *kred-dī- | believe | Vb | *kred-dī- 'believe' [Vb] |
+| 226 | 11219 | *kreddīmlā | faith, believing | Noun | *kreddīmlā 'faith, believing' [Noun] |
+| 227 | 11229 | *kredro/i- | relic, sacred object |  | *kredro/i- 'relic, sacred object' |
+| 227 | 11240 | *kremu-, | (wild) garlic | Noun | *kremu-, *kramo- '(wild) garlic' [Noun] |
+| 227 | 11256 | *kre(n)xtu- | wound | Noun | *kre(n)xtu- 'wound' [Noun] |
+| 227 | 11269 | *kret-o- | meet, approach | Vb | *kret-o- 'meet, approach' [Vb] |
+| 228 | 11286 | *krī-tro- | sieve | Noun | *krī-tro- 'sieve' [Noun] |
+| 228 | 11298 | *krid- | shrink, grow thinner | Vb | *krid- 'shrink, grow thinner' [Vb] |
+| 228 | 11310 | *kridyo- | heart | Noun | *kridyo- 'heart' [Noun] |
+| 229 | 11335 | *krif- | body | Noun | *krif- 'body' [Noun] |
+| 229 | 11350 | *krīkʷā | furrow, trench, boundary | Noun | *krīkʷā 'furrow, trench, boundary' [Noun] |
+| 229 | 11364 | *kri-ni- | sift, shake | Vb | *kri-ni- 'sift, shake' [Vb] |
+| 230 | 11381 | *krīno- | withered, dry | Adj | *krīno- 'withered, dry' [Adj] |
+| 230 | 11398 | *krissu- | belt | Noun | *krissu- 'belt' [Noun] |
+| 230 | 11412 | *krito- | trembling, fever | Noun | *krito- 'trembling, fever' [Noun] |
+| 230 | 11423 | *krittā | body, frame, shape | Noun | *krittā 'body, frame, shape' [Noun] |
+| 231 | 11439 | *krixso- | curly-haired | Adj | *krixso- 'curly-haired' [Adj] |
+| 231 | 11452 | *krok(ke)no- | skin | Noun | *krok(ke)no- 'skin' [Noun] |
+| 231 | 11466 | *krowdi- | rude | Adj | *krowdi- 'rude' [Adj] |
+| 231 | 11470 | *krowko- | heap, hill | Noun | *krowko- 'heap, hill' [Noun] |
+| 232 | 11488 | *krfi- | blood | Noun | *krfi- 'blood' [Noun] |
+| 232 | 11504 | *krumbo- | round, curved | Adj | *krumbo- 'round, curved' [Adj] |
+| 232 | 11516 | *krundi- | round, compact |  | *krundi- 'round, compact' |
+| 233 | 11533 | *krutto- | round object, womb | Noun | *krutto- 'round object, womb' [Noun] |
+| 233 | 11546 | *kuf-sko- | sleep | Vb | *kuf-sko- 'sleep' [Vb] |
+| 233 | 11561 | *kukro- | curved | Adj | *kukro- 'curved' [Adj] |
+| 233 | 11577 | *kul(t)o- | sin, violation | Noun | *kul(t)o- 'sin, violation' [Noun] |
+| 234 | 11595 | *kuli- | mosquito, fly | Noun | *kuli- 'mosquito, fly' [Noun] |
+| 234 | 11609 | *kfilo- | comer | Noun | *kfilo- 'comer' [Noun] |
+| 234 | 11624 | *kumba | valley | Noun | *kumba 'valley' [Noun] |
+| 235 | 11642 | *kurro- | pointed, protruding, angled | Adj | *kurro- 'pointed, protruding, angled' [Adj] |
+| 235 | 11654 | *kuti- | sack, scrotum | Noun | *kuti- 'sack, scrotum' [Noun] |
+| 235 | 11666 | *kuwo- | hollow | Adj | *kuwo- 'hollow' [Adj] |
+| 236 | 11688 | *kuwyo- | young animal | Noun | *kuwyo- 'young animal' [Noun] |
+| 236 | 11699 | *lab(a)ro- | eloquent, talkative | Adj | *lab(a)ro- 'eloquent, talkative' [Adj] |
+| 236 | 11716 | *lllfigo- | calf | Noun | *lllfigo- 'calf' [Noun] |
+| 237 | 11735 | *laggo- | weak, slack | Adj | *laggo- 'weak, slack' [Adj] |
+| 237 | 11747 | *lam-yo- | dare | Vb | *lam-yo- 'dare' [Vb] |
+| 237 | 11762 | *landā | open land | Noun | *landā 'open land' [Noun] |
+| 238 | 11779 | *lanx-sman- | jump | Noun | *lanx-sman- 'jump' [Noun] |
+| 238 | 11791 | *lati- | liquid, fluid | Noun | *lati- 'liquid, fluid' [Noun] |
+| 238 | 11808 | *lato- | furor, ardor | Noun | *lato- 'furor, ardor' [Noun] |
+| 238 | 11819 | *latyo- | day | Noun | *latyo- 'day' [Noun] |
+| 239 | 11841 | *lawano- | provisions, food, sustenance | Noun | *lawano- 'provisions, food, sustenance' [Noun] |
+| 239 | 11860 | *lawaro- | many, a lot | Adj | *lawaro- 'many, a lot' [Adj] |
+| 239 | 11864 | *laweno- | merry | Adj | *laweno- 'merry' [Adj] |
+| 239 | 11868 | *lawgo- | prize, price | Noun | *lawgo- 'prize, price' [Noun] |
+| 239 | 11872 | *lāyko- | warrior | Noun | *lāyko- 'warrior' [Noun] |
+| 240 | 11894 | *la-yo- | put, lay down, throw | Vb | *la-yo- 'put, lay down, throw' [Vb] |
+| 240 | 11911 | *laxsaro- | burning, shining | Adj | *laxsaro- 'burning, shining' [Adj] |
+| 240 | 11923 | *lega | spoon | Noun | *lega 'spoon' [Noun] |
+| 241 | 11939 | *leg-o- | melt | Vb | *leg-o- 'melt' [Vb] |
+| 241 | 11948 | *leg-o- | to lay, lie down | Vb | *leg-o- 'to lay, lie down' [Vb] |
+| 241 | 11960 | *legu-, | small | Adj | *legu-, *lagu- 'small' [Adj] |
+| 242 | 11989 | *leg(y)o- | bed, couch, place | Noun | *leg(y)o- 'bed, couch, place' [Noun] |
+| 242 | 12006 | *lemo-, | elm | Noun | *lemo-, *limo- 'elm' [Noun] |
+| 242 | 12026 | *leng-o- | jump | Vb | *leng-o- 'jump' [Vb] |
+| 243 | 12045 | *lēro- | complete, diligent | Adj | *lēro- 'complete, diligent' [Adj] |
+| 243 | 12055 | *lestro- | vessel | Noun | *lestro- 'vessel' [Noun] |
+| 243 | 12072 | *letos | side | Noun | *letos 'side' [Noun] |
+| 244 | 12094 | *lig-o- | lick | Vb | *lig-o- 'lick' [Vb] |
+| 244 | 12104 | *lim-i- | sharpen, polish | Vb | *lim-i- 'sharpen, polish' [Vb] |
+| 244 | 12116 | *li-na- | stick | Vb | *li-na- 'stick' [Vb] |
+| 244 | 12127 | *lindu-, | liquid, lake | Noun | *lindu-, *lindo- 'liquid, lake' [Noun] |
+| 245 | 12148 | *li-n-kʷ-o- | leave, let | Vb | *li-n-kʷ-o- 'leave, let' [Vb] |
+| 245 | 12158 | *linnā | veil, cloak | Noun | *linnā 'veil, cloak' [Noun] |
+| 245 | 12185 | *līno- | flow, flood | Noun | *līno- 'flow, flood' [Noun] |
+| 246 | 12201 | *liro- | sea, ocean | Noun | *liro- 'sea, ocean' [Noun] |
+| 246 | 12213 | *lissu- | abhorrence | Noun | *lissu- 'abhorrence' [Noun] |
+| 246 | 12223 | *liti(-ako)- | accused | Adj | *liti(-ako)- 'accused' [Adj] |
+| 246 | 12235 | *litu- | feast, celebration | Noun | *litu- 'feast, celebration' [Noun] |
+| 247 | 12250 | *līwank- | stone, pillar | Noun | *līwank- 'stone, pillar' [Noun] |
+| 247 | 12267 | *līwo- | stream | Noun | *līwo- 'stream' [Noun] |
+| 247 | 12271 | *liwo- | color | Noun | *liwo- 'color' [Noun] |
+| 247 | 12285 | *liy-ant- | flood | Noun | *liy-ant- 'flood' [Noun] |
+| 248 | 12302 | *liy-o- | flow | Vb | *liy-o- 'flow' [Vb] |
+| 248 | 12314 | *loferno- | fox | Noun | *loferno- 'fox' [Noun] |
+| 248 | 12327 | *loku- | lake, pool | Noun | *loku- 'lake, pool' [Noun] |
+| 249 | 12347 | *lomana | rope, thong | Noun | *lomana 'rope, thong' [Noun] |
+| 249 | 12362 | *longa | boat, vessel | Noun | *longa 'boat, vessel' [Noun] |
+| 249 | 12377 | *lorgo- | trace | Noun | *lorgo- 'trace' [Noun] |
+| 249 | 12391 | *lorgā | stick, club | Noun | *lorgā 'stick, club' [Noun] |
+| 250 | 12410 | *lowatro- | bath | Noun | *lowatro- 'bath' [Noun] |
+| 250 | 12423 | *lowdo- | obstacle | Noun | *lowdo- 'obstacle' [Noun] |
+| 250 | 12438 | *lowko- | bright, light | Adj | *lowko- 'bright, light' [Adj] |
+| 251 | 12458 | *lowteto- | muddy | Adj | *lowteto- 'muddy' [Adj] |
+| 251 | 12462 | *lowtu- | ash | Noun | *lowtu- 'ash' [Noun] |
+| 251 | 12478 | *loyda | poem, lay | Noun | *loyda 'poem, lay' [Noun] |
+| 251 | 12482 | *loyd-o- | exhort, incite | Vb | *loyd-o- 'exhort, incite' [Vb] |
+| 251 | 12496 | *lub-o- | love | Vb | *lub-o- 'love' [Vb] |
+| 252 | 12509 | *lubila | herb, plant | Noun | *lubila 'herb, plant' [Noun] |
+| 252 | 12528 | *lud- | went | Vb | *lud- 'went' [Vb] |
+| 252 | 12538 | *lugiyo- | oath | Noun | *lugiyo- 'oath' [Noun] |
+| 253 | 12555 | *tugri | moon | Noun | *tugri 'moon' [Noun] |
+| 253 | 12574 | *Lugu- | god Lug | Noun | *Lugu- 'god Lug', perhaps originally 'the shiny one' [Noun] |
+| 253 | 12591 | *luk-o- | see, perceive, set eyes upon | Vb | *luk-o- 'see, perceive, set eyes upon' [Vb] |
+| 254 | 12623 | *lu-n-g-o- | put, place | Vb | *lu-n-g-o- 'put, place' [Vb] |
+| 254 | 12634 | *lu-n-g-o- | eat | Vb | *lu-n-g-o- 'eat' [Vb] |
+| 254 | 12638 | *lussu- | herb, vegetable | Noun | *lussu- 'herb, vegetable' [Noun] |
+| 254 | 12653 | *lutā | mud, dirt | Noun | *lutā 'mud, dirt' [Noun] |
+| 255 | 12670 | *liitu- | anger, power | Noun | *liitu- 'anger, power' [Noun] |
+| 255 | 12684 | *luwl | louse | Noun | *luwl 'louse' [Noun] |
+| 255 | 12699 | *luw-o- | escape | Vb | *luw-o- 'escape' [Vb] |
+| 255 | 12709 | *luxsman- | drop, a sip | Noun | *luxsman- 'drop, a sip' [Noun] |
+| 256 | 12724 | *luxtu- | contents; crowd, people | Noun | *luxtu- 'contents; crowd, people' [Noun] |
+| 256 | 12739 | *ma, | if | Conjunction | *ma, *ma 'if' [Conjunction] |
+| 256 | 12751 | *mad-yo- | break | Vb | *mad-yo- 'break' [Vb] |
+| 257 | 12772 | *madyo- | futile, useless | Adj | *madyo- 'futile, useless' [Adj] |
+| 257 | 12783 | *magino- | stone, place | Noun | *magino- 'stone, place' [Noun] |
+| 257 | 12797 | *maglo- | noble, chief | Noun | *maglo- 'noble, chief' [Noun] |
+| 258 | 12818 | *magos- | plain, field | Noun | *magos- 'plain, field' [Noun] |
+| 258 | 12835 | *magyo- | great | Adj | *magyo- 'great' [Adj] |
+| 258 | 12844 | *makʷo- | son | Noun | *makʷo- 'son' [Noun] |
+| 259 | 12864 | *mak-o- | increase, raise, feed | Vb | *mak-o- 'increase, raise, feed' [Vb] |
+| 259 | 12882 | *makina | bellow | Noun | *makina 'bellow' [Noun] |
+| 259 | 12893 | *mallo- | slow, lazy | Adj | *mallo- 'slow, lazy' [Adj] |
+| 260 | 12912 | *mal-o-, | grind | Vb | *mal-o-, *mel-o- 'grind' [Vb] |
+| 260 | 12926 | *malo- | praise | Noun | *malo- 'praise' [Noun] |
+| 260 | 12930 | *mamm(y)a | mother, nanny | Noun | *mamm(y)a 'mother, nanny' [Noun] |
+| 260 | 12947 | *mani- | turf, peat | Noun | *mani- 'turf, peat' [Noun] |
+| 261 | 12962 | *man-yo- | think, remember | Vb | *man-yo- 'think, remember' [Vb] |
+| 261 | 12978 | *manti- | quantity | Noun | *manti- 'quantity' [Noun] |
+| 261 | 12992 | *manto- | gums, jaw | Noun | *manto- 'gums, jaw' [Noun] |
+| 261 | 13004 | *mantro- | trampling, grinding | Noun | *mantro- 'trampling, grinding' [Noun] |
+| 261 | 13008 | *mark-āko- | horseman | Noun | *mark-āko- 'horseman' [Noun] |
+| 262 | 13023 | *marko- | horse | Noun | *marko- 'horse' [Noun] |
+| 262 | 13043 | *mar-na- | betray | Vb | *mar-na- 'betray' [Vb] |
+| 262 | 13056 | *mar-o- | remain | Vb | *mar-o- 'remain' [Vb] |
+| 263 | 13070 | *mliro- | great | Adj | *mliro- 'great' [Adj] |
+| 263 | 13091 | *marsto/i- | fate, untimely death | Noun | *marsto/i- 'fate, untimely death' [Noun] |
+| 264 | 13115 | *marw-a- | die | Vb | *marw-a- 'die' [Vb] |
+| 264 | 13119 | *marwo- | dead | Adj | *marwo- 'dead' [Adj] |
+| 264 | 13134 | *marwo-natu- | funerary poem, eulogy | Noun | *marwo-natu- 'funerary poem, eulogy' [Noun] |
+| 264 | 13144 | *mati- | good | Adj | *mati- 'good' [Adj] |
+| 265 | 13170 | *matir | mother | Noun | *matir 'mother' [Noun] |
+| 265 | 13188 | *maylo- | bald | Adj | *maylo- 'bald' [Adj] |
+| 265 | 13201 | *mazdyo- | stick | Noun | *mazdyo- 'stick' [Noun] |
+| 266 | 13218 | *mebla | shame | Noun | *mebla 'shame' [Noun] |
+| 266 | 13234 | *med-o- | measure, judge | Vb | *med-o- 'measure, judge' [Vb] |
+| 266 | 13248 | *medu | mead, alcoholic drink | Noun | *medu 'mead, alcoholic drink' [Noun] |
+| 267 | 13269 | *medyo- | middle | Noun | *medyo- 'middle' [Noun] |
+| 267 | 13282 | *meko- | sack, bushel (of grain) | Noun | *meko- 'sack, bushel (of grain)' [Noun] |
+| 267 | 13295 | *meldo- | mild, pleasant | Adj | *meldo- 'mild, pleasant'; *mlido- 'soft' [Adj] |
+| 268 | 13320 | *melgos- | milk | Noun | *melgos- 'milk' [Noun] |
+| 268 | 13330 | *meli | honey | Noun | *meli 'honey' [Noun] |
+| 268 | 13348 | *melino- | yellow | Adj | *melino- 'yellow' [Adj] |
+| 268 | 13360 | *mello- | destruction, confusion | Noun | *mello- 'destruction, confusion' [Noun] |
+| 269 | 13376 | *meni | flour | Noun | *meni 'flour' [Noun] |
+| 269 | 13393 | *menādo- | awl | Noun | *menādo- 'awl' [Noun] |
+| 269 | 13404 | *mendrā | blemish | Noun | *mendrā 'blemish' [Noun] |
+| 269 | 13408 | *mendu- | mark, sign | Noun | *mendu- 'mark, sign' [Noun] |
+| 270 | 13423 | *menekki- | frequent, abundant | Adj | *menekki- 'frequent, abundant' [Adj] |
+| 270 | 13438 | *menekkyl | frequency | Noun | *menekkyl 'frequency' [Noun] |
+| 270 | 13442 | *ml!ni- | mineral, metal | Noun | *ml!ni- 'mineral, metal' [Noun] |
+| 270 | 13455 | *menman- | thought, mind | Noun | *menman- 'thought, mind' [Noun] |
+| 271 | 13470 | *menno- | young of an animal, kid | Noun | *menno- 'young of an animal, kid' [Noun] |
+| 271 | 13490 | *meno- | wish | Noun | *meno- 'wish' [Noun] |
+| 271 | 13503 | *mentyon- | thought, mention | Noun | *mentyon- 'thought, mention' [Noun] |
+| 272 | 13517 | *menwo- | small, minute | Adj | *menwo- 'small, minute' [Adj] |
+| 272 | 13529 | *mergi | rust, corrosion | Noun | *mergi 'rust, corrosion' [Noun] |
+| 272 | 13541 | *merka | maiden | Noun | *merka 'maiden' [Noun] |
+| 272 | 13554 | *mero- | crazy, silly | Adj | *mero- 'crazy, silly' [Adj] |
+| 273 | 13569 | *merwi- | lifeless | Adj | *merwi- 'lifeless' [Adj] |
+| 273 | 13580 | *mesal-ka | blackbird | Noun | *mesal-ka 'blackbird' [Noun] |
+| 273 | 13592 | *messo- | bad, worst | Adj | *messo- 'bad, worst' [Adj] |
+| 273 | 13606 | *messu- | acorn | Noun | *messu- 'acorn' [Noun] |
+| 274 | 13624 | *messu- | judgement | Noun | *messu- 'judgement' [Noun] |
+| 274 | 13628 | *metelo- | reaper | Noun | *metelo- 'reaper' [Noun] |
+| 274 | 13642 | *met(t)o- | decay, blight, shame | Noun | *met(t)o- 'decay, blight, shame' [Noun] |
+| 274 | 13655 | *met-o- | reap, cut | Vb | *met-o- 'reap, cut' [Vb] |
+| 275 | 13673 | *meto-, | fat, soft | Adj | *meto-, *meti- 'fat, soft' [Adj] |
+| 275 | 13689 | *mezgo- | whey | Noun | *mezgo- 'whey' [Noun] |
+| 275 | 13702 | *mi, | I | Pron, Acc. s | *mi, *me 'I' [Pron, Acc. s] |
+| 276 | 13723 | *mi-nV- | change position | Vb | *mi-nV- 'change position' [Vb] |
+| 276 | 13738 | *mi-nu- | bind | Vb | *mi-nu- 'bind' [Vb] |
+| 276 | 13746 | *mik-n- | shine, look | Vb | *mik-n- 'shine, look' [Vb] |
+| 276 | 13763 | *mīlo- | animal | Noun | *mīlo- 'animal' [Noun] |
+| 277 | 13782 | *mindu- | crown, diadem | Noun | *mindu- 'crown, diadem' [Noun] |
+| 277 | 13793 | *mīno- | tender, soft | Adj | *mīno- 'tender, soft' [Adj] |
+| 277 | 13797 | *mīns- | month | Noun | *mīns- 'month' [Noun] |
+| 277 | 13814 | *mīros- | piece of meat, food | Noun | *mīros- 'piece of meat, food' [Noun] |
+| 278 | 13831 | *misko- | mixed, confused | Adj | *misko- 'mixed, confused' [Adj] |
+| 278 | 13847 | *mlasto- | taste | Noun | *mlasto- 'taste' [Noun] |
+| 278 | 13862 | *mūlto/i- | tender, soft | Adj | *mūlto/i- 'tender, soft' [Adj] |
+| 279 | 13883 | *mlig-o- | milk | Vb | *mlig-o- 'milk' [Vb] |
+| 279 | 13896 | *mlixto- | milk | Noun | *mlixto- 'milk' [Noun] |
+| 279 | 13906 | *mogu- | servant | Noun | *mogu- 'servant' [Noun] |
+| 279 | 13920 | *mokku- | pig | Noun | *mokku- 'pig' [Noun] |
+| 280 | 13938 | *mol-a- | praise | Vb | *mol-a- 'praise' [Vb] |
+| 280 | 13960 | *molto- | ram, wether | Noun | *molto- 'ram, wether' [Noun] |
+| 280 | 13972 | *monetu- | going | Verbal Noun | *monetu- 'going' [Verbal Noun] |
+| 281 | 13989 | *mon-i- | go | Vb | *mon-i- 'go' [Vb] |
+| 281 | 14007 | *moni- | neck | Noun | *moni- 'neck' [Noun] |
+| 281 | 14021 | *moni- | protection, patronage | Noun | *moni- 'protection, patronage' [Noun] |
+| 282 | 14043 | *moniklo- | collar | Noun | *moniklo- 'collar' [Noun] |
+| 282 | 14047 | *moniyo- | mountain | Noun | *moniyo- 'mountain' [Noun] |
+| 282 | 14061 | *mori- | sea | Noun | *mori- 'sea' [Noun] |
+| 283 | 14081 | *morwi- | ant | Noun | *morwi- 'ant' [Noun] |
+| 283 | 14098 | *mora | female demon | Noun | *mora 'female demon' [Noun] |
+| 283 | 14109 | *morena | girl | Noun | *morena 'girl' [Noun] |
+| 283 | 14113 | *moxs | early | Adverb | *moxs 'early' [Adverb] |
+| 283 | 14125 | *moyni- | treasure, precious object | Noun | *moyni- 'treasure, precious object' [Noun] |
+| 284 | 14143 | *moyto- | tender | Adj | *moyto- 'tender' [Adj] |
+| 284 | 14155 | *mraki- | malt | Noun | *mraki- 'malt' [Noun] |
+| 284 | 14173 | *mrato- | deceit | Noun | *mrato- 'deceit' [Noun] |
+| 285 | 14188 | *mrixto- | variegated, diversified, painted, speckled | Adj | *mrixto- 'variegated, diversified, painted, speckled' [Adj] |
+| 285 | 14203 | *mrogi- | territory, region | Noun | *mrogi- 'territory, region' [Noun] |
+| 285 | 14222 | *mug- | conceal | Vb | *mug- 'conceal' [Vb] |
+| 286 | 14234 | *muk-V- | smoke | Noun | *muk-V- 'smoke' [Noun] |
+| 286 | 14251 | *mtlno- | urine | Noun | *mtlno- 'urine' [Noun] |
+| 286 | 14262 | *musso- | dirty | Adj | *musso- 'dirty' [Adj] |
+| 286 | 14277 | *mustako- | boy | Noun | *mustako- 'boy' [Noun] |
+| 287 | 14295 | *muto- | penis | Noun | *muto- 'penis' [Noun] |
+| 287 | 14309 | *muxto- | soft, tender | Adj | *muxto- 'soft, tender' [Adj] |
+| 288 | 14333 | *nask-o- | bind | Vb | *nask-o- 'bind' [Vb] |
+| 288 | 14348 | *namant- | enemy | Noun | *namant- 'enemy' [Noun] |
+| 288 | 14359 | *nanti- | fight, battle | Noun | *nanti- 'fight, battle' [Noun] |
+| 288 | 14372 | *nantu-, | stream, valley | Noun | *nantu-, *nanto- 'stream, valley' [Noun] |
+| 289 | 14389 | *nāro- | noble, great-hearted | Adj | *nāro- 'noble, great-hearted' [Adj] |
+| 289 | 14408 | *nāryā | modesty, magnanimity | Noun | *nāryā 'modesty, magnanimity' [Noun] |
+| 289 | 14412 | *natrik- | serpent | Noun | *natrik- 'serpent' [Noun] |
+| 289 | 14427 | *natu- | poem | Noun | *natu- 'poem' [Noun] |
+| 290 | 14448 | *nliwli | boat | Noun | *nliwli 'boat' [Noun] |
+| 290 | 14460 | *nliw(i)nya | hunger | Noun | *nliw(i)nya 'hunger' [Noun] |
+| 290 | 14476 | *nawito- | need | Noun | *nawito- 'need' [Noun] |
+| 291 | 14489 | *ne, | not | Negation | *ne, *ni, *ni 'not' [Negation] |
+| 291 | 14509 | *nebo- | vigour, vital spirit | Noun | *nebo- 'vigour, vital spirit' [Noun] |
+| 291 | 14522 | *nefti- | niece, sister | Noun | *nefti- 'niece, sister's daughter' [Noun] |
+| 291 | 14533 | *nefot- | nephew, sister | Noun | *nefot- 'nephew, sister's son' [Noun] |
+| 292 | 14552 | *ne-kʷe | not | Negation | *ne-kʷe 'not' [Negation] |
+| 292 | 14566 | *nekʷo- | someone | Pron | *nekʷo- 'someone' [Pron] |
+| 292 | 14581 | *nek(k)i | not | Particle | *nek(k)i 'not' [Particle] |
+| 293 | 14597 | *nemā | brilliance, beauty | Noun | *nemā 'brilliance, beauty' [Noun] |
+| 293 | 14609 | *nemeto- | sacred place, sanctuary | Noun | *nemeto- 'sacred place, sanctuary' [Noun] |
+| 293 | 14622 | *nemo- | poison | Noun | *nemo- 'poison' [Noun] |
+| 293 | 14632 | *nemos- | heaven, sky | Noun | *nemos- 'heaven, sky' [Noun] |
+| 294 | 14649 | *nero- | hero |  | *nero- 'hero' |
+| 294 | 14662 | *nerto- | strength, force | Noun | *nerto- 'strength, force' [Noun] |
+| 294 | 14683 | *nesso- | closer | Adj | *nesso- 'closer' (comparative) [Adj] |
+| 295 | 14706 | *nizdo- | nest | Noun | *nizdo- 'nest' [Noun] |
+| 295 | 14723 | *now-slo- | cry, shout | Noun | *now-slo- 'cry, shout' [Noun] |
+| 295 | 14733 | *nowameto- | ninth | Ordinal Number | *nowameto- 'ninth' [Ordinal Number] |
+| 296 | 14759 | *Nowdont- |  | Theonym | *Nowdont- [Theonym] |
+| 296 | 14763 | *nowyo- | new | Adj | *nowyo- 'new' [Adj] |
+| 296 | 14787 | *noxtV- | night | Noun | *noxtV- 'night' [Noun] |
+| 297 | 14807 | *noxto- | naked | Adj | *noxto- 'naked' [Adj] |
+| 297 | 14826 | *noybo- | holy | Adj | *noybo- 'holy' [Adj] |
+| 297 | 14830 | *nu | now | Adverb | *nu 'now' [Adverb] |
+| 298 | 14851 | *niisso-, | first milk, colostrum | Noun | *niisso-, *nowsso- 'first milk, colostrum' [Noun] |
+| 298 | 14866 | *nuw-o- | nod, assent to | Vb | *nuw-o- 'nod, assent to' [Vb] |
+| 298 | 14880 | *obnu- | fear | Noun | *obnu- 'fear' [Noun] |
+| 299 | 14904 | *odbo- | knot, bulge | Noun | *odbo- 'knot, bulge' [Noun] |
+| 299 | 14920 | *ofi-bā | beauty, appearance |  | *ofi-bā 'beauty, appearance' |
+| 299 | 14930 | *ofi-belā | spark, flame | Noun | *ofi-belā 'spark, flame' [Noun] |
+| 300 | 14945 | *Ogmiyo- | a mythological name |  | *Ogmiyo- 'a mythological name' |
+| 300 | 14961 | *oketā | harrow | Noun | *oketā 'harrow' [Noun] |
+| 300 | 14978 | *okri- | edge | Noun | *okri- 'edge' [Noun] |
+| 300 | 14982 | *olinā | elbow, angle | Noun | *olinā 'elbow, angle' [Noun] |
+| 301 | 14998 | *olo- | behind, beyond | Prep | *olo- 'behind, beyond' [Prep] |
+| 301 | 15014 | *olyo- | all, whole, every | Adj | *olyo- 'all, whole, every' [Adj] |
+| 301 | 15033 | *omiyo- | copper, bronze | Noun | *omiyo- 'copper, bronze' [Noun] |
+| 302 | 15053 | *omo- | raw | Adj | *omo- 'raw' [Adj] |
+| 302 | 15070 | *onko- | at | Prep | *onko- 'at' [Prep] |
+| 302 | 15082 | *orbo- | heir, inheritor | Noun | *orbo- 'heir, inheritor' [Noun] |
+| 303 | 15097 | *ordo/ā- | hammer | Noun | *ordo/ā- 'hammer' [Noun] |
+| 303 | 15112 | *org-o- | destroy | Vb | *org-o- 'destroy' [Vb] |
+| 303 | 15124 | *orgyā | testicle | Noun | *orgyā 'testicle' [Noun] |
+| 303 | 15137 | *osno- | ash-tree | Noun | *osno- 'ash-tree' [Noun] |
+| 304 | 15160 | *owgro- | cold | Adj | *owgro- 'cold' [Adj] |
+| 304 | 15176 | *owi- | sheep | Noun | *owi- 'sheep' [Noun] |
+| 304 | 15190 | *owigno- | lamb | Noun | *owigno- 'lamb' [Noun] |
+| 305 | 15223 | *owika | hind, doe | Noun | *owika 'hind, doe' [Noun] |
+| 305 | 15235 | *owma | cave |  | *owma 'cave' |
+| 305 | 15248 | *owxs-anata | sigh | Noun | *owxs-anata 'sigh' [Noun] |
+| 306 | 15263 | *owxsV- | high | Adj | *owxsV- 'high' [Adj] |
+| 306 | 15277 | *owxselo- | high, elevated | Adj | *owxselo- 'high, elevated' [Adj] |
+| 306 | 15294 | *owxsos | above | Prep | *owxsos 'above' [Prep] |
+| 307 | 15317 | *owxtu- | cold | Noun | *owxtu- 'cold' [Noun] |
+| 307 | 15325 | *oxtii | eight | Num | *oxtii 'eight' [Num] |
+| 307 | 15340 | *oyget- | guest | Noun | *oyget- 'guest' [Noun] |
+| 307 | 15351 | *oynano- | alone, personally |  | *oynano- 'alone, personally' |
+| 307 | 15355 | *oyno- | one | Num | *oyno- 'one' [Num] |
+| 308 | 15378 | *oyto- | oath | Noun | *oyto- 'oath' [Noun] |
+| 308 | 15390 | *rād-ī- | talk | Vb | *rād-ī- 'talk' [Vb] |
+| 309 | 15408 | *rano- | mane | Noun | *rano- 'mane' [Noun] |
+| 309 | 15423 | *rasmiyo- | oar |  | *rasmiyo- 'oar' |
+| 309 | 15427 | *ra-yo- | row | Vb | *ra-yo- 'row' [Vb] |
+| 309 | 15442 | *razd-o- | scrape, scratch | Vb | *razd-o- 'scrape, scratch' [Vb] |
+| 309 | 15453 | *redi- | simple, easy | Adj | *redi- 'simple, easy' [Adj] |
+| 310 | 15470 | *rēdo- | the act of riding, chariot | Noun | *rēdo- 'the act of riding, chariot' [Noun] |
+| 310 | 15481 | *red-o- | ride | Vb | *red-o- 'ride' [Vb] |
+| 310 | 15491 | *red-sman-, | movement, course | Noun | *red-sman-, *ressman- 'movement, course' [Noun] |
+| 310 | 15498 | *regini- | hard, stiff |  | *regini- 'hard, stiff' |
+| 311 | 15510 | *reg-o- | extend, stretch, straighten | Vb | *reg-o- 'extend, stretch, straighten' [Vb] |
+| 311 | 15527 | *reg-sman- |  |  | *reg-sman- (*rexsman-) |
+| 311 | 15535 | *rek-o- | arrange | Vb | *rek-o- 'arrange' [Vb] |
+| 311 | 15545 | *rek-o- | tear apart | Vb | *rek-o- 'tear apart' [Vb] |
+| 311 | 15556 | *remesso- | period of time | Noun | *remesso- 'period of time' [Noun] |
+| 312 | 15572 | *rem(r)o- | great, fat, thick | Adj | *rem(r)o- 'great, fat, thick' [Adj] |
+| 312 | 15580 | *rendi- | point, peak | Noun | *rendi- 'point, peak' [Noun] |
+| 312 | 15592 | *rēno- | large expanse of water | Noun | *rēno- 'large expanse of water' [Noun] |
+| 312 | 15603 | *rentu- | thing, matter | Noun | *rentu- 'thing, matter' [Noun] |
+| 313 | 15615 | *ret-o- | run | Vb | *ret-o- 'run' [Vb] |
+| 313 | 15632 | *retu- | course |  | *retu- 'course' |
+| 313 | 15642 | *rextu- | fury, outburst of anger | Noun | *rextu- 'fury, outburst of anger' [Noun] |
+| 313 | 15651 | *rextu- | rule, law | Noun | *rextu- 'rule, law' [Noun] |
+| 314 | 15669 | *rig- | king | Noun | *rig- 'king' [Noun] |
+| 314 | 15693 | *rigani | queen | Noun | *rigani 'queen' [Noun] |
+| 315 | 15724 | *rig-o- | go | Vb | *rig-o- 'go' [Vb] |
+| 315 | 15740 | *rig-o- | stretch | Vb | *rig-o- 'stretch' [Vb] |
+| 316 | 15764 | *rima | number, count | Noun | *rima 'number, count' [Noun] |
+| 316 | 15780 | *ri-na- | count, sell, exchange | Vb | *ri-na- 'count, sell, exchange' [Vb] |
+| 316 | 15792 | *ri-n-g-o- | torture | Vb | *ri-n-g-o- 'torture' [Vb] |
+| 316 | 15796 | *rinno- | quick, fast | Adj | *rinno- 'quick, fast' [Adj] |
+| 317 | 15821 | *riya-tro- | torrent, waterfall | Noun | *riya-tro- 'torrent, waterfall' [Noun] |
+| 317 | 15838 | *rom-i- | place, put | Vb | *rom-i- 'place, put' [Vb] |
+| 317 | 15851 | *roto- | wheel, chariot | Noun | *roto- 'wheel, chariot' [Noun] |
+| 318 | 15870 | *rowd-smon- | red dye | Noun | *rowd-smon- 'red dye' [Noun] |
+| 318 | 15874 | *rowdo- | red | Adj | *rowdo- 'red' [Adj] |
+| 318 | 15893 | *rowesya | field, open ground | Noun | *rowesya 'field, open ground' [Noun] |
+| 318 | 15902 | *rowk(k)-/*ruk- | tunic, mantle |  | *rowk(k)-/*ruk- 'tunic, mantle' |
+| 319 | 15920 | *rowtro- | assault, onrush | Noun | *rowtro- 'assault, onrush' [Noun] |
+| 319 | 15928 | *royno- | route, road | Noun | *royno- 'route, road' [Noun] |
+| 319 | 15941 | *rud-i- | redden, become red | Vb | *rud-i- 'redden, become red' [Vb] |
+| 319 | 15951 | *rfinā | secret, magic | Noun | *rfinā 'secret, magic' [Noun] |
+| 320 | 15974 | *ru-n-d-o- | paint red | Vb | *ru-n-d-o- 'paint red' [Vb] |
+| 320 | 15983 | *rosk(l)o-, | bark | Noun | *rosk(l)o-, *rusko- 'bark' [Noun] |
+| 320 | 16005 | *ruxtu- | noise | Noun | *ruxtu- 'noise' [Noun] |
+| 321 | 16021 | *sado- | easy | Adj | *sado- 'easy' [Adj] |
+| 321 | 16031 | *sag-yo- | seek | Vb | *sag-yo- 'seek' [Vb] |
+| 321 | 16050 | *sakro- | ugly | Adj | *sakro- 'ugly' (?) [Adj] |
+| 322 | 16075 | *sala | dirt | Noun | *sala 'dirt' [Noun] |
+| 322 | 16087 | *salano- | salt | Noun | *salano- 'salt' [Noun] |
+| 322 | 16103 | *salik- | willow | Noun | *salik- 'willow' [Noun] |
+| 323 | 16122 | *saltro- | trampling | Noun | *saltro- 'trampling' [Noun] |
+| 323 | 16136 | *samali- | similitude, description | Noun | *samali- 'similitude, description' [Noun] |
+| 323 | 16150 | *samalo- | like, as | Prep | *samalo- 'like, as' [Prep] |
+| 324 | 16169 | *samo- | summer | Noun | *samo- 'summer' [Noun] |
+| 324 | 16187 | *sllmo- | calm, easy, pleasant | Adj | *sllmo- 'calm, easy, pleasant' [Adj] |
+| 324 | 16200 | *samo-siskʷi | heifer, sterile cow | Noun | *samo-siskʷi 'heifer, sterile cow' [Noun] |
+| 325 | 16214 | *samoni- | assembly, (feast of the) first month of the year | Noun | *samoni- 'assembly, (feast of the) first month of the year' [Noun] |
+| 325 | 16228 | *sanesto- | (secret) advice | Noun | *sanesto- '(secret) advice' [Noun] |
+| 325 | 16246 | *sani | different | Adj | *sani 'different' [Adj] |
+| 326 | 16262 | *san-na- | reach | Vb | *san-na- 'reach' [Vb] |
+| 326 | 16281 | *santero- | half, middle | Adj | *santero- 'half, middle' [Adj] |
+| 326 | 16285 | *siss-ii- | satisfy | Vb | *siss-ii- 'satisfy' [Vb] |
+| 326 | 16289 | *sasyo- | barley | Noun | *sasyo- 'barley' [Noun] |
+| 326 | 16306 | *sati-, | swarm, throng | Noun | *sati-, *satyo- 'swarm, throng' [Noun] |
+| 327 | 16328 | *sati- | sufficiency, fill | Noun | *sati- 'sufficiency, fill' [Noun] |
+| 327 | 16340 | *sawol- | sun | Noun | *sawol- / *suli- 'sun' [Noun] |
+| 327 | 16357 | *saytlo- | age, lifetime | Noun | *saytlo- 'age, lifetime' [Noun] |
+| 328 | 16373 | *saytro- | work, labour | Noun | *saytro- 'work, labour' [Noun] |
+| 328 | 16377 | *saytu- | labour, illness | Noun | *saytu- 'labour, illness' [Noun] |
+| 328 | 16389 | *sebro- | demon, spectre | Noun | *sebro- 'demon, spectre' [Noun] |
+| 328 | 16406 | *sed-o- | sit | Vb | *sed-o- 'sit' [Vb] |
+| 329 | 16422 | *sedlo- | seat | Noun | *sedlo- 'seat' [Noun] |
+| 329 | 16432 | *sedo-, | tumulus (inhabited by supernatural beings), peace | Noun | *sedo-, *sidos- 'tumulus (inhabited by supernatural beings), peace' [Noun] |
+| 329 | 16453 | *seg-eto- | seed | Noun | *seg-eto- 'seed' [Noun] |
+| 330 | 16471 | *segno-, | trap, snare | Noun | *segno-, *sogno- 'trap, snare' [Noun] |
+| 330 | 16484 | *sego- | force | Noun | *sego- 'force' [Noun] |
+| 330 | 16504 | *seg-(y)o- | sow, put | Vb | *seg-(y)o- 'sow, put' [Vb] |
+| 331 | 16520 | *sekʷ-o- | follow | Vb | *sekʷ-o- 'follow' [Vb] |
+| 331 | 16534 | *sekʷ-o- | say | Vb | *sekʷ-o- 'say' [Vb] |
+| 331 | 16547 | *sekʷo- | besides, without | Prep | *sekʷo- 'besides, without' [Prep] |
+| 332 | 16568 | *seket- | hide, skin | Noun | *seket- 'hide, skin' [Noun] |
+| 332 | 16572 | *selga | hunt | Noun | *selga 'hunt' [Noun] |
+| 332 | 16587 | *selwa | possession | Noun | *selwa 'possession' [Noun] |
+| 332 | 16600 | *semiti- | also |  | *semiti- 'also' |
+| 333 | 16617 | *sem-o- | pour | Vb | *sem-o- 'pour' [Vb] |
+| 333 | 16630 | *seno- | old | Adj | *seno- 'old' [Adj] |
+| 333 | 16642 | *sentu- | path | Noun | *sentu- 'path' [Noun] |
+| 333 | 16660 | *serrll | sickle | Noun | *serrll 'sickle' [Noun] |
+| 334 | 16679 | *serwa | theft | Noun | *serwa 'theft' [Noun] |
+| 334 | 16690 | *sex-skali- | rushes, sedge | Noun | *sex-skali- 'rushes, sedge' [Noun] |
+| 334 | 16706 | *se(x)sman | nail, rivet | Noun | *se(x)sman 'nail, rivet' [Noun] |
+| 335 | 16717 | *sextam | seven | Num | *sextam 'seven' [Num] |
+| 335 | 16731 | *sextameto- | seventh | Ordinal | *sextameto- 'seventh' [Ordinal] |
+| 335 | 16740 | *sfelgā | spleen | Noun | *sfelgā 'spleen' [Noun] |
+| 335 | 16760 | *stemi- | thin | Adj | *stemi- 'thin' [Adj] |
+| 336 | 16776 | *sfenyo- | teat, pap | Noun | *sfenyo- 'teat, pap' [Noun] |
+| 336 | 16790 | *sferā | heel | Noun | *sferā 'heel' [Noun] |
+| 337 | 16825 | *sfondo- | stick, staff | Noun | *sfondo- 'stick, staff' [Noun] |
+| 337 | 16841 | *sfrawo- | crow | Noun | *sfrawo- 'crow' [Noun] |
+| 337 | 16855 | *sfraxto- | fluent, eloquent, lively | Adj | *sfraxto- 'fluent, eloquent, lively' [Adj] |
+| 338 | 16876 | *sfrusso- | quick, fast | Adj | *sfrusso- 'quick, fast' [Adj] |
+| 338 | 16890 | *si | she | Pron | *si 'she' [Pron] |
+| 338 | 16905 | *sido- | elk, stag | Noun | *sido- 'elk, stag' [Noun] |
+| 339 | 16920 | *sil-n- | look | Vb | *sil-n- (?) 'look' [Vb] |
+| 339 | 16936 | *sīlo- | seed, descendants | Noun | *sīlo- 'seed, descendants' [Noun] |
+| 339 | 16949 | *sīnā | weather | Noun | *sīnā 'weather' [Noun] |
+| 339 | 16962 | *sindo- | this | Demonstrative Pronoun | *sindo- 'this' [Demonstrative Pronoun] |
+| 340 | 16979 | *si-ni- | stretch, extend | Vb | *si-ni- 'stretch, extend' [Vb] |
+| 340 | 16983 | *siro- | long | Adj | *siro- 'long' [Adj] |
+| 340 | 17001 | *siskʷo- | dry | Adj | *siskʷo- 'dry' [Adj] |
+| 341 | 17018 | *si-sta- | put, stand | Vb | *si-sta- 'put, stand' [Vb] |
+| 341 | 17029 | *siti- | length | Noun | *siti- 'length' [Noun] |
+| 341 | 17048 | *sitla | vase | Noun | *sitla 'vase' [Noun] |
+| 341 | 17060 | *skʷetlo- | story | Noun | *skʷetlo- 'story' [Noun] |
+| 342 | 17081 | *skʷiyat- | hawthorn | Noun | *skʷiyat- 'hawthorn' [Noun] |
+| 342 | 17097 | *skamo- | light | Adj | *skamo- 'light' [Adj] |
+| 342 | 17113 | *skan-n-d-o- | jump | Vb | *skan-n-d-o- 'jump' [Vb] |
+| 343 | 17131 | *skara- | divide, separate | Vb | *skara- 'divide, separate' [Vb] |
+| 343 | 17146 | *skilto- | shadow | Noun | *skilto- 'shadow' [Noun] |
+| 343 | 17164 | *skilx-slo- | demon, supernatural being | Noun | *skilx-slo- 'demon, supernatural being' [Noun] |
+| 344 | 17179 | *skedo- | wing, shoulder | Noun | *skedo- 'wing, shoulder' [Noun] |
+| 344 | 17194 | *skek- | move, stir | Vb | *skek- 'move, stir' [Vb] |
+| 344 | 17210 | *skeno- | knife | Noun | *skeno- 'knife' [Noun] |
+| 344 | 17214 | *skerd-(y)o- | scrape off | Vb | *skerd-(y)o- 'scrape off' [Vb] |
+| 345 | 17233 | *sketo- | shield | Noun | *sketo- 'shield' [Noun] |
+| 345 | 17251 | *skīssu- | weariness | Noun | *skīssu- 'weariness' [Noun] |
+| 345 | 17255 | *skīto- | tired | Adj | *skīto- 'tired' [Adj] |
+| 345 | 17271 | *(s)kītto- | left, clumsy | Adj | *(s)kītto- 'left, clumsy' [Adj] |
+| 346 | 17289 | *skiy-o- | vomit, spew | Vb | *skiy-o- 'vomit, spew' [Vb] |
+| 346 | 17305 | *skiy-o- | cut | Vb | *skiy-o- 'cut' [Vb] |
+| 346 | 17317 | *skolta | fissure, cleft | Noun | *skolta 'fissure, cleft' [Noun] |
+| 347 | 17343 | *skribb-a- | scratch | Vb | *skribb-a- 'scratch' [Vb] |
+| 347 | 17356 | *skublo- | bird of prey | Noun | *skublo- 'bird of prey' [Noun] |
+| 347 | 17366 | *skuta | point, edge | Noun | *skuta 'point, edge' [Noun] |
+| 348 | 17381 | *slad-yo- | hit, slay | Vb | *slad-yo- 'hit, slay' [Vb] |
+| 348 | 17392 | *slano- | safe, whole, sane | Adj | *slano- 'safe, whole, sane' [Adj] |
+| 348 | 17408 | *slatta | stalk, staff | Noun | *slatta 'stalk, staff' [Noun] |
+| 348 | 17424 | *slebos- | slope | Noun | *slebos- 'slope' [Noun] |
+| 349 | 17441 | *slig-o- | strike, hew | Vb | *slig-o- 'strike, hew' [Vb] |
+| 349 | 17451 | *slimono- | polished, smooth | Adj | *slimono- 'polished, smooth' [Adj] |
+| 349 | 17464 | *slowgo- | troop, army | Noun | *slowgo- 'troop, army' [Noun] |
+| 350 | 17479 | *slu-n-k-o- | swallow | Vb | *slu-n-k-o- 'swallow' [Vb] |
+| 350 | 17495 | *smeko- | chin | Noun | *smeko- 'chin' [Noun] |
+| 350 | 17508 | *smero- | blackberry | Noun | *smero- 'blackberry' [Noun] |
+| 350 | 17521 | *smeru- | marrow | Noun | *smeru- 'marrow' [Noun] |
+| 351 | 17537 | *snad-o- | hew, carve | Vb | *snad-o- 'hew, carve' [Vb] |
+| 351 | 17551 | *snā- | swim | Vb | *snā- 'swim' [Vb] |
+| 351 | 17562 | *snād-i- | protect | Vb | *snād-i- 'protect' [Vb] |
+| 351 | 17572 | *snamo- | swimming |  | *snamo- 'swimming' |
+| 351 | 17578 | *snāto- | thread | Noun | *snāto- 'thread' [Noun] |
+| 352 | 17596 | *snida | nit | Noun | *snida 'nit' [Noun] |
+| 352 | 17611 | *snigʷ-(y)o- | snow | Vb | *snigʷ-(y)o- 'snow' [Vb] |
+| 352 | 17624 | *snls | we | Pron | *snls 'we' [Pron] |
+| 353 | 17641 | *sniy-o- | spin, weave | Vb | *sniy-o- 'spin, weave' [Vb] |
+| 353 | 17653 | *snowdo- | mist, haze | Noun | *snowdo- 'mist, haze' [Noun] |
+| 353 | 17668 | *so- | this | Demonstrative Pron. | *so- 'this' [Demonstrative Pron.] |
+| 353 | 17682 | *sodyo- | seat | Noun | *sodyo- 'seat' [Noun] |
+| 354 | 17694 | *somo- | same | Pron | *somo- 'same' [Pron] |
+| 354 | 17703 | *sondo- | that | Pron | *sondo- 'that' [Pron] |
+| 354 | 17717 | *sowno- | sleep | Noun | *sowno- 'sleep' [Noun] |
+| 355 | 17735 | *sowono- | sun, sunlight | Noun | *sowono- 'sun, sunlight' [Noun] |
+| 355 | 17747 | *soyto- | magic | Noun | *soyto- 'magic' [Noun] |
+| 355 | 17761 | *sregn-o- | snore | Vb | *sregn-o- 'snore' [Vb] |
+| 355 | 17765 | *srobu- | snout, beak | Noun | *srobu- 'snout, beak' [Noun] |
+| 355 | 17774 | *srogna | nose | Noun | *srogna 'nose' [Noun] |
+| 356 | 17794 | *srowman- | stream | Noun | *srowman- 'stream' [Noun] |
+| 356 | 17804 | *sruto- | stream, flow | Noun | *sruto- 'stream, flow' [Noun] |
+| 356 | 17820 | *stabo- | shaft, pole | Noun | *stabo- 'shaft, pole' [Noun] |
+| 357 | 17840 | *stamnl | mouth | Noun | *stamnl 'mouth' [Noun] |
+| 357 | 17856 | *star-na- | strew, broaden | Vb | *star-na- 'strew, broaden' [Vb] |
+| 357 | 17871 | *statll | heel | Noun | *statll 'heel' [Noun] |
+| 358 | 17894 | *sterka | love | Noun | *sterka 'love' [Noun] |
+| 358 | 17909 | *stera | star | Noun | *stera 'star' [Noun] |
+| 358 | 17927 | *stirrako- | small animal, chick | Noun | *stirrako- 'small animal, chick' [Noun] |
+| 359 | 17941 | *stlīki- | lye | Noun | *stlīki- 'lye' [Noun] |
+| 359 | 17952 | *stlissu- | side, wall | Noun | *stlissu- 'side, wall' [Noun] |
+| 359 | 17969 | *stlondo- | sense, meaning | Noun | *stlondo- 'sense, meaning' [Noun] |
+| 359 | 17983 | *(s)towxsman- | bend, arch, curve | Noun | *(s)towxsman- 'bend, arch, curve' [Noun] |
+| 360 | 18001 | *strato- | valley | Noun | *strato- 'valley' [Noun] |
+| 360 | 18014 | *stronko- | excrement |  | *stronko- 'excrement' |
+| 360 | 18030 | *(s)troxtt | urine | Noun | *(s)troxtt 'urine' [Noun] |
+| 360 | 18034 | *struti- | old, senior | Adj | *struti- 'old, senior' [Adj] |
+| 361 | 18050 | *stu-n-g-o- | bend | Vb | *stu-n-g-o- 'bend' [Vb] |
+| 361 | 18064 | *su- | good | (Prefixed) Adjective | *su- 'good' [Adv], [(Prefixed) Adjective] |
+| 361 | 18075 | *subi- | strawberry | Noun | *subi- 'strawberry' [Noun] |
+| 361 | 18085 | *su.dya, | soot | Noun | *su.dya, *sudya 'soot' [Noun] |
+| 362 | 18106 | *sukko- | pig | Noun | *sukko- 'pig' [Noun] |
+| 362 | 18124 | *su-oxsmiyo- | rich | Adj | *su-oxsmiyo- 'rich' [Adj] |
+| 362 | 18134 | *sutu- | fruit, produce, issue | Noun | *sutu- 'fruit, produce, issue' [Noun] |
+| 363 | 18154 | *suw-o- | turn, wind | Vb | *suw-o- 'turn, wind' [Vb] |
+| 363 | 18165 | *suxto- | silence, inactivity | Noun | *suxto- 'silence, inactivity' [Noun] |
+| 363 | 18175 | *swadu- | sweet | Adj | *swadu- 'sweet' [Adj] |
+| 363 | 18184 | *swan-na- | sound, play (an instrument) | Vb | *swan-na- 'sound, play (an instrument)' [Vb] |
+| 364 | 18198 | *swanto- | desire, what is desired | Noun | *swanto- 'desire, what is desired' [Noun] |
+| 364 | 18219 | *swar-yo- | laugh | Vb | *swar-yo- 'laugh' [Vb] |
+| 364 | 18234 | *swe- | self, own | Pron | *swe- 'self, own' [Pron] |
+| 365 | 18250 | *swed-o- | swell | Vb | *swed-o- 'swell' [Vb] |
+| 365 | 18262 | *swedu- | swelling | Noun | *swedu- 'swelling' [Noun] |
+| 365 | 18266 | *swekrfi- | mother-in-law | Noun | *swekrfi- 'mother-in-law' [Noun] |
+| 365 | 18277 | *swekrVno- | father-in-law | Noun | *swekrVno- 'father-in-law' [Noun] |
+| 365 | 18290 | *swelo- | turn, moment | Noun | *swelo- 'turn, moment' [Noun] |
+| 366 | 18311 | *swengo- | thin | Adj | *swengo- 'thin' [Adj] |
+| 366 | 18321 | *swergo- | illness | Noun | *swergo- 'illness' [Noun] |
+| 366 | 18329 | *swerno- | loud, whirling | Adj | *swerno- 'loud, whirling' [Adj] |
+| 366 | 18333 | *swerwo- | bitter | Adj | *swerwo- 'bitter' [Adj] |
+| 367 | 18349 | *swīsso- | sweat | Noun | *swīsso- 'sweat' [Noun] |
+| 367 | 18362 | *swesu.r | sister | Noun | *swesu.r / *swesr-os 'sister' [Noun] |
+| 367 | 18375 | *swexs | six | Num | *swexs 'six' [Num] |
+| 367 | 18394 | *swexto- | taste | Noun | *swexto- 'taste' [Noun] |
+| 368 | 18407 | *swis | you (p) | Pron | *swis 'you (p)' [Pron] |
+| 368 | 18425 | *swizd-o- | blow | Vb | *swizd-o- 'blow' [Vb] |
+| 368 | 18439 | *sworo- | louse | Noun | *sworo- 'louse' [Noun] |
+| 369 | 18452 | *tag-o- | strangle, choke | Vb | *tag-o- 'strangle, choke' [Vb] |
+| 369 | 18463 | *talamon- | earth, ground | Noun | *talamon- 'earth, ground' [Noun] |
+| 369 | 18477 | *tal-i- | pay |  | *tal-i- 'pay' |
+| 370 | 18499 | *talskV- | fragment, piece | Noun | *talskV- 'fragment, piece' [Noun] |
+| 370 | 18511 | *talu- | front, forehead | Noun | *talu- 'front, forehead' [Noun] |
+| 370 | 18527 | *tana | time | Noun | *tana 'time' [Noun] |
+| 371 | 18558 | *tand-man- | cutting, gnawing | Noun | *tand-man- 'cutting, gnawing' [Noun] |
+| 371 | 18571 | *tangʷāt- | tongue | Noun | *tangʷāt- 'tongue' [Noun] |
+| 372 | 18591 | *tanko- | peace | Noun | *tanko- 'peace' [Noun] |
+| 372 | 18609 | *tanno- | green oak | Noun | *tanno- 'green oak' [Noun] |
+| 372 | 18623 | *tan-nu- | broaden, spread, stretch | Vb | *tan-nu- 'broaden, spread, stretch' [Vb] |
+| 372 | 18634 | *tantā | cord, cable | Noun | *tantā 'cord, cable' [Noun] |
+| 373 | 18650 | *tlrlko- | tick, insect | Noun | *tlrlko- 'tick, insect' [Noun] |
+| 373 | 18654 | *tarankyo- | nail | Noun | *tarankyo- 'nail' [Noun] |
+| 373 | 18658 | *taras | across | Prep | *taras 'across' [Prep] |
+| 373 | 18668 | *taratro- | auger | Noun | *taratro- 'auger' [Noun] |
+| 373 | 18685 | *tara-wo- | hit, strike | Vb | *tara-wo- 'hit, strike' [Vb] |
+| 374 | 18707 | *targʷ-o- | disturb, scare | Vb | *targʷ-o- 'disturb, scare' [Vb] |
+| 374 | 18719 | *tar(r)tu- | dryness, thirst | Noun | *tar(r)tu- 'dryness, thirst' [Noun] |
+| 374 | 18732 | *tarwo- | bull | Noun | *tarwo- 'bull' [Noun] |
+| 375 | 18751 | *tar-yo- | boil, burst | Vb | *tar-yo- 'boil, burst' [Vb] |
+| 375 | 18763 | *tasko- | badger | Noun | *tasko- 'badger' [Noun] |
+| 375 | 18781 | *tltaot- | thief | Noun | *tltaot- 'thief' [Noun] |
+| 376 | 18796 | *tato- | father | Noun | *tato- 'father' [Noun] |
+| 376 | 18806 | *tawso- | deaf | Adj | *tawso- 'deaf' [Adj] |
+| 376 | 18817 | *taws-yo- | be quiet, be still | Vb | *taws-yo- 'be quiet, be still' [Vb] |
+| 376 | 18833 | *tī-yo- | melt | Vb | *tī-yo- 'melt' [Vb] |
+| 376 | 18837 | *tll-yo- | stand, find oneself (somewhere) | Vb | *tll-yo- 'stand, find oneself (somewhere)' [Vb] |
+| 377 | 18854 | *ta-yo- | melt | Vb | *ta-yo- 'melt' [Vb] |
+| 377 | 18869 | *taysto- | dough | Noun | *taysto- 'dough' [Noun] |
+| 377 | 18882 | *taxslo- | axe | Noun | *taxslo- 'axe' [Noun] |
+| 378 | 18902 | *tefent- | hot, warm | Adj | *tefent- 'hot, warm' [Adj] |
+| 378 | 18911 | *tefesmi- | warm | Adj | *tefesmi- 'warm' [Adj] |
+| 378 | 18915 | *tefnet- | fire | Noun | *tefnet- 'fire' [Noun] |
+| 378 | 18930 | *tefstu- | heat | Noun | *tefstu- (*texstu-) 'heat' [Noun] |
+| 379 | 18948 | *teg- | go | Vb | *teg- 'go' [Vb] |
+| 379 | 18964 | *tegos- | house | Noun | *tegos- 'house' [Noun] |
+| 379 | 18992 | *tego-slowgo- | household | Noun | *tego-slowgo- 'household' [Noun] |
+| 380 | 19008 | *tegu- | thick | Adj | *tegu- 'thick' [Adj] |
+| 380 | 19020 | *tekʷ-o- | run, flee | Vb | *tekʷ-o- 'run, flee' [Vb] |
+| 380 | 19038 | *telmi- | sling, snare | Noun | *telmi- 'sling, snare' [Noun] |
+| 381 | 19054 | *temeslo- | darkness | Noun | *temeslo- 'darkness' [Noun] |
+| 381 | 19070 | *temo- | dark | Adj | *temo- 'dark' [Adj] |
+| 381 | 19078 | *tend-o- | break, cut | Vb | *tend-o- 'break, cut' [Vb] |
+| 381 | 19086 | *tennyo- | holly, elder | Noun | *tennyo- 'holly, elder' [Noun] |
+| 381 | 19090 | *teterV- | scaldcrow | Noun | *teterV- 'scaldcrow' [Noun] |
+| 381 | 19101 | *tigerno- | lord, master | Noun | *tigerno- 'lord, master' [Noun] |
+| 382 | 19128 | *tigu- | final, last | Adj | *tigu- 'final, last' [Adj] |
+| 382 | 19137 | *ti-ni- | melt | Vb | *ti-ni- 'melt' [Vb] |
+| 382 | 19149 | *tīros- | land, earth | Noun | *tīros- 'land, earth' [Noun] |
+| 383 | 19170 | *tlllstl | weakness | Noun | *tlllstl 'weakness' [Noun] |
+| 383 | 19174 | *tlllti- | weak, sick | Adj | *tlllti- 'weak, sick' [Adj] |
+| 383 | 19188 | *tli-na- | take away, steal | Vb | *tli-na- 'take away, steal' [Vb] |
+| 383 | 19202 | *tlokʷ-i- | talk | Vb | *tlokʷ-i- 'talk' [Vb] |
+| 384 | 19215 | *tlustu- | kine, riches | Noun | *tlustu- 'kine, riches' [Noun] |
+| 384 | 19232 | *to- | to | Prep | *to- 'to' [Prep] |
+| 384 | 19243 | *to-ad-ret-o- | reach, grasp | Vb | *to-ad-ret-o- 'reach, grasp' [Vb] |
+| 384 | 19250 | *to-ambi-org-o- | press, strike down | Vb | *to-ambi-org-o- 'press, strike down' [Vb] |
+| 384 | 19256 | *tod | yes, indeed | Particle | *tod 'yes, indeed' [Particle] |
+| 385 | 19272 | *to-exs-brend-o- | flow | Vb | *to-exs-brend-o- 'flow' [Vb] |
+| 385 | 19276 | *to-fare-ufo-kan-o | prophesize | Vb | *to-fare-ufo-kan-o 'prophesize' [Vb] |
+| 385 | 19284 | *togyl | covering, roof | Noun | *togyl 'covering, roof' [Noun] |
+| 385 | 19288 | *to-kom-far-sko- | ask | Vb | *to-kom-far-sko- 'ask' [Vb] |
+| 385 | 19297 | *tolgo- | strength, energy | Noun | *tolgo- 'strength, energy' [Noun] |
+| 385 | 19307 | *tol-i-yo- | sleep | Vb | *tol-i-yo- 'sleep' [Vb] |
+| 386 | 19318 | *tondi | skin, surface | Noun | *tondi 'skin, surface' [Noun] |
+| 386 | 19333 | *tong-o- | swear | Vb | *tong-o- 'swear' [Vb] |
+| 386 | 19356 | *tonketo- | destiny | Noun | *tonketo- 'destiny' [Noun] |
+| 387 | 19376 | *torano- | thunder | Noun | *torano- 'thunder' [Noun] |
+| 387 | 19395 | *to-ret-o- | approach | Vb | *to-ret-o- 'approach' [Vb] |
+| 387 | 19402 | *to-rid- | pillar, hero |  | *to-rid- 'pillar, hero' |
+| 388 | 19416 | *torrV- | belly | Noun | *torrV- 'belly' [Noun] |
+| 388 | 19432 | *torrllko- | pregnant | Adj | *torrllko- 'pregnant' [Adj] |
+| 388 | 19444 | *to-skara- | conquer, subject, strew | Vb | *to-skara- 'conquer, subject, strew' [Vb] |
+| 388 | 19451 | *to-sl-iyo- | earn | Vb | *to-sl-iyo- 'earn' [Vb] |
+| 389 | 19472 | *to-wissako- | chief, first | Adj | *to-wissako- 'chief, first' [Adj] |
+| 389 | 19488 | *to-wissu- | leadership, act ofleading, driving | Noun | *to-wissu- 'leadership, act ofleading, driving' [Noun] |
+| 389 | 19497 | *towta | people, tribe | Noun | *towta 'people, tribe' [Noun] |
+| 390 | 19518 | *towto- | left, north | Adj | *towto- 'left, north' [Adj] |
+| 390 | 19532 | *toybo- | side | Noun | *toybo- 'side' [Noun] |
+| 390 | 19546 | *tragi- | beach, low tide | Noun | *tragi- 'beach, low tide' [Noun] |
+| 390 | 19559 | *trāns- | across  | Prep | *trāns- 'across ' [Prep] |
+| 391 | 19565 | *tratu- | length of time, hour | Noun | *tratu- 'length of time, hour' [Noun] |
+| 391 | 19578 | *tre | through | Prep | *tre 'through' [Prep] |
+| 391 | 19593 | *treba | settlement | Noun | *treba 'settlement' [Noun] |
+| 392 | 19619 | *trebno- | room, house | Noun | *trebno- 'room, house' [Noun] |
+| 392 | 19623 | *trebro- | wise | Adj | *trebro- 'wise' [Adj] |
+| 392 | 19627 | *treget- | foot | Noun | *treget- 'foot' [Noun] |
+| 392 | 19649 | *trexs(n)o- | strong | Adj | *trexs(n)o- 'strong' [Adj] |
+| 393 | 19667 | *tris | three | Num | *tris 'three' [Num] |
+| 393 | 19686 | *trisano- | one third | Num | *trisano- 'one third' [Num] |
+| 393 | 19694 | *trowgo- | sorry, sad | Adj | *trowgo- 'sorry, sad' [Adj] |
+| 394 | 19717 | *trowkkaro- | merciful | Adj | *trowkkaro- 'merciful' [Adj] |
+| 394 | 19721 | *truk-, | trunk, broken part |  | *truk-, *truxso- 'trunk, broken part' |
+| 394 | 19741 | *trummo- | heavy | Adj | *trummo- 'heavy' [Adj] |
+| 394 | 19759 | *trussko- | dirty, leprous | Adj | *trussko- 'dirty, leprous' [Adj] |
+| 395 | 19775 | *trusto- | noise, cry | Noun | *trusto- 'noise, cry' [Noun] |
+| 395 | 19785 | *truti- | starling | Noun | *truti- 'starling' [Noun] |
+| 395 | 19805 | *to, | you | Pron | *to, *tu 'you' [Pron] |
+| 396 | 19828 | *tud-o- | fall | Vb | *tud-o- 'fall' [Vb] |
+| 396 | 19836 | *tukna | back, bottom, arse | Noun | *tukna 'back, bottom, arse' [Noun] |
+| 396 | 19854 | *tullo- | pierced, perforated | Adj | *tullo- 'pierced, perforated' [Adj] |
+| 397 | 19875 | *tumbo- | excrescence, hill | Noun | *tumbo- 'excrescence, hill' [Noun] |
+| 397 | 19885 | *tum-i- | grow | Vb | *tum-i- 'grow' [Vb] |
+| 397 | 19899 | *tunda | wave | Noun | *tunda 'wave' [Noun] |
+| 398 | 19917 | *tuto- | vulva | Noun | *tuto- 'vulva' [Noun] |
+| 398 | 19926 | *tworko- | boar | Noun | *tworko- 'boar' [Noun] |
+| 398 | 19947 | *uden-sk-yo- | water | Noun | *uden-sk-yo- 'water' [Noun] |
+| 399 | 19967 | *ufelo- | bad, evil | Adj | *ufelo- 'bad, evil' [Adj] |
+| 399 | 19977 | *ufo- | under | Prep | *ufo- 'under' [Prep] |
+| 399 | 19995 | *ufo-ate-kʷri-na- | buy back, redeem | Vb | *ufo-ate-kʷri-na- 'buy back, redeem' [Vb] |
+| 399 | 20001 | *ufo-biyo- | blow, injury | Noun | *ufo-biyo- 'blow, injury' [Noun] |
+| 400 | 20021 | *ufo-dex-ta | blaze | Noun | *ufo-dex-ta 'blaze' [Noun] |
+| 400 | 20025 | *ufo-gni-yo- | serve, be useful | Vb | *ufo-gni-yo- 'serve, be useful' [Vb] |
+| 400 | 20035 | *ufo-kʷri-na- | buy, earn | Vb | *ufo-kʷri-na- 'buy, earn' [Vb] |
+| 400 | 20045 | *ufo-kan-o- | sing along, play | Vb | *ufo-kan-o- 'sing along, play' [Vb] |
+| 400 | 20052 | *ufo-kel-o- | protect, cover | Vb | *ufo-kel-o- 'protect, cover' [Vb] |
+| 400 | 20060 | *ufo-lawto- | property, wealth | Noun | *ufo-lawto- 'property, wealth' [Noun] |
+| 401 | 20081 | *ufo-leg- | shelter, lair | Noun | *ufo-leg- 'shelter, lair' [Noun] |
+| 401 | 20089 | *ufo-redo- | horse | Noun | *ufo-redo- 'horse' [Noun] |
+| 401 | 20099 | *ufor- | over, on | Prep | *ufor- 'over, on' [Prep] |
+| 402 | 20122 | *ufo-ret-o- | help, save | Vb | *ufo-ret-o- 'help, save' [Vb] |
+| 402 | 20134 | *ufor-kʷenno- | end | Noun | *ufor-kʷenno- 'end' [Noun] |
+| 402 | 20146 | *ufor-kan-o- | teach | Vb | *ufor-kan-o- 'teach' [Vb] |
+| 402 | 20153 | *ufo-sklto/u- | shadow, shelter | Noun | *ufo-sklto/u- 'shadow, shelter' [Noun] |
+| 402 | 20164 | *ufo-sodyo- | ground | Noun | *ufo-sodyo- 'ground' [Noun] |
+| 403 | 20170 | *ufo-star-na- | strew | Vb | *ufo-star-na- 'strew' [Vb] |
+| 403 | 20177 | *ufo-wik-o- | commit an offence | Vb | *ufo-wik-o- 'commit an offence' [Vb] |
+| 403 | 20184 | *ulkʷo- | bad, evil | Adj | *ulkʷo- 'bad, evil' [Adj] |
+| 403 | 20199 | *u-n-k-o- | understand | Vb | *u-n-k-o- 'understand' [Vb] |
+| 403 | 20209 | *up(p)u | ouch | Exclamation | *up(p)u 'ouch' [Exclamation] |
+| 403 | 20215 | *uxso-, | ox | Noun | *uxso-, *uxson- 'ox' [Noun] |
+| 404 | 20235 | *wa(d)-sko- | press | Vb | *wa(d)-sko- 'press' [Vb] |
+| 404 | 20254 | *wagno/a- | depression, slope, hollow | Noun | *wagno/a- 'depression, slope, hollow' [Noun] |
+| 405 | 20273 | *walatro- | ruler | Noun | *walatro- 'ruler' [Noun] |
+| 405 | 20277 | *wal-na- | rule, govern | Vb | *wal-na- 'rule, govern' [Vb] |
+| 405 | 20289 | *walo- | prince, chief | Noun | *walo- 'prince, chief' [Noun] |
+| 405 | 20309 | *wanno- | weak | Adj | *wanno- 'weak' [Adj] |
+| 406 | 20327 | *wari- | sunrise, east | Noun | *wari- 'sunrise, east' [Noun] |
+| 406 | 20343 | *warra | post, prop | Noun | *warra 'post, prop' [Noun] |
+| 406 | 20360 | *wasto- | empty | Adj | *wasto- 'empty' [Adj] |
+| 407 | 20374 | *wasto- | servant | Noun | *wasto- 'servant' [Noun] |
+| 407 | 20390 | *wastu- | dwelling | Noun | *wastu- 'dwelling' [Noun] |
+| 407 | 20403 | *wlti- | sooth-sayer, prophet | Noun | *wlti- 'sooth-sayer, prophet' [Noun] |
+| 408 | 20419 | *witu- | poetic inspiration | Noun | *witu- 'poetic inspiration' [Noun] |
+| 408 | 20428 | *waxto- | bad | Adj | *waxto- 'bad' [Adj] |
+| 408 | 20456 | *way | woe, oh, alas | Interjection | *way 'woe, oh, alas' [Interjection] |
+| 409 | 20471 | *wayda | shout, cry, damour | Noun | *wayda 'shout, cry, damour' [Noun] |
+| 409 | 20478 | *waylo- | poor, wretched | Adj | *waylo- 'poor, wretched' [Adj] |
+| 409 | 20482 | *waylo- | wolf | Noun | *waylo- 'wolf' [Noun] |
+| 409 | 20499 | *wed-o- | lead, bring together | Vb | *wed-o- 'lead, bring together' [Vb] |
+| 410 | 20523 | *wedo- | yoke, harness | Noun | *wedo- 'yoke, harness' [Noun] |
+| 410 | 20541 | *wed-o- | tell, relate | Vb | *wed-o- 'tell, relate' [Vb] |
+| 410 | 20555 | *wedo- | sight, presence | Noun | *wedo- 'sight, presence' [Noun] |
+| 411 | 20573 | *wedon- | witness | Noun | *wedon- 'witness' [Noun] |
+| 411 | 20577 | *wēdu- | wild | Adj | *wēdu- 'wild' [Adj] |
+| 411 | 20600 | *wegno- | wagon | Noun | *wegno- 'wagon' [Noun] |
+| 411 | 20611 | *wegnya | wagon | Noun | *wegnya 'wagon' [Noun] |
+| 411 | 20615 | *wegro- | grass | Noun | *wegro- 'grass' [Noun] |
+| 412 | 20639 | *weg(y)ā | web, woven fabric | Noun | *weg(y)ā 'web, woven fabric' [Noun] |
+| 412 | 20647 | *weg-yo- | weave, compose | Vb | *weg-yo- 'weave, compose' [Vb] |
+| 412 | 20660 | *wekʷo- | face | Noun | *wekʷo- 'face', originally 'speech (?)' [Noun] |
+| 413 | 20688 | *welet- | seer, poet | Noun | *welet- 'seer, poet' [Noun] |
+| 413 | 20692 | *weli-, | blood | Noun | *weli-, *woli- 'blood' [Noun] |
+| 413 | 20708 | *weliyo/a- | modesty | Noun | *weliyo/a- 'modesty' [Noun] |
+| 414 | 20723 | *wello- | good, desirable | Adj | *wello- 'good, desirable' [Adj] |
+| 414 | 20746 | *wello-, | deceit, error | Noun | *wello-, *wallo- 'deceit, error' [Noun] |
+| 414 | 20765 | *wel-n-o- | bend | Vb | *wel-n-o- 'bend' [Vb] |
+| 415 | 20779 | *wel-o- | see | Vb | *wel-o- 'see' [Vb] |
+| 415 | 20796 | *welo- | modest | Adj | *welo- 'modest' [Adj] |
+| 415 | 20807 | *wena | troop, band of warriors |  | *wena 'troop, band of warriors' |
+| 416 | 20827 | *wendo- | a single hair | Noun | *wendo- 'a single hair' [Noun] |
+| 416 | 20839 | *wenk-ll- | bend | Vb | *wenk-ll- 'bend' [Vb] |
+| 416 | 20847 | *wenso- | pubic hair | Noun | *wenso- 'pubic hair' [Noun] |
+| 416 | 20857 | *wentll | place, town | Noun | *wentll 'place, town' [Noun] |
+| 416 | 20865 | *wenyll | family, kindred | Noun | *wenyll 'family, kindred' [Noun] |
+| 417 | 20884 | *wer-V- | find | Verb | *wer-V- 'find' [Verb] |
+| 417 | 20893 | *werga | anger | Noun | *werga 'anger' [Noun] |
+| 417 | 20911 | *werno- | alder, alder-tree | Noun | *werno- 'alder, alder-tree' [Noun] |
+| 417 | 20924 | *wero- | crooked | Adj | *wero- 'crooked' [Adj] |
+| 418 | 20939 | *werro- | better | Adj | *werro- 'better' (?) [Adj] |
+| 418 | 20948 | *werto- | worth, price | Noun | *werto- 'worth, price' [Noun] |
+| 418 | 20965 | *wertyt | mound | Noun | *wertyt 'mound' [Noun] |
+| 418 | 20977 | *westk(k)o-, | grebe | Noun | *westk(k)o-, *wesakko- 'grebe' or 'raven' [Noun] |
+| 419 | 20991 | *weskʷero- | evening | Noun | *weskʷero- 'evening' [Noun] |
+| 419 | 21004 | *wesnali | swallow | Noun | *wesnali 'swallow' [Noun] |
+| 420 | 21039 | *wesr- | spring | Noun | *wesr- / *wesn- 'spring' [Noun] |
+| 420 | 21057 | *wessi- | sow, young female pig | Noun | *wessi- 'sow, young female pig' [Noun] |
+| 420 | 21071 | *westa | food, feast | Noun | *westa 'food, feast' [Noun] |
+| 421 | 21095 | *wesu- | excellent, noble | Adj | *wesu- 'excellent, noble' [Adj] |
+| 421 | 21110 | *weti- | withe | Noun | *weti- 'withe' [Noun] |
+| 421 | 21126 | *wet-o- | say | Vb | *wet-o- 'say' [Vb] |
+| 422 | 21148 | *wet(t)a | stream, swamp | Noun | *wet(t)a 'stream, swamp' [Noun] |
+| 422 | 21165 | *we-wlo- | lip | Noun | *we-wlo- 'lip' [Noun] |
+| 422 | 21180 | *wexta | time, course, turn | Noun | *wexta 'time, course, turn' [Noun] |
+| 423 | 21202 | *widu- | wood | Noun | *widu- 'wood' [Noun] |
+| 423 | 21224 | *widu-biyo- | hoe, sickle | Noun | *widu-biyo- 'hoe, sickle' [Noun] |
+| 423 | 21228 | *widwā | widow | Noun | *widwā 'widow' [Noun] |
+| 424 | 21250 | *wikanti | twenty | Num | *wikanti 'twenty' [Num] |
+| 424 | 21264 | *wik-o- | fight | Vb | *wik-o- 'fight' [Vb] |
+| 424 | 21279 | *wimona | sea weed | Noun | *wimona 'sea weed' [Noun] |
+| 425 | 21297 | *wimpo- | beautiful, comely | Adj | *wimpo- 'beautiful, comely' [Adj] |
+| 425 | 21313 | *wi-na- | bend, enclose | Vb | *wi-na- 'bend, enclose' [Vb] |
+| 425 | 21325 | *wi-n-d-o- | find, experience | Vb | *wi-n-d-o- 'find, experience' [Vb] |
+| 426 | 21347 | *windo- | white | Adj | *windo- 'white' [Adj] |
+| 426 | 21362 | *winto- | wind, whistling | Noun | *winto- 'wind, whistling' [Noun] |
+| 426 | 21373 | *wiro- | man | Noun | *wiro- 'man' [Noun] |
+| 427 | 21393 | *wiro- | true | Adj | *wiro- 'true' [Adj] |
+| 427 | 21410 | *wiro- | milk | Noun | *wiro- 'milk' (?) [Noun] |
+| 427 | 21423 | *wisu- | poison | Noun | *wisu- 'poison' [Noun] |
+| 428 | 21452 | *wiwo- | withered | Adj | *wiwo- 'withered' [Adj] |
+| 428 | 21463 | *wlanno- | blood red | Adj | *wlanno- 'blood red' [Adj] |
+| 428 | 21478 | *wlati- | sovereignty | Noun | *wlati- 'sovereignty' [Noun] |
+| 429 | 21498 | *wlida | feast, banquet | Noun | *wlida 'feast, banquet' [Noun] |
+| 429 | 21513 | *wlikʷo- | wet | Adj | *wlikʷo- 'wet' [Adj] |
+| 429 | 21529 | *wliska | stick, rod | Noun | *wliska 'stick, rod' [Noun] |
+| 430 | 21552 | *wodwa | mole |  | *wodwa 'mole' |
+| 430 | 21563 | *wolko- | rain, wet weather | Noun | *wolko- 'rain, wet weather' [Noun] |
+| 430 | 21583 | *wolna-mon- | ruler | Noun | *wolna-mon- 'ruler' [Noun] |
+| 430 | 21587 | *wolto- | hair | Noun | *wolto- 'hair' [Noun] |
+| 431 | 21602 | *worinā | band, troop | Noun | *worinā 'band, troop' [Noun] |
+| 431 | 21621 | *wos-o- | spend the night, remain | Vb | *wos-o- 'spend the night, remain' [Vb] |
+| 431 | 21635 | *wosu- | goodness |  | *wosu- 'goodness' |
+| 431 | 21639 | *wox-tlo- | dispute | Noun | *wox-tlo- 'dispute' [Noun] |
+| 432 | 21654 | *woxs-V- | wasp | Noun | *woxs-V- 'wasp' [Noun] |
+| 432 | 21664 | *wragi- | needle | Noun | *wragi- 'needle' [Noun] |
+| 432 | 21674 | *wrasto- | shower | Noun | *wrasto- 'shower' [Noun] |
+| 432 | 21684 | *wreg-o- | do, make | Vb | *wreg-o- 'do, make' [Vb] |
+| 433 | 21701 | *wregi- | wall, enclosure |  | *wregi- 'wall, enclosure' |
+| 433 | 21714 | *wrida | root | Noun | *wrida 'root' [Noun] |
+| 433 | 21733 | *wrig(g)ant- | vermin | Noun | *wrig(g)ant- 'vermin' [Noun] |
+| 434 | 21748 | *writ-ber-o- | come against, return | Vb | *writ-ber-o- 'come against, return' [Vb] |
+| 434 | 21755 | *writ-kom-far-sk-o- | ask | Vb | *writ-kom-far-sk-o- 'ask' [Vb] |
+| 434 | 21762 | *writ-to-n-g-o- | renounce | Vb | *writ-to-n-g-o- 'renounce' [Vb] |
+| 434 | 21769 | *writu- | against | Prep | *writu- 'against' [Prep] |
+| 434 | 21784 | *wroyko- | heather | Noun | *wroyko- 'heather' [Noun] |
+| 435 | 21799 | *w(u)lano-, | wool | Noun | *w(u)lano-, *w(u)lano- 'wool' [Noun] |
+| 435 | 21820 | *xswib-i- | move, recede | Vb | *xswib-i- 'move, recede' [Vb] |
+| 436 | 21847 | *yalo- | praise, worship | Noun | *yalo- 'praise, worship' [Noun] |
+| 436 | 21858 | *yano- | true, noble | Adj | *yano- 'true, noble' [Adj] |
+| 436 | 21881 | *yantī | place | Noun | *yantī 'place' [Noun] |
+| 437 | 21905 | *yantu- | zeal, jealousy | Noun | *yantu- 'zeal, jealousy' [Noun] |
+| 437 | 21927 | *yaro- | chicken, hen | Noun | *yaro- 'chicken, hen' [Noun] |
+| 437 | 21941 | *yas | chariot | Noun | *yas 'chariot' [Noun] |
+| 438 | 21955 | *yātu- | ford | Noun | *yātu- 'ford' [Noun] |
+| 438 | 21963 | *yegi- | ice | Noun | *yegi- 'ice' [Noun] |
+| 438 | 21977 | *yemono- | twin | Noun | *yemono- 'twin' [Noun] |
+| 438 | 21986 | *yestu- | boiling | Noun | *yestu- 'boiling' [Noun] |
+| 438 | 21998 | *yextV- | speech, language | Noun | *yextV- 'speech, language' [Noun] |
+| 439 | 22018 | *yo | which | Relative particle | *yo 'which' [Relative particle] |
+| 439 | 22031 | *yorko- | roebuck | Noun | *yorko- 'roebuck' [Noun] |
+| 439 | 22045 | *yowanko- | young | Adj | *yowanko- 'young' [Adj] |
+| 440 | 22067 | *yownī | time, opportunity | Noun | *yownī 'time, opportunity' [Noun] |
+| 440 | 22080 | *yoyni- | rushes, reed | Noun | *yoyni- 'rushes, reed' [Noun] |
+| 440 | 22091 | *yugo- | yoke | Noun | *yugo- 'yoke' [Noun] |
+| 441 | 22113 | *yusko-, | soup, broth | Noun | *yusko-, *yusko- 'soup, broth' [Noun] |
+| 441 | 22126 | *yustyo- | just | Adj | *yustyo- 'just' [Adj] |
+| 441 | 22141 | *yutV- | pap, porridge | Noun | *yutV- 'pap, porridge' [Noun] |
