@@ -1,0 +1,85 @@
+{
+  "source_file": "koch-2019-formation-ie-branches.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "koch-2019-formation-ie-branches.md",
+    "koch-2019-formation-ie-branches-bibliography.md",
+    "koch-2019-formation-ie-branches-extraction-report.md",
+    "manifest.json",
+    "images/koch-2019-formation-ie-branches-fig1.png",
+    "images/koch-2019-formation-ie-branches-fig2.png",
+    "images/koch-2019-formation-ie-branches-fig3.png",
+    "images/koch-2019-formation-ie-branches-fig4.png",
+    "images/koch-2019-formation-ie-branches-fig5.png",
+    "images/koch-2019-formation-ie-branches-fig6.png"
+  ],
+  "images": [
+    {
+      "filename": "images/koch-2019-formation-ie-branches-fig1.png",
+      "source_label": "Figure 1",
+      "page": 2,
+      "caption": "Figure 1. August Schleicher’s 1861 tree model of the Indo-European language family."
+    },
+    {
+      "filename": "images/koch-2019-formation-ie-branches-fig2.png",
+      "source_label": "Figure 2",
+      "page": 2,
+      "caption": "Figure 2. Simplified version of Ringe et al. 2002, Fig. 8, ‘one of the best trees with Germanic omitted’, to which is added labels for the nodes PIE 1–6 as explained in this essay. The bracketed position of Germanic in the tree model is that indicated in the passage quoted from Ringe et al. 2002."
+    },
+    {
+      "filename": "images/koch-2019-formation-ie-branches-fig3.png",
+      "source_label": "Figure 3",
+      "page": 9,
+      "caption": "Figure 3. Zones of pre-Roman Indo-European and non-Indo-European names in the Iberian Peninsula: the dashed green line shows the divide, pointing out group names with ‘Celt-’ and the diagnostically Celtic -briga ‘hill, hillfort, major town’, contrasting with non-IE il(t)i. Some IE (mostly Celtic) outliers are shown in green."
+    },
+    {
+      "filename": "images/koch-2019-formation-ie-branches-fig4.png",
+      "source_label": "Figure 4",
+      "page": 9,
+      "caption": "Figure 4. Map illustrating the mutually exclusive distributions of metalwork of the Atlantic Late Bronze Age and evidence for ancient non-Indo-European languages around the western Mediterranean."
+    },
+    {
+      "filename": "images/koch-2019-formation-ie-branches-fig5.png",
+      "source_label": "Figure 5",
+      "page": 11,
+      "caption": "Figure 5. Map showing developments before ~4500 BP: 1) primary outward migration from Yamnaya on the Pontic–Caspian steppe, bringing with it the genetic steppe component and PIE 2 speech to found CWC in northern Europe and Afanasievo in the Siberian Altai; 2) the Proto-Beaker package spreads by sea from its origin in the Tagus estuary to Brittany and Mediterranean France. In Figures 5 and 6, straight sans-serif type indicates archaeological cultures, italic sans-serif type indicates linguistic stages, and straight serif type indicates genetic structure."
+    },
+    {
+      "filename": "images/koch-2019-formation-ie-branches-fig6.png",
+      "source_label": "Figure 6",
+      "page": 12,
+      "caption": "Figure 6. Map showing developments after ~4500 BP: 1) reflux of from north-eastern Europe bringing with it Proto-Indo-Iranian from PIE 6 and a genetic signature with ~68% steppe component and ~24% MNE; this genetic signature and Indo-Iranian speech subsequently spread from the Sintashta culture eastward to the Andronovo horizon and thence to South Asia; 2) the reflux of the Bell Beaker Complex westward from west-central Europe, bringing with it a form of Indo-European speech, probably Pre-Italo-Celtic."
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 1,
+    "macron_e": 0,
+    "macron_i": 0,
+    "macron_o": 0,
+    "macron_u": 0,
+    "schwa": 6,
+    "greek_chars": 11,
+    "combining_diacritics": 4,
+    "dagger": 0
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital PDF extraction. Main prose and figures processed; bibliography separated but flagged for possible targeted audit due dense two-column reference layout."
+}

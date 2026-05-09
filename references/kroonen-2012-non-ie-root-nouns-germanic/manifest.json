@@ -1,0 +1,42 @@
+{
+  "source_file": "kroonen-2012-non-ie-root-nouns-germanic.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-08",
+  "output_files": [
+    "kroonen-2012-non-ie-root-nouns-germanic.md",
+    "kroonen-2012-non-ie-root-nouns-germanic-bibliography.md",
+    "kroonen-2012-non-ie-root-nouns-germanic-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "count unknown; applied to common fi/fl text-layer ligatures",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "count unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 11,
+      "h2": 33,
+      "h3": 0
+    },
+    "macron_a": 8,
+    "macron_e": 10,
+    "macron_i": 41,
+    "macron_o": 11,
+    "macron_u": 2,
+    "schwa": 2,
+    "greek_chars": 444,
+    "combining_diacritics": 24,
+    "dagger": 0
+  },
+  "unresolved_count": 5,
+  "notes": "Born-digital extraction with targeted visual checking. Highest residual risk: superscript aspiration and polytonic Greek glyph fidelity."
+}

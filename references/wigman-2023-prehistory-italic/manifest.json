@@ -1,0 +1,148 @@
+{
+  "source_file": "wigman-2023-prehistory-italic.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "wigman-2023-prehistory-italic-front-matter.md",
+    "wigman-2023-prehistory-italic-ch1.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-1.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-2-1.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-2-2-1.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-2-2-2.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-2-3.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-3-1.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-3-2.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-3-3-1.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-3-3-2.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-3-4.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-3-5.md",
+    "wigman-2023-prehistory-italic-ch2-sec2-4.md",
+    "wigman-2023-prehistory-italic-index.md",
+    "wigman-2023-prehistory-italic-ch3.md",
+    "wigman-2023-prehistory-italic-ch4.md",
+    "wigman-2023-prehistory-italic-ch5.md",
+    "wigman-2023-prehistory-italic-ch6.md",
+    "wigman-2023-prehistory-italic-ch7.md",
+    "wigman-2023-prehistory-italic-ch8.md",
+    "wigman-2023-prehistory-italic-bibliography.md",
+    "wigman-2023-prehistory-italic-nederlandse-samenvatting.md",
+    "wigman-2023-prehistory-italic-curriculum-vitae.md",
+    "wigman-2023-prehistory-italic-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "wigman-2023-prehistory-italic-fig1-1.png",
+      "source_label": "Figure 1.1",
+      "page": 2,
+      "caption": "The linguistic diversity of the Italian peninsula represented by sites of inscriptions"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-1.png",
+      "source_label": "Figure 4.1",
+      "page": 338,
+      "caption": "Latin words of loanword origin distributed by existence of comparanda in Celtic, Germanic, and Greek"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-2.png",
+      "source_label": "Figure 4.2",
+      "page": 339,
+      "caption": "The transmission of Lat. cupressus and its comparanda"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-3.png",
+      "source_label": "Figure 4.3",
+      "page": 348,
+      "caption": "Overlapping irregular alternations between words with a Mediterranean distribution. (Words in gray are restricted to Italic)"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-4-rhamnus-alaternus.png",
+      "source_label": "Figure 4.4",
+      "page": 350,
+      "caption": "Range of Rhamnus alaternus (Based on Bolòs & Vigo 1984-2001)"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-5-ficus-carica.png",
+      "source_label": "Figure 4.5",
+      "page": 350,
+      "caption": "Range of Ficus carica (Based on Zohary, Hopf & Weiss 2012: 129)"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-6-buxus-sempervirens.png",
+      "source_label": "Figure 4.6",
+      "page": 350,
+      "caption": "Range of Buxus sempervirens (https://commons.wikimedia.org/wiki/File: Buxus_sempervirens_range.svg with refs.)"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-7-cupressus-sempervirens.png",
+      "source_label": "Figure 4.7",
+      "page": 350,
+      "caption": "Range of Cupressus sempervirens (https://commons.wikimedia.org/wiki/File:Cupressus_sempervirens_range.svg with refs.)"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-4-contact-situations-p357.png",
+      "source_label": "Figure 4.4",
+      "page": 357,
+      "caption": "Separate contact situations suggested by the distribution of non-inherited lexemes"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-5-italo-celtic-p359.png",
+      "source_label": "Figure 4.5",
+      "page": 359,
+      "caption": "One interpretation of contact incorporating Italo-Celtic considerations"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-6-early-italo-celtic-p360.png",
+      "source_label": "Figure 4.6",
+      "page": 360,
+      "caption": "An alternative scenario with an early Italo-Celtic split and later close contact"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-7-pca-loose-p364.png",
+      "source_label": "Figure 4.7",
+      "page": 364,
+      "caption": "PCA of loose analysis"
+    },
+    {
+      "filename": "wigman-2023-prehistory-italic-fig4-8-pca-strict-p365.png",
+      "source_label": "Figure 4.8",
+      "page": 365,
+      "caption": "PCA of strict analysis"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied only for residual ASCII h1/h2/h3 in extracted content; otherwise born-digital text layer preserved",
+    "paragraph_rejoins": "partial; applied in running prose chunks, not applied in dense lexical-data and bibliography chunks",
+    "unicode_normalization": "NFC applied to output markdown",
+    "discretionary_hyphen_repairs": 0,
+    "private_use_bullet_repairs": 16,
+    "object_replacement_removed": 0
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 174,
+      "h2": 451,
+      "h3": 53
+    },
+    "macron_a": 727,
+    "macron_e": 427,
+    "macron_i": 567,
+    "macron_o": 639,
+    "macron_u": 365,
+    "schwa": 32,
+    "greek_chars": 13102,
+    "combining_diacritics": 849,
+    "dagger": 0
+  },
+  "unresolved_count": 5,
+  "notes": "Born-digital extraction. Character fidelity prioritized. Figure-label inconsistency in source preserved in captions; filenames disambiguate duplicate labels. Chapter 2 and bibliography intentionally remain closer to line-preserving extraction to reduce risk of damage to lexical entries, reconstructed forms, dense citations, and diacritics."
+}

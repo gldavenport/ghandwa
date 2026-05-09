@@ -1,0 +1,99 @@
+{
+  "source_file": "koch-2025-pie-celtic-implications.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "koch-2025-pie-celtic-implications.md",
+    "koch-2025-pie-celtic-implications-bibliography.md",
+    "koch-2025-pie-celtic-implications-extraction-report.md",
+    "manifest.json",
+    "images/koch-2025-pie-celtic-implications-figx-1.png",
+    "images/koch-2025-pie-celtic-implications-figx-2.png",
+    "images/koch-2025-pie-celtic-implications-figx-3.jpg",
+    "images/koch-2025-pie-celtic-implications-figx-4.png",
+    "images/koch-2025-pie-celtic-implications-figx-5.png",
+    "images/koch-2025-pie-celtic-implications-figx-6.jpg",
+    "images/koch-2025-pie-celtic-implications-figx-7.jpg",
+    "images/koch-2025-pie-celtic-implications-figx-8.jpg"
+  ],
+  "images": [
+    {
+      "filename": "images/koch-2025-pie-celtic-implications-figx-1.png",
+      "source_label": "Figure X.1",
+      "page": 2,
+      "caption": "Figure X.1. The distribution of the Ancient Celtic languages as attested by the evidence of inscriptions and references by the Greek and Roman authors, also showing the location of Keltoi ‘Celts’ according to Herodotus (§2.34 and §4.48). The areas with horizontal stripes are known to have received Celtic expansions during the La Tène period (mid 5th century BC onward), either from historical accounts and/or archaeology."
+    },
+    {
+      "filename": "images/koch-2025-pie-celtic-implications-figx-2.png",
+      "source_label": "Figure X.2",
+      "page": 6,
+      "caption": "Figure X.2. ‘Schematic Bell Beaker distribution in Europe’ (Heyd 2013, Fig.28)"
+    },
+    {
+      "filename": "images/koch-2025-pie-celtic-implications-figx-3.jpg",
+      "source_label": "Figure X.3",
+      "page": 8,
+      "caption": "Figure X.3. Formative areas, as implied by dense genomic attestation, for the three migrations in the background of Celtic Europe (McColl et al. 2025b): 1) Bell Beaker in orange, 2) French/Iberian Bronze Age ancestry shown in yellow, and 3) the LBA Knovíz Urnfield Culture. The territory of the Argar Culture ~2200–1550 BC is marked with horizontal stripes."
+    },
+    {
+      "filename": "images/koch-2025-pie-celtic-implications-figx-4.png",
+      "source_label": "Figure X.4",
+      "page": 11,
+      "caption": "Figure X.4. An Indo-European family tree based on Ringe et al. 2002. The phenomena of Celto-Germanic and North-West Indo-European shared vocabulary are represented as reflecting layers of contact between separating branches."
+    },
+    {
+      "filename": "images/koch-2025-pie-celtic-implications-figx-5.png",
+      "source_label": "Figure X.5",
+      "page": 15,
+      "caption": "Figure X.5. Percentages of genetic outliers in southern Britain ~2450 BC–AD 43 from Patterson et al. 2022 with this author’s first-glance linguistic implications inserted."
+    },
+    {
+      "filename": "images/koch-2025-pie-celtic-implications-figx-6.jpg",
+      "source_label": "Figure X.6",
+      "page": 21,
+      "caption": "Figure X.6. Approximate dates for the adoption of high-tin bronze as the standard material for tools, weapons and ornaments (based on Pare 2000; cf. Koch 2013)."
+    },
+    {
+      "filename": "images/koch-2025-pie-celtic-implications-figx-7.jpg",
+      "source_label": "Figure X.7",
+      "page": 23,
+      "caption": "Figure X.7. Places in Wales and the Marches mentioned in the chapter."
+    },
+    {
+      "filename": "images/koch-2025-pie-celtic-implications-figx-8.jpg",
+      "source_label": "Figure X.8",
+      "page": 27,
+      "caption": "Figure X.8. The Irulegi hand and a romanized edition of the engraved text."
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "not applicable / none specifically counted",
+    "laryngeal_normalization": "not applied; no h₁/h₂/h₃ instances detected in source text layer",
+    "paragraph_rejoins": "unknown; line-wrapped prose was reflowed by paragraph"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 3,
+    "macron_e": 9,
+    "macron_i": 1,
+    "macron_o": 4,
+    "macron_u": 1,
+    "schwa": 0,
+    "greek_chars": 62,
+    "combining_diacritics": 7,
+    "dagger": 0
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital PDF with machine-readable text layer. Visual checks were used for specialized mis-mapped glyphs and superscript/modifier-letter forms. A patch pass split headings fused to following prose and repaired several visible page-boundary/list artifacts."
+}

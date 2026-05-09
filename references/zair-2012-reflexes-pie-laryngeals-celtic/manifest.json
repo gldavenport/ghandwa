@@ -3,36 +3,67 @@
   "source_type": "born-digital",
   "extraction_date": "2026-05-07",
   "output_files": [
-    "zair-2012-reflexes-pie-laryngeals-celtic.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-frontmatter.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch1.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch2.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-chc.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-rhc.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-ihc.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-chec.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-crhc-c.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-crhi.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-cihi.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-cehc.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-cihc-chic.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-cehcc-cihcc-wetter-regel.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch3-sec-chcc.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch4.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch5.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch6.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch7.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-ch8.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-bibliography.md",
+    "zair-2012-reflexes-pie-laryngeals-celtic-index.md",
+    "README.md",
     "zair-2012-reflexes-pie-laryngeals-celtic-extraction-report.md",
-    "manifest.json"
+    "images/zair-2012-reflexes-pie-laryngeals-celtic-p1-fig1.png"
+  ],
+  "images": [
+    {
+      "filename": "zair-2012-reflexes-pie-laryngeals-celtic-p1-fig1.png",
+      "source_label": "cover image",
+      "page": 1,
+      "caption": "Cover illustration: Folio 78v of The Red Book of Hergest (Jesus MS.111), The Principal and Fellows of Jesus College, Oxford."
+    }
   ],
   "corrections_applied": {
-    "ligature_repairs": 1205,
+    "ligature_repairs": "systematic replacements applied: ffif→ffi, fif→fi, flf→fl; exact count not retained",
     "laryngeal_normalization": "applied",
-    "paragraph_rejoins": 1064
+    "paragraph_rejoins": "inherited from prior text-layer extraction and postprocessed; count unknown"
   },
   "markers_inserted": {
-    "unclear": 4,
-    "inferred_char": 2
+    "unclear": 0,
+    "inferred_char": 2,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
   },
   "approximate_counts": {
     "note": "All counts are approximate and for cross-pass comparison only.",
     "laryngeals": {
-      "h1": 860,
-      "h2": 1419,
-      "h3": 484
+      "h1": 858,
+      "h2": 1415,
+      "h3": 479
     },
     "macron_a": 1170,
-    "macron_e": 325,
-    "macron_i": 538,
+    "macron_e": 286,
+    "macron_i": 480,
     "macron_o": 332,
     "macron_u": 334,
-    "schwa": 84,
+    "schwa": 48,
     "greek_chars": 6845,
-    "combining_diacritics": 5420,
+    "combining_diacritics": 5235,
     "dagger": 0
   },
-  "unresolved_count": 6,
-  "notes": "Born-digital text-layer extraction; cover image described; index decolumnized; four Brill glyph mappings left as [unclear glyph]."
+  "unresolved_count": 2,
+  "notes": "Chunked re-extraction under updated instructions; counts approximate; character-authoritative correctness is not asserted."
 }

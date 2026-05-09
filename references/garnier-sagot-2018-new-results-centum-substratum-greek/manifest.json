@@ -1,0 +1,45 @@
+{
+  "source_file": "garnier-sagot-2018.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "garnier-sagot-2018.md",
+    "garnier-sagot-2018-bibliography.md",
+    "garnier-sagot-2018-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": 0,
+    "laryngeal_normalization": "not applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 0,
+    "macron_e": 0,
+    "macron_i": 0,
+    "macron_o": 0,
+    "macron_u": 1,
+    "schwa": 1,
+    "greek_chars": 87,
+    "combining_diacritics": 0,
+    "dagger": 0,
+    "superscript_w": 1,
+    "micro_sign": 0,
+    "turned_e_u01dd": 0
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital two-page HAL PDF. Main article extracted as a single Markdown file; selected references separated into bibliography file. Decorative HAL logo and authorization image were not treated as corpus figures."
+}

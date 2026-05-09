@@ -1,0 +1,42 @@
+{
+  "source_file": "vaan-2019-homonymy-put-suck.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "vaan-2019-homonymy-put-suck.md",
+    "vaan-2019-homonymy-put-suck-bibliography.md",
+    "vaan-2019-homonymy-put-suck-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only. Counts cover main extraction plus bibliography, not the extraction report.",
+    "laryngeals": {
+      "h1": 118,
+      "h2": 17,
+      "h3": 3
+    },
+    "macron_a": 44,
+    "macron_e": 51,
+    "macron_i": 38,
+    "macron_o": 13,
+    "macron_u": 0,
+    "schwa": 0,
+    "greek_chars": 238,
+    "combining_diacritics": 34,
+    "dagger": 0
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital article extraction; bibliography separated; no images detected. Counts are approximate. No claim of full character certification."
+}

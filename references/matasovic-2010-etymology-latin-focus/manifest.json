@@ -1,0 +1,46 @@
+{
+  "source_file": "matasovic-2010-etymology-latin-focus.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "matasovic-2010-etymology-latin-focus.md",
+    "matasovic-2010-etymology-latin-focus-bibliography.md",
+    "matasovic-2010-etymology-latin-focus-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 1,
+      "h3": 0
+    },
+    "macron_a": 6,
+    "macron_e": 3,
+    "macron_i": 1,
+    "macron_o": 9,
+    "macron_u": 0,
+    "schwa": 0,
+    "greek_chars": 0,
+    "combining_diacritics": 0,
+    "dagger": 0,
+    "superscript_h": 50,
+    "superscript_w": 23,
+    "g_circumflex": 2,
+    "r_underdot": 1
+  },
+  "unresolved_count": 7,
+  "notes": "Journal article extraction. Visual fallback used for flattened PIE notation and corrupted/truncated text-layer passages, especially pp. 214 and 216. No image assets extracted."
+}

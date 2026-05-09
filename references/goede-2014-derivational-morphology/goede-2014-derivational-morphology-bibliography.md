@@ -1,0 +1,275 @@
+---
+title: "Derivational Morphology: New Perspectives on the Italo-Celtic Hypothesis"
+author: "Tim de Goede"
+date: "2014"
+source_type: born-digital
+extraction_date: "2026-05-07"
+source_file: "goede-2014-derivational-morphology.pdf"
+chunk: "bibliography"
+---
+
+<!-- p. 73 -->
+
+## Bibliography
+
+Ambrazas, Saulius (1992). “Baltų ir slavų kalbų vardažodžių daryba (senosios bendrybės ir skirtybės).” Baltistica 27 (1) (15-34).
+
+Balles, Irene (1999). Zu den britannischen yo-Stämmen und ihren indogermanischen Quellen. In: Zimmer, Stefan et al. (eds.). Akten des zweiten deutschen Keltologen-Symposiums. Tübingen: Niemeyer (4-22).
+
+Balles, Irene (2003). Die lateinischen idus-Adjektive und das Calandsystem. In: Tichy, Eva et al. (eds.) (2003). Indogermanisches Nomen: Derivation, Flexion und Ablaut: Akten der Arbeitstagung der Indogermanischen Gesellschaft, Freiburg, 19. bis 22. September 2001. Bremen: Hempen (9-29).
+
+Bammesberger, Alfred (1990). Die Morphologie des urgermanischen Nomens. Heidelberg: Winter.
+
+Bednarczuk, Leszek (1988). The Italo-Celtic hypothesis from the Indo-European point of view. In: MacLennan, G. W. (ed.). Proceedings of the First North American Congress of Celtic Studies held at Ottawa from 26th-30th March, 1986. Ottawa: University of Ottawa (175-189).
+
+Beekes, Robert S.P. (1985). The origins of the Indo-European nominal inflection. Innsbruck: Institut für Sprachwissenschaft der Universität Innsbruck.
+
+Beekes, Robert S.P. (2011). Comparative Indo-European Linguistics: An Introduction. Amsterdam [etc.]: Benjamins.
+
+Benveniste, Émile (1935). Origines de la formation des noms en indo-européen. Paris: AdrienMaisonneuve.
+
+Bernardo Stempel, Patrizia de (1999). Nominale Wortbildung des älteren Irischen: Stammbildung und Derivation. Tübingen: Niemeyer.
+
+Bernardo Stempel, Patrizia de (2003). Der Beitrag des Keltischen zur Rekonstruktion des indogermanischen Nomens. In: Tichy, Eva et al. (eds.) (2003). Indogermanisches Nomen: Derivation, Flexion und Ablaut: Akten der Arbeitstagung der Indogermanischen Gesellschaft, Freiburg, 19. bis 22. September 2001. Bremen: Hempen (31-50).
+
+Bonfante, Guiliano (1934). “Notas sobre el vocabulario céltico y latino.” Emerita: boletín de linguística y filología clásica 2 (263-306).
+
+Bornemann, Eduard; Risch, Ernst (1978). Griechische Grammatik. Frankfurt am Main: Moritz Diesterweg.
+
+Buck, Carl Darling (1904). A grammar of Oscan and Umbrian: with a collection of inscriptions and a glossary. Boston: Ginn & Comp.
+
+Brugmann, Karl (1892). Grundriss der vergleichenden Grammatik der indogermanischen Sprachen. Vol. 2, part 1: Wortbildungslehre (Stammbildungs- und Flexionslehre). Cambridge: Cambridge University press (digital edition 2010).
+
+<!-- p. 74 -->
+
+Casaretto, Antje (2004). Nominale Wortbildung der gotischen Sprache: die Derivation der Substantive. Heidelberg: Winter.
+
+Chantraine, Pierre (1961). Morphologie historique du grec. Paris: Klincksieck.
+
+Clackson, James; Olsen, Birgit Anette (eds.) (2004). Indo-European Word Formation. Proceedings of the Conference held at the University of Copenhagen October 20th - 22nd 2000. Copenhagen: Museum Tuscalanum, University of Copenhagen.
+
+Cowgill, Warren (1970). Italic and Celtic Superlatives and the Dialects of Indo-European. In: Klein, Jared (ed.). The Collected Writings of Warren Cowgill. New York: Beech Stave Press, 2006 (113-53).
+
+D’Arbois de Jubainville, Henri (1881). “Les suffixes nominaux du breton moderne en France (dialecte de Léon)”. Mémoires de la Société de Linguistique de Paris 4 (277-311).
+
+D’Arbois de Jubainville, Henri (1907). “Le suffixe gallois -edic.” Revue celtique 18 (144).
+
+De Coene, Armand (1974). “Some notes on Italo-Celtic.” The Bulletin of the Board of Celtic Studies 25/4 (359-68).
+
+Dottin, Georges (1913). Manuel d'irlandais moyen: grammaire, textes et glossaire. I: Grammaire. Paris: Champion.
+
+Dottin, Georges (1920). La langue gauloise. Paris: Klinksieck.
+
+Dunkel, George (1988-90). “Vater Himmels Gattin”. Die Sprache 34 (1–26).
+
+Ernout, Alfred (1941). “Senex et les formations en -k- du latin”. Bulletin de la Société de Linguistique de Paris 41 (92-128).
+
+Ernout, Alfred; Meillet, Antoine (1985). Dictionnaire étymologique de la langue latine: histoire des mots. 4ME edition. Quatrième tirage, par Jacques André. Paris: Klincksieck.
+
+Ernout, Alfred (2002). Morphologie historique du latin. Paris: Klincksieck.
+
+Falileyev, Alexandre I. (2008). Le Vieux-Gallois. Potsdam: Université de Potsdam.
+
+Fleuriot, Léon (1964). Le vieux Breton: éléments d'une grammaire. Paris (diss.).
+
+Fränkel, E. (1913). “Beiträge zur Geschichte der Adjektiva auf -τικός”. Kuhns Zeitschrift für vergleichende Sprachforschung 45 (205-24).
+
+Fruyt, Michèle (1986). Problèmes méthodologiques de dérivation à propos des suffixes latins en... cus. Paris: Klincksieck/Publications de la Sorbonne (Études et Commentaires 99).
+
+Hamp, Eric P. (1969). “On verbal adjectives in *-ko-”. Indogermanische Forschungen 82 (77-9).
+
+Hamp, Eric P. (1977-84). “Some Italic and Celtic correspondences.” Zeitschrift für vergleichende
+
+Sprachforschung 91 (1977): 240-45; 96 (1982-83): 95-100; 97 (1984): 265-66.
+
+Hirt, Hermann (1927). Indogermanische Grammatik. Teil III: Das Nomen. Heidelberg: Carl Winter.
+
+Hoffmann, Karl (1955). “Ein grundsprachliches Possessivsuffix.” Münchener Studien zur Sprachwissenschaft 6 (35–40).
+
+Irslinger, Britta (2002). Abstrakta mit Dentalsuffixen im Altirischen. Heidelberg: Winter.
+
+<!-- p. 75 -->
+
+Irslinger, Britta (2004). Abstract formations with *-tu- and *-ti- in Old Irish and Indo-European. In: Clackson, James; Olsen, Birgit Anette (eds.). Indo-european word formation. Proceedings of the Conference held at the University of Copenhagen October 20th - 22nd 2000. Copenhagen: Museum Tuscalanum, University of Copenhagen (65-90).
+
+Irslinger, Britta (2014). The Gender of Abstract Noun Suffixes in the Brittonic Languages. In: Neri, Sergio; Schuhmann, Roland (eds.). Studies on the Collective and Feminine in Indo-European from a Diachronic and Typological Perspective. Brill: Leiden [etc.] (57-114).
+
+Isaac, Graham R. (2007). Studies in Celtic sound changes and their chronology. Innsbruck: Institut für Sprachen und Literaturen der Universität Innsbruck.
+
+Jacques, André (1973). “Les Composés en -gena, -genus.” Revue de philologie 47 (7–30).
+
+Jasanoff, Jay (1997). “An Italo-Celtic isogloss: the 3 pl. mediopassive in *-ntro”. In: Adams, D. Q. (ed.). Festschrift for Eric P. Hamp. Vol. I. Washington, D.C.: Institute for the Study of Man (146-161).
+
+Jordán Cólera, Carlos (1998). Introducción al Celtibérico. Zaragoza: Universidad de Zaragoza.
+
+Joseph, Lionel S. (1986). “A survival from the Italo-Celtic legal vocabulary.” Ériu 37 (119-25).
+
+Kortlandt, Frederik (1981). “More evidence for Italo-Celtic”. Eriu 32 (1-23).
+
+Kortlandt, Frederik (2007). Italo-Celtic origins and prehistoric development of the Irish language. Amsterdam [etc.]: Rodopi.
+
+Krahe, Hans; Meid, Wolfgang (1967). Germanische Sprachwissenschaft. III: Wortbildungslehre. Berlin: Walter de Gruyter.
+
+Lambert, Pierre-Yves (2006). Gaulois et Celtique Continental. Genève: Droz.
+
+Lehmann, Winfred P. (1997a). “Early Celtic among the Indo-European dialects”. Zeitschrift für celtische Philologie 49-50/1 (440-54).
+
+Lehmann, Winfred P. (1997b). Frozen Residues and Relative Dating. In: Dexter, Miriam Robbins; Polomé, Edgar C. (eds.). Varia on the Indo-European Past: Papers in Memory of Marija Gimbutas. Washington D.C.: Institute for the Study of Man (223–46).
+
+Leskien, August (1891). Die Bildung der Nomina im Litauischen. Leipzig: S. Hirzel.
+
+Leumann, Manu (1918). “Die Adjektiva auf -icius”. Glotta 9 (129-67).
+
+Leumann, Manu (1977). Lateinische Laut- und Formenlehre. Neuausgabe 1977 der 1926-1928 in 5. Auflage erschienenen Lateinische Laut- und Formenlehre. München: Beck.
+
+Lewis, Henry; Pedersen, Holger (1937). A concise comparative Celtic grammar. Göttingen: Vandenhoeck & Ruprecht.
+
+Lottner, C. (1861). “Celtisch-italisch.” Beiträge zur vergleichenden Sprachforschung auf dem Gebiete der Arischen, Celtischen und Slawischen Sprachen 2 (309-321).
+
+Lühr, Rosemarie (ed.) (2008). Nominale Wortbildung des Indogermanischen in Grundzügen. Die Wortbildungsmuster Ausgewählter Indogermanischer Einzelsprachen. Band 1: Latein, Altgriechisch. Hamburg: Dr. Kovač.
+
+<!-- p. 76 -->
+
+Marstrander, Carl J.S. (1929). “De l’unité italo-celtique.” Norsk tidsskrift for sprogvidenskap 3 (241- 59).
+
+Martinet, André (1955). “Le couple senex - senatus et le ‘suffixe’ -k-.” Bulletin de la Société de linguistique de Paris 51 (42-56).
+
+Matasović, Ranko (2009). Etymological Dictionary of Proto-Celtic. Leiden [etc.]: Brill.
+
+Matras, Yaron (2014). Why is the borrowing of inflectional morphology dispreferred? To appear in: Amiridze, Nino; Arkadiev, Peter (eds.). Borrowed morphology. Berlin: Mouton De Gruyter.
+
+Meid, Wolfgang (1955-7) “Zur Dehnung praesuffixaler Vokale in sekundären Nominalableitungen.”
+
+Indogermanische Forschungen 62 (1955-6) 260-95, 63 (1957) 1-28.
+
+Meid, Wolfgang (1957). “Das Suffix *-no- in Götternamen.” Beiträge zur Namenforschung 8 (72-108, 113-26).
+
+Meillet, Antoine (1905). Études sur l'étymologie et le vocabulaire du vieux slave. II: Formation des noms. Paris: Émile Bouillon.
+
+Meillet, Antoine (1933). Esquisse d’une histoire de la langue latine, 3rd. ed. (1st 1928). Paris: Hachette.
+
+Meillet, Antoine (1950). Les dialectes indo-européens. Third edition (first 1908). Paris: Champion.
+
+Morris-Jones, John (1913). A Welsh grammar, historical and comparative. Oxford: Clarendon.
+
+Nussbaum, Alan J. (1999). Jodicus. An account of the Latin adjectivus in -idus. In: Eichner, H.; Luschützsky, H. Chr. (eds.). Compositiones indogermanicae in memoriam Jochem Schindler. Prague: Enigma Corporation (421-35).
+
+Olsen, Birgit Anette (1999). The noun in Biblical Armenian: origin and word-formation - with special emphasis on the Indo-European heritage. Berlin [etc.]: Mouton de Gruyter.
+
+Olsen, Birgit Anette; Rasmussen, Jens Elmegård (1999). Indo-European *-to/-tu/-ti: A case of phonetic hierarchy. In: Eichner, H.; Luschützsky, H. Chr. (eds.). Compositiones indogermanicae in memoriam Jochem Schindler. Prague: Enigma Corporation (421-35).
+
+Olsen, Birgit Anette (2003a). “Another account of the Latin adjectives in -idus.” Historische Sprachforschung 116 (234-75).
+
+Olsen, Birgit Anette (2003b). Fresh shoots from a vigorous stem: IE *uiH1ró. In: Bauer, Brigitte L.M.; Pinault, Georges-Jean (eds.). Language in Time and Space: A Festschrift for Werner Winter on the Occasion of His 80th Birthday. Berlin: Mouton de Gruyter (313-29).
+
+Olsen, Birgit Anette (2009). How many noun suffixes did Proto-Indo-European have? In: Rasmussen, Jens Elmegård; Olander, Thomas (eds.). Internal reconstruction in Indo-European: Methods, results, and problems. Copenhagen: Museum Tusculanum (187-204).
+
+Olsen, Birgit Anette (2010). Derivation and composition: two studies in Indo-European word formation. Innsbruck: Institut für Sprachen und Literaturen der Universität Innsbruck.
+
+Pedersen, Holger (1909-1913). Vergleichende Grammatik der keltischen Sprachen. I: Einleitung und Lautlehre. II: Bedeutungslehre (Wortlehre). Göttingen: Vandenhoeck und Ruprecht.
+
+<!-- p. 77 -->
+
+Pinault, Georges-Jean (2007). A Star Is Born: A “New” PIE *-ter- Suffix. In: Nussbaum, Alan J. (ed.). Verba Docenti. Studies in Historical and Indo-European Linguistics Presented to Jay H. Jasanoff by Students, Colleagues, and Friends. Ann Arbor [etc.]: Beech Stave (271-279).
+
+Pokorny, J. (1959-1969). Indogermanisches etymologisches Wörterbuch. Bern [etc.]: Francke.
+
+Porzig, Walter (1954). Die Gliederung des indogermanischen Sprachgebiets. Heidelberg: Winter.
+
+Press, Ian (1986). A Grammar of Modern Breton. Berlin [etc.]: Mouton de Gruyter.
+
+Quin, Ernest G. et al. (ed.) (2007) [1913-75]. Dictionary of the Irish Language, Based Mainly on Old and Middle Irish Materials. Dublin: Royal Irish Academy.
+
+Rasmussen, Jens Elmegård (1989). Studien zur Morphophonemik der indogermanischen Grundsprache. Innsbruck: Institut für Sprachwissenschaft der Universität Innsbruck.
+
+Rau, Jeremy (2009). Indo-European Nominal Morphology: The Decads and the Caland System. Innsbruck: Institut für Sprachen und Literaturen der Universität Innsbruck.
+
+Rix, Helmut (1992). Historische Grammatik des Griechischen: Laut und Formlehre. 2. Auflage. Darmstadt: Wissenschaftliche Buchgesellschaft.
+
+Roparz, Hemon (1975). A Historical Morphology and Syntax of Breton. Dublin: The Dublin Institute for Advanced Studies.
+
+Rubenhauer, Hans (1977). Lateinische Grammatik. Bamberg [etc.]: Oldenbourg.
+
+Russell, Paul (1988). “The suffix -āko- in Continental Celtic.” Études celtiques 25 (131-73).
+
+Russell, Paul (1990). Celtic word-formation: the velar suffixes. Dublin: Dublin Institute for Advanced Studies.
+
+Russell, Paul (1995). An Introduction to the Celtic Languages. London [etc.]: Longman.
+
+Schmidt, Karl Horst (1992a). Contributions from New Data to the Reconstruction of the Protolanguage. In: Polomé, Edgar; Winter, Werner (eds.). Reconstructing Languages and Cultures. Berlin [etc.]: Mouton de Gruyter (35–62).
+
+Schmidt, Karl Horst (1992b). Latein und Keltisch: Genetische Verwandtschaft und areale Beziehungen. In: Panagl, Oswald; Krisch, Thomas (eds.). Latein und Indogermanisch:Akten des Kolloquiums der Indogermanischen Gesellschaft, Salzburg, 23.-26. September 1986. Innsbruck: Institut für Sprachwissenschaft (29-51).
+
+Schrijver, Peter (1990). “Latin festināre, Welsh brys”. Münchener Studien zur Sprachwissenschaft 51 (243-247).
+
+Schrijver, Peter (1995). Studies in British Celtic historical phonology. Amsterdam [etc.]: Rodopi.
+
+Schrijver, Peter (1997). Studies in the history of Celtic pronouns and particles. Maynooth: National University of Ireland.
+
+Schrijver, Peter (2003). “Athematic i-presents: the Italic and Celtic evidence.” Incontri Linguistici 26 (59-86).
+
+<!-- p. 78 -->
+
+Schrijver, Peter (2007). British Celtic Comparatives and their Syntax. In: Nussbaum, Alan J. (ed.). Verba docenti: studies in historical and Indo-European linguistics presented to Jay H. Jasanoff by students, colleagues, and friends. Ann Arbor [etc.]: Beech Stave (307-19).
+
+Schumacher, Stefan (2000). The Historical Morphology of the Welsh Verbal Noun. Maynooth: National University of Ireland.
+
+Schwyzer, Eduard (1938). Griechische Grammatik. I: Allgemeiner Teil, Lautlehre, Wortbildung, Flexion. München: C. H. Beck’sche Verlagsbuchhandlung.
+
+Sihler, Andrew (1995). New comparative grammar of Greek and Latin. New York [etc.]: Oxford University Press.
+
+Staaij, Robert Johannes van der (1995). A reconstruction of Proto-Italic (unpublished dissertation Leiden University).
+
+Strachan, John (1909). An introduction to early Welsh. Manchester: At the University Press.
+
+Stüber, Karin (1998). The historical morphology of N-stems in Celtic. Maynooth: National University of Ireland.
+
+Stüber, Karin (2004). Individualisierendes *-on- in Namen von Göttern und Göttinnen. International Journal of Diachronic Linguistics and Linguistic Reconstruction 1 (1-17).
+
+Szemerényi, Oswald (1970). Einführung in die vergleichende Sprachwissenschaft. Darmstadt: Wissenschaftliche Buchgesellschaft.
+
+Ternes, Elmar (ed.) (2011). Brythonic Celtic: From Medieval British to Modern Breton. Bremen: Hempen.
+
+Thomas, R.J. et al. (eds.) (1950-2002). Geiriadur Prifysgol Cymru = A dictionary of the Welsh language. Caerdydd: Gwasg Prifysgol Cymru.
+
+Thurneysen, R. (1946). A Grammar of Old Irish. Dublin: The Dublin Institute for Advanced Studies.
+
+Vaan, Michiel de (2008). Etymological dictionary of Latin and the other Italic languages. Leiden [etc.]: Brill.
+
+Vaan, Michiel de (in press). “Reduplicated demonstratives in ancient Indo-European languages.”
+
+Vendryes, Joseph (1937). La position linguistique du celtique. London: The British Academy.
+
+Vendryes, Joseph (1959-). Lexique étymologique de l’irlandais ancien. Dublin: Institute for Advanced Studies; Paris: Centre National de la Recherche Scientifique.
+
+Vijūnas, Aurelijus (2009). The Indo-European Primary T-stems. Innsbruck: Institut für Sprachen und Literaturen der Universität Innsbruck.
+
+Vraciu, A. (1969). “Unele consideraţii asupra raporturilor dintre limbile italice şi celtice.” Analele ştiinţifice ale Universităţii "Al. I. Cuza", Secţiunea IIIe (Iaşi) 15 (1-15).
+
+Wackernagel, Jacob; Debrunner, Albert (author) (1954). Altindische Grammatik. Vol. II, 2: Die Nominalsuffixe. Göttingen: Vandenhoeck & Ruprecht.
+
+Walde, Alois (1917). Über älteste sprachliche Beziehungen zwischen Kelten und Italikern. Innsbruck: Wagner.
+
+<!-- p. 79 -->
+
+Walde, Alois; Hoffmann, Johann Baptist (1930-1956). Lateinisches etymologisches Wörterbuch. Heidelberg: Winter.
+
+Watkins, Calvert (1966). Italo-Celtic Revisited. In: Birnbaum, Henrik; Puhvel, Jaan (eds.). Ancient Indo-European Dialects. Berkeley: University of California Press (29-50).
+
+Watkins, Calvert (1990). A Celtic-Latin-Hittite etymology. In: Tzvi Abusch, I. et al. (eds.). Lingering over words: studies in ancient Near Eastern literature in honor of William L. Moran. Atlanta, Georgia: Scholars Press (451-3).
+
+Weiss, Michael (1993). Studies in Italic nominal morphology (unpublished dissertation Cornell University).
+
+Weiss, Michael (2009). Outline of the historical and comparative grammar of Latin. Ann Arbor [etc.]: Beech Stave.
+
+Weiss, Michael (2012). Italo-Celtica: Linguistic and Cultural Points of Contact between Italic and Celtic. In: Jamison, Stephanie W. et al. (eds.). Proceedings of the 23rd Annual UCLA IndoEuropean Conference. Bremen: Hempen (151-73).
+
+Wodtko, Dagmar S. (1995). Sekundäradjektive in den altirischen Glossen. Untersuchungen zur präfixalen und suffixalen Wortbildung. Innsbruck: Institut für Sprachwissenschaft der Universität Innsbruck.
+
+Yates, Anthony D. (2009). The Question of Italo-Celtic Unity (published on Scribd).
+
+Zimmer, Stefan (1990). Dating the Loanwords: Latin Suffixes in Welsh (and their Celtic Congeners). In: Bammesberger, Alfred; Wollmann, Alfred (eds.). Britain 400-600: language and history. Heidelberg: Winter (263-281).
+
+Zimmer, Stefan (2000). Studies in Welsh Word-formation. Dublin: Dublin Institute for Advanced Studies.
+
+Zimmer, Stefan (2002). Latin and Welsh. In: Sawicki, Lea et al. (eds.). Donum Grammaticum: Studies in Latin and Celtic Linguistics in Honour of Hannah Rosén. Leuven [etc.]: Peeters (395-406).

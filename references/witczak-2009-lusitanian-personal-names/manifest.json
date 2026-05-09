@@ -1,0 +1,47 @@
+{
+  "source_file": "witczak-2009-lusitanian-personal-names.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "witczak-2009-lusitanian-personal-names.md",
+    "witczak-2009-lusitanian-personal-names-bibliography.md",
+    "witczak-2009-lusitanian-personal-names-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "applied; count unknown",
+    "laryngeal_normalization": "not applicable; no h₁/h₂/h₃ forms observed in source text",
+    "paragraph_rejoins": "applied; count unknown",
+    "greek_glyph_repairs": "applied; count unknown",
+    "hyphenation_repairs": "applied; count unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 23,
+    "macron_e": 2,
+    "macron_i": 3,
+    "macron_o": 5,
+    "macron_u": 3,
+    "schwa": 0,
+    "turned_e_ǝ": 21,
+    "greek_chars": 125,
+    "combining_diacritics": 14,
+    "dagger": 0,
+    "superscript_w": 4,
+    "subscript_3": 1
+  },
+  "unresolved_count": 0,
+  "notes": "Single journal article; bibliography split into a standalone file. No figures, maps, plates, index, or image-only tables observed. Greek passages in the PDF text layer used non-Unicode/corrupted extraction and were corrected against rendered page images; residual character-level uncertainty is recorded in the extraction report."
+}

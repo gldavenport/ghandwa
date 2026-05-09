@@ -1,0 +1,42 @@
+{
+  "source_file": "weiss-2022-issues-eituns-inscriptions-pompeii.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "weiss-2022-issues-eituns-inscriptions-pompeii.md",
+    "weiss-2022-issues-eituns-inscriptions-pompeii-bibliography.md",
+    "weiss-2022-issues-eituns-inscriptions-pompeii-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 5,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 13,
+    "macron_e": 5,
+    "macron_i": 2,
+    "macron_o": 7,
+    "macron_u": 2,
+    "schwa": 4,
+    "greek_chars": 190,
+    "combining_diacritics": 39,
+    "dagger": 0
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital PDF excerpt with corrupted/private-use text mappings in several Indo-European and Tocharian forms. Article extraction covers Michael Weiss, “Issues in the eítuns Inscriptions of Pompeii,” pages 949-960 of EQO DUENOSIO. Volume front matter was used for metadata and not included as corpus text."
+}

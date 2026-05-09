@@ -1,0 +1,145 @@
+{
+  "source_file": "woodard-ed-2008-ancient-languages-europe.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "woodard-ed-2008-ancient-languages-europe-front-matter.md",
+    "woodard-ed-2008-ancient-languages-europe-ch1.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch1.md",
+    "woodard-ed-2008-ancient-languages-europe-ch2.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch2.md",
+    "woodard-ed-2008-ancient-languages-europe-ch3.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch3.md",
+    "woodard-ed-2008-ancient-languages-europe-ch4.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch4.md",
+    "woodard-ed-2008-ancient-languages-europe-ch5.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch5.md",
+    "woodard-ed-2008-ancient-languages-europe-ch6.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch6.md",
+    "woodard-ed-2008-ancient-languages-europe-ch7.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch7.md",
+    "woodard-ed-2008-ancient-languages-europe-ch8.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch8.md",
+    "woodard-ed-2008-ancient-languages-europe-ch9.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch9.md",
+    "woodard-ed-2008-ancient-languages-europe-ch10.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-ch10.md",
+    "woodard-ed-2008-ancient-languages-europe-app1.md",
+    "woodard-ed-2008-ancient-languages-europe-bibliography-app1.md",
+    "woodard-ed-2008-ancient-languages-europe-app2.md",
+    "woodard-ed-2008-ancient-languages-europe-index.md",
+    "woodard-ed-2008-ancient-languages-europe-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig1-1.png",
+      "source_label": "Figure 1.1",
+      "page": 24,
+      "caption": "Cretan hieroglyphic inscription and portrait stamped on a sealing"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig1-2.png",
+      "source_label": "Figure 1.2",
+      "page": 25,
+      "caption": "The Phaistos Disk (side A)"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig1-3.png",
+      "source_label": "Figure 1.3",
+      "page": 28,
+      "caption": "The Caslir Situla"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig2-1.png",
+      "source_label": "Figure 2.1",
+      "page": 39,
+      "caption": "The vowel phonemes of Classical Attic Greek"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-map1.png",
+      "source_label": "Map 1",
+      "page": 72,
+      "caption": "The Greek dialects of the first millennium BC and neighboring languages"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig5-1.png",
+      "source_label": "Figure 5.1",
+      "page": 121,
+      "caption": "South Picene inscription. South Picene, Rix Sp TE 6, stele (fragmentary)"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig5-2.png",
+      "source_label": "Figure 5.2",
+      "page": 122,
+      "caption": "Oscan inscription. Oscan, Rix Cp25a, funerary stele (side a)"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-map2.png",
+      "source_label": "Map 2",
+      "page": 147,
+      "caption": "The ancient languages of Italy and surrounding regions (for the Greek dialects of Italy and Sicily, see Map 1)"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig6-1.png",
+      "source_label": "Figure 6.1",
+      "page": 149,
+      "caption": "Venetic votive inscriptions"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig6-2a.png",
+      "source_label": "Figure 6.2",
+      "page": 150,
+      "caption": "Venetic epitaphs"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig6-2b.png",
+      "source_label": "Figure 6.2 (cont.)",
+      "page": 151,
+      "caption": "Venetic epitaphs"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig6-3.png",
+      "source_label": "Figure 6.3",
+      "page": 154,
+      "caption": "Latino-Venetic inscription"
+    },
+    {
+      "filename": "woodard-ed-2008-ancient-languages-europe-fig9-1.png",
+      "source_label": "Figure 9.1",
+      "page": 213,
+      "caption": "The Germanic languages"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": 1756,
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 4567,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 62,
+      "h2": 91,
+      "h3": 15
+    },
+    "macron_a": 0,
+    "macron_e": 0,
+    "macron_i": 0,
+    "macron_o": 0,
+    "macron_u": 0,
+    "schwa": 9,
+    "greek_chars": 610,
+    "combining_diacritics": 0,
+    "dagger": 5
+  },
+  "unresolved_count": 4567,
+  "notes": "Born-digital text-layer extraction; custom-encoded glyphs marked as unclear-glyph placeholders rather than guessed."
+}

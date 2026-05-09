@@ -1,0 +1,42 @@
+{
+  "source_file": "lipp-2020-word-wine.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "lipp-2020-word-wine.md",
+    "lipp-2020-word-wine-bibliography.md",
+    "lipp-2020-word-wine-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 143,
+      "h2": 85,
+      "h3": 17
+    },
+    "macron_a": 50,
+    "macron_e": 48,
+    "macron_i": 159,
+    "macron_o": 50,
+    "macron_u": 11,
+    "schwa": 7,
+    "greek_chars": 570,
+    "combining_diacritics": 1080,
+    "dagger": 6
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital PDF text layer used as primary input; visual render used for source-type and sample character/layout checks."
+}

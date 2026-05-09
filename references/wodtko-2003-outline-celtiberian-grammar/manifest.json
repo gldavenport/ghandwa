@@ -1,0 +1,42 @@
+{
+  "source_file": "wodtko-2003-outline-celtiberian-grammar.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "wodtko-2003-outline-celtiberian-grammar.md",
+    "wodtko-2003-outline-celtiberian-grammar-bibliography.md",
+    "wodtko-2003-outline-celtiberian-grammar-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "partial"
+  },
+  "markers_inserted": {
+    "unclear": 177,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 8,
+      "h2": 37,
+      "h3": 6
+    },
+    "macron_a": 60,
+    "macron_e": 23,
+    "macron_i": 19,
+    "macron_o": 45,
+    "macron_u": 10,
+    "schwa": 0,
+    "greek_chars": 0,
+    "combining_diacritics": 85,
+    "dagger": 1
+  },
+  "unresolved_count": 177,
+  "notes": "Born-digital PDF text layer uses custom non-Unicode font encodings; extraction includes partial repair and residual uncertainty for Greek and dense PIE notation."
+}

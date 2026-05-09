@@ -1,0 +1,73 @@
+{
+  "source_file": "anthony-2013-two-ie-phylogenies.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "anthony-2013-two-ie-phylogenies.md",
+    "anthony-2013-two-ie-phylogenies-bibliography.md",
+    "anthony-2013-two-ie-phylogenies-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "images/anthony-2013-two-ie-phylogenies-fig1.png",
+      "source_label": "Fig. 1",
+      "page": 7,
+      "caption": "Fig. 1. The Proto-Indo-European homeland and the first three migrations, paralleling the phylogeny of Ringe et al. 2002"
+    },
+    {
+      "filename": "images/anthony-2013-two-ie-phylogenies-fig2.png",
+      "source_label": "Fig. 2",
+      "page": 9,
+      "caption": "Fig. 2. The first migration, 4200–4000 bc, of the Suvorovo-type immigrants into the Danube valley, Transylvania, and the Dobruja"
+    },
+    {
+      "filename": "images/anthony-2013-two-ie-phylogenies-fig3.png",
+      "source_label": "Fig. 3",
+      "page": 10,
+      "caption": "Fig. 3. The second migration, 3300–2800 bc or later, of the Afanasievo-type immigrants into the western Altai Mountains."
+    },
+    {
+      "filename": "images/anthony-2013-two-ie-phylogenies-fig4.png",
+      "source_label": "Fig. 4",
+      "page": 11,
+      "caption": "Fig. 4. The third migration, 3000–2800 bc, of the Yamnaya immigrants into the Danube valley, and penetration of Usatovo-type and Yamnaya-type contacts with Tripol’ye CII and pre-Corded Ware communities on the upper Vistula"
+    },
+    {
+      "filename": "images/anthony-2013-two-ie-phylogenies-fig5.png",
+      "source_label": "Fig. 5",
+      "page": 15,
+      "caption": "Fig. 5. Stable isotopes of ¹⁵[?]N and ¹³[?]C in human bone in individuals from the Eneolithic through the LBA in the middle Volga steppes. The Eneolithic diet was significantly different from the Bronze Age diet. The EBA, MBA, and LBA diets showed no difference in stable isotopes"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "not applied; one text-layer/visual mismatch marked uncertain",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 3,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 0,
+    "macron_e": 0,
+    "macron_i": 0,
+    "macron_o": 0,
+    "macron_u": 0,
+    "schwa": 0,
+    "greek_chars": 0,
+    "combining_diacritics": 0,
+    "dagger": 0
+  },
+  "unresolved_count": 3,
+  "notes": "Journal article extracted as a single-file Markdown corpus with separate bibliography and embedded figure images."
+}

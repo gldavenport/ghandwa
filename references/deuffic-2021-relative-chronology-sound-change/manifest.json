@@ -1,0 +1,42 @@
+{
+  "source_file": "deuffic-2021-relative-chronology-sound-changes.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "deuffic-2021-relative-chronology-sound-changes.md",
+    "deuffic-2021-relative-chronology-sound-changes-bibliography.md",
+    "deuffic-2021-relative-chronology-sound-changes-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 67,
+      "h2": 101,
+      "h3": 38
+    },
+    "macron_a": 127,
+    "macron_e": 145,
+    "macron_i": 130,
+    "macron_o": 155,
+    "macron_u": 51,
+    "schwa": 14,
+    "greek_chars": 550,
+    "combining_diacritics": 297,
+    "dagger": 0
+  },
+  "unresolved_count": 5,
+  "notes": "Born-digital PDF extraction. Superscript and subscript reconstruction was based on text-layer span sizes/positions; stop-system tables in §2.6.2 were manually rebuilt as Markdown tables from positioned PDF text."
+}

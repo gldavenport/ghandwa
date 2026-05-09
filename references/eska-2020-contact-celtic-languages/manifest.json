@@ -1,0 +1,42 @@
+{
+  "source_file": "eska-2020-contact-celtic-languages.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-08",
+  "output_files": [
+    "eska-2020-contact-celtic-languages.md",
+    "eska-2020-contact-celtic-languages-bibliography.md",
+    "eska-2020-contact-celtic-languages-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "not applicable; no h₁/h₂/h₃ forms observed",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 4,
+    "macron_e": 1,
+    "macron_i": 1,
+    "macron_o": 0,
+    "macron_u": 0,
+    "schwa": 0,
+    "greek_chars": 21,
+    "combining_diacritics": 7,
+    "dagger": 0
+  },
+  "unresolved_count": 4,
+  "notes": "Born-digital PDF extraction. Rendered-page inspection was used selectively for superscript aspiration and high-risk glyphs. No images found."
+}

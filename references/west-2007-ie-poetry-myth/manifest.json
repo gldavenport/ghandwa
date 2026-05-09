@@ -1,0 +1,71 @@
+{
+  "source_file": "west-2007.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "west-2007-front-matter.md",
+    "west-2007-introduction.md",
+    "west-2007-ch1.md",
+    "west-2007-ch2.md",
+    "west-2007-ch3.md",
+    "west-2007-ch4.md",
+    "west-2007-ch5.md",
+    "west-2007-ch6.md",
+    "west-2007-ch7.md",
+    "west-2007-ch8.md",
+    "west-2007-ch9.md",
+    "west-2007-ch10.md",
+    "west-2007-ch11.md",
+    "west-2007-ch12.md",
+    "west-2007-elegy.md",
+    "west-2007-bibliography.md",
+    "west-2007-index.md",
+    "west-2007-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "images/west-2007-cover.jpeg",
+      "source_label": "cover image",
+      "page": 1,
+      "caption": "Front cover image"
+    },
+    {
+      "filename": "images/west-2007-p20-fig1.png",
+      "source_label": "unlabeled diagram",
+      "page": 20,
+      "caption": "Stemmatic diagram of Indo-European levels"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "applied, count unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "partial / heuristic"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 20,
+      "h2": 45,
+      "h3": 4
+    },
+    "macron_a": 1778,
+    "macron_e": 184,
+    "macron_i": 389,
+    "macron_o": 181,
+    "macron_u": 280,
+    "schwa": 218,
+    "greek_chars": 14151,
+    "combining_diacritics": 823,
+    "dagger": 3
+  },
+  "unresolved_count": 0,
+  "notes": "Automated first-pass extraction. Greek and custom phonetic glyphs were repaired from embedded font encoding where possible; full manual audit not performed."
+}

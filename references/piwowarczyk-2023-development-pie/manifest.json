@@ -1,0 +1,46 @@
+{
+  "source_file": "piwowarczyk-2023-development-pie.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "piwowarczyk-2023-development-pie.md",
+    "piwowarczyk-2023-development-pie-bibliography.md",
+    "piwowarczyk-2023-development-pie-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown",
+    "hyphenation_repairs": "unknown",
+    "footnote_conversion": "applied",
+    "bibliography_split": "applied"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 16,
+      "h2": 0,
+      "h3": 0,
+      "h_sub_x": 2
+    },
+    "macron_a": 7,
+    "macron_e": 3,
+    "macron_i": 23,
+    "macron_o": 8,
+    "macron_u": 6,
+    "schwa": 0,
+    "greek_chars": 0,
+    "combining_diacritics": 34,
+    "dagger": 0
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital journal article. No images detected. Markdown emphasis boundaries are approximate; character forms were prioritized."
+}

@@ -1,0 +1,56 @@
+---
+title: "The Indo-European Language Family: References for Chapter 5"
+author: "Alwin Kloekhorst"
+date: "2022"
+source_type: "born-digital"
+extraction_date: "2026-05-07"
+source_file: "olander-2022-ed-ie-language-family.pdf"
+chunk: "bibliography-ch5"
+pages: "63-82"
+---
+
+# References — Chapter 5: Anatolian
+
+ACLT = Annotated Corpus of Luwian Texts. http://web-corpora.net/LuwianCorpus. Adiego, Ignasi-Xavier. 2001. Lenición y acento en protoanatólico. In Onofrio Carruba
+
+& Wolfgang Meid (eds.),<i> Anatolisch und Indogermanisch</i>, 11–18, Innsbruck: Institut für Sprachen und Literaturen der Universität Innsbruck. Adiego, Ignasi-Xavier. 2007.<i> The Carian language</i>. Leiden: Brill. Adiego, Ignasi-Xavier. 2016. Anatolian languages and Proto-Indo-European,<i> Veleia</i> 33.
+
+49–64. Brixhe, Claude. 1988. La langue des inscriptions épichoriques de Pisidie. In Yoël
+
+L. Arbeitman (ed.),<i> A linguistic happening in memory of Ben Schwartz</i>, 131–55. Louvain-la-Neuve: Peeters. Carruba, Onofrio. 1970.<i> Das Palaische: Texte, Grammatik, Lexikon</i>. Wiesbaden:
+
+Harrassowitz. CHD = Hans G. Güterbock, Harry A. Hoffner & Theo P. J. van den Hout (eds.). 1983–.
+
+<i>The Hittite dictionary of the Oriental Institute of the University of Chicago</i>. Chicago, IL: The Oriental Institute of the University of Chicago. Čop, Bojan. 1970. Eine luwische orthographische-phonetische Regel.<i> Indogermanische</i>
+
+<i>Forschungen</i> 75. 85–96. EDHIL = Alwin Kloekhorst. 2008.<i> Etymological dictionary of the Hittite inherited</i>
+
+<i>lexicon</i>. Leiden: Brill. Eichner, Heiner. 1973. Die Etymologie von heth.<i> mehur. Münchener Studien zur Sprachwis-</i>
+
+<i>senschaft</i> 31. 53–107. Eichner, Heiner. 1974.<i> Untersuchungen zurhethitischen Deklination</i>. Inaugural-Dissertation
+
+(Teildruck), Erlangen. Eichner, Heiner. 1975. Die Vorgeschichte des hethitischen Verbalsystems. In Helmut
+
+Rix (ed.),<i> Flexion und Wortbildung</i>, 71–103. Wiesbaden: Reichert. Eichner, Heiner. 2015. Das Anatolische in seinem Verhältnis zu anderen Gliedern der
+
+indoeuropäischen Sprachfamilie aus aktueller Sicht. In Thomas Krisch & Stefan Niederreiter (eds.),<i> Diachronie und Sprachvergleich</i>, 13–26. Innsbruck: Institut für Sprachen und Literaturen der Universität Innsbruck. Frotscher, Michael. 2012. Die luwischen Entsprechungen der hethitischen Verben des
+
+Typs<i> dāi/tii̯anzi und ein neues Lautgesetz urindogermanisch *oi̯ > urluwisch *u̯e.</i> <i>International Journal of Diachronic Linguistics and Linguistic Reconstruction</i> 9. 137–94. Gérard, Raphaël. 2005.<i> Phonétique et morphologie de la langue lydienne</i>. Louvain-
+
+la-Neuve: Peeters. Giusfredi, Federico. 2020.<i> A study in the syntax of the Luwian language</i>. Heidelberg:
+
+Winter. Gusmani, Roberto. 1964.<i> Lydisches Wörterbuch: Mit grammatischer Skizze und</i>
+
+<i>Inschriftensammlung</i>. With Ergänzungsband Lfg. 1 (1980), Lfg. 2 (1982), Lfg. 3 (1986). Heidelberg: Winter. Hajnal, Ivo. 1995.<i> Der lykische Vokalismus</i>. Graz: Leykam.
+
+<!-- page: 80; pdf-page: 98 -->
+
+Hawkins, John David. 2000<i> Corpus of Hieroglyphic Luwian inscriptions</i>. Vol. 1. <i>Inscriptions of the Iron Age</i>. Berlin: de Gruyter. HED = Jaan Puhvel. 1984–.<i> Hittite etymological dictionary</i>. Berlin: Mouton. HEG = Johann Tischler. 1983–2016.<i> Hethitisches etymologisches Glossar</i>. Innsbruck: Institut für Sprachwissenschaft der Universität Innsbruck. Hoffner, Harry A., Jr. & H. Craig Melchert. 2008.<i> A grammar of the Hittite language</i>. Winona Lake, IN: Eisenbrauns. HW² = Johannes Friedrich & Annelies Kammenhuber. 1975–.<i> Hethitisches Wörterbuch</i>. 2nd ed. Heidelberg: Winter. Jasanoff, Jay H. 2003.<i> Hittite and the Indo-European verb</i>. Oxford: Oxford University Press. Kalinka, Ernestus. 1901.<i> Tituli Lyciae lingua Lycia conscripti</i>. Vindobonae: Hölder. Kammenhuber, Annelies. 1969. Hethitisch, Palaisch, Luwisch und Hieroglyphenluwisch. In Johannes Friedrich (ed.),<i> Altkleinasiatische Sprachen</i>, 119–357. Leiden: Brill. Kimball, Sara E. 1999.<i> Hittite historical phonology</i>. Innsbruck: Institut für Sprachwissenschaft der Universität Innsbruck. Kloekhorst, Alwin. 2006. Initial laryngeals in Anatolian.<i> Historische Sprachforschung</i> 119. 77–108. Kloekhorst, Alwin. 2008.<i> Etymological dictionary of the Hittite inherited lexicon</i>. Leiden: Brill. Kloekhorst, Alwin. 2012. The origin of the Lydian dat.sg. ending<i> -λ. Kadmos</i> 51. 165–73. Kloekhorst, Alwin. 2013. Likijskij jazyk [The Lycian language]. In Y. B. Koryakov & A. A. Kibrik (eds.),<i> Jazyki mira: Reliktovye indoevropejskie jazyki Perednej</i> <i>i Central’noj Azii [Languages of the world: Relict Indo-European languages of</i> <i>Western and Central Asia]</i>, 131–54. Moscow: Academia. Kloekhorst, Alwin. 2014.<i> Accent in Hittite: A study in plene spelling, consonant</i> <i>gradation, clitics, and metrics</i>. Wiesbaden: Harrassowitz. Kloekhorst, Alwin. 2016. The Anatolian stop system and the Indo-Hittite hypothesis. <i>Indogermanische Forschungen</i> 121. 213–47. Kloekhorst, Alwin. 2018a. Anatolian evidence suggests that the Indo-European laryngeals *<i>h₂</i> and *<i>h₃</i> were uvular stops.<i> Indo-European Linguistics</i> 6. 69–94. Kloekhorst, Alwin. 2018b. The origin of the Hittite<i> ḫi-</i>conjugation. In Lucien van Beek et al. (eds.),<i> Farnah: Indo-Iranian and Indo-European studies in honor of Sasha</i> <i>Lubotsky</i>, 89–106. Ann Arbor, MI: Beech Stave. Kloekhorst, Alwin. 2019.<i> Kanišite Hittite: The earliest attested record of Indo-</i> <i>European</i>. Leiden: Brill. Kloekhorst, Alwin. In press. Proto-Indo-Anatolian, the “Anatolian split” and the “Anatolian trek”: A historical linguistic perspective. In Kristian Kristiansen & Guus Kroonen (eds.),<i> The Indo-European puzzle revisited</i>. Cambridge: Cambridge University Press. Kloekhorst, Alwin & Tijmen Pronk. 2019. Introduction: Reconstructing Proto-Indo-Anatolian and Proto-Indo-Uralic. In Alwin Kloekhorst & Tijmen Pronk (eds.),<i> The</i> <i>precursors of Proto-Indo-European: The Indo-Anatolian and Indo-Uralic hypotheses</i>, 1–14. Leiden: Brill. Kloekhorst, Alwin & Willemijn J. I. Waal. 2019. A Hittite scribal tradition predating the tablet collections of Ḫattuša? The origin of the “cushion-shaped” tablets KBo 3.22, KBo 17.21+, KBo 22.1, and KBo 22.2.<i> Zeitschrift für Assyriologie</i> 109. 189–203.
+
+<!-- page: 81; pdf-page: 99 -->
+
+Kroonen, Guus, Gojko Barjamovic & Michaël Peyrot. 2018. Linguistic supplement to Damgaard et al. 2018: Early Indo-European languages, Anatolian, Tocharian and Indo-Iranian. doi:10.5281/zenodo.1240524. Laroche Emmanuel. 1979. L’inscription lycienne. In Henri Metzger (ed.),<i> Fouilles de</i> <i>Xanthos</i>. Vol. 6.<i> La stèle trilingue de Létôon</i>, 49–127. Paris: Klincksieck. Malzahn, Melanie. 2010.<i> The Tocharian verbal system</i>. Leiden: Brill. Marazzi, Massimiliano (ed.). 1998.<i> Il geroglifico anatolico: Sviluppi della ricerca</i> <i>a venti anni dalla sua “ridecifrazione”</i>. Napoli: Dipartimento di studi glottoantropologici, Università “La sapienza”. Melchert, H. Craig. 1990. Adjective stems in *<i>-iyo-</i> in Anatolian.<i> Historische</i> <i>Sprachforschung</i> 103. 198–207. Melchert, H. Craig. 1993.<i> Cuneiform Luvian lexicon</i>. Chapel Hill, NC: n.p. Melchert, H. Craig. 1994.<i> Anatolian historical phonology</i>. Amsterdam: Rodopi. Melchert, H. Craig. 2003. Language. In H. Craig Melchert (ed.),<i> The Luwians</i>, 170–210. Leiden: Brill. Melchert, H. Craig. 2004.<i> A dictionary of the Lycian language</i>. Ann Arbor, MI: Beech Stave. Melchert, H. Craig. 2011. The PIE verb for ‘to pour’ and medial *<i>h₃</i> in Anatolian. In Stephanie Jamison, H. Craig Melchert & Brent Vine (eds.),<i> Proceedings of the 22nd</i> <i>UCLA Indo-European Conference</i>, 127–32. Bremen: Hempen. Melchert, H. Craig. 2016. “Western affinities” of Anatolian. In Bjarne S. S. Hansen et al. (eds.),<i> Etymology and the European lexicon</i>, 297–305. Wiesbaden: Reichert. Melchert, H. Craig. In press. The position of Anatolian. In Michael Weiss & Andrew Garrett (eds.),<i> Handbook of Indo-European studies</i>. Oxford: Oxford University Press. Meriggi, Piero. 1962.<i> Hieroglyphisch-hethitisches Glossar</i>. Wiesbaden: Harrassowitz. Neumann, Günter. 1979.<i> Neufunde lykischer Inschriften seit 1901</i>. Vienna: Österreichische Akademie der Wissenschaften. Neumann, Günter. 2007.<i> Glossar des Lykischen: Überarbeitet und zum Druck gebracht</i> <i>von Johann Tischler</i>. Wiesbaden: Harrassowitz. Norbruis, Stefan. 2021.<i> Indo-European origins of Anatolian morphology and seman-</i> <i>tics: Innovations and archaisms in Hittite, Luwian and Lycian</i>. Amsterdam: LOT. Oettinger, Norbert. 1978. Die Gliederung des anatolischen Sprachgebietes.<i> Zeitschrift</i> <i>für vergleichende Sprachwissenschaft</i> 92. 74–92. Oettinger, Norbert. 2014. Die Indo-Hittite-Hypothese aus heutiger Sicht.<i> Münchener</i> <i>Studien zur Sprachwissenschaft</i> 67. 149–76. Payne, Annick. 2010.<i> Hieroglyphic Luwian: An introduction with original texts</i>. 2nd rev. ed. Wiesbaden: Harrassowitz. Payne, Annick & Jorit Wintjes. 2016.<i> Lords of Asia Minor: An introduction to the</i> <i>Lydians</i>. Wiesbaden: Harrassowitz. Pérez Orozco, Santiago. 2007. La lengua sidética, Ensayo de síntesis.<i> Kadmos</i> 46. 125–42. Puhvel, Jaan. 1994. West-Indo-European affinities of Anatolian. In George E. Dunkel et al. (eds.),<i> Früh-, Mittel-, Spätindogermanisch</i>, 315–24. Wiesbaden: Reichert. Rieken, Elisabeth. 2005. Neues zum Ursprung der anatolischen<i> i-</i>Mutation.<i> Historische</i> <i>Sprachforschung</i> 118. 48–74. Rieken, Elisabeth. 2009. Der Archaismus des Hethitischen: Eine Bestandsaufnahme. <i>Incontri Linguistici</i> 32. 37–52.
+
+<!-- page: 82; pdf-page: 100 -->
+
+Rieken, Elisabeth. 2017. The dialectology of Anatolian. In Jared S. Klein, Brian D. Joseph & Matthias Fritz (eds.),<i> Handbook of comparative and historical Indo-</i> <i>European linguistics</i>. Vol. 1, 298–308. Berlin: De Gruyter Mouton. Sasseville, David. 2017. The Lydian nominal paradigm of<i> i-</i>mutation.<i> Indo-European</i> <i>Linguistics</i> 5. 130–46. Shevoroshkin, V. V. 2013. Milijskij jazyk [The Milyan language]. In Y. B. Koryakov & A. A. Kibrik (eds.),<i> Jazyki mira: Reliktovye indoevropejskie jazyki Perednej</i> <i>i Central’noj Azii [Languages of the world: Relict Indo-European languages of</i> <i>Western and Central Asia]</i>, 154–66. Moscow: Academia. Starke, Frank. 1985.<i> Die keilschrift-luwischen Texte in Umschrift</i>. Wiesbaden: Harrassowitz. Starke, Frank. 1990.<i> Untersuchungen zur Stammbildung des keilschrift-luwischen</i> <i>Nomens</i>. Wiesbaden: Harrassowitz. Yakubovich, Ilya. 2010.<i> Sociolinguistics of the Luvian language</i>. Leiden: Brill. Yakubovich, Ilya. 2015. The Luwian language. In<i> Oxford handbooks online</i>. doi:10.1093/oxfordhb/9780199935345.013.18. Yoshida, Kazuhiko. 1991. Anatolian verbal endings: The third person plural preterite. <i>Journal of Indo-European Studies</i> 19. 359–74. Yoshida, Kazuhiko. 1993. Notes on the prehistory of the preterite verbal endings in Anatolian.<i> Historische Sprachforschung</i> 106. 26–35.

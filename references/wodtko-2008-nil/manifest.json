@@ -1,0 +1,65 @@
+{
+  "source_file": "wodtko-2008-nil.pdf",
+  "source_type": "mixed",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "wodtko-2008-nil-preliminaries.md",
+    "wodtko-2008-nil-bibliography.md",
+    "wodtko-2008-nil-letter-b.md",
+    "wodtko-2008-nil-letter-d.md",
+    "wodtko-2008-nil-letter-g.md",
+    "wodtko-2008-nil-letter-h.md",
+    "wodtko-2008-nil-letter-j.md",
+    "wodtko-2008-nil-letter-k.md",
+    "wodtko-2008-nil-letter-l.md",
+    "wodtko-2008-nil-letter-m.md",
+    "wodtko-2008-nil-letter-n.md",
+    "wodtko-2008-nil-letter-p.md",
+    "wodtko-2008-nil-letter-r.md",
+    "wodtko-2008-nil-letter-s.md",
+    "wodtko-2008-nil-letter-t.md",
+    "wodtko-2008-nil-letter-u-v-w.md",
+    "wodtko-2008-nil-index.md",
+    "wodtko-2008-nil-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "wodtko-2008-nil-p1-plate1.png",
+      "source_label": "cover plate / Umschlagbild",
+      "page": 1,
+      "caption": "Fragment einer karischen Inschrift aus Saqqāra (cover image; rasterized full cover page)"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "not applied; damaged source OCR flagged in report",
+    "paragraph_rejoins": "conservative line-level cleanup only; count unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 76,
+      "h2": 846,
+      "h3": 164
+    },
+    "macron_a": 6471,
+    "macron_e": 0,
+    "macron_i": 0,
+    "macron_o": 0,
+    "macron_u": 0,
+    "schwa": 0,
+    "greek_chars": 0,
+    "combining_diacritics": 0,
+    "dagger": 0
+  },
+  "unresolved_count": 7,
+  "notes": "Scanned page-image PDF with OCR/text layer. Best-effort extraction; technical notation requires source-image verification before citation-critical use."
+}

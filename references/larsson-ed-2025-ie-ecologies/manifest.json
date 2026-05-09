@@ -1,0 +1,154 @@
+{
+  "source_file": "larssen-ed-2025-ie-ecologies.epub",
+  "source_type": "epub",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "larssen-ed-2025-ie-ecologies-frontmatter.md",
+    "larssen-ed-2025-ie-ecologies-ch1.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch1.md",
+    "larssen-ed-2025-ie-ecologies-ch2.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch2.md",
+    "larssen-ed-2025-ie-ecologies-ch3.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch3.md",
+    "larssen-ed-2025-ie-ecologies-ch4.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch4.md",
+    "larssen-ed-2025-ie-ecologies-ch5.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch5.md",
+    "larssen-ed-2025-ie-ecologies-ch6.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch6.md",
+    "larssen-ed-2025-ie-ecologies-ch7.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch7.md",
+    "larssen-ed-2025-ie-ecologies-ch8.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch8.md",
+    "larssen-ed-2025-ie-ecologies-ch9.md",
+    "larssen-ed-2025-ie-ecologies-bibliography-ch9.md",
+    "larssen-ed-2025-ie-ecologies-biographies.md",
+    "larssen-ed-2025-ie-ecologies-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig2-1.jpg",
+      "source_label": "Chapter 2 Figure 1",
+      "page": 39,
+      "caption": "Figure 1 . IE conceptions of HUMAN LIFE and the CENTRE–PERIPHERY spatial schema. Graphics: Riccardo Ginevra © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig2-2.jpg",
+      "source_label": "Chapter 2 Figure 2",
+      "page": 43,
+      "caption": "Figure 2 . IE conceptions of human ecology and CENTRE–PERIPHERY spatial schema. Graphics: Riccardo Ginevra © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig4-1.jpg",
+      "source_label": "Chapter 4 Figure 1",
+      "page": 81,
+      "caption": "Figure 1 . Heracles and Geryon. Depiction on a Chalcidian amphora produced in Calabria (c. 530 BCE ), Cabinet des Médailles, Paris (De Ridder.202) with painted inscription: ATHENAIE, GARUWONES, HERAKLES. Photo: Serge Oboukhoff / BnF-CNRS-MSH Mondes © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig4-2.jpg",
+      "source_label": "Chapter 4 Figure 2",
+      "page": 82,
+      "caption": "Figure 2 . Depiction on the golden bowl of Hasanlu (detail), north-west Iran (late 2nd millennium BCE ). Image 96557, courtesy of the Penn Museum © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig4-3.jpg",
+      "source_label": "Chapter 4 Figure 3",
+      "page": 97,
+      "caption": "Figure 3 . Snakes and tricephalic monster with an axe and a tethered horned animal. Eighteenth-century rendering of a depiction of the fifth-century CE lesser horn (B) from Gallehus. Photo: Malene Thyssen. From: Wikimedia Commons. License: CC-PD."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig5-1.jpg",
+      "source_label": "Chapter 5 Figure 1",
+      "page": 103,
+      "caption": "Figure 1 . The Churning of the Ocean. From: Wikimedia Commons. License: CC-PD."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig5-2.jpg",
+      "source_label": "Chapter 5 Figure 2",
+      "page": 107,
+      "caption": "Figure 2 . Churning butter. From: WebExhibits. License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig6-1.jpg",
+      "source_label": "Chapter 6 Figure 1",
+      "page": 136,
+      "caption": "Figure 1 . Fertile fields covered by snow. Håga Valley in Uppsala, Sweden, 6 January 2022. Photo: Terje Oestigaard © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig6-2.jpg",
+      "source_label": "Chapter 6 Figure 2",
+      "page": 140,
+      "caption": "Figure 2 . Frey and wild-boar. By Jacques Reich (1852–1923). From: Guerber 1909: 118. License: CC-PD."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig6-3.jpg",
+      "source_label": "Chapter 6 Figure 3",
+      "page": 142,
+      "caption": "Figure 3 . The sacrifice of Domalde in Old Uppsala. By Erik Werenskiold (1855–1938). From: Snorri 2011 [1899]. License: CC-PD."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig6-4.jpg",
+      "source_label": "Chapter 6 Figure 4",
+      "page": 144,
+      "caption": "Figure 4 . Terrestrial and celestial forces at work in agrarian cosmologies. Graphics: Terje Oestigaard © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig6-5.jpg",
+      "source_label": "Chapter 6 Figure 5",
+      "page": 145,
+      "caption": "Figure 5 . Growth forces living and manifesting themselves beneath the snow in early spring. Photo: Terje Oestigaard © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig6-6.jpg",
+      "source_label": "Chapter 6 Figure 6",
+      "page": 146,
+      "caption": "Figure 6 . The never-freezing Ingbokällarna, Sweden. Photo: Terje Oestigaard © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig6-7.jpg",
+      "source_label": "Chapter 6 Figure 7",
+      "page": 152,
+      "caption": "Figure 7 . The Håga mound covered in snow, 6 January 2022. Photo: Terje Oestigaard © License: CC BY-NC."
+    },
+    {
+      "filename": "larssen-ed-2025-ie-ecologies-fig6-8.jpg",
+      "source_label": "Chapter 6 Figure 8",
+      "page": 154,
+      "caption": "Figure 8 . Fertile fields in the Håga Valley, Uppsala. Photo: Terje Oestigaard © License: CC BY-NC."
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "not applied beyond source XHTML character decoding",
+    "laryngeal_normalization": "applied to class-based subscript spans where detected; otherwise source characters preserved",
+    "paragraph_rejoins": "not applicable to EPUB text layer; source paragraph structure preserved"
+  },
+  "markers_inserted": {
+    "unclear": 1,
+    "inferred_char": 2,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0,
+    "private_use_glyphs_substituted": 65,
+    "private_use_glyphs_unresolved": 1
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 85,
+      "h2": 37,
+      "h3": 7
+    },
+    "macron_a": 381,
+    "macron_e": 30,
+    "macron_i": 102,
+    "macron_o": 95,
+    "macron_u": 64,
+    "schwa": 30,
+    "greek_chars": 2414,
+    "combining_diacritics": 301,
+    "dagger": 1
+  },
+  "unresolved_count": 1,
+  "notes": "EPUB XHTML text layer used directly. Per-chapter references split out. No source index present."
+}

@@ -1,0 +1,43 @@
+{
+  "source_file": "leschber-2012-latin-tree-names.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-08",
+  "output_files": [
+    "leschber-2012-latin-tree-names.md",
+    "leschber-2012-latin-tree-names-bibliography.md",
+    "leschber-2012-latin-tree-names-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "none detected",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 1,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 1,
+      "h2": 1,
+      "h3": 0,
+      "h_sub_a": 2
+    },
+    "macron_a": 6,
+    "macron_e": 4,
+    "macron_i": 9,
+    "macron_o": 6,
+    "macron_u": 3,
+    "schwa": 0,
+    "greek_chars": 116,
+    "combining_diacritics": 1,
+    "dagger": 0
+  },
+  "unresolved_count": 1,
+  "notes": "Journal article treated as single-file extraction with bibliography split into a separate Markdown file. PDF has a machine-readable text layer; page 10 is blank. No figures, maps, plates, or image-only tables were detected. One private-use glyph in the text layer was visually checked and represented as l̥[?] in *h₁l̥[?]-mo-?."
+}

@@ -1,0 +1,48 @@
+{
+  "source_file": "eska-2018-laryngeal-realism.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-08",
+  "output_files": [
+    "eska-2018-laryngeal-realism.md",
+    "eska-2018-laryngeal-realism-bibliography.md",
+    "eska-2018-laryngeal-realism-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "applied; count not separately tracked",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "applied; count unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 0,
+    "macron_e": 0,
+    "macron_i": 0,
+    "macron_o": 0,
+    "macron_u": 0,
+    "schwa": 1,
+    "greek_chars": 7,
+    "combining_diacritics": 12,
+    "dagger": 0,
+    "superscript_h": 48,
+    "superscript_w": 34,
+    "script_g": 29,
+    "phi_latin": 20,
+    "turned_epsilon": 1,
+    "angle_brackets": 20
+  },
+  "unresolved_count": 6,
+  "notes": "Born-digital PDF extraction with manual repair of damaged accent/superscript text-layer output. A later visual character-fidelity pass is recommended before treating the Markdown as character-authoritative."
+}

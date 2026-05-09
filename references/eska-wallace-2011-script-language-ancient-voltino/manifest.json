@@ -1,0 +1,51 @@
+{
+  "source_file": "eska-2011-script-language-ancient-voltino.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-08",
+  "output_files": [
+    "eska-wallace-2011-script-language-ancient-voltino.md",
+    "eska-wallace-2011-script-language-ancient-voltino-bibliography.md",
+    "eska-wallace-2011-script-language-ancient-voltino-extraction-report.md",
+    "manifest.json",
+    "images/eska-wallace-2011-fig1.png"
+  ],
+  "images": [
+    {
+      "filename": "images/eska-wallace-2011-fig1.png",
+      "source_label": "(1)",
+      "page": 93,
+      "caption": ""
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 5,
+      "h2": 5,
+      "h3": 4
+    },
+    "macron_a": 9,
+    "macron_e": 2,
+    "macron_i": 9,
+    "macron_o": 0,
+    "macron_u": 2,
+    "schwa": 0,
+    "greek_chars": 26,
+    "combining_diacritics": 16,
+    "dagger": 0,
+    "private_use_area_glyphs": 159
+  },
+  "unresolved_count": 4,
+  "notes": "PUA epigraphic glyphs retained from PDF text layer; some allograph/viz. glyphs were unrecoverable from the text layer. Article front matter before p. 93 omitted from corpus text."
+}

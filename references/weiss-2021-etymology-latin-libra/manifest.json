@@ -1,0 +1,43 @@
+{
+  "source_file": "weiss-2021-etymology-latin-libra.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "weiss-2021-etymology-latin-libra.md",
+    "weiss-2021-etymology-latin-libra-bibliography.md",
+    "weiss-2021-etymology-latin-libra-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown",
+    "glyph_encoding_repairs": "micro sign to Greek mu in Greek words"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 3,
+      "h2": 14,
+      "h3": 1
+    },
+    "macron_a": 24,
+    "macron_e": 9,
+    "macron_i": 45,
+    "macron_o": 6,
+    "macron_u": 2,
+    "schwa": 0,
+    "greek_chars": 629,
+    "combining_diacritics": 23,
+    "dagger": 0
+  },
+  "unresolved_count": 4,
+  "notes": "Born-digital PDF extraction. No semantic images extracted. Footnotes consolidated; abbreviations and references separated into bibliography file."
+}

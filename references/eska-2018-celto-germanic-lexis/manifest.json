@@ -1,0 +1,49 @@
+{
+  "source_file": "eska-2018-celto-germanic-lexis.pdf",
+  "source_type": "scanned",
+  "extraction_date": "2026-05-08",
+  "output_files": [
+    "eska-2018-celto-germanic-lexis.md",
+    "eska-2018-celto-germanic-lexis-bibliography.md",
+    "eska-2018-celto-germanic-lexis-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "images/eska-2018-celto-germanic-lexis-fig1.png",
+      "source_label": "Figure 1",
+      "page": 29,
+      "caption": "Indo-European family tree (after Labov 2007:345)"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 4,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 4,
+      "h2": 3,
+      "h3": 2
+    },
+    "macron_a": 19,
+    "macron_e": 17,
+    "macron_i": 41,
+    "macron_o": 13,
+    "macron_u": 10,
+    "schwa": 0,
+    "greek_chars": 20,
+    "combining_diacritics": 1,
+    "dagger": 0
+  },
+  "unresolved_count": 7,
+  "notes": "First-pass scanned-PDF extraction. Dense sound-law tables and several lexical forms need targeted second-pass verification before character-authoritative use."
+}

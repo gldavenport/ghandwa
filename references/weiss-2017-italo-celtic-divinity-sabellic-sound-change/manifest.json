@@ -1,0 +1,44 @@
+{
+  "source_file": "weiss-2017-italo-celtic-divinity-sabellic-sound-change.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "weiss-2017-italo-celtic-divinity-sabellic-sound-change.md",
+    "weiss-2017-italo-celtic-divinity-sabellic-sound-change-bibliography.md",
+    "weiss-2017-italo-celtic-divinity-sabellic-sound-change-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "laryngeals": {
+      "h1": 8,
+      "h2": 4,
+      "h3": 0
+    },
+    "macron_a": 13,
+    "macron_e": 44,
+    "macron_i": 14,
+    "macron_o": 61,
+    "macron_u": 12,
+    "schwa": 0,
+    "greek_chars": 167,
+    "combining_diacritics": 43,
+    "dagger": 2,
+    "superscript_h": 38,
+    "superscript_w": 2,
+    "note": "All counts are approximate and for cross-pass comparison only."
+  },
+  "unresolved_count": 4,
+  "notes": "Born-digital journal article extracted to single main Markdown file with separate bibliography. No source index. No source figures detected."
+}

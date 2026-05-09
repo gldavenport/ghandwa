@@ -1,0 +1,175 @@
+{
+  "source_file": "walkden-2014-syntactic-reconstruction-proto-germanic.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "walkden-2014-front-matter.md",
+    "walkden-2014-ch1.md",
+    "walkden-2014-ch2.md",
+    "walkden-2014-ch3.md",
+    "walkden-2014-ch4.md",
+    "walkden-2014-ch5-sec5-1.md",
+    "walkden-2014-ch5-sec5-2.md",
+    "walkden-2014-ch5-sec5-3.md",
+    "walkden-2014-ch5-sec5-4.md",
+    "walkden-2014-ch6.md",
+    "walkden-2014-bibliography.md",
+    "walkden-2014-index.md",
+    "walkden-2014-back-series.md",
+    "README.md",
+    "walkden-2014-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "walkden-2014-fig1-1.png",
+      "source_label": "Figure 1.1",
+      "page": 9,
+      "caption": "The Germanic family tree"
+    },
+    {
+      "filename": "walkden-2014-fig2-1.png",
+      "source_label": "Figure 2.1",
+      "page": 32,
+      "caption": "The Z-model of Andersen (1973: 767)"
+    },
+    {
+      "filename": "walkden-2014-fig3-1.png",
+      "source_label": "Figure 3.1",
+      "page": 75,
+      "caption": "Percentage of V1, V2, V3, and V-later main clauses in ON pre-1300"
+    },
+    {
+      "filename": "walkden-2014-fig3-2.png",
+      "source_label": "Figure 3.2",
+      "page": 82,
+      "caption": "Percentage of V1/V2 vs. V-later main vs. subordinate clauses in the Heliand"
+    },
+    {
+      "filename": "walkden-2014-fig4-1.png",
+      "source_label": "Figure 4.1",
+      "page": 127,
+      "caption": "Percentage of V1/V2 vs. V-later huat-clauses vs. non-huat clauses in the Heliand"
+    },
+    {
+      "filename": "walkden-2014-fig4-2.png",
+      "source_label": "Figure 4.2",
+      "page": 129,
+      "caption": "Percentage of V1/V2 vs. V-later hwæt-clauses vs. non-hwæt clauses in the OE Bede"
+    },
+    {
+      "filename": "walkden-2014-fig4-3.png",
+      "source_label": "Figure 4.3",
+      "page": 131,
+      "caption": "Percentage of V1/V2 vs. V-later hwæt-clauses vs. non-hwæt clauses in Ælfric’s Lives of Saints"
+    },
+    {
+      "filename": "walkden-2014-fig5-1.png",
+      "source_label": "Figure 5.1",
+      "page": 161,
+      "caption": "Referential pronominal subjects in the Gothic Gospel of Matthew, by clause type"
+    },
+    {
+      "filename": "walkden-2014-fig5-2.png",
+      "source_label": "Figure 5.2",
+      "page": 162,
+      "caption": "Referential pronominal subjects in the Gothic Gospel of Matthew, by person and number"
+    },
+    {
+      "filename": "walkden-2014-fig5-3.png",
+      "source_label": "Figure 5.3",
+      "page": 167,
+      "caption": "Referential pronominal subjects in Old Icelandic ﬁnite clauses in IcePaHC 0.9.1, by text"
+    },
+    {
+      "filename": "walkden-2014-fig5-4.png",
+      "source_label": "Figure 5.4",
+      "page": 169,
+      "caption": "Referential pronominal subjects in ﬁnite clauses in the First Grammatical Treatise, by person and number"
+    },
+    {
+      "filename": "walkden-2014-fig5-5.png",
+      "source_label": "Figure 5.5",
+      "page": 170,
+      "caption": "Referential pronominal subjects in ﬁnite clauses in the Morkinskinna, by person and number"
+    },
+    {
+      "filename": "walkden-2014-fig5-6.png",
+      "source_label": "Figure 5.6",
+      "page": 177,
+      "caption": "Referential null subjects in OE ﬁnite indicative clauses in the YCOE and YCOEP, by text"
+    },
+    {
+      "filename": "walkden-2014-fig5-7.png",
+      "source_label": "Figure 5.7",
+      "page": 180,
+      "caption": "Referential null subjects in ﬁnite indicative clauses in the Lindisfarne Gospels and Rushworth Glosses, by person and number"
+    },
+    {
+      "filename": "walkden-2014-fig5-8.png",
+      "source_label": "Figure 5.8",
+      "page": 182,
+      "caption": "Referential null subjects in ﬁnite indicative clauses in Beowulf, Bald’s Leechbook, Bede, and MS E of the Chronicle, by person and number"
+    },
+    {
+      "filename": "walkden-2014-fig5-9.png",
+      "source_label": "Figure 5.9",
+      "page": 186,
+      "caption": "Referential null subjects in OHG ﬁnite clauses, by text and clause type"
+    },
+    {
+      "filename": "walkden-2014-fig5-10.png",
+      "source_label": "Figure 5.10",
+      "page": 189,
+      "caption": "Referential null subjects in main clauses in OHG, by person and number"
+    },
+    {
+      "filename": "walkden-2014-fig5-11.png",
+      "source_label": "Figure 5.11",
+      "page": 191,
+      "caption": "Referential pronominal subjects in the OS Heliand, by clause type"
+    },
+    {
+      "filename": "walkden-2014-fig5-12.png",
+      "source_label": "Figure 5.12",
+      "page": 194,
+      "caption": "Referential pronominal subjects in the OS Heliand, by person and number"
+    },
+    {
+      "filename": "walkden-2014-fig5-13.png",
+      "source_label": "Figure 5.13",
+      "page": 224,
+      "caption": "Frankish dominance and the main clause constraint in Romance"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "987 approximate",
+    "laryngeal_normalization": "not applicable; PGmc superscript-w normalization applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 2,
+    "macron_e": 60,
+    "macron_i": 25,
+    "macron_o": 14,
+    "macron_u": 13,
+    "schwa": 1,
+    "greek_chars": 324,
+    "combining_diacritics": 0,
+    "dagger": 0
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital text-layer extraction with contextual custom-glyph repairs; tables are mostly preformatted rather than rebuilt as Markdown tables."
+}

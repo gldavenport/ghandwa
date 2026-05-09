@@ -1,0 +1,71 @@
+{
+  "source_file": "matasovic-2009-proto-celtic.pdf",
+  "source_type": "mixed",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "matasovic-2009-proto-celtic-front-matter.md",
+    "matasovic-2009-proto-celtic-introduction.md",
+    "matasovic-2009-proto-celtic-appendix-non-indo-european-elements.md",
+    "matasovic-2009-proto-celtic-bibliography.md",
+    "matasovic-2009-proto-celtic-letter-a.md",
+    "matasovic-2009-proto-celtic-letter-b.md",
+    "matasovic-2009-proto-celtic-letter-d.md",
+    "matasovic-2009-proto-celtic-letter-i.md",
+    "matasovic-2009-proto-celtic-letter-e.md",
+    "matasovic-2009-proto-celtic-letter-f.md",
+    "matasovic-2009-proto-celtic-letter-g.md",
+    "matasovic-2009-proto-celtic-letter-k.md",
+    "matasovic-2009-proto-celtic-letter-l.md",
+    "matasovic-2009-proto-celtic-letter-m.md",
+    "matasovic-2009-proto-celtic-letter-n.md",
+    "matasovic-2009-proto-celtic-letter-o.md",
+    "matasovic-2009-proto-celtic-letter-r.md",
+    "matasovic-2009-proto-celtic-letter-s.md",
+    "matasovic-2009-proto-celtic-letter-t.md",
+    "matasovic-2009-proto-celtic-letter-u.md",
+    "matasovic-2009-proto-celtic-letter-w.md",
+    "matasovic-2009-proto-celtic-letter-x.md",
+    "matasovic-2009-proto-celtic-letter-y.md",
+    "matasovic-2009-proto-celtic-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "images/matasovic-2009-proto-celtic-fig1-1-1-2.png",
+      "source_label": "Fig. 1.1 / Fig. 1.2",
+      "page": 21,
+      "caption": "Celtic sub-classification diagrams"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "limited/unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 1,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 213,
+      "h2": 512,
+      "h3": 183
+    },
+    "macron_a": 0,
+    "macron_e": 0,
+    "macron_i": 0,
+    "macron_o": 0,
+    "macron_u": 0,
+    "schwa": 0,
+    "greek_chars": 0,
+    "combining_diacritics": 0,
+    "dagger": 0
+  },
+  "unresolved_count": "unknown; see extraction report",
+  "notes": "First-pass OCR-text-layer extraction. Character-authoritative audit is still warranted for lexical forms, macrons, superscripts, and bibliography diacritics."
+}

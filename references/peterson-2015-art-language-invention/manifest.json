@@ -1,0 +1,6150 @@
+{
+  "source_file": "peterson-2015-art-language-invention.epub",
+  "source_type": "epub",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "peterson-2015-art-language-invention-front-matter.md",
+    "peterson-2015-art-language-invention-introduction.md",
+    "peterson-2015-art-language-invention-ch1-sounds.md",
+    "peterson-2015-art-language-invention-ch2-words.md",
+    "peterson-2015-art-language-invention-ch3-evolution.md",
+    "peterson-2015-art-language-invention-ch4-written-word.md",
+    "peterson-2015-art-language-invention-postscript.md",
+    "peterson-2015-art-language-invention-acknowledgments.md",
+    "peterson-2015-art-language-invention-dothraki-phrase-book.md",
+    "peterson-2015-art-language-invention-high-valyrian-phrase-book.md",
+    "peterson-2015-art-language-invention-shivaisith-phrase-book.md",
+    "peterson-2015-art-language-invention-castithan-phrase-book.md",
+    "peterson-2015-art-language-invention-irathient-phrase-book.md",
+    "peterson-2015-art-language-invention-indojisnen-phrase-book.md",
+    "peterson-2015-art-language-invention-kamakawi-phrase-book.md",
+    "peterson-2015-art-language-invention-vaeyne-zaanics-phrase-book.md",
+    "peterson-2015-art-language-invention-glossary.md",
+    "peterson-2015-art-language-invention-back-ad.md",
+    "peterson-2015-art-language-invention-index.md",
+    "peterson-2015-art-language-invention-image-glyph-inventory.tsv",
+    "peterson-2015-art-language-invention-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "peterson-2015-art-language-invention-img-0001-cover.jpg",
+      "source_label": "OEBPS/image/cover.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "h100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0002-title.jpg",
+      "source_label": "OEBPS/image/title.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "h100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0003-116842.jpg",
+      "source_label": "OEBPS/image/116842.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0004-116840.jpg",
+      "source_label": "OEBPS/image/116840.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0005-116838.jpg",
+      "source_label": "OEBPS/image/116838.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0006-116836.jpg",
+      "source_label": "OEBPS/image/116836.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0007-116834.jpg",
+      "source_label": "OEBPS/image/116834.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0008-116832.jpg",
+      "source_label": "OEBPS/image/116832.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0009-116830.jpg",
+      "source_label": "OEBPS/image/116830.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0010-116828.jpg",
+      "source_label": "OEBPS/image/116828.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0011-116826.jpg",
+      "source_label": "OEBPS/image/116826.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0012-116824.jpg",
+      "source_label": "OEBPS/image/116824.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0013-116821.jpg",
+      "source_label": "OEBPS/image/116821.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0014-116819.jpg",
+      "source_label": "OEBPS/image/116819.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0015-116817.jpg",
+      "source_label": "OEBPS/image/116817.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0016-116814.jpg",
+      "source_label": "OEBPS/image/116814.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0017-116812.jpg",
+      "source_label": "OEBPS/image/116812.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0018-116810.jpg",
+      "source_label": "OEBPS/image/116810.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0019-116808.jpg",
+      "source_label": "OEBPS/image/116808.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0020-116806.jpg",
+      "source_label": "OEBPS/image/116806.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0021-116804.jpg",
+      "source_label": "OEBPS/image/116804.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0022-116802.jpg",
+      "source_label": "OEBPS/image/116802.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0023-116800.jpg",
+      "source_label": "OEBPS/image/116800.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0024-116798.jpg",
+      "source_label": "OEBPS/image/116798.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0025-116796.jpg",
+      "source_label": "OEBPS/image/116796.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0026-116794.jpg",
+      "source_label": "OEBPS/image/116794.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0027-116792.jpg",
+      "source_label": "OEBPS/image/116792.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0028-116790.jpg",
+      "source_label": "OEBPS/image/116790.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0029-116787.jpg",
+      "source_label": "OEBPS/image/116787.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0030-116785.jpg",
+      "source_label": "OEBPS/image/116785.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0031-116783.jpg",
+      "source_label": "OEBPS/image/116783.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0032-116781.jpg",
+      "source_label": "OEBPS/image/116781.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0033-116779.jpg",
+      "source_label": "OEBPS/image/116779.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0034-116777.jpg",
+      "source_label": "OEBPS/image/116777.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0035-116775.jpg",
+      "source_label": "OEBPS/image/116775.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0036-116773.jpg",
+      "source_label": "OEBPS/image/116773.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0037-116771.jpg",
+      "source_label": "OEBPS/image/116771.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0038-116768.jpg",
+      "source_label": "OEBPS/image/116768.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0039-116765.jpg",
+      "source_label": "OEBPS/image/116765.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0040-116763.jpg",
+      "source_label": "OEBPS/image/116763.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0041-116761.jpg",
+      "source_label": "OEBPS/image/116761.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0042-116759.jpg",
+      "source_label": "OEBPS/image/116759.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0043-116757.jpg",
+      "source_label": "OEBPS/image/116757.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0044-116755.jpg",
+      "source_label": "OEBPS/image/116755.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0045-116753.jpg",
+      "source_label": "OEBPS/image/116753.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0046-116751.jpg",
+      "source_label": "OEBPS/image/116751.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0047-116749.jpg",
+      "source_label": "OEBPS/image/116749.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0048-116747.jpg",
+      "source_label": "OEBPS/image/116747.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0049-image68954.jpg",
+      "source_label": "OEBPS/image/Image68954.jpg",
+      "page": 22,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0050-image68962.jpg",
+      "source_label": "OEBPS/image/Image68962.jpg",
+      "page": 22,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0051-115295.jpg",
+      "source_label": "OEBPS/image/115295.jpg",
+      "page": 22,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0052-image68971.jpg",
+      "source_label": "OEBPS/image/Image68971.jpg",
+      "page": 23,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0053-115299.jpg",
+      "source_label": "OEBPS/image/115299.jpg",
+      "page": 27,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0054-121677.jpg",
+      "source_label": "OEBPS/image/121677.jpg",
+      "page": 27,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0055-hindi-teak.jpg",
+      "source_label": "OEBPS/image/hindi_teak.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0056-115301.jpg",
+      "source_label": "OEBPS/image/115301.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0057-hindi-okay.jpg",
+      "source_label": "OEBPS/image/hindi_okay.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0058-115304.jpg",
+      "source_label": "OEBPS/image/115304.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0059-115306.jpg",
+      "source_label": "OEBPS/image/115306.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0060-115310.jpg",
+      "source_label": "OEBPS/image/115310.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0061-115312.jpg",
+      "source_label": "OEBPS/image/115312.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0062-115314.jpg",
+      "source_label": "OEBPS/image/115314.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0063-116275.jpg",
+      "source_label": "OEBPS/image/116275.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0064-118058.jpg",
+      "source_label": "OEBPS/image/118058.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0065-115316.jpg",
+      "source_label": "OEBPS/image/115316.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0066-115318.jpg",
+      "source_label": "OEBPS/image/115318.jpg",
+      "page": 28,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0067-115320.jpg",
+      "source_label": "OEBPS/image/115320.jpg",
+      "page": 29,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0068-115322.jpg",
+      "source_label": "OEBPS/image/115322.jpg",
+      "page": 29,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0069-image42769.jpg",
+      "source_label": "OEBPS/image/Image42769.jpg",
+      "page": 29,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0070-table-33.jpg",
+      "source_label": "OEBPS/image/table_33.jpg",
+      "page": 32,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0071-table-34.jpg",
+      "source_label": "OEBPS/image/table_34.jpg",
+      "page": 34,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0072-115324.jpg",
+      "source_label": "OEBPS/image/115324.jpg",
+      "page": 34,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0073-115328.jpg",
+      "source_label": "OEBPS/image/115328.jpg",
+      "page": 35,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0074-115332.jpg",
+      "source_label": "OEBPS/image/115332.jpg",
+      "page": 35,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0075-115334.jpg",
+      "source_label": "OEBPS/image/115334.jpg",
+      "page": 35,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0076-table-35.jpg",
+      "source_label": "OEBPS/image/table_35.jpg",
+      "page": 35,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0077-115336.jpg",
+      "source_label": "OEBPS/image/115336.jpg",
+      "page": 35,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0078-115338.jpg",
+      "source_label": "OEBPS/image/115338.jpg",
+      "page": 35,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0079-115340.jpg",
+      "source_label": "OEBPS/image/115340.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0080-115342.jpg",
+      "source_label": "OEBPS/image/115342.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0081-115344.jpg",
+      "source_label": "OEBPS/image/115344.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0082-115346.jpg",
+      "source_label": "OEBPS/image/115346.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0083-115349.jpg",
+      "source_label": "OEBPS/image/115349.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0084-table-36.jpg",
+      "source_label": "OEBPS/image/table_36.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0085-115351.jpg",
+      "source_label": "OEBPS/image/115351.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0086-table-36-2.jpg",
+      "source_label": "OEBPS/image/table_36_2.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0087-115353.jpg",
+      "source_label": "OEBPS/image/115353.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0088-115355.jpg",
+      "source_label": "OEBPS/image/115355.jpg",
+      "page": 36,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0089-115357.jpg",
+      "source_label": "OEBPS/image/115357.jpg",
+      "page": 37,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0090-115359.jpg",
+      "source_label": "OEBPS/image/115359.jpg",
+      "page": 37,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0091-table-37.jpg",
+      "source_label": "OEBPS/image/table_37.jpg",
+      "page": 37,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0092-table-37-2.jpg",
+      "source_label": "OEBPS/image/table_37_2.jpg",
+      "page": 37,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0093-table-38.jpg",
+      "source_label": "OEBPS/image/table_38.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0094-115361.jpg",
+      "source_label": "OEBPS/image/115361.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0095-115365.jpg",
+      "source_label": "OEBPS/image/115365.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0096-115373.jpg",
+      "source_label": "OEBPS/image/115373.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0097-115375.jpg",
+      "source_label": "OEBPS/image/115375.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0098-115378.jpg",
+      "source_label": "OEBPS/image/115378.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0099-115380.jpg",
+      "source_label": "OEBPS/image/115380.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0100-115382.jpg",
+      "source_label": "OEBPS/image/115382.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0101-115384.jpg",
+      "source_label": "OEBPS/image/115384.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0102-115386.jpg",
+      "source_label": "OEBPS/image/115386.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0103-115388.jpg",
+      "source_label": "OEBPS/image/115388.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0104-115392.jpg",
+      "source_label": "OEBPS/image/115392.jpg",
+      "page": 38,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0105-115394.jpg",
+      "source_label": "OEBPS/image/115394.jpg",
+      "page": 39,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0106-115396.jpg",
+      "source_label": "OEBPS/image/115396.jpg",
+      "page": 39,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0107-115398.jpg",
+      "source_label": "OEBPS/image/115398.jpg",
+      "page": 39,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0108-116277.jpg",
+      "source_label": "OEBPS/image/116277.jpg",
+      "page": 39,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0109-116279.jpg",
+      "source_label": "OEBPS/image/116279.jpg",
+      "page": 39,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0110-115401.jpg",
+      "source_label": "OEBPS/image/115401.jpg",
+      "page": 39,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0111-image43464.jpg",
+      "source_label": "OEBPS/image/Image43464.jpg",
+      "page": 41,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0112-115403.jpg",
+      "source_label": "OEBPS/image/115403.jpg",
+      "page": 41,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0113-115405.jpg",
+      "source_label": "OEBPS/image/115405.jpg",
+      "page": 41,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0114-115407.jpg",
+      "source_label": "OEBPS/image/115407.jpg",
+      "page": 41,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0115-115409.jpg",
+      "source_label": "OEBPS/image/115409.jpg",
+      "page": 41,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0116-115411.jpg",
+      "source_label": "OEBPS/image/115411.jpg",
+      "page": 41,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0117-115413.jpg",
+      "source_label": "OEBPS/image/115413.jpg",
+      "page": 42,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0118-115415.jpg",
+      "source_label": "OEBPS/image/115415.jpg",
+      "page": 42,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0119-115417.jpg",
+      "source_label": "OEBPS/image/115417.jpg",
+      "page": 42,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0120-115419.jpg",
+      "source_label": "OEBPS/image/115419.jpg",
+      "page": 42,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0121-table-43.jpg",
+      "source_label": "OEBPS/image/table_43.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0122-115421.jpg",
+      "source_label": "OEBPS/image/115421.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0123-115424.jpg",
+      "source_label": "OEBPS/image/115424.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0124-115426.jpg",
+      "source_label": "OEBPS/image/115426.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0125-115428.jpg",
+      "source_label": "OEBPS/image/115428.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0126-115430.jpg",
+      "source_label": "OEBPS/image/115430.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0127-115432.jpg",
+      "source_label": "OEBPS/image/115432.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0128-115434.jpg",
+      "source_label": "OEBPS/image/115434.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0129-115436.jpg",
+      "source_label": "OEBPS/image/115436.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0130-115438.jpg",
+      "source_label": "OEBPS/image/115438.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0131-115443.jpg",
+      "source_label": "OEBPS/image/115443.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0132-115445.jpg",
+      "source_label": "OEBPS/image/115445.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0133-115448.jpg",
+      "source_label": "OEBPS/image/115448.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0134-115450.jpg",
+      "source_label": "OEBPS/image/115450.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0135-115452.jpg",
+      "source_label": "OEBPS/image/115452.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0136-115454.jpg",
+      "source_label": "OEBPS/image/115454.jpg",
+      "page": 43,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0137-115458.jpg",
+      "source_label": "OEBPS/image/115458.jpg",
+      "page": 44,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0138-115460.jpg",
+      "source_label": "OEBPS/image/115460.jpg",
+      "page": 44,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0139-115462.jpg",
+      "source_label": "OEBPS/image/115462.jpg",
+      "page": 44,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0140-115466.jpg",
+      "source_label": "OEBPS/image/115466.jpg",
+      "page": 44,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0141-115468.jpg",
+      "source_label": "OEBPS/image/115468.jpg",
+      "page": 45,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0142-115470.jpg",
+      "source_label": "OEBPS/image/115470.jpg",
+      "page": 45,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0143-115473.jpg",
+      "source_label": "OEBPS/image/115473.jpg",
+      "page": 45,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0144-115475.jpg",
+      "source_label": "OEBPS/image/115475.jpg",
+      "page": 45,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0145-115477.jpg",
+      "source_label": "OEBPS/image/115477.jpg",
+      "page": 46,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0146-table-47.jpg",
+      "source_label": "OEBPS/image/table_47.jpg",
+      "page": 46,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0147-115479.jpg",
+      "source_label": "OEBPS/image/115479.jpg",
+      "page": 47,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0148-115481.jpg",
+      "source_label": "OEBPS/image/115481.jpg",
+      "page": 47,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0149-table-47-2.jpg",
+      "source_label": "OEBPS/image/table_47_2.jpg",
+      "page": 47,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0150-115483.jpg",
+      "source_label": "OEBPS/image/115483.jpg",
+      "page": 47,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0151-hindi-bard.jpg",
+      "source_label": "OEBPS/image/hindi_bard.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0152-115490.jpg",
+      "source_label": "OEBPS/image/115490.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0153-hindi-washerman.jpg",
+      "source_label": "OEBPS/image/hindi_washerman.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0154-115492.jpg",
+      "source_label": "OEBPS/image/115492.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0155-hindi-shield.jpg",
+      "source_label": "OEBPS/image/hindi_shield.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0156-115494.jpg",
+      "source_label": "OEBPS/image/115494.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0157-hindi-chime.jpg",
+      "source_label": "OEBPS/image/hindi_chime.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0158-115496.jpg",
+      "source_label": "OEBPS/image/115496.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0159-hindi-hour.jpg",
+      "source_label": "OEBPS/image/hindi_hour.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0160-115498.jpg",
+      "source_label": "OEBPS/image/115498.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0161-115500.jpg",
+      "source_label": "OEBPS/image/115500.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0162-115502.jpg",
+      "source_label": "OEBPS/image/115502.jpg",
+      "page": 49,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0163-121708.jpg",
+      "source_label": "OEBPS/image/121708.jpg",
+      "page": 50,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0164-116281.jpg",
+      "source_label": "OEBPS/image/116281.jpg",
+      "page": 50,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0165-115504.jpg",
+      "source_label": "OEBPS/image/115504.jpg",
+      "page": 50,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0166-115506.jpg",
+      "source_label": "OEBPS/image/115506.jpg",
+      "page": 50,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0167-115508.jpg",
+      "source_label": "OEBPS/image/115508.jpg",
+      "page": 51,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0168-115510.jpg",
+      "source_label": "OEBPS/image/115510.jpg",
+      "page": 51,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0169-115512.jpg",
+      "source_label": "OEBPS/image/115512.jpg",
+      "page": 52,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0170-115514.jpg",
+      "source_label": "OEBPS/image/115514.jpg",
+      "page": 52,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0171-115516.jpg",
+      "source_label": "OEBPS/image/115516.jpg",
+      "page": 52,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0172-115519.jpg",
+      "source_label": "OEBPS/image/115519.jpg",
+      "page": 52,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0173-115521.jpg",
+      "source_label": "OEBPS/image/115521.jpg",
+      "page": 52,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0174-115525.jpg",
+      "source_label": "OEBPS/image/115525.jpg",
+      "page": 53,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0175-115527.jpg",
+      "source_label": "OEBPS/image/115527.jpg",
+      "page": 53,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0176-115529.jpg",
+      "source_label": "OEBPS/image/115529.jpg",
+      "page": 53,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0177-115533.jpg",
+      "source_label": "OEBPS/image/115533.jpg",
+      "page": 53,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0178-115535.jpg",
+      "source_label": "OEBPS/image/115535.jpg",
+      "page": 53,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0179-115538.jpg",
+      "source_label": "OEBPS/image/115538.jpg",
+      "page": 53,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0180-image70131.jpg",
+      "source_label": "OEBPS/image/Image70131.jpg",
+      "page": 53,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0181-115540.jpg",
+      "source_label": "OEBPS/image/115540.jpg",
+      "page": 54,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0182-115542.jpg",
+      "source_label": "OEBPS/image/115542.jpg",
+      "page": 54,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0183-115545.jpg",
+      "source_label": "OEBPS/image/115545.jpg",
+      "page": 54,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0184-115547.jpg",
+      "source_label": "OEBPS/image/115547.jpg",
+      "page": 54,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0185-115549.jpg",
+      "source_label": "OEBPS/image/115549.jpg",
+      "page": 54,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0186-115551.jpg",
+      "source_label": "OEBPS/image/115551.jpg",
+      "page": 55,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0187-115553.jpg",
+      "source_label": "OEBPS/image/115553.jpg",
+      "page": 55,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0188-115555.jpg",
+      "source_label": "OEBPS/image/115555.jpg",
+      "page": 55,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0189-115557.jpg",
+      "source_label": "OEBPS/image/115557.jpg",
+      "page": 55,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0190-115561.jpg",
+      "source_label": "OEBPS/image/115561.jpg",
+      "page": 56,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0191-115563.jpg",
+      "source_label": "OEBPS/image/115563.jpg",
+      "page": 56,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0192-115565.jpg",
+      "source_label": "OEBPS/image/115565.jpg",
+      "page": 56,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0193-115567.jpg",
+      "source_label": "OEBPS/image/115567.jpg",
+      "page": 56,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0194-115569.jpg",
+      "source_label": "OEBPS/image/115569.jpg",
+      "page": 56,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0195-image70139.jpg",
+      "source_label": "OEBPS/image/Image70139.jpg",
+      "page": 56,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0196-115571.jpg",
+      "source_label": "OEBPS/image/115571.jpg",
+      "page": 56,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0197-115573.jpg",
+      "source_label": "OEBPS/image/115573.jpg",
+      "page": 56,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0198-115575.jpg",
+      "source_label": "OEBPS/image/115575.jpg",
+      "page": 57,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0199-115577.jpg",
+      "source_label": "OEBPS/image/115577.jpg",
+      "page": 57,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0200-115579.jpg",
+      "source_label": "OEBPS/image/115579.jpg",
+      "page": 57,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0201-115582.jpg",
+      "source_label": "OEBPS/image/115582.jpg",
+      "page": 57,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0202-115584.jpg",
+      "source_label": "OEBPS/image/115584.jpg",
+      "page": 57,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0203-115591.jpg",
+      "source_label": "OEBPS/image/115591.jpg",
+      "page": 57,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0204-115593.jpg",
+      "source_label": "OEBPS/image/115593.jpg",
+      "page": 59,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0205-116284.jpg",
+      "source_label": "OEBPS/image/116284.jpg",
+      "page": 59,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0206-116286.jpg",
+      "source_label": "OEBPS/image/116286.jpg",
+      "page": 59,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0207-115595.jpg",
+      "source_label": "OEBPS/image/115595.jpg",
+      "page": 59,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0208-116287.jpg",
+      "source_label": "OEBPS/image/116287.jpg",
+      "page": 59,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0209-115597.jpg",
+      "source_label": "OEBPS/image/115597.jpg",
+      "page": 60,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0210-image44267.jpg",
+      "source_label": "OEBPS/image/Image44267.jpg",
+      "page": 64,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0211-image44302.jpg",
+      "source_label": "OEBPS/image/Image44302.jpg",
+      "page": 64,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0212-image44312.jpg",
+      "source_label": "OEBPS/image/Image44312.jpg",
+      "page": 64,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0213-image44319.jpg",
+      "source_label": "OEBPS/image/Image44319.jpg",
+      "page": 64,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0214-115621.jpg",
+      "source_label": "OEBPS/image/115621.jpg",
+      "page": 66,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0215-115624.jpg",
+      "source_label": "OEBPS/image/115624.jpg",
+      "page": 66,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0216-115626.jpg",
+      "source_label": "OEBPS/image/115626.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0217-115628.jpg",
+      "source_label": "OEBPS/image/115628.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0218-115630.jpg",
+      "source_label": "OEBPS/image/115630.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0219-115632.jpg",
+      "source_label": "OEBPS/image/115632.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0220-115634.jpg",
+      "source_label": "OEBPS/image/115634.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0221-115636.jpg",
+      "source_label": "OEBPS/image/115636.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0222-115638.jpg",
+      "source_label": "OEBPS/image/115638.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0223-115640.jpg",
+      "source_label": "OEBPS/image/115640.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0224-115642.jpg",
+      "source_label": "OEBPS/image/115642.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0225-115644.jpg",
+      "source_label": "OEBPS/image/115644.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0226-115646.jpg",
+      "source_label": "OEBPS/image/115646.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0227-115648.jpg",
+      "source_label": "OEBPS/image/115648.jpg",
+      "page": 67,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0228-115655.jpg",
+      "source_label": "OEBPS/image/115655.jpg",
+      "page": 68,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0229-115657.jpg",
+      "source_label": "OEBPS/image/115657.jpg",
+      "page": 68,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0230-115659.jpg",
+      "source_label": "OEBPS/image/115659.jpg",
+      "page": 68,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0231-table-69.jpg",
+      "source_label": "OEBPS/image/table_69.jpg",
+      "page": 69,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0232-115661.jpg",
+      "source_label": "OEBPS/image/115661.jpg",
+      "page": 69,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0233-115663.jpg",
+      "source_label": "OEBPS/image/115663.jpg",
+      "page": 69,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0234-115665.jpg",
+      "source_label": "OEBPS/image/115665.jpg",
+      "page": 69,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0235-115667.jpg",
+      "source_label": "OEBPS/image/115667.jpg",
+      "page": 69,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0236-115669.jpg",
+      "source_label": "OEBPS/image/115669.jpg",
+      "page": 70,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0237-115671.jpg",
+      "source_label": "OEBPS/image/115671.jpg",
+      "page": 70,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0238-115673.jpg",
+      "source_label": "OEBPS/image/115673.jpg",
+      "page": 70,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0239-115675.jpg",
+      "source_label": "OEBPS/image/115675.jpg",
+      "page": 70,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0240-115677.jpg",
+      "source_label": "OEBPS/image/115677.jpg",
+      "page": 70,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0241-115679.jpg",
+      "source_label": "OEBPS/image/115679.jpg",
+      "page": 70,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0242-115681.jpg",
+      "source_label": "OEBPS/image/115681.jpg",
+      "page": 70,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0243-table-71.jpg",
+      "source_label": "OEBPS/image/table_71.jpg",
+      "page": 71,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0244-table-71-2.jpg",
+      "source_label": "OEBPS/image/table_71_2.jpg",
+      "page": 71,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0245-115683.jpg",
+      "source_label": "OEBPS/image/115683.jpg",
+      "page": 71,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0246-table-72.jpg",
+      "source_label": "OEBPS/image/table_72.jpg",
+      "page": 71,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0247-118962.jpg",
+      "source_label": "OEBPS/image/118962.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0248-115687.jpg",
+      "source_label": "OEBPS/image/115687.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0249-119870.jpg",
+      "source_label": "OEBPS/image/119870.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0250-115689.jpg",
+      "source_label": "OEBPS/image/115689.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0251-119872.jpg",
+      "source_label": "OEBPS/image/119872.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0252-ma.jpg",
+      "source_label": "OEBPS/image/ma.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0253-115691.jpg",
+      "source_label": "OEBPS/image/115691.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0254-119874.jpg",
+      "source_label": "OEBPS/image/119874.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0255-115693.jpg",
+      "source_label": "OEBPS/image/115693.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0256-115695.jpg",
+      "source_label": "OEBPS/image/115695.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0257-115697.jpg",
+      "source_label": "OEBPS/image/115697.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0258-115699.jpg",
+      "source_label": "OEBPS/image/115699.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0259-115701.jpg",
+      "source_label": "OEBPS/image/115701.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0260-115703.jpg",
+      "source_label": "OEBPS/image/115703.jpg",
+      "page": 73,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0261-115705.jpg",
+      "source_label": "OEBPS/image/115705.jpg",
+      "page": 74,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0262-115707.jpg",
+      "source_label": "OEBPS/image/115707.jpg",
+      "page": 74,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0263-115710.jpg",
+      "source_label": "OEBPS/image/115710.jpg",
+      "page": 74,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0264-115737.jpg",
+      "source_label": "OEBPS/image/115737.jpg",
+      "page": 74,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0265-115739.jpg",
+      "source_label": "OEBPS/image/115739.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0266-115741.jpg",
+      "source_label": "OEBPS/image/115741.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0267-115743.jpg",
+      "source_label": "OEBPS/image/115743.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0268-115745.jpg",
+      "source_label": "OEBPS/image/115745.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0269-115747.jpg",
+      "source_label": "OEBPS/image/115747.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0270-115749.jpg",
+      "source_label": "OEBPS/image/115749.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0271-118964.jpg",
+      "source_label": "OEBPS/image/118964.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0272-ni.jpg",
+      "source_label": "OEBPS/image/ni.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0273-118966.jpg",
+      "source_label": "OEBPS/image/118966.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0274-hao.jpg",
+      "source_label": "OEBPS/image/hao.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0275-115751.jpg",
+      "source_label": "OEBPS/image/115751.jpg",
+      "page": 75,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0276-115753.jpg",
+      "source_label": "OEBPS/image/115753.jpg",
+      "page": 76,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0277-115755.jpg",
+      "source_label": "OEBPS/image/115755.jpg",
+      "page": 76,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0278-115758.jpg",
+      "source_label": "OEBPS/image/115758.jpg",
+      "page": 76,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0279-116290.jpg",
+      "source_label": "OEBPS/image/116290.jpg",
+      "page": 76,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0280-115760.jpg",
+      "source_label": "OEBPS/image/115760.jpg",
+      "page": 76,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0281-115762.jpg",
+      "source_label": "OEBPS/image/115762.jpg",
+      "page": 76,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0282-115764.jpg",
+      "source_label": "OEBPS/image/115764.jpg",
+      "page": 77,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0283-115766.jpg",
+      "source_label": "OEBPS/image/115766.jpg",
+      "page": 77,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0284-115768.jpg",
+      "source_label": "OEBPS/image/115768.jpg",
+      "page": 77,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0285-115774.jpg",
+      "source_label": "OEBPS/image/115774.jpg",
+      "page": 77,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0286-115776.jpg",
+      "source_label": "OEBPS/image/115776.jpg",
+      "page": 77,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0287-115778.jpg",
+      "source_label": "OEBPS/image/115778.jpg",
+      "page": 77,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0288-115780.jpg",
+      "source_label": "OEBPS/image/115780.jpg",
+      "page": 77,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0289-115783.jpg",
+      "source_label": "OEBPS/image/115783.jpg",
+      "page": 78,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0290-115785.jpg",
+      "source_label": "OEBPS/image/115785.jpg",
+      "page": 78,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0291-image71178.jpg",
+      "source_label": "OEBPS/image/Image71178.jpg",
+      "page": 78,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0292-115789.jpg",
+      "source_label": "OEBPS/image/115789.jpg",
+      "page": 78,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0293-image71188.jpg",
+      "source_label": "OEBPS/image/Image71188.jpg",
+      "page": 78,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0294-115791.jpg",
+      "source_label": "OEBPS/image/115791.jpg",
+      "page": 78,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0295-image71582.jpg",
+      "source_label": "OEBPS/image/Image71582.jpg",
+      "page": 83,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0296-image71590.jpg",
+      "source_label": "OEBPS/image/Image71590.jpg",
+      "page": 85,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0297-image71598.jpg",
+      "source_label": "OEBPS/image/Image71598.jpg",
+      "page": 86,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0298-table-89.jpg",
+      "source_label": "OEBPS/image/table_89.jpg",
+      "page": 89,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0299-115793.jpg",
+      "source_label": "OEBPS/image/115793.jpg",
+      "page": 90,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0300-115795.jpg",
+      "source_label": "OEBPS/image/115795.jpg",
+      "page": 91,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0301-115797.jpg",
+      "source_label": "OEBPS/image/115797.jpg",
+      "page": 91,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0302-115799.jpg",
+      "source_label": "OEBPS/image/115799.jpg",
+      "page": 91,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0303-115805.jpg",
+      "source_label": "OEBPS/image/115805.jpg",
+      "page": 91,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0304-115807.jpg",
+      "source_label": "OEBPS/image/115807.jpg",
+      "page": 91,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0305-table-92.jpg",
+      "source_label": "OEBPS/image/table_92.jpg",
+      "page": 92,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0306-table-92-2.jpg",
+      "source_label": "OEBPS/image/table_92_2.jpg",
+      "page": 92,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0307-115809.jpg",
+      "source_label": "OEBPS/image/115809.jpg",
+      "page": 92,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0308-115811.jpg",
+      "source_label": "OEBPS/image/115811.jpg",
+      "page": 92,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0309-115813.jpg",
+      "source_label": "OEBPS/image/115813.jpg",
+      "page": 92,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0310-115815.jpg",
+      "source_label": "OEBPS/image/115815.jpg",
+      "page": 92,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0311-115818.jpg",
+      "source_label": "OEBPS/image/115818.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0312-115820.jpg",
+      "source_label": "OEBPS/image/115820.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0313-115822.jpg",
+      "source_label": "OEBPS/image/115822.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0314-115824.jpg",
+      "source_label": "OEBPS/image/115824.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0315-115826.jpg",
+      "source_label": "OEBPS/image/115826.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0316-115829.jpg",
+      "source_label": "OEBPS/image/115829.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0317-115831.jpg",
+      "source_label": "OEBPS/image/115831.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0318-115833.jpg",
+      "source_label": "OEBPS/image/115833.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0319-115835.jpg",
+      "source_label": "OEBPS/image/115835.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0320-115838.jpg",
+      "source_label": "OEBPS/image/115838.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0321-table-94.jpg",
+      "source_label": "OEBPS/image/table_94.jpg",
+      "page": 93,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0322-115840.jpg",
+      "source_label": "OEBPS/image/115840.jpg",
+      "page": 94,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0323-115842.jpg",
+      "source_label": "OEBPS/image/115842.jpg",
+      "page": 102,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0324-table-102.jpg",
+      "source_label": "OEBPS/image/table_102.jpg",
+      "page": 102,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0325-115844.jpg",
+      "source_label": "OEBPS/image/115844.jpg",
+      "page": 103,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0326-115846.jpg",
+      "source_label": "OEBPS/image/115846.jpg",
+      "page": 103,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0327-115848.jpg",
+      "source_label": "OEBPS/image/115848.jpg",
+      "page": 103,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0328-115850.jpg",
+      "source_label": "OEBPS/image/115850.jpg",
+      "page": 104,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0329-115856.jpg",
+      "source_label": "OEBPS/image/115856.jpg",
+      "page": 104,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0330-115858.jpg",
+      "source_label": "OEBPS/image/115858.jpg",
+      "page": 106,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0331-115860.jpg",
+      "source_label": "OEBPS/image/115860.jpg",
+      "page": 106,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0332-115862.jpg",
+      "source_label": "OEBPS/image/115862.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0333-115864.jpg",
+      "source_label": "OEBPS/image/115864.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0334-115866.jpg",
+      "source_label": "OEBPS/image/115866.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0335-115868.jpg",
+      "source_label": "OEBPS/image/115868.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0336-davidy.jpg",
+      "source_label": "OEBPS/image/davidy.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0337-115870.jpg",
+      "source_label": "OEBPS/image/115870.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0338-115872.jpg",
+      "source_label": "OEBPS/image/115872.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0339-115874.jpg",
+      "source_label": "OEBPS/image/115874.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0340-table-108.jpg",
+      "source_label": "OEBPS/image/table_108.jpg",
+      "page": 108,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0341-121915.jpg",
+      "source_label": "OEBPS/image/121915.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0342-121917.jpg",
+      "source_label": "OEBPS/image/121917.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0343-wo.jpg",
+      "source_label": "OEBPS/image/wo.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0344-121919.jpg",
+      "source_label": "OEBPS/image/121919.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0345-121921.jpg",
+      "source_label": "OEBPS/image/121921.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0346-115876.jpg",
+      "source_label": "OEBPS/image/115876.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0347-women.jpg",
+      "source_label": "OEBPS/image/women.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0348-115878.jpg",
+      "source_label": "OEBPS/image/115878.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0349-nimen.jpg",
+      "source_label": "OEBPS/image/nimen.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0350-115880.jpg",
+      "source_label": "OEBPS/image/115880.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0351-image72465.jpg",
+      "source_label": "OEBPS/image/Image72465.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0352-115883.jpg",
+      "source_label": "OEBPS/image/115883.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0353-image72475.jpg",
+      "source_label": "OEBPS/image/Image72475.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0354-115885.jpg",
+      "source_label": "OEBPS/image/115885.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0355-image72489.jpg",
+      "source_label": "OEBPS/image/Image72489.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0356-115891.jpg",
+      "source_label": "OEBPS/image/115891.jpg",
+      "page": 109,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0357-image72498.jpg",
+      "source_label": "OEBPS/image/Image72498.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0358-115893.jpg",
+      "source_label": "OEBPS/image/115893.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0359-image72511.jpg",
+      "source_label": "OEBPS/image/Image72511.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0360-115895.jpg",
+      "source_label": "OEBPS/image/115895.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0361-image72525.jpg",
+      "source_label": "OEBPS/image/Image72525.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0362-115897.jpg",
+      "source_label": "OEBPS/image/115897.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0363-image72538.jpg",
+      "source_label": "OEBPS/image/Image72538.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0364-115899.jpg",
+      "source_label": "OEBPS/image/115899.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0365-115901.jpg",
+      "source_label": "OEBPS/image/115901.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0366-115903.jpg",
+      "source_label": "OEBPS/image/115903.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0367-115905.jpg",
+      "source_label": "OEBPS/image/115905.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0368-115907.jpg",
+      "source_label": "OEBPS/image/115907.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0369-115909.jpg",
+      "source_label": "OEBPS/image/115909.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0370-115914.jpg",
+      "source_label": "OEBPS/image/115914.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0371-image72553.jpg",
+      "source_label": "OEBPS/image/Image72553.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0372-115916.jpg",
+      "source_label": "OEBPS/image/115916.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0373-image72563.jpg",
+      "source_label": "OEBPS/image/Image72563.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0374-115918.jpg",
+      "source_label": "OEBPS/image/115918.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0375-115920.jpg",
+      "source_label": "OEBPS/image/115920.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0376-115923.jpg",
+      "source_label": "OEBPS/image/115923.jpg",
+      "page": 110,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0377-table-111.jpg",
+      "source_label": "OEBPS/image/table_111.jpg",
+      "page": 111,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0378-table-112.jpg",
+      "source_label": "OEBPS/image/table_112.jpg",
+      "page": 111,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0379-table-112-2.jpg",
+      "source_label": "OEBPS/image/table_112_2.jpg",
+      "page": 112,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0380-table-112-3.jpg",
+      "source_label": "OEBPS/image/table_112_3.jpg",
+      "page": 112,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0381-115925.jpg",
+      "source_label": "OEBPS/image/115925.jpg",
+      "page": 113,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0382-115927.jpg",
+      "source_label": "OEBPS/image/115927.jpg",
+      "page": 113,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0383-115929.jpg",
+      "source_label": "OEBPS/image/115929.jpg",
+      "page": 113,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0384-table-117.jpg",
+      "source_label": "OEBPS/image/table_117.jpg",
+      "page": 116,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0385-table-117-2.jpg",
+      "source_label": "OEBPS/image/table_117_2.jpg",
+      "page": 117,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0386-table-117-3.jpg",
+      "source_label": "OEBPS/image/table_117_3.jpg",
+      "page": 117,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0387-115931.jpg",
+      "source_label": "OEBPS/image/115931.jpg",
+      "page": 119,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0388-115935.jpg",
+      "source_label": "OEBPS/image/115935.jpg",
+      "page": 119,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0389-115937.jpg",
+      "source_label": "OEBPS/image/115937.jpg",
+      "page": 119,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0390-table-121.jpg",
+      "source_label": "OEBPS/image/table_121.jpg",
+      "page": 121,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0391-115939.jpg",
+      "source_label": "OEBPS/image/115939.jpg",
+      "page": 121,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0392-115941.jpg",
+      "source_label": "OEBPS/image/115941.jpg",
+      "page": 121,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0393-table-122.jpg",
+      "source_label": "OEBPS/image/table_122.jpg",
+      "page": 122,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0394-table-123.jpg",
+      "source_label": "OEBPS/image/table_123.jpg",
+      "page": 122,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0395-hindi-man-saw-laborer.jpg",
+      "source_label": "OEBPS/image/hindi_man_saw_laborer.jpg",
+      "page": 123,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0396-115943.jpg",
+      "source_label": "OEBPS/image/115943.jpg",
+      "page": 123,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0397-hindi-laborer-saw-man.jpg",
+      "source_label": "OEBPS/image/hindi_laborer_saw_man.jpg",
+      "page": 123,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0398-115945.jpg",
+      "source_label": "OEBPS/image/115945.jpg",
+      "page": 123,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0399-115947.jpg",
+      "source_label": "OEBPS/image/115947.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0400-115949.jpg",
+      "source_label": "OEBPS/image/115949.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0401-115951.jpg",
+      "source_label": "OEBPS/image/115951.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0402-115953.jpg",
+      "source_label": "OEBPS/image/115953.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0403-115956.jpg",
+      "source_label": "OEBPS/image/115956.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0404-115958.jpg",
+      "source_label": "OEBPS/image/115958.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0405-115961.jpg",
+      "source_label": "OEBPS/image/115961.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0406-115963.jpg",
+      "source_label": "OEBPS/image/115963.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0407-115965.jpg",
+      "source_label": "OEBPS/image/115965.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0408-115967.jpg",
+      "source_label": "OEBPS/image/115967.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0409-115969.jpg",
+      "source_label": "OEBPS/image/115969.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0410-table-125.jpg",
+      "source_label": "OEBPS/image/table_125.jpg",
+      "page": 124,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0411-table-126.jpg",
+      "source_label": "OEBPS/image/table_126.jpg",
+      "page": 126,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0412-art-377-aoli.jpg",
+      "source_label": "OEBPS/image/Art_377_AOLI.jpg",
+      "page": 126,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0413-art-378-aoli.jpg",
+      "source_label": "OEBPS/image/Art_378_AOLI.jpg",
+      "page": 126,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0414-table-127.jpg",
+      "source_label": "OEBPS/image/table_127.jpg",
+      "page": 127,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0415-table-127-2.jpg",
+      "source_label": "OEBPS/image/table_127_2.jpg",
+      "page": 127,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0416-image73369.jpg",
+      "source_label": "OEBPS/image/Image73369.jpg",
+      "page": 127,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0417-image73382.jpg",
+      "source_label": "OEBPS/image/Image73382.jpg",
+      "page": 127,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0418-image73396.jpg",
+      "source_label": "OEBPS/image/Image73396.jpg",
+      "page": 128,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0419-115971.jpg",
+      "source_label": "OEBPS/image/115971.jpg",
+      "page": 128,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0420-image73411.jpg",
+      "source_label": "OEBPS/image/Image73411.jpg",
+      "page": 128,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0421-115973.jpg",
+      "source_label": "OEBPS/image/115973.jpg",
+      "page": 128,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0422-art-379-aoli.jpg",
+      "source_label": "OEBPS/image/Art_379_AOLI.jpg",
+      "page": 128,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0423-115975.jpg",
+      "source_label": "OEBPS/image/115975.jpg",
+      "page": 128,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0424-art-380-aoli.jpg",
+      "source_label": "OEBPS/image/Art_380_AOLI.jpg",
+      "page": 128,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0425-115977.jpg",
+      "source_label": "OEBPS/image/115977.jpg",
+      "page": 128,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0426-art-381-aoli.jpg",
+      "source_label": "OEBPS/image/Art_381_AOLI.jpg",
+      "page": 129,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0427-115981.jpg",
+      "source_label": "OEBPS/image/115981.jpg",
+      "page": 129,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0428-image73431.jpg",
+      "source_label": "OEBPS/image/Image73431.jpg",
+      "page": 129,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0429-115983.jpg",
+      "source_label": "OEBPS/image/115983.jpg",
+      "page": 129,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0430-table-129.jpg",
+      "source_label": "OEBPS/image/table_129.jpg",
+      "page": 129,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0431-image73526.jpg",
+      "source_label": "OEBPS/image/Image73526.jpg",
+      "page": 130,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0432-115985.jpg",
+      "source_label": "OEBPS/image/115985.jpg",
+      "page": 130,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0433-art-382-aoli.jpg",
+      "source_label": "OEBPS/image/Art_382_AOLI.jpg",
+      "page": 130,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0434-115987.jpg",
+      "source_label": "OEBPS/image/115987.jpg",
+      "page": 130,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0435-115989.jpg",
+      "source_label": "OEBPS/image/115989.jpg",
+      "page": 131,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0436-115991.jpg",
+      "source_label": "OEBPS/image/115991.jpg",
+      "page": 131,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0437-art-383-aoli.jpg",
+      "source_label": "OEBPS/image/Art_383_AOLI.jpg",
+      "page": 131,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0438-115993.jpg",
+      "source_label": "OEBPS/image/115993.jpg",
+      "page": 131,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0439-art-384-aoli.jpg",
+      "source_label": "OEBPS/image/Art_384_AOLI.jpg",
+      "page": 131,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0440-115995.jpg",
+      "source_label": "OEBPS/image/115995.jpg",
+      "page": 131,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0441-art-385-aoli.jpg",
+      "source_label": "OEBPS/image/Art_385_AOLI.jpg",
+      "page": 132,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0442-115997.jpg",
+      "source_label": "OEBPS/image/115997.jpg",
+      "page": 132,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0443-table-132.jpg",
+      "source_label": "OEBPS/image/table_132.jpg",
+      "page": 132,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0444-table-133.jpg",
+      "source_label": "OEBPS/image/table_133.jpg",
+      "page": 133,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0445-table-134.jpg",
+      "source_label": "OEBPS/image/table_134.jpg",
+      "page": 133,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0446-table-134-2.jpg",
+      "source_label": "OEBPS/image/table_134_2.jpg",
+      "page": 134,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0447-table-135.jpg",
+      "source_label": "OEBPS/image/table_135.jpg",
+      "page": 135,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0448-table-135-2.jpg",
+      "source_label": "OEBPS/image/table_135_2.jpg",
+      "page": 135,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0449-table-138.jpg",
+      "source_label": "OEBPS/image/table_138.jpg",
+      "page": 137,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0450-table-138-2.jpg",
+      "source_label": "OEBPS/image/table_138_2.jpg",
+      "page": 138,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0451-table-138-3.jpg",
+      "source_label": "OEBPS/image/table_138_3.jpg",
+      "page": 138,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0452-table-139.jpg",
+      "source_label": "OEBPS/image/table_139.jpg",
+      "page": 139,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0453-table-141.jpg",
+      "source_label": "OEBPS/image/table_141.jpg",
+      "page": 140,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0454-table-142.jpg",
+      "source_label": "OEBPS/image/table_142.jpg",
+      "page": 142,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0455-table-142-2.jpg",
+      "source_label": "OEBPS/image/table_142_2.jpg",
+      "page": 142,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0456-table-145.jpg",
+      "source_label": "OEBPS/image/table_145.jpg",
+      "page": 145,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0457-table-145-2.jpg",
+      "source_label": "OEBPS/image/table_145_2.jpg",
+      "page": 145,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0458-image74518.jpg",
+      "source_label": "OEBPS/image/Image74518.jpg",
+      "page": 146,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0459-image74527.jpg",
+      "source_label": "OEBPS/image/Image74527.jpg",
+      "page": 146,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0460-image74540.jpg",
+      "source_label": "OEBPS/image/Image74540.jpg",
+      "page": 146,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0461-image74554.jpg",
+      "source_label": "OEBPS/image/Image74554.jpg",
+      "page": 146,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0462-image74567.jpg",
+      "source_label": "OEBPS/image/Image74567.jpg",
+      "page": 147,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0463-image74582.jpg",
+      "source_label": "OEBPS/image/Image74582.jpg",
+      "page": 147,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0464-image74597.jpg",
+      "source_label": "OEBPS/image/Image74597.jpg",
+      "page": 147,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0465-image74610.jpg",
+      "source_label": "OEBPS/image/Image74610.jpg",
+      "page": 147,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0466-image74623.jpg",
+      "source_label": "OEBPS/image/Image74623.jpg",
+      "page": 147,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0467-image74638.jpg",
+      "source_label": "OEBPS/image/Image74638.jpg",
+      "page": 147,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0468-image74653.jpg",
+      "source_label": "OEBPS/image/Image74653.jpg",
+      "page": 147,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0469-table-148.jpg",
+      "source_label": "OEBPS/image/table_148.jpg",
+      "page": 148,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0470-table-148-2.jpg",
+      "source_label": "OEBPS/image/table_148_2.jpg",
+      "page": 148,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0471-table-150.jpg",
+      "source_label": "OEBPS/image/table_150.jpg",
+      "page": 150,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0472-image74864.jpg",
+      "source_label": "OEBPS/image/Image74864.jpg",
+      "page": 151,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0473-image74878.jpg",
+      "source_label": "OEBPS/image/Image74878.jpg",
+      "page": 151,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0474-image74891.jpg",
+      "source_label": "OEBPS/image/Image74891.jpg",
+      "page": 151,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0475-image74905.jpg",
+      "source_label": "OEBPS/image/Image74905.jpg",
+      "page": 154,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0476-116002.jpg",
+      "source_label": "OEBPS/image/116002.jpg",
+      "page": 154,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0477-116006.jpg",
+      "source_label": "OEBPS/image/116006.jpg",
+      "page": 155,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0478-116008.jpg",
+      "source_label": "OEBPS/image/116008.jpg",
+      "page": 155,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0479-table-155.jpg",
+      "source_label": "OEBPS/image/table_155.jpg",
+      "page": 155,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0480-116011.jpg",
+      "source_label": "OEBPS/image/116011.jpg",
+      "page": 155,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0481-116013.jpg",
+      "source_label": "OEBPS/image/116013.jpg",
+      "page": 156,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0482-table-156.jpg",
+      "source_label": "OEBPS/image/table_156.jpg",
+      "page": 156,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0483-table-156-2.jpg",
+      "source_label": "OEBPS/image/table_156_2.jpg",
+      "page": 156,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0484-table-157.jpg",
+      "source_label": "OEBPS/image/table_157.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0485-image75257.jpg",
+      "source_label": "OEBPS/image/Image75257.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0486-image75272.jpg",
+      "source_label": "OEBPS/image/Image75272.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0487-image75292.jpg",
+      "source_label": "OEBPS/image/Image75292.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0488-image75306.jpg",
+      "source_label": "OEBPS/image/Image75306.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0489-image75319.jpg",
+      "source_label": "OEBPS/image/Image75319.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0490-image75333.jpg",
+      "source_label": "OEBPS/image/Image75333.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0491-image75346.jpg",
+      "source_label": "OEBPS/image/Image75346.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0492-image75361.jpg",
+      "source_label": "OEBPS/image/Image75361.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0493-image75376.jpg",
+      "source_label": "OEBPS/image/Image75376.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0494-image75389.jpg",
+      "source_label": "OEBPS/image/Image75389.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0495-image75402.jpg",
+      "source_label": "OEBPS/image/Image75402.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0496-image75416.jpg",
+      "source_label": "OEBPS/image/Image75416.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0497-image75431.jpg",
+      "source_label": "OEBPS/image/Image75431.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0498-image75450.jpg",
+      "source_label": "OEBPS/image/Image75450.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0499-image75464.jpg",
+      "source_label": "OEBPS/image/Image75464.jpg",
+      "page": 157,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0500-image75477.jpg",
+      "source_label": "OEBPS/image/Image75477.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0501-image75491.jpg",
+      "source_label": "OEBPS/image/Image75491.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0502-image75504.jpg",
+      "source_label": "OEBPS/image/Image75504.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0503-image75519.jpg",
+      "source_label": "OEBPS/image/Image75519.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0504-116015.jpg",
+      "source_label": "OEBPS/image/116015.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0505-image75534.jpg",
+      "source_label": "OEBPS/image/Image75534.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0506-image75547.jpg",
+      "source_label": "OEBPS/image/Image75547.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0507-image75560.jpg",
+      "source_label": "OEBPS/image/Image75560.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0508-image75574.jpg",
+      "source_label": "OEBPS/image/Image75574.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0509-image75590.jpg",
+      "source_label": "OEBPS/image/Image75590.jpg",
+      "page": 158,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0510-116017.jpg",
+      "source_label": "OEBPS/image/116017.jpg",
+      "page": 159,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0511-116019.jpg",
+      "source_label": "OEBPS/image/116019.jpg",
+      "page": 159,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0512-116021.jpg",
+      "source_label": "OEBPS/image/116021.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0513-116023.jpg",
+      "source_label": "OEBPS/image/116023.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0514-116024.jpg",
+      "source_label": "OEBPS/image/116024.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0515-116027.jpg",
+      "source_label": "OEBPS/image/116027.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0516-116029.jpg",
+      "source_label": "OEBPS/image/116029.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0517-116031.jpg",
+      "source_label": "OEBPS/image/116031.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0518-116037.jpg",
+      "source_label": "OEBPS/image/116037.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0519-116039.jpg",
+      "source_label": "OEBPS/image/116039.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0520-116042.jpg",
+      "source_label": "OEBPS/image/116042.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0521-image75610.jpg",
+      "source_label": "OEBPS/image/Image75610.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0522-116044.jpg",
+      "source_label": "OEBPS/image/116044.jpg",
+      "page": 160,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0523-116046.jpg",
+      "source_label": "OEBPS/image/116046.jpg",
+      "page": 161,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0524-image75624.jpg",
+      "source_label": "OEBPS/image/Image75624.jpg",
+      "page": 161,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0525-116048.jpg",
+      "source_label": "OEBPS/image/116048.jpg",
+      "page": 161,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0526-116050.jpg",
+      "source_label": "OEBPS/image/116050.jpg",
+      "page": 162,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0527-116052.jpg",
+      "source_label": "OEBPS/image/116052.jpg",
+      "page": 162,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0528-image75637.jpg",
+      "source_label": "OEBPS/image/Image75637.jpg",
+      "page": 162,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0529-116054.jpg",
+      "source_label": "OEBPS/image/116054.jpg",
+      "page": 164,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0530-116056.jpg",
+      "source_label": "OEBPS/image/116056.jpg",
+      "page": 164,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0531-116058.jpg",
+      "source_label": "OEBPS/image/116058.jpg",
+      "page": 164,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0532-table-165.jpg",
+      "source_label": "OEBPS/image/table_165.jpg",
+      "page": 165,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0533-116060.jpg",
+      "source_label": "OEBPS/image/116060.jpg",
+      "page": 165,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0534-116062.jpg",
+      "source_label": "OEBPS/image/116062.jpg",
+      "page": 165,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0535-116064.jpg",
+      "source_label": "OEBPS/image/116064.jpg",
+      "page": 166,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0536-116066.jpg",
+      "source_label": "OEBPS/image/116066.jpg",
+      "page": 166,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0537-116068.jpg",
+      "source_label": "OEBPS/image/116068.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0538-116070.jpg",
+      "source_label": "OEBPS/image/116070.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0539-116074.jpg",
+      "source_label": "OEBPS/image/116074.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0540-116077.jpg",
+      "source_label": "OEBPS/image/116077.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0541-116079.jpg",
+      "source_label": "OEBPS/image/116079.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0542-116081.jpg",
+      "source_label": "OEBPS/image/116081.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0543-116083.jpg",
+      "source_label": "OEBPS/image/116083.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0544-116085.jpg",
+      "source_label": "OEBPS/image/116085.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0545-116087.jpg",
+      "source_label": "OEBPS/image/116087.jpg",
+      "page": 167,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0546-116089.jpg",
+      "source_label": "OEBPS/image/116089.jpg",
+      "page": 168,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0547-116091.jpg",
+      "source_label": "OEBPS/image/116091.jpg",
+      "page": 168,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0548-116093.jpg",
+      "source_label": "OEBPS/image/116093.jpg",
+      "page": 168,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0549-116095.jpg",
+      "source_label": "OEBPS/image/116095.jpg",
+      "page": 168,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0550-table-168.jpg",
+      "source_label": "OEBPS/image/table_168.jpg",
+      "page": 168,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0551-v.jpg",
+      "source_label": "OEBPS/image/V.jpg",
+      "page": 168,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0552-table-168-2.jpg",
+      "source_label": "OEBPS/image/table_168_2.jpg",
+      "page": 168,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0553-116097.jpg",
+      "source_label": "OEBPS/image/116097.jpg",
+      "page": 169,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0554-table-169.jpg",
+      "source_label": "OEBPS/image/table_169.jpg",
+      "page": 169,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0555-116099.jpg",
+      "source_label": "OEBPS/image/116099.jpg",
+      "page": 169,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0556-116101.jpg",
+      "source_label": "OEBPS/image/116101.jpg",
+      "page": 169,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0557-116103.jpg",
+      "source_label": "OEBPS/image/116103.jpg",
+      "page": 169,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0558-table-170.jpg",
+      "source_label": "OEBPS/image/table_170.jpg",
+      "page": 170,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0559-table-170-2.jpg",
+      "source_label": "OEBPS/image/table_170_2.jpg",
+      "page": 170,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0560-116105.jpg",
+      "source_label": "OEBPS/image/116105.jpg",
+      "page": 170,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0561-table-170-3.jpg",
+      "source_label": "OEBPS/image/table_170_3.jpg",
+      "page": 170,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0562-table-171.jpg",
+      "source_label": "OEBPS/image/table_171.jpg",
+      "page": 170,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0563-116107.jpg",
+      "source_label": "OEBPS/image/116107.jpg",
+      "page": 171,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0564-table-172.jpg",
+      "source_label": "OEBPS/image/table_172.jpg",
+      "page": 172,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0565-table-177.jpg",
+      "source_label": "OEBPS/image/table_177.jpg",
+      "page": 173,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0566-116109.jpg",
+      "source_label": "OEBPS/image/116109.jpg",
+      "page": 173,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0567-table-173-2.jpg",
+      "source_label": "OEBPS/image/table_173_2.jpg",
+      "page": 173,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0568-table-174.jpg",
+      "source_label": "OEBPS/image/table_174.jpg",
+      "page": 174,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0569-table-175.jpg",
+      "source_label": "OEBPS/image/table_175.jpg",
+      "page": 175,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0570-116111.jpg",
+      "source_label": "OEBPS/image/116111.jpg",
+      "page": 176,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0571-table-176.jpg",
+      "source_label": "OEBPS/image/table_176.jpg",
+      "page": 176,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0572-116113.jpg",
+      "source_label": "OEBPS/image/116113.jpg",
+      "page": 176,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0573-table-176-2.jpg",
+      "source_label": "OEBPS/image/table_176_2.jpg",
+      "page": 176,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0574-116120.jpg",
+      "source_label": "OEBPS/image/116120.jpg",
+      "page": 177,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0575-table-177-2.jpg",
+      "source_label": "OEBPS/image/table_177_2.jpg",
+      "page": 177,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0576-image77140.jpg",
+      "source_label": "OEBPS/image/Image77140.jpg",
+      "page": 180,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0577-image77154.jpg",
+      "source_label": "OEBPS/image/Image77154.jpg",
+      "page": 180,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0578-image77167.jpg",
+      "source_label": "OEBPS/image/Image77167.jpg",
+      "page": 181,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0579-image77182.jpg",
+      "source_label": "OEBPS/image/Image77182.jpg",
+      "page": 181,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0580-image77197.jpg",
+      "source_label": "OEBPS/image/Image77197.jpg",
+      "page": 182,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0581-image77210.jpg",
+      "source_label": "OEBPS/image/Image77210.jpg",
+      "page": 182,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0582-image77223.jpg",
+      "source_label": "OEBPS/image/Image77223.jpg",
+      "page": 182,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0583-image77237.jpg",
+      "source_label": "OEBPS/image/Image77237.jpg",
+      "page": 182,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0584-image77252.jpg",
+      "source_label": "OEBPS/image/Image77252.jpg",
+      "page": 182,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0585-image77271.jpg",
+      "source_label": "OEBPS/image/Image77271.jpg",
+      "page": 182,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0586-116123.jpg",
+      "source_label": "OEBPS/image/116123.jpg",
+      "page": 188,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0587-116125.jpg",
+      "source_label": "OEBPS/image/116125.jpg",
+      "page": 188,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0588-116127.jpg",
+      "source_label": "OEBPS/image/116127.jpg",
+      "page": 188,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0589-116129.jpg",
+      "source_label": "OEBPS/image/116129.jpg",
+      "page": 188,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0590-table-189.jpg",
+      "source_label": "OEBPS/image/table_189.jpg",
+      "page": 189,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0591-table-190.jpg",
+      "source_label": "OEBPS/image/table_190.jpg",
+      "page": 190,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0592-table-190-2pdf.jpg",
+      "source_label": "OEBPS/image/table_190_2pdf.jpg",
+      "page": 190,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0593-image77859.jpg",
+      "source_label": "OEBPS/image/Image77859.jpg",
+      "page": 191,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0594-table-191.jpg",
+      "source_label": "OEBPS/image/table_191.jpg",
+      "page": 191,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0595-table-191-2.jpg",
+      "source_label": "OEBPS/image/table_191_2.jpg",
+      "page": 191,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0596-image77952.jpg",
+      "source_label": "OEBPS/image/Image77952.jpg",
+      "page": 192,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0597-table-193.jpg",
+      "source_label": "OEBPS/image/table_193.jpg",
+      "page": 193,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0598-table-193-2.jpg",
+      "source_label": "OEBPS/image/table_193_2.jpg",
+      "page": 193,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0599-table-194.jpg",
+      "source_label": "OEBPS/image/table_194.jpg",
+      "page": 194,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0600-table-194-2.jpg",
+      "source_label": "OEBPS/image/table_194_2.jpg",
+      "page": 194,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0601-table-195.jpg",
+      "source_label": "OEBPS/image/table_195.jpg",
+      "page": 194,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0602-table-195-2.jpg",
+      "source_label": "OEBPS/image/table_195_2.jpg",
+      "page": 195,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0603-image78233.jpg",
+      "source_label": "OEBPS/image/Image78233.jpg",
+      "page": 196,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0604-image78248.jpg",
+      "source_label": "OEBPS/image/Image78248.jpg",
+      "page": 196,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0605-image78263.jpg",
+      "source_label": "OEBPS/image/Image78263.jpg",
+      "page": 196,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0606-table-196.jpg",
+      "source_label": "OEBPS/image/table_196.jpg",
+      "page": 196,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0607-table-201.jpg",
+      "source_label": "OEBPS/image/table_201.jpg",
+      "page": 200,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0608-table-203.jpg",
+      "source_label": "OEBPS/image/table_203.jpg",
+      "page": 203,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0609-table-204.jpg",
+      "source_label": "OEBPS/image/table_204.jpg",
+      "page": 204,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0610-table-204-2.jpg",
+      "source_label": "OEBPS/image/table_204_2.jpg",
+      "page": 204,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0611-table-205.jpg",
+      "source_label": "OEBPS/image/table_205.jpg",
+      "page": 205,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0612-table-205-2.jpg",
+      "source_label": "OEBPS/image/table_205_2.jpg",
+      "page": 205,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0613-116133.jpg",
+      "source_label": "OEBPS/image/116133.jpg",
+      "page": 207,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0614-116135.jpg",
+      "source_label": "OEBPS/image/116135.jpg",
+      "page": 207,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0615-image51956.jpg",
+      "source_label": "OEBPS/image/Image51956.jpg",
+      "page": 209,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0616-image51965.jpg",
+      "source_label": "OEBPS/image/Image51965.jpg",
+      "page": 209,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0617-image51976.jpg",
+      "source_label": "OEBPS/image/Image51976.jpg",
+      "page": 209,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0618-image78652.jpg",
+      "source_label": "OEBPS/image/Image78652.jpg",
+      "page": 211,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0619-116137.jpg",
+      "source_label": "OEBPS/image/116137.jpg",
+      "page": 211,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0620-116139.jpg",
+      "source_label": "OEBPS/image/116139.jpg",
+      "page": 212,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0621-116141.jpg",
+      "source_label": "OEBPS/image/116141.jpg",
+      "page": 212,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0622-image78666.jpg",
+      "source_label": "OEBPS/image/Image78666.jpg",
+      "page": 212,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0623-image78680.jpg",
+      "source_label": "OEBPS/image/Image78680.jpg",
+      "page": 213,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0624-image78693.jpg",
+      "source_label": "OEBPS/image/Image78693.jpg",
+      "page": 213,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0625-image78703.jpg",
+      "source_label": "OEBPS/image/Image78703.jpg",
+      "page": 214,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0626-116143.jpg",
+      "source_label": "OEBPS/image/116143.jpg",
+      "page": 214,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0627-116145.jpg",
+      "source_label": "OEBPS/image/116145.jpg",
+      "page": 214,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0628-116152.jpg",
+      "source_label": "OEBPS/image/116152.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0629-116154.jpg",
+      "source_label": "OEBPS/image/116154.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0630-116156.jpg",
+      "source_label": "OEBPS/image/116156.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0631-116158.jpg",
+      "source_label": "OEBPS/image/116158.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0632-116160.jpg",
+      "source_label": "OEBPS/image/116160.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0633-116162.jpg",
+      "source_label": "OEBPS/image/116162.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0634-116164.jpg",
+      "source_label": "OEBPS/image/116164.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0635-116166.jpg",
+      "source_label": "OEBPS/image/116166.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0636-116169.jpg",
+      "source_label": "OEBPS/image/116169.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0637-116171.jpg",
+      "source_label": "OEBPS/image/116171.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0638-116198.jpg",
+      "source_label": "OEBPS/image/116198.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0639-116200.jpg",
+      "source_label": "OEBPS/image/116200.jpg",
+      "page": 215,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0640-image78711.jpg",
+      "source_label": "OEBPS/image/Image78711.jpg",
+      "page": 217,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0641-table-217.jpg",
+      "source_label": "OEBPS/image/table_217.jpg",
+      "page": 217,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0642-image79051.jpg",
+      "source_label": "OEBPS/image/Image79051.jpg",
+      "page": 217,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0643-116202.jpg",
+      "source_label": "OEBPS/image/116202.jpg",
+      "page": 217,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0644-116204.jpg",
+      "source_label": "OEBPS/image/116204.jpg",
+      "page": 217,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0645-table-217-2.jpg",
+      "source_label": "OEBPS/image/table_217_2.jpg",
+      "page": 217,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0646-116206.jpg",
+      "source_label": "OEBPS/image/116206.jpg",
+      "page": 218,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0647-116208.jpg",
+      "source_label": "OEBPS/image/116208.jpg",
+      "page": 218,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0648-table-218.jpg",
+      "source_label": "OEBPS/image/table_218.jpg",
+      "page": 218,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0649-table-219.jpg",
+      "source_label": "OEBPS/image/table_219.jpg",
+      "page": 218,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0650-table-219-2.jpg",
+      "source_label": "OEBPS/image/table_219_2.jpg",
+      "page": 219,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0651-116210.jpg",
+      "source_label": "OEBPS/image/116210.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0652-table-220.jpg",
+      "source_label": "OEBPS/image/table_220.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0653-table-220-2.jpg",
+      "source_label": "OEBPS/image/table_220_2.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0654-121886.jpg",
+      "source_label": "OEBPS/image/121886.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0655-121888.jpg",
+      "source_label": "OEBPS/image/121888.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0656-121896.jpg",
+      "source_label": "OEBPS/image/121896.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0657-121894.jpg",
+      "source_label": "OEBPS/image/121894.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0658-121892.jpg",
+      "source_label": "OEBPS/image/121892.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0659-121890.jpg",
+      "source_label": "OEBPS/image/121890.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0660-121898.jpg",
+      "source_label": "OEBPS/image/121898.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0661-121901.jpg",
+      "source_label": "OEBPS/image/121901.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0662-121903.jpg",
+      "source_label": "OEBPS/image/121903.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0663-121905.jpg",
+      "source_label": "OEBPS/image/121905.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0664-121911.jpg",
+      "source_label": "OEBPS/image/121911.jpg",
+      "page": 220,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0665-118970.jpg",
+      "source_label": "OEBPS/image/118970.jpg",
+      "page": 222,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0666-116214.jpg",
+      "source_label": "OEBPS/image/116214.jpg",
+      "page": 222,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0667-118972.jpg",
+      "source_label": "OEBPS/image/118972.jpg",
+      "page": 222,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0668-116217.jpg",
+      "source_label": "OEBPS/image/116217.jpg",
+      "page": 222,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0669-table-223.jpg",
+      "source_label": "OEBPS/image/table_223.jpg",
+      "page": 222,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0670-image79625.jpg",
+      "source_label": "OEBPS/image/Image79625.jpg",
+      "page": 223,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0671-image79639.jpg",
+      "source_label": "OEBPS/image/Image79639.jpg",
+      "page": 223,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0672-image79648.jpg",
+      "source_label": "OEBPS/image/Image79648.jpg",
+      "page": 223,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0673-image79656.jpg",
+      "source_label": "OEBPS/image/Image79656.jpg",
+      "page": 223,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0674-image79665.jpg",
+      "source_label": "OEBPS/image/Image79665.jpg",
+      "page": 223,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0675-image79673.jpg",
+      "source_label": "OEBPS/image/Image79673.jpg",
+      "page": 223,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0676-image79693.jpg",
+      "source_label": "OEBPS/image/Image79693.jpg",
+      "page": 223,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0677-image79701.jpg",
+      "source_label": "OEBPS/image/Image79701.jpg",
+      "page": 223,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h2em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0678-table-224.jpg",
+      "source_label": "OEBPS/image/table_224.jpg",
+      "page": 224,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0679-table-224-2.jpg",
+      "source_label": "OEBPS/image/table_224_2.jpg",
+      "page": 224,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0680-table-224-3.jpg",
+      "source_label": "OEBPS/image/table_224_3.jpg",
+      "page": 225,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0681-table-225.jpg",
+      "source_label": "OEBPS/image/table_225.jpg",
+      "page": 225,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0682-table-225-2.jpg",
+      "source_label": "OEBPS/image/table_225_2.jpg",
+      "page": 225,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0683-table-226.jpg",
+      "source_label": "OEBPS/image/table_226.jpg",
+      "page": 226,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0684-116219.jpg",
+      "source_label": "OEBPS/image/116219.jpg",
+      "page": 226,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0685-image80098.jpg",
+      "source_label": "OEBPS/image/Image80098.jpg",
+      "page": 227,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0686-table-229.jpg",
+      "source_label": "OEBPS/image/table_229.jpg",
+      "page": 228,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0687-116221.jpg",
+      "source_label": "OEBPS/image/116221.jpg",
+      "page": 229,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0688-116223.jpg",
+      "source_label": "OEBPS/image/116223.jpg",
+      "page": 229,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0689-image80297.jpg",
+      "source_label": "OEBPS/image/Image80297.jpg",
+      "page": 230,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0690-image80305.jpg",
+      "source_label": "OEBPS/image/Image80305.jpg",
+      "page": 230,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "h4em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0691-image80314.jpg",
+      "source_label": "OEBPS/image/Image80314.jpg",
+      "page": 230,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0692-table-231.jpg",
+      "source_label": "OEBPS/image/table_231.jpg",
+      "page": 231,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0693-image80457.jpg",
+      "source_label": "OEBPS/image/Image80457.jpg",
+      "page": 232,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0694-art-201-aoli-bw.jpg",
+      "source_label": "OEBPS/image/Art_201_AOLI_bw.jpg",
+      "page": 233,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0695-n.jpg",
+      "source_label": "OEBPS/image/n.jpg",
+      "page": 234,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0696-squiggle.jpg",
+      "source_label": "OEBPS/image/squiggle.jpg",
+      "page": 234,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0697-t.jpg",
+      "source_label": "OEBPS/image/t.jpg",
+      "page": 234,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0698-stop.jpg",
+      "source_label": "OEBPS/image/stop.jpg",
+      "page": 234,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0699-hoove.jpg",
+      "source_label": "OEBPS/image/hoove.jpg",
+      "page": 234,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0700-116239.jpg",
+      "source_label": "OEBPS/image/116239.jpg",
+      "page": 235,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0701-image80521.jpg",
+      "source_label": "OEBPS/image/Image80521.jpg",
+      "page": 236,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0702-table-237.jpg",
+      "source_label": "OEBPS/image/table_237.jpg",
+      "page": 237,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0703-image80851.jpg",
+      "source_label": "OEBPS/image/Image80851.jpg",
+      "page": 237,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0704-image80860.jpg",
+      "source_label": "OEBPS/image/Image80860.jpg",
+      "page": 237,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0705-image80868.jpg",
+      "source_label": "OEBPS/image/Image80868.jpg",
+      "page": 237,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0706-image80878.jpg",
+      "source_label": "OEBPS/image/Image80878.jpg",
+      "page": 238,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0707-image80886.jpg",
+      "source_label": "OEBPS/image/Image80886.jpg",
+      "page": 239,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0708-image80896.jpg",
+      "source_label": "OEBPS/image/Image80896.jpg",
+      "page": 239,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0709-image80909.jpg",
+      "source_label": "OEBPS/image/Image80909.jpg",
+      "page": 240,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0710-image80917.jpg",
+      "source_label": "OEBPS/image/Image80917.jpg",
+      "page": 240,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0711-image80925.jpg",
+      "source_label": "OEBPS/image/Image80925.jpg",
+      "page": 241,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0712-image80934.jpg",
+      "source_label": "OEBPS/image/Image80934.jpg",
+      "page": 242,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "h4em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0713-image80944.jpg",
+      "source_label": "OEBPS/image/Image80944.jpg",
+      "page": 242,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "h4em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0714-image80962.jpg",
+      "source_label": "OEBPS/image/Image80962.jpg",
+      "page": 242,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "h4em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0715-116241.jpg",
+      "source_label": "OEBPS/image/116241.jpg",
+      "page": 243,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0716-116247.jpg",
+      "source_label": "OEBPS/image/116247.jpg",
+      "page": 243,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0717-116249.jpg",
+      "source_label": "OEBPS/image/116249.jpg",
+      "page": 243,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0718-116251.jpg",
+      "source_label": "OEBPS/image/116251.jpg",
+      "page": 244,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0719-table-245.jpg",
+      "source_label": "OEBPS/image/table_245.jpg",
+      "page": 244,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0720-table-248.jpg",
+      "source_label": "OEBPS/image/table_248.jpg",
+      "page": 248,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0721-image81437.jpg",
+      "source_label": "OEBPS/image/Image81437.jpg",
+      "page": 248,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0722-image81451.jpg",
+      "source_label": "OEBPS/image/Image81451.jpg",
+      "page": 249,
+      "caption": "",
+      "type": "figure",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0723-table-250.jpg",
+      "source_label": "OEBPS/image/table_250.jpg",
+      "page": 250,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0724-116255.jpg",
+      "source_label": "OEBPS/image/116255.jpg",
+      "page": 250,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0725-116257.jpg",
+      "source_label": "OEBPS/image/116257.jpg",
+      "page": 250,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0726-table-250-2.jpg",
+      "source_label": "OEBPS/image/table_250_2.jpg",
+      "page": 250,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0727-116259.jpg",
+      "source_label": "OEBPS/image/116259.jpg",
+      "page": 251,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0728-116263.jpg",
+      "source_label": "OEBPS/image/116263.jpg",
+      "page": 251,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0729-table-251.jpg",
+      "source_label": "OEBPS/image/table_251.jpg",
+      "page": 251,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0730-116265.jpg",
+      "source_label": "OEBPS/image/116265.jpg",
+      "page": 251,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0731-image81861.jpg",
+      "source_label": "OEBPS/image/Image81861.jpg",
+      "page": 251,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0732-116267.jpg",
+      "source_label": "OEBPS/image/116267.jpg",
+      "page": 251,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0733-table-251-2.jpg",
+      "source_label": "OEBPS/image/table_251_2.jpg",
+      "page": 251,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0734-table-251-3.jpg",
+      "source_label": "OEBPS/image/table_251_3.jpg",
+      "page": 251,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0735-table-252.jpg",
+      "source_label": "OEBPS/image/table_252.jpg",
+      "page": 252,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0736-table-252-2.jpg",
+      "source_label": "OEBPS/image/table_252_2.jpg",
+      "page": 252,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0737-table-252-3.jpg",
+      "source_label": "OEBPS/image/table_252_3.jpg",
+      "page": 252,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0738-table-253.jpg",
+      "source_label": "OEBPS/image/table_253.jpg",
+      "page": 253,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0739-table-253-2.jpg",
+      "source_label": "OEBPS/image/table_253_2.jpg",
+      "page": 253,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0740-116269.jpg",
+      "source_label": "OEBPS/image/116269.jpg",
+      "page": 254,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0741-table-254.jpg",
+      "source_label": "OEBPS/image/table_254.jpg",
+      "page": 254,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0742-116271.jpg",
+      "source_label": "OEBPS/image/116271.jpg",
+      "page": 254,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0743-116273.jpg",
+      "source_label": "OEBPS/image/116273.jpg",
+      "page": 254,
+      "caption": "",
+      "type": "image-glyph",
+      "source_classes": "h1em"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0744-table-254-2.jpg",
+      "source_label": "OEBPS/image/table_254_2.jpg",
+      "page": 254,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0745-table-255.jpg",
+      "source_label": "OEBPS/image/table_255.jpg",
+      "page": 255,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0746-table-256.jpg",
+      "source_label": "OEBPS/image/table_256.jpg",
+      "page": 255,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0747-table-257.jpg",
+      "source_label": "OEBPS/image/table_257.jpg",
+      "page": 257,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0748-table-269.jpg",
+      "source_label": "OEBPS/image/table_269.jpg",
+      "page": 269,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0749-table-270.jpg",
+      "source_label": "OEBPS/image/table_270.jpg",
+      "page": 270,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0750-table-271.jpg",
+      "source_label": "OEBPS/image/table_271.jpg",
+      "page": 271,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0751-table-272.jpg",
+      "source_label": "OEBPS/image/table_272.jpg",
+      "page": 273,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0752-table-273.jpg",
+      "source_label": "OEBPS/image/table_273.jpg",
+      "page": 273,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0753-table-274.jpg",
+      "source_label": "OEBPS/image/table_274.jpg",
+      "page": 275,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0754-table-275.jpg",
+      "source_label": "OEBPS/image/table_275.jpg",
+      "page": 275,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0755-table-276.jpg",
+      "source_label": "OEBPS/image/table_276.jpg",
+      "page": 277,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0756-table-277.jpg",
+      "source_label": "OEBPS/image/table_277.jpg",
+      "page": 277,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0757-table-278.jpg",
+      "source_label": "OEBPS/image/table_278.jpg",
+      "page": 279,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0758-table-279.jpg",
+      "source_label": "OEBPS/image/table_279.jpg",
+      "page": 279,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0759-table-280.jpg",
+      "source_label": "OEBPS/image/table_280.jpg",
+      "page": 281,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0760-table-281.jpg",
+      "source_label": "OEBPS/image/table_281.jpg",
+      "page": 281,
+      "caption": "",
+      "type": "table",
+      "source_classes": "w100"
+    },
+    {
+      "filename": "peterson-2015-art-language-invention-img-0761-globalbackad.jpg",
+      "source_label": "OEBPS/GlobalBackad.jpg",
+      "page": 0,
+      "caption": "",
+      "type": "figure",
+      "source_classes": ""
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "not applied",
+    "paragraph_rejoins": "not needed for EPUB XHTML source"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 588
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 11,
+    "macron_e": 10,
+    "macron_i": 3,
+    "macron_o": 3,
+    "macron_u": 3,
+    "schwa": 0,
+    "greek_chars": 19,
+    "combining_diacritics": 0,
+    "dagger": 0
+  },
+  "unresolved_count": 588,
+  "notes": "EPUB text layer extracted directly. Numerous inline glyph images preserved as image references rather than decoded; see image-glyph inventory."
+}

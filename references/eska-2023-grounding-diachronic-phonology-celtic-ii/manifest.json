@@ -1,0 +1,50 @@
+{
+  "source_file": "eska-2023-grounding-diachronic-phonology-celtic-ii.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-08",
+  "output_files": [
+    "eska-2023-grounding-diachronic-phonology-celtic-ii.md",
+    "eska-2023-grounding-diachronic-phonology-celtic-ii-bibliography.md",
+    "eska-2023-grounding-diachronic-phonology-celtic-ii-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "not applied; no h₁/h₂/h₃ detected",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0
+    },
+    "macron_a": 0,
+    "macron_e": 0,
+    "macron_i": 3,
+    "macron_o": 0,
+    "macron_u": 1,
+    "schwa": 9,
+    "greek_chars": 49,
+    "combining_diacritics": 18,
+    "dagger": 0,
+    "modifier_h": 115,
+    "modifier_w": 3,
+    "modifier_j": 21,
+    "theta": 48,
+    "eth": 36,
+    "lateral_fricative": 19,
+    "gamma": 3,
+    "script_g": 5
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital article extraction. Bibliography split out. No figures/images extracted."
+}

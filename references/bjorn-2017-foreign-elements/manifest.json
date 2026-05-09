@@ -1,0 +1,97 @@
+{
+  "source_file": "bjørn-2017-foreign-elements.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "bjorn-2017-foreign-elements-front-matter.md",
+    "bjorn-2017-foreign-elements-ch0.md",
+    "bjorn-2017-foreign-elements-ch1.md",
+    "bjorn-2017-foreign-elements-ch2.md",
+    "bjorn-2017-foreign-elements-ch3.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-0.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-a.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-b-bh.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-d-dh.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-g-g-gwh-etc.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-h1.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-h2.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-h3.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-i.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-k-k-kw-etc.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-l.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-m.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-n.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-o.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-p.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-r.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-s.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-t.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-u.md",
+    "bjorn-2017-foreign-elements-ch4-sec4-1-letter-w.md",
+    "bjorn-2017-foreign-elements-ch5.md",
+    "bjorn-2017-foreign-elements-ch6.md",
+    "bjorn-2017-foreign-elements-ch7.md",
+    "bjorn-2017-foreign-elements-bibliography.md",
+    "bjorn-2017-foreign-elements-index.md",
+    "bjorn-2017-foreign-elements-summaries.md",
+    "bjorn-2017-foreign-elements-appendix.md",
+    "README.md",
+    "bjorn-2017-foreign-elements-extraction-report.md"
+  ],
+  "images": [
+    {
+      "filename": "images/bjorn-2017-foreign-elements-p1-fig1.jpeg",
+      "source_label": "cover image",
+      "page": 1,
+      "caption": "Cover illustration"
+    },
+    {
+      "filename": "images/bjorn-2017-foreign-elements-map2-a.jpeg",
+      "source_label": "Map 2.A",
+      "page": 35,
+      "caption": "Map 2.A: Attestations of languages in the historic Indo-European contact sphere"
+    },
+    {
+      "filename": "images/bjorn-2017-foreign-elements-map2-b.jpeg",
+      "source_label": "Map 2.B",
+      "page": 36,
+      "caption": "Map 2.B: Attestations of languages in the Caucasus and Northern Fertile Crescent"
+    },
+    {
+      "filename": "images/bjorn-2017-foreign-elements-map3-a.jpeg",
+      "source_label": "Map 3.A",
+      "page": 49,
+      "caption": "Map 3.A: Main homeland theories and other language families: The Pontic Steppe, Central Asia, Anatolia, and Transcaucasia (arrows indicate expected loanword trajectories)"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 134,
+      "h2": 223,
+      "h3": 79
+    },
+    "macron_a": 205,
+    "macron_e": 55,
+    "macron_i": 50,
+    "macron_o": 91,
+    "macron_u": 53,
+    "schwa": 106,
+    "greek_chars": 1540,
+    "combining_diacritics": 338,
+    "dagger": 0
+  },
+  "unresolved_count": 0,
+  "notes": "Automated born-digital PDF extraction with span-based super/subscript recovery; not a final human-verified character-authoritative pass."
+}

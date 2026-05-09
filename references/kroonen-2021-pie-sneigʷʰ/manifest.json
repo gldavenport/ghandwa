@@ -1,0 +1,43 @@
+{
+  "source_file": "kroonen-2021-pie-sneigʷʰ.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "kroonen-2021-pie-sneigʷʰ.md",
+    "kroonen-2021-pie-sneigʷʰ-bibliography.md",
+    "kroonen-2021-pie-sneigʷʰ-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown",
+    "private_use_glyph_repairs": "1 glyph class resolved as u̯"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 2,
+      "h2": 3,
+      "h3": 0
+    },
+    "macron_a": 9,
+    "macron_e": 14,
+    "macron_i": 45,
+    "macron_o": 40,
+    "macron_u": 12,
+    "schwa": 9,
+    "greek_chars": 40,
+    "combining_diacritics": 6,
+    "dagger": 0
+  },
+  "unresolved_count": 4,
+  "notes": "Born-digital article extraction. Repository cover page omitted from corpus body; article references separated into bibliography file. Counts are approximate and suitable for regression checking only."
+}

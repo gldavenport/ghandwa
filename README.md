@@ -90,10 +90,11 @@ ghandwa/
 └── vocab/
     ├── alphabet-notes.md              Alphabet and grapheme notes
     ├── alphabet.tsv                   Alphabet table (Old Italic mappings)
+    ├── lexicon-changes.md             Lexicon changelog
     ├── lexicon-gaps.md                Tracked lexical gaps (~21 items)
+    ├── lexicon-notes.md               Extended etymological and derivational notes (keyed to lemma_1)
     ├── lexicon-reconcile.tsv          Reconciliation workspace (in progress)
     ├── lexicon-staging.md             Staging notes for candidate entries
-    ├── lexicon.md                     Lexicon changelog
     └── lexicon.tsv                    Primary lexicon (~520 entries, 68 columns)
 ```
 
@@ -101,7 +102,7 @@ ghandwa/
 
 ## Key files
 
-**`vocab/lexicon.tsv`** — the primary artifact. Hand-edited in Apple Numbers on macOS. 68 tab-separated columns covering lemma forms, IPA, glosses, stem classes, PIE preforms, cognates across 4 branches, semantic fields, cross-references, and transformer test columns. Companion changelog in `vocab/lexicon.md`.
+**`vocab/lexicon.tsv`** — the primary artifact. Hand-edited in Apple Numbers on macOS. 68 tab-separated columns covering lemma forms, IPA, glosses, stem classes, PIE preforms, cognates across 4 branches, semantic fields, cross-references, and transformer test columns. Companion changelog in `vocab/lexicon-changes.md`. Extended etymological notes in `vocab/lexicon-notes.md`.
 
 **`tools/pie-2-ghandwa.jsx`** — the phonological transformer. A React JSX artifact that takes PIE input forms and derives Ghandwa surface forms through an ordered rule pipeline. Authoritative for surface forms — hand-derived forms must be verified against it. Can be run headlessly via Node.js.
 

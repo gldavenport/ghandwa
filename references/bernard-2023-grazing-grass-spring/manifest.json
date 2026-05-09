@@ -1,0 +1,43 @@
+{
+  "source_file": "bernard-2023-grazing-grass-spring.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "bernard-2023-grazing-grass-spring.md",
+    "bernard-2023-grazing-grass-spring-front-matter.md",
+    "bernard-2023-grazing-grass-spring-bibliography.md",
+    "bernard-2023-grazing-grass-spring-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 3,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 1,
+      "h2": 19,
+      "h3": 0
+    },
+    "macron_a": 62,
+    "macron_e": 31,
+    "macron_i": 11,
+    "macron_o": 24,
+    "macron_u": 2,
+    "schwa": 13,
+    "greek_chars": 166,
+    "combining_diacritics": 119,
+    "dagger": 1
+  },
+  "unresolved_count": 3,
+  "notes": "Single journal article extraction; PDF pp. 1-2 front matter preserved separately; no images present."
+}

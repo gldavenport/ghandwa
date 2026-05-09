@@ -1,0 +1,42 @@
+{
+  "source_file": "kroonen-2016.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "kroonen-2016.md",
+    "kroonen-2016-bibliography.md",
+    "kroonen-2016-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 0,
+      "h2": 24,
+      "h3": 0
+    },
+    "macron_a": 11,
+    "macron_e": 1,
+    "macron_i": 1,
+    "macron_o": 2,
+    "macron_u": 1,
+    "schwa": 2,
+    "greek_chars": 86,
+    "combining_diacritics": 1,
+    "dagger": 0
+  },
+  "unresolved_count": 5,
+  "notes": "Born-digital PDF with unreliable glyph extraction for several linguistic characters; rendered pages were used for visual fallback. No images or index present."
+}
