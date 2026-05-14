@@ -104,9 +104,7 @@ Labiovelars simplify to plain velars before obstruents, nasals, and liquids.
 
 ---
 
-## 4. Stage 1: PIE to Late Western Indo-European
-
-These rules represent shared developments of the western IE node — changes that Ghandwa shares with some combination of PGmc, PIt, and PC. They are ordered relative to one another as specified below.
+## 4. Stage 1: PIE to Ghandwa
 
 ### 4.1. Dental Cluster Simplification
 
