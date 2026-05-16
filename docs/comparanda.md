@@ -1,9 +1,10 @@
 # Ghandwa Comparanda — Source-Literature Rule Tracking
 
 ---
-last_updated: 2026-03-14
+last_updated: 2026-05-15T00:00-04:00
 session: "Merged ghandwa_comparanda_ringe_pgmc.md and ghandwa_comparanda_pic.md into single reference"
 changelog:
+  - 2026-05-15T00:00-04:00 | — | Boukólos/KʷC entries split into two: "PIE-Internal Delabialization" (bidirectional, pre-stage, fires once) and "Ghandwa Boukólos Rule" (forward-only, standing rule post-S1/S2, broader environment). TT→ss entry updated to note dental+dental restriction and Ghandwa divergence from PGmc on dental+s (→ ts not ss).
   - 2026-03-14 | 345 lines | Created by merging `ghandwa_comparanda_ringe_pgmc.md` (Ringe 2017 PGmc rules) and `ghandwa_comparanda_pic.md` (De Vaan 2009 / Swanenvleugel 2021 PIC/PItal/PC rules). Both source files are superseded.
 ---
 
@@ -31,30 +32,33 @@ PGmc shares this as a co-development of the centum node. Not a separate rule in 
 PGmc: *Kw sequences merged with inherited labiovelars (Ringe §2.2.3(ii)). E.g.:
 - *ék´wos 'horse' (kw from k+w sequence) > PGmc *ehwaz
 
-#### Boukólos rule: Kʷ→K adjacent to u/ū/w
-PGmc: labiovelars delabialized next to *u (Ringe §2.2.3(ii)):
-- *gwráh₂u- 'heavy' → *gwr̥h₂ús > *gwurús > PGmc *kuruz (Goth. kaúrus)
-- *gwhénti- → *gwhn̥tís > *gwhúntis > PGmc *gunþiz 'battle'
-- *dn̥g´hwáh₂- 'tongue' → *dunghwā- > *dungwhā- > *dunghā- >! PGmc *tungōn-
+#### PIE-Internal Delabialization: Kʷ→K / {u,ū,w}_ and _{u,ū,w} (bidirectional)
+PIE-internal rule. Fires once at pre-stage before any Ghandwa-specific changes. Bidirectional: labiovelars delabialized when flanked by a rounded segment on either side. Narrow environment.
 
-#### KʷC→K: labiovelar delabializes before consonant
-PGmc: labiovelars delabialized before *t (Ringe §2.2.3(ii)):
-- *nókʷt- ~ *nékʷt- 'night' > *nókt- > PGmc *naht- (Goth. nahts, OHG naht)
-Note: Ringe finds no clear Germanic examples before *s.
+PGmc parallel for the preceding-rounded environment (Ringe §2.2.3(ii)):
+- \*gʷráh₂u- 'heavy' → \*gwr̥h₂ús > \*gwurús > PGmc \*kuruz (Goth. kaúrus)
+- \*gʷhénti- → \*gʷhn̥tís > \*gʷhúntis > PGmc \*gunþiz 'battle'
+- \*dn̥ǵʰwáh₂- 'tongue' → \*dunghwā- > \*dungwhā- > \*dunghā- >! PGmc \*tungōn-
+
+#### Ghandwa Boukólos Rule: Kʷ→K / _{C, w, u, ū} (forward-only, standing rule)
+Ghandwa innovation. Forward-only (not triggered by preceding rounded segments). Broader than the PIE-internal rule: fires before any consonant (excluding syllabic resonants) as well as before w/u/ū. Runs as a standing rule post-Stage 1 and post-Stage 2 only, not at pre-stage — catches derived environments from laryngeal loss and syllabic vocalization.
+
+Subsumes what PGmc handled under two separate statements in Ringe §2.2.3(ii):
+- KʷC→K before consonant: \*nókʷt- 'night' → \*nókt- > PGmc \*naht- (Goth. nahts)
+- Kʷ→K before u/ū/w in standing environments created by later rules
 
 ---
 
 ### Stage 1
 
-#### T{T,s}→ss: dental before dental or s → geminate ss
+#### TT→ss: dental before dental → geminate ss
 PGmc: PIE surface cluster *tst (underlying */T+t/) → PGmc *ss (Ringe §2.2.4(i)):
 - *widstós 'known' > PGmc *(ga)wissaz 'certain' (OE ġewiss)
 - *sedstós 'seated' > PGmc *sessaz 'seat' (ON, OE sess)
 - *wédhstis 'act of joining' > PGmc *ga-wissiz 'joint' (Goth. gawiss)
 - pre-PGmc *gwétstis 'act of speaking' > PGmc *ga-kwissiz 'agreement' (Goth. gaqiss)
 
-Simplified to *s before a long vowel, diphthong, or consonant:
-- pre-Gmc *káydstis 'act of calling' > PGmc *haistiz (with simplification)
+**Ghandwa diverges for dental+s:** Ghandwa applies TT→ss to **dental+dental only**. Dental+s sequences instead go through the obstruent devoicing rule (voiced dental → voiceless before s), yielding *ts*, which Ghandwa preserves — it does not reduce *ts* → *ss*. Confirmed: \*gʰáyds → ɣájts (not ɣájss).
 
 #### ssC→sC: geminate ss simplifies before consonant
 Follows from the above — see Ringe §2.2.4(i). Feeds the T{T,s} rule outputs.

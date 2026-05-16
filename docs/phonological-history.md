@@ -1,10 +1,11 @@
 # From Proto-Indo-European to Ghandwa
 
 ---
-last_updated: 2026-04-13T00:00-04:00
+last_updated: 2026-05-15T00:00-04:00
 status: draft — first complete pass; examples to be expanded as lexicon grows
 related: ghandwa-prompt.md, ghandwa_comparanda.md, pie_2_ghandwa.jsx
 changelog:
+  - 2026-05-15T00:00-04:00 | — | §3.3–3.4: split single Boukólos/KʷC rule into two distinct rules. §3.3 now "PIE-Internal Delabialization" (bidirectional, narrow, pre-stage, fires once). §3.4 now "Ghandwa Boukólos Rule" (forward-only, broader, standing rule post-S1/S2 only). §6 updated to match (6.3 removed; 6.2 now covers Ghandwa Boukólos). §4.1: TT→ss restricted to dental+dental only; dental+s now explicitly excluded (→ devoicing → ts, not ss). §4.4: added {d, dʰ} → t / _{t,s} to devoicing rule; ordering note updated. Cross-references at §4.2, §10.7, and overview corrected.
   - 2026-04-13T00:00-04:00 | 572 lines | Added §5.6 Haplology (adjacent identical CV sequences reduced to one; examples *sanantóm→santóm*, *βornonóman→βornóman*). Added morphological productivity note to §5.1 on \*-mn̥ > -man as productive resultative/abstraction suffix (cites *nóman, sḗman, térman, ménman, éngman*, *-nóman* compound series). Added rule 23 (Haplology) to §9 rule ordering summary. Content absorbed from project instructions.
   - 2026-03-17T01:00:00Z | 556 lines | Replaced §5.2 Juwankos rule (narrow ū→uw/_V) with general hiatus glide insertion rule (i→ij/_V, u→uw/_V). Rewrote §4.6 (ew→ow) to clarify tautosyllabic condition, add u-stem paradigm examples, and document coda-w orthographic convention (⟨u⟩ for /w/ in coda). Fixed *newos* example: ne.wos is heterosyllabic (w is onset before vowel), so rule does not fire — was incorrectly shown as firing. Updated §9 rule summary, §10.6 worked example, and §7 tension inventory accordingly.
   - 2026-03-17T00:00:00Z | 565 lines | Initial creation. Full rule inventory from transformer and comparanda; staged presentation with formal statements, examples, ordering arguments, and design rationale. Standing rules treated as synchronic surface constraints.
@@ -48,7 +49,7 @@ The Ghandwa surface-stage inventory, as derived by the rules below:
 **Short vowels:** a  e  i  o  u
 **Long vowels:** ā  ē  ī  ō  ū
 
-Vowel length is phonemically distinctive. Stress is free and lexical. Labiovelars kʷ, gʷ are preserved before vowels other than *u*; they delabialized before *u*, *ū*, *w*, and before consonants (see Standing Rules, §6).
+Vowel length is phonemically distinctive. Stress is free and lexical. Labiovelars kʷ, gʷ are preserved before vowels other than *u*; they delabialized before *u*, *ū*, *w*, and before consonants (see §3.3–3.4 and Standing Rules, §6).
 
 ---
 
@@ -82,25 +83,29 @@ The PIE palatal series merges unconditionally with the plain velars. After this 
 
 Any sequence of a plain velar followed immediately by \*w is treated as a single labiovelar segment. This rule collapses the distinction between inherited labiovelars (\*kʷ, \*gʷ, \*gʷʰ) and surface-identical sequences arising from morpheme boundaries or compounding.
 
-### 3.3. Boukólos Rule
+### 3.3. PIE-Internal Delabialization
 
-> Kʷ → K / adjacent to u, ū, or w
+> Kʷ → K / {u, ū, w} \_ (preceding rounded segment)
+> Kʷ → K / \_ {u, ū, w} (following rounded segment)
 
-Labiovelars lose their labialization next to rounded segments. This is a surface constraint shared with PGmc (Ringe §2.2.3(ii)).
-
-**Examples:**
-- \*gʷr̥h₂ús 'heavy' → … gr̥h₂us (labiovelar delabializes before u)
-
-### 3.4. Labiovelar Delabialization before Consonants
-
-> Kʷ → K / _C (before any consonant other than a syllabic resonant)
-
-Labiovelars simplify to plain velars before obstruents, nasals, and liquids.
+A PIE-internal surface constraint: labiovelars delabialized when flanked by a rounded segment (u, ū, or w) on either side. The rule is **bidirectional** — it fires for both the preceding and following environment — and runs **once at the pre-stage** before any Ghandwa-specific changes apply. It does not recur.
 
 **Examples:**
-- \*nókʷts 'night' → nokts (kʷ → k before t) → *nokts*
+- \*gʷr̥h₂ús 'heavy' → gr̥h₂us (kʷ before u; bidirectional rule fires once)
 
-**Ordering:** The Boukólos rule (§3.3) and KʷC delabialization (§3.4) must follow labiovelar absorption (§3.2), since absorption creates new labiovelars that then feed both simplification rules. All three also function as standing rules (§6), reapplying after every subsequent stage.
+### 3.4. Ghandwa Boukólos Rule
+
+> Kʷ → K / \_ {C, w, u, ū} (forward-only; C excludes syllabic resonants)
+
+The primary labiovelar simplification rule of Ghandwa. Labiovelars delabialize before any consonant, or before w/u/ū. The rule is **forward-only** (not triggered by preceding rounded segments) and runs exclusively as a **standing rule post-Stage 1 and post-Stage 2** — never at the pre-stage. This restriction means it catches derived environments created by laryngeal loss and syllabic resonant vocalization, which the PIE-internal rule (§3.3) could not have seen.
+
+Syllabic resonants (r̥, l̥, m̥, n̥) do not trigger the rule. After vocalization (§5.1) they yield CaRC sequences, and by that point the labiovelar environment has already resolved.
+
+**Examples:**
+- \*h₃ékʷs 'horse (acc.)' → ókʷs → oks (kʷ before s, standing rule post-S1)
+- \*nókʷts 'night' → nókts (kʷ before t, standing rule post-S1)
+
+**Ordering:** Both rules must follow labiovelar absorption (§3.2), since absorption creates new labiovelars that then feed both simplification rules. §3.3 fires once at pre-stage; §3.4 fires as a standing rule (§6) after every subsequent stage.
 
 ---
 
@@ -108,17 +113,18 @@ Labiovelars simplify to plain velars before obstruents, nasals, and liquids.
 
 ### 4.1. Dental Cluster Simplification
 
-> T + {T, s} → ss
+> T + T → ss (dental before dental → geminate ss)
 
-Any dental stop immediately followed by another dental stop or by \*s merges into a geminate *ss*. This feeds the subsequent simplification rule.
+Two adjacent dental stops merge into a geminate *ss*. **This rule covers dental+dental only.** Dental+s sequences are handled separately: the devoicing rule (§4.4) converts voiced dental+s to *ts*, which Ghandwa preserves as *ts* without further reduction (unlike Latin, which reduces *ts* → *ss*).
 
 > ss → s / _C
 
 Geminate *ss* simplifies to single *s* before a following consonant.
 
 **Examples:**
-- \*widstós 'known' → widstos → wissos (TTs → ss) — cf. PGmc \*(ga)wissaz, OE ġewiss
+- \*widstós 'known' → widstos → wissos (TT: ds → ss) — cf. PGmc \*(ga)wissaz, OE ġewiss
 - \*sedstós 'seated' → sedstos → sessos — cf. PGmc \*sessaz, ON sess
+- \*gʰáyds 'goat' → ɣájts (ds → ts via devoicing §4.4; *not* → ss)
 
 **Ordering:** Must precede thorn metathesis (§4.2), since dental+dental clusters are resolved before dental+velar clusters are reordered.
 
@@ -126,7 +132,7 @@ Geminate *ss* simplifies to single *s* before a following consonant.
 
 > TK → KT (word-internally; voicing and aspiration of each segment preserved)
 
-A dental stop followed by a plain velar stop undergoes metathesis: the velar moves before the dental. Labiovelars are excluded (they have already been simplified before consonants by §3.4). Word-initial position is excluded.
+A dental stop followed by a plain velar stop undergoes metathesis: the velar moves before the dental. Labiovelars are excluded (they have already been simplified before consonants by the Ghandwa Boukólos rule, §3.4). Word-initial position is excluded.
 
 This follows Jasanoff 2018 (via Ringe 2024) in treating the outcome as metathesis (Greek-type *kt*) rather than the assibilation path that fed PGmc (TK → KS → K after Grimm's Law).
 
@@ -209,17 +215,19 @@ Any laryngeal that has not been resolved by the preceding rules surfaces as a gl
 ### 4.4. Obstruent Devoicing before Voiceless Consonants
 
 > {b, bʰ} → p / _{t, s}
+> {d, dʰ} → t / _{t, s}
 > {g, gʰ} → k / _{t, s}
 > {gʷ, gʷʰ} → kʷ / _{t, s}
 
-Voiced and breathy-voiced obstruents are devoiced immediately before \*t or \*s. This is a core western IE process shared with PGmc and PIt.
+Voiced and breathy-voiced obstruents are devoiced immediately before \*t or \*s. This is a core western IE process shared with PGmc and PIt. The rule covers all voiced obstruents including dentals — \*d and \*dʰ devoice to \*t before \*t or \*s.
 
 **Examples:**
 - \*dʰugh₂tḗr 'daughter' → dugh₂tēr → dugtēr (h₂ lost post-vocalically) → duktēr (g devoiced before t) → *ðuktēr*
+- \*gʰáyds 'goat' → ɣájds → ɣájts (d devoiced before s) → *ɣájts*
 
 **Design note:** Ringe defers voicing assimilation to individual daughter branches. Ghandwa applies it at the parent stage as a shared western development, following the evidence from PIt and PC.
 
-**Ordering:** Must follow laryngeal resolution (§4.3), since laryngeal loss can create new obstruent+t/s clusters. Must precede aspirate fricativization (§5.3), since the rule references bʰ, gʰ, gʷʰ as inputs.
+**Ordering:** Must follow laryngeal resolution (§4.3), since laryngeal loss can create new obstruent+t/s clusters. Must precede aspirate fricativization (§5.3), since the rule references bʰ, dʰ, gʰ, gʷʰ as inputs that become β, ð, ɣ, ɣʷ after fricativization — at which point a voicing-assimilation rule targeting obstruents would no longer reach them.
 
 ### 4.5. Osthoff's Law
 
@@ -387,17 +395,11 @@ Three rules function as standing surface constraints rather than diachronic chan
 
 Identical to §3.2. Any surface sequence of velar + w is treated as a labiovelar.
 
-### 6.2. Labiovelar Delabialization before Consonants (standing)
+### 6.2. Ghandwa Boukólos Rule (standing)
 
-> Kʷ → K / _C
+> Kʷ → K / \_ {C, w, u, ū} (C excludes syllabic resonants)
 
-Identical to §3.4. Ensures that no labiovelar ever surfaces before a consonant, even if one is created by a preceding rule's output.
-
-### 6.3. Boukólos Rule (standing)
-
-> Kʷ → K / adjacent to u, ū, w
-
-Identical to §3.3. Ensures that no labiovelar ever surfaces next to a rounded segment.
+Identical to §3.4. Fires post-Stage 1 and post-Stage 2, forward-only. Ensures that no labiovelar surfaces before a consonant or rounded segment, even if one is created by a preceding rule's output. The PIE-internal rule (§3.3) is not a standing rule — it fires once at the pre-stage only.
 
 **Interaction example:** The o-stem noun \*perkʷus ~ \*perkʷéws 'oak' illustrates the standing rules in action. In the nominative, \*kʷ stands before \*u and delabializes (Boukólos): *perkus*. In the genitive, \*kʷ stands before \*e and is preserved: *perkʷews*. The result is a stem alternation kʷ ~ k conditioned by the following vowel — a deliberate unresolved tension that daughter languages may level in either direction.
 
@@ -560,10 +562,10 @@ The *uw* sequence arises from hiatus glide insertion (§5.2), not from the *ū* 
 | Step | Form |
 |---|---|
 | Input | kʷekʷlos |
-| KʷC → K (§3.4) | kʷeklos (second kʷ delabializes before l) |
+| Ghandwa Boukólos (§3.4) | kʷeklos (second kʷ delabializes before l) |
 | **Output** | ***kʷeklos*** |
 
-The second labiovelar stands before the liquid *l* — a consonant — and delabializes by §3.4. The first labiovelar, before the vowel *e*, is preserved. This is a minimal illustration of labiovelar distribution in Ghandwa: preserved before vowels, simplified before consonants.
+The second labiovelar stands before the liquid *l* — a consonant — and delabializes by the Ghandwa Boukólos rule (§3.4). The first labiovelar, before the vowel *e*, is preserved. This is a minimal illustration of labiovelar distribution in Ghandwa: preserved before vowels, simplified before consonants.
 
 ---
 

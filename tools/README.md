@@ -18,24 +18,16 @@ The original spec (`pie-transformer-handoff-spec-v2.md`, ChatGPT-authored) is **
 All files are in `tools/pie_transformer/` on the local filesystem (also committed to repo at `github.com/gldavenport/ghandwa`).
 
 ### 2.1 IPA Syllabifier + Stress Mark
-**Handoff doc:** `tools/pie_transformer/docs/handoff-ipa-syllabifier.md`  
-**File to edit:** `render.py` → `_ghandwa_ipa()`  
-**Current state:** Stub. Returns `/joined-tokens/` with no syllable boundaries or stress mark.  
-**What's needed:** Onset-maximization syllabifier + replace U+0301 acute on accented token with IPA `ˈ` before the syllable onset. Both must be done together. See the handoff doc for full spec, algorithm sketch, and test cases.
+**Status: COMPLETE as of 2026-05-15.**  
+`render.py` → `_ghandwa_ipa()` now implements onset-maximization syllabifier with stress mark. See `docs/handoff-ipa-syllabifier.md` (marked implemented).
 
 ### 2.2 Provisional Test Suite Expected Outputs
-**File:** `tests/test_pipelines.py`  
-**Current state:** 14 starter test inputs run but mismatches only log to stderr and `REVIEW_LOG`; they don't assert. Expected outputs are not filled in.  
-**Action:** Run each starter form through the pipeline, verify the output is linguistically correct, then fill in the `expected` values and convert from provisional logging to hard assertions.
-
-Starter inputs (from original spec):
-`wĺ̥kʷos, ǵʰoysós, h₂éymō, gʰórdʰos, dʰuh₂mós, ph₂tḗr, bʰréh₂tēr, gʷeneh₂, h₂ékʷeh₂, dn̥ǵʰwéh₂s, ǵʰn̥dwéh₂s`  
-Plus two exploratory forms: `méǵh₂-s` and `mǵh₂-és`.
+**Status: COMPLETE as of 2026-05-15.**  
+44 stable tests passing. All starter inputs verified and hardened to hard assertions. IPA test class added.
 
 ### 2.3 Old/Neo Wékʷos Pipelines
-**Files:** `pipelines/old_wekwos.py`, `pipelines/neo_wekwos.py`  
-**Current state:** Marked `PROVISIONAL`. Rule lists were written but not tested against any expected outputs.  
-**Action:** Define expected outputs for a small test set, run, debug. Neo-Wékʷos chains downstream of Old-Wékʷos via `_run_chained()` in `pipeline.py`.
+**Status: COMPLETE as of 2026-05-15.**  
+6 stable test cases each, verified against expected outputs. Accent_index tracking fixed in `_syl_res_vocalize` and `_liquid_metathesis`. `#wlV/#mlV→#blV` rule added to Neo. "Substrate" stage label renamed to "Cluster Assimilation".
 
 ### 2.4 Daughter Language Pipelines
 **File:** `pipelines/daughters.py`  
@@ -53,73 +45,13 @@ Not written. Currently the package runs only via `python3 -m pie_transformer` fr
 
 ## 3. Design Decisions Made This Session Not Yet in Repo Docs
 
-These were implemented in code but not reflected in `docs/phonological-history.md`, `docs/comparanda.md`, or `docs/notation.md`. They need to be added before those files drift further out of sync.
-
-### 3.1 Two-Rule Boukólos Split
-**Where to document:** `docs/phonological-history.md`, `docs/comparanda.md`
-
-Two distinct rules now in the pipeline:
-
-**Rule 1 — PIE-internal delabialization** (`pipelines/ghandwa.py`: `_PIE_DELAB`):  
-`Kʷ → K / {u, ū, w} _` AND `Kʷ → K / _ {u, ū, w}`  
-Bidirectional. Narrow environment. Pre-stage, fires once. Does not recur.
-
-**Rule 2 — Ghandwa Boukólos** (`pipelines/ghandwa.py`: `_BOUKÓLOS`):  
-`Kʷ → K / _ {C, w, u, ū}`  
-Forward-only. Broader (includes any following consonant). Fires as a standing rule post-S1 and post-S2 only — not at pre-stage. Catches environments created by laryngeal loss and syllabic vocalization.
-
-Rationale: Rule 1 cleans up PIE input; Rule 2 is a Ghandwa innovation that applies to derived environments. Syllabic resonants do not trigger Rule 2. The two rules were confirmed against lexicon spot-checks (`*h₁ln̥gʷʰús` → Rule 1; `*h₃ékʷs`, `*gʷríHw` → Rule 2).
-
-### 3.2 TT→ss Restricted to Dental+Dental Only
-**Where to document:** `docs/phonological-history.md`
-
-The rule T{T,s}→ss (dental before dental-or-s → geminate ss) was restricted to **dental+dental only** (`TT→ss`). The dental+s case is NOT handled by this rule. Instead:
-- `*ds` → devoicing rule → `ts` (preserved, not reduced to ss)
-- Ghandwa does not reduce `ts` → `ss` (unlike Latin)
-
-### 3.3 Dental Devoicing Rule Fixed
-**Where to document:** `docs/phonological-history.md`
-
-The "voiced obstruent → voiceless before t or s" rule was missing dentals (`d`, `dʰ`). Fixed: `d → t`, `dʰ → t` before `t` or `s`. Confirmed against `*gʰáyds` → `ɣájts`.
-
-### 3.4 Normalize: Palatals vs. Accents
-**Where to document:** `docs/notation.md`
-
-`normalize.py`'s `_extract_accent()` now distinguishes:
-- U+0301 (combining acute) on a **vowel** or **syllabic resonant** (U+0325) → lexical pitch accent; stripped and recorded as `accent_char_pos`
-- U+0301 on a **consonant** (e.g. `ǵ`, `ḱ`) → palatalization diacritic; kept, not treated as accent
-
-This means palatal notation (`ǵʰ`, `ḱ`) survives normalization intact and is handled by the centumization pipeline rule.
-
-### 3.5 Ghandwa Orthographic Conventions
-**Where to document:** `docs/notation.md`
-
-Orthographic output (`render.py` `_ghandwa_surface()`):
-
-| Token (IPA) | Orthography |
-|---|---|
-| `kʷ` | `kv` |
-| `gʷ` | `gv` |
-| `ɣʷ` | `ɣv` |
-| `j` | `i` |
-| `w` | `v` |
-| all others | pass through |
-
-IPA output uses token stream directly (tokens are already IPA), wrapped in `/…/`.  
-No brackets or italics on either output mode.  
-Surviving `ˀ` is a diagnostic tracer indicating a laryngeal that wasn't consumed — indicates a rule gap, not a real surface segment.
+**Status: COMPLETE as of 2026-05-15.** All five design decisions documented in `docs/phonological-history.md`, `docs/comparanda.md`, and `docs/notation.md`.
 
 ---
 
 ## 4. tools/README.md Needs Updating
 
-Currently describes only `pie-2-ghandwa.jsx`. Should add a section for `pie_transformer/` covering:
-- How to run (`python3 -m pie_transformer form "*wĺ̥kʷos" --pipeline ghandwa`)
-- `--trace changed` flag
-- `--no-clear` flag
-- Pipeline names: `ghandwa`, `old-wekwos`, `neo-wekwos`
-- Authority status (replacing JSX as authoritative transformer)
-- Known gaps (IPA syllabifier, Wékʷos pipelines provisional, daughters not implemented)
+**Status: COMPLETE as of 2026-05-15.** `pie_transformer/` section added; JSX marked superseded; duplicate Crotonian removed.
 
 ---
 
@@ -129,24 +61,26 @@ Listed for completeness; none of these were touched this session.
 
 | Item | Scope | File |
 |---|---|---|
-| `lemma_1_pre_root` missing | ~174 non-stub entries | `vocab/lexicon.tsv` |
-| `pos_subtype` unpopulated | all entries | `vocab/lexicon.tsv` |
-| `_ety`/`_inp` backfill | ~500+ entries | `vocab/lexicon.tsv` |
-| Mixed-normalization lemmas | *akmṓ*, *iṓr*, *sēmṓ* | `vocab/lexicon.tsv` |
-| `svézōr` missing `nom_stem_class` | 1 entry | `vocab/lexicon.tsv` |
+| `lemma_1_pre_root` missing | ~174 non-stub entries | `vocab/lexicon-core.tsv` |
+| `pos_subtype` unpopulated | all entries | `vocab/lexicon-core.tsv` |
+| `_ety`/`_inp` backfill | ~500+ entries | `vocab/lexicon-core.tsv` |
+| Mixed-normalization lemmas | *akmṓ*, *iṓr*, *sēmṓ* | `vocab/lexicon-core.tsv` |
+| `svézōr` missing `nom_stem_class` | 1 entry | `vocab/lexicon-core.tsv` |
 | 7 adopted verbs not in TSV | *dédōti*, *ɣvénti*, *βā́ti*, *gvéteti*, *ðéɣveti*, *ðoɣvéieti*, *kléveti* | `grammar/verb-eval-template.md` → TSV |
 | 20+ TSV verbs lack paradigm work | — | `grammar/verbs-worksheet.md` |
 
 ---
 
-## 6. Recommended Next Session Order
+## 6. Lexicon Restructuring (This Session)
 
-1. Fill in test suite expected outputs (§2.2) — validates current rule set before further changes
-2. Document design decisions in repo files (§3) — before they're forgotten
-3. Update `tools/README.md` (§4)
-4. IPA syllabifier (§2.1) — use the handoff doc
-5. Wékʷos pipeline verification (§2.3)
-6. Lexicon batch run — extract pre_roots, run transformer, compare against `gh_lemma_1_orth`
+`vocab/lexicon.tsv` split into two files:
+
+- **`vocab/lexicon-core.tsv`** (26 columns) — lemma, POS, gloss, stem class, verb fields, entry_status, formation/historical type, source. Working file for hygiene passes in Numbers.
+- **`vocab/lexicon-ref.tsv`** (29 columns) — cognates, notes, cross-references, semantic fields, register, lit/swadesh tags. Joined on `entry_id`.
+
+Column renames applied: `gh_lemma_1_orth→lemma_1_gh_orth`, `gh_lemma_1_ipa→lemma_1_gh_ipa`, same for lemma_2; `lemma_1_pre_ety→lemma_1_pre_orth`, same for lemma_2/3.
+
+Dropped columns (22): `gh_lemma_1_ipa_test`, `gh_lemma_2_ipa_test`, `sound_changes`, all `r0-*`/`r1-*`/`r2-*`.
 
 ---
 
@@ -157,15 +91,75 @@ last_updated: 2026-05-15T00:00-04:00
 changelog:
   - 2026-04-13T00:00-04:00 | 66 lines | Initial creation. Documents pie-2-ghandwa.jsx: authority status, headless execution recipe, known gaps. Content absorbed from project instructions §6.
   - 2026-05-15T00:00-04:00 | — | Prepended project handoff. Added pie_transformer/ internals doc (ARCHITECTURE.md). Updated last_updated.
+  - 2026-05-15T00:00-04:00 | — | Added pie_transformer/ section. Marked pie-2-ghandwa.jsx superseded. Removed duplicate Crotonian entry. Added Phonological Adaptation Layer planned section. Updated handoff §§2-4 completion status.
+---
+
+## `pie_transformer/`
+
+Python 3 CLI package. **Authoritative transformer** as of 2026-05-15, superseding `pie-2-ghandwa.jsx`.
+
+Full internals documentation: `tools/pie_transformer/docs/ARCHITECTURE.md`.
+
+### Running
+
+From `tools/pie_transformer/` (the package must be run as a module from within `tools/`):
+
+```bash
+# Single form — Ghandwa pipeline
+python3 -m pie_transformer form "*wĺ̥kʷos" --pipeline ghandwa
+
+# Show derivation trace (changed steps only)
+python3 -m pie_transformer form "*wĺ̥kʷos" --trace changed
+
+# Full trace (all rule evaluations)
+python3 -m pie_transformer form "*wĺ̥kʷos" --trace full
+
+# Suppress screen clear (useful when piping or in a shell session)
+python3 -m pie_transformer form "*wĺ̥kʷos" --no-clear
+
+# Run all pipelines against a single form
+python3 -m pie_transformer form "*wĺ̥kʷos" --all
+
+# Batch mode — transformer-ready TSV in, results TSV out
+python3 -m pie_transformer batch input.tsv --out results.tsv --report results.md
+
+# Extract source forms from the human lexicon TSV
+python3 -m pie_transformer extract-lexicon ../../vocab/lexicon-core.tsv --out transformer-input.tsv
+```
+
+### Pipeline names
+
+| Name | Status |
+|---|---|
+| `ghandwa` | Stable. Primary pipeline. |
+| `old-wekwos` | Provisional. Rule list written; 6 verified test cases. |
+| `neo-wekwos` | Provisional. Chains downstream of `old-wekwos`; 6 verified test cases. |
+| `daughter-a`, `daughter-b`, `daughter-c` | Not implemented. Returns `not_implemented`. |
+
+### Authority
+
+The transformer is **authoritative for surface forms**. Hand-derived Ghandwa forms must be verified against it when non-obvious rule interactions are in play. When a hand-derived form disagrees with the transformer output, the transformer is right unless a specific bug is identified and documented in `ARCHITECTURE.md § Known Gaps`.
+
+Surviving `ˀ` in output is a diagnostic tracer, not a real surface segment — it indicates a laryngeal that was not consumed by any rule, signalling a rule gap.
+
+### Known gaps
+
+- **Wékʷos pipelines provisional.** Rule lists exist and have verified test cases, but the phonological history is not fully settled. Additional test cases should be added as the phonology is refined.
+- **Daughter pipelines not implemented.**
+- **`--mode` flag ignored** in `form` command. Both orthographic and IPA are always shown regardless of `--mode` value.
+- **`pyproject.toml` not written.** Package must be run in-place via `python3 -m pie_transformer`. `pip install -e .` not available.
+
 ---
 
 ## `pie-2-ghandwa.jsx`
 
+> **Superseded.** `pie_transformer/` is now authoritative. This file is retained for reference. Do not use it to generate or verify surface forms.
+
 PIE-to-Ghandwa phonological transformer. React JSX, but the core logic is plain JavaScript and can be run headless for batch verification.
 
-### Authority
+### Authority (historical)
 
-The transformer is **authoritative for surface forms**. Hand-derived Ghandwa forms must be verified against it. Interactions between Osthoff's Law, laryngeal coloring, and devoicing rules produce non-obvious outputs that are easy to miss by hand — e.g.:
+~~The transformer is **authoritative for surface forms**.~~ As of 2026-05-15, `pie_transformer/` supersedes this file. Interactions between Osthoff's Law, laryngeal coloring, and devoicing rules produce non-obvious outputs that are easy to miss by hand — e.g.:
 
 - \*nṓman → *noman* (Osthoff shortens ō before mn̥)
 - \*gʷʰ devoices to *kʷ* before *s*
@@ -241,21 +235,19 @@ Current transformer output may show ⟨j⟩ in positions where ⟨i⟩ is correc
 
 ---
 
-## `pie-2-crotonian.jsx` *(planned — not yet implemented)*
+## Phonological Adaptation Layer *(planned — not yet designed)*
 
-**Status:** Deferred. Dependencies not yet met.
+**Status:** Deferred. Concept established; design not started.
 
-**Purpose:** PIE-to-Crotonian phonological transformer, parallel in architecture to `pie-2-ghandwa.jsx`. Takes a PIE preform as input, applies the Garnier & Sagot (2017) Crotonian rule inventory in chronological order, and outputs a Crotonian surface form. A second adaptation layer then maps that form to its shape as a loanword in Ghandwa.
+**Purpose:** A generalizable pipeline for adapting loanwords from non-PIE-derived source forms into Ghandwa. Where the PIE transformer takes a reconstruction and applies diachronic rules, the adaptation layer takes a synchronic surface form in a source language and applies contact-era correspondence rules to produce the Ghandwa loanword shape.
 
-**Use case:** Generating Crotonian-sourced borrowings for the Ghandwa lexicon. Entries derived via this transformer would carry `provenance` = `Crotonian` in the TSV. Doublet pairs — inherited Ghandwa form vs. Crotonian loanword from the same PIE root — are the primary output.
+**Architecture:** Same pipeline structure as existing transformers — a source-language normalizer, a correspondence rule list, and a render pass. The source-language normalizer accepts the source language's own notation rather than PIE. Each source language would be a separate pipeline (e.g. `crotonian-to-ghandwa`, `substrate-x-to-ghandwa`).
 
-**Rule inventory source:** Garnier, Romain & Benoît Sagot. 2017. "A shared substrate between Greek and Italic." *Indogermanische Forschungen* 122(1): 29–60. Table 1 (p. 57), 12 chronologically ordered rules. Article is in `references/garnier-2017/`. Garnier & Sagot implemented the same rule set computationally; their test cases (~100 Greek, ~20 Latin/Proto-Romance etymologies) serve as verification suite.
+**Relationship to Crotonian transformer:** The planned `pie-2-crotonian.jsx` produces a Crotonian surface form from a PIE reconstruction. The adaptation layer is the second stage — Crotonian surface → Ghandwa loanword. Together they form a two-stage pipeline: PIE → Crotonian → Ghandwa. The adaptation layer generalizes this second stage to arbitrary source languages.
 
-**Dependencies before implementation:**
-1. Verb system settled (Ghandwa-internal infrastructure must be stable first)
-2. Crotonian phone inventory decided — specifically the fortis/lenis distinction (Garnier's cover symbols \*P, \*B, \*T need concrete phonetic values) and the realization of the Verner-like alternation
-3. Ghandwa borrowing adaptation layer specified — how Crotonian phones map to Ghandwa phones on contact (e.g. Crotonian fortis \*P → Ghandwa plain voiceless stop; Crotonian \*ur from syllabic resonants vs. Ghandwa \*ar)
+**Borrowing workflow without this tool:** Enter `lemma_1_gh_orth` and `lemma_1_gh_ipa` by hand; leave `lemma_1_pre_orth` blank; set `entry_formation_type` to borrowing/loanword. The transformer batch run skips entries with no `lemma_1_pre_orth`. For source forms that can be plausibly written in PIE notation without triggering destructive rules (no laryngeals, aspirates, palatals, or syllabic resonants), running through the standard PIE pipeline is also acceptable.
 
-**Known issue to resolve:** Rule 11 asymmetry — \*#pr- → \*#br- (voicing) vs. \*#tr- → \*#Tr- (fortition) is typologically unexplained by Garnier. Implement \*#tr- → \*#Tr- as low-confidence; flag outputs using it.
-
-**See also:** `docs/alt-phonologies.md` §6 for the Crotonian rule inventory summary and divergence table relative to Ghandwa.
+**Dependencies before design:**
+1. Crotonian transformer implemented and verified
+2. At least one source language's phonological inventory and Ghandwa correspondence rules specified
+3. Borrowing layer notation convention decided (how to mark entry-point stage in the pipeline)

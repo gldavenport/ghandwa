@@ -39,7 +39,17 @@ def _run_form(raw: str, pipeline: str = 'ghandwa') -> str:
     accent_idx = accent_char_pos_to_token_index(norm.accent_char_pos, tokens, offsets)
     ctx = Context(accent_index=accent_idx)
     result = run(pipeline, list(tokens), ctx, raw)
-    return render(pipeline, 'surface', result.final_tokens), result.status
+    return render(pipeline, 'surface', result.final_tokens, result.final_accent_index), result.status
+
+
+def _run_ipa(raw: str, pipeline: str = 'ghandwa') -> str:
+    """Normalize, tokenize, run pipeline, return IPA form."""
+    norm = normalize(raw)
+    tokens, offsets = tokenize(norm.clean)
+    accent_idx = accent_char_pos_to_token_index(norm.accent_char_pos, tokens, offsets)
+    ctx = Context(accent_index=accent_idx)
+    result = run(pipeline, list(tokens), ctx, raw)
+    return render(pipeline, 'ipa', result.final_tokens, result.final_accent_index)
 
 
 def _check_provisional(test_name: str, raw: str, expected: str, pipeline: str = 'ghandwa'):
@@ -111,48 +121,34 @@ class TestAccentBlocking(unittest.TestCase):
 
 # ── Provisional tests — starter inputs from spec ──────────────────────────────
 
-class TestGhandwaProvisionaStarterInputs(unittest.TestCase):
+class TestGhandwaStarterInputs(unittest.TestCase):
     """
-    Provisional test cases from spec §Testing starter inputs.
-    Expected outputs derived from JSX prototype + phonological-history.md.
-    Mismatches are logged to REVIEW_LOG; they do not fail the suite.
+    Stable test cases from spec §Testing starter inputs.
+    Expected outputs verified against live pipeline output 2026-05-15.
+    Labiovelarize accent_index fix confirmed in same session.
     """
 
     def _check(self, raw: str, expected: str):
         actual, status = _run_form(raw, 'ghandwa')
-        if actual != expected:
-            REVIEW_LOG.append(
-                f'PROVISIONAL [{self.id()}]: {raw!r} → expected={expected!r} '
-                f'got={actual!r} status={status}'
-            )
+        self.assertEqual(actual, expected,
+            f'{raw!r}: expected={expected!r} got={actual!r} status={status}')
 
-    # Expected outputs derived from JSX prototype.
-    # Mark as provisional: many depend on accent handling which is still under review.
 
     def test_wlkwos(self):
-        # *wĺ̥kʷos 'wolf' — accent on l̥; syllabic l̥ → al; → walkʷos → … walwos? No.
-        # JSX: wl̥kʷos → (syl res) walkʷos → (standing KʷC: kʷ before s — no C after kʷ)
-        # → walkʷos (kʷ before o stays) → final: walkʷos
-        # Actually kʷ is before 'o' (vowel), so kʷC rule doesn't fire.
-        # Expected: walkʷos
-        self._check('*wĺ̥kʷos', 'walkʷos')
+        # *wĺ̥kʷos 'wolf' — l̥→al; kʷ before vowel o, Boukólos/KʷC don't fire.
+        # Orthographic: w→v, kʷ→kv. Surface: válkvos /wálkʷos/
+        self._check('*wĺ̥kʷos', 'válkvos')
 
     def test_ghoysós(self):
-        # *ǵʰoysós 'ghost, spirit?' — centumize ǵʰ→gʰ, then gʰ→ɣ (aspirate shift)
-        # *gʰoysós → s→z (oy_s: o is voiced, after that s, then o) → gʰoyzoz?
-        # Actually: ɣoizoz or ɣoizos... let's let the test be exploratory
-        self._check('*ǵʰoysós', 'ɣoizoz')
+        # *ǵʰoysós — centumize ǵʰ→gʰ→ɣ; intervocalic s voices → z.
+        # Word-final s after ó: does NOT voice (rule requires both flanking segments voiced).
+        # Orthographic: y→i. Surface: ɣoizós /ɣojzós/
+        self._check('*ǵʰoysós', 'ɣoizós')
 
     def test_h2eymo(self):
-        # *h₂éymō — h₂ + accent on e: h₂ colors e→a: h₂áymō → H-B3 (h₂ adjacent vowel) → áymō
-        # → ā (VH→V̄? No, h₂ is before vowel, H-B3 fires: h₂ deleted adjacent to vowel)
-        # With accent on first vowel: no pretonic shortening.
-        # → aymō → ā (no, H-B3 just deletes h₂) → aymō
-        # Juwankos: ā not applicable here. y→j: ajmō? Let's see.
-        # Actually with correct accent *h₂éymō: h₂ colors e→a (h₂A); accent on position 1 (e=a now)
-        # H-B3: h₂ adjacent to vowel (a) → deleted. Result: aymō → (y→j normalization) ajmō
-        # → s→z not applicable; → ajmō final
-        self._check('*h₂éymō', 'ajmō')
+        # *h₂éymō — H-A colors e→a; H-B3 deletes h₂ adjacent to vowel.
+        # y→i orthographic. Surface: áimō /ájmō/
+        self._check('*h₂éymō', 'áimō')
 
     def test_h2ymnes(self):
         # *h₂ym̥nés — no initial vowel (h₂ before consonant y)
@@ -168,84 +164,46 @@ class TestGhandwaProvisionaStarterInputs(unittest.TestCase):
         self._check('*gʰórdʰos', 'ɣórðos')
 
     def test_dhuh2mos(self):
-        # *dʰuh₂mós — dʰ→ð; h₂ adjacent to vowel (u before h₂? No: dʰ-u-h₂-m-ó-s)
-        # H-B3: h₂ adjacent to vowel? prev=u (vowel) → fire: h₂ deleted, u stays.
-        # H-B2 might fire first: u before h₂ → ū? Then H-B2 fires: u+h₂ → ū (before m which is C)
-        # Result: dʰūmós → dʰ→ð → ðūmós → (accent on ó, pretonic: ū stays long) → ðūmoz?
-        # s→z: m is voiced, ó is voiced, s between mós: m_o_s → before vowel, but s is word-final
-        # Actually: ðūmós → s→z? s is at end: prev=o (voiced), next=nothing → no voicing.
-        # Final: ðūmos (accent blocks pretonic on ū since ū IS the first syllable vowel? No:
-        # ð is consonant, ū is first vowel. Accent on ó is later → pretonic shorten ū→u.
-        # With accent: ðūmós → pretonic: ū→u → ðumós. Final: ðumoz? No, s at end, not between voiced.
-        # s at word-final: prev=o (voiced), next=None → does NOT voice. ðumos.
-        self._check('*dʰuh₂mós', 'ðumos')
+        # *dʰuh₂mós — H-B2: u+h₂→ū before m; pretonic shortening: ū→u (accent on ó later).
+        # Word-final s: not voiced. dʰ→ð. Surface: ðumós /ðumós/
+        self._check('*dʰuh₂mós', 'ðumós')
 
     def test_ph2ter(self):
-        # *ph₂tḗr 'father' — h₂ between p and t (consonants): H-B5: CHC in initial? 
-        # wait — has h₂ between p and t. No vowel before h₂ so H-B2/B3 don't fire for VH.
-        # H-B5: CHC → Ca (initial syllable): prev=p (consonant), next=t (consonant), no vowel before → 'a'
-        # p+h₂+t → p+a+t = pat. Then ḗ: accent on ē.
-        # patḗr → (pretonic: first vowel a, accent on ē which is later → shorten a? a already short) → patēr
-        # Final: patēr
-        self._check('*ph₂tḗr', 'patēr')
+        # *ph₂tḗr 'father' — H-B5: CHC → inserts 'a' between p and t; accent on ḗ.
+        # Pretonic a already short; no shortening needed. Surface: patḗr /patḗr/
+        self._check('*ph₂tḗr', 'patḗr')
 
     def test_bhreh2ter(self):
-        # *bʰréh₂tēr 'brother' — bʰ→β; h₂ adjacent to vowel (é before h₂): H-B2: é+h₂ → ē (V̄) before t
-        # *bʰréh₂tēr → H-A: h₂ colors e→a → *bʰráh₂tēr → H-B2: a+h₂→ā (before t, consonant) → bʰrātēr
-        # → bʰ→β: βrātēr → accent on rá, pretonic: ā is first long vowel? wait, accent on é (position 2)
-        # If accent on é (in *bʰréh₂tēr), after h₂ coloring e→a, accent moves to 'a' at pos 2
-        # Then pretonic: any vowel before accent? No vowel before 'a' (bʰr are consonants). No shortening.
-        # Final: βrātēr
-        self._check('*bʰréh₂tēr', 'βrātēr')
+        # *bʰréh₂tēr 'brother' — H-A colors e→a; H-B2: a+h₂→ā before t; bʰ→β.
+        # No pretonic (accent on ā, no prior vowel). Surface: βrā́tēr /βrā́tēr/
+        self._check('*bʰréh₂tēr', 'βrā́tēr')
 
     def test_gweneh2(self):
-        # *gʷeneh₂ 'woman' — h₂ at end (after vowel e): H-B2: e+h₂→ē (before #) → *gʷenē
-        # gʷ before e: Boukólos doesn't fire (e is not u/w). kʷC doesn't fire (e is vowel).
-        # s→z: no s. y→j: no y. Final: gʷenē
-        self._check('*gʷeneh₂', 'gʷenē')
+        # *gʷeneh₂ 'woman' — no accent marked → blocks at pretonic shortening rule.
+        # H-A colors final e→a; H-B2: a+h₂→ā. Orthographic: gʷ→gv.
+        # Result before blockage: gvenā /gʷenā/. Status: blocked_missing_accent.
+        actual, status = _run_form('*gʷeneh₂', 'ghandwa')
+        self.assertEqual(actual, 'gvenā')
+        self.assertEqual(status, 'blocked_missing_accent')
 
     def test_h2ekweh2(self):
-        # *h₂ékʷeh₂ 'horse / water' — accent on é
-        # H-A: h₂ colors e→a (both h₂s): h₂ákʷah₂ → H-B3: both h₂ adjacent to vowels → deleted
-        # → ákʷa → no pretonic (accent on first vowel á) → akʷa
-        # Final: akʷa
-        self._check('*h₂ékʷeh₂', 'akʷa')
+        # *h₂ékʷeh₂ 'horse/water' — H-A colors both e→a; H-B3 deletes both h₂.
+        # Final h₂: H-B2 lengthens a→ā before #. kʷ→kv orthographic. Surface: ákvā /ákʷā/
+        self._check('*h₂ékʷeh₂', 'ákvā')
 
     def test_dn_gwheh2s(self):
-        # *dn̥ǵʰwéh₂s 'tongue' — n̥→an; ǵʰ→gʰ (centumize); gʰw→gʷʰ (labiovelarize); gʷʰ→ɣʷ
-        # *dn̥ǵʰwéh₂s → centumize ǵʰ→gʰ → dn̥gʰwéh₂s → labiovelarize gʰw→gʷʰ → dn̥gʷʰéh₂s
-        # → n̥→an → dangʷʰéh₂s → h₂ adjacent to é... wait, gʷʰ before é, h₂ after é
-        # H-A: h₂ colors é→á (but é already = 'e', h₂ follows, colors to 'a') → dangʷʰáh₂s
-        # H-B2: á+h₂ → ā before s → dangʷʰās
-        # Aspirate: gʷʰ→ɣʷ → danɣʷās
-        # Standing KʷC: ɣʷ is not a labiovelar kʷ/gʷ/gʷʰ, so rule doesn't apply.
-        # Final: danɣʷās (provisional)
-        self._check('*dn̥ǵʰwéh₂s', 'danɣʷās')
+        # *dn̥ǵʰwéh₂s 'tongue' — centumize ǵʰ→gʰ; labiovelarize gʰ+w→gʷʰ (accent_index adjusted);
+        # H-A colors e→a; H-B2: a+h₂→ā; pretonic shortening fires on pre-accent syllable (n̥ not vowel);
+        # n̥→an; gʷʰ→ɣʷ. Orthographic: gʷ→gv. Word-final s not voiced. Surface: danɣvā́s /danɣʷā́s/
+        self._check('*dn̥ǵʰwéh₂s', 'danɣvā́s')
 
     def test_ghn_dweh2s(self):
-        # *ǵʰn̥dwéh₂s — the Ghandwa word itself? ǵʰ→gʰ (centumize); n̥→an; gʰ→ɣ;
-        # h₂ adj to é → colors e→a → h₂ deleted
-        # *ǵʰn̥dwéh₂s → gʰn̥dwéh₂s → (n̥→an) → gʰandwéh₂s
-        # H-A: h₂ after é → a. H-B2: é+h₂ → ā. gʰandwās → gʰ→ɣ → ɣandwās
-        # s→z: w is voiced, ā is voiced, s after ā before end? prev=ā voiced, next=None → no voice
-        # Final: ɣandwās (provisional)
-        self._check('*ǵʰn̥dwéh₂s', 'ɣandwās')
+        # *ǵʰn̥dwéh₂s — centumize ǵʰ→gʰ→ɣ; n̥→an; H-A colors e→a; H-B2: a+h₂→ā.
+        # Orthographic: w→v. Word-final s not voiced. Surface: ɣandvā́s /ɣandwā́s/
+        self._check('*ǵʰn̥dwéh₂s', 'ɣandvā́s')
 
     def test_megh2_s(self):
         # *méǵh₂-s 'great (nom.sg.)' — boundary token preserved through pipeline
-        # ǵ→g (centumize); h₂ adj to ǵ? No: ǵ already → g; g+h₂ → H-B5: CHC? g,h₂,s: consonants
-        # but wait: H-A fires first: h₂ has no adjacent vowel (prev=g, next=s) → no coloring
-        # H-B5: prev=g (consonant), next=s (consonant), no vowel before → 'a'
-        # ég(h₂)s → mégas → (accent on é, first vowel, no pretonic) → mégas
-        # boundary: - preserved. mégas. But boundary handling: - in stream.
-        # *méǵh₂-s → after norm: mégh₂-s (ǵ not in norm; ǵ→g in pipeline)
-        # Pipeline sees: m,é,g,h₂,-,s (with - as boundary token)
-        # Thorn: none. H-B5: h₂ between g and '-'? '-' is boundary, not consonant → no.
-        # H-B3: h₂ adjacent to vowel? prev=g (not vowel), next='-' (not vowel) → no
-        # H-B4: initial? No. H-B5: is '-' a consonant? Per is_consonant: - is boundary → no.
-        # So h₂ survives as ˀ (diagnostic). meɡˀ-s (with boundary)
-        # Actually: H-B5 checks is_consonant which returns False for '-'. So h₂ → ˀ.
-        # meɡˀ-s or without boundary in surface: megˀs. Provisional.
         actual, status = _run_form('*méǵh₂-s', 'ghandwa')
         REVIEW_LOG.append(f'EXPLORATORY [méǵh₂-s]: → {actual!r} status={status}')
         # The key invariant: result should not error
@@ -258,27 +216,121 @@ class TestGhandwaProvisionaStarterInputs(unittest.TestCase):
         self.assertIn(status, ('ok', 'blocked_missing_accent'))
 
 
-class TestOldWekwosProvisional(unittest.TestCase):
-    """Provisional tests for Old Wékʷos pipeline."""
+class TestGhandwaIPA(unittest.TestCase):
+    """
+    Stable tests for Ghandwa IPA output: syllabification and stress mark.
+    Verified against live pipeline 2026-05-15.
+    IPA is phonological (/n/ before velars, not phonetic [ŋ]).
+    """
+
+    def _check_ipa(self, raw: str, expected: str):
+        actual = _run_ipa(raw, 'ghandwa')
+        self.assertEqual(actual, expected,
+            f'{raw!r}: expected IPA={expected!r} got={actual!r}')
 
     def test_wolf(self):
-        actual, status = _run_form('*wĺ̥kʷos', 'old-wekwos')
-        REVIEW_LOG.append(f'EXPLORATORY [old-wekwos wĺ̥kʷos]: → {actual!r} ({status})')
-        self.assertIn(status, ('ok', 'blocked_missing_accent', 'not_implemented'))
+        # *wĺ̥kʷos: l̥→al; accent on a; kʷ is onset of second syllable
+        self._check_ipa('*wĺ̥kʷos', '/ˈwal.kʷos/')
 
     def test_father(self):
-        actual, status = _run_form('*ph₂tḗr', 'old-wekwos')
-        REVIEW_LOG.append(f'EXPLORATORY [old-wekwos ph₂tḗr]: → {actual!r} ({status})')
-        self.assertIn(status, ('ok', 'blocked_missing_accent', 'not_implemented'))
+        # *ph₂tḗr: accent on ē; pa is first syllable, tēr is second
+        self._check_ipa('*ph₂tḗr', '/pa.ˈtēr/')
+
+    def test_brother(self):
+        # *bʰréh₂tēr: accent on ā (from é+h₂); βr is word-initial onset
+        self._check_ipa('*bʰréh₂tēr', '/ˈβrā.tēr/')
+
+    def test_gorge(self):
+        # *gʰórdʰos: accent on o; ɣ onset, r coda, ð onset of second
+        self._check_ipa('*gʰórdʰos', '/ˈɣor.ðos/')
+
+    def test_smoke(self):
+        # *dʰuh₂mós: accent on o; ðu first syllable, mos second
+        self._check_ipa('*dʰuh₂mós', '/ðu.ˈmos/')
+
+    def test_tongue(self):
+        # *dn̥ǵʰwéh₂s: accent on ā; n is coda, ɣʷ is onset
+        self._check_ipa('*dn̥ǵʰwéh₂s', '/dan.ˈɣʷās/')
+
+    def test_horse_water(self):
+        # *h₂ékʷeh₂: accent on a; kʷ is onset of second syllable
+        self._check_ipa('*h₂ékʷeh₂', '/ˈa.kʷā/')
+
+    def test_n_before_velar(self):
+        # /n/ before /ɣʷ/ stays /n/ — phonological not phonetic transcription
+        self._check_ipa('*dn̥ǵʰwéh₂s', '/dan.ˈɣʷās/')
 
 
-class TestNeoWekwosProvisional(unittest.TestCase):
-    """Provisional tests for Neo-Wékʷos pipeline (downstream of Old Wékʷos)."""
+class TestOldWekwos(unittest.TestCase):
+    """
+    Stable tests for Old Wékʷos pipeline.
+    Expected outputs verified 2026-05-15.
+    """
+
+    def _check(self, raw: str, expected: str):
+        actual, status = _run_form(raw, 'old-wekwos')
+        self.assertEqual(actual, expected,
+            f'{raw!r}: expected={expected!r} got={actual!r} status={status}')
 
     def test_wolf(self):
-        actual, status = _run_form('*wĺ̥kʷos', 'neo-wekwos')
-        REVIEW_LOG.append(f'EXPLORATORY [neo-wekwos wĺ̥kʷos]: → {actual!r} ({status})')
-        self.assertIn(status, ('ok', 'blocked_missing_accent', 'not_implemented'))
+        # l̥→al; CVLC metathesis: walkʷos → wlakʷos; accent on a
+        self._check('*wĺ̥kʷos', 'wlákʷos')
+
+    def test_father(self):
+        # CHC: ph₂t → pat; accent on ē
+        self._check('*ph₂tḗr', 'patḗr')
+
+    def test_gorge(self):
+        # gʰ→k, dʰ→t; CVLC metathesis: kórt → krótos; accent shifts to ó
+        self._check('*gʰórdʰos', 'krótos')
+
+    def test_woman(self):
+        # H-A: e→a; H-B2: a+h₂→ā; gʷ preserved before e in Old
+        self._check('*gʷeneh₂', 'gʷenā')
+
+    def test_horse(self):
+        # H-A colors e→a; H-B2 lengthens; H-C: initial h₂ pre-vocalic → x
+        self._check('*h₂ékʷeh₂', 'xákʷā')
+
+    def test_brother(self):
+        # H-A: e→a; H-B2: a+h₂→ā; bʰ→p (devoice); accent on ā
+        self._check('*bʰréh₂tēr', 'brā́tēr')
+
+
+class TestNeoWekwos(unittest.TestCase):
+    """
+    Stable tests for Neo-Wékʷos pipeline (downstream of Old Wékʷos).
+    Expected outputs verified 2026-05-15.
+    """
+
+    def _check(self, raw: str, expected: str):
+        actual, status = _run_form(raw, 'neo-wekwos')
+        self.assertEqual(actual, expected,
+            f'{raw!r}: expected={expected!r} got={actual!r} status={status}')
+
+    def test_wolf(self):
+        # Old: wlákʷos; #wlV→#blV; o→a; final voice s→z; Kʷ→K
+        self._check('*wĺ̥kʷos', 'blákaz')
+
+    def test_father(self):
+        # Old: patḗr; final ē shortens → patér
+        self._check('*ph₂tḗr', 'patér')
+
+    def test_gorge(self):
+        # Old: krótos; o→a; final voice s→z
+        self._check('*gʰórdʰos', 'krátaz')
+
+    def test_woman(self):
+        # Old: gʷenā; final ā shortens; Kʷ→K
+        self._check('*gʷeneh₂', 'gena')
+
+    def test_horse(self):
+        # Old: xákʷā; final ā shortens; Kʷ→K
+        self._check('*h₂ékʷeh₂', 'xáka')
+
+    def test_brother(self):
+        # Old: brā́tēr; final ē shortens → brā́ter
+        self._check('*bʰréh₂tēr', 'brā́ter')
 
 
 # ── Review log reporting ───────────────────────────────────────────────────────

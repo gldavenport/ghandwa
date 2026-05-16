@@ -1,9 +1,10 @@
 # Ghandwa: Notation System
 
 ---
-last_updated: 2026-05-05T00:00-04:00
+last_updated: 2026-05-15T00:00-04:00
 session: "Added §§8–11: glide/semivowel conventions, Sharpscript long vowels, lexicon field conventions (verb citation, provenance, pre_root), and markdown document conventions (italicization, cognate column formatting). Absorbed content previously living only in project instructions."
 changelog:
+  - 2026-05-15T00:00-04:00 | — | Added §14 (Transformer Input Normalization: Palatals vs. Accent — U+0301 on consonants kept as palatalization diacritic; U+0301 on vowels/syllabic resonants extracted as accent_char_pos). Added §15 (Ghandwa Orthographic Conventions in Transformer Output — token substitution table: kʷ→kv, gʷ→gv, ɣʷ→ɣv, j→i, w→v; ˀ diagnostic tracer note).
   - 2026-05-05T00:00-04:00 | stub sections added | Added §12 TODO stub (doublets/dialectal variants framework) and §13 TODO stub (Sophomore list gap analysis). Changelog and last_updated updated.
   - 2026-04-13T00:00-04:00 | 204 lines | Added §8 Glide and Semivowel Conventions (/j/ → ⟨i⟩; /w/ onset ⟨v⟩ vs coda ⟨u⟩). Added §9 Sharpscript Long Vowels (vowel doubling in script). Added §10 Lexicon Field Conventions (verb citation form = 3sg pres act ind; provenance PIE/PGh; pre_root asterisk convention). Added §11 Markdown and Document Conventions (italicization rule; cognate column `\*form-` vs `*form*`). Added normalization rule to §3 (ğ → ɣ in output).
   - 2026-03-22T18:00-04:00 | 139 lines | Added §7 Lexicon Entry Status Pipeline. Four tiers: stub (gloss reservation, no form), draft (has form, awaiting vetting), hold (has form, blocked on open question), canon (settled, usable in text). Minimum field requirements defined for each tier. Replaces prior ad-hoc labels (candidate→draft, unresolved→hold, canonical→canon).
@@ -239,3 +240,36 @@ This applies to `cog_Celtic`, `cog_Germanic`, `cog_Italic`, and the other `cog_*
 **When to do it:** After the verb system is settled, so that verbal entries (cognitive verbs, speech act verbs, modals) can be generated alongside nominals in the same pass.
 
 **Delegation:** Suitable for ChatGPT batch pass once the lexicon TSV is stable.
+
+---
+
+## 14. Transformer Input Normalization: Palatals vs. Accent
+
+The `normalize.py` module in `pie_transformer/` distinguishes two uses of U+0301 (combining acute accent) in PIE input strings:
+
+**Lexical pitch accent** — combining acute on a **vowel** or **syllabic resonant** (identified by U+0325 ring-below in the cluster, e.g. *ĺ̥*, *ŕ̥*). The accent is stripped from the input and recorded as `accent_char_pos` for downstream use by accent-sensitive rules (pretonic shortening, etc.).
+
+**Palatalization diacritic** — combining acute on a **consonant** (e.g. `ǵ` = g+U+0301, `ḱ` = k+U+0301). This is a PIE notation convention for palatal stops, not a prosodic mark. The diacritic is kept in the normalized string and passed to the centumization rule (`ǵ→g`, `ḱ→k`, `ǵʰ→gʰ`).
+
+The practical consequence: input strings like `*ǵʰn̥dwéh₂s` are normalized correctly — the acute on `ǵʰ` survives, while the acute on `é` is extracted as the accent position. The centumization rule then applies to the surviving `ǵʰ` token in the pipeline.
+
+**Input convention for PIE preforms in the lexicon:** Palatal stops should always be written with the precomposed forms (`ǵ`, `ḱ`, `ǵʰ`) or their NFC-normalized equivalents, not as plain `g` or `k`. The transformer relies on these diacritics to identify palatals for centumization.
+
+---
+
+## 15. Ghandwa Orthographic Conventions in Transformer Output
+
+The `render.py` module in `pie_transformer/` applies the following token-level substitutions when producing orthographic (surface) output. IPA output uses tokens directly without substitution.
+
+| Token (IPA) | Orthography | Notes |
+|---|---|---|
+| `kʷ` | `kv` | Labiovelar stop |
+| `gʷ` | `gv` | Labiovelar stop |
+| `ɣʷ` | `ɣv` | Labiovelar fricative (from \*gʷʰ) |
+| `j` | `i` | Palatal glide (see §8) |
+| `w` | `v` | Labial glide (onset position; see §8) |
+| all others | unchanged | — |
+
+These substitutions are applied after accent marking. Accent marks (acute) appear in orthographic output on the accented segment.
+
+`ˀ` (surviving laryngeal / glottal stop) passes through unchanged in both output modes. It is a **diagnostic tracer**, not a real surface segment — its presence indicates a laryngeal that was not consumed by any rule, signalling a gap in the rule inventory. It should never appear in a canon entry's `lemma_1_ipa` or `gh_lemma_1_orth` fields.

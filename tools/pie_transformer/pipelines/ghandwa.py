@@ -65,25 +65,29 @@ _CENTUMIZE = _rule(
 )
 
 def _labiovelarize(toks: list[str], ctx: Context) -> list[str]:
-    """K+w → Kʷ (sequence merge)."""
+    """K+w → Kʷ (sequence merge).
+
+    Each merge reduces the token list by 1.  For every merge whose first token
+    is strictly before ctx.accent_index, the accent shifts left by 1.
+    """
     out: list[str] = []
+    merges_before_accent = 0
     i = 0
     while i < len(toks):
         tok, nxt = toks[i], toks[i + 1] if i + 1 < len(toks) else None
+        merged = False
         if tok == 'k' and nxt == 'w':
-            out.append('kʷ'); i += 2
+            out.append('kʷ'); i += 2; merged = True
         elif tok == 'g' and nxt == 'w':
-            out.append('gʷ'); i += 2
+            out.append('gʷ'); i += 2; merged = True
         elif tok == 'gʰ' and nxt == 'w':
-            out.append('gʷʰ'); i += 2
+            out.append('gʷʰ'); i += 2; merged = True
         else:
             out.append(tok); i += 1
-        # Update accent_index for merged pairs that consumed a token before accent
-        # (handled conservatively: done once at end if length changed)
-    if len(out) < len(toks) and ctx.accent_index is not None:
-        # Rough adjustment: count how many merges happened before accent position
-        # This is a best-effort update; complex cases may require manual review
-        pass  # see _update_accent_for_merge below
+        if merged and ctx.accent_index is not None and (i - 2) < ctx.accent_index:
+            merges_before_accent += 1
+    if ctx.accent_index is not None:
+        ctx.accent_index -= merges_before_accent
     return out
 
 _LABIOVELARIZE = _rule('gh.lv_merge', 'Labiovelarization: K+w → Kʷ', 'Pre-stage', _labiovelarize)
@@ -432,8 +436,6 @@ _PRETONIC = _rule(
 
 
 # ── Standing rules (post-Stage 1 pass) ────────────────────────────────────────
-# In the JSX these run to stability after each stage; here they appear once
-# at each position. One pass handles all practical PIE inputs.
 
 _STAND_LV_1  = _rule('gh.stand_lv_1',  'Kw→kʷ (standing, post S1)',          'Standing', _labiovelarize)
 _STAND_BOK_1 = _rule('gh.stand_bok_1', 'Boukólos (standing, post S1)',        'Standing', _boukólos)

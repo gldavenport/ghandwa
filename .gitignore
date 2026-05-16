@@ -10,3 +10,7 @@ vocab/.DS_Store
 # Reference PDFs — stored locally, not version-controlled
 # Extraction packages (markdown + TSV) are committed; source PDFs are not.
 references/**/*.pdf
+
+# NocoDB — database file is binary/not diff-able; scaffold files are committed
+ghandwa-db/noco.db
+ghandwa-db/nc/

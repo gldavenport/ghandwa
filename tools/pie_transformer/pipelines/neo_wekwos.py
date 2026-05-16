@@ -92,6 +92,16 @@ def _x_liquid(toks, ctx):
 
 _X_LV = _rule('nwk.xlv', 'Neo: #xLV → #kLV — initial laryngeal residue fortifies', 'Laryngeals', _x_liquid)
 
+# #wlV and #mlV → #blV
+def _wl_ml_initial(toks, ctx):
+    """Neo: #wlV and #mlV → #blV — initial w/m before liquid+vowel → b."""
+    if (len(toks) >= 3 and toks[0] in ('w', 'm') and
+            is_liquid(toks[1]) and is_vowel(toks[2])):
+        return ['b'] + toks[1:]
+    return toks
+
+_WL_ML_INIT = _rule('nwk.wlml', 'Neo: #wlV/#mlV → #blV — initial w/m before liquid+vowel → b', 'Consonants', _wl_ml_initial)
+
 # 4.2: Collapse of homorganic diphthongs
 def _homorganic_collapse(toks, ctx):
     """Neo 4.2: ey/ej → ī, ow → ū."""
@@ -224,6 +234,7 @@ RULES: list[Rule] = [
     _S_VOICE,
     _NASAL_DROP,
     _FINAL_VOICE,
+    _WL_ML_INIT,
     _KW_DEL,
     _FINAL_RHOT,
 ]

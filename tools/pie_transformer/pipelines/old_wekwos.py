@@ -11,7 +11,7 @@ centumization and labiovelarization are defined here.
 Key differences from Ghandwa:
   - Voiced aspirates devoice (not → voiced fricatives)
   - Laryngeal residue: h₂/h₃ → x (consonantal residue), h₁/H → ∅
-  - Liquid metathesis and substrate phonology rules
+  - Liquid metathesis and cluster assimilation rules
   - No Ghandwa-specific KʷC→K delabialization rule
 """
 
@@ -54,18 +54,24 @@ _CENTUMIZE = _rule(
 
 def _labiovelarize(toks, ctx):
     out = []
+    merges_before_accent = 0
     i = 0
     while i < len(toks):
         tok = toks[i]
         nxt = toks[i + 1] if i + 1 < len(toks) else None
+        merged = False
         if tok == 'k' and nxt == 'w':
-            out.append('kʷ'); i += 2
+            out.append('kʷ'); i += 2; merged = True
         elif tok == 'g' and nxt == 'w':
-            out.append('gʷ'); i += 2
+            out.append('gʷ'); i += 2; merged = True
         elif tok == 'gʰ' and nxt == 'w':
-            out.append('gʷʰ'); i += 2
+            out.append('gʷʰ'); i += 2; merged = True
         else:
             out.append(tok); i += 1
+        if merged and ctx.accent_index is not None and (i - 2) < ctx.accent_index:
+            merges_before_accent += 1
+    if ctx.accent_index is not None:
+        ctx.accent_index -= merges_before_accent
     return out
 
 _LABIOVELARIZE = _rule('wk.lv_merge', 'Labiovelarization: K+w → Kʷ', 'Pre-stage', _labiovelarize)
@@ -121,7 +127,11 @@ def _h_vh(toks, ctx):
             prev = out[-1]
             nxt = toks[i + 1] if i + 1 < len(toks) else None
             if is_vowel(prev) and (nxt is None or not is_vowel(nxt)):
-                out.pop(); out.append(lengthen(prev)); i += 1; continue
+                out.pop(); out.append(lengthen(prev)); i += 1
+                # H deleted: accent shifts left if it was beyond this position
+                if ctx.accent_index is not None and ctx.accent_index >= i:
+                    ctx.accent_index -= 1
+                continue
         out.append(tok); i += 1
     return out
 
@@ -149,6 +159,8 @@ def _h_d_prevocalic(toks, ctx):
         tok = toks[i]
         nxt = toks[i + 1] if i + 1 < len(toks) else None
         if tok in ('h₁', 'H') and nxt and is_vowel(nxt):
+            if ctx.accent_index is not None and ctx.accent_index > i:
+                ctx.accent_index -= 1
             i += 1; continue  # deleted
         out.append(tok); i += 1
     return out
@@ -174,6 +186,8 @@ _H_BTW_C = _rule('wk.h_22', 'Old 2.2: CHC → Ca — laryngeal between consonant
 def _h_initial_c(toks, ctx):
     """Old 2.4: #HC → C — initial laryngeal before consonant deleted."""
     if len(toks) > 1 and is_laryngeal(toks[0]) and is_consonant(toks[1]):
+        if ctx.accent_index is not None and ctx.accent_index > 0:
+            ctx.accent_index -= 1
         return toks[1:]
     return toks
 
@@ -195,6 +209,11 @@ def _syl_res_vocalize(toks, ctx):
     while i < len(toks):
         tok = toks[i]
         if tok in RES:
+            if ctx.accent_index is not None:
+                if ctx.accent_index == i:
+                    ctx.accent_index = len(out)  # accent moves to 'a'
+                elif ctx.accent_index > i:
+                    ctx.accent_index += 1         # one extra token inserted before accent
             out.extend(['a', RES[tok]])
         else:
             out.append(tok)
@@ -222,10 +241,15 @@ def _aspirate_devoice(toks, ctx):
 _ASP_DEVOICE = _rule('wk.asp_dev', 'Old 4.2: Dʰ → T — aspirates devoice', 'Aspirates', _aspirate_devoice)
 
 
-# ── Substrate phonology ───────────────────────────────────────────────────────
+# ── Cluster assimilation ───────────────────────────────────────────────────────
 
 def _liquid_metathesis(toks, ctx):
-    """Old 5.1: CVLC → CLVC — liquid metathesis."""
+    """Old 5.1: CVLC → CLVC — liquid metathesis.
+
+    Token count is unchanged (3 consumed, 3 emitted per firing).
+    Only the vowel moves: from position i+1 to len(out)+2 in output.
+    Positions after the block are unaffected.
+    """
     out = []; i = 0
     while i < len(toks):
         a = toks[i] if i < len(toks) else None
@@ -236,13 +260,15 @@ def _liquid_metathesis(toks, ctx):
                 b and is_vowel(b) and
                 c and is_liquid(c) and
                 d and is_consonant(d)):
+            if ctx.accent_index is not None and ctx.accent_index == i + 1:
+                ctx.accent_index = len(out) + 2  # vowel moves to third output slot
             out.extend([a, c, b])
             i += 3
         else:
             out.append(toks[i]); i += 1
     return out
 
-_LIQ_META = _rule('wk.liq_meta', 'Old 5.1: CVLC → CLVC — liquid metathesis', 'Substrate', _liquid_metathesis)
+_LIQ_META = _rule('wk.liq_meta', 'Old 5.1: CVLC → CLVC — liquid metathesis', 'Cluster Assimilation', _liquid_metathesis)
 
 def _stop_before_nasal(toks, ctx):
     """5.1b: VTNV → VNDV — voiceless stop before nasal voices."""
@@ -263,7 +289,7 @@ def _stop_before_nasal(toks, ctx):
             out.append(toks[i]); i += 1
     return out
 
-_STOP_NASAL = _rule('wk.stop_nas', 'Old 5.1b: VTNV → VNDV — stop before nasal voices', 'Substrate', _stop_before_nasal)
+_STOP_NASAL = _rule('wk.stop_nas', 'Old 5.1b: VTNV → VNDV — stop before nasal voices', 'Cluster Assimilation', _stop_before_nasal)
 
 def _initial_pr_voice(toks, ctx):
     """Old 5.3: #pr → #br — initial labial+r voices."""
@@ -271,7 +297,7 @@ def _initial_pr_voice(toks, ctx):
         return ['b'] + toks[1:]
     return toks
 
-_INIT_PR = _rule('wk.init_pr', 'Old 5.3: #pr → #br — initial labial+r voices', 'Substrate', _initial_pr_voice)
+_INIT_PR = _rule('wk.init_pr', 'Old 5.3: #pr → #br — initial labial+r voices', 'Cluster Assimilation', _initial_pr_voice)
 
 
 # ── Pipeline ──────────────────────────────────────────────────────────────────
@@ -295,7 +321,7 @@ RULES: list[Rule] = [
     # Aspirates
     _ASP_LIQUID,
     _ASP_DEVOICE,
-    # Substrate
+    # Cluster assimilation
     _LIQ_META,
     _STOP_NASAL,
     _INIT_PR,
