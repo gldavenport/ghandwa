@@ -72,6 +72,21 @@ def main(argv: list[str] | None = None) -> int:
     p_batch.add_argument('--write-back', dest='write_back', action='store_true',
                          help='Update the input TSV in place (only for transformer-ready TSV)')
 
+    # ── paradigm command ───────────────────────────────────────────────────────
+    p_paradigm = sub.add_parser('paradigm', help='Generate a noun paradigm table')
+    p_paradigm.add_argument('nom_sg', help='Nominative singular (Ghandwa orthography)')
+    p_paradigm.add_argument('gen_sg', help='Genitive singular (used for class detection)')
+    p_paradigm.add_argument('--stem-class', dest='stem_class', default=None,
+                            help='Override auto-detection (a_stem, o_stem_m, o_stem_n, '
+                                 'i_stem, u_stem_mf, u_stem_n, s_stem)')
+    p_paradigm.add_argument('--ipa', action='store_true',
+                            help='Show ending IPA column')
+    p_paradigm.add_argument('--format', '-f', default='text',
+                            choices=['text', 'markdown'],
+                            help='Output format (default: text)')
+    p_paradigm.add_argument('--out', '-o', default=None,
+                            help='Write output to file (otherwise stdout)')
+
     # ── extract-lexicon command ────────────────────────────────────────────────
     p_extract = sub.add_parser('extract-lexicon',
                                help='Extract transformer-ready TSV from human lexicon TSV')
@@ -91,11 +106,39 @@ def main(argv: list[str] | None = None) -> int:
         return _cmd_form(args)
     elif args.command == 'batch':
         return _cmd_batch(args)
+    elif args.command == 'paradigm':
+        return _cmd_paradigm(args)
     elif args.command == 'extract-lexicon':
         return _cmd_extract(args)
     else:
         parser.print_help()
         return 1
+
+
+# ── paradigm command ───────────────────────────────────────────────────────────
+
+def _cmd_paradigm(args) -> int:
+    from .paradigm_noun import generate, format_table, format_markdown
+
+    try:
+        result = generate(args.nom_sg, args.gen_sg, stem_class_override=args.stem_class)
+    except ValueError as exc:
+        print(f'Error: {exc}', file=sys.stderr)
+        return 1
+
+    if args.format == 'markdown':
+        text = format_markdown(result)
+    else:
+        text = format_table(result, show_ipa=args.ipa)
+
+    if args.out:
+        with open(args.out, 'w', encoding='utf-8') as fh:
+            fh.write(text)
+        print(f'Written to {args.out}')
+    else:
+        print(text)
+
+    return 0
 
 
 # ── form command ───────────────────────────────────────────────────────────────

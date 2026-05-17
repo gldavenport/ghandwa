@@ -2,6 +2,8 @@
 
 *Last updated: 2026-05-16. Line count: see changelog.*
 
+No open items remain in the initial paradigm-construction scope.
+
 ---
 
 ## §1. Overview
@@ -25,7 +27,7 @@ Ghandwa verbs fall into the following classes on the basis of present-stem forma
 
 **III. Athematic root presents.** Zero-grade root (full grade in sg. active) with primary endings added directly to the root. Relic class: confined to high-frequency inherited verbs ('be', 'go', 'give', 'stand', 'do/put', 'know').
 
-**IV. Nasal presents.** Root with a nasal infix or suffix in the present stem only; zero-grade root. Subclasses: nasal infix, nasal suffix, *-néw/nu-* type, nasal-remodeled. [*Subclass paradigms open: see §8.*]
+**IV. Nasal presents.** Root with a nasal infix or suffix in the present stem only; zero-grade root. Two active subclasses: `nasal-infix` (attested) and `nasal-suffix` (supported, unattested). The *-néw/nu-* type is dropped for insufficient WIE support.
 
 **V. Reduplicated presents.** Root reduplication plus present stem. Relic class; lexically enumerated. [*Inventory open: see §8.*]
 
@@ -89,7 +91,15 @@ The 3pl athematic zero-grade cluster (*\*h₁snti* for 'be') resolves to *santi*
 
 ### §3.4 Nasal presents (Class IV)
 
-[*Open. At least four subtypes are attested in the lexicon (nasal-infix, nasal-suffix, *-néw/nu-*, nasal-remodeled). Subclass paradigms to be drafted when inventory is confirmed. See §8.*]
+Three subtypes are recognized:
+
+| Subtype | Label | Status | Lexicon examples |
+|---|---|---|---|
+| Nasal infix | `nasal-infix` | Attested | *ganṓti* 'know', *talnā́ti* 'bear', *iunékti* 'join', *kalnéiti* 'lean' |
+| *-no-* suffix | `nasal-suffix` | Supported, unattested | — |
+| *-néw/nu-* type | — | Dropped; WIE attestation insufficient | — |
+
+The `nasal-infix` class subsumes both classic infix forms (*iunékti* < *\*yunégti / \*yungénti*) and laryngeal-colored forms (*ganṓti* < *\*ǵn̥néh₃ti / \*ǵn̥nh₃énti*). The surface vowel difference (*-ō-* vs. *-e-*) is a phonological outcome of CHC > CaC, not a morphological distinction; no label split is needed. The `nasal-suffix` type is carried as a supported class pending lexicon attestation; paradigm examples will be reviewed when the verb generator is available.
 
 ### §3.5 Reduplicated presents (Class V)
 
@@ -133,7 +143,16 @@ Formed with a long thematic vowel (*-ō/ē-*) plus primary endings. The long vow
 
 Semantic value: projection, expectation. Formally distinct from the optative.
 
-Athematic subjunctive (e.g. *es-*): thematization of the root is the expected strategy (e.g. *esō*, *esēti*, *esōnti*). Full paradigm deferred pending confirmation that thematization is consistent across all athematic roots. [*Open: see §8.*]
+Athematic subjunctive: all athematic verbs thematize in the subjunctive. The subjunctive stem is the full-grade root plus the long thematic vowel, identical in structure to the thematic subjunctive. The *-ē-* formant is the standard PIE long-vowel subjunctive suffix (*\*-ē/ō-*) attached directly to the root.
+
+| Root | Present 3sg | Subjunctive 3sg |
+|---|---|---|
+| *es-* 'be' | *esti* | *esēti* |
+| *h₁ei-* 'go' | *éiti* | *eyēti* |
+| *deh₃-* 'give' | *dídōti* | *dōēti* |
+| *steh₂-* 'stand' | *stā́ti* | *stāēti* |
+
+Where the root already ends in a long vowel (*dōēti*, *stāēti*), the subjunctive produces a long-vowel hiatus sequence. This is not contracted at the Ghandwa level; resolution is left to daughter languages.
 
 ### §5.2 Optative
 
@@ -236,7 +255,17 @@ Confirmed: *dṓt* '(he/she) gave' — root preterite 3sg of the verb 'give'. Wh
 
 ### §7.4 Reduplicated preterite
 
-[*Open. Inventory to be enumerated. Minimum: 'give', probably 'be', 'do', 'go'. See §8.*]
+The reduplicated preterite descends from the PIE reduplicated perfect. It is not a productive category and is not an Italic–Germanic consensus item; both branches independently retained different subsets of the PIE inventory. Ghandwa retains reduplicated preterites for high-frequency inherited verbs where a PIE reduplicated perfect is reconstructable. The standard for future additions is: (1) a PIE reduplicated perfect is reconstructable for the root, and (2) the verb is high-frequency or basic enough that retention in a conservative branch is plausible.
+
+Initial inventory:
+
+| Gloss | Present | PIE perfect | Reduplicated pret. 3sg |
+|---|---|---|---|
+| give | *dídōti* | *\*de-dóh₃-* | *dedṓt* |
+| stand | *stā́ti* | *\*ste-stóh₂-* | *stestṓt* |
+| do/put | TBD | *\*dhe-dhóh₁-* | *ðeðṓt* |
+| drink | *píboti* | *\*pi-ph₃-* | *pipṓt* |
+| carry | TBD | *\*bhe-bhór-* | *βeβṓrt* |
 
 ---
 
@@ -246,9 +275,9 @@ The following issues are documented but unresolved. No settled decision should d
 
 | Issue | Blocking |
 |---|---|
-| Reduplicated preterite verb inventory | §7.4; lexical enumeration |
-| Nasal-present subclassing paradigms | §3.4; at least four subtypes need worked examples |
-| Athematic subjunctive paradigm | §5.1; thematization strategy needs confirmation across all athematic roots |
+| Reduplicated preterite: 'do/put' and 'carry' present forms TBD | §7.4; pending lexicon entries for those roots |
+
+'Be' and 'go' are suppletive and do not receive reduplicated preterites.
 
 ---
 
@@ -278,3 +307,6 @@ These notes record the basis (Italic, Germanic, or both) for non-obvious decisio
 |---|---|---|---|
 | 2026-05-16 | 0.1 | ~220 | Initial draft. Settled decisions through §7.3 documented. Four open items listed in §8. Design notes added. |
 | 2026-05-16 | 0.2 | ~225 | Athematic 3pl resolved: *santi* (CHC > CaC / CaRC convergence). Transformer gap noted. §8 reduced to three open items. |
+| 2026-05-16 | 0.3 | ~240 | Athematic subjunctive settled: thematization with long-vowel formant; hiatus sequences left to daughters. §8 reduced to two open items. |
+| 2026-05-16 | 0.4 | ~255 | Nasal-present subclasses settled: nasal-infix (attested ×4), nasal-suffix (supported/unattested), *-néw/nu-* dropped. §8 reduced to one open item. |
+| 2026-05-16 | 0.5 | ~270 | Reduplicated preterite inventory settled: five initial verbs; PIE-residue framing established; standard for future additions documented. §8 closed. |
