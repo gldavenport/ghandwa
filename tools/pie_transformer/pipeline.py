@@ -6,6 +6,7 @@ Registered pipelines:
   old-wekwos      — implemented (provisional)
   neo-wekwos      — implemented (provisional); downstream of old-wekwos
   proto-anatolian — implemented
+  proto-seldanic  — implemented
   daughter-a/b/c  — not_implemented stubs
 
 Pipeline chaining:
@@ -30,7 +31,7 @@ from .tokenize import tokens_to_string
 
 # ── Pipeline registry ──────────────────────────────────────────────────────────
 
-_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian'}
+_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian', 'proto-seldanic'}
 _NOT_IMPLEMENTED = {'daughter-a', 'daughter-b', 'daughter-c'}
 ALL_PIPELINES = sorted(_IMPLEMENTED | _NOT_IMPLEMENTED)
 
@@ -48,6 +49,9 @@ def _load_rules(name: str) -> list[Rule]:
         return RULES
     if name == 'proto-anatolian':
         from .pipelines.proto_anatolian import RULES
+        return RULES
+    if name == 'proto-seldanic':
+        from .pipelines.proto_seldanic import RULES
         return RULES
     raise ValueError(f'Unknown pipeline: {name!r}')
 

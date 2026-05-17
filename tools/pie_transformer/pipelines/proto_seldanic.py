@@ -91,7 +91,31 @@ def _h_vh(toks: list[str], ctx: Context) -> list[str]:
 _H_VH = _rule('sel.h2', 'H-2: VH → V̄ — postvocalic laryngeal lengthening', 'Laryngeals', _h_vh)
 
 
-# ── Rule 3: Dental clusters ───────────────────────────────────────────────────
+# ── Rule 3: Voiced obstruent → voiceless before t/s ──────────────────────────
+
+def _voiced_before_ts(toks: list[str], ctx: Context) -> list[str]:
+    """Voiced obstruent → voiceless before t or s (Core IE).
+
+    Runs before dental cluster simplification so that the feeding chain
+    *dt > tt > ss is fully ordered: devoicing feeds TT > ss.
+    Voiced aspirates are still present at this stage; they devoice to plain
+    voiceless stops (aspiration lost in this environment).
+    """
+    def _fn(tok: str, i: int, ts: list[str]) -> str:
+        nxt = ts[i + 1] if i + 1 < len(ts) else None
+        if not nxt or nxt not in ('t', 's'):
+            return tok
+        if tok in ('b', 'bʰ'):          return 'p'
+        if tok in ('d', 'dʰ'):          return 't'
+        if tok in ('g', 'gʰ'):          return 'k'
+        if tok in ('gʷ', 'gʷʰ'):        return 'kʷ'
+        return tok
+    return scan(toks, _fn)
+
+_VOICED_BTS = _rule('sel.voi_bts', 'Voiced obstruent → voiceless before t/s (Core IE)', 'Consonants', _voiced_before_ts)
+
+
+# ── Rule 4: Dental clusters ───────────────────────────────────────────────────
 
 def _tt_ss(toks: list[str], ctx: Context) -> list[str]:
     """TT → ss: dental before dental → geminate ss."""
@@ -131,17 +155,17 @@ def _ssc_simplify(toks: list[str], ctx: Context) -> list[str]:
 _SSC = _rule('sel.ssc', 'ssC → sC: geminate ss simplifies before consonant', 'Dentals', _ssc_simplify)
 
 
-# ── Rule 4: Interconsonantal laryngeals (CHC → CaC) ───────────────────────────
+# ── Rule 5: Interconsonantal laryngeals (CHC → CaC) ───────────────────────────
 
 def _chc_repair(toks: list[str], ctx: Context) -> list[str]:
     """H-3: CHC → CaC — uniform a-repair.
 
-    Ordered after dental cluster simplification (rule 3) so clusters are
+    Ordered after dental cluster simplification (rule 4) so clusters are
     resolved before CHC vocalization. Ordered before centum merger and
     aspirate devoicing so laryngeals are still consonantal.
 
     KʷHC sequences become KʷaC; the labiovelar then precedes a vowel and
-    is not caught by the later delabialization rule (rule 8).
+    is not caught by the later delabialization rule (rule 9).
     """
     out: list[str] = []
     i = 0
@@ -163,7 +187,7 @@ def _chc_repair(toks: list[str], ctx: Context) -> list[str]:
 _CHC = _rule('sel.chc', 'H-3: CHC → CaC — uniform interconsonantal laryngeal repair', 'Laryngeals', _chc_repair)
 
 
-# ── Rule 5: Centum merger ─────────────────────────────────────────────────────
+# ── Rule 6: Centum merger ─────────────────────────────────────────────────────
 
 _CENTUM = _rule(
     'sel.centum', 'Centum merger: ḱ→k, ǵ→g, ǵʰ→gʰ', 'Centum',
@@ -175,7 +199,7 @@ _CENTUM = _rule(
 )
 
 
-# ── Rule 6: Voiced aspirates devoice, retaining aspiration ───────────────────
+# ── Rule 7: Voiced aspirates devoice, retaining aspiration ───────────────────
 
 _DEASPIRATE_VOICE = _rule(
     'sel.deaff', 'Dʰ → Tʰ: bʰ→pʰ, dʰ→tʰ, gʰ→kʰ, gʷʰ→kʷʰ', 'Aspirates',
@@ -188,7 +212,7 @@ _DEASPIRATE_VOICE = _rule(
 )
 
 
-# ── Rule 7: Syllabic resonants ────────────────────────────────────────────────
+# ── Rule 8: Syllabic resonants ────────────────────────────────────────────────
 
 def _syl_res(toks: list[str], ctx: Context) -> list[str]:
     """R̥ vocalization: KʷR̥ → KʷuR (runs first), then R̥ → aR.
@@ -221,13 +245,13 @@ def _syl_res(toks: list[str], ctx: Context) -> list[str]:
 _SYL_RES = _rule('sel.sylres', 'Syllabic resonants: KʷR̥→KʷuR, R̥→aR', 'Syllabics', _syl_res)
 
 
-# ── Rule 8: Labiovelar delabialization ────────────────────────────────────────
+# ── Rule 9: Labiovelar delabialization ────────────────────────────────────────
 
 def _delab(toks: list[str], ctx: Context) -> list[str]:
     """Kʷ → K / _C and / _{u,ū,w} and / {u,ū,w}_.
 
-    Covers all labiovelars (kʷ, gʷ, kʷʰ). Catches KʷuR output of rule 7
-    via the _{u} environment. KʷaC sequences (from rule 4) are NOT caught
+    Covers all labiovelars (kʷ, gʷ, kʷʰ). Catches KʷuR output of rule 8
+    via the _{u} environment. KʷaC sequences (from rule 5) are NOT caught
     here; Kʷ before a vowel does not delabialized.
     """
     out: list[str] = []
@@ -275,18 +299,20 @@ RULES: list[Rule] = [
     _H_COLOR,
     # Rule 2: postvocalic laryngeal lengthening
     _H_VH,
-    # Rule 3: dental clusters (before CHC)
+    # Rule 3: voiced obstruents devoice before t/s (feeds TT > ss)
+    _VOICED_BTS,
+    # Rule 4: dental clusters (after devoicing)
     _TT_SS,
     _SSC,
-    # Rule 4: interconsonantal laryngeals
+    # Rule 5: interconsonantal laryngeals
     _CHC,
-    # Rule 5: centum merger
+    # Rule 6: centum merger
     _CENTUM,
-    # Rule 6: voiced aspirates devoice
+    # Rule 7: voiced aspirates devoice
     _DEASPIRATE_VOICE,
-    # Rule 7: syllabic resonants (KʷR̥ → KʷuR first, then R̥ → aR)
+    # Rule 8: syllabic resonants (KʷR̥ → KʷuR first, then R̥ → aR)
     _SYL_RES,
-    # Rule 8: labiovelar delabialization
+    # Rule 9: labiovelar delabialization
     _DELAB,
     # Cleanup: drop any surviving laryngeals
     _H_DROP,
