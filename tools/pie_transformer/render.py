@@ -239,6 +239,15 @@ def _ghandwa_ipa(tokens: list[str]) -> str:
     return '/' + '.'.join(parts) + '/'
 
 
+# ── Proto-Seldanic renderers ───────────────────────────────────────────────────
+# No surface/orthographic form. IPA only: tokens joined, wrapped in /…/.
+
+def _proto_seldanic_ipa(tokens: list[str]) -> str:
+    """Proto-Seldanic IPA form. Tokens joined, boundary marks stripped, wrapped in /…/."""
+    body = ''.join(t for t in tokens if t not in ('-', '.'))
+    return '/' + body + '/'
+
+
 # ── Old Wékʷos renderers ───────────────────────────────────────────────────────
 
 def _old_wekwos_surface(tokens: list[str]) -> str:
@@ -264,15 +273,16 @@ def _neo_wekwos_ipa(tokens: list[str]) -> str:
 # ── Dispatch table ─────────────────────────────────────────────────────────────
 
 _SURFACE: dict[str, callable] = {
-    'ghandwa':    _ghandwa_surface,
-    'old-wekwos': _old_wekwos_surface,
-    'neo-wekwos': _neo_wekwos_surface,
+    'ghandwa':        _ghandwa_surface,
+    'old-wekwos':     _old_wekwos_surface,
+    'neo-wekwos':     _neo_wekwos_surface,
 }
 
 _IPA: dict[str, callable] = {
-    'ghandwa':    _ghandwa_ipa,
-    'old-wekwos': _old_wekwos_ipa,
-    'neo-wekwos': _neo_wekwos_ipa,
+    'ghandwa':        _ghandwa_ipa,
+    'old-wekwos':     _old_wekwos_ipa,
+    'neo-wekwos':     _neo_wekwos_ipa,
+    'proto-seldanic': _proto_seldanic_ipa,
 }
 
 

@@ -1,0 +1,293 @@
+"""
+Proto-Seldanic historical pipeline.
+
+Rule ordering follows tools/pie_transformer/docs/proto-seldanic-pipeline.md.
+
+Key features:
+  - Dʰ > Tʰ (voiced aspirates devoice, retaining aspiration)
+  - CHC > CaC (uniform; no high-vowel conditioning)
+  - R̥ > aR generally; KʷR̥ > KʷuR > KuR (labiovelar exception feeds delabialization)
+  - TT > ss / ssC > sC (dental clusters, same as Ghandwa, ordered before CHC)
+  - Kʷ class covers all labiovelars regardless of aspiration (kʷ, gʷ, kʷʰ)
+  - No Grimm's Law; no p-loss; no s > z; no final-syllable erosion
+  - No accent dependency; fully implementable without accent tracking
+"""
+
+from ..rule import Rule, Context, scan
+from ..tokens import (
+    is_vowel, is_laryngeal, is_syl_res, is_dental, is_consonant, is_boundary,
+    lengthen,
+)
+
+
+# ── Rule-building helper ───────────────────────────────────────────────────────
+
+def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
+    return Rule(
+        id=id_,
+        name=name,
+        stage=stage,
+        requires=requires or [],
+        apply=apply_fn,
+    )
+
+
+# ── Category helpers (Seldanic-local) ─────────────────────────────────────────
+
+def _laryngeal_color(h: str, v: str) -> str:
+    """h₂ colors adjacent e→a, h₃ colors adjacent e→o. h₁ neutral."""
+    if v != 'e':
+        return v
+    if h == 'h₂':
+        return 'a'
+    if h == 'h₃':
+        return 'o'
+    return v
+
+LABIOVELARS = ('kʷ', 'gʷ', 'kʷʰ', 'gʷʰ')
+DELAB_MAP   = {'kʷ': 'k', 'gʷ': 'g', 'kʷʰ': 'kʰ', 'gʷʰ': 'gʰ'}
+UW          = frozenset({'u', 'ū', 'w'})
+SYL_RES_MAP = {'r̥': 'r', 'l̥': 'l', 'm̥': 'm', 'n̥': 'n'}
+
+
+# ── Rule 1: Adjacent laryngeal coloring ───────────────────────────────────────
+
+def _h_color(toks: list[str], ctx: Context) -> list[str]:
+    """H-1: h₂/h₃ color adjacent e → a/o."""
+    t = list(toks)
+    for i in range(len(t) - 1):
+        if is_laryngeal(t[i]) and is_vowel(t[i + 1]):
+            t[i + 1] = _laryngeal_color(t[i], t[i + 1])
+    for i in range(len(t) - 1, 0, -1):
+        if is_laryngeal(t[i]) and is_vowel(t[i - 1]):
+            t[i - 1] = _laryngeal_color(t[i], t[i - 1])
+    return t
+
+_H_COLOR = _rule('sel.h1', 'H-1: Laryngeal coloring — h₂/h₃ color adjacent e', 'Laryngeals', _h_color)
+
+
+# ── Rule 2: Postvocalic laryngeal lengthening ─────────────────────────────────
+
+def _h_vh(toks: list[str], ctx: Context) -> list[str]:
+    """H-2: VH → V̄ before consonant or word boundary."""
+    out: list[str] = []
+    i = 0
+    while i < len(toks):
+        tok = toks[i]
+        if is_laryngeal(tok) and out:
+            prev = out[-1]
+            nxt  = toks[i + 1] if i + 1 < len(toks) else None
+            if is_vowel(prev) and (nxt is None or not is_vowel(nxt)):
+                out.pop()
+                out.append(lengthen(prev))
+                if ctx.accent_index is not None and ctx.accent_index > len(out):
+                    ctx.accent_index -= 1
+                i += 1
+                continue
+        out.append(tok)
+        i += 1
+    return out
+
+_H_VH = _rule('sel.h2', 'H-2: VH → V̄ — postvocalic laryngeal lengthening', 'Laryngeals', _h_vh)
+
+
+# ── Rule 3: Dental clusters ───────────────────────────────────────────────────
+
+def _tt_ss(toks: list[str], ctx: Context) -> list[str]:
+    """TT → ss: dental before dental → geminate ss."""
+    out: list[str] = []
+    i = 0
+    while i < len(toks):
+        tok = toks[i]
+        nxt = toks[i + 1] if i + 1 < len(toks) else None
+        if is_dental(tok) and nxt and is_dental(nxt):
+            out.extend(['s', 's'])
+            i += 2
+        else:
+            out.append(tok)
+            i += 1
+    return out
+
+_TT_SS = _rule('sel.tt', 'TT → ss: dental + dental → geminate ss', 'Dentals', _tt_ss)
+
+
+def _ssc_simplify(toks: list[str], ctx: Context) -> list[str]:
+    """ssC → sC: geminate ss simplifies before consonant."""
+    out: list[str] = []
+    i = 0
+    while i < len(toks):
+        if (toks[i] == 's' and
+                i + 1 < len(toks) and toks[i + 1] == 's' and
+                i + 2 < len(toks) and is_consonant(toks[i + 2])):
+            out.append('s')
+            if ctx.accent_index is not None and ctx.accent_index > i:
+                ctx.accent_index -= 1
+            i += 2
+        else:
+            out.append(toks[i])
+            i += 1
+    return out
+
+_SSC = _rule('sel.ssc', 'ssC → sC: geminate ss simplifies before consonant', 'Dentals', _ssc_simplify)
+
+
+# ── Rule 4: Interconsonantal laryngeals (CHC → CaC) ───────────────────────────
+
+def _chc_repair(toks: list[str], ctx: Context) -> list[str]:
+    """H-3: CHC → CaC — uniform a-repair.
+
+    Ordered after dental cluster simplification (rule 3) so clusters are
+    resolved before CHC vocalization. Ordered before centum merger and
+    aspirate devoicing so laryngeals are still consonantal.
+
+    KʷHC sequences become KʷaC; the labiovelar then precedes a vowel and
+    is not caught by the later delabialization rule (rule 8).
+    """
+    out: list[str] = []
+    i = 0
+    while i < len(toks):
+        tok = toks[i]
+        if is_laryngeal(tok):
+            prev = out[-1] if out else None
+            nxt  = toks[i + 1] if i + 1 < len(toks) else None
+            if (prev and is_consonant(prev) and not is_syl_res(prev) and
+                    nxt and is_consonant(nxt) and not is_syl_res(nxt)):
+                out.append('a')
+                # Replaced 1 laryngeal with 1 'a': net token count unchanged
+                i += 1
+                continue
+        out.append(tok)
+        i += 1
+    return out
+
+_CHC = _rule('sel.chc', 'H-3: CHC → CaC — uniform interconsonantal laryngeal repair', 'Laryngeals', _chc_repair)
+
+
+# ── Rule 5: Centum merger ─────────────────────────────────────────────────────
+
+_CENTUM = _rule(
+    'sel.centum', 'Centum merger: ḱ→k, ǵ→g, ǵʰ→gʰ', 'Centum',
+    lambda toks, ctx: scan(toks, lambda t, i, ts:
+        'k'  if t == 'ḱ'  else
+        'g'  if t == 'ǵ'  else
+        'gʰ' if t == 'ǵʰ' else t
+    )
+)
+
+
+# ── Rule 6: Voiced aspirates devoice, retaining aspiration ───────────────────
+
+_DEASPIRATE_VOICE = _rule(
+    'sel.deaff', 'Dʰ → Tʰ: bʰ→pʰ, dʰ→tʰ, gʰ→kʰ, gʷʰ→kʷʰ', 'Aspirates',
+    lambda toks, ctx: scan(toks, lambda t, i, ts:
+        'pʰ'  if t == 'bʰ'  else
+        'tʰ'  if t == 'dʰ'  else
+        'kʰ'  if t == 'gʰ'  else
+        'kʷʰ' if t == 'gʷʰ' else t
+    )
+)
+
+
+# ── Rule 7: Syllabic resonants ────────────────────────────────────────────────
+
+def _syl_res(toks: list[str], ctx: Context) -> list[str]:
+    """R̥ vocalization: KʷR̥ → KʷuR (runs first), then R̥ → aR.
+
+    Kʷ class covers all labiovelars (kʷ, gʷ, kʷʰ), including kʷʰ created
+    from gʷʰ via rules 5–6. The KʷuR output feeds rule 8 (delabialization).
+    """
+    out: list[str] = []
+    i = 0
+    while i < len(toks):
+        tok = toks[i]
+        if is_syl_res(tok):
+            res    = SYL_RES_MAP[tok]
+            prev   = out[-1] if out else None
+            # KʷR̥ → KʷuR
+            if prev in LABIOVELARS:
+                out.extend(['u', res])
+            else:
+                # R̥ → aR
+                out.extend(['a', res])
+            # Replaced 1 syllabic resonant with 2 tokens: update accent
+            if ctx.accent_index is not None and ctx.accent_index > i:
+                ctx.accent_index += 1
+            i += 1
+        else:
+            out.append(tok)
+            i += 1
+    return out
+
+_SYL_RES = _rule('sel.sylres', 'Syllabic resonants: KʷR̥→KʷuR, R̥→aR', 'Syllabics', _syl_res)
+
+
+# ── Rule 8: Labiovelar delabialization ────────────────────────────────────────
+
+def _delab(toks: list[str], ctx: Context) -> list[str]:
+    """Kʷ → K / _C and / _{u,ū,w} and / {u,ū,w}_.
+
+    Covers all labiovelars (kʷ, gʷ, kʷʰ). Catches KʷuR output of rule 7
+    via the _{u} environment. KʷaC sequences (from rule 4) are NOT caught
+    here; Kʷ before a vowel does not delabialized.
+    """
+    out: list[str] = []
+    for i, tok in enumerate(toks):
+        if tok in LABIOVELARS:
+            prev = out[-1] if out else None
+            nxt  = toks[i + 1] if i + 1 < len(toks) else None
+            prev_triggers = prev in UW
+            nxt_triggers  = (nxt in UW or
+                             (nxt is not None and
+                              is_consonant(nxt) and
+                              not is_syl_res(nxt) and
+                              not is_boundary(nxt)))
+            if prev_triggers or nxt_triggers:
+                out.append(DELAB_MAP[tok])
+            else:
+                out.append(tok)
+        else:
+            out.append(tok)
+    return out
+
+_DELAB = _rule('sel.delab', 'Kʷ → K / _C and /{u,ū,w}_ and /_{u,ū,w}', 'Labiovelars', _delab)
+
+
+# ── Remaining laryngeals → ∅ ──────────────────────────────────────────────────
+
+def _h_drop(toks: list[str], ctx: Context) -> list[str]:
+    """H → ∅: delete any surviving laryngeals after all laryngeal rules."""
+    out: list[str] = []
+    for i, tok in enumerate(toks):
+        if is_laryngeal(tok):
+            if ctx.accent_index is not None and ctx.accent_index > len(out):
+                ctx.accent_index -= 1
+        else:
+            out.append(tok)
+    return out
+
+_H_DROP = _rule('sel.hdrop', 'H → ∅: remaining laryngeals deleted', 'Laryngeals', _h_drop)
+
+
+# ── Pipeline (ordered flat list) ──────────────────────────────────────────────
+
+RULES: list[Rule] = [
+    # Rule 1: laryngeal coloring
+    _H_COLOR,
+    # Rule 2: postvocalic laryngeal lengthening
+    _H_VH,
+    # Rule 3: dental clusters (before CHC)
+    _TT_SS,
+    _SSC,
+    # Rule 4: interconsonantal laryngeals
+    _CHC,
+    # Rule 5: centum merger
+    _CENTUM,
+    # Rule 6: voiced aspirates devoice
+    _DEASPIRATE_VOICE,
+    # Rule 7: syllabic resonants (KʷR̥ → KʷuR first, then R̥ → aR)
+    _SYL_RES,
+    # Rule 8: labiovelar delabialization
+    _DELAB,
+    # Cleanup: drop any surviving laryngeals
+    _H_DROP,
+]

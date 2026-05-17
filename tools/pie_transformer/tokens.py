@@ -29,10 +29,12 @@ PHONEME_PATTERNS: list[str] = [
     'h₁', 'h₂', 'h₃',
     # Syllabic resonants
     'r̥', 'l̥', 'm̥', 'n̥',
+    # Voiceless uvular fricatives (Proto-Anatolian retained laryngeals)
+    'χʷ', 'χ',
     # Voiced fricatives (Ghandwa outputs)
     'ɣʷ', 'β', 'ð', 'ɣ',
     # Long vowels
-    'ā', 'ē', 'ī', 'ō', 'ū',
+    'ā', 'ē', 'ī', 'ō', 'ū', 'ǣ',
     # Nasal vowels (defined for completeness; not generated unless a rule requires)
     'ā̃', 'ē̃', 'ī̃', 'ō̃', 'ū̃',
     'ã', 'ẽ', 'ĩ', 'õ', 'ũ',
@@ -51,14 +53,14 @@ LARYNGEALS: frozenset[str] = frozenset(['h₁', 'h₂', 'h₃', 'H'])
 
 VOWELS: frozenset[str] = frozenset([
     'a', 'e', 'i', 'o', 'u',
-    'ā', 'ē', 'ī', 'ō', 'ū',
+    'ā', 'ē', 'ī', 'ō', 'ū', 'ǣ',
     # nasal vowels
     'ã', 'ẽ', 'ĩ', 'õ', 'ũ',
     'ā̃', 'ē̃', 'ī̃', 'ō̃', 'ū̃',
 ])
 
 SHORT_VOWELS: frozenset[str] = frozenset(['a', 'e', 'i', 'o', 'u'])
-LONG_VOWELS: frozenset[str] = frozenset(['ā', 'ē', 'ī', 'ō', 'ū'])
+LONG_VOWELS: frozenset[str] = frozenset(['ā', 'ē', 'ī', 'ō', 'ū', 'ǣ'])
 
 SYL_RES: frozenset[str] = frozenset(['r̥', 'l̥', 'm̥', 'n̥'])
 
@@ -73,6 +75,8 @@ NASALS: frozenset[str] = frozenset(['m', 'n'])
 GLIDES: frozenset[str] = frozenset(['w', 'j', 'y'])
 
 SONORANTS: frozenset[str] = frozenset(['r', 'l', 'm', 'n', 'w', 'y', 'j'])
+
+UVULAR_FRICATIVES: frozenset[str] = frozenset(['χ', 'χʷ'])
 
 # Voiced consonants (for s→z voicing rule)
 VOICED_C: frozenset[str] = frozenset([
@@ -138,6 +142,9 @@ def is_sonorant(t: str) -> bool:
 
 def is_boundary(t: str) -> bool:
     return t in BOUNDARIES
+
+def is_uvular_fricative(t: str) -> bool:
+    return t in UVULAR_FRICATIVES
 
 def is_consonant(t: str) -> bool:
     """Any segment that is not a vowel, laryngeal, glottal stop, or boundary."""

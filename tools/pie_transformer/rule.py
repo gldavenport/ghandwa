@@ -13,6 +13,8 @@ Context:
   accent_index — zero-based token index of the accented segment, or None if unknown.
                  Rules that insert or delete tokens before the accented position
                  are responsible for updating this field.
+  options      — dict of pipeline-specific toggle flags; checked by rules via
+                 ctx.options.get('flag-name', default).
 
 All exceptions during rule execution are caught, logged, and result in status='error'
 for that derivation. In batch mode, processing continues with the next item.
@@ -30,6 +32,7 @@ from typing import Callable
 @dataclass
 class Context:
     accent_index: int | None = None
+    options: dict = field(default_factory=dict)
 
 
 # ── Rule ───────────────────────────────────────────────────────────────────────
