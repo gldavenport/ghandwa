@@ -88,11 +88,8 @@ class TestNormalizationAndTokenizationStable(unittest.TestCase):
 
 
 class TestNotImplemented(unittest.TestCase):
-    """Daughter pipelines return not_implemented. Fail loudly."""
-
-    def test_daughter_a(self):
-        _, status = _run_form('*wlkwos', 'daughter-a')
-        self.assertEqual(status, 'not_implemented')
+    """Daughters B and C return not_implemented. Fail loudly.
+    Daughter A is implemented; its smoke test is in TestDaughterA below."""
 
     def test_daughter_b(self):
         _, status = _run_form('*wlkwos', 'daughter-b')
@@ -350,6 +347,81 @@ class TestReviewLog(unittest.TestCase):
             print(f'=== {len(REVIEW_LOG)} provisional mismatches ===\n', file=sys.stderr)
         # Not a failure; provisional mismatches are expected during development
         self.assertTrue(True)
+
+
+
+
+class TestDaughterA(unittest.TestCase):
+    """Smoke tests for Daughter A pipeline (Stage 2A + Stage 3A)."""
+
+    def _da(self, form):
+        tokens, status = _run_form(form, 'daughter-a')
+        return tokens, status
+
+    def test_status_ok(self):
+        _, status = self._da('*albʰós')
+        self.assertEqual(status, 'ok')
+
+    def test_devoicing(self):
+        # *albhos: beta -> phi
+        tokens, _ = self._da('*albʰós')
+        self.assertIn('ɸ', tokens)
+        self.assertNotIn('β', tokens)
+
+    def test_initial_stress(self):
+        # *albhos: stress on first vowel 'a' (index 0)
+        from pie_transformer.tokenize import tokenize, accent_char_pos_to_token_index
+        from pie_transformer.normalize import normalize
+        from pie_transformer.pipeline import run
+        from pie_transformer.rule import Context
+        res = normalize('*albʰós')
+        toks, offsets = tokenize(res.clean)
+        ai = accent_char_pos_to_token_index(res.accent_char_pos, toks, offsets)
+        ctx = Context(accent_index=ai)
+        result = run('daughter-a', toks, ctx, '*albʰós')
+        self.assertEqual(ctx.accent_index, 0)  # stress on 'a'
+
+    def _da_tokens(self, form):
+        """Run daughter-a and return final_tokens list."""
+        from pie_transformer.tokenize import tokenize, accent_char_pos_to_token_index
+        from pie_transformer.normalize import normalize
+        from pie_transformer.pipeline import run
+        from pie_transformer.rule import Context
+        res = normalize(form)
+        toks, offsets = tokenize(res.clean)
+        ai = accent_char_pos_to_token_index(res.accent_char_pos, toks, offsets)
+        ctx = Context(accent_index=ai)
+        result = run('daughter-a', toks, ctx, form)
+        return result.final_tokens, result.status
+
+    def test_compensatory_lengthening_across_boundary(self):
+        # *kʷrep-s: p-s across boundary -> phi-s -> long e
+        tokens, status = self._da_tokens('*kʷrép-s')
+        self.assertEqual(status, 'ok')
+        self.assertIn('ē', tokens)
+        self.assertNotIn('ɸ', tokens)
+
+    def test_labiovelar_delabialized(self):
+        # *h1ekwos: kw -> k
+        tokens, _ = self._da_tokens('*h₁éḱwos')
+        self.assertNotIn('kʷ', tokens)
+        self.assertIn('k', tokens)
+
+    def test_z_devoiced(self):
+        # *nisdos: s -> z (Ghandwa) -> s (daughter A)
+        tokens, _ = self._da_tokens('*nisdós')
+        self.assertNotIn('z', tokens)
+
+    def test_cluster_spirant_ks(self):
+        # *sveks: ks -> xs -> compensatory -> long vowel
+        tokens, _ = self._da_tokens('*svéks')
+        self.assertIn('ē', tokens)
+        self.assertNotIn('k', tokens)  # k spirantized away
+
+    def test_ghandwa_devoicing_before_boundary_s(self):
+        # *h3regs: g -> k before -s (Ghandwa rule, boundary-transparent)
+        tokens, _ = self._da_tokens('*h₃rḗǵ-s')
+        self.assertNotIn('g', tokens)
 
 
 if __name__ == '__main__':

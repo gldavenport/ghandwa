@@ -19,8 +19,8 @@ PHONEME_PATTERNS: list[str] = [
     'gʷʰ',
     # Palatal aspirate
     'ǵʰ',
-    # Labiovelars
-    'gʷ', 'kʷ',
+    # Labiovelars (including voiceless fricative labiovelar produced by daughter devoicing)
+    'gʷ', 'kʷ', 'xʷ',
     # Plain aspirates
     'gʰ', 'bʰ', 'dʰ',
     # Palatals
@@ -77,6 +77,8 @@ GLIDES: frozenset[str] = frozenset(['w', 'j', 'y'])
 SONORANTS: frozenset[str] = frozenset(['r', 'l', 'm', 'n', 'w', 'y', 'j'])
 
 UVULAR_FRICATIVES: frozenset[str] = frozenset(['χ', 'χʷ'])
+
+VOICELESS_FRICATIVES: frozenset[str] = frozenset(['ɸ', 'θ', 'x', 'xʷ', 's'])
 
 # Voiced consonants (for s→z voicing rule)
 VOICED_C: frozenset[str] = frozenset([
@@ -145,6 +147,9 @@ def is_boundary(t: str) -> bool:
 
 def is_uvular_fricative(t: str) -> bool:
     return t in UVULAR_FRICATIVES
+
+def is_voiceless_fricative(t: str) -> bool:
+    return t in VOICELESS_FRICATIVES
 
 def is_consonant(t: str) -> bool:
     """Any segment that is not a vowel, laryngeal, glottal stop, or boundary."""

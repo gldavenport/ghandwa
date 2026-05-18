@@ -276,6 +276,8 @@ _SURFACE: dict[str, callable] = {
     'ghandwa':        _ghandwa_surface,
     'old-wekwos':     _old_wekwos_surface,
     'neo-wekwos':     _neo_wekwos_surface,
+    # Daughter A: provisional — orthography not yet designed; tokens rendered as-is
+    'daughter-a':     tokens_to_string,
 }
 
 _IPA: dict[str, callable] = {
@@ -283,6 +285,8 @@ _IPA: dict[str, callable] = {
     'old-wekwos':     _old_wekwos_ipa,
     'neo-wekwos':     _neo_wekwos_ipa,
     'proto-seldanic': _proto_seldanic_ipa,
+    # Daughter A: provisional — tokens are already IPA-like
+    'daughter-a':     tokens_to_string,
 }
 
 

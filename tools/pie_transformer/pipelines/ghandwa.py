@@ -343,9 +343,15 @@ _H_SURV = _rule('gh.h_survive', 'H→ˀ: surviving laryngeals → glottal stop (
 # ── Stage 1: consonantal changes ──────────────────────────────────────────────
 
 def _voiced_before_ts(toks: list[str], ctx: Context) -> list[str]:
-    """Voiced obstruent → voiceless before t or s (Core IE)."""
+    """Voiced obstruent → voiceless before t or s (Core IE).
+    Boundary-transparent: morpheme/syllable boundaries do not block the rule
+    (e.g. *h₃rḗǵ-s → rḗk-s, *gʰáyd-s → ɣájt-s)."""
     def _fn(tok: str, i: int, ts: list[str]) -> str:
-        nxt = ts[i + 1] if i + 1 < len(ts) else None
+        nxt = None
+        for j in range(i + 1, len(ts)):
+            if ts[j] not in ('-', '.'):
+                nxt = ts[j]
+                break
         if not nxt or nxt not in ('t', 's'):
             return tok
         if tok in ('b', 'bʰ'):

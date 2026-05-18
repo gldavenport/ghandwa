@@ -31,8 +31,8 @@ from .tokenize import tokens_to_string
 
 # ── Pipeline registry ──────────────────────────────────────────────────────────
 
-_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian', 'proto-seldanic'}
-_NOT_IMPLEMENTED = {'daughter-a', 'daughter-b', 'daughter-c'}
+_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian', 'proto-seldanic', 'daughter-a'}
+_NOT_IMPLEMENTED = {'daughter-b', 'daughter-c'}
 ALL_PIPELINES = sorted(_IMPLEMENTED | _NOT_IMPLEMENTED)
 
 
@@ -53,6 +53,9 @@ def _load_rules(name: str) -> list[Rule]:
     if name == 'proto-seldanic':
         from .pipelines.proto_seldanic import RULES
         return RULES
+    if name == 'daughter-a':
+        from .pipelines.daughters import RULES_A
+        return RULES_A
     raise ValueError(f'Unknown pipeline: {name!r}')
 
 
@@ -85,6 +88,17 @@ def run(
         return _run_chained(
             upstream='old-wekwos',
             downstream='neo-wekwos',
+            tokens=tokens,
+            context=context,
+            input_form=input_form,
+            trace_mode=trace_mode,
+        )
+
+    # Chain: daughter-a requires ghandwa output as its input
+    if pipeline_name == 'daughter-a':
+        return _run_chained(
+            upstream='ghandwa',
+            downstream='daughter-a',
             tokens=tokens,
             context=context,
             input_form=input_form,
