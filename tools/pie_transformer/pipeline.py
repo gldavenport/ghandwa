@@ -7,20 +7,16 @@ Registered pipelines:
   neo-wekwos      — implemented (provisional); downstream of old-wekwos
   proto-anatolian — implemented
   proto-seldanic  — implemented
-  daughter-a/b/c  — not_implemented stubs
+  daughter-a      — implemented (Stage 2 only; Stage 3 stub)
+  daughter-b      — implemented (Stage 2 only; Stage 3 stub)
+  daughter-c      — implemented (Stage 2 + Stage 3)
 
 Pipeline chaining:
   Neo-Wékʷos is downstream of Old Wékʷos. Its input token stream is the final
   output of the Old Wékʷos pipeline. Re-tokenization does not occur.
 
-  The daughter-language input token stream source is unresolved. Daughter pipelines
-  currently accept raw PIE-derived token input (same as ghandwa/old-wekwos).
-  This must be revisited before any daughter pipeline is implemented.
-
-Unresolved decisions (flagged per spec):
-  - Daughter-language names not finalized.
-  - Daughter-language input token stream source unresolved.
-  - Late Ghandwa not stubbed; its role is unresolved.
+  Daughter pipelines (A, B, C) are all downstream of 'ghandwa'. Input token
+  stream is the final output of the ghandwa pipeline. Re-tokenization does not occur.
 """
 
 from __future__ import annotations
@@ -31,8 +27,8 @@ from .tokenize import tokens_to_string
 
 # ── Pipeline registry ──────────────────────────────────────────────────────────
 
-_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian', 'proto-seldanic', 'daughter-a'}
-_NOT_IMPLEMENTED = {'daughter-b', 'daughter-c'}
+_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian', 'proto-seldanic', 'daughter-a', 'daughter-b', 'daughter-c'}
+_NOT_IMPLEMENTED: set[str] = set()
 ALL_PIPELINES = sorted(_IMPLEMENTED | _NOT_IMPLEMENTED)
 
 
@@ -56,6 +52,12 @@ def _load_rules(name: str) -> list[Rule]:
     if name == 'daughter-a':
         from .pipelines.daughters import RULES_A
         return RULES_A
+    if name == 'daughter-b':
+        from .pipelines.daughter_b import RULES_B
+        return RULES_B
+    if name == 'daughter-c':
+        from .pipelines.daughter_c import RULES_C
+        return RULES_C
     raise ValueError(f'Unknown pipeline: {name!r}')
 
 
@@ -99,6 +101,28 @@ def run(
         return _run_chained(
             upstream='ghandwa',
             downstream='daughter-a',
+            tokens=tokens,
+            context=context,
+            input_form=input_form,
+            trace_mode=trace_mode,
+        )
+
+    # Chain: daughter-b requires ghandwa output as its input
+    if pipeline_name == 'daughter-b':
+        return _run_chained(
+            upstream='ghandwa',
+            downstream='daughter-b',
+            tokens=tokens,
+            context=context,
+            input_form=input_form,
+            trace_mode=trace_mode,
+        )
+
+    # Chain: daughter-c requires ghandwa output as its input
+    if pipeline_name == 'daughter-c':
+        return _run_chained(
+            upstream='ghandwa',
+            downstream='daughter-c',
             tokens=tokens,
             context=context,
             input_form=input_form,
