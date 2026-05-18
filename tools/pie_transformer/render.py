@@ -270,25 +270,92 @@ def _neo_wekwos_ipa(tokens: list[str]) -> str:
     return 'renderer_missing'
 
 
+# ── Provisional renderer (shared) ────────────────────────────────────────────
+
+def _provisional_surface(tokens: list[str]) -> str:
+    """Provisional surface renderer: joins tokens, strips boundary marks.
+    Used for pipelines without a designed orthography yet."""
+    return ''.join(t for t in tokens if t not in ('-', '.'))
+
+
+# ── Daughter A renderers ───────────────────────────────────────────────────────
+
+_DA_ORTH: dict[str, str] = {
+    'ɸ':  'f',
+    'θ':  'þ',
+    'x':  'h',
+    'xʷ': 'hv',
+    'j':  'i',
+    'w':  'v',
+}
+
+def _daughter_a_surface(tokens: list[str]) -> str:
+    """Daughter A orthographic surface form.
+    ɸ→f, θ→þ, x→h, xʷ→hv, j→i, w→v. Boundary tokens stripped.
+    kʷ/gʷ already delabialized to k/g by Stage 2A; no further conversion needed.
+    """
+    return ''.join(_DA_ORTH.get(t, t) for t in tokens if t not in ('-', '.'))
+
+
+def _daughter_a_ipa(tokens: list[str]) -> str:
+    """Daughter A IPA form. Tokens are already phonological symbols.
+    Boundary tokens stripped, wrapped in /…/.
+    """
+    body = ''.join(t for t in tokens if t not in ('-', '.'))
+    return '/' + body + '/'
+
+
+# ── Daughter C renderers ───────────────────────────────────────────────────────
+
+_DC_ORTH: dict[str, str] = {
+    'ʁ': 'ŕ',
+    'j': 'i',
+    'w': 'v',
+}
+
+def _daughter_c_surface(tokens: list[str]) -> str:
+    """Daughter C orthographic surface form.
+    ʁ→ŕ, j→i, w→v. Boundary tokens stripped.
+    kʷ→p and gʷ→b already resolved by Stage 2C; labiovelars absent.
+    β ð ɣ ɣʷ already hardened to b d g gʷ then resolved; absent at surface.
+    Note: ŕ is unambiguous in C orthography — lexical acute is not used
+    (stress is fixed initial); ŕ marks the rhotacism-origin rhotic only.
+    """
+    return ''.join(_DC_ORTH.get(t, t) for t in tokens if t not in ('-', '.'))
+
+
+def _daughter_c_ipa(tokens: list[str]) -> str:
+    """Daughter C IPA form. Tokens are phonological symbols; ʁ is valid IPA.
+    Boundary tokens stripped, wrapped in /…/.
+    """
+    body = ''.join(t for t in tokens if t not in ('-', '.'))
+    return '/' + body + '/'
+
+
 # ── Dispatch table ─────────────────────────────────────────────────────────────
 
 _SURFACE: dict[str, callable] = {
-    'ghandwa':        _ghandwa_surface,
-    'old-wekwos':     _old_wekwos_surface,
-    'neo-wekwos':     _neo_wekwos_surface,
-    # Daughter A/B: provisional — orthography not yet designed; tokens rendered as-is
-    'daughter-a':     tokens_to_string,
-    'daughter-b':     tokens_to_string,
+    'ghandwa':         _ghandwa_surface,
+    'old-wekwos':      _old_wekwos_surface,
+    'neo-wekwos':      _neo_wekwos_surface,
+    # Provisional — orthography not yet designed; tokens rendered as-is
+    'proto-anatolian':    _provisional_surface,
+    'proto-seldanic':     _provisional_surface,
+    'ghandwa-daughter-a': _daughter_a_surface,
+    'ghandwa-daughter-b': _provisional_surface,
+    'ghandwa-daughter-c': _daughter_c_surface,
 }
 
 _IPA: dict[str, callable] = {
-    'ghandwa':        _ghandwa_ipa,
-    'old-wekwos':     _old_wekwos_ipa,
-    'neo-wekwos':     _neo_wekwos_ipa,
-    'proto-seldanic': _proto_seldanic_ipa,
-    # Daughter A/B: provisional — tokens are already IPA-like
-    'daughter-a':     tokens_to_string,
-    'daughter-b':     tokens_to_string,
+    'ghandwa':            _ghandwa_ipa,
+    'old-wekwos':         _old_wekwos_ipa,
+    'neo-wekwos':         _neo_wekwos_ipa,
+    'proto-seldanic':     _proto_seldanic_ipa,
+    # Provisional — tokens are already IPA-like
+    'proto-anatolian':    tokens_to_string,
+    'ghandwa-daughter-a': _daughter_a_ipa,
+    'ghandwa-daughter-b': tokens_to_string,
+    'ghandwa-daughter-c': _daughter_c_ipa,
 }
 
 
@@ -318,7 +385,15 @@ def render(pipeline: str, mode: str, tokens: list[str],
         renderer = _IPA.get(pipeline)
         if renderer is None:
             return 'renderer_missing'
-        return renderer(accented)
+        result = renderer(accented)
+        # Enforce /…/ wrapping uniformly regardless of renderer implementation.
+        if result and result not in ('renderer_missing',):
+            result = result.strip()
+            if not result.startswith('/'):
+                result = '/' + result
+            if not result.endswith('/'):
+                result = result + '/'
+        return result
 
     return f'unknown_mode:{mode}'
 

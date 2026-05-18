@@ -25,17 +25,26 @@ def format_terminal(
     result: DerivationResult,
     mode: str = 'surface',
     show_trace: bool = False,
+    compact: bool = False,
 ) -> str:
-    """Format a single derivation result for terminal display."""
-    lines: list[str] = []
+    """Format a single derivation result for terminal display.
 
-    # Header
+    compact=True: single line with pipeline name at left, used for --all output.
+    """
     orth = render(result.pipeline, 'surface', result.final_tokens, result.final_accent_index)
     ipa  = render(result.pipeline, 'ipa',     result.final_tokens, result.final_accent_index)
     status_tag = f'[{result.status}]' if result.status != 'ok' else ''
     warnings = get_warnings(result.final_tokens)
     warn_tag = '  \u26a0 ' + ', '.join(warnings) if warnings else ''
-    ipa_str = f'  {ipa}' if ipa and ipa != 'renderer_missing' else ''
+    ipa_str = f'  {ipa}' if ipa and ipa not in ('renderer_missing', '') else ''
+
+    if compact:
+        name_col = f'\t{result.pipeline:<26}'
+        return f'{name_col}  {result.input_form}  \u2192  {orth}{ipa_str}{status_tag}{warn_tag}'.rstrip()
+
+    lines: list[str] = []
+
+    # Header
     lines.append(f'{result.input_form!r}  \u2192  {orth}{ipa_str}  {status_tag}{warn_tag}'.rstrip())
 
     # Pipeline label

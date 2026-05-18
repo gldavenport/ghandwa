@@ -175,9 +175,10 @@ def _cmd_form(args) -> int:
             print(result_to_jsonl(result))
         else:  # text
             show_trace = args.trace in ('changed', 'full')
-            print(format_terminal(result, mode=args.mode, show_trace=show_trace))
+            compact = args.all_pipelines and not show_trace
+            print(format_terminal(result, mode=args.mode, show_trace=show_trace, compact=compact))
 
-        if args.all_pipelines and name != pipeline_names[-1]:
+        if args.all_pipelines and name != pipeline_names[-1] and not compact:
             print()
 
     return 0

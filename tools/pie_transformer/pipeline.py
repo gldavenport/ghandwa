@@ -7,9 +7,9 @@ Registered pipelines:
   neo-wekwos      — implemented (provisional); downstream of old-wekwos
   proto-anatolian — implemented
   proto-seldanic  — implemented
-  daughter-a      — implemented (Stage 2 only; Stage 3 stub)
-  daughter-b      — implemented (Stage 2 only; Stage 3 stub)
-  daughter-c      — implemented (Stage 2 + Stage 3)
+  ghandwa-daughter-a — implemented (Stage 2 only; Stage 3 stub)
+  ghandwa-daughter-b — implemented (Stage 2 only; Stage 3 stub)
+  ghandwa-daughter-c — implemented (Stage 2 + Stage 3)
 
 Pipeline chaining:
   Neo-Wékʷos is downstream of Old Wékʷos. Its input token stream is the final
@@ -27,7 +27,7 @@ from .tokenize import tokens_to_string
 
 # ── Pipeline registry ──────────────────────────────────────────────────────────
 
-_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian', 'proto-seldanic', 'daughter-a', 'daughter-b', 'daughter-c'}
+_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian', 'proto-seldanic', 'ghandwa-daughter-a', 'ghandwa-daughter-b', 'ghandwa-daughter-c'}
 _NOT_IMPLEMENTED: set[str] = set()
 ALL_PIPELINES = sorted(_IMPLEMENTED | _NOT_IMPLEMENTED)
 
@@ -49,13 +49,13 @@ def _load_rules(name: str) -> list[Rule]:
     if name == 'proto-seldanic':
         from .pipelines.proto_seldanic import RULES
         return RULES
-    if name == 'daughter-a':
+    if name == 'ghandwa-daughter-a':
         from .pipelines.daughters import RULES_A
         return RULES_A
-    if name == 'daughter-b':
+    if name == 'ghandwa-daughter-b':
         from .pipelines.daughter_b import RULES_B
         return RULES_B
-    if name == 'daughter-c':
+    if name == 'ghandwa-daughter-c':
         from .pipelines.daughter_c import RULES_C
         return RULES_C
     raise ValueError(f'Unknown pipeline: {name!r}')
@@ -96,33 +96,31 @@ def run(
             trace_mode=trace_mode,
         )
 
-    # Chain: daughter-a requires ghandwa output as its input
-    if pipeline_name == 'daughter-a':
+    # Chain: daughter pipelines require ghandwa output as their input
+    if pipeline_name == 'ghandwa-daughter-a':
         return _run_chained(
             upstream='ghandwa',
-            downstream='daughter-a',
+            downstream='ghandwa-daughter-a',
             tokens=tokens,
             context=context,
             input_form=input_form,
             trace_mode=trace_mode,
         )
 
-    # Chain: daughter-b requires ghandwa output as its input
-    if pipeline_name == 'daughter-b':
+    if pipeline_name == 'ghandwa-daughter-b':
         return _run_chained(
             upstream='ghandwa',
-            downstream='daughter-b',
+            downstream='ghandwa-daughter-b',
             tokens=tokens,
             context=context,
             input_form=input_form,
             trace_mode=trace_mode,
         )
 
-    # Chain: daughter-c requires ghandwa output as its input
-    if pipeline_name == 'daughter-c':
+    if pipeline_name == 'ghandwa-daughter-c':
         return _run_chained(
             upstream='ghandwa',
-            downstream='daughter-c',
+            downstream='ghandwa-daughter-c',
             tokens=tokens,
             context=context,
             input_form=input_form,
