@@ -182,10 +182,11 @@ def _post_liquid(toks: list[str], ctx: Context) -> list[str]:
 
 
 def _intervocalic_sonorize(toks: list[str], ctx: Context) -> list[str]:
-    """2B.4: Intervocalic sonorantization.
+    """2B.4: Labial gliding and intervocalic sonorantization.
     β ɣʷ → w / V_V
     ɣ    → j / V_V
     ð    → r / V_V
+    ɣʷ   → w / #_V  (word-initial before vowel; labial gliding)
     """
     _sonorize = {'β': 'w', 'ɣʷ': 'w', 'ɣ': 'j', 'ð': 'r'}
 
@@ -195,6 +196,9 @@ def _intervocalic_sonorize(toks: list[str], ctx: Context) -> list[str]:
             nxt  = _next_phoneme(ts, i)
             if prev in VOWELS and nxt in VOWELS:
                 return _sonorize[t]
+            # ɣʷ → w / #_V (word-initial before vowel; labial gliding)
+            if t == 'ɣʷ' and prev is None and nxt in VOWELS:
+                return 'w'
         return t
 
     return scan(toks, fn)
@@ -206,6 +210,65 @@ def _default_devoice(toks: list[str], ctx: Context) -> list[str]:
     return scan(toks, lambda t, i, ts: _devoice.get(t, t))
 
 
+# ── Stage 2B.6: Labiovelar dissimilation ──────────────────────────────────────────────
+
+def _labiovelar_dissim(toks: list[str], ctx: Context) -> list[str]:
+    """2B.6: Labiovelar dissimilation (OCP-[+round]).
+
+    If two adjacent syllables each contain a member of Lʷ = {kʷ, gʷ, xʷ, w},
+    the labiovelar stop or fricative (kʷ, gʷ, xʷ) in each affected syllable
+    delabializes. /w/ is immune as a target (it is only a trigger).
+
+    Examples:
+      wál.kʷos  → wál.kos   (w triggers; kʷ delabializes)
+      wón.gʷom  → wón.gom   (w triggers; gʷ delabializes)
+
+    Direction: symmetric. Either syllable may carry /w/ as trigger.
+    If both syllables carry a labiovelar stop/fricative, both delabielize.
+
+    Syllabification: borrowed from render._syllabify (onset maximization).
+    Morpheme boundaries (-) are stripped before syllabification and reattached
+    after; this rule does not cross morpheme boundaries (edge case; flag if seen).
+    """
+    from ..render import _syllabify
+
+    _LW       = frozenset(['kʷ', 'gʷ', 'xʷ', 'w'])
+    _DELAB    = {'kʷ': 'k', 'gʷ': 'g', 'xʷ': 'x'}
+    _MORPHEME = '-'
+
+    # Strip morpheme boundaries for syllabification; remember positions
+    clean = [t for t in toks if t != _MORPHEME]
+    morph_pos = [i for i, t in enumerate(toks) if t == _MORPHEME]
+
+    if not clean:
+        return toks
+
+    syllables = _syllabify(clean)
+
+    # Which syllables contain an Lʷ segment?
+    has_lw = [any(t in _LW for t in syl) for syl in syllables]
+
+    # For each syllable, delabielize kʷ/gʷ/xʷ if the *preceding* syllable has Lʷ
+    # (rightward dissimilation: first syllable wins, second loses).
+    # /w/ is immune as a target in all positions.
+    result_sylls: list[list[str]] = []
+    for i, syl in enumerate(syllables):
+        prev_has_lw = i > 0 and has_lw[i - 1]
+        if has_lw[i] and prev_has_lw:
+            result_sylls.append([_DELAB.get(t, t) for t in syl])
+        else:
+            result_sylls.append(list(syl))
+
+    # Flatten syllables back into token list
+    flat = [t for syl in result_sylls for t in syl]
+
+    # Reinsert morpheme boundaries at original positions
+    for pos in morph_pos:
+        flat.insert(pos, _MORPHEME)
+
+    return flat
+
+
 # ── Rule list ──────────────────────────────────────────────────────────────────
 
 RULES_STAGE2B: list[Rule] = [
@@ -215,10 +278,12 @@ RULES_STAGE2B: list[Rule] = [
           'Stage 2 (Daughter B)', _post_nasal_harden),
     _rule('db.2.3', 'Post-liquid: β ɣʷ → w / R_; ð ɣ → θ x / R_',
           'Stage 2 (Daughter B)', _post_liquid),
-    _rule('db.2.4', 'Intervocalic sonorantization: β ɣʷ → w, ɣ → j, ð → r / V_V',
+    _rule('db.2.4', 'Labial gliding + intervocalic sonorantization: β ɣʷ → w / V_V; ɣʷ → w / #_V; ɣ → j, ð → r / V_V',
           'Stage 2 (Daughter B)', _intervocalic_sonorize),
     _rule('db.2.5', 'Default devoicing: β→ɸ, ð→θ, ɣ→x, ɣʷ→xʷ / elsewhere',
           'Stage 2 (Daughter B)', _default_devoice),
+    _rule('db.2.6', 'Labiovelar dissimilation (OCP-[+round]): kʷ gʷ xʷ → k g x / adj. syl. has Lʷ',
+          'Stage 2 (Daughter B)', _labiovelar_dissim),
 ]
 
 # Full Daughter B rule list: Stage 1 (shared) + Stage 2B (branch-specific)
