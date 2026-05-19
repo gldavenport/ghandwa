@@ -305,6 +305,26 @@ def _daughter_a_ipa(tokens: list[str]) -> str:
     return '/' + body + '/'
 
 
+# ── Daughter B renderers ───────────────────────────────────────────────────────
+# Orthography inherited from Ghandwa (conservative scribal tradition).
+# Surface renderer delegates to _ghandwa_surface for now; divergence expected
+# as Stage 3B phonology is specified and the orth/IPA/token mapping changes.
+
+def _daughter_b_surface(tokens: list[str]) -> str:
+    """Daughter B surface form. Inherits Ghandwa orthography wholesale.
+    Replace delegation when B orthography diverges from Ghandwa.
+    """
+    return _ghandwa_surface(tokens)
+
+
+def _daughter_b_ipa(tokens: list[str]) -> str:
+    """Daughter B IPA form. Provisional: tokens joined, boundary marks stripped.
+    Replace with proper IPA mapping when Stage 3B phonology is committed.
+    """
+    body = ''.join(t for t in tokens if t not in ('-', '.'))
+    return '/' + body + '/'
+
+
 # ── Daughter C renderers ───────────────────────────────────────────────────────
 
 _DC_ORTH: dict[str, str] = {
@@ -342,7 +362,7 @@ _SURFACE: dict[str, callable] = {
     'proto-anatolian':    _provisional_surface,
     'proto-seldanic':     _provisional_surface,
     'ghandwa-daughter-a': _daughter_a_surface,
-    'ghandwa-daughter-b': _provisional_surface,
+    'ghandwa-daughter-b': _daughter_b_surface,
     'ghandwa-daughter-c': _daughter_c_surface,
 }
 
@@ -354,7 +374,7 @@ _IPA: dict[str, callable] = {
     # Provisional — tokens are already IPA-like
     'proto-anatolian':    tokens_to_string,
     'ghandwa-daughter-a': _daughter_a_ipa,
-    'ghandwa-daughter-b': tokens_to_string,
+    'ghandwa-daughter-b': _daughter_b_ipa,
     'ghandwa-daughter-c': _daughter_c_ipa,
 }
 

@@ -15,6 +15,7 @@ changelog:
   - 2026-03-29T19:00-04:00 | 773 lines | Documented full /z/ lexicon inventory in §8.A (3 environments, ~55 lemmas, with representative forms and open questions). Updated §3 2B /z/ section to remove vacuous working ideas (post-nasal affrication, pre-voiceless devoicing) and cross-reference §8.A.
   - 2026-03-29T18:30-04:00 | 732 lines | Reverted stress to Stage 2 (A/C initial, B bounded nonfinal — convergent, not shared). Moved cluster spirantization before s from 3A to 2A. Stage 2 framing: rapid change under poor standardization in the Dark Ages. Updated §1, §3 (matrix, formulations, summary), §4 (3A/3B/3C trimmed), §7, §8.D, §8.I.1, §8.I.2, Appendix A Rule 5 note, §10.
   - 2026-03-29T18:00-04:00 | 725 lines | Briefly relocated stress from Stage 2 to Stage 3; reverted in next edit.
+  - 2026-05-18T00:00-04:00 | 806 lines | 2B ɣʷ: extended labial gliding to cover word-initial #_V (ɣʷ → w / #_V); removed #_V from "elsewhere" devoicing environment; renamed rule 2 from "Intervocalic labial lenition" to "Labial gliding".
   - 2026-03-29T17:30-04:00 | 732 lines | Landed 2B non-sibilant voiced fricative pipeline: (1) post-sonorant hardening (post-nasal + post-liquid → stops), (2) intervocalic [+labial] lenition (VβV, VɣʷV → VwV), (3) remainder devoices. Updated §3 matrix, 2B formulation, Stage 2 summary. Narrowed §8.A to /z/ only.
   - 2026-03-29T16:00-04:00 | 720 lines | Integrated §10 (Historical Framing Overlay, from 2026-03-29/30 ChatGPT session) into §§1–4. Civilizational stage labels, Stage 0 sociolinguistic profile, design principle, surviving corpus, substrate model, and social memory moved into §1. Collapse context added as preamble to §2 (Stage 1). Dark Ages context added as preamble to §3 (Stage 2). Dawn Age / Neo-Ghandwa context added as preamble to §4 (Stage 3). Stage 4 (Flourishing) added as new §5. Remaining sections renumbered §6–§10 (formerly §5–§9). §10 deleted. Appendices unchanged.
   - 2026-03-19T18:10-04:00 | 657 lines | Consolidated three files into one. A/B/C staged framework (from daughters-framework.md, 2026-03-18) is primary content. Seven-zone dialect geography (from daughters-sprachbund.md, 2026-03-08 ChatGPT export) demoted to Appendix A as provisional historical notes. CS/dialect decisions (from decisions_summary_utf8.pdf, 2026-03-01 ChatGPT export) placed in Appendix B as provisional notes. Both appendices flagged for future harvesting/reconciliation with the A/B/C framework.
@@ -183,12 +184,13 @@ Resolved by a three-step ordered pipeline (excluding /z/, which is handled separ
 1. **Post-sonorant hardening.** After nasals and liquids, voiced fricatives harden to stops:
    - β → b, ð → d, ɣ → g, ɣʷ → gʷ / {N, R}\_
 
-2. **Intervocalic labial lenition.** Between vowels, the [+labial] voiced fricatives weaken to the labial glide:
+2. **Labial gliding.** The [+labial] voiced fricatives weaken to the labial glide before vowels, whether intervocalic or word-initial:
    - β → w, ɣʷ → w / V\_V
+   - ɣʷ → w / #\_V
 
 3. **Default devoicing.** All remaining voiced fricatives devoice:
    - β → ɸ, ð → θ, ɣ → x, ɣʷ → xʷ
-   - Covers: word-initial, pre-consonantal (including pre-liquid), and intervocalic ð/ɣ
+   - Covers: pre-consonantal (including pre-liquid), and intervocalic ð/ɣ
 
 The ordering matters: post-sonorant hardening bleeds intervocalic lenition (e.g., *anβrís* — β is post-nasal, so it hardens to b rather than falling through to the intervocalic check).
 
@@ -235,7 +237,7 @@ Stage 2 (Dark Ages) — rapid change under poor standardization
   1. bounded nonfinal stress, tending penultimate
   2. non-sibilant voiced fricatives resolve by ordered pipeline:
      a. post-sonorant (N_, R_): β ð ɣ ɣʷ > b d g gʷ
-     b. intervocalic [+labial] (V_V): β ɣʷ > w
+     b. labial gliding (V_V, and #_V for ɣʷ): β ɣʷ > w
      c. elsewhere: β ð ɣ ɣʷ > ɸ θ x xʷ
   3. /z/ preserved from Ghandwa; voicing rule not productive; orphaned as sole voiced fricative
   4. labiovelars reduce only under conditioned environments
