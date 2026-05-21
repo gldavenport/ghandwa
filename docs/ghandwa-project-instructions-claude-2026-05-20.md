@@ -36,7 +36,8 @@ Conventions, schema, and linguistic facts live in source files, not in these ins
 | Ordered sound changes, haplology, productive suffixes (\*-mn̥ > -man), worked derivations | `docs/phonological-history.md` |
 | Rule-by-rule tracking against Ringe 2017, De Vaan, Swanenvleugel | `docs/comparanda.md` |
 | Nominal paradigms | `grammar/paradigms-nominal.md` |
-| PIE-to-Ghandwa transformer: authority, headless execution, known gaps | `tools/README.md` (runner at `tools/pie-2-ghandwa.jsx`) |
+| PIE-to-Ghandwa transformer architecture | `tools/pie_transformer/docs/ARCHITECTURE.md` |
+| Per-pipeline transformer code specs | `tools/pie_transformer/docs/pipelines/` |
 | Lexicon schema (column list) | header row of `vocab/lexicon.tsv` |
 | Daughter language framework | `docs/daughters.md` |
 | Sentence corpus, mythology | `corpus/inscriptions.md`, `corpus/lore.md` |
@@ -83,9 +84,9 @@ Standard field abbreviations (PIt, PC, PG, PBS, PT, PH) are used without further
 
 ---
 
-## 7. Changelog Rules
+## 7. Document Conventions
 
-Every generated or updated `.md` file gets a changelog entry with ISO 8601 timestamp, line count, and description of changes. Every generated or updated `.tsv` file gets a companion `.md` changelog (same filename) with the same fields.
+Documents do not carry per-file changelogs. Substantive design decisions are recorded in the body of the affected document. File supersedences (renames, merges, deletions of superseded files) are tracked in `docs/file-map.md`. Documents keep a `last_updated` ISO 8601 timestamp in their frontmatter.
 
 ---
 
