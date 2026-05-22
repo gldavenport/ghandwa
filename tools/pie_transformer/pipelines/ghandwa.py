@@ -37,9 +37,9 @@ from ._common import (
 # ── Pre-stage: centum merger and labiovelar normalization ─────────────────────
 # (Ghandwa-internal; not shared with Wékʷos pipelines per spec)
 
-_CENTUMIZE = centumize_rule('gh')
+_CENTUMIZE = centumize_rule('gh.0.1')  # gh.0.1
 
-_LABIOVELARIZE = _rule('gh.lv_merge', 'Labiovelarization: K+w → Kʷ', 'Pre-stage', _labiovelarize)
+_LABIOVELARIZE = _rule('gh.0.2', 'Labiovelarization: K+w → Kʷ', 'Pre-stage', _labiovelarize)
 
 def _pie_delab(toks: list[str], ctx: Context) -> list[str]:
     """PIE-internal delabialization: Kʷ → K / {u,ū,w} _ and Kʷ → K / _ {u,ū,w}.
@@ -62,7 +62,7 @@ def _pie_delab(toks: list[str], ctx: Context) -> list[str]:
             out.append(tok)
     return out
 
-_PIE_DELAB = _rule('gh.pie_delab',
+_PIE_DELAB = _rule('gh.0.3',
                    'PIE delab: Kʷ→K / {u,ū,w}_ and _{u,ū,w}',
                    'Pre-stage', _pie_delab)
 
@@ -115,7 +115,7 @@ def _tts(toks: list[str], ctx: Context) -> list[str]:
             i += 1
     return out
 
-_TTS = _rule('gh.tts', 'TT→ss: dental+dental → geminate ss', 'Dentals', _tts)
+_TTS = _rule('gh.1.1', 'TT→ss: dental+dental → geminate ss', 'Dentals', _tts)
 
 def _ssc_simplify(toks: list[str], ctx: Context) -> list[str]:
     """ssC → sC: geminate ss simplifies before consonant."""
@@ -135,7 +135,7 @@ def _ssc_simplify(toks: list[str], ctx: Context) -> list[str]:
             i += 1
     return out
 
-_SSC = _rule('gh.ssc', 'ssC→sC: geminate simplifies before consonant', 'Dentals', _ssc_simplify)
+_SSC = _rule('gh.1.2', 'ssC→sC: geminate simplifies before consonant', 'Dentals', _ssc_simplify)
 
 def _thorn(toks: list[str], ctx: Context) -> list[str]:
     """TK → KT: thorn metathesis word-internally (plain velars only; labiovelars excluded)."""
@@ -153,7 +153,7 @@ def _thorn(toks: list[str], ctx: Context) -> list[str]:
             i += 1
     return out
 
-_THORN = _rule('gh.thorn', 'Thorn metathesis: TK→KT word-internally', 'Dentals', _thorn)
+_THORN = _rule('gh.1.3', 'Thorn metathesis: TK→KT word-internally', 'Dentals', _thorn)
 
 
 # ── Stage 1: laryngeals ────────────────────────────────────────────────────────
@@ -171,7 +171,7 @@ def _h_color(toks: list[str], ctx: Context) -> list[str]:
             t[i - 1] = _laryngeal_color(t[i], t[i - 1])
     return t
 
-_H_COLOR = _rule('gh.h_a', 'H-A: Laryngeal coloring — h₂/h₃ color adjacent e', 'Laryngeals', _h_color)
+_H_COLOR = _rule('gh.1.4', 'H-A: Laryngeal coloring — h₂/h₃ color adjacent e', 'Laryngeals', _h_color)
 
 def _h_vhv(toks: list[str], ctx: Context) -> list[str]:
     """H-B1: VHV → V̄ — identical vowels across laryngeal contract; laryngeal lost."""
@@ -194,7 +194,7 @@ def _h_vhv(toks: list[str], ctx: Context) -> list[str]:
         i += 1
     return out
 
-_H_VHV = _rule('gh.h_b1', 'H-B1: VHV→V̄ — identical vowels contract across laryngeal', 'Laryngeals', _h_vhv)
+_H_VHV = _rule('gh.1.5', 'H-B1: VHV→V̄ — identical vowels contract across laryngeal', 'Laryngeals', _h_vhv)
 
 def _h_vh(toks: list[str], ctx: Context) -> list[str]:
     """H-B2: VH → V̄ — vowel before laryngeal (before C or #) lengthens; laryngeal lost."""
@@ -217,7 +217,7 @@ def _h_vh(toks: list[str], ctx: Context) -> list[str]:
         i += 1
     return out
 
-_H_VH = _rule('gh.h_b2', 'H-B2: VH→V̄ — vowel before laryngeal lengthens', 'Laryngeals', _h_vh)
+_H_VH = _rule('gh.1.6', 'H-B2: VH→V̄ — vowel before laryngeal lengthens', 'Laryngeals', _h_vh)
 
 def _h_adj_v(toks: list[str], ctx: Context) -> list[str]:
     """H-B3: H adjacent to vowel → ∅ — covers #HV and CHV (coloring already applied)."""
@@ -238,7 +238,7 @@ def _h_adj_v(toks: list[str], ctx: Context) -> list[str]:
         i += 1
     return out
 
-_H_ADJ_V = _rule('gh.h_b3', 'H-B3: H adjacent to vowel → ∅', 'Laryngeals', _h_adj_v)
+_H_ADJ_V = _rule('gh.1.7', 'H-B3: H adjacent to vowel → ∅', 'Laryngeals', _h_adj_v)
 
 def _h_initial_c(toks: list[str], ctx: Context) -> list[str]:
     """H-B4: #H before consonant → ∅ (word-initial laryngeal before consonant deleted)."""
@@ -248,7 +248,7 @@ def _h_initial_c(toks: list[str], ctx: Context) -> list[str]:
         return toks[1:]
     return toks
 
-_H_INIT_C = _rule('gh.h_b4', 'H-B4: #HC → C — initial laryngeal before consonant deleted', 'Laryngeals', _h_initial_c)
+_H_INIT_C = _rule('gh.1.8', 'H-B4: #HC → C — initial laryngeal before consonant deleted', 'Laryngeals', _h_initial_c)
 
 def _h_btw_c(toks: list[str], ctx: Context) -> list[str]:
     """H-B5: H between consonants → a (initial syllable) / ∅ (elsewhere)."""
@@ -276,13 +276,13 @@ def _h_btw_c(toks: list[str], ctx: Context) -> list[str]:
         i += 1
     return out
 
-_H_BTW_C = _rule('gh.h_b5', 'H-B5: CHC → Ca (initial) / C∅C (elsewhere)', 'Laryngeals', _h_btw_c)
+_H_BTW_C = _rule('gh.1.9', 'H-B5: CHC → Ca (initial) / C∅C (elsewhere)', 'Laryngeals', _h_btw_c)
 
 def _h_surviving(toks: list[str], ctx: Context) -> list[str]:
     """H→ˀ: surviving laryngeals become glottal stop (diagnostic marker)."""
     return scan(toks, lambda t, i, ts: 'ˀ' if is_laryngeal(t) else t)
 
-_H_SURV = _rule('gh.h_survive', 'H→ˀ: surviving laryngeals → glottal stop (diagnostic)', 'Laryngeals', _h_surviving)
+_H_SURV = _rule('gh.1.10', 'H→ˀ: surviving laryngeals → glottal stop (diagnostic)', 'Laryngeals', _h_surviving)
 
 
 # ── Stage 1: consonantal changes ──────────────────────────────────────────────
@@ -310,7 +310,7 @@ def _voiced_before_ts(toks: list[str], ctx: Context) -> list[str]:
         return tok
     return scan(toks, _fn)
 
-_VOICED_BTS = _rule('gh.voi_bts', 'Voiced obstruent → voiceless before t/s (Core IE)', 'Consonants', _voiced_before_ts)
+_VOICED_BTS = _rule('gh.1.11', 'Voiced obstruent → voiceless before t/s (Core IE)', 'Consonants', _voiced_before_ts)
 
 
 # ── Stage 1: vowel changes ─────────────────────────────────────────────────────
@@ -325,7 +325,7 @@ def _osthoff(toks: list[str], ctx: Context) -> list[str]:
         else tok
     ))
 
-_OSTHOFF = _rule('gh.osthoff', "Osthoff's Law: V̄RC → VRC", 'Vowels', _osthoff)
+_OSTHOFF = _rule('gh.1.12', "Osthoff's Law: V̄RC → VRC", 'Vowels', _osthoff)
 
 def _ew_ow(toks: list[str], ctx: Context) -> list[str]:
     """ew → ow: tautosyllabic e+w in coda (w before consonant or word-finally)."""
@@ -341,7 +341,7 @@ def _ew_ow(toks: list[str], ctx: Context) -> list[str]:
                 out[i] = 'o'
     return out
 
-_EW_OW = _rule('gh.ew_ow', 'ew→ow: tautosyllabic e+w in coda', 'Vowels', _ew_ow)
+_EW_OW = _rule('gh.1.13', 'ew→ow: tautosyllabic e+w in coda', 'Vowels', _ew_ow)
 
 
 # ── Pretonic shortening (accent-dependent) ────────────────────────────────────
@@ -380,7 +380,7 @@ def _pretonic_shorten(toks: list[str], ctx: Context) -> list[str]:
     return out
 
 _PRETONIC = _rule(
-    'gh.pretonic', 'Pretonic shortening: V̄ → V on unaccented first syllable', 'Vowels',
+    'gh.1.14', 'Pretonic shortening: V̄ → V on unaccented first syllable', 'Vowels',
     _pretonic_shorten,
     requires=['accent'],
 )
@@ -388,8 +388,8 @@ _PRETONIC = _rule(
 
 # ── Standing rules (post-Stage 1 pass) ────────────────────────────────────────
 
-_STAND_LV_1  = _rule('gh.stand_lv_1',  'Kw→kʷ (standing, post S1)',          'Standing', _labiovelarize)
-_STAND_BOK_1 = _rule('gh.stand_bok_1', 'Boukólos (standing, post S1)',        'Standing', _boukólos)
+_STAND_LV_1  = _rule('gh.1.15', 'Kw→kʷ (standing, post S1)',   'Standing', _labiovelarize)
+_STAND_BOK_1 = _rule('gh.1.16', 'Boukólos (standing, post S1)', 'Standing', _boukólos)
 
 
 # ── Stage 2: syllabic resonant vocalization ───────────────────────────────────
@@ -439,7 +439,7 @@ def _syl_res_vocalize(toks: list[str], ctx: Context) -> list[str]:
             i += 1
     return out
 
-_SYL_RES = _rule('gh.syl_res', 'Syllabic resonants → aR: r̥→ar, l̥→al, m̥→am, n̥→an', 'Syllabics', _syl_res_vocalize)
+_SYL_RES = _rule('gh.2.1', 'Syllabic resonants → aR: r̥→ar, l̥→al, m̥→am, n̥→an', 'Syllabics', _syl_res_vocalize)
 
 
 # ── Stage 2: glide changes ────────────────────────────────────────────────────
@@ -461,13 +461,13 @@ def _juwankos(toks: list[str], ctx: Context) -> list[str]:
         i += 1
     return out
 
-_JUWANKOS = _rule('gh.juwankos', 'ū→uw before vowel (Juwankos / hiatus glide)', 'Fricatives', _juwankos)
+_JUWANKOS = _rule('gh.2.2', 'ū→uw before vowel (Juwankos / hiatus glide)', 'Fricatives', _juwankos)
 
 
 # ── Stage 2: aspirate shift ───────────────────────────────────────────────────
 
 _ASPIRATES = _rule(
-    'gh.aspirates', 'Aspirates → voiced fricatives: bʰ→β, dʰ→ð, gʰ→ɣ, gʷʰ→ɣʷ', 'Fricatives',
+    'gh.2.3', 'Aspirates → voiced fricatives: bʰ→β, dʰ→ð, gʰ→ɣ, gʷʰ→ɣʷ', 'Fricatives',
     lambda toks, ctx: scan(toks, lambda t, i, ts:
         'β' if t == 'bʰ' else
         'ð' if t == 'dʰ' else
@@ -488,21 +488,21 @@ def _s_voice(toks: list[str], ctx: Context) -> list[str]:
         else tok
     ))
 
-_S_VOICE = _rule('gh.s_voice', 's→z between voiced sounds', 'Fricatives', _s_voice)
+_S_VOICE = _rule('gh.2.4', 's→z between voiced sounds', 'Fricatives', _s_voice)
 
 
 # ── Stage 2: y→j (historical note; y normalized to j in normalize.py) ─────────
 
 _Y_J = _rule(
-    'gh.y_j', 'y→j: PIE palatal glide → Ghandwa j (note: applied in normalization)', 'Glides',
+    'gh.2.5', 'y→j: PIE palatal glide → Ghandwa j (note: applied in normalization)', 'Glides',
     lambda toks, ctx: scan(toks, lambda t, i, ts: 'j' if t == 'y' else t)
 )
 
 
 # ── Standing rules (post-Stage 2 pass) ────────────────────────────────────────
 
-_STAND_LV_2  = _rule('gh.stand_lv_2',  'Kw→kʷ (standing, post S2)',  'Standing', _labiovelarize)
-_STAND_BOK_2 = _rule('gh.stand_bok_2', 'Boukólos (standing, post S2)', 'Standing', _boukólos)
+_STAND_LV_2  = _rule('gh.2.6', 'Kw→kʷ (standing, post S2)',   'Standing', _labiovelarize)
+_STAND_BOK_2 = _rule('gh.2.7', 'Boukólos (standing, post S2)', 'Standing', _boukólos)
 
 
 # ── Pipeline (ordered flat list) ──────────────────────────────────────────────

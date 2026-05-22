@@ -79,7 +79,7 @@ def _h_realize(toks: list[str], ctx: Context) -> list[str]:
     return out
 
 _H_REALIZE = _rule(
-    'pa.h_realize',
+    'pa.2.1',
     'Laryngeal realization: h₂→χ, h₃→χʷ',
     'Laryngeals',
     _h_realize,
@@ -110,7 +110,7 @@ def _h_color(toks: list[str], ctx: Context) -> list[str]:
     return t
 
 _H_COLOR = _rule(
-    'pa.h_color',
+    'pa.3.1',
     'Laryngeal coloring: χe/eχ→χa/aχ, χʷe/eχʷ→χʷo/oχʷ',
     'Laryngeals',
     _h_color,
@@ -184,7 +184,7 @@ def _assimilation_core(toks: list[str], ctx: Context) -> list[str]:
     return toks
 
 _ASSIMILATION_CORE = _rule(
-    'pa.assimilation_core',
+    'pa.4.1',
     'Cluster assimilation: VRχV→VRRV, sχ→ss, Tχ→TT (χ/χʷ)',
     'Assimilation',
     _assimilation_core,
@@ -200,7 +200,7 @@ def _assimilation_h1(toks: list[str], ctx: Context) -> list[str]:
     return toks
 
 _ASSIMILATION_H1 = _rule(
-    'pa.assimilation_h1',
+    'pa.4.2',
     'h₁ cluster assimilation: VRh₁V→VRRV, sh₁→ss, Th₁→TT (toggle: enable-h1-cluster-assimilation)',
     'Assimilation',
     _assimilation_h1,
@@ -239,7 +239,7 @@ def _e_lower(toks: list[str], ctx: Context) -> list[str]:
     return out
 
 _E_LOWER = _rule(
-    'pa.e_lower',
+    'pa.5.1',
     'e-lowering: e→a / _Rχ, _Rχʷ, _{r,n}{T,#}',
     'Vowels',
     _e_lower,
@@ -296,7 +296,7 @@ def _h1_loss(toks: list[str], ctx: Context) -> list[str]:
     return out
 
 _H1_LOSS = _rule(
-    'pa.h1_loss',
+    'pa.6.1',
     'h₁ loss: eh₁→ǣ, Vh₁→V̄, h₁→∅ (toggle: enable-initial-h1-glottal-stop → #h₁V→ʔV)',
     'Laryngeals',
     _h1_loss,
@@ -333,7 +333,7 @@ def _syl_res_repair(toks: list[str], ctx: Context) -> list[str]:
     return out
 
 _SYL_RES = _rule(
-    'pa.syl_res',
+    'pa.7.1',
     'Syllabic resonant repairs: wR̥→uR, kʷR̥→kuR; others retained',
     'Syllabics',
     _syl_res_repair,
@@ -343,7 +343,7 @@ _SYL_RES = _rule(
 # ── Step 8: Voiced aspirates → voiced stops ───────────────────────────────────
 
 _ASPIRATES = _rule(
-    'pa.aspirates',
+    'pa.8.1',
     'Dʰ→D: voiced aspirates merge with voiced stops',
     'Stops',
     lambda toks, ctx: scan(toks, lambda t, i, ts: DEASPIRATE.get(t, t)),
@@ -367,7 +367,7 @@ def _ty_ts(toks: list[str], ctx: Context) -> list[str]:
             i += 1
     return out
 
-_TY_TS = _rule('pa.ty_ts', 'ty→ts: dental-yod affrication', 'Affricates', _ty_ts)
+_TY_TS = _rule('pa.9.1', 'ty→ts: dental-yod affrication', 'Affricates', _ty_ts)
 
 
 # ── Step 10: Prosodic stop voicing (toggle, default off) ──────────────────────
@@ -408,7 +408,7 @@ def _prosodic_voice(toks: list[str], ctx: Context) -> list[str]:
     return out
 
 _PROSODIC_VOICE = _rule(
-    'pa.prosodic_voice',
+    'pa.10.1',
     'T→D / prosodically weak position (toggle: enable-prosodic-stop-voicing)',
     'Voicing',
     _prosodic_voice,

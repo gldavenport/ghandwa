@@ -97,11 +97,10 @@ def labiovelarize(toks: list[str], ctx: Context) -> list[str]:
 
 # ── Centumization rule factory ────────────────────────────────────────────────
 
-def centumize_rule(prefix: str, stage: str = 'Pre-stage') -> Rule:
-    """Return a centumization Rule for the given pipeline prefix.
+def centumize_rule(id_: str, stage: str = 'Pre-stage') -> Rule:
+    """Return a centumization Rule with the given id.
 
     Centumization: ḱ→k, ǵ→g, ǵʰ→gʰ.
-    Rule id: '<prefix>.centum'.
     """
     def _apply(toks: list[str], ctx: Context) -> list[str]:
         return scan(toks, lambda t, i, ts:
@@ -110,7 +109,7 @@ def centumize_rule(prefix: str, stage: str = 'Pre-stage') -> Rule:
             'gʰ' if t == 'ǵʰ' else t
         )
     return make_rule(
-        f'{prefix}.centum',
+        id_,
         'Centumization: ḱ→k, ǵ→g, ǵʰ→gʰ',
         stage,
         _apply,

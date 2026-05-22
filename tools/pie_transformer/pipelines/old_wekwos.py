@@ -33,9 +33,9 @@ from ._common import (
 
 # ── Pre-stage (Wékʷos-internal) ───────────────────────────────────────────────
 
-_CENTUMIZE = centumize_rule('wk')
+_CENTUMIZE = centumize_rule('wk.0.1')  # wk.0.1
 
-_LABIOVELARIZE = _rule('wk.lv_merge', 'Labiovelarization: K+w → Kʷ', 'Pre-stage', _labiovelarize)
+_LABIOVELARIZE = _rule('wk.0.2', 'Labiovelarization: K+w → Kʷ', 'Pre-stage', _labiovelarize)
 
 def _boukólos(toks, ctx):
     out = []
@@ -50,7 +50,7 @@ def _boukólos(toks, ctx):
             out.append(tok)
     return out
 
-_BOUKÓLOS = _rule('wk.boukólos', 'Boukólos: Kʷ→K adjacent to u/ū/w', 'Pre-stage', _boukólos)
+_BOUKÓLOS = _rule('wk.0.3', 'Boukólos: Kʷ→K adjacent to u/ū/w', 'Pre-stage', _boukólos)
 
 
 # ── Laryngeals ────────────────────────────────────────────────────────────────
@@ -65,7 +65,7 @@ def _h_color(toks, ctx):
             t[i - 1] = _laryngeal_color(t[i], t[i - 1])
     return t
 
-_H_COLOR = _rule('wk.h_a', 'H-A: Laryngeal coloring — h₂/h₃ color adjacent e', 'Laryngeals', _h_color)
+_H_COLOR = _rule('wk.1.1', 'H-A: Laryngeal coloring — h₂/h₃ color adjacent e', 'Laryngeals', _h_color)
 
 def _h_vhv(toks, ctx):
     out = []; i = 0
@@ -78,7 +78,7 @@ def _h_vhv(toks, ctx):
         out.append(tok); i += 1
     return out
 
-_H_VHV = _rule('wk.h_b1', 'H-B1: VHV→V̄ — identical vowels contract across laryngeal', 'Laryngeals', _h_vhv)
+_H_VHV = _rule('wk.1.2', 'H-B1: VHV→V̄ — identical vowels contract across laryngeal', 'Laryngeals', _h_vhv)
 
 def _h_vh(toks, ctx):
     out = []; i = 0
@@ -96,7 +96,7 @@ def _h_vh(toks, ctx):
         out.append(tok); i += 1
     return out
 
-_H_VH = _rule('wk.h_b2', 'H-B2: VH→V̄ — vowel before laryngeal lengthens', 'Laryngeals', _h_vh)
+_H_VH = _rule('wk.1.3', 'H-B2: VH→V̄ — vowel before laryngeal lengthens', 'Laryngeals', _h_vh)
 
 def _h_c_prevocalic(toks, ctx):
     """H-C: Pre-vocalic h₂/h₃ → x (laryngeal coloring residue)."""
@@ -111,7 +111,7 @@ def _h_c_prevocalic(toks, ctx):
         i += 1
     return out
 
-_H_C = _rule('wk.h_c', 'H-C: Pre-vocalic h₂/h₃ → x (laryngeal residue)', 'Laryngeals', _h_c_prevocalic)
+_H_C = _rule('wk.1.4', 'H-C: Pre-vocalic h₂/h₃ → x (laryngeal residue)', 'Laryngeals', _h_c_prevocalic)
 
 def _h_d_prevocalic(toks, ctx):
     """H-D: Pre-vocalic h₁/H → ∅ (no residue)."""
@@ -126,7 +126,7 @@ def _h_d_prevocalic(toks, ctx):
         out.append(tok); i += 1
     return out
 
-_H_D = _rule('wk.h_d', 'H-D: Pre-vocalic h₁/H → ∅', 'Laryngeals', _h_d_prevocalic)
+_H_D = _rule('wk.1.5', 'H-D: Pre-vocalic h₁/H → ∅', 'Laryngeals', _h_d_prevocalic)
 
 def _h_btw_c(toks, ctx):
     """Old 2.2: CHC → Ca — laryngeal between consonants vocalizes as a."""
@@ -142,7 +142,7 @@ def _h_btw_c(toks, ctx):
         out.append(tok); i += 1
     return out
 
-_H_BTW_C = _rule('wk.h_22', 'Old 2.2: CHC → Ca — laryngeal between consonants → a', 'Laryngeals', _h_btw_c)
+_H_BTW_C = _rule('wk.1.6', 'Old 2.2: CHC → Ca — laryngeal between consonants → a', 'Laryngeals', _h_btw_c)
 
 def _h_initial_c(toks, ctx):
     """Old 2.4: #HC → C — initial laryngeal before consonant deleted."""
@@ -152,13 +152,13 @@ def _h_initial_c(toks, ctx):
         return toks[1:]
     return toks
 
-_H_INIT_C = _rule('wk.h_24', 'Old 2.4: #HC → C — initial laryngeal deleted', 'Laryngeals', _h_initial_c)
+_H_INIT_C = _rule('wk.1.7', 'Old 2.4: #HC → C — initial laryngeal deleted', 'Laryngeals', _h_initial_c)
 
 def _h_remaining(toks, ctx):
     """Remaining H → x (coloring residue marker)."""
     return scan(toks, lambda t, i, ts: 'x' if is_laryngeal(t) else t)
 
-_H_REMAINING = _rule('wk.h_rem', 'Remaining H → x (laryngeal residue)', 'Laryngeals', _h_remaining)
+_H_REMAINING = _rule('wk.1.8', 'Remaining H → x (laryngeal residue)', 'Laryngeals', _h_remaining)
 
 
 # ── Syllabic resonants ────────────────────────────────────────────────────────
@@ -181,7 +181,7 @@ def _syl_res_vocalize(toks, ctx):
         i += 1
     return out
 
-_SYL_RES = _rule('wk.syl_res', 'Syllabic resonants → aR: r̥→ar, l̥→al, m̥→am, n̥→an', 'Syllabics', _syl_res_vocalize)
+_SYL_RES = _rule('wk.2.1', 'Syllabic resonants → aR: r̥→ar, l̥→al, m̥→am, n̥→an', 'Syllabics', _syl_res_vocalize)
 
 
 # ── Aspirate treatment (devoicing, unlike Ghandwa's fricativization) ──────────
@@ -193,13 +193,13 @@ def _aspirate_before_liquid(toks, ctx):
         else tok
     ))
 
-_ASP_LIQUID = _rule('wk.asp_liq', 'Old 4.1: DʰL → DL — aspirate before liquid deaspirates', 'Aspirates', _aspirate_before_liquid)
+_ASP_LIQUID = _rule('wk.3.1', 'Old 4.1: DʰL → DL — aspirate before liquid deaspirates', 'Aspirates', _aspirate_before_liquid)
 
 def _aspirate_devoice(toks, ctx):
     """Old 4.2: Dʰ → T — remaining voiced aspirates devoice."""
     return scan(toks, lambda t, i, ts: DEVOICE.get(t, t))
 
-_ASP_DEVOICE = _rule('wk.asp_dev', 'Old 4.2: Dʰ → T — aspirates devoice', 'Aspirates', _aspirate_devoice)
+_ASP_DEVOICE = _rule('wk.3.2', 'Old 4.2: Dʰ → T — aspirates devoice', 'Aspirates', _aspirate_devoice)
 
 
 # ── Cluster assimilation ───────────────────────────────────────────────────────
@@ -229,7 +229,7 @@ def _liquid_metathesis(toks, ctx):
             out.append(toks[i]); i += 1
     return out
 
-_LIQ_META = _rule('wk.liq_meta', 'Old 5.1: CVLC → CLVC — liquid metathesis', 'Cluster Assimilation', _liquid_metathesis)
+_LIQ_META = _rule('wk.4.1', 'Old 5.1: CVLC → CLVC — liquid metathesis', 'Cluster Assimilation', _liquid_metathesis)
 
 def _stop_before_nasal(toks, ctx):
     """5.1b: VTNV → VNDV — voiceless stop before nasal voices."""
@@ -250,7 +250,7 @@ def _stop_before_nasal(toks, ctx):
             out.append(toks[i]); i += 1
     return out
 
-_STOP_NASAL = _rule('wk.stop_nas', 'Old 5.1b: VTNV → VNDV — stop before nasal voices', 'Cluster Assimilation', _stop_before_nasal)
+_STOP_NASAL = _rule('wk.4.2', 'Old 5.1b: VTNV → VNDV — stop before nasal voices', 'Cluster Assimilation', _stop_before_nasal)
 
 def _initial_pr_voice(toks, ctx):
     """Old 5.3: #pr → #br — initial labial+r voices."""
@@ -258,7 +258,7 @@ def _initial_pr_voice(toks, ctx):
         return ['b'] + toks[1:]
     return toks
 
-_INIT_PR = _rule('wk.init_pr', 'Old 5.3: #pr → #br — initial labial+r voices', 'Cluster Assimilation', _initial_pr_voice)
+_INIT_PR = _rule('wk.4.3', 'Old 5.3: #pr → #br — initial labial+r voices', 'Cluster Assimilation', _initial_pr_voice)
 
 
 # ── Pipeline ──────────────────────────────────────────────────────────────────

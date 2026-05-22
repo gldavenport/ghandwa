@@ -46,7 +46,7 @@ def _h_color(toks: list[str], ctx: Context) -> list[str]:
             t[i - 1] = _laryngeal_color(t[i], t[i - 1])
     return t
 
-_H_COLOR = _rule('sel.h1', 'H-1: Laryngeal coloring — h₂/h₃ color adjacent e', 'Laryngeals', _h_color)
+_H_COLOR = _rule('sel.1.1', 'H-1: Laryngeal coloring — h₂/h₃ color adjacent e', 'Laryngeals', _h_color)
 
 
 # ── Rule 2: Postvocalic laryngeal lengthening ─────────────────────────────────
@@ -71,7 +71,7 @@ def _h_vh(toks: list[str], ctx: Context) -> list[str]:
         i += 1
     return out
 
-_H_VH = _rule('sel.h2', 'H-2: VH → V̄ — postvocalic laryngeal lengthening', 'Laryngeals', _h_vh)
+_H_VH = _rule('sel.2.1', 'H-2: VH → V̄ — postvocalic laryngeal lengthening', 'Laryngeals', _h_vh)
 
 
 # ── Rule 3: Voiced obstruent → voiceless before t/s ──────────────────────────
@@ -95,7 +95,7 @@ def _voiced_before_ts(toks: list[str], ctx: Context) -> list[str]:
         return tok
     return scan(toks, _fn)
 
-_VOICED_BTS = _rule('sel.voi_bts', 'Voiced obstruent → voiceless before t/s (Core IE)', 'Consonants', _voiced_before_ts)
+_VOICED_BTS = _rule('sel.2.2', 'Voiced obstruent → voiceless before t/s (Core IE)', 'Consonants', _voiced_before_ts)
 
 
 # ── Rule 4: Dental clusters ───────────────────────────────────────────────────
@@ -115,7 +115,7 @@ def _tt_ss(toks: list[str], ctx: Context) -> list[str]:
             i += 1
     return out
 
-_TT_SS = _rule('sel.tt', 'TT → ss: dental + dental → geminate ss', 'Dentals', _tt_ss)
+_TT_SS = _rule('sel.3.1', 'TT → ss: dental + dental → geminate ss', 'Dentals', _tt_ss)
 
 
 def _ssc_simplify(toks: list[str], ctx: Context) -> list[str]:
@@ -135,7 +135,7 @@ def _ssc_simplify(toks: list[str], ctx: Context) -> list[str]:
             i += 1
     return out
 
-_SSC = _rule('sel.ssc', 'ssC → sC: geminate ss simplifies before consonant', 'Dentals', _ssc_simplify)
+_SSC = _rule('sel.3.2', 'ssC → sC: geminate ss simplifies before consonant', 'Dentals', _ssc_simplify)
 
 
 # ── Rule 5: Interconsonantal laryngeals (CHC → CaC) ───────────────────────────
@@ -167,18 +167,18 @@ def _chc_repair(toks: list[str], ctx: Context) -> list[str]:
         i += 1
     return out
 
-_CHC = _rule('sel.chc', 'H-3: CHC → CaC — uniform interconsonantal laryngeal repair', 'Laryngeals', _chc_repair)
+_CHC = _rule('sel.4.1', 'H-3: CHC → CaC — uniform interconsonantal laryngeal repair', 'Laryngeals', _chc_repair)
 
 
 # ── Rule 6: Centum merger ─────────────────────────────────────────────────────
 
-_CENTUM = centumize_rule('sel', stage='Centum')
+_CENTUM = centumize_rule('sel.5.1', stage='Centum')  # sel.5.1
 
 
 # ── Rule 7: Voiced aspirates devoice, retaining aspiration ───────────────────
 
 _DEASPIRATE_VOICE = _rule(
-    'sel.deaff', 'Dʰ → Tʰ: bʰ→pʰ, dʰ→tʰ, gʰ→kʰ, gʷʰ→kʷʰ', 'Aspirates',
+    'sel.6.1', 'Dʰ → Tʰ: bʰ→pʰ, dʰ→tʰ, gʰ→kʰ, gʷʰ→kʷʰ', 'Aspirates',
     lambda toks, ctx: scan(toks, lambda t, i, ts:
         'pʰ'  if t == 'bʰ'  else
         'tʰ'  if t == 'dʰ'  else
@@ -218,7 +218,7 @@ def _syl_res(toks: list[str], ctx: Context) -> list[str]:
             i += 1
     return out
 
-_SYL_RES = _rule('sel.sylres', 'Syllabic resonants: KʷR̥→KʷuR, R̥→aR', 'Syllabics', _syl_res)
+_SYL_RES = _rule('sel.7.1', 'Syllabic resonants: KʷR̥→KʷuR, R̥→aR', 'Syllabics', _syl_res)
 
 
 # ── Rule 9: Labiovelar delabialization ────────────────────────────────────────
@@ -249,7 +249,7 @@ def _delab(toks: list[str], ctx: Context) -> list[str]:
             out.append(tok)
     return out
 
-_DELAB = _rule('sel.delab', 'Kʷ → K / _C and /{u,ū,w}_ and /_{u,ū,w}', 'Labiovelars', _delab)
+_DELAB = _rule('sel.8.1', 'Kʷ → K / _C and /{u,ū,w}_ and /_{u,ū,w}', 'Labiovelars', _delab)
 
 
 # ── Remaining laryngeals → ∅ ──────────────────────────────────────────────────
@@ -265,7 +265,7 @@ def _h_drop(toks: list[str], ctx: Context) -> list[str]:
             out.append(tok)
     return out
 
-_H_DROP = _rule('sel.hdrop', 'H → ∅: remaining laryngeals deleted', 'Laryngeals', _h_drop)
+_H_DROP = _rule('sel.9.1', 'H → ∅: remaining laryngeals deleted', 'Laryngeals', _h_drop)
 
 
 # ── Pipeline (ordered flat list) ──────────────────────────────────────────────
