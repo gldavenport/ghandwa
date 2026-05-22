@@ -56,12 +56,13 @@ from ..tokens import (
     LIQUIDS, NASALS, GLIDES,
 )
 from .late_common_ghandwa import RULES_LCG
-
-
-# ── Rule-building helper ───────────────────────────────────────────────────────
-
-def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
-    return Rule(id=id_, name=name, stage=stage, requires=requires or [], apply=apply_fn)
+from ._common import (
+    make_rule as _rule,
+    prev_seg as _prev_seg,
+    next_seg as _next_seg,
+    is_word_initial as _is_word_initial,
+    is_word_final as _is_word_final,
+)
 
 
 # ── Category sets ──────────────────────────────────────────────────────────────
@@ -92,36 +93,6 @@ _CONSONANTS_C: frozenset[str] = frozenset([
 ])
 
 _BOUNDARY: frozenset[str] = frozenset(['-', '.'])
-
-
-# ── Internal helpers ───────────────────────────────────────────────────────────
-
-def _prev_seg(toks: list[str], i: int) -> tuple[str | None, int | None]:
-    """Return (token, index) of the previous non-boundary token before i, or (None, None)."""
-    for j in range(i - 1, -1, -1):
-        if toks[j] not in _BOUNDARY:
-            return toks[j], j
-    return None, None
-
-
-def _next_seg(toks: list[str], i: int) -> tuple[str | None, int | None]:
-    """Return (token, index) of the next non-boundary token after i, or (None, None)."""
-    for j in range(i + 1, len(toks)):
-        if toks[j] not in _BOUNDARY:
-            return toks[j], j
-    return None, None
-
-
-def _is_word_final(toks: list[str], i: int) -> bool:
-    """True if the token at i is the last non-boundary token in the stream."""
-    nxt, _ = _next_seg(toks, i)
-    return nxt is None
-
-
-def _is_word_initial(toks: list[str], i: int) -> bool:
-    """True if the token at i is the first non-boundary token in the stream."""
-    prv, _ = _prev_seg(toks, i)
-    return prv is None
 
 
 # ── Stage 2C: rule implementations ────────────────────────────────────────────

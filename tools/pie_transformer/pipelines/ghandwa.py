@@ -24,71 +24,20 @@ from ..tokens import (
     is_plain_velar, is_consonant, is_voiced, is_sonorant, is_boundary,
     lengthen, shorten,
 )
-
-
-# ── Rule-building helper ───────────────────────────────────────────────────────
-
-def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
-    return Rule(
-        id=id_,
-        name=name,
-        stage=stage,
-        requires=requires or [],
-        apply=apply_fn,
-    )
-
-
-# ── Category helpers (Ghandwa-local) ──────────────────────────────────────────
-
-def _laryngeal_color(h: str, v: str) -> str:
-    """h₂ colors adjacent e→a, h₃ colors adjacent e→o. h₁ and H are neutral."""
-    if v != 'e':
-        return v
-    if h == 'h₂':
-        return 'a'
-    if h == 'h₃':
-        return 'o'
-    return v  # h₁, H are neutral
+from ._common import (
+    make_rule as _rule,
+    UW,
+    laryngeal_color as _laryngeal_color,
+    labiovelarize as _labiovelarize,
+    centumize_rule,
+)  # h₁, H are neutral
 
 
 
 # ── Pre-stage: centum merger and labiovelar normalization ─────────────────────
 # (Ghandwa-internal; not shared with Wékʷos pipelines per spec)
 
-_CENTUMIZE = _rule(
-    'gh.centum', 'Centumization: ḱ→k, ǵ→g, ǵʰ→gʰ', 'Pre-stage',
-    lambda toks, ctx: scan(toks, lambda t, i, ts:
-        'k' if t == 'ḱ' else
-        'g' if t == 'ǵ' else
-        'gʰ' if t == 'ǵʰ' else t
-    )
-)
-
-def _labiovelarize(toks: list[str], ctx: Context) -> list[str]:
-    """K+w → Kʷ (sequence merge).
-
-    Each merge reduces the token list by 1.  For every merge whose first token
-    is strictly before ctx.accent_index, the accent shifts left by 1.
-    """
-    out: list[str] = []
-    merges_before_accent = 0
-    i = 0
-    while i < len(toks):
-        tok, nxt = toks[i], toks[i + 1] if i + 1 < len(toks) else None
-        merged = False
-        if tok == 'k' and nxt == 'w':
-            out.append('kʷ'); i += 2; merged = True
-        elif tok == 'g' and nxt == 'w':
-            out.append('gʷ'); i += 2; merged = True
-        elif tok == 'gʰ' and nxt == 'w':
-            out.append('gʷʰ'); i += 2; merged = True
-        else:
-            out.append(tok); i += 1
-        if merged and ctx.accent_index is not None and (i - 2) < ctx.accent_index:
-            merges_before_accent += 1
-    if ctx.accent_index is not None:
-        ctx.accent_index -= merges_before_accent
-    return out
+_CENTUMIZE = centumize_rule('gh')
 
 _LABIOVELARIZE = _rule('gh.lv_merge', 'Labiovelarization: K+w → Kʷ', 'Pre-stage', _labiovelarize)
 
@@ -102,7 +51,6 @@ def _pie_delab(toks: list[str], ctx: Context) -> list[str]:
     """
     LABIOVELARS = ('kʷ', 'gʷ', 'gʷʰ')
     DELAB = {'kʷ': 'k', 'gʷ': 'g', 'gʷʰ': 'gʰ'}
-    UW = {'u', 'ū', 'w'}
 
     out: list[str] = []
     for i, tok in enumerate(toks):
@@ -143,10 +91,7 @@ def _boukólos(toks: list[str], ctx: Context) -> list[str]:
             out.append(tok)
     return out
 
-# Note: _BOUKÓLOS is intentionally NOT placed in the pre-stage pipeline list.
-# It appears only as standing rules _STAND_BOK_1 and _STAND_BOK_2.
-_BOUKÓLOS = _rule('gh.boukólos', 'Boukólos: Kʷ→K / _{C,w,u,ū} (Ghandwa innovation)',
-                  'Standing', _boukólos)
+# Note: _boukólos (the function) is used directly by _STAND_BOK_1 and _STAND_BOK_2.
 
 
 # ── Stage 1: dental clusters ───────────────────────────────────────────────────

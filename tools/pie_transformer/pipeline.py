@@ -50,7 +50,7 @@ def _load_rules(name: str) -> list[Rule]:
         from .pipelines.proto_seldanic import RULES
         return RULES
     if name == 'ghandwa-daughter-a':
-        from .pipelines.daughters import RULES_A
+        from .pipelines.daughter_a import RULES_A
         return RULES_A
     if name == 'ghandwa-daughter-b':
         from .pipelines.daughter_b import RULES_B

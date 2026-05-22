@@ -166,7 +166,8 @@ Three subcommands:
 
 - IPA syllabifier and `ˈ` stress mark not implemented. See `docs/handoff-ipa-syllabifier.md`.
 - Old/Neo Wékʷos pipelines provisional and untested.
-- Daughter pipelines not implemented.
+- Daughter pipelines A and B: Stage 3 not yet specified. Daughter C: Stage 3 implemented.
 - IPA renderers for Wékʷos return `renderer_missing`.
 - `pyproject.toml` not written; package must be run in-place.
 - `--mode` flag parsed but ignored in `form` command; both output modes always shown.
+- **Accent-tracking:** Five distinct hand-rolled accent-index patterns exist across pipeline rules; no shared API. Refactor deferred pending test coverage. See `docs/handoff-accent-tracking-v2.md` for pattern catalog, equivalence proofs, proposed `shift_for_change`/`relocate` API, and required test suite.

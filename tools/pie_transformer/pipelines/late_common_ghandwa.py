@@ -22,6 +22,7 @@ Notes:
 
 from ..rule import Rule, Context, scan
 from ..tokens import is_vowel, is_long_vowel, shorten
+from ._common import make_rule as _rule, next_seg as _next_seg
 
 # ── Category sets ──────────────────────────────────────────────────────────────
 
@@ -30,29 +31,13 @@ _NON_LABIALS = frozenset(['t', 'd', 'θ', 'ð', 's', 'z', 'k', 'g', 'ɣ', 'kʷ',
 _GLIDES = frozenset(['j', 'w'])
 
 
-# ── Rule-building helper ───────────────────────────────────────────────────────
-
-def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
-    return Rule(id=id_, name=name, stage=stage, requires=requires or [], apply=apply_fn)
-
-
-# ── Internal helper ────────────────────────────────────────────────────────────
-
-def _next_segment(ts: list[str], i: int) -> str | None:
-    """Return the next non-boundary token after index i, or None."""
-    for j in range(i + 1, len(ts)):
-        if ts[j] not in ('-', '.'):
-            return ts[j]
-    return None
-
-
 # ── Rule implementations ───────────────────────────────────────────────────────
 
 def _nasal_assim_n(toks: list[str], ctx: Context) -> list[str]:
     """1.1a: n > m / _ {p, b, ɸ, β} (looks past internal morpheme boundaries)."""
     def fn(t, i, ts):
         if t == 'n':
-            nxt = _next_segment(ts, i)
+            nxt, _ = _next_seg(ts, i)
             if nxt is not None and nxt in _LABIALS:
                 return 'm'
         return t
@@ -63,7 +48,7 @@ def _nasal_assim_m(toks: list[str], ctx: Context) -> list[str]:
     """1.1b: m > n / _ {t, d, θ, ð, s, z, k, g, ɣ, kʷ, gʷ, ɣʷ} (looks past boundaries)."""
     def fn(t, i, ts):
         if t == 'm':
-            nxt = _next_segment(ts, i)
+            nxt, _ = _next_seg(ts, i)
             if nxt is not None and nxt in _NON_LABIALS:
                 return 'n'
         return t

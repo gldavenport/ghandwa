@@ -50,18 +50,7 @@ from ..tokens import (
     is_sonorant, is_boundary, is_nasal, is_liquid,
     lengthen, shorten,
 )
-
-
-# ── Rule-building helper ───────────────────────────────────────────────────────
-
-def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
-    return Rule(
-        id=id_,
-        name=name,
-        stage=stage,
-        requires=requires or [],
-        apply=apply_fn,
-    )
+from ._common import make_rule as _rule
 
 
 # ── Category helpers ──────────────────────────────────────────────────────────

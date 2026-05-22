@@ -19,6 +19,10 @@ from __future__ import annotations
 
 import unicodedata
 from .tokenize import tokens_to_string
+from .pipelines._common import (
+    _base_form, _has_accent, _is_ipa_vowel,
+    _valid_onset, _onset_split, _syllabify,
+)
 
 
 # ── Accent application ─────────────────────────────────────────────────────────
@@ -71,127 +75,6 @@ def _ghandwa_surface(tokens: list[str]) -> str:
     return body
 
 
-def _base_form(t: str) -> str:
-    """Strip U+0301 combining acute from a token, preserving other diacritics (e.g. macron)."""
-    nfd = unicodedata.normalize('NFD', t)
-    return unicodedata.normalize('NFC', ''.join(c for c in nfd if c != '\u0301'))
-
-
-def _has_accent(t: str) -> bool:
-    """True if token carries U+0301 combining acute (lexical pitch accent)."""
-    return '\u0301' in unicodedata.normalize('NFD', t)
-
-
-def _is_ipa_vowel(t: str) -> bool:
-    """True if token is a vowel (with or without accent mark)."""
-    from .tokens import VOWELS
-    return _base_form(t) in VOWELS
-
-
-def _valid_onset(cluster: list[str]) -> bool:
-    """
-    True if cluster is a valid complex onset for Ghandwa.
-    Valid: empty, single consonant, stop+liquid, s+stop.
-    """
-    from .tokens import LIQUIDS
-    _STOPS = frozenset(['p', 'b', 't', 'd', 'k', 'g', 'kʷ', 'gʷ',
-                        'bʰ', 'dʰ', 'gʰ', 'gʷʰ'])
-    n = len(cluster)
-    if n == 0:
-        return True
-    if n == 1:
-        return True
-    if n == 2:
-        c1, c2 = cluster
-        if c1 in _STOPS and c2 in LIQUIDS:   # stop + liquid: pr, kr, gl, etc.
-            return True
-        if c1 == 's' and c2 in _STOPS:        # s + stop: st, sp, sk
-            return True
-        return False
-    return False   # no 3-consonant onsets
-
-
-def _onset_split(inter: list[str]) -> int:
-    """
-    Given a consonant sequence between two nuclei, return the index where the
-    onset of the right syllable begins.  Tokens before this index are coda of
-    the left syllable.  Uses onset maximization: tries the largest valid suffix.
-    """
-    for start in range(len(inter)):
-        if _valid_onset(inter[start:]):
-            return start
-    # Fallback (unreachable if single-consonant onset is always valid)
-    return len(inter) - 1
-
-
-def _syllabify(toks: list[str]) -> list[list[str]]:
-    """
-    Onset-maximization syllabifier for Ghandwa IPA tokens.
-
-    Returns a list of syllables; each syllable is a list of tokens.
-
-    Rules:
-    - Vowels are nuclei.
-    - Post-vocalic j/w form diphthongs and remain in the preceding syllable.
-    - Consonant sequences between nuclei are split by onset maximization.
-    - Consonants before the first nucleus are all assigned to the initial onset.
-    - Consonants after the last nucleus are all assigned to the final coda.
-    - Geminates (two identical consonant tokens) split: first to coda, second to
-      next onset — this follows naturally from onset maximization (CC is not a
-      valid single-onset type).
-    """
-    from .tokens import GLIDES
-
-    if not toks:
-        return []
-
-    # Label each token: 'N' = nucleus vowel, 'C' = consonant/other.
-    # Post-vocalic glide immediately following N or a prior diphthong glide → 'D'.
-    labels: list[str] = []
-    for i, t in enumerate(toks):
-        if _is_ipa_vowel(t):
-            labels.append('N')
-        elif t in GLIDES and labels and labels[-1] in ('N', 'D'):
-            labels.append('D')   # diphthong glide: part of preceding nucleus
-        else:
-            labels.append('C')
-
-    # Nucleus positions (only the primary vowel, not the diphthong glide)
-    nuc_positions = [i for i, lb in enumerate(labels) if lb == 'N']
-
-    if not nuc_positions:
-        return [list(toks)]  # no vowels — return as single unit
-
-    syllables: list[list[str]] = []
-
-    # Consonants before first nucleus → initial onset of first syllable
-    first_nuc = nuc_positions[0]
-    current: list[str] = list(toks[:first_nuc])
-
-    for k, nuc_idx in enumerate(nuc_positions):
-        current.append(toks[nuc_idx])
-
-        # Include diphthong glide(s) immediately following this nucleus
-        pos = nuc_idx + 1
-        while pos < len(toks) and labels[pos] == 'D':
-            current.append(toks[pos])
-            pos += 1
-
-        if k + 1 < len(nuc_positions):
-            next_nuc = nuc_positions[k + 1]
-            inter = toks[pos:next_nuc]           # consonants between nuclei
-
-            split = _onset_split(inter)
-
-            current.extend(inter[:split])        # coda of current syllable
-            syllables.append(current)
-            current = list(inter[split:])        # onset of next syllable
-        else:
-            # Last nucleus: remaining tokens are final coda
-            current.extend(toks[pos:])
-            syllables.append(current)
-
-    return syllables
 
 
 def _ghandwa_ipa(tokens: list[str]) -> str:

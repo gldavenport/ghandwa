@@ -16,10 +16,7 @@ from ..tokens import (
     SHORTEN, is_vowel, is_nasal, is_liquid, is_consonant, is_long_vowel,
     shorten, nasalize,
 )
-
-
-def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
-    return Rule(id=id_, name=name, stage=stage, requires=requires or [], apply=apply_fn)
+from ._common import make_rule as _rule
 
 
 # ── Syllabification helper (for final-syllable shortening) ───────────────────

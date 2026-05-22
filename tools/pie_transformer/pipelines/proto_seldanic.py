@@ -18,35 +18,18 @@ from ..tokens import (
     is_vowel, is_laryngeal, is_syl_res, is_dental, is_consonant, is_boundary,
     lengthen,
 )
-
-
-# ── Rule-building helper ───────────────────────────────────────────────────────
-
-def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
-    return Rule(
-        id=id_,
-        name=name,
-        stage=stage,
-        requires=requires or [],
-        apply=apply_fn,
-    )
+from ._common import (
+    make_rule as _rule,
+    UW,
+    laryngeal_color as _laryngeal_color,
+    centumize_rule,
+)
 
 
 # ── Category helpers (Seldanic-local) ─────────────────────────────────────────
 
-def _laryngeal_color(h: str, v: str) -> str:
-    """h₂ colors adjacent e→a, h₃ colors adjacent e→o. h₁ neutral."""
-    if v != 'e':
-        return v
-    if h == 'h₂':
-        return 'a'
-    if h == 'h₃':
-        return 'o'
-    return v
-
 LABIOVELARS = ('kʷ', 'gʷ', 'kʷʰ', 'gʷʰ')
 DELAB_MAP   = {'kʷ': 'k', 'gʷ': 'g', 'kʷʰ': 'kʰ', 'gʷʰ': 'gʰ'}
-UW          = frozenset({'u', 'ū', 'w'})
 SYL_RES_MAP = {'r̥': 'r', 'l̥': 'l', 'm̥': 'm', 'n̥': 'n'}
 
 
@@ -189,14 +172,7 @@ _CHC = _rule('sel.chc', 'H-3: CHC → CaC — uniform interconsonantal laryngeal
 
 # ── Rule 6: Centum merger ─────────────────────────────────────────────────────
 
-_CENTUM = _rule(
-    'sel.centum', 'Centum merger: ḱ→k, ǵ→g, ǵʰ→gʰ', 'Centum',
-    lambda toks, ctx: scan(toks, lambda t, i, ts:
-        'k'  if t == 'ḱ'  else
-        'g'  if t == 'ǵ'  else
-        'gʰ' if t == 'ǵʰ' else t
-    )
-)
+_CENTUM = centumize_rule('sel', stage='Centum')
 
 
 # ── Rule 7: Voiced aspirates devoice, retaining aspiration ───────────────────

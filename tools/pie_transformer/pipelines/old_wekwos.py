@@ -22,57 +22,18 @@ from ..tokens import (
     is_liquid, is_nasal, is_plain_velar,
     lengthen, shorten,
 )
-
-
-def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
-    return Rule(id=id_, name=name, stage=stage, requires=requires or [], apply=apply_fn)
-
-
-# ── Laryngeal color helper ─────────────────────────────────────────────────────
-
-def _laryngeal_color(h: str, v: str) -> str:
-    if v != 'e':
-        return v
-    if h == 'h₂':
-        return 'a'
-    if h == 'h₃':
-        return 'o'
-    return v
-
-
-def _adj_uw(t: str) -> bool:
-    return t in ('u', 'ū', 'w')
+from ._common import (
+    make_rule as _rule,
+    UW,
+    laryngeal_color as _laryngeal_color,
+    labiovelarize as _labiovelarize,
+    centumize_rule,
+)
 
 
 # ── Pre-stage (Wékʷos-internal) ───────────────────────────────────────────────
 
-_CENTUMIZE = _rule(
-    'wk.centum', 'Centumization: ḱ→k, ǵ→g, ǵʰ→gʰ', 'Pre-stage',
-    lambda toks, ctx: scan(toks, lambda t, i, ts:
-        'k' if t == 'ḱ' else 'g' if t == 'ǵ' else 'gʰ' if t == 'ǵʰ' else t)
-)
-
-def _labiovelarize(toks, ctx):
-    out = []
-    merges_before_accent = 0
-    i = 0
-    while i < len(toks):
-        tok = toks[i]
-        nxt = toks[i + 1] if i + 1 < len(toks) else None
-        merged = False
-        if tok == 'k' and nxt == 'w':
-            out.append('kʷ'); i += 2; merged = True
-        elif tok == 'g' and nxt == 'w':
-            out.append('gʷ'); i += 2; merged = True
-        elif tok == 'gʰ' and nxt == 'w':
-            out.append('gʷʰ'); i += 2; merged = True
-        else:
-            out.append(tok); i += 1
-        if merged and ctx.accent_index is not None and (i - 2) < ctx.accent_index:
-            merges_before_accent += 1
-    if ctx.accent_index is not None:
-        ctx.accent_index -= merges_before_accent
-    return out
+_CENTUMIZE = centumize_rule('wk')
 
 _LABIOVELARIZE = _rule('wk.lv_merge', 'Labiovelarization: K+w → Kʷ', 'Pre-stage', _labiovelarize)
 
@@ -82,7 +43,7 @@ def _boukólos(toks, ctx):
         prev = out[-1] if out else None
         nxt = toks[i + 1] if i + 1 < len(toks) else None
         if tok in ('kʷ', 'gʷ', 'gʷʰ') and (
-            (prev and _adj_uw(prev)) or (nxt and _adj_uw(nxt))
+            (prev and prev in UW) or (nxt and nxt in UW)
         ):
             out.append('k' if tok == 'kʷ' else 'g' if tok == 'gʷ' else 'gʰ')
         else:

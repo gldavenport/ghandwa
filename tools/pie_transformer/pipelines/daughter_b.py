@@ -65,46 +65,19 @@ Open questions (do not silently resolve):
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import is_vowel, VOWELS, NASALS, LIQUIDS
+from ..tokens import is_vowel, VOWELS, NASALS, LIQUIDS, BOUNDARIES
 from .late_common_ghandwa import RULES_LCG
+from ._common import (
+    make_rule as _rule,
+    prev_seg as _prev_seg,
+    next_seg as _next_seg,
+    _syllabify,
+)
 
 
 # ── Category sets ──────────────────────────────────────────────────────────────
 
 _VOICED_FRICATIVES = frozenset(['β', 'ð', 'ɣ', 'ɣʷ'])
-_BOUNDARIES = frozenset(['-', '.'])
-
-
-# ── Helper functions ───────────────────────────────────────────────────────────
-
-def _prev_phoneme(toks: list[str], i: int) -> str | None:
-    """Return the nearest preceding non-boundary token, or None."""
-    for j in range(i - 1, -1, -1):
-        if toks[j] not in _BOUNDARIES:
-            return toks[j]
-    return None
-
-
-def _next_phoneme(toks: list[str], i: int) -> str | None:
-    """Return the nearest following non-boundary token, or None."""
-    for j in range(i + 1, len(toks)):
-        if toks[j] not in _BOUNDARIES:
-            return toks[j]
-    return None
-
-
-def _next_phoneme_pos(toks: list[str], i: int) -> int | None:
-    """Return the index of the nearest following non-boundary token, or None."""
-    for j in range(i + 1, len(toks)):
-        if toks[j] not in _BOUNDARIES:
-            return j
-    return None
-
-
-# ── Rule-building helper ───────────────────────────────────────────────────────
-
-def _rule(id_: str, name: str, stage: str, apply_fn, requires=None) -> Rule:
-    return Rule(id=id_, name=name, stage=stage, requires=requires or [], apply=apply_fn)
 
 
 # ── Stage 2B rule implementations ─────────────────────────────────────────────
@@ -122,8 +95,8 @@ def _homorganic_nasal_assim(toks: list[str], ctx: Context) -> list[str]:
     """
     out = []
     for i, t in enumerate(toks):
-        prev = _prev_phoneme(toks, i)
-        nxt  = _next_phoneme(toks, i)
+        prev, _ = _prev_seg(toks, i)
+        nxt, _  = _next_seg(toks, i)
 
         if t == 'β' and prev in VOWELS and nxt == 'm':
             out.append('m')   # Vβm → Vmm
@@ -133,8 +106,8 @@ def _homorganic_nasal_assim(toks: list[str], ctx: Context) -> list[str]:
 
         elif t == 'ɣʷ' and prev in VOWELS and nxt == 'm':
             # VɣʷmV: requires vowel after m too
-            m_pos = _next_phoneme_pos(toks, i)
-            after_m = _next_phoneme(toks, m_pos) if m_pos is not None else None
+            _, m_pos = _next_seg(toks, i)
+            after_m, _ = _next_seg(toks, m_pos) if m_pos is not None else (None, None)
             if after_m in VOWELS:
                 out.append('w')   # VɣʷmV → VwmV
             else:
@@ -152,7 +125,7 @@ def _post_nasal_harden(toks: list[str], ctx: Context) -> list[str]:
 
     def fn(t, i, ts):
         if t in _VOICED_FRICATIVES:
-            prev = _prev_phoneme(ts, i)
+            prev, _ = _prev_seg(ts, i)
             if prev in NASALS:
                 return _harden[t]
         return t
@@ -170,7 +143,7 @@ def _post_liquid(toks: list[str], ctx: Context) -> list[str]:
 
     def fn(t, i, ts):
         if t in _VOICED_FRICATIVES:
-            prev = _prev_phoneme(ts, i)
+            prev, _ = _prev_seg(ts, i)
             if prev in LIQUIDS:
                 if t in _liq_labial:
                     return _liq_labial[t]
@@ -192,8 +165,8 @@ def _intervocalic_sonorize(toks: list[str], ctx: Context) -> list[str]:
 
     def fn(t, i, ts):
         if t in _VOICED_FRICATIVES:
-            prev = _prev_phoneme(ts, i)
-            nxt  = _next_phoneme(ts, i)
+            prev, _ = _prev_seg(ts, i)
+            nxt, _  = _next_seg(ts, i)
             if prev in VOWELS and nxt in VOWELS:
                 return _sonorize[t]
             # ɣʷ → w / #_V (word-initial before vowel; labial gliding)
@@ -226,12 +199,10 @@ def _labiovelar_dissim(toks: list[str], ctx: Context) -> list[str]:
     Direction: symmetric. Either syllable may carry /w/ as trigger.
     If both syllables carry a labiovelar stop/fricative, both delabielize.
 
-    Syllabification: borrowed from render._syllabify (onset maximization).
+    Syllabification: onset maximization via _common._syllabify.
     Morpheme boundaries (-) are stripped before syllabification and reattached
     after; this rule does not cross morpheme boundaries (edge case; flag if seen).
     """
-    from ..render import _syllabify
-
     _LW       = frozenset(['kʷ', 'gʷ', 'xʷ', 'w'])
     _DELAB    = {'kʷ': 'k', 'gʷ': 'g', 'xʷ': 'x'}
     _MORPHEME = '-'
