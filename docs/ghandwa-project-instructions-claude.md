@@ -31,14 +31,18 @@ Conventions, schema, and linguistic facts live in source files, not in these ins
 
 | Topic | File |
 |---|---|
-| Orthography, transliteration, glide/semivowel rules, Sharpscript long vowels, lexicon field conventions (verb citation, provenance, `pre_root`), markdown conventions (italicization, cognate columns), entry_status pipeline | `docs/notation.md` |
-| Verb classification, stem types, `verb_thematicity` / `verb_stem_type` / `verb_derivation` schema, nasal-infix and causative handling | `grammar/verbs.md` |
-| Ordered sound changes, haplology, productive suffixes (\*-mn̥ > -man), worked derivations | `docs/phonological-history.md` |
+| Lexicon entry status pipeline, lexicon field conventions (verb citation, provenance, `pre_root`), markdown conventions (italicization, cognate columns), transformer I/O conventions | `docs/notation.md` |
+| Verb classification, stem types, `verb_thematicity` / `verb_stem_type` / `verb_derivation` schema, nasal-infix and causative handling | `docs/grammar/ch4-ghandwa/verbs.md` |
+| Ordered sound changes, haplology, productive suffixes (\*-mn̥ > -man), worked derivations | `docs/grammar/ch3-development/phonological-history.md` |
 | Rule-by-rule tracking against Ringe 2017, De Vaan, Swanenvleugel | `docs/comparanda.md` |
-| Nominal paradigms | `grammar/paradigms-nominal.md` |
+| Nominal paradigms | `docs/grammar/ch4-ghandwa/paradigms-nominal.md` |
+| Compounding rules, ā-stem compositional stems, glide insertion at morpheme boundaries | `docs/grammar/ch4-ghandwa/sec4-4-word-formation/compounding.md` |
+| Diminutive suffix *-el-* and other derivational suffixes | `docs/grammar/ch4-ghandwa/sec4-4-word-formation/derivational-suffixes.md` |
+| NP order, apposition, syntax stub | `docs/grammar/ch4-ghandwa/sec4-5-syntax.md` |
+| Script, transliteration, IPA, letter inventory, labiovelar notation, Sharpscript long vowels | `docs/grammar/ch1-introduction/notation.md` |
 | PIE-to-Ghandwa transformer architecture | `tools/pie_transformer/docs/ARCHITECTURE.md` |
 | Per-pipeline transformer code specs | `tools/pie_transformer/docs/pipelines/` |
-| Lexicon schema (column list) | header row of `vocab/lexicon.tsv` |
+| Lexicon (authoritative) | NocoDB, localhost:8080; SQLite backend in ghandwa-db/
 | Daughter language framework | `docs/daughters.md` |
 | Sentence corpus, mythology | `corpus/inscriptions.md`, `corpus/lore.md` |
 
@@ -60,7 +64,7 @@ Standard field abbreviations (PIt, PC, PG, PBS, PT, PH) are used without further
 
 ## 5. Workflow & Division of Labor
 
-**Gary ↔ Claude.** Gary edits `lexicon.tsv` in Apple Numbers on macOS, exports as TSV, commits via GitHub Desktop. Claude can `git clone` / `git pull` but cannot `git push`. Claude's role: analyst, diff interpreter, validator, linguistic judgment, file management, transformer verification. Gary handles direct TSV edits unless the task is clearly mechanical.
+**Gary ↔ Claude.** Gary edits the lexicon in NocoDB directly; TSV exports to vocab/lexicon.tsv happen at milestones for Git version history. Claude accesses the lexicon via the NocoDB MCP and can git clone / git pull but cannot git push. Claude's role: analyst, diff interpreter, validator, linguistic judgment, file management, transformer verification. For discrete lookups and edits, Claude uses the NocoDB MCP directly. For bulk analysis, cross-reference hygiene, or any work cheaper to run against a flat file, Claude requests a TSV export from Gary before proceeding.
 
 **Claude ↔ ChatGPT.** ChatGPT handles bulk mechanical passes (cognate mining from Kroonen, De Vaan, Matasović; column backfill). Claude validates ChatGPT output before merging — always diff and verify. ChatGPT has produced hallucinated cognates in the past.
 
@@ -113,7 +117,7 @@ Ringe 2017 (*From PIE to Proto-Germanic*, 2nd ed.) is the primary framework. Als
   2. **Work / GitHub** — `git pull` to `/home/claude/ghandwa/`; copy deliverables to `/mnt/user-data/outputs/` for Gary to download and push via GitHub Desktop.
   3. **Fallback** — file upload (rare; rename before re-upload to avoid dedup hazard).
 - **Claude cannot `git push`** — all repo writes go through Gary.
-- **Lexicon parsing:** `csv.reader(delimiter='\t')`, strip `\r` from fields (Apple Numbers exports have Windows line endings).
+-**Lexicon access: Primary path is NocoDB MCP tools. Scripted TSV parsing (csv.reader(delimiter='\t'), strip \r from fields, unicodedata.normalize('NFC', ...) on all lemma comparisons) applies to milestone exports or offline analysis only — do not use as a substitute for live NocoDB queries.
 - **Unicode:** `unicodedata.normalize('NFC', ...)` on all lemma comparisons — Apple Numbers exports NFD, causing silent match failures.
 - **Column indices:** resolve dynamically via `{name: i for i, name in enumerate(header)}`, not hardcoded (column count has drifted before).
 - **`pip install`:** always `--break-system-packages`.

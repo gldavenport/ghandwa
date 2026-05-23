@@ -209,7 +209,7 @@ Current transformer output may show ⟨j⟩ in positions where ⟨i⟩ is correc
 
 ### Related files
 
-- `docs/phonological-history.md` — the ordered rule inventory the transformer implements.
+- `docs/grammar/ch3-development/phonological-history.md` — the ordered rule inventory the transformer implements.
 - `docs/comparanda.md` — rule-by-rule tracking against Ringe 2017, De Vaan, Swanenvleugel.
 
 ---

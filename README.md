@@ -55,8 +55,8 @@ Stress is free/lexical. Orthographic conventions: /β/ /ð/ /ɣ/ written ⟨β�
 
 - **3 genders**: masculine, feminine, neuter
 - **8 cases**: nominative, accusative, genitive, dative, ablative, instrumental, locative, vocative
-- **Nominal morphology**: largely complete — see `grammar/paradigms-nominal.md`
-- **Verbal morphology**: in progress — 4 present stem classes established; see `grammar/verbs.md`
+- **Nominal morphology**: largely complete — see `docs/grammar/ch4-ghandwa/paradigms-nominal.md`
+- **Verbal morphology**: in progress — 4 present stem classes established; see `docs/grammar/ch4-ghandwa/verbs.md`
 - **Verb citation form**: 3sg present active indicative (e.g. *tékseti*, not bare root)
 
 ---
@@ -77,14 +77,15 @@ ghandwa/
 │   ├── daughters.md                   Daughter-language framework (A/B/C stages)
 │   ├── inscriptions.md                Inscription formulae and working sentences
 │   ├── lore.md                        Worldbuilding, theology, naming, culture
-│   ├── phonological-history.md        Ordered PIE→Ghandwa sound change inventory
-│   └── science.md                     Science/nature vocabulary domain
+│   ├── science.md                     Science/nature vocabulary domain
+│   └── grammar/                       Grammar volume (Ringe-structured)
+│       ├── ch1-introduction/          Notation, script, IPA conventions
+│       ├── ch2-pie/                   PIE phonology and morphology
+│       ├── ch3-development/           PIE→Ghandwa sound changes (phonological-history.md)
+│       └── ch4-ghandwa/               Synchronic Ghandwa grammar (verbs.md, paradigms-nominal.md, etc.)
 ├── grammar/
-│   ├── notation.md                    Notation and formatting conventions
-│   ├── paradigms-nominal.md           Nominal declension paradigm tables
 │   ├── verb-eval-template.md          Verb adoption evaluation methodology
-│   ├── verbs-worksheet.md             Working verb paradigm tables
-│   └── verbs.md                       Verbal morphology architecture
+│   └── verbs-worksheet.md             Working verb paradigm tables
 ├── tools/
 │   └── pie-2-ghandwa.jsx             PIE→Ghandwa phonological transformer
 └── vocab/
@@ -106,7 +107,7 @@ ghandwa/
 
 **`tools/pie-2-ghandwa.jsx`** — the phonological transformer. A React JSX artifact that takes PIE input forms and derives Ghandwa surface forms through an ordered rule pipeline. Authoritative for surface forms — hand-derived forms must be verified against it. Can be run headlessly via Node.js.
 
-**`docs/phonological-history.md`** — the narrative companion to the transformer. Full rule inventory with formal statements, examples, ordering arguments, and design rationale.
+**`docs/grammar/ch3-development/phonological-history.md`** — the narrative companion to the transformer. Full rule inventory with formal statements, examples, ordering arguments, and design rationale.
 
 **`docs/daughters.md`** — the daughter-language framework. Staged A/B/C branch model with landed sound changes and morphological directions. Appendices contain provisional material from earlier sessions (7-zone dialect geography, CS register decisions).
 
