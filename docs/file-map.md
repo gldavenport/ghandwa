@@ -1,10 +1,25 @@
 # File Map — Supersedences and Migrations
 
 ---
-last_updated: 2026-05-22T00:00-04:00
+last_updated: 2026-05-27T00:00-04:00
 ---
 
 Tracks file renames, moves, merges, and deletions across the project. When a file is superseded, the old path is listed here with its new location.
+
+---
+
+## Completed Migrations (2026-05-27)
+
+| Old path | New path | Notes |
+|---|---|---|
+| `docs/daughters.md` | `docs/grammar/ch5-daughters/ch5-01-overview.md` | §1 Cultural and Historical Framing |
+| `docs/daughters.md` | `docs/grammar/ch5-daughters/ch5-02-late-common-ghandwa.md` | §2.1 Late Common Ghandwa (Stage 1) |
+| `docs/daughters.md` | `docs/grammar/ch5-daughters/ch5-03-comparative-phonology.md` | §§2.2–3 Stages 2–4 comparative phonology; 2B fully rewritten (2026-05-27); 2C #s>z initial rule corrected |
+| `docs/daughters.md` | `docs/grammar/ch5-daughters/ch5-04-comparative-morphology.md` | §4 Morphological directions |
+| `docs/daughters.md` | `docs/grammar/ch5-daughters/ch5-05-lexicon-testing.md` | §§5–6 Lexicon testing and status |
+| `docs/daughters.md` | `docs/grammar/ch5-daughters/ch5-appendices.md` | All appendices |
+
+`docs/daughters.md` is superseded in full. Retained at old path as read-only archive until confirmed for deletion. Daughters renamed throughout: A = Western, B = Central, C = Eastern.
 
 ---
 

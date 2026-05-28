@@ -84,6 +84,8 @@ No dental preterite at the Ghandwa level; left to daughters.
 
 **Key insight:** reduplicated preterites are PIE residue, not an Italic–Germanic consensus item. Both branches independently retained different subsets with little crossover. Ghandwa retains them by conservatism, not branch agreement.
 
+**Decision by Gary:** Ghandwa should inherit all PIE reduplicated preterites that appear in both Proto-Italic and Proto-Germanic. Flag for action the next time this section is reviewed.
+
 #### Still open (verbal system)
 
 **Minor / lexicon tasks (not blocking):**

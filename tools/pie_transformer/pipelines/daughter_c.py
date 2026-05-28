@@ -12,8 +12,8 @@ Stages:
 Stage 2C rule ordering:
   2C.1   Stress → initial
   2C.2   s > z word-finally: / V_#, N_#, R_#
-         NOTE: 2C.2a (#s > z / _[+voiced]) dropped — initial position is a
-         fortition environment, not a lenition one.
+         (#s > z / _[+voiced] was considered and dropped — initial position
+         is a fortition environment, not a lenition one; vacuous in practice.)
   2C.3a  β ð ɣ ɣʷ > b d g gʷ (voiced fricative hardening, everywhere)
   2C.3b  z > d / N_  (post-nasal z hardens; only sibilant participation in hardening)
   2C.4   kʷ > p, gʷ > b
