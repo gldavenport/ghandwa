@@ -33,7 +33,9 @@ Conventions, schema, and linguistic facts live in source files, not in these ins
 |---|---|
 | Lexicon entry status pipeline, lexicon field conventions (verb citation, provenance, `pre_root`), markdown conventions (italicization, cognate columns), transformer I/O conventions | `docs/notation.md` |
 | Verb classification, stem types, `verb_thematicity` / `verb_stem_type` / `verb_derivation` schema, nasal-infix and causative handling | `docs/grammar/ch4-ghandwa/verbs.md` |
-| Ordered sound changes, haplology, productive suffixes (\*-mn̥ > -man), worked derivations | `docs/grammar/ch3-development/phonological-history.md` |
+| Chapter 3 intro: Ghandwa's comparative position, scope of development | `docs/grammar/ch3-development/sec3-1-introduction.md` |
+| Ordered sound changes (pre-stage, Stage 1, Stage 2), haplology, productive suffixes (\*-mn̥ > -man), rule ordering, worked derivations | `docs/grammar/ch3-development/sec3-2-sound-changes/` |
+| Synchronic phonological inventory, Boukólos standing rule, deliberate tensions | `docs/grammar/ch4-ghandwa/sec4-2-phonology/` |
 | Rule-by-rule tracking against Ringe 2017, De Vaan, Swanenvleugel | `docs/comparanda.md` |
 | Nominal paradigms | `docs/grammar/ch4-ghandwa/paradigms-nominal.md` |
 | Compounding rules, ā-stem compositional stems, glide insertion at morpheme boundaries | `docs/grammar/ch4-ghandwa/sec4-4-word-formation/compounding.md` |
@@ -43,7 +45,7 @@ Conventions, schema, and linguistic facts live in source files, not in these ins
 | PIE-to-Ghandwa transformer architecture | `tools/pie_transformer/docs/ARCHITECTURE.md` |
 | Per-pipeline transformer code specs | `tools/pie_transformer/docs/pipelines/` |
 | Lexicon (authoritative) | NocoDB, localhost:8080; SQLite backend in ghandwa-db/
-| Daughter language framework | `docs/daughters.md` |
+| Daughter language framework | `docs/grammar/ch5-daughters/` |
 | Sentence corpus, mythology | `corpus/inscriptions.md`, `corpus/lore.md` |
 
 **Repository:** `github.com/gldavenport/ghandwa`. Directories: `vocab/`, `grammar/`, `docs/`, `corpus/`, `tools/`.

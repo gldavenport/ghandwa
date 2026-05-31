@@ -8,6 +8,18 @@ Tracks file renames, moves, merges, and deletions across the project. When a fil
 
 ---
 
+## Completed Migrations (2026-05-30)
+
+| Old path | New path | Notes |
+|---|---|---|
+| `docs/grammar/ch3-development/phonological-history.md` (§§0, 2) | `docs/grammar/ch3-development/sec3-1-introduction.md` | Chapter intro: comparative position, scope, notation pointer |
+| `docs/grammar/ch3-development/phonological-history.md` (§§3–5, 8–10) | `docs/grammar/ch3-development/sec3-2-sound-changes/` | Sound change rules distributed across 6 files by stage/function |
+| `docs/grammar/ch3-development/phonological-history.md` (§§1, 6, 7) | `docs/grammar/ch4-ghandwa/sec4-2-phonology/sec4-2-phonology.md` | Synchronic inventory, Boukólos standing rule, deliberate tensions |
+
+`docs/grammar/ch3-development/phonological-history.md` is superseded in full and deleted.
+
+---
+
 ## Completed Migrations (2026-05-27)
 
 | Old path | New path | Notes |
