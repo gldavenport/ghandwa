@@ -3,7 +3,7 @@ title: The One Ring Verse
 source: J.R.R. Tolkien, *The Lord of the Rings* (1954)
 source_language: English
 register: Sacred / Martial
-last_updated: 2026-05-22
+last_updated: 2026-05-23
 translation_status: pending
 ---
 
@@ -30,34 +30,37 @@ translation_status: pending
 
 ## Vocabulary Harvest
 
-*Last audited: 2026-03-22. Re-audit against current `lexicon.tsv` before drafting translation.*
+*Last audited: 2026-05-23 against `ghandwa_-_lexicon__LexiconMergedCsv__2026-05-23_10-22.csv`.*
 
-| Concept | PoS | Lexicon lemma | Status |
-|---|---|---|---|
-| ring | n | *krénɣos* | canon |
-| die | v | *mariétor* | canon |
-| evil | prefix | *duz-* | canon (prefix only; standalone adj may be needed) |
-| and | conj | *éti* | canon |
-| three | num | — | audit needed |
-| seven | num | — | audit needed |
-| nine | num | — | audit needed |
-| one | num | — | audit needed |
-| sky | n | — | gap |
-| stone | n | — | gap |
-| hall | n | — | gap |
-| land / territory | n | — | gap |
-| throne | n | — | gap |
-| shadow | n | — | audit needed |
-| mortal | adj | — | audit needed |
-| dark / darkness | adj / n | — | gap |
-| rule (to rule) | v | — | gap |
-| find | v | — | gap |
-| bring | v | — | gap |
-| bind | v | — | gap |
-| doomed / fated | adj/ptcp | — | gap |
-| lord / king | n | — | audit needed |
+| Concept | PoS | Lexicon lemma | Status | Notes |
+|---|---|---|---|---|
+| ring | n | *krénɣos* | canon | |
+| die | v | *mariétor* | draft | Check if promotion to canon warranted |
+| evil (prefix) | prefix | *duz-* | canon | Standalone adj may also be needed |
+| and | conj | *éti* | canon | |
+| one | num | *óinos* | canon | |
+| three | num | *treiés* | canon | |
+| seven | num | *septám* | canon | |
+| nine | num | *névan* | canon | |
+| shadow | n | *skṓī* | canon | Preferred over *skátus* [hold] for this context |
+| dark / dusky | adj | *ðúskos* | canon | |
+| darkness | n | *régvos* | canon | |
+| king | n | *rḗks* | canon | Generic king word; *ekvorḗks* etc. are epithets built on it |
+| lord / great one | n | *megṓ* | draft | |
+| horse | n | *ékvos* | canon | |
+| stone | n | *targóm* / *ákmō* | draft | Two entries; distribution unresolved |
+| sky | n | — | **GAP** | |
+| hall | n | — | **GAP** | |
+| land / territory | n | — | **GAP** | |
+| throne | n | — | **GAP** | |
+| mortal | adj | — | **GAP** | |
+| rule (verb) | v | — | **GAP** | |
+| find | v | — | **GAP** | |
+| bring | v | — | **GAP** | |
+| bind (verb) | v | — | **GAP** | |
+| doomed / fated | adj/ptcp | — | **GAP** | |
 
-**Notes:** Meter requires stress audit after lexical gaps are filled. "Dark Lord" may need a compound or circumlocution rather than a direct calque.
+**Notes:** Two darkness words (*ðúskos* adj, *régvos* n) — both likely needed. "Dark Lord" will want a compound using *duz-* + a lordship word. Meter requires stress audit after lexical gaps are filled.
 
 ---
 

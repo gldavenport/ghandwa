@@ -3,7 +3,7 @@ title: Catullus 5 (Vivamus mea Lesbia)
 source: Gaius Valerius Catullus, *Carmina* 5 (c. 60 BCE)
 source_language: Classical Latin
 register: Life
-last_updated: 2026-05-22
+last_updated: 2026-05-23
 translation_status: pending
 ---
 
@@ -53,34 +53,31 @@ translation_status: pending
 
 ## Vocabulary Harvest
 
-*Audit against current `lexicon.tsv` required.*
+*Last audited: 2026-05-23 against `ghandwa_-_lexicon__LexiconMergedCsv__2026-05-23_10-22.csv`.*
 
-| Concept | PoS | Lexicon lemma | Status |
-|---|---|---|---|
-| live / be alive | v | — | audit needed |
-| love (verb) | v | — | audit needed |
-| love (noun) | n | — | gap |
-| rumor / talk | n | — | audit needed |
-| old man | n | — | audit needed |
-| value / reckon | v | — | audit needed |
-| penny / small coin | n | — | audit needed |
-| sun | n | — | audit needed |
-| set (of sun) | v | — | audit needed |
-| rise / return | v | — | audit needed |
-| light | n | — | audit needed |
-| night | n | — | audit needed |
-| sleep (verb) | v | — | audit needed |
-| kiss | n / v | — | audit needed |
-| thousand | num | — | audit needed |
-| hundred | num | — | audit needed |
-| know | v | — | audit needed |
-| evil / wicked | adj | — | audit needed |
-| envy | v | — | audit needed |
-| many | adj | — | audit needed |
-| brief / short | adj | — | audit needed |
-| perpetual / eternal | adj | — | audit needed |
+| Concept | PoS | Lexicon lemma | Status | Notes |
+|---|---|---|---|---|
+| live / be alive | v | *gʷéjeti* | draft | |
+| night | n | *nókts* | canon | |
+| sleep (verb) | v | *svépeti* | hold | Hold status blocks central *nox perpetua* construction |
+| thousand | num | *ɣeslám* | ⚠ blank | Blank entry_status — assign in NocoDB |
+| hundred | num | *kamtám* | canon | |
+| know | v | *ganṓti* | draft | |
+| evil / wicked | adj | *duzvirós* | canon | |
+| many / much | adj | *pelús* | canon | |
+| brief / fast | adj | *marɣús* | canon | May cover "short" as well |
+| sun | n | *sāl* | draft | |
+| love (noun) | n | — | **GAP** | *kāros* [canon] "dear, beloved" adj; derivable? |
+| love (verb) | v | — | **GAP** | |
+| rumor | n | — | **GAP** | |
+| old man | n | — | **GAP** | |
+| value / reckon | v | — | **GAP** | |
+| light (illumination) | n | — | **GAP** | *lanɣús* [canon] is "light of weight" only |
+| kiss | n/v | — | **GAP** | |
+| envy | v | — | **GAP** | |
+| eternal / perpetual | adj | — | **GAP** | |
 
-**Notes:** The numerals (mille, centum) may already exist in the lexicon; audit first. *nox perpetua* is the key phrase — how Ghandwa handles the concept of eternal night against a fire-deity mythology is a lore consideration as well as a lexical one.
+**Notes:** *svépeti* [hold] blocks the central *nox perpetua una dormienda* construction — resolve hold before translating. *nox perpetua* as a concept also has lore implications given Agnis mythology. "Love" noun may be derivable from *kāros* — grammar question.
 
 ---
 

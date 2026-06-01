@@ -3,7 +3,7 @@ title: The Strasbourg Oaths
 source: Nithard, *Histoire des fils de Louis le Pieux*, Book III (842 AD)
 source_language: Old French (primary); Old High German (secondary)
 register: Sacred / Legal
-last_updated: 2026-05-22
+last_updated: 2026-05-23
 translation_status: pending
 ---
 
@@ -37,32 +37,33 @@ translation_status: pending
 
 ## Vocabulary Harvest
 
-*Last audited: 2026-03-22. Re-audit against current `lexicon.tsv` before drafting translation.*
+*Last audited: 2026-05-23 against `ghandwa_-_lexicon__LexiconMergedCsv__2026-05-23_10-22.csv`.*
 
-| Concept | PoS | Lexicon lemma | Status |
-|---|---|---|---|
-| and | conj | *éti* | canon |
-| god | n | — | audit needed |
-| love (noun) | n | — | gap |
-| people / folk | n | — | audit needed |
-| salvation / safety | n | — | audit needed |
-| save / help | v | — | gap |
-| knowledge | n | — | audit needed |
-| power / ability | n | — | gap |
-| brother | n | — | audit needed |
-| aid / help | v / n | — | gap |
-| right / just | adj | — | gap |
-| ought / must | v (modal) | — | audit needed |
-| agreement / covenant | n / v | — | gap |
-| harm / damage | n | — | gap |
-| willingly / by will | adv | — | gap |
-| never | adv | — | gap |
-| my / mine | pro | — | audit needed |
-| our | pro | — | audit needed |
-| this | dem | — | audit needed |
-| every / each | adj | — | gap |
+| Concept | PoS | Lexicon lemma | Status | Notes |
+|---|---|---|---|---|
+| and | conj | *éti* | canon | |
+| god (generic) | n | *deivós* | canon | Distinct from *agnís* (fire god specifically) |
+| people / tribe | n | *teutā́* | draft | |
+| brother | n | *βrā́tēr* | canon | |
+| right / correct | adj | *regús* | canon | May cover "just" as well |
+| all / every | adj | *alnós* | canon | May cover "each" as well |
+| my | pro | *mégios* | draft | |
+| agreement / oath | n | *óitos* / *βā́gos* | canon | Two oath/pledge words; either may serve |
+| harm (verb) | v | *ɣvéneti* | canon | Verb only; deverbal noun needed separately |
+| this / that (dem) | dem | *tód* | canon | |
+| love (noun) | n | — | **GAP** | *kāros* [canon] "dear, beloved" adj exists; derivable? |
+| salvation / safety | n | — | **GAP** | |
+| save / help | v | — | **GAP** | |
+| knowledge | n | — | **GAP** | |
+| power / ability | n | — | **GAP** | *megvós/megús* cover "big/mighty" — not ability |
+| aid (v/n) | v/n | — | **GAP** | |
+| ought / must | v (modal) | — | **GAP** | |
+| harm / damage (noun) | n | — | **GAP** | *ɣvéneti* is verb only |
+| willingly | adv | — | **GAP** | |
+| never | adv | — | **GAP** | |
+| our | pro | — | **GAP** | |
 
-**Notes:** Function words are the primary deficit. "Christian/Christendom" requires a lore decision (calque, borrowing, or avoidance) — not a PIE reconstruction problem. The formula "insofar as God grants me knowledge and power" is the syntactically most demanding clause.
+**Notes:** Function words are the primary deficit. "Love" noun may be derivable from *kāros* adj if deadjectival noun derivation is productive — a grammar question. "Christian/Christendom" requires a lore decision (calque, borrowing, or avoidance). The formula "insofar as God grants me knowledge and power" is the syntactically most demanding clause.
 
 ---
 

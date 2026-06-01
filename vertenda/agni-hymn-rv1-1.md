@@ -3,7 +3,7 @@ title: RV 1.1 — First Agni Hymn
 source: Rigveda 1.1, attributed to Madhucchandas Vaiśvāmitra
 source_language: Vedic Sanskrit
 register: Sacred
-last_updated: 2026-05-22
+last_updated: 2026-05-23
 translation_status: pending
 ---
 
@@ -91,32 +91,34 @@ translation_status: pending
 
 ## Vocabulary Harvest
 
-*Audit against current `lexicon.tsv` required. This text will surface vocabulary central to the Sacred register and directly relevant to the Agnis mythology.*
+*Last audited: 2026-05-23 against `ghandwa_-_lexicon__LexiconMergedCsv__2026-05-23_10-22.csv`.*
 
-| Concept | PoS | Lexicon lemma | Status |
-|---|---|---|---|
-| fire / Agni | n (divine name) | *Agnis* | canon (divine name) |
-| praise / invoke | v | — | audit needed |
-| sacrifice | n / v | — | audit needed |
-| god / divine | n / adj | — | audit needed |
-| priest / officiant | n | — | audit needed |
-| wealth / riches | n | — | audit needed |
-| seers / wise men | n | — | audit needed |
-| truth / ṛta (cosmic order) | n | — | audit needed |
-| house / home | n | — | audit needed |
-| father | n | — | audit needed |
-| son | n | — | audit needed |
-| day | n | — | audit needed |
-| dawn | n | — | audit needed |
-| come / arrive | v | — | audit needed |
-| grow / increase | v | — | audit needed |
-| guard / protect | v | — | audit needed |
-| shine / bright | v / adj | — | audit needed |
-| true / truth | adj / n | — | audit needed |
-| well-being / safety | n | — | audit needed |
-| homage / reverence | n | — | audit needed |
+| Concept | PoS | Lexicon lemma | Status | Notes |
+|---|---|---|---|---|
+| fire / Agni (divine name) | n | *agnís* / *pū́r* | canon | *agnís* [canon] also serves as generic "god" |
+| god (generic) | n | *deivós* | canon | |
+| sacrifice | n | *dapnóm* | canon | |
+| wealth / livestock | n | *péku* | canon | |
+| seer / watcher | n | *véits* | draft | |
+| father | n | *patḗr* | canon | |
+| son | n | *sunús* | canon | |
+| come / arrive | v | *gvémeti* | canon | |
+| home / settlement | n | *kóimos* | canon | "Settlement, camp; home" — may cover "house" |
+| truth / right order | n | *rektús* | draft | Reflex of PIE *h₃rég- / ṛta* — needs theological confirmation |
+| praised (ptcp) | adj | *gvartós* | canon | Participle only; active praise verb absent |
+| priest | n | *danvivéits* | canon | Water-priest specifically; fire-priest term needed |
+| dawn (directional) | n | *áusteros* | draft | "East, direction of dawn" — temporal dawn noun may be needed separately |
+| praise (verb) | v | — | **GAP** | *gvartós* is ptcp only |
+| invoke | v | — | **GAP** | |
+| day | n | — | **GAP** | |
+| grow / increase | v | — | **GAP** | |
+| guard / protect | v | — | **GAP** | |
+| shine / be bright | v | — | **GAP** | |
+| homage / reverence | n | — | **GAP** | |
+| light (illumination) | n | — | **GAP** | *lanɣús* [canon] is "light of weight" only |
+| house (building) | n | — | **GAP** | *kóimos* may suffice if settlement/home sense is broad enough |
 
-**Notes:** *Agnis* is the divine name and already in the lexicon. *ṛta* (cosmic order, truth) is a major conceptual term — its Ghandwa reflex needs to be established both phonologically and theologically; compare Latin *rītus*, Avestan *aša*. The priest-terms (*purohita*, *hotā*, *ṛtvij*) will require either Ghandwa coinages or calques; they test the productive suffix system.
+**Notes:** *ṛta* (cosmic order, truth) — Ghandwa reflex *rektús* needs theological confirmation; compare Latin *rītus*, Avestan *aša*. The Vedic priest-terms (*purohita*, *hotā*, *ṛtvij*) require Ghandwa coinages; *danvivéits* (water-priest) demonstrates the pattern but fire-priest is a distinct needed term. *áusteros* covers the direction of dawn but the hymn uses dawn as a time marker — may need a separate temporal form.
 
 ---
 

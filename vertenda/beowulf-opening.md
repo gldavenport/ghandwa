@@ -3,7 +3,7 @@ title: Beowulf, ll. 1–11
 source: *Beowulf* (Old English, c. 8th–11th c.), Cotton Vitellius A. xv
 source_language: Old English
 register: Martial
-last_updated: 2026-05-22
+last_updated: 2026-05-23
 translation_status: pending
 ---
 
@@ -49,30 +49,31 @@ translation_status: pending
 
 ## Vocabulary Harvest
 
-*Audit against current `lexicon.tsv` required.*
+*Last audited: 2026-05-23 against `ghandwa_-_lexicon__LexiconMergedCsv__2026-05-23_10-22.csv`.*
 
-| Concept | PoS | Lexicon lemma | Status |
-|---|---|---|---|
-| king | n | — | audit needed |
-| glory / greatness | n | — | audit needed |
-| hear (of) | v | — | audit needed |
-| prince / noble | n | — | audit needed |
-| courage / valor | n | — | audit needed |
-| tribe / people | n | — | audit needed |
-| hall | n | — | gap |
-| enemy / foe | n | — | audit needed |
-| fear / terror | n | — | audit needed |
-| coast / shore | n | — | audit needed |
-| sea | n | — | audit needed |
-| yield / submit | v | — | audit needed |
-| tribute / tax | n | — | audit needed |
-| grow / increase | v | — | audit needed |
-| good | adj | — | audit needed |
-| first / at first | adv | — | audit needed |
-| each / every | adj | — | gap |
-| days (of old) | n | — | audit needed |
+| Concept | PoS | Lexicon lemma | Status | Notes |
+|---|---|---|---|---|
+| king | n | *rḗks* | canon | |
+| hear / listen | v | *kléveti* | canon | |
+| people / tribe | n | *teutā́* | draft | |
+| all / every | adj | *alnós* | canon | May cover "each" |
+| fame / renown | n | *klévos* / *klútom* | canon | Two fame words; directly cognate with PIE *ḱlewos* |
+| bold / courageous | adj | *ðarzús* | canon | |
+| glory / greatness | n | — | **GAP** | *klévos* covers fame/renown — may suffice |
+| noble / prince | n | — | **GAP** | |
+| hall | n | — | **GAP** | Shared gap with Ring Verse |
+| enemy / foe | n | — | **GAP** | |
+| fear / terror | n | — | **GAP** | |
+| coast / shore | n | — | **GAP** | |
+| sea (open water) | n | — | **GAP** | *keitís* [canon] is "sea monster" only |
+| yield / submit | v | — | **GAP** | |
+| tribute | n | — | **GAP** | |
+| grow / increase | v | — | **GAP** | |
+| day | n | — | **GAP** | |
+| good (general adj) | adj | — | **GAP** | *vezudékos* [draft] is a personal epithet only |
+| attention particle (*hwæt*) | particle | — | **GAP** | Pragmatic; may need original coinage |
 
-**Notes:** The *Hwæt* opening particle has no direct translation; Ghandwa may need a pragmatic particle or formulaic phrase for the heroic attention-getter. "Whale-road" (*hronrāde*) is a kenning — whether Ghandwa renders it as a kenning or as a straightforward term for sea is a stylistic decision. "Hall" is a shared gap with the Ring Verse.
+**Notes:** *klévos* "fame/renown" is directly cognate with the PIE *ḱlewos* undying-fame formula — the heroic register is natively expressible. *hwæt* has no direct PIE reconstruction; Ghandwa will need a pragmatic solution. "Whale-road" (*hronrāde*) — render as kenning or straightforward sea term is a stylistic decision pending *sea* gap being filled.
 
 ---
 

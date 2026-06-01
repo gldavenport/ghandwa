@@ -23,6 +23,8 @@ Ghandwa is a constructed PIE daughter language, positioned as a conservative wes
 
 Pre-Ghandwa is a living dialect continuum. Variant formations from the same root can coexist.
 
+**Default design position: Italo-Germanic agreement.** Where Proto-Italic and Proto-Germanic agree — in lexical item, morphological strategy, semantic development, or substrate vocabulary — that is Ghandwa's default position. Celtic and other branches are secondary witnesses that may reinforce a choice or support a more archaic PIE form, but do not override Italo-Germanic agreement. Where Italic and Germanic diverge, prefer the PIE-inherited form unless evidence supports following one branch. Substrate vocabulary shared by Italic and Germanic is presumptively present in the Ghandwa lexicon.
+
 ---
 
 ## 3. Source-of-Truth Files
@@ -31,6 +33,7 @@ Conventions, schema, and linguistic facts live in source files, not in these ins
 
 | Topic | File |
 |---|---|
+| Design reasoning, comparative positioning decisions, grammar register, PIE framework adjudication | `docs/grammar/preface.md` |
 | Lexicon entry status pipeline, lexicon field conventions (verb citation, provenance, `pre_root`), markdown conventions (italicization, cognate columns), transformer I/O conventions | `docs/notation.md` |
 | Verb classification, stem types, `verb_thematicity` / `verb_stem_type` / `verb_derivation` schema, nasal-infix and causative handling | `docs/grammar/ch4-ghandwa/verbs.md` |
 | Chapter 3 intro: Ghandwa's comparative position, scope of development | `docs/grammar/ch3-development/sec3-1-introduction.md` |
@@ -92,7 +95,9 @@ Standard field abbreviations (PIt, PC, PG, PBS, PT, PH) are used without further
 
 ## 7. Document Conventions
 
-Documents do not carry per-file changelogs. Substantive design decisions are recorded in the body of the affected document. File supersedences (renames, merges, deletions of superseded files) are tracked in `docs/file-map.md`. Documents keep a `last_updated` ISO 8601 timestamp in their frontmatter.
+Documents do not carry per-file changelogs. Design reasoning and comparative positioning decisions are recorded in `docs/grammar/preface.md` (and the forthcoming epilogue), not inline in grammar chapters. File supersedences (renames, merges, deletions of superseded files) are tracked in `docs/file-map.md`. Documents keep a `last_updated` ISO 8601 timestamp in their frontmatter.
+
+**Grammar register.** The grammar (Chapters 1–5) is naturalistic throughout. Inline "design principle" language in grammar chapters is deprecated; occurrences should be moved to the preface on discovery.
 
 ---
 
@@ -108,7 +113,7 @@ Documents do not carry per-file changelogs. Substantive design decisions are rec
 
 ## 9. Reference Works
 
-Ringe 2017 (*From PIE to Proto-Germanic*, 2nd ed.) is the primary framework. Also: Ringe 2024 (*A Linguistic History of Greek*, for thorn clusters), Kroonen EDPG, De Vaan EDL, Matasović EDPC.
+Ringe 2017 (*From PIE to Proto-Germanic*, 2nd ed.) is the primary phonological framework. Also: Ringe 2024 (*A Linguistic History of Greek*, for thorn clusters), Kroonen EDPG, De Vaan EDL, Matasović EDPC, LIV2 (Rix et al., updated de Vaan; PIE verbal roots), NIL (Wodtko, Irslinger, Schneider; PIE nominal roots).
 
 ---
 

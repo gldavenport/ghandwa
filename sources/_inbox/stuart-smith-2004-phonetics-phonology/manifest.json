@@ -1,0 +1,105 @@
+{
+  "source_file": "stuart-smith-2004-phonetics-phonology.pdf",
+  "created": "2026-05-24",
+  "files": [
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-front-matter.md",
+      "chunk": "front matter",
+      "pdf_pages": [
+        2,
+        25
+      ],
+      "mode": "front"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-ch1-introduction-phonetics-and-philology.md",
+      "chunk": "Chapter 1: Introduction: Phonetics and Philology",
+      "pdf_pages": [
+        26,
+        39
+      ],
+      "mode": "main"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-ch2-italic-sound-change-background.md",
+      "chunk": "Chapter 2: The Italic Sound Change: Background",
+      "pdf_pages": [
+        40,
+        54
+      ],
+      "mode": "main"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-ch3-philology-evidence-italic-development.md",
+      "chunk": "Chapter 3: Philology: The Evidence for the Italic Development",
+      "pdf_pages": [
+        55,
+        168
+      ],
+      "mode": "main"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-ch4-traditional-arguments-reviewed.md",
+      "chunk": "Chapter 4: The Traditional Arguments Reviewed",
+      "pdf_pages": [
+        169,
+        184
+      ],
+      "mode": "main"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-ch5-phonetics-predictions-parallels.md",
+      "chunk": "Chapter 5: Phonetics, Predictions, Parallels",
+      "pdf_pages": [
+        185,
+        219
+      ],
+      "mode": "main"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-ch6-phonetic-explanation-italic-development.md",
+      "chunk": "Chapter 6: A Phonetic Explanation for the Italic Development",
+      "pdf_pages": [
+        220,
+        249
+      ],
+      "mode": "main"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-ch7-concluding-remarks.md",
+      "chunk": "Chapter 7: Concluding Remarks",
+      "pdf_pages": [
+        250,
+        251
+      ],
+      "mode": "main"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-bibliography.md",
+      "chunk": "Bibliography",
+      "pdf_pages": [
+        252,
+        275
+      ],
+      "mode": "bibliography"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-index-of-words.md",
+      "chunk": "Index of Words",
+      "pdf_pages": [
+        276,
+        289
+      ],
+      "mode": "index"
+    },
+    {
+      "file": "stuart-smith-2004-phonetics-phonology-general-index.md",
+      "chunk": "General Index",
+      "pdf_pages": [
+        290,
+        295
+      ],
+      "mode": "index"
+    }
+  ]
+}

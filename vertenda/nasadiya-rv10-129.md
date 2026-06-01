@@ -3,7 +3,7 @@ title: Nāsadīya (RV 10.129)
 source: Rigveda 10.129
 source_language: Vedic Sanskrit
 register: Sacred / Cosmological
-last_updated: 2026-05-22
+last_updated: 2026-05-23
 translation_status: pending
 ---
 
@@ -76,32 +76,33 @@ translation_status: pending
 
 ## Vocabulary Harvest
 
-*Audit against current `lexicon.tsv` required. This text is the most philosophically demanding of the vertenda; harvest is indicative only.*
+*Last audited: 2026-05-23 against `ghandwa_-_lexicon__LexiconMergedCsv__2026-05-23_10-22.csv`. Lowest-priority text; harvest is indicative only.*
 
-| Concept | PoS | Lexicon lemma | Status |
-|---|---|---|---|
-| exist / be | v | — | audit needed |
-| not / negation | particle | — | audit needed |
-| darkness | n | — | audit needed |
-| water | n | *udṓr* | audit needed |
-| death | n | — | audit needed |
-| immortality / undying | n | — | audit needed |
-| night | n | — | audit needed |
-| day | n | — | audit needed |
-| breathe | v | — | audit needed |
-| desire / will | n | — | audit needed |
-| mind / thought | n | — | audit needed |
-| seed | n | — | audit needed |
-| heat / warmth | n | — | audit needed |
-| sky / heaven | n | — | gap |
-| know | v | — | audit needed |
-| create / make | v | — | audit needed |
-| god | n | — | audit needed |
-| poet / seer | n | — | audit needed |
-| bond / link | n | — | audit needed |
-| deep | adj | — | audit needed |
+| Concept | PoS | Lexicon lemma | Status | Notes |
+|---|---|---|---|---|
+| darkness | n | *régvos* | canon | |
+| water | n | *udṓr* / *vódar* | draft | Two water words; relationship and distribution pending |
+| death | n | *martís* | canon | |
+| night | n | *nókts* | canon | |
+| want / will | v | *vélti* | draft | Verb only; desire as noun is a GAP |
+| thought / mind | n | *mantís* | draft | |
+| seed | n | *sḗman* | canon | |
+| know | v | *ganṓti* | draft | |
+| god | n | *deivós* | canon | |
+| seer | n | *véits* | draft | |
+| bond / tie | v | *léigeti* | draft | |
+| negation particle | particle | *né* | draft | |
+| exist / be (copula) | v | — | **GAP** | Deepest structural gap; hymn pivots on it |
+| immortality | n | — | **GAP** | |
+| day | n | — | **GAP** | |
+| breathe | v | — | **GAP** | |
+| desire (noun) | n | — | **GAP** | *vélti* is verb only |
+| heat / warmth (noun) | n | — | **GAP** | *ɣvérō* [draft] is Agnis epithet only |
+| sky / heaven | n | — | **GAP** | Shared with Ring Verse and Beowulf |
+| create | v | — | **GAP** | |
+| deep (adj) | adj | — | **GAP** | *ðubuménezā* [draft] is personal epithet only |
 
-**Notes:** *udṓr* likely covers "water" — confirm in lexicon. "Sky/heaven" is a shared gap with the Ring Verse. The negation system (*nā́sad* — "non-existent") tests whether Ghandwa has a productive negative nominal prefix, beyond the attested *duz-*. This text is deliberately last in priority; translate after the rest are complete.
+**Notes:** The copula gap is the structural center — *nā́sad āsīt / sád āsīt* (non-existence / existence) is untranslatable without it. The negative nominal prefix question (*nā́sad* — "non-existent") needs to be resolved: does *né* + nominal work productively, or is a separate prefix needed beyond *duz-*? Translate last.
 
 ---
 

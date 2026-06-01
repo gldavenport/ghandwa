@@ -1,9 +1,10 @@
 # Ghandwa Nominal Paradigms
 
 ---
-last_updated: 2026-03-19T17:58-04:00
-session: "GitHub prep merge — grafted compound accentuation section from 2026-03-16 fork"
+last_updated: 2026-05-31T00:00-04:00
+session: "Added m-stem section (defective, direct cases sg only)"
 changelog:
+  - 2026-05-31T00:00-04:00 | Added m-stem section: archaic, defective class, direct cases sg only; attested nouns ðéɣōm, ɣéiōm, néβōm.
   - 2026-03-19T17:58-04:00 | 322 lines | GitHub prep merge. Base: 2026-03-15 version (o-stem/u-stem neuter splits, s-stem paradigm, z͡jo tie-bar). Grafted Compound Accentuation section from 2026-03-16 project fork (four examples, tatpuruṣa/bahuvrīhi note).
   - 2026-03-15 | 314 lines | Filled complete s-stem paradigm (all orth and IPA cells). Added notes on oblique stem, neuter pl etymology, voc sg.
   - 2026-03-15 | 299 lines | Split o-stem into masc and neuter subsections. Neuter pl nom/acc/voc confirmed as -ā (aː) from PIE *-h₂. Gen sg IPA o.zjo → o.z͡jo (tie bar canonical); global zj → z͡j normalization applied. Added note on /z͡j/ typological instability.
@@ -204,6 +205,30 @@ Example: *nṓman ~ naméns* "name", *térman ~ tarméns* "boundary"
 | dat | —         |          | —         |          |
 | ins | —         |          | —         |          |
 | loc | —         |          | —         |          |
+
+---
+
+## m-stem
+
+Archaic, defective class. Attested in Ghandwa only in the three direct cases of the singular; oblique cases and plural do not exist. These are liturgical/formulaic survivals; they function as derivational bases for secondary regular formations. Not continued into daughters.
+
+Attested nouns: *ðéɣōm* "Earth" (f), *ɣéiōm* "winter" (m), *néβōm* "heaven(s)" (m)
+
+|     | sing-orth | sing-ipa |
+|-----|-----------|----------|
+| nom | -ōm       | oːm      |
+| voc | -om       | om       |
+| acc | -ōm       | oːm      |
+| gen | —         |          |
+| dat | —         |          |
+| ins | —         |          |
+| loc | —         |          |
+
+Notes:
+- Nom = acc; voc has short vowel (*-om*), parallel to o-stem voc *-e* as bare-stem grade
+- Dashes above are structural gaps, not unestablished forms
+- Lemma_2 in the lexicon (*ɣamés* etc.) records the zero-grade oblique base used for derived secondary nouns, not an inflected form of the m-stem itself
+- PIE sources: *dʰéǵʰōm* 'earth', *gʰéyōm* 'winter/snow', *néb̤ʰōm* 'heaven(s)'
 
 ---
 

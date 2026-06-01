@@ -59,6 +59,12 @@ Each work directory contains:
 
 ---
 
+## Images
+
+Figure files are not stored in the repo. Figures referenced in content files should be consulted in the original PDF.
+
+---
+
 ## _inbox/
 
 Staging directory for new sources before extraction and indexing.

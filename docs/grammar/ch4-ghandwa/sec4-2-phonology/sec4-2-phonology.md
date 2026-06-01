@@ -1,6 +1,6 @@
 ---
 title: "§4.2 Phonology"
-last_updated: 2026-05-30T00:00-04:00
+last_updated: 2026-05-31T00:00-04:00
 chapter: ch4-ghandwa
 section: sec4-2-phonology
 supersedes: "docs/grammar/ch3-development/phonological-history.md (§§1, 6, 7)"
@@ -22,7 +22,7 @@ The Ghandwa surface inventory, as derived by the rules of Chapter 3:
 
 Vowel length is phonemically distinctive. Stress is free and lexical. Labiovelars kʷ, gʷ are preserved before vowels other than *u*; they delabialized before *u*, *ū*, *w*, and before consonants (see §4.2.2).
 
-The four voiced fricatives β, ð, ɣ, ɣʷ are the defining Ghandwa phonemes. They arise historically from the PIE aspirated stops (§3.2.3.3) and remain stable at the Ghandwa stage. They constitute a deliberate phonological tension for daughter languages, which may devoice, stop, or merge them independently.
+The four voiced fricatives β, ð, ɣ, ɣʷ are the defining Ghandwa phonemes. They arise historically from the PIE aspirated stops (§3.2.3.3) and remain stable at the Ghandwa stage. They constitute an unresolved phonological tension for daughter languages, which may devoice, stop, or merge them independently.
 
 ## §4.2.2 Consonant Alternations: Labiovelar Standing Rules
 
@@ -45,13 +45,13 @@ The Boukólos rule creates systematic stem alternations in paradigms where the f
 - Nominative *perkus*: kʷ before u → delabializes
 - Genitive *perkʷews*: kʷ before e → preserved
 
-The resulting kʷ ~ k allomorphy is a **deliberate unresolved tension** (see §4.2.3). Daughter languages may level it in either direction.
+The resulting kʷ ~ k allomorphy is an unresolved tension (see §4.2.3). Daughter languages may level it in either direction.
 
 The interaction with labiovelar absorption (§4.2.2.1) is important: absorption can create new labiovelars from velar+w sequences, which the Boukólos rule then feeds on. Both rules must be run to convergence in sequence (absorption → Boukólos) at each stage.
 
-## §4.2.3 Deliberate Phonological Tensions
+## §4.2.3 Unresolved Phonological Tensions
 
-A central design principle of Ghandwa is that not every phonological instability is resolved at the parent-language stage. The following features are left as tensions that daughter languages are expected to resolve independently:
+Not every phonological instability present at the Ghandwa stage is resolved. The following features remain as open tensions that daughter languages are expected to address independently:
 
 | Feature | Status in Ghandwa | Expected daughter variation |
 |---|---|---|

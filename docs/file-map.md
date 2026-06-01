@@ -1,10 +1,18 @@
 # File Map — Supersedences and Migrations
 
 ---
-last_updated: 2026-05-27T00:00-04:00
+last_updated: 2026-05-31T00:00-04:00
 ---
 
 Tracks file renames, moves, merges, and deletions across the project. When a file is superseded, the old path is listed here with its new location.
+
+---
+
+## Created (2026-05-31)
+
+| New path | Notes |
+|---|---|
+| `docs/grammar/preface.md` | Grammar preface: Italo-Germanic default, dialect continuum premise, phonological tensions, PIE framework. Design reasoning confined here (and forthcoming epilogue) rather than inline in grammar chapters. |
 
 ---
 

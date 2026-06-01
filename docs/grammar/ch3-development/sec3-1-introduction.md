@@ -1,6 +1,6 @@
 ---
 title: "§3.1 Introduction"
-last_updated: 2026-05-30T00:00-04:00
+last_updated: 2026-05-31T00:00-04:00
 chapter: ch3-development
 supersedes: "docs/grammar/ch3-development/phonological-history.md (§§0, 2)"
 ---
@@ -27,4 +27,4 @@ Two developments define Ghandwa relative to PIE and distinguish it from its clos
 
 Several major innovations attested in sister branches are explicitly absent from Ghandwa. The full Grimm's Law chain shift (voiceless stops to voiceless fricatives, voiced stops to voiceless stops) is Germanic-specific; Ghandwa applies only the aspirate step. Verner's Law (accent-conditioned voicing of fricatives) is replaced in Ghandwa by a simpler phonotactic rule. The o/a merger is Germanic-specific; Ghandwa preserves the PIE *o/a* distinction. The shift \*gʷ → *b* and the loss of \*p are Celtic-specific; Ghandwa preserves both. The Ghandwa *s*-voicing rule (§3.2.3.4) is conditioned by the voicing of adjacent segments, not by accent position — the crucial formal difference from Verner's Law that determines its classification as an independent development.
 
-The comparative framework also bears on the interpretation of Pre-Ghandwa. The parent stage is best understood as a dialect continuum, not a uniform protolanguage. Variant formations from the same root can coexist in the lexicon as regional or register doublets. This design principle is discussed further in §4.2 (*sec4-2-phonology/sec4-2-phonology.md*).
+The comparative framework also bears on the interpretation of Pre-Ghandwa. The parent stage is best understood as a dialect continuum rather than a uniform protolanguage; variant formations from the same root can coexist in the lexicon as regional or register doublets.

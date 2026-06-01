@@ -3,7 +3,7 @@ title: Second Merseburg Charm
 source: OHG manuscript, Merseburg Cathedral Chapter Library (10th c. copy of earlier text)
 source_language: Old High German
 register: Sacred / Nature
-last_updated: 2026-05-22
+last_updated: 2026-05-23
 translation_status: pending
 ---
 
@@ -56,26 +56,29 @@ translation_status: pending
 
 ## Vocabulary Harvest
 
-*Audit against current `lexicon.tsv` required.*
+*Last audited: 2026-05-23 against `ghandwa_-_lexicon__LexiconMergedCsv__2026-05-23_10-22.csv`.*
 
-| Concept | PoS | Lexicon lemma | Status |
-|---|---|---|---|
-| ride | v | — | audit needed |
-| forest / wood | n | — | audit needed |
-| foal / young horse | n | — | audit needed |
-| foot | n | — | audit needed |
-| sprain / twist | v | — | audit needed |
-| charm / enchant | v | — | audit needed |
-| sister | n | — | audit needed |
-| bone | n | — | audit needed |
-| blood | n | — | audit needed |
-| limb / joint | n | — | audit needed |
-| fit together / join | v | — | audit needed |
-| as / like (comparative conj) | conj | — | audit needed |
-| well / rightly (adv) | adv | — | audit needed |
-| know (how) / be able | v | — | audit needed |
+| Concept | PoS | Lexicon lemma | Status | Notes |
+|---|---|---|---|---|
+| bone | n | *óst* | canon | |
+| blood (money / cost) | n | *kvoinā́* | canon | Blood-money sense only; physiological "blood" is a GAP |
+| sister | n | *svézōr* | hold | Hold status blocks translation |
+| foot | n | *pṓts* | hold | Hold status blocks translation |
+| join / yoke | v | *iunékti* | hold | Hold status blocks translation |
+| magic | n/adj | *so͡jtós* | canon | Noun/adj; no charm verb |
+| know | v | *ganṓti* | draft | |
+| horse | n | *ékvos* | canon | |
+| blood (physiological) | n | — | **GAP** | *kvoinā́* is blood-money only |
+| forest / wood (place) | n | — | **GAP** | *dérvī* [canon] is wood-nymph, not forest as place |
+| ride (verb) | v | — | **GAP** | |
+| foal / young horse | n | — | **GAP** | |
+| sprain / twist | v | — | **GAP** | |
+| charm (verb) | v | — | **GAP** | *so͡jtós* is noun/adj only |
+| limb / joint | n | — | **GAP** | |
+| fit together | v | — | **GAP** | |
+| able / can (modal) | v | — | **GAP** | |
 
-**Notes:** The divine names (Phol/Balder, Wodan, Friia, Volla, Sinthgunt) will be replaced by Ghandwa divine equivalents — this is a lore decision, not a translation problem. The structural formula (*bēn zi bēna, bluot zi bluoda*) is the core: a repetitive triadic charm with a closing copula. The challenge in Ghandwa is rendering the parallel structure with the same rhythmic weight.
+**Notes:** Three hold-status entries (*svézōr*, *pṓts*, *iunékti*) block translation entirely — resolving those is the prerequisite. The divine names (Phol/Balder, Wodan, Friia, Volla, Sinthgunt) will be replaced by Ghandwa divine equivalents — lore decision, not a translation problem. The triadic formula (*bēn zi bēna, bluot zi bluoda*) requires both physiological "blood" and a body-part parallel structure; *kvoinā́* cannot serve.
 
 ---
 

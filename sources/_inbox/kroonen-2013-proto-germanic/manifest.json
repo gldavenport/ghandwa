@@ -1,0 +1,75 @@
+{
+  "source_file": "kroonen-2013-proto-germanic.pdf",
+  "source_type": "mixed",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "kroonen-2013-proto-germanic-frontmatter.md",
+    "kroonen-2013-proto-germanic-introduction.md",
+    "kroonen-2013-proto-germanic-letter-a.md",
+    "kroonen-2013-proto-germanic-letter-b.md",
+    "kroonen-2013-proto-germanic-letter-d.md",
+    "kroonen-2013-proto-germanic-letter-e.md",
+    "kroonen-2013-proto-germanic-letter-f.md",
+    "kroonen-2013-proto-germanic-letter-g.md",
+    "kroonen-2013-proto-germanic-letter-h.md",
+    "kroonen-2013-proto-germanic-letter-i.md",
+    "kroonen-2013-proto-germanic-letter-j.md",
+    "kroonen-2013-proto-germanic-letter-k.md",
+    "kroonen-2013-proto-germanic-letter-l.md",
+    "kroonen-2013-proto-germanic-letter-m.md",
+    "kroonen-2013-proto-germanic-letter-n.md",
+    "kroonen-2013-proto-germanic-letter-o.md",
+    "kroonen-2013-proto-germanic-letter-p.md",
+    "kroonen-2013-proto-germanic-letter-r.md",
+    "kroonen-2013-proto-germanic-letter-s.md",
+    "kroonen-2013-proto-germanic-letter-t.md",
+    "kroonen-2013-proto-germanic-letter-thorn.md",
+    "kroonen-2013-proto-germanic-letter-u.md",
+    "kroonen-2013-proto-germanic-letter-w.md",
+    "kroonen-2013-proto-germanic-bibliography.md",
+    "kroonen-2013-proto-germanic-index.md",
+    "README.md",
+    "kroonen-2013-proto-germanic-extraction-report.md",
+    "kroonen-2013-proto-germanic-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "images/kroonen-2013-proto-germanic-p38-flowchart.png",
+      "source_label": "§2.3 Flowchart",
+      "page": 38,
+      "caption": "Relative chronology of selected sound changes from Proto-Indo-European to Proto-Germanic."
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "unknown",
+    "arrow_control_mapping_repairs": "applied"
+  },
+  "markers_inserted": {
+    "unclear": 19,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 1008,
+      "h2": 2896,
+      "h3": 506
+    },
+    "macron_a": 0,
+    "macron_e": 0,
+    "macron_i": 0,
+    "macron_o": 0,
+    "macron_u": 0,
+    "schwa": 1,
+    "greek_chars": 508,
+    "combining_diacritics": 22,
+    "dagger": 0
+  },
+  "unresolved_count": 19,
+  "notes": "Mixed scanned/OCR PDF. Text layer is not character-authoritative; later visual/source-critical passes recommended for Greek, IPA, diacritics, laryngeals, index, and selected entries."
+}
