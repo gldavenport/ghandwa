@@ -92,7 +92,7 @@ Open questions (do not silently resolve):
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import is_vowel, VOWELS, NASALS, LIQUIDS, BOUNDARIES
+from pie_core.tokens import is_vowel, VOWELS, NASALS, LIQUIDS, BOUNDARIES
 from .late_common_ghandwa import RULES_LCG
 from ._common import (
     make_rule as _rule,

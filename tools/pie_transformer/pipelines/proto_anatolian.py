@@ -44,7 +44,7 @@ Notes:
 from __future__ import annotations
 
 from ..rule import Rule, Context, scan
-from ..tokens import (
+from pie_core.tokens import (
     SHORTEN, LENGTHEN, DEASPIRATE,
     is_vowel, is_laryngeal, is_syl_res, is_dental, is_consonant,
     is_sonorant, is_boundary, is_nasal, is_liquid,

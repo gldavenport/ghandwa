@@ -18,7 +18,7 @@ Key departures from the JSX architecture (per spec):
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import (
+from pie_core.tokens import (
     SHORTEN, LENGTHEN, DEVOICE, DEASPIRATE,
     is_vowel, is_laryngeal, is_glottal, is_syl_res, is_dental,
     is_plain_velar, is_consonant, is_voiced, is_sonorant, is_boundary,

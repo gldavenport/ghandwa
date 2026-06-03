@@ -22,7 +22,7 @@ Pipeline chaining:
 from __future__ import annotations
 
 from .rule import Rule, Context, DerivationResult, run_pipeline
-from .tokenize import tokens_to_string
+from pie_core.tokenize import tokens_to_string
 
 
 # ── Pipeline registry ──────────────────────────────────────────────────────────

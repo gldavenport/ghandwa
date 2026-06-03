@@ -21,8 +21,8 @@ import sys
 import unicodedata
 from pathlib import Path
 
-from .normalize import normalize
-from .tokenize import tokenize, accent_char_pos_to_token_index, tokens_to_string
+from pie_core.normalize import normalize
+from pie_core.tokenize import tokenize, accent_char_pos_to_token_index, tokens_to_string
 from .rule import Context
 from .pipeline import run, run_all, ALL_PIPELINES
 from .render import render, get_warnings

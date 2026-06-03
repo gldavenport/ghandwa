@@ -18,7 +18,7 @@ If a pipeline has no implemented IPA renderer, returns 'renderer_missing'.
 from __future__ import annotations
 
 import unicodedata
-from .tokenize import tokens_to_string
+from pie_core.tokenize import tokens_to_string
 from .pipelines._common import (
     _base_form, _has_accent, _is_ipa_vowel,
     _valid_onset, _onset_split, _syllabify,
@@ -315,7 +315,7 @@ def get_warnings(tokens: list[str]) -> list[str]:
     # Check for triple consonant cluster (CCC).
     # Glides (j, w) are excluded: post-vocalic j/w form diphthongs and
     # do not count as onset/coda consonants for cluster purposes.
-    from .tokens import is_consonant, is_glottal, GLIDES
+    from pie_core.tokens import is_consonant, is_glottal, GLIDES
     run = 0
     for t in tokens:
         if t in ('-', '.'):

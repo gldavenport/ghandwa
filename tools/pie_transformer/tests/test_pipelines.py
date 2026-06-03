@@ -20,8 +20,8 @@ import copy
 import sys
 import unittest
 
-from ..normalize import normalize
-from ..tokenize import tokenize, accent_char_pos_to_token_index
+from pie_core.normalize import normalize
+from pie_core.tokenize import tokenize, accent_char_pos_to_token_index
 from ..rule import Context
 from ..pipeline import run
 from ..render import render
@@ -77,12 +77,12 @@ class TestNormalizationAndTokenizationStable(unittest.TestCase):
         self.assertIn('kʷ', norm.clean)
 
     def test_tokenize_h2_single(self):
-        from ..tokenize import tokenize
+        from pie_core.tokenize import tokenize
         tokens, _ = tokenize('h₂')
         self.assertEqual(tokens, ['h₂'])
 
     def test_tokenize_gw_aspirate_single(self):
-        from ..tokenize import tokenize
+        from pie_core.tokenize import tokenize
         tokens, _ = tokenize('gʷʰ')
         self.assertEqual(tokens, ['gʷʰ'])
 
@@ -376,8 +376,8 @@ class TestDaughterA(unittest.TestCase):
 
     def test_initial_stress(self):
         # *albhos: stress on first vowel 'a' (index 0)
-        from pie_transformer.tokenize import tokenize, accent_char_pos_to_token_index
-        from pie_transformer.normalize import normalize
+        from pie_core.tokenize import tokenize, accent_char_pos_to_token_index
+        from pie_core.normalize import normalize
         from pie_transformer.pipeline import run
         from pie_transformer.rule import Context
         res = normalize('*albʰós')
@@ -389,8 +389,8 @@ class TestDaughterA(unittest.TestCase):
 
     def _da_tokens(self, form):
         """Run daughter-a and return final_tokens list."""
-        from pie_transformer.tokenize import tokenize, accent_char_pos_to_token_index
-        from pie_transformer.normalize import normalize
+        from pie_core.tokenize import tokenize, accent_char_pos_to_token_index
+        from pie_core.normalize import normalize
         from pie_transformer.pipeline import run
         from pie_transformer.rule import Context
         res = normalize(form)

@@ -103,7 +103,7 @@ def run_pipeline(
 
     Returns a DerivationResult.
     """
-    from .tokenize import tokens_to_string  # avoid circular import
+    from pie_core.tokenize import tokens_to_string  # avoid circular import
 
     trace: list[TraceRow] = []
     current = list(tokens)

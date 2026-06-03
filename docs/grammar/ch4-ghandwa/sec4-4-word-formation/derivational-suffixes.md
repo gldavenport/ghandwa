@@ -1,8 +1,9 @@
 # §4.4.2 Derivational Suffixes
 
 ---
-last_updated: 2026-05-31T00:00-04:00
+last_updated: 2026-05-31T12:00-04:00
 changelog:
+  - 2026-05-31T12:00-04:00 | — | Added *-tis* (PIE *-ti-*) and *-no-* (PIE *-no-*) sections.
   - 2026-05-31T00:00-04:00 | — | Added instrument suffix family (-trom, -ðrom, -klom, -ɣlom) and agentive nt-stem suffix (-onts ~ -antés).
   - 2026-05-22T00:00-04:00 | — | Initial creation. *-el-* diminutive: inherited from PIE *\*-elo-*, thematic forms, comparanda, examples.
 ---
@@ -53,6 +54,24 @@ changelog:
 **Productivity.** The plain members (*-trom*, *-klom*) are more freely applicable; the marked members (*-ðrom*, *-ɣlom*) tend toward fixed lexicalized items.
 
 **Examples:** *(to be supplied from lexicon as compounds are added)*
+
+---
+
+## *-tis* (PIE \**-ti-*)
+
+PIE \**-ti-* formed abstract nouns of action or result from verbal roots, typically with zero-grade of the root and suffix accent. In Ghandwa the historical *ti-*stem has merged into the general i-stem paradigm; no distinct inflectional type is preserved, and etymological \**-ti-* formations are synchronically simple i-stems.
+
+Where the verbal base survives in the lexicon the derivation is recoverable. *mantís* 'thought' (< \**mn̥tís*, base *méneti* 'to think') and *martís* 'death' (< \**mr̥tis*, base *mariétor* 'to die') both show the regular CaRC development \**mn̥-* → *man-*, \**mr̥-* → *mar-* (§3.2). *ðētís* 'deed, act' (< \**dʰéh₁tis*) is formed from *ðḗti* 'to do'. *gvessís* 'speech, act of saying' (< \**gʷéttis*) derives from *gvéteti* 'to say'. *gvamtís* 'step, act, action' (< \**gʷémtis*, base *gvémeti*) is e-grade rather than the expected zero grade.
+
+Several high-frequency i-stems carry the historical \**-ti-* suffix but have no synchronically active verbal base. *vātís* 'seer, prophet' (< \**weh₂tis*; cf. Lat. *uātēs*, OIr *fáith*) and *ɣostís* 'guest, stranger' (< \**gʰóstis*; cf. Lat. *hostis*, PG \**gasti-*) are synchronically underived.
+
+---
+
+## *-no-* (PIE \**-no-*)
+
+PIE \**-no-* formed relational adjectives and secondarily nouns from nominal bases. The suffix is formally identical to the sequence root-final *-n-* + thematic *-o-*, which makes it synchronically opaque in most Ghandwa examples; clear \**-no-* derivatives cannot always be distinguished from root-internal formations.
+
+The clearest productive instance is *ɣvérīnos* 'having to do with wild animals' (< \**ǵʰweríHnos*), built on *ɣvḗr ~ ɣvéros* 'wild animal' by the extended suffix \**-īno-*. This form, which derives relational adjectives from animate nouns, is the most transparent productive pattern in the Ghandwa evidence. *βórnos* 'newborn boy' (< \**bʰornos*, from *bʰer-* 'to bear') is etymologically \**bʰer-no-* but fully lexicalized as a cultural term. *dṓnom* 'gift' (< \**déh₃nom*; cf. Lat. *donum*, PCelt. \**danu-*) reflects \**deh₃-no-m* applied to the verbal root *deh₃-* 'to give'; the result is synchronically an underived o-stem noun. *gárnom* 'grain' (< \**ǵr̥h₂nóm*) is unclear: the *-n-* may be root-internal rather than suffixal, and no Ghandwa base is attested.
 
 ---
 

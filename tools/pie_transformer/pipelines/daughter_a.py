@@ -25,7 +25,7 @@ Source: docs/daughters.md §§2.2 (2A), 3.1 (3A).
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import is_vowel
+from pie_core.tokens import is_vowel
 from .late_common_ghandwa import RULES_LCG
 from ._common import make_rule as _rule
 

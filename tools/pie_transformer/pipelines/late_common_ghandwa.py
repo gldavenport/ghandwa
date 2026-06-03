@@ -21,7 +21,7 @@ Notes:
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import is_vowel, is_long_vowel, shorten
+from pie_core.tokens import is_vowel, is_long_vowel, shorten
 from ._common import make_rule as _rule, next_seg as _next_seg
 
 # ── Category sets ──────────────────────────────────────────────────────────────

@@ -12,7 +12,7 @@ Ported from tools/pie-transformer.jsx (WK_NEO).
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import (
+from pie_core.tokens import (
     SHORTEN, is_vowel, is_nasal, is_liquid, is_consonant, is_long_vowel,
     shorten, nasalize,
 )

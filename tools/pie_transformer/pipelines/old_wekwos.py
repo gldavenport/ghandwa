@@ -16,7 +16,7 @@ Key differences from Ghandwa:
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import (
+from pie_core.tokens import (
     SHORTEN, LENGTHEN, DEVOICE, DEASPIRATE,
     is_vowel, is_laryngeal, is_consonant, is_syl_res,
     is_liquid, is_nasal, is_plain_velar,

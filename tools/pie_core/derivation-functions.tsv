@@ -1,0 +1,61 @@
+label	function
+RootPres	athematic root present
+ThemPres	thematic present
+RedupPres	reduplicated present (intensive/iterative)
+NasalPres	nasal-infix present
+NasalSuf	nasal-suffix present (-neu/-nu-)
+SkePres	iterative/inchoative present (-sḱe/o-)
+YePres	present (-ye/o-)
+CausIter	causative/iterative
+Perfect	perfect/stative
+RootAor	root aorist
+SigAor	sigmatic aorist
+RootNounAcro	root noun, acrostatic
+RootNounMob	root noun, mobile
+ThemNounR	o-grade root-accent: result/action noun
+ThemNounS	o-grade suffix-accent: agent noun
+ThemNounZR	zero-grade root-accent: lexicalized animate/common noun
+ThemNounZS	zero-grade suffix-accent: object/result/instrument noun
+VerbAdjTo	verbal adjective: result/passive
+VerbAdjNo	verbal adjective: state (-no-)
+AdjRo	adjective: state/result (-ro-)
+AdjLo	adjective (-lo-)
+ActNounTi	action noun / abstract (-ti-)
+ActNounTu	verbal noun (-tu-)
+MenNounR	neuter result/action/instrument noun (-mn̥)
+MonNounPrim	primary deverbal noun/adjective (-món-)
+AgentNounE	event-agent noun (-tōr)
+AgentNounR	role/status agent noun (-tēr)
+SStem	s-stem abstract/result noun
+UStemC	Caland-system adjective (-u-)
+UStemM	u-stem noun, mobile non-Caland
+IStem	i-stem noun/adjective
+FemEventNoun	feminine event/result noun (-éh₂)
+InstrNounTro	neuter instrument noun (-tro-)
+InstrNounTlo	neuter instrument noun (-tlo-)
+LoNoun	noun of place/object/result (-lo-)
+MoNoun	action/event noun; adjective (-mo-)
+NoNoun	noun of various sorts (-no-)
+MenNounAnim	animate internal derivative (-mōn-)
+PresActPtcp	present active participle (thematic)
+PresActPtcpAthem	present active participle (athematic)
+MidPtcp	middle participle
+PerfPtcp	perfect active participle
+AorActPtcp	aorist active participle
+FemEh2	feminine of thematic stems (-eh₂)
+FemIh2	feminine of animate/agent nouns (-ih₂)
+Collective	collective / neuter plural (-eh₂)
+AbstractAdj	abstract noun from adjective
+Comparative	comparative adjective (-yos-)
+Superlative	superlative adjective (-isto-)
+Possessive	possessive adjective (-went-)
+Relational	relational adjective (-iyo-)
+SecThematic	secondary thematicization
+DenomVerb	denominal verb (-ye/o-)
+Factitive	factitive verb (-éye/o-)
+AgentFem	feminine agent noun
+AbstractActNoun	abstract/collective from action noun
+SubstTo	substantivized -to- adjective: result/exemplar noun
+CausalFromNoun	Caland-network derivative
+ComparativeTero	contrastive -tero- (catalog only; pronominal/spatial base)
+SuperlativeMm̥o	superlative -m̥mo- (catalog only; local/spatial base)

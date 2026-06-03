@@ -33,7 +33,7 @@ from __future__ import annotations
 import unicodedata
 
 from ..rule import Rule, Context, scan
-from ..tokens import BOUNDARIES, VOWELS, LIQUIDS, GLIDES
+from pie_core.tokens import BOUNDARIES, VOWELS, LIQUIDS, GLIDES
 
 
 # ── Rule-building helper ───────────────────────────────────────────────────────

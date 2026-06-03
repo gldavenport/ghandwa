@@ -123,8 +123,8 @@ def _save_markdown(content: str, default_stem: str) -> None:
 # ── Transform ──────────────────────────────────────────────────────────────────
 
 def _run_transform(pie_form: str, pipeline: str, trace):
-    from .normalize import normalize
-    from .tokenize import tokenize, accent_char_pos_to_token_index
+    from pie_core.normalize import normalize
+    from pie_core.tokenize import tokenize, accent_char_pos_to_token_index
     from .rule import Context
     from .pipeline import run
     from .render import render

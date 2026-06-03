@@ -14,7 +14,7 @@ Key features:
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import (
+from pie_core.tokens import (
     is_vowel, is_laryngeal, is_syl_res, is_dental, is_consonant, is_boundary,
     lengthen,
 )

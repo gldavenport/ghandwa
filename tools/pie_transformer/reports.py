@@ -16,7 +16,7 @@ from typing import TextIO
 
 from .rule import DerivationResult, TraceRow
 from .render import render, get_warnings
-from .tokenize import tokens_to_string
+from pie_core.tokenize import tokens_to_string
 
 
 # ── Terminal report ────────────────────────────────────────────────────────────

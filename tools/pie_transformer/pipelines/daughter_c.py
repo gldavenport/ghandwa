@@ -51,7 +51,7 @@ Source: docs/daughters.md §§2.2 (2C), 3.1 (3C); docs/ghandwa-daughter-c.md.
 """
 
 from ..rule import Rule, Context, scan
-from ..tokens import (
+from pie_core.tokens import (
     is_vowel, is_short_vowel, is_long_vowel, lengthen,
     LIQUIDS, NASALS, GLIDES,
 )
