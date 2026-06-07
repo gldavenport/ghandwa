@@ -8,6 +8,23 @@ Tracks file renames, moves, merges, and deletions across the project. When a fil
 
 ---
 
+## Moved / Created (2026-06-06)
+
+| Action | Path | Notes |
+|---|---|---|
+| Moved | `docs/crotonian-rules.md` → `tools/docs/pie_transformer/crotonian-rules.md` | Operational wékʷos/Crotonian transformer spec; belongs with pipeline docs |
+| Moved | `docs/numeral-suffixes.md` → `docs/grammar/ch4-ghandwa/sec4-4-word-formation/numeral-suffixes.md` | Active grammar content; migrated to ch4 word-formation |
+| Created | `docs/handoffs/pipeline-spec-gaps.md` | Flags transformer pipelines lacking standalone spec docs |
+
+Gary to delete originals: `docs/crotonian-rules.md`, `docs/numeral-suffixes.md`.
+
+Pending (directories created, files not yet moved — Gary to move and delete originals):
+- `docs/reference-notes/` — will receive: `docs/alt-phonologies.md`, `docs/ringe-ordered-changes.md`, `docs/ghandwa-verbal-system-source-list.md`
+- `docs/world/` — will receive: `docs/science.md`, `corpus/lore.md`
+- `docs/ghandwa-daughter-b.md` — superseded by `docs/grammar/ch5-daughters/ch5-03-comparative-phonology.md` + `tools/pie_transformer/pipelines/daughter_b.py`; retire to `docs/handoffs/` or delete
+
+---
+
 ## Created (2026-05-31)
 
 | New path | Notes |

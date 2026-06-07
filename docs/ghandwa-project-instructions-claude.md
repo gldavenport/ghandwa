@@ -1,4 +1,4 @@
-# Ghandwa Project Instructions
+# Ghandwa Project Instructions for Claude
 
 ---
 
@@ -14,14 +14,15 @@ These chats are extended office visits: language construction, PIE reconstructio
 
 Ghandwa is a constructed PIE daughter language, positioned as a conservative western centum branch. Primary comparanda are Proto-Italic, Proto-Celtic, and Proto-Germanic (WIE). Proto-Balto-Slavic is a fourth witness, held at arm's length due to satemization and nominal morphology divergences (together: NWIE).
 
-**Two defining innovations:**
+**Characterizing phonological profile:**
 
-1. **Voiced fricatives from aspirates.** PIE \*bʰ, \*dʰ, \*gʰ, \*gʷʰ → β, ð, ɣ, ɣʷ.
-2. **CaRC syllabic resonant vocalism.** PIE \*r̥, \*l̥, \*m̥, \*n̥ → ar, al, am, an. Celtic-like in vowel quality (a, not Germanic u), Germanic-like in metathesis order (aR, not Italic Ra).
+**CaRC syllabic resonant vocalism** is Ghandwa's defining feature within NWIE. PIE \*r̥, \*l̥, \*m̥, \*n̥ → ar, al, am, an. Vowel-first order is shared with Germanic, core Italic, and Baltic; *a*-quality appears in Anatolian and Armenian but is unattested in any NWIE daughter at any developmental stage. The combination is Ghandwa-specific within NWIE.
+
+**Voiced fricatives from aspirates:** PIE \*bʰ, \*dʰ, \*gʰ, \*gʷʰ → β, ð, ɣ, ɣʷ. This is not a unique Ghandwa innovation. Italic shows clear evidence of a fricative stage; Celtic may have had fricative allophones subsequently subsumed into the stop system; Germanic reconstructs context-limited voiced (and voiceless) fricatives at the Proto-Germanic stage. Ghandwa's profile — a uniform, retained fricative series — reflects its early developmental position rather than a branch-defining change.
 
 **Ghandwa does NOT undergo:** \*gʷ→b (Celtic), p-loss (Celtic), o/a merger (Germanic), Grimm's Law, Verner's Law. It **is centum and preserves labiovelars** — \*kʷe → *-kve*, never *-pe*.
 
-Pre-Ghandwa is a living dialect continuum. Variant formations from the same root can coexist.
+Ghandwa, while more-or-less standardized across its formal registers, is a living dialect continuum. Variant formations from the same root can coexist.
 
 **Default design position: Italo-Germanic agreement.** Where Proto-Italic and Proto-Germanic agree — in lexical item, morphological strategy, semantic development, or substrate vocabulary — that is Ghandwa's default position. Celtic and other branches are secondary witnesses that may reinforce a choice or support a more archaic PIE form, but do not override Italo-Germanic agreement. Where Italic and Germanic diverge, prefer the PIE-inherited form unless evidence supports following one branch. Substrate vocabulary shared by Italic and Germanic is presumptively present in the Ghandwa lexicon.
 
@@ -31,6 +32,8 @@ Pre-Ghandwa is a living dialect continuum. Variant formations from the same root
 
 Conventions, schema, and linguistic facts live in source files, not in these instructions. Read from source when needed.
 
+`docs/grammar/` is the sole long-form prose grammar reference for Ghandwa, structured to mirror Ringe 2017 (*From Proto-Indo-European to Proto-Germanic*) and Ringe 2024 (*A Linguistic History of Greek*) in organization and approach. Chapters 1 and 2 are not independently developed here; for PIE background and introductory framework, readers and collaborators should consult Ringe 2017 and Ringe 2024 directly. From Chapter 3 onward, content is Ghandwa-specific. Grammar notes and working stubs may occupy the appropriate chapter sections ahead of their development into full prose.
+
 | Topic | File |
 |---|---|
 | Design reasoning, comparative positioning decisions, grammar register, PIE framework adjudication | `docs/grammar/preface.md` |
@@ -38,16 +41,21 @@ Conventions, schema, and linguistic facts live in source files, not in these ins
 | Verb classification, stem types, `verb_thematicity` / `verb_stem_type` / `verb_derivation` schema, nasal-infix and causative handling | `docs/grammar/ch4-ghandwa/verbs.md` |
 | Chapter 3 intro: Ghandwa's comparative position, scope of development | `docs/grammar/ch3-development/sec3-1-introduction.md` |
 | Ordered sound changes (pre-stage, Stage 1, Stage 2), haplology, productive suffixes (\*-mn̥ > -man), rule ordering, worked derivations | `docs/grammar/ch3-development/sec3-2-sound-changes/` |
-| Synchronic phonological inventory, Boukólos standing rule, deliberate tensions | `docs/grammar/ch4-ghandwa/sec4-2-phonology/` |
+| Inflectional restructuring (placeholder) | `docs/grammar/ch3-development/sec3-3-inflectional-restructuring/` |
+| Inflectional detail (placeholder) | `docs/grammar/ch3-development/sec3-4-inflectional-detail/` |
+| Synchronic phonological inventory, Boukólos standing rule, deliberate tensions | `docs/grammar/ch4-ghandwa/sec4-2-phonology/sec4-2-phonology.md` |
+| Inflectional morphology — synchronic (placeholder) | `docs/grammar/ch4-ghandwa/sec4-3-inflectional-morphology/` |
 | Rule-by-rule tracking against Ringe 2017, De Vaan, Swanenvleugel | `docs/comparanda.md` |
 | Nominal paradigms | `docs/grammar/ch4-ghandwa/paradigms-nominal.md` |
 | Compounding rules, ā-stem compositional stems, glide insertion at morpheme boundaries | `docs/grammar/ch4-ghandwa/sec4-4-word-formation/compounding.md` |
 | Diminutive suffix *-el-* and other derivational suffixes | `docs/grammar/ch4-ghandwa/sec4-4-word-formation/derivational-suffixes.md` |
+| Numeral suffixes *-dékes*, *-dékā* | `docs/grammar/ch4-ghandwa/sec4-4-word-formation/numeral-suffixes.md` |
 | NP order, apposition, syntax stub | `docs/grammar/ch4-ghandwa/sec4-5-syntax.md` |
 | Script, transliteration, IPA, letter inventory, labiovelar notation, Sharpscript long vowels | `docs/grammar/ch1-introduction/notation.md` |
-| PIE-to-Ghandwa transformer architecture | `tools/pie_transformer/docs/ARCHITECTURE.md` |
-| Per-pipeline transformer code specs | `tools/pie_transformer/docs/pipelines/` |
-| Lexicon (authoritative) | NocoDB, localhost:8080; SQLite backend in ghandwa-db/
+| PIE-to-Ghandwa transformer architecture | `tools/docs/pie_transformer/ARCHITECTURE.md` |
+| Per-pipeline transformer code specs | `tools/docs/pie_transformer/` — see `docs/handoffs/pipeline-spec-gaps.md` for pipelines currently lacking standalone spec docs |
+| wékʷos and Crotonian rule sets (transformer reference) | `tools/docs/pie_transformer/crotonian-rules.md` |
+| Lexicon (authoritative) | NocoDB in Docker on Mac Mini (Ubuntu), accessible via SSH tunnel as localhost:8080 |
 | Daughter language framework | `docs/grammar/ch5-daughters/` |
 | Sentence corpus, mythology | `corpus/inscriptions.md`, `corpus/lore.md` |
 
