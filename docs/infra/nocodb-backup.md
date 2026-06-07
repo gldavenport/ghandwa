@@ -1,22 +1,12 @@
-# Handoff: Ghandwa NocoDB Backup System
+# NocoDB Backup System
 
-**Date:** 2026-06-07  
-**Status:** Complete — both Ubuntu server and Mac sides operational.
+**Last updated:** 2026-06-07
 
----
-
-## What is built
-
-Two-tier nightly backup of the Ghandwa NocoDB SQLite database:
-
-1. **Ubuntu server** — nightly SQLite backup via systemd timer
-2. **Mac** — hourly rsync pull to local Application Support via launchd
+Two-tier backup of the Ghandwa NocoDB SQLite database: nightly archive on the Ubuntu server, hourly rsync pull to the Mac.
 
 ---
 
 ## Ubuntu side
-
-### Confirmed parameters
 
 | Item | Value |
 |---|---|
@@ -35,18 +25,9 @@ Two-tier nightly backup of the Ghandwa NocoDB SQLite database:
 | msmtp config | `/home/g/.msmtprc` |
 | Server README | `/opt/ghandwa-backup/README.md` |
 
-### Verified working
-
-- Script runs cleanly (~5s), produces ~290 KiB archive from 6.31 MiB DB
-- Email delivers with correct line breaks
-- Timer active, runs nightly at midnight Eastern
-- Log clean
-
 ---
 
 ## Mac side
-
-### Parameters
 
 | Item | Value |
 |---|---|
@@ -55,7 +36,7 @@ Two-tier nightly backup of the Ghandwa NocoDB SQLite database:
 | launchd plist (repo) | `tools/mac/local.ghandwa-db-backup-pull.plist` |
 | launchd plist (live) | `~/Library/LaunchAgents/local.ghandwa-db-backup-pull.plist` |
 | SSH key | `~/.ssh/ghandwa_backup_pull` (ed25519, no passphrase) |
-| Backup user on server | `ghpull` (uid assigned by system, home `/home/ghpull`) |
+| Backup user on server | `ghpull` (home `/home/ghpull`) |
 | Archive destination | `~/Library/Application Support/Ghandwa/NocoDB/` |
 | Pull log | `~/Library/Logs/ghandwa-db-backup/pull.log` |
 | launchd log | `~/Library/Logs/ghandwa-db-backup/launchd.log` |
@@ -63,26 +44,10 @@ Two-tier nightly backup of the Ghandwa NocoDB SQLite database:
 
 ### Notes
 
-- Script lives in `~/Library/Scripts/` (not `~/Documents/`) due to macOS 15 TCC restrictions — launchd agents cannot access `~/Documents/` without Full Disk Access. Repo copy in `tools/mac/` is the source of truth for edits; sync to `~/Library/Scripts/` after any change.
-- Destination is `~/Library/Application Support/Ghandwa/NocoDB/` (not iCloud Drive) for the same TCC reason.
-- The pre-existing system `backup` account (uid 34, home `/var/backups`, shell `nologin`) was not modified. A separate `ghpull` user was created for this purpose.
-- `--ignore-existing` flag means only new archives are transferred; existing files are never overwritten.
-
-### Verified working
-
-- Archives pull cleanly; existing files skipped on subsequent runs
-- launchd agent loads and runs on schedule
-- Archives confirmed in destination directory
-
----
-
-## Open items
-
-```text
-- Disk-space warning on Ubuntu (suggested threshold: 20 GB free) — deferred
-- Optional SSH hardening on ghpull (restrict command, source IP) — deferred
-- Monthly restore test — add to calendar
-```
+- Script lives in `~/Library/Scripts/` due to macOS 15 TCC restrictions — launchd agents cannot access `~/Documents/` without Full Disk Access. Repo copy in `tools/mac/` is the source of truth for edits; sync to `~/Library/Scripts/` after any change.
+- Destination is `~/Library/Application Support/Ghandwa/NocoDB/` rather than iCloud Drive for the same TCC reason.
+- The pre-existing system `backup` account (uid 34, home `/var/backups`, shell `nologin`) was not modified. `ghpull` is a separate dedicated user.
+- `--ignore-existing` means only new archives are transferred; existing files are never overwritten.
 
 ---
 
@@ -101,3 +66,32 @@ ssh g@10.1.1.103 'docker stop nocodb'
 scp /tmp/noco.db g@10.1.1.103:/home/g/nocodb/data/noco.db
 ssh g@10.1.1.103 'docker start nocodb'
 ```
+
+---
+
+## Monthly restore test
+
+1. Pick the most recent archive from `~/Library/Application Support/Ghandwa/NocoDB/`
+2. Extract it to `/tmp`:
+   ```bash
+   cd /tmp
+   tar -I zstd -xf ~/Library/Application\ Support/Ghandwa/NocoDB/ghandwa-db-TIMESTAMP.tar.zst
+   ls -lh /tmp/noco.db
+   ```
+3. Verify the file is non-zero and undamaged:
+   ```bash
+   sqlite3 /tmp/noco.db 'PRAGMA integrity_check;'
+   sqlite3 /tmp/noco.db 'SELECT count(*) FROM nc_models_v2;'
+   ```
+4. Confirm row count is plausible (should be ~700+).
+5. Clean up: `rm /tmp/noco.db`
+
+A full live restore (stopping NocoDB, swapping the file, restarting) is only needed if verifying recovery from actual data loss. The integrity check and row count are sufficient for routine monthly verification.
+
+---
+
+## Deferred
+
+- Disk-space warning on Ubuntu (suggested threshold: 20 GB free)
+- SSH hardening on `ghpull` (restrict command, source IP)
+- Monthly restore test

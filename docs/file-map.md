@@ -8,6 +8,18 @@ Tracks file renames, moves, merges, and deletions across the project. When a fil
 
 ---
 
+## Moved / Created (2026-06-07)
+
+| Action | Path | Notes |
+|---|---|---|
+| Created | `docs/infra/nocodb-backup.md` | Infrastructure doc: Ubuntu systemd backup + Mac launchd pull; supersedes `docs/handoffs/handoff-nocodb-backup.md` |
+| Created | `tools/mac/pull-ghandwa-db-backups.sh` | Mac rsync pull script (source of truth; live copy at `~/Library/Scripts/`) |
+| Created | `tools/mac/local.ghandwa-db-backup-pull.plist` | launchd plist (source of truth; live copy at `~/Library/LaunchAgents/`) |
+
+Gary to delete: `docs/handoffs/handoff-nocodb-backup.md`.
+
+---
+
 ## Moved / Created (2026-06-06)
 
 | Action | Path | Notes |
