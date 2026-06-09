@@ -75,6 +75,31 @@ The clearest productive instance is *ɣvérīnos* 'having to do with wild animal
 
 ---
 
+## *-n̥tóm* Material Nominalizer
+
+**Source:** PIE *-n̥t-om*, neuter o-stem. The *-n̥t-* element is formally identical with the participial nt-stem (cf. the agentive *-onts ~ -antés* below), but functions here as a productive material nominalizer applied to zero-grade nominal or verbal stems.
+
+**Ghandwa development:** *-n̥t-* > *-ant-* via regular CaRC (§3.2.3.1); combined with the neuter o-stem ending gives suffix-accented *-n̥tóm* > *-antóm*.
+
+**Semantic function:** Forms neuter nouns meaning ‘the X-substance’ or ‘material characterized by X’. The suffix encodes the inherent property of the base as the defining quality of the substance. Attested primarily in the metal vocabulary.
+
+**Attachment:** Attaches to zero-grade of the PIE root or, where the paradigm has leveled, to the surviving Ghandwa stem. The resulting noun is synchronically opaque in its derivational source when the base is archaic.
+
+**Productivity:** Productive in the metal vocabulary; possibly broader.
+
+**Attested forms:**
+
+| Base | Source | Ghandwa | Gloss | Notes |
+|---|---|---|---|---|
+| *h₂erǵ-* ‘shine’ | *h₂r̥ǵ-n̥t-om* | *argantóm* | silver | canon; *r̥* > *ar* (CaRC); laryngeal drops |
+| *ǵʰelh₃-* ‘yellow/gold’ | *ǵʰl̥h₃-n̥t-om* | *ɣalantóm* | gold | draft; *ǵʰ* > *ɣ*; *l̥* > *al*; h₃ drops; areally differentiated |
+| *h₂ews-* ‘dawn’ | *h₂ews-n̥t-om* | *auzantóm* | gold | draft; dawn-root base; areally differentiated variant of *ɣalantóm* |
+| *sán-* ‘blood’ (leveled stem) | *san-n̥t-om* > *sanantóm* | *santóm* | iron | canon; denominal from leveled stem; haplology of *-anan-* |
+
+**Relationship to agentive *-onts ~ -antés*:** The two formations share the *-n̥t-* element but differ in gender/stem class (neuter o-stem vs. animate nt-stem), accentuation, and semantic function. They are probably not historically related as formations.
+
+---
+
 ## Agentive nt-Stem Suffix: *-onts ~ -antés*
 
 **Source:** Inherited from PIE \*-ónts ~ \*-n̥tés, the active participial nt-stem formation. Lexicalized in Ghandwa as a productive agentive nominal suffix.

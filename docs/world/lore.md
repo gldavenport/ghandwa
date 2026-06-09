@@ -241,7 +241,8 @@ The nom/acc ~ gen ablaut (*éng-* ~ *ang-*) reflects the full/zero-grade root al
 | hammer (common noun) | *méltrom* | PIE \**melh₂-trom*; transformer confirmed ✅; staged for lexicon |
 | hammer (divine name) | *melðániios* | Agnis's forge tool; PIE \**ml̥dʰn̥jos*; cog. Mjölnir; transformer confirmed ✅; *-jos* vs. *-ijos* pending Sievers' Law decision; staged for lexicon |
 | smith / forge | pending | smithing is sacred; word(s) not yet proposed |
-| gold | *auzantóm* | "dawn-stuff"; from dawn/light imagery; ✅ in lexicon (draft, id 494); pre_root null — needs filling |
+| gold | *ɣalantóm* | zero-grade *ǵʰl̥h₃-* + *-n̥tóm*; ✅ in lexicon (draft, id 764); areally differentiated variant; cog. PGmc *gulþa-* |
+| gold | *auzantóm* | "dawn-stuff"; *h₂ews-* + *-n̥tóm*; ✅ in lexicon (draft, id 494); areally differentiated variant; zone unassigned |
 | silver | *argantóm* | "shiny-stuff"; parallel to inherited IE silver formations (cf. Latin *argentum*); ✅ in lexicon (canon, id 174), root *h₂erǵ*, gen *argantózio* |
 | life | *gʷī́vom* | neuter o-stem; PIE \**gʷih₃wóm*; transformer confirmed ✅; staged for lexicon; check semantic differentiation vs. *gvītis* |
 | fire (ordinary) | *pūr* | ✅ in lexicon |
@@ -375,7 +376,7 @@ This reframes the iron-in-blood theology subtly but importantly. Humans were not
 
 **The folk-philosophical principle:** Softness is proximity to fire; hardness is distance from it. The soft thing is not weak — it is still close to the source, still responsive, still warm. The hard thing has traveled further from the fire and must be heated again to be shaped. Whether copper or iron is the stronger depends entirely on what you need from it. A copper blade bends; an iron blade holds its edge. Both are Agnis's work; both contain *éngman*; they are at different points on the same spectrum of cooling.
 
-**Gold and silver** are positioned on the *éngman* gradient: gold sits closest to copper or beyond it — sunlike, maximally *éngman*-rich, the metal that has cooled least. Silver is cooler, more lunar, further along the gradient. The spectrum of metals is a spectrum of distance from the primordial fire. Provisional Ghandwa forms: gold *auzantóm* (✅ lexicon draft, id 494), silver *argantóm* (✅ lexicon canon, id 174).
+**Gold and silver** are positioned on the *éngman* gradient: gold sits closest to copper or beyond it — sunlike, maximally *éngman*-rich, the metal that has cooled least. Silver is cooler, more lunar, further along the gradient. The spectrum of metals is a spectrum of distance from the primordial fire. Ghandwa forms: gold *ɣalantóm* and *auzantóm* (areally differentiated variants; both ✅ in lexicon, draft); silver *argantóm* (✅ in lexicon, canon, id 174).
 
 **The Ash-Gatherer connection:** Iron's grey ash-colored surface links it directly to the Ash-Gatherer aspect — the fire that looks spent but is not, the *éngman* that appears to have departed but has only hidden. The Ash-Gatherer who looks dirty but is not, the iron that looks cold but is not, the hearth that looks dead but holds coals — these are the same theological truth in three registers: appearances deceive, and what looks most unlike fire may still carry fire within.
 
@@ -417,7 +418,7 @@ The quarterly structure implies a year divided into four sacred periods, each bo
 - Word for soap: the Ash-Gatherer's trade good and symbol of purification; form not yet proposed.
 - Word for guest-friendship / hospitality obligation: the sacred duty grounded in the Ash-Gatherer aspect needs a term; form not yet proposed.
 - A proverb or formula distinguishing ash from filth: pending; possibly one of the oldest attested Ghandwa sayings.
-- Words for gold and silver: ✅ both in lexicon — *auzantóm* (gold, draft, id 494; pre_root null, needs filling) and *argantóm* (silver, canon, id 174, root *h₂erǵ*).
+- Words for gold: ✅ *ɣalantóm* (draft, id 764; root *ǵʰelh₃-*) and *auzantóm* (draft, id 494; *h₂ews-*); both areally differentiated, zone unassigned. Silver: ✅ *argantóm* (canon, id 174, root *h₂erǵ*).
 - Does the *éngman* gradient in metals have a named principle or formula in the tradition?
 - Is the ambiguity of Agnis as Baby (inside space vs. outside space, panentheism vs. transcendence) ever addressed in the tradition, or always left open?
 

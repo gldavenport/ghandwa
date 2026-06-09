@@ -21,9 +21,7 @@ This single axis matters because it means the smith is not merely working with d
 
 This is the same epistemological move that allowed Christian natural philosophy to become modern science: the theology **authorizes and motivates inquiry** rather than foreclosing it, because the material world is understood as a legible expression of divine principle. Each generation of smith-theologians who records their experiments is not doing secular work — they are coming to know the creation of Agnis.
 
-The *engman* gradient also extends into a symbolic register of color and time-of-day: gold (sunlike, dawn) sits highest; copper (orange, ember-like, twilight) somewhat lower; iron (ash-grey, blood-dark) at the condensed end. See docs/world/lore.md §"The Engman Gradient in Metals" for the theological grounding and provisional Ghandwa metal names.
-
-🔲 Note: *áios* is the established common noun for copper. The noodling handoff (2026-05-24) proposes *dwilukantom* ("twilight-stuff") as a further term; the relationship between the two forms is unresolved. Do not use *dwilukantom* until this is settled.
+The *engman* gradient also extends into a symbolic register of color and time-of-day: gold (sunlike, dawn) sits highest; copper (*áios*; orange, ember-like, twilight) somewhat lower; iron (*santóm*; ash-grey, blood-dark) at the condensed end. See docs/world/lore.md §"The Engman Gradient in Metals" for the theological grounding and Ghandwa metal names.
 
 ---
 
