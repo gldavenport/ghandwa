@@ -1,6 +1,6 @@
 ---
 title: "§3.2.2 Stage 1: PIE to Late Western IE"
-last_updated: 2026-05-30T00:00-04:00
+last_updated: 2026-06-09T00:00-04:00
 chapter: ch3-development
 section: sec3-2-sound-changes
 supersedes: "docs/grammar/ch3-development/phonological-history.md (§4)"
@@ -61,7 +61,21 @@ Coloring operates bidirectionally: both HV and VH sequences are affected. Only \
 
 **Ordering:** Coloring must precede all laryngeal deletion rules, since the vowel quality established here is the permanent reflex.
 
-### §3.2.2.3b Contraction across Laryngeal
+### §3.2.2.3b Word-Initial Laryngeal Coloring Before Syllabic Resonants
+
+> #h₁R̥ → eR
+> #h₃R̥ → oR
+
+When a word-initial laryngeal immediately precedes a syllabic resonant, it provides quality coloring to the vocalic nucleus before being deleted: h₁ yields *e*-quality, h₃ yields *o*-quality. The syllabic resonant is simultaneously desyllabified. The result is a non-syllabic resonant preceded by a short colored vowel.
+
+The h₂ case is not listed separately. *#h₂R̥* yields *aR* by the general route: h₂ is deleted word-initially (§3.2.2.3e) and the residual syllabic resonant vocalizes to *aR* via the CaRC rule (§3.2.3.1) — the same surface output that a dedicated coloring rule would produce.
+
+**Examples:**
+- *h₃r̥bʰ-* 'deprived, orphaned' → *orβ-* (h₃ colors r̥ → or; cf. Latin *orbus*, Greek *ὀρφανός*)
+
+**Ordering:** Feeds §3.2.2.3e (word-initial laryngeal deletion), which would otherwise delete the laryngeal without a trace and leave a bare syllabic resonant to vocalize as *aR*. Must follow §3.2.2.3a (laryngeal coloring of adjacent vowels), which does not see syllabic resonants.
+
+### §3.2.2.3c Contraction across Laryngeal
 
 > VHV → V̄ (when both vowels are identical after coloring)
 
@@ -71,7 +85,7 @@ When the flanking vowels are not identical after coloring, the laryngeal is not 
 
 **Design note:** Ringe posits trimoric (overlong) vowels from certain VHV contractions in PGmc. Ghandwa does not maintain a trimoric distinction; all contractions yield ordinary long vowels.
 
-### §3.2.2.3c Pre-consonantal and Word-Final Laryngeal Loss with Compensatory Lengthening
+### §3.2.2.3d Pre-consonantal and Word-Final Laryngeal Loss with Compensatory Lengthening
 
 > VH → V̄ / _{C, #}
 
@@ -85,7 +99,7 @@ A vowel immediately preceding a laryngeal lengthens; the laryngeal is lost. This
 
 This rule applies to both high and low vowels. The lengthening of high vowels before laryngeals (\*iH → ī, \*uH → ū) is a Ghandwa design decision.
 
-### §3.2.2.3d Word-Initial Laryngeal Loss
+### §3.2.2.3e Word-Initial Laryngeal Loss
 
 > #H → ∅ (before consonants or at the absolute beginning of a word)
 
@@ -96,7 +110,7 @@ Word-initial laryngeals are deleted without trace.
 - \*h₁éd- 'eat' → ed- → *ed-*
 - \*h₂ŕ̥tḱos 'bear' → (after coloring) ar̥tkos (h₂ deleted word-initially)
 
-### §3.2.2.3e Interconsonantal Laryngeal Resolution
+### §3.2.2.3f Interconsonantal Laryngeal Resolution
 
 > CHC → CaC (in the initial syllable, i.e. when no vowel has yet appeared)
 > CHC → CC (post-vocalically, i.e. when a vowel already precedes)
@@ -107,7 +121,7 @@ A laryngeal caught between two consonants (neither of which is a syllabic resona
 - \*ph₂tḗr 'father' → patēr (h₂ between p and t in initial syllable → a) → *patēr*
   (cf. PGmc \*fadēr < \*pətēr, with the same epenthesis)
 
-### §3.2.2.3f Residual Laryngeal Diagnostic
+### §3.2.2.3g Residual Laryngeal Diagnostic
 
 > H → ˀ (any surviving laryngeal)
 

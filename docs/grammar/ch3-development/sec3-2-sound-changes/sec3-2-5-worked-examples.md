@@ -1,6 +1,6 @@
 ---
 title: "§3.2.5 Worked Examples"
-last_updated: 2026-05-30T00:00-04:00
+last_updated: 2026-06-09T00:00-04:00
 chapter: ch3-development
 section: sec3-2-sound-changes
 supersedes: "docs/grammar/ch3-development/phonological-history.md (§10)"
@@ -27,7 +27,7 @@ A transparent derivation: no laryngeals, no syllabic resonants, no clusters. The
 |---|---|
 | Input | h₂r̥tḱos |
 | Centumization (§3.2.1.1) | h₂r̥tkos |
-| H-initial deletion (§3.2.2.3d) | r̥tkos |
+| H-initial deletion (§3.2.2.3e) | r̥tkos |
 | Thorn metathesis (§3.2.2.2) | r̥ktos |
 | Syllabic resonant (§3.2.3.1) | arktos |
 | **Output** | ***arktos*** |
@@ -39,7 +39,7 @@ Centumization feeds thorn metathesis by converting ḱ to k, creating the TK seq
 | Step | Form |
 |---|---|
 | Input | ph₂tēr |
-| CHC → CaC (§3.2.2.3e) | patēr |
+| CHC → CaC (§3.2.2.3f) | patēr |
 | **Output** | ***patēr*** |
 
 The laryngeal h₂ is caught between two consonants (p and t) in the initial syllable and resolves to *a*. No further rules apply. Cf. PGmc \*fadēr < \*pətēr, with the same epenthetic vowel.
@@ -49,9 +49,9 @@ The laryngeal h₂ is caught between two consonants (p and t) in the initial syl
 | Step | Form |
 |---|---|
 | Input | h₁nēh₃mn̥ |
-| H-initial deletion (§3.2.2.3d) | nēh₃mn̥ |
+| H-initial deletion (§3.2.2.3e) | nēh₃mn̥ |
 | Laryngeal coloring (§3.2.2.3a) | nōmn̥ (h₃ colors ē → ō) |
-| VH → V̄ (§3.2.2.3c) | nōmn̥ (ō already long; h₃ deleted) |
+| VH → V̄ (§3.2.2.3d) | nōmn̥ (ō already long; h₃ deleted) |
 | Osthoff's Law (§3.2.2.5) | nomn̥ (ō shortens before m + C) |
 | Syllabic resonant (§3.2.3.1) | noman |
 | **Output** | ***noman*** |
@@ -63,7 +63,7 @@ This form demonstrates the interaction of laryngeal coloring, compensatory lengt
 | Step | Form |
 |---|---|
 | Input | dʰugh₂tēr |
-| CHC → CC (§3.2.2.3e) | dʰugtēr (h₂ between g and t, post-vocalic → ∅) |
+| CHC → CC (§3.2.2.3f) | dʰugtēr (h₂ between g and t, post-vocalic → ∅) |
 | Obstruent devoicing (§3.2.2.4) | dʰuktēr (g → k before t) |
 | Aspirate fricativization (§3.2.3.3) | ðuktēr |
 | **Output** | ***ðuktēr*** |
@@ -76,8 +76,8 @@ The ordering of devoicing before fricativization is critical here. The medial *g
 |---|---|
 | Input | h₂yúHn̥ḱos |
 | Centumization (§3.2.1.1) | h₂yuHn̥kos |
-| H-initial deletion (§3.2.2.3d) | yuHn̥kos |
-| VH → V̄ (§3.2.2.3c) | yūn̥kos |
+| H-initial deletion (§3.2.2.3e) | yuHn̥kos |
+| VH → V̄ (§3.2.2.3d) | yūn̥kos |
 | Osthoff's Law (§3.2.2.5) | yun̥kos (ū before n̥ + k → u) |
 | Syllabic resonant (§3.2.3.1) | yuankos |
 | Hiatus glide insertion (§3.2.3.2) | yuwankos (u before a → u.wa) |

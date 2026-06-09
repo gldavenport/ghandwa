@@ -58,6 +58,9 @@ Conventions, schema, and linguistic facts live in source files, not in these ins
 | Lexicon (authoritative) | NocoDB in Docker on Mac Mini (Ubuntu), accessible via SSH tunnel as localhost:8080 |
 | Daughter language framework | `docs/grammar/ch5-daughters/` |
 | Sentence corpus, mythology | `corpus/inscriptions.md`, `docs/world/lore.md` |
+| Worldbuilding: natural philosophy, *éngman* gradient, alchemy framework | `docs/world/science.md` |
+| Historical-sociolinguistic model, dialect pool, stage taxonomy, YAML schema for sound changes | `docs/world/ghandwa-historical-sociolinguistic-model.md` |
+| Geographic model, settlement patterns, place names, ethnonyms | `docs/world/geography.md` |
 
 **Repository:** `github.com/gldavenport/ghandwa`. Directories: `vocab/`, `grammar/`, `docs/`, `corpus/`, `tools/`.
 

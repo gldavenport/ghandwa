@@ -1,6 +1,6 @@
 ---
 title: "§3.2.4 Chronological Overview and Rules Not Applied"
-last_updated: 2026-05-31T00:00-04:00
+last_updated: 2026-06-09T00:00-04:00
 chapter: ch3-development
 section: sec3-2-sound-changes
 supersedes: "docs/grammar/ch3-development/phonological-history.md (§§8, 9)"
@@ -22,27 +22,28 @@ The complete derivation, in order. Standing rules are marked (S) and reapply aft
 5. Dental simplification: T{T,s} → ss; ssC → sC
 6. Thorn metathesis: TK → KT (word-internally)
 7. Laryngeal coloring: h₂ → a, h₃ → o (adjacent to e)
-8. VHV contraction: VHV → V̄ (identical vowels)
-9. VH lengthening: VH → V̄ (before C or #)
-10. HV deletion: H → ∅ (adjacent to vowel, after coloring)
-11. H-initial deletion: #H → ∅
-12. Interconsonantal H: CHC → CaC (initial) / CC (elsewhere)
-13. Residual H → ˀ
-14. Obstruent devoicing: voiced obstruent → voiceless / _{t, s}
-15. Osthoff's Law: V̄RC → VRC
-16. Tautosyllabic ew → ow
-17. Pretonic shortening: V̄ → V (unaccented first syllable)
+8. Word-initial laryngeal coloring before syllabic resonants: #h₁R̥ → eR, #h₃R̥ → oR (bleeds rule 12)
+9. VHV contraction: VHV → V̄ (identical vowels)
+10. VH lengthening: VH → V̄ (before C or #)
+11. HV deletion: H → ∅ (adjacent to vowel, after coloring)
+12. H-initial deletion: #H → ∅
+13. Interconsonantal H: CHC → CaC (initial) / CC (elsewhere)
+14. Residual H → ˀ
+15. Obstruent devoicing: voiced obstruent → voiceless / _{t, s}
+16. Osthoff's Law: V̄RC → VRC
+17. Tautosyllabic ew → ow
+18. Pretonic shortening: V̄ → V (unaccented first syllable)
 
 *Standing rules apply (§3.2.1.2, §3.2.1.4)*
 
 **Stage 2 — Late Western IE to Ghandwa (§3.2.3):**
-18. Syllabic resonant vocalization: R̥ → aR
-19. Hiatus glide insertion: i → ij / _V; u → uw / _V
-20. Aspirate fricativization: bʰ → β, dʰ → ð, gʰ → ɣ, gʷʰ → ɣʷ
-21. Intervocalic s-voicing: s → z / [+voiced]_[+voiced]
-22. Glide respelling: y → j
-23. Haplology: adjacent identical CV sequences reduced to one (morphologically conditioned; applies in compounds and suffixed derivations)
-24. Dental-lateral cluster repair: \*tl → kl, \*ðl → ɣl (must follow aspirate fricativization; \*dl → \*gl undecided)
+19. Syllabic resonant vocalization: R̥ → aR
+20. Hiatus glide insertion: i → ij / _V; u → uw / _V
+21. Aspirate fricativization: bʰ → β, dʰ → ð, gʰ → ɣ, gʷʰ → ɣʷ
+22. Intervocalic s-voicing: s → z / [+voiced]_[+voiced]
+23. Glide respelling: y → j
+24. Haplology: adjacent identical CV sequences reduced to one (morphologically conditioned; applies in compounds and suffixed derivations)
+25. Dental-lateral cluster repair: \*tl → kl, \*ðl → ɣl (must follow aspirate fricativization; \*dl → \*gl undecided)
 
 *Standing rules apply (§3.2.1.2, §3.2.1.4)*
 

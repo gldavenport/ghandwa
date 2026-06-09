@@ -75,6 +75,30 @@ The clearest productive instance is *ɣvérīnos* 'having to do with wild animal
 
 ---
 
+## *-man* ~ *-méns* (PIE \**-mn̥*)
+
+**Source:** Inherited from PIE \**-mn̥*, forming neuter abstract nouns from verbal and nominal roots.
+
+**Ghandwa development:** \**-mn̥* → *-man* via regular CaRC (§3.2.3.1). The suffix carries the accent in the oblique, producing the ablaut alternation nom/acc *-man* (root in full/e-grade) ~ gen *-méns* (root in zero-grade). See `docs/grammar/ch4-ghandwa/paradigms-nominal.md` for the full inflectional paradigm.
+
+**Note on nasal-final roots:** Where the root ends in a nasal, the morpheme boundary produces a double nasal. The nasal assimilation and degemination rule (§3.2) applies: *VN₁N₂V* → *V̄N₂V*. Thus *ménman* (root *men-* + *-mn̥*) → *mēman* 'understanding' (NocoDB still has *ménman*; update pending).
+
+**Semantic function:** Denotes the characteristic quality or manifestation of the root — 'that which X-es', 'the condition of X'. Range from concrete (*sḗman* 'seed') to institutional (*térman* 'boundary marker') to cosmological (*éngman* 'sacred fire-nature').
+
+**Productivity:** Regular and productive.
+
+**Attested forms:**
+
+| Root | Ghandwa nom | Ghandwa gen | Gloss | Status |
+|---|---|---|---|---|
+| *h₃neh₃-* 'name' | *nóman* | *naméns* | name | ✅ canon |
+| *terh₁-* 'cross, end' | *térman* | *tarméns* | boundary marker | ✅ canon |
+| *seh₁-* 'sow' | *sḗman* | *saméns* | seed | ✅ canon |
+| *men-* 'think' | *mēman* | *manméns* | understanding | draft (lexicon *ménman*; update pending) |
+| *h₁engʷ-* 'burn' | *éngman* | *angméns* | sacred fire-nature | ✅ canon |
+
+---
+
 ## *-n̥tóm* Material Nominalizer
 
 **Source:** PIE *-n̥t-om*, neuter o-stem. The *-n̥t-* element is formally identical with the participial nt-stem (cf. the agentive *-onts ~ -antés* below), but functions here as a productive material nominalizer applied to zero-grade nominal or verbal stems.
@@ -122,3 +146,22 @@ This doublet is a Ghandwa-level derivational pair, not a daughter-language innov
 **Productivity.** Productive as a compound-final agentive element; attested as a free noun in simplex formations.
 
 **Examples:** *(to be supplied from lexicon as compounds are added)*
+
+---
+
+## *-ēs* ~ *-ezos* Onomastic Suffix
+
+**Source:** Inherited. PIE s-stem oblique *-es-* + nominativizing *-s* → *-ess* → *-ēs* (geminate simplification with compensatory lengthening). Oblique *-ezos* continues PIE *-esos* with regular intervocalic *s* > *z*.
+
+**Semantic function:** Onomastic. Forms personal names and epithets from s-stem bases of force, power, or positive/potent character attributes. The base is typically an inherited s-stem neuter; the suffix renominativizes the oblique stem as a personal name or epithet.
+
+**Productivity:** Non-productive. Inherited layer only; no new formations.
+
+**Relationship to *-es-o-* thematic derivations:** Distinct from PIE \**-es-o-* (which generates independent o-stem nouns and adjectives). The *-ēs* suffix specifically renominativizes the oblique s-stem and is restricted to onomastic use.
+
+**Attested forms:**
+
+| Base | Ghandwa | Gloss | Status |
+|---|---|---|---|
+| *séɣos* 'force; hegemony' | *séɣēs ~ séɣezos* | conqueror, tyrant | draft |
+| *klévos* 'fame' | *vezuklévēs ~ vezuklévezos* | excellent-fame (onomastic) | draft |
