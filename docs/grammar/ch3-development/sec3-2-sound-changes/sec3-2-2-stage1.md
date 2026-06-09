@@ -61,19 +61,18 @@ Coloring operates bidirectionally: both HV and VH sequences are affected. Only \
 
 **Ordering:** Coloring must precede all laryngeal deletion rules, since the vowel quality established here is the permanent reflex.
 
-### §3.2.2.3b Word-Initial Laryngeal Coloring Before Syllabic Resonants
+### §3.2.2.3b Word-Initial h₃ Coloring Before Syllabic Resonants
 
-> #h₁R̥ → eR
 > #h₃R̥ → oR
 
-When a word-initial laryngeal immediately precedes a syllabic resonant, it provides quality coloring to the vocalic nucleus before being deleted: h₁ yields *e*-quality, h₃ yields *o*-quality. The syllabic resonant is simultaneously desyllabified. The result is a non-syllabic resonant preceded by a short colored vowel.
+When word-initial h₃ immediately precedes a syllabic resonant, it provides o-quality coloring to the vocalic nucleus before being deleted. The syllabic resonant is simultaneously desyllabified. The result is a non-syllabic resonant preceded by a short *o*.
 
-The h₂ case is not listed separately. *#h₂R̥* yields *aR* by the general route: h₂ is deleted word-initially (§3.2.2.3e) and the residual syllabic resonant vocalizes to *aR* via the CaRC rule (§3.2.3.1) — the same surface output that a dedicated coloring rule would produce.
+h₁ and h₂ are not listed. h₁ is phonologically transparent — it has no coloring effect even on full vowels — so *#h₁R̥* yields the CaRC default *aR* by the general route. h₂ would color *e→a*, but CaRC vocalization already produces *a*-quality; the two outputs are identical and the conditioning environment is unrecoverable. Only h₃ produces a diagnostically distinct outcome (*oR* ≠ *aR*). Both h₁ and h₂ are handled by §3.2.2.3e (laryngeal deletion) + §3.2.3.1 (CaRC vocalization).
 
 **Examples:**
 - *h₃r̥bʰ-* 'deprived, orphaned' → *orβ-* (h₃ colors r̥ → or; cf. Latin *orbus*, Greek *ὀρφανός*)
 
-**Ordering:** Feeds §3.2.2.3e (word-initial laryngeal deletion), which would otherwise delete the laryngeal without a trace and leave a bare syllabic resonant to vocalize as *aR*. Must follow §3.2.2.3a (laryngeal coloring of adjacent vowels), which does not see syllabic resonants.
+**Ordering:** Bleeds §3.2.2.3e (word-initial laryngeal deletion), which would otherwise delete h₃ without trace and leave a bare syllabic resonant to vocalize as *aR*. Must follow §3.2.2.3a (laryngeal coloring of adjacent vowels), which does not see syllabic resonants.
 
 ### §3.2.2.3c Contraction across Laryngeal
 

@@ -240,38 +240,18 @@ def _h_adj_v(toks: list[str], ctx: Context) -> list[str]:
 
 _H_ADJ_V = _rule('gh.1.7', 'H-B3: H adjacent to vowel → ∅', 'Laryngeals', _h_adj_v)
 
-def _h_initial_syl_res_e(toks: list[str], ctx: Context) -> list[str]:
-    """H-B4a: #h₁R̥ → eR — word-initial h₁ before syllabic resonant.
-
-    h₁ provides e-quality; the syllabic resonant is desyllabified and the
-    laryngeal deleted.  Token count is unchanged (h₁ → e, R̥ → R in place),
-    so no accent_index adjustment is needed.
-
-    h₂R̥C is intentionally absent: _H_INIT_C deletes #h₂ and _SYL_RES
-    vocalizes the residual R̥ → aR, yielding the CaRC default — the same
-    surface output as a dedicated h₂ rule would produce.
-    """
-    SYL_RES = {'r̥': 'r', 'l̥': 'l', 'm̥': 'm', 'n̥': 'n'}
-    if len(toks) >= 2 and toks[0] == 'h₁' and toks[1] in SYL_RES:
-        out = list(toks)
-        out[0] = 'e'
-        out[1] = SYL_RES[toks[1]]
-        return out
-    return toks
-
-_H_INIT_SR_E = _rule(
-    'gh.1.7a',
-    'H-B4a: #h₁R̥ → eR — word-initial h₁ before syllabic resonant',
-    'Laryngeals',
-    _h_initial_syl_res_e,
-)
-
-
 def _h_initial_syl_res_o(toks: list[str], ctx: Context) -> list[str]:
-    """H-B4b: #h₃R̥ → oR — word-initial h₃ before syllabic resonant.
+    """H-B4a: #h₃R̥ → oR — word-initial h₃ before syllabic resonant.
 
-    h₃ provides o-quality; the syllabic resonant is desyllabified and the
-    laryngeal deleted.  Token count is unchanged; no accent_index adjustment.
+    h₃ provides o-quality coloring; the syllabic resonant is desyllabified
+    and the laryngeal deleted.  Token count is unchanged; no accent_index
+    adjustment needed.
+
+    h₁R̥ and h₂R̥ are intentionally absent.  h₁ is transparent (no coloring
+    effect on any segment), so #h₁R̥ yields the CaRC default aR — identical
+    to h₂, whose e→a coloring is vacuous against the already-a-quality CaRC
+    output.  Only h₃ produces a diagnostically distinct outcome (oR ≠ aR).
+    Both h₁ and h₂ fall through to _H_INIT_C + _SYL_RES.
     """
     SYL_RES = {'r̥': 'r', 'l̥': 'l', 'm̥': 'm', 'n̥': 'n'}
     if len(toks) >= 2 and toks[0] == 'h₃' and toks[1] in SYL_RES:
@@ -282,8 +262,8 @@ def _h_initial_syl_res_o(toks: list[str], ctx: Context) -> list[str]:
     return toks
 
 _H_INIT_SR_O = _rule(
-    'gh.1.7b',
-    'H-B4b: #h₃R̥ → oR — word-initial h₃ before syllabic resonant',
+    'gh.1.7a',
+    'H-B4a: #h₃R̥ → oR — word-initial h₃ before syllabic resonant',
     'Laryngeals',
     _h_initial_syl_res_o,
 )
@@ -570,7 +550,6 @@ RULES: list[Rule] = [
     _H_VHV,
     _H_VH,
     _H_ADJ_V,
-    _H_INIT_SR_E,
     _H_INIT_SR_O,
     _H_INIT_C,
     _H_BTW_C,

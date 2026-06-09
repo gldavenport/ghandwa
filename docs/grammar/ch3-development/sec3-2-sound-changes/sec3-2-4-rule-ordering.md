@@ -22,7 +22,7 @@ The complete derivation, in order. Standing rules are marked (S) and reapply aft
 5. Dental simplification: T{T,s} → ss; ssC → sC
 6. Thorn metathesis: TK → KT (word-internally)
 7. Laryngeal coloring: h₂ → a, h₃ → o (adjacent to e)
-8. Word-initial laryngeal coloring before syllabic resonants: #h₁R̥ → eR, #h₃R̥ → oR (bleeds rule 12)
+8. Word-initial h₃ coloring before syllabic resonants: #h₃R̥ → oR (bleeds rule 12; h₁/h₂ transparent or vacuous — yield CaRC default)
 9. VHV contraction: VHV → V̄ (identical vowels)
 10. VH lengthening: VH → V̄ (before C or #)
 11. HV deletion: H → ∅ (adjacent to vowel, after coloring)
