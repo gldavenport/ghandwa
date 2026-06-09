@@ -1,12 +1,12 @@
 # Ghandwa Natural Philosophy and the Origins of Alchemy
 
 ---
-last_updated: 2026-03-14
+last_updated: 2026-06-08
 status: draft — ideas for review; not yet canon
-related: ghandwa_lore.md §§ "The Engman Gradient in Metals", "The Forging of the World"
+related: docs/world/lore.md §§ "The Engman Gradient in Metals", "The Forging of the World"
 changelog:
+  - 2026-06-08 | Fixed stale lore.md path in frontmatter. Added symbolic color/time cross-reference and dwilukantom conflict flag to Theological Foundation.
   - 2026-03-14 | 145 lines | Added changelog field to metadata header. No content changes.
-  - 2026-03-09 | 141 lines | Initial creation.
 ---
 
 Speculative worldbuilding notes on how the *engman* gradient theology might generate systematic inquiry into the natural world — a Ghandwa path toward alchemy, chemistry, and engineering. Material here is prospective and thematic rather than canonical lore.
@@ -20,6 +20,10 @@ The *engman* gradient already gives Ghandwa smiths something unusual among mytho
 This single axis matters because it means the smith is not merely working with divinely-given materials but with **matter at different known positions along a knowable continuum**. The material world is legible. Studying it is studying *engman*. Observation becomes a form of devotion, and the forge becomes a theological instrument.
 
 This is the same epistemological move that allowed Christian natural philosophy to become modern science: the theology **authorizes and motivates inquiry** rather than foreclosing it, because the material world is understood as a legible expression of divine principle. Each generation of smith-theologians who records their experiments is not doing secular work — they are coming to know the creation of Agnis.
+
+The *engman* gradient also extends into a symbolic register of color and time-of-day: gold (sunlike, dawn) sits highest; copper (orange, ember-like, twilight) somewhat lower; iron (ash-grey, blood-dark) at the condensed end. See docs/world/lore.md §"The Engman Gradient in Metals" for the theological grounding and provisional Ghandwa metal names.
+
+🔲 Note: *áios* is the established common noun for copper. The noodling handoff (2026-05-24) proposes *dwilukantom* ("twilight-stuff") as a further term; the relationship between the two forms is unresolved. Do not use *dwilukantom* until this is settled.
 
 ---
 

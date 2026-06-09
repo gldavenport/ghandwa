@@ -241,8 +241,8 @@ The nom/acc ~ gen ablaut (*éng-* ~ *ang-*) reflects the full/zero-grade root al
 | hammer (common noun) | *méltrom* | PIE \**melh₂-trom*; transformer confirmed ✅; staged for lexicon |
 | hammer (divine name) | *melðániios* | Agnis's forge tool; PIE \**ml̥dʰn̥jos*; cog. Mjölnir; transformer confirmed ✅; *-jos* vs. *-ijos* pending Sievers' Law decision; staged for lexicon |
 | smith / forge | pending | smithing is sacred; word(s) not yet proposed |
-| gold | pending | likely highest *éngman* of metals, sunlike; form not yet proposed |
-| silver | pending | cooler than gold, more lunar; form not yet proposed |
+| gold | *auzantóm* | "dawn-stuff"; from dawn/light imagery; ✅ in lexicon (draft, id 494); pre_root null — needs filling |
+| silver | *argantóm* | "shiny-stuff"; parallel to inherited IE silver formations (cf. Latin *argentum*); ✅ in lexicon (canon, id 174), root *h₂erǵ*, gen *argantózio* |
 | life | *gʷī́vom* | neuter o-stem; PIE \**gʷih₃wóm*; transformer confirmed ✅; staged for lexicon; check semantic differentiation vs. *gvītis* |
 | fire (ordinary) | *pūr* | ✅ in lexicon |
 | night | *nokts* | ✅ in lexicon; connection to \**negʷ-* 'naked' cosmologically motivated |
@@ -375,7 +375,7 @@ This reframes the iron-in-blood theology subtly but importantly. Humans were not
 
 **The folk-philosophical principle:** Softness is proximity to fire; hardness is distance from it. The soft thing is not weak — it is still close to the source, still responsive, still warm. The hard thing has traveled further from the fire and must be heated again to be shaped. Whether copper or iron is the stronger depends entirely on what you need from it. A copper blade bends; an iron blade holds its edge. Both are Agnis's work; both contain *éngman*; they are at different points on the same spectrum of cooling.
 
-**Gold and silver** are positioned on the *éngman* gradient: gold sits closest to copper or beyond it — sunlike, maximally *éngman*-rich, the metal that has cooled least. Silver is cooler, more lunar, further along the gradient. The spectrum of metals is a spectrum of distance from the primordial fire. Ghandwa words for gold and silver are pending.
+**Gold and silver** are positioned on the *éngman* gradient: gold sits closest to copper or beyond it — sunlike, maximally *éngman*-rich, the metal that has cooled least. Silver is cooler, more lunar, further along the gradient. The spectrum of metals is a spectrum of distance from the primordial fire. Provisional Ghandwa forms: gold *auzantóm* (✅ lexicon draft, id 494), silver *argantóm* (✅ lexicon canon, id 174).
 
 **The Ash-Gatherer connection:** Iron's grey ash-colored surface links it directly to the Ash-Gatherer aspect — the fire that looks spent but is not, the *éngman* that appears to have departed but has only hidden. The Ash-Gatherer who looks dirty but is not, the iron that looks cold but is not, the hearth that looks dead but holds coals — these are the same theological truth in three registers: appearances deceive, and what looks most unlike fire may still carry fire within.
 
@@ -417,7 +417,7 @@ The quarterly structure implies a year divided into four sacred periods, each bo
 - Word for soap: the Ash-Gatherer's trade good and symbol of purification; form not yet proposed.
 - Word for guest-friendship / hospitality obligation: the sacred duty grounded in the Ash-Gatherer aspect needs a term; form not yet proposed.
 - A proverb or formula distinguishing ash from filth: pending; possibly one of the oldest attested Ghandwa sayings.
-- Words for gold and silver: their *éngman* gradient position is established; Ghandwa forms not yet proposed.
+- Words for gold and silver: ✅ both in lexicon — *auzantóm* (gold, draft, id 494; pre_root null, needs filling) and *argantóm* (silver, canon, id 174, root *h₂erǵ*).
 - Does the *éngman* gradient in metals have a named principle or formula in the tradition?
 - Is the ambiguity of Agnis as Baby (inside space vs. outside space, panentheism vs. transcendence) ever addressed in the tradition, or always left open?
 
@@ -442,6 +442,8 @@ The current Agnis theology presents the three aspects as explicitly unified — 
 **How the instability manifests:** In the highest ritual register, the Baby is invoked as Agnis — the cosmogonic origin of everything. In craft and daily sacred life, the Smith is Agnis. In folk comedy and the *xenia* tradition, the *ognologós* is Agnis — but the stories work just as well if you don't believe they're the same being. The synthesis is an intellectual position; the folk practice is three separate relationships with three separate figures who happen to share a name.
 
 **Parallels to develop:** The Hindu Trimurti as a synthesis over older regional deities; Norse regional cult variation in which the same deity was experienced very differently in different communities; the Christian Trinity as a synthesis that never fully resolved the separateness of its persons at the folk level.
+
+**Connection to the sociolinguistic model:** The fragmentation of the unified theology across daughter communities follows the same dynamics as the linguistic fragmentation documented in `docs/world/ghandwa-historical-sociolinguistic-model.md`. The priestly class that maintained the synthesis is the same literate specialist class whose continuity broke down at Stage 2 (Dark Age). When that class dispersed, both the linguistic koine and the theological synthesis lost their institutional infrastructure simultaneously. The religious divergence of the daughters is the cultural parallel to their phonological divergence.
 
 **Questions for a future session:**
 - Does the older stratum have any surviving traces in the lore — archaic epithets, myths that don't quite fit the unified theology, cult sites associated with only one aspect?

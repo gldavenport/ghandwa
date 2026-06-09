@@ -1,6 +1,6 @@
 ---
 title: "Preface"
-last_updated: 2026-05-31T00:00-04:00
+last_updated: 2026-06-08
 ---
 
 # Preface
@@ -16,6 +16,10 @@ Where Proto-Italic and Proto-Germanic agree — in lexical item, morphological s
 ## Pre-Ghandwa as Dialect Continuum
 
 The parent stage of Ghandwa is treated as a dialect continuum rather than a uniform protolanguage. Variant formations from the same root can coexist in the lexicon as regional or register doublets. This premise licenses etymological plurality without requiring the selection of a single ancestor form for every entry.
+
+## Daughter Languages as Continuations of a Network-Maintained Dialect Pool
+
+The daughter languages are descendants of regional varieties of Common Ghandwa, a network-maintained dialect pool held together by Bronze Age trade, mobility, and prestige rather than by any single institutional standard. Common Ghandwa is not locatable in any single zone; what differs across regions is the variety of the interaction-sphere language spoken there, not the language itself. This keeps the historical model compatible with restricted literacy at Stage 0, collapse of centralized authority at Stage 1, dialectalization at Stage 2, and uneven restandardization at Stages 3–4. The full social and historical model — dialect pool framework, network propagation, YAML metadata schema for sound changes, literacy periodization — is in `docs/world/ghandwa-historical-sociolinguistic-model.md`.
 
 ## Deliberate Phonological Tensions
 

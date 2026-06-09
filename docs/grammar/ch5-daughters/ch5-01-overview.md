@@ -45,7 +45,7 @@ A useful practical expectation: **delta / core urban zones** tend toward lighter
 
 ### Design principle
 
-The daughter languages should be understood primarily as descendants of **regional common Ghandwa**, not as straightforward continuations of a single broad literary standard. This keeps the historical model compatible with restricted literacy in Stage 0, collapse of centralized authority in Stage 1, dialectalization in Stage 2, and uneven restandardization in Stages 3–4.
+See `docs/grammar/preface.md` § "Daughter Languages as Continuations of a Network-Maintained Dialect Pool".
 
 ### Preferred structure
 

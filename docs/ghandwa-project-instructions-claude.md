@@ -57,7 +57,7 @@ Conventions, schema, and linguistic facts live in source files, not in these ins
 | wékʷos and Crotonian rule sets (transformer reference) | `tools/docs/pie_transformer/crotonian-rules.md` |
 | Lexicon (authoritative) | NocoDB in Docker on Mac Mini (Ubuntu), accessible via SSH tunnel as localhost:8080 |
 | Daughter language framework | `docs/grammar/ch5-daughters/` |
-| Sentence corpus, mythology | `corpus/inscriptions.md`, `corpus/lore.md` |
+| Sentence corpus, mythology | `corpus/inscriptions.md`, `docs/world/lore.md` |
 
 **Repository:** `github.com/gldavenport/ghandwa`. Directories: `vocab/`, `grammar/`, `docs/`, `corpus/`, `tools/`.
 

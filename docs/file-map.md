@@ -1,10 +1,23 @@
 # File Map — Supersedences and Migrations
 
 ---
-last_updated: 2026-05-31T00:00-04:00
+last_updated: 2026-06-08
 ---
 
 Tracks file renames, moves, merges, and deletions across the project. When a file is superseded, the old path is listed here with its new location.
+
+---
+
+## Moved / Created (2026-06-08)
+
+| Action | Path | Notes |
+|---|---|---|
+| Created | `docs/world/ghandwa-historical-sociolinguistic-model.md` | Historical-sociolinguistic model: dialect pool, stage taxonomy (stage-0 through stage-4), YAML metadata schema for sound changes, literacy model |
+| Moved | `world/lore.md` → `docs/world/lore.md` | Worldbuilding: mythology, cosmology, Agnis theology |
+| Moved | `world/science.md` → `docs/world/science.md` | Worldbuilding: natural philosophy, *engman* gradient |
+| Moved | `world/ash-gatherer-and-old-woman.png` → `docs/world/ash-gatherer-and-old-woman.png` | Illustration |
+
+Gary to delete: `world/` directory at repo root (now empty).
 
 ---
 
@@ -32,7 +45,7 @@ Gary to delete originals: `docs/crotonian-rules.md`, `docs/numeral-suffixes.md`.
 
 Pending (directories created, files not yet moved — Gary to move and delete originals):
 - `docs/reference-notes/` — will receive: `docs/alt-phonologies.md`, `docs/ringe-ordered-changes.md`, `docs/ghandwa-verbal-system-source-list.md`
-- `docs/world/` — will receive: `docs/science.md`, `corpus/lore.md`
+- `docs/world/` — ✅ completed 2026-06-08 (source was `world/` at repo root, not `docs/science.md`/`corpus/lore.md` as originally noted)
 - `docs/ghandwa-daughter-b.md` — superseded by `docs/grammar/ch5-daughters/ch5-03-comparative-phonology.md` + `tools/pie_transformer/pipelines/daughter_b.py`; retire to `docs/handoffs/` or delete
 
 ---
