@@ -1,11 +1,12 @@
 # Ghandwa Natural Philosophy and the Origins of Alchemy
 
 ---
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 status: draft — ideas for review; not yet canon
 related: docs/world/lore.md §§ "The Engman Gradient in Metals", "The Forging of the World"
 changelog:
-  - 2026-06-08 | Fixed stale lore.md path in frontmatter. Added symbolic color/time cross-reference and dwilukantom conflict flag to Theological Foundation.
+  - 2026-06-09 | Corrected 2026-06-08 changelog entry; dropped stale *dwilukantom* and *noktantom* noodling proposals. Canonical metal names in lexicon.
+  - 2026-06-08 | Fixed stale lore.md path in frontmatter. Added symbolic color/time cross-reference.
   - 2026-03-14 | 145 lines | Added changelog field to metadata header. No content changes.
 ---
 
