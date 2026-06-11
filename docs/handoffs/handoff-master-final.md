@@ -220,6 +220,7 @@ These require reference to Dunkel *LIPP* or Fortson §5 paradigm tables for part
 | `docs/grammar/ch3-development/phonological-history.md` | Sound change rules |
 | `docs/grammar/ch4-ghandwa/paradigms-nominal.md` | Nominal paradigms |
 | `docs/grammar/ch4-ghandwa/verbs.md` | Verb classification schema |
+| `vocab/lexicon-staging.md` | §r/n heteroclites has water word paradigm options |
 | `tools/pie_transformer/` | Transformer — authoritative for surface forms |
 
 ---
@@ -625,7 +626,7 @@ Clean 2P clitic demonstration: topic → 2P clitic → verb.
 
 | field | value |
 |---|---|
-| entry_id | 725 |
+| entry_id | 99900 |
 | lemma_1 | *koriovirós* |
 | lemma_2 | *koriovirózio* |
 | gloss | warrior, fighting man |
@@ -634,7 +635,7 @@ Clean 2P clitic demonstration: topic → 2P clitic → verb.
 | gender | m |
 | status | draft |
 | formation | compound (PGh innovation) |
-| note | *kórios* 'army, troops' + *virós* 'man'; accent on second element per compounding rules |
+| note | *kórios* 'army, troops' + *virós* 'man'; accent on second element per compounding rules; IPA pending (see §2.3) |
 | cross_refs | kórios; virós |
 
 #### Morphological gaps surfaced
@@ -772,7 +773,7 @@ stem_classes:
   cons-stem:       { sg: partial,  pl: partial, note: IPA pending }
   r-stem:          { sg: gap,      pl: gap }
   n-stem:          { sg: gap,      pl: gap }
-  r-n-heteroclite: { sg: partial,  pl: gap }
+  r-n-heteroclite: { sg: partial,  pl: gap, note: blocked on water word etymology §2.1 }
   adj-u:           { sg: partial,  pl: gap }
   adj-i:           { sg: gap,      pl: gap }
   adj-cons:        { sg: gap,      pl: gap }
@@ -783,7 +784,7 @@ stem_classes:
 
 1. Add YAML index to existing `paradigms-nominal.md` — low effort, no content changes.
 2. Create `paradigms-verbal.md` — extract and restructure content from `grammar/verbs-worksheet.md`. Worksheet is derivation-heavy narrative; new file should be table-first with derivation notes secondary. Worksheet stays as working notes until content is fully promoted.
-3. Fill paradigm gaps as linguistic work allows: r-stem, n/men-stem, consonant stem IPA, adj paradigms. r/n-heteroclite: *vódar/udṓr* paradigm now partially resolved (see lexicon ids 33, 256); full r/n-heteroclite section can be drafted in a future session.
+3. Fill paradigm gaps as linguistic work allows: r-stem, n/men-stem, consonant stem IPA, adj paradigms. r/n-heteroclite blocked on §2.1.
 
 ### §4.4 — Key files
 
@@ -795,13 +796,11 @@ stem_classes:
 | `docs/grammar/ch4-ghandwa/verbs.md` | Verb stem type classification |
 | `docs/notation.md` | Orthographic conventions |
 
----
-
 ## §5 — Transformer Cleanup
 
 **Source:** `handoff-transformer-cleanup.md`
 **Scope:** `tools/pie_transformer/`
-**Status:** Phases 1 and 2 complete (`daughters.py` deleted, `_common.py` created). Phase 3 specced. Phase 4 superseded by pipeline-spec-gaps work.
+**Status:** Ready to execute. No edits made yet.
 
 ### §5.1 — Context
 
@@ -811,7 +810,7 @@ The PIE transformer (Python package at `tools/pie_transformer/`, superseded the 
 2. **Seven helper functions and constants are duplicated across pipeline files**, with subtly different signatures.
 3. **Accent-index tracking has at least five hand-rolled patterns in use**, some equivalent, some with off-by-one boundary differences that aren't covered by tests.
 
-Phases 1 and 2 are mechanical and can ship together. Phase 3 (accent-tracking refactor) is specced in a separate document and executed in a future session.
+Phases 1 and 2 are mechanical and can ship together. Phase 3 (accent-tracking refactor) is specced in a separate document and executed in a future session. Phase 4 is cosmetic and can be done piecemeal.
 
 ### §5.2 — Decisions already made (do not relitigate)
 
@@ -821,6 +820,7 @@ Phases 1 and 2 are mechanical and can ship together. Phase 3 (accent-tracking re
 | 2 | Accent-on-deleted-token policy: the rule that consumes the accented token specifies where the accent now lives. | Generalization of existing `_syl_res_vocalize` behavior. |
 | 3 | Consolidate shared helpers into a new `pipelines/_common.py`. | Scopes pipeline-specific helpers separately from the rule engine (`rule.py`) and token inventory (`tokens.py`). |
 | 4 | Accent-tracking refactor is deferred to a future session. This session preserves accent code verbatim. | Risk-bounded scope. Accent refactor requires test coverage to land first. |
+| 5 | Rule IDs use `<prefix>.<stage>.<position>` numerical doc-mirror convention. | IDs anchor runner rules to their source documents. |
 
 ### §5.3 — Open decision
 
@@ -838,21 +838,109 @@ Recommendation: **(b)**.
 
 ### §5.4 — Phase 1: Fix Daughter A breakage
 
-**Status: Complete.** `daughters.py` deleted, routing fixed in `pipeline.py`.
+**Risk:** Low (mechanical).
+**Verification:** Full test suite passes after.
+
+#### File operations
+- Delete `tools/pie_transformer/pipelines/daughters.py`.
+- Delete `tools/pie_transformer/pipelines/README.md`. (Byte-for-byte copy of `daughter_c.py`. Verify with `diff` before deleting. If a real README is wanted later, write separately.)
+
+#### Routing fix
+In `tools/pie_transformer/pipeline.py` (line 53–54):
+
+```python
+# Current:
+if name == 'ghandwa-daughter-a':
+    from .pipelines.daughters import RULES_A
+    return RULES_A
+
+# Change to:
+if name == 'ghandwa-daughter-a':
+    from .pipelines.daughter_a import RULES_A
+    return RULES_A
+```
+
+#### Test updates
+- `TestNotImplemented::test_daughter_b` and `test_daughter_c`: B and C are now implemented. Either delete these tests or rewrite to assert `status == 'ok'`.
+- `TestDaughterA`: Per D1, resolve the Stage 3A tests.
+- Verify remaining Daughter A tests align with `daughter_a.py` rule list (LCG + 2A.1 stress, 2A.2 devoicing, 2A.3 z→s, 2A.4 delab, 2A.5 cluster-spirant). The new `daughter_a.py` orders **stress first**, where `daughters.py` ordered it last — tests inspecting `accent_index` at intermediate states need updating.
+
+#### Verification
+```bash
+cd tools && python3 -m unittest pie_transformer.tests.test_pipelines
+```
+
+#### Acceptance criteria
+- `daughters.py` and `pipelines/README.md` removed.
+- `pipeline.py:53` imports from `daughter_a`.
+- Test suite green.
+- `python3 -m pie_transformer form "*wĺ̥kʷos" --all` shows same eight pipelines; Daughter A output reflects LCG-then-Stage-2A.
+
+---
 
 ### §5.5 — Phase 2: Extract `pipelines/_common.py`
 
-**Status: Complete.** `_common.py` exists with shared helpers.
+**Risk:** Low-to-moderate (mechanical refactor, touches every pipeline file).
+**Precondition:** Phase 1 complete and green.
+
+#### Create `_common.py`
+
+| Symbol | Source | Notes |
+|---|---|---|
+| `make_rule(id_, name, stage, apply_fn, requires=None)` | Any of the 9 copies (identical) | Replaces local `_rule` |
+| `next_seg(toks, i) -> tuple[str \| None, int \| None]` | `daughter_c.py::_next_seg` | Tuple form replaces 5 single-return variants |
+| `prev_seg(toks, i) -> tuple[str \| None, int \| None]` | `daughter_c.py::_prev_seg` | Same |
+| `is_word_initial(toks, i)` | `daughter_c.py` | Useful for B and wékʷos |
+| `is_word_final(toks, i)` | `daughter_c.py` | Same |
+| `laryngeal_color(h, v) -> str` | `ghandwa.py` (byte-identical to `old_wekwos.py` and `proto_seldanic.py`) | Anatolian's version stays local |
+| `centumize_rule(prefix)` factory | `ghandwa.py::_CENTUMIZE`'s body | Returns a `Rule` |
+| `labiovelarize(toks, ctx)` | `ghandwa.py` (byte-identical to `old_wekwos.py`) | Preserve accent code verbatim |
+| `UW: frozenset[str]` | `frozenset({'u', 'ū', 'w'})` | Replaces 3 inline definitions |
+
+#### Move `_syllabify` from `render.py` to `_common.py`
+
+Currently `daughter_b.py::_labiovelar_dissim` imports `_syllabify` from `..render` — wrong-direction dependency. Move `_syllabify`, `_valid_onset`, `_onset_split`, `_is_ipa_vowel`, `_base_form`, `_has_accent` to `_common.py`. `render.py` and `daughter_b.py` import from there. Local `from .tokens import VOWELS` imports become top-level.
+
+#### Update each pipeline file
+
+For each of 9 pipeline files: replace local `_rule` with `make_rule`; replace local next/prev helpers with tuple-returning imports; replace local `_laryngeal_color` with import; replace inline boundary sets with `tokens.BOUNDARIES`; replace inline `{'u', 'ū', 'w'}` with `_common.UW`.
+
+#### Clean up dead bindings
+- `ghandwa.py::_BOUKÓLOS` (line 148): defined but never placed in `RULES`. Either delete or change `_STAND_BOK_1`/`_STAND_BOK_2` to use it.
+
+#### Daughter C consonant set
+`daughter_c.py::_CONSONANTS_C`: hardcoded local list. Replace with derivation from `tokens.py` category sets. Verify resulting set is identical before committing.
+
+#### Verification
+```bash
+cd tools && python3 -m unittest pie_transformer.tests.test_pipelines
+python3 -m pie_transformer form "*wĺ̥kʷos" --all
+python3 -m pie_transformer form "*ph₂tḗr" --all
+python3 -m pie_transformer form "*ǵʰoysós" --all
+python3 -m pie_transformer form "*h₁ésti" --all
+python3 -m pie_transformer form "*nṓmn̥" --all
+```
+Output must be byte-identical to pre-refactor snapshot.
+
+#### Acceptance criteria
+- `_common.py` exists with listed symbols.
+- No pipeline file defines a local `_rule`, boundary set, `_next_*`, `_prev_*`, `_laryngeal_color`, or `UW`.
+- `_syllabify` lives in `_common.py`; `render.py` and `daughter_b.py` import from there.
+- Test suite green.
+- `--all` output unchanged on five smoke-test forms.
+
+---
 
 ### §5.6 — Phase 3: Accent-tracking refactor
 
 **Status: Spec complete.** See `tools/pie_transformer/docs/handoff-accent-tracking-v2.md`.
 
-Execute after verifying Phases 1–2. Covers: pattern catalog (A–E) with equivalence proofs, `shift_for_change`/`relocate` API, required test coverage, and per-file migration order. No code changes until test suite in §4 of that doc is written and passing.
+Execute after Phases 1–2. Covers: pattern catalog (A–E) with equivalence proofs, `shift_for_change`/`relocate` API, required test coverage, and per-file migration order. No code changes until test suite in §4 of that doc is written and passing.
 
 ---
 
-### §5.8 — Duplication catalog (grep targets for Phase 2 verification)
+
+### §5.8 — Duplication catalog (grep targets for Phase 2)
 
 - `_rule` constructor: 9 files.
 - Boundary-skipping lookup: 5 variants across `daughters.py` (deleted Phase 1), `late_common_ghandwa.py`, `daughter_b.py` (2), `daughter_c.py` (2), plus inline in `ghandwa.py::_voiced_before_ts`.
@@ -867,7 +955,7 @@ Execute after verifying Phases 1–2. Covers: pattern catalog (A–E) with equiv
 
 - Accent-tracking refactor (Phase 3; future session).
 - Resurrecting Daughter A Stage 3A.
-- Any behavior change to rules. Phases 1, 2 are pure refactor/cleanup.
+- Any behavior change to rules. Phases 1, 2, and 4 are pure refactor/cleanup.
 - Touching `pie-2-ghandwa.jsx` (superseded, retained for reference).
 
 ---
@@ -922,3 +1010,5 @@ Review flags: `REVIEW:gloss-match` (26), `REVIEW:old1-only` (23), `REVIEW:possib
 | Reconcile file (archived) | `vocab/archive/lexicon-reconcile.tsv` |
 | Lexicon (authoritative) | NocoDB localhost:8080 |
 | Notation conventions | `docs/notation.md` |
+
+---
