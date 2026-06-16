@@ -1,41 +1,80 @@
 """
 Proto-Anatolian historical pipeline.
 
-Rule ordering follows PIE → Proto-Anatolian sound changes v0.7:
+Rule ordering follows PIE → Proto-Anatolian sound changes v0.8:
 
-  1.  Accent preserved; mobile paradigms inherited.
-  2.  Laryngeal realization: h₂→χ, h₃→χʷ; h₁ retained for now.
-  3.  Laryngeal coloring: χe/eχ→χa/aχ; χʷe/eχʷ→χʷo/oχʷ.
-  4.  Laryngeal-cluster assimilation (core: χ/χʷ only):
-        VRχV, VRχʷV → VRRV
-        sχ, sχʷ → ss
-        Tχ, Tχʷ → TT
-      Toggle: enable-h1-cluster-assimilation (default off)
+  1.  Palatal-velar merger: ḱ→k, ǵ→g, ǵʰ→gʰ.                             [pa.1.1]
+        (toggle: enable-centum-merger, default False)
+        Whether this merger occurred at PA stage or later (Hittite-specific)
+        is contested. Default: palatovelars pass through unchanged.
+  2.  Accent preserved; mobile paradigms inherited.
+  3.  Laryngeal realization: h₂→H₂ or χ, h₃→H₃ or χʷ; h₁ retained. [pa.2.1]
+        (toggle: enable-laryngeal-realization, default False → abstract H₂/H₃)
+  4.  Laryngeal coloring: H₂/χ → a-color, H₃/χʷ → o-color. [pa.3.1]
+        Works in both abstract and concrete mode.
+  5.  Laryngeal-cluster assimilation (individually togglable):
+        VRχV, VRχʷV → VRRV  (toggle: enable-vrhv-assimilation, default True)  [pa.4.1]
+        sχ, sχʷ → ss         (toggle: enable-sh-assimilation,   default False) [pa.4.2]
+        Tχ, Tχʷ → TT        (toggle: enable-th-assimilation,   default False) [pa.4.3]
+      h₁ cluster assimilation (toggle: enable-h1-cluster-assimilation, default False): [pa.4.4]
         VRh₁V → VRRV; sh₁ → ss; Th₁ → TT
-  5.  e-lowering: e→a / _Rχ, _Rχʷ, _{r,n}{T,#}
-  6.  h₁ loss and compensatory lengthening:
+  6.  e-lowering: e→a / _Rχ, _Rχʷ, _{r,n}{T,#}
+        (toggle: enable-e-lowering, default False)                              [pa.5.1]
+  7.  h₁ loss and compensatory lengthening:                                    [pa.6.1]
         eh₁ → ǣ  (special case, fires before general rule)
         Vh₁ → V̄
         h₁ → ∅ elsewhere
-      Toggle: enable-initial-h1-glottal-stop (default True)
+      Toggle: enable-initial-h1-glottal-stop (default False)
         h₁ → ʔ / #_V
-  7.  Syllabic resonants retained; wR̥→uR; kʷR̥→kuR.
-  8.  Voiced aspirates merge with voiced stops: Dʰ→D.
-  9.  Dental-yod affrication: ty→ts.
-  10. Prosodic stop voicing (flagged; default off):
-        T→D / prosodically weak position
-        T = p, t, ḱ, k, kʷ; not ts, s, χ, χʷ
+  8.  Syllabic resonants:                                                       [pa.7.1]
+        Default mode: R̥ preserved abstractly.
+          wR̥ → uR    (toggle: enable-w-syl-repair,  default True)
+          kʷR̥ → kuR  (toggle: enable-kw-syl-repair, default True)
+        Full-vocalization mode (toggle: enable-syllabic-vocalization, default False):
+          r̥→ar, l̥→al, m̥→am, n̥→an (supersedes specific repairs when active)
+  9.  Voiced aspirates merge with voiced stops: Dʰ→D.                         [pa.8.1]
+        Also catches gʰ produced by centum merger (step 1 ǵʰ→gʰ→g here).
+  10. Dental-yod affrication: ty→ts.                                           [pa.9.1]
+  11. Prosodic stop voicing (toggle; default False):                           [pa.10.1]
+        T→D / prosodically weak position.
+        T = {p, t, k, ḱ, kʷ} (ḱ merged to k only when enable-centum-merger is on); ts, s, χ, χʷ immune.
       Toggle: enable-prosodic-stop-voicing
 
 Context options (pass via Context.options dict):
+  enable-laryngeal-realization    bool  default False
+  enable-centum-merger             bool  default False
+  enable-vrhv-assimilation         bool  default True
+  enable-sh-assimilation           bool  default False
+  enable-th-assimilation           bool  default False
   enable-h1-cluster-assimilation   bool  default False
-  enable-initial-h1-glottal-stop   bool  default True
+  enable-e-lowering                bool  default False
+  enable-initial-h1-glottal-stop   bool  default False   [changed from True in v0.7]
+  enable-w-syl-repair              bool  default True
+  enable-kw-syl-repair             bool  default True
+  enable-syllabic-vocalization     bool  default False
   enable-prosodic-stop-voicing     bool  default False
 
 Notes:
-  - χ/χʷ survive into Proto-Anatolian; only h₁ is deleted.
+  - H₂/H₃ are the default output for h₂/h₃ (abstract mode). Set
+    enable-laryngeal-realization=True for χ/χʷ concrete output.
+    Laryngeal coloring and cluster assimilation operate on both representations.
   - ǣ is a distinct PA output symbol; daughter rules decide its fate.
-  - Step 9 must precede step 10: ty→ts before T→D; ts immune to step 10.
+  - enable-initial-h1-glottal-stop changed to default False (was True in v0.7).
+    Initial h₁→ʔ is a phonological interpretation (Kloekhorst-like profile),
+    not a base PIE→PA sound change.
+  - Tχ→TT and sχ→ss default False (was mandatory in v0.7 as part of
+    ASSIMILATION_CORE). VRχV→VRRV kept default True (Sturtevant-type;
+    better-attested as a PA-level change).
+  - e-lowering default False (was mandatory in v0.7).
+  - enable-centum-merger default False: palatovelar → plain velar merger is
+    attested in Hittite but may be Hittite-specific rather than PA-level. The
+    PA branching likely predates the centum-satem isogloss. Enable for profiles
+    committed to the merger (e.g. a Hittite-like output).
+  - Missing base rules (tracked for future implementation): diphthong outcomes,
+    PIE *o/*a treatment, final-position behavior, initial *y/*w behavior,
+    long-vowel normalization, abstract H₂/H₃ layer. Current code passes these
+    through unchanged (abstract preservation by default).
+  - Step 10 (ty→ts) must precede step 11 (T→D): ts is immune to prosodic voicing.
   - Prosodic voicing uses coda-biased syllabification: look right for next
     vowel stopping at any boundary; if boundary intervenes, look left.
     A consonant is protected only if its syllable nucleus == accent_index.
@@ -55,32 +94,70 @@ from ._common import make_rule as _rule
 
 # ── Category helpers ──────────────────────────────────────────────────────────
 
+# ḱ included: if enable-centum-merger is off, ḱ may still be present at step 11.
+# Prosodic voicing of ḱ → ǵ is unlikely to be PA-appropriate, but it is
+# included here for completeness; the toggle keeps it off by default anyway.
 _VOICE_TARGETS: frozenset[str] = frozenset(['p', 't', 'k', 'ḱ', 'kʷ'])
 _VOICE_MAP: dict[str, str] = {'p': 'b', 't': 'd', 'k': 'g', 'ḱ': 'ǵ', 'kʷ': 'gʷ'}
 
 _RESONANTS: frozenset[str] = frozenset(['r', 'l', 'm', 'n', 'w', 'y', 'j',
                                          'r̥', 'l̥', 'm̥', 'n̥'])
 
-_UVULAR: frozenset[str] = frozenset(['χ', 'χʷ'])
+_H2_TYPE: frozenset[str] = frozenset(['χ', 'H₂'])   # h₂-type: a-coloring
+_H3_TYPE: frozenset[str] = frozenset(['χʷ', 'H₃'])  # h₃-type: o-coloring
+_UVULAR:  frozenset[str] = _H2_TYPE | _H3_TYPE      # all post-h₁ laryngeals, abstract or concrete
+
+_SYL_RES_MAP: dict[str, str] = {'r̥': 'r', 'l̥': 'l', 'm̥': 'm', 'n̥': 'n'}
+
+
+# ── Step 1: Palatal-velar merger (toggle) ────────────────────────────────────
+
+_CENTUM_MAP: dict[str, str] = {
+    'ḱ':  'k',
+    'ǵ':  'g',
+    'ǵʰ': 'gʰ',  # loses palatalization; gʰ then caught by step 9 (Dʰ→D) → g
+}
+
+def _centum_merger(toks: list[str], ctx: Context) -> list[str]:
+    """
+    ḱ→k, ǵ→g, ǵʰ→gʰ. Toggle: enable-centum-merger (default False).
+    When off, palatovelars pass through unchanged (abstract preservation).
+    When on, merges with plain velars; gʰ then caught by step 9 Dʰ→D.
+    """
+    if not ctx.options.get('enable-centum-merger', False):
+        return toks
+    return [_CENTUM_MAP.get(t, t) for t in toks]
+
+_CENTUM = _rule(
+    'pa.1.1',
+    'Palatal-velar merger: ḱ→k, ǵ→g, ǵʰ→gʰ (toggle: enable-centum-merger)',
+    'Dorsals',
+    _centum_merger,
+)
 
 
 # ── Step 2: Laryngeal realization ─────────────────────────────────────────────
 
 def _h_realize(toks: list[str], ctx: Context) -> list[str]:
-    """h₂→χ, h₃→χʷ. h₁ unchanged."""
+    """
+    Abstract mode (enable-laryngeal-realization=False, default): h₂→H₂, h₃→H₃.
+    Concrete mode (enable-laryngeal-realization=True):           h₂→χ,  h₃→χʷ.
+    h₁ unchanged in both modes.
+    """
+    concrete = ctx.options.get('enable-laryngeal-realization', False)
     out = []
     for tok in toks:
         if tok == 'h₂':
-            out.append('χ')
+            out.append('χ' if concrete else 'H₂')
         elif tok == 'h₃':
-            out.append('χʷ')
+            out.append('χʷ' if concrete else 'H₃')
         else:
             out.append(tok)
     return out
 
 _H_REALIZE = _rule(
     'pa.2.1',
-    'Laryngeal realization: h₂→χ, h₃→χʷ',
+    'Laryngeal realization: h₂→H₂/χ, h₃→H₃/χʷ (toggle: enable-laryngeal-realization)',
     'Laryngeals',
     _h_realize,
 )
@@ -90,14 +167,16 @@ _H_REALIZE = _rule(
 
 def _h_color(toks: list[str], ctx: Context) -> list[str]:
     """
-    χe/eχ → χa/aχ; χʷe/eχʷ → χʷo/oχʷ.
-    Forward pass: χ/χʷ colors following e.
-    Backward pass: χ/χʷ colors preceding e.
+    H₂-type (H₂ or χ) colors adjacent e → a.
+    H₃-type (H₃ or χʷ) colors adjacent e → o.
+    Works in both abstract and concrete mode.
+    Forward pass: laryngeal colors following e.
+    Backward pass: laryngeal colors preceding e.
     """
     t = list(toks)
 
     def _target(h: str) -> str:
-        return 'a' if h == 'χ' else 'o'
+        return 'a' if h in _H2_TYPE else 'o'
 
     for i in range(len(t) - 1):
         if t[i] in _UVULAR and t[i + 1] == 'e':
@@ -111,7 +190,7 @@ def _h_color(toks: list[str], ctx: Context) -> list[str]:
 
 _H_COLOR = _rule(
     'pa.3.1',
-    'Laryngeal coloring: χe/eχ→χa/aχ, χʷe/eχʷ→χʷo/oχʷ',
+    'Laryngeal coloring: H₂/χ→a-color, H₃/χʷ→o-color (works in abstract and concrete mode)',
     'Laryngeals',
     _h_color,
 )
@@ -177,17 +256,42 @@ _VRHV_CORE, _SH_SS_CORE, _TH_TT_CORE = _build_assimilation(_UVULAR, '', '(χ/χ�
 _VRHV_H1, _SH_SS_H1, _TH_TT_H1 = _build_assimilation(frozenset(['h₁']), '_h1', '(h₁)')
 
 
-def _assimilation_core(toks: list[str], ctx: Context) -> list[str]:
-    toks = _VRHV_CORE.apply(toks, ctx)
-    toks = _SH_SS_CORE.apply(toks, ctx)
-    toks = _TH_TT_CORE.apply(toks, ctx)
-    return toks
+def _assimilation_vrhv(toks: list[str], ctx: Context) -> list[str]:
+    if not ctx.options.get('enable-vrhv-assimilation', True):
+        return toks
+    return _VRHV_CORE.apply(toks, ctx)
 
-_ASSIMILATION_CORE = _rule(
+_ASSIMILATION_VRHV = _rule(
     'pa.4.1',
-    'Cluster assimilation: VRχV→VRRV, sχ→ss, Tχ→TT (χ/χʷ)',
+    'VRχV→VRRV: resonant-laryngeal assimilation (toggle: enable-vrhv-assimilation)',
     'Assimilation',
-    _assimilation_core,
+    _assimilation_vrhv,
+)
+
+
+def _assimilation_sh(toks: list[str], ctx: Context) -> list[str]:
+    if not ctx.options.get('enable-sh-assimilation', False):
+        return toks
+    return _SH_SS_CORE.apply(toks, ctx)
+
+_ASSIMILATION_SH = _rule(
+    'pa.4.2',
+    'sχ→ss: sibilant-laryngeal assimilation (toggle: enable-sh-assimilation)',
+    'Assimilation',
+    _assimilation_sh,
+)
+
+
+def _assimilation_th(toks: list[str], ctx: Context) -> list[str]:
+    if not ctx.options.get('enable-th-assimilation', False):
+        return toks
+    return _TH_TT_CORE.apply(toks, ctx)
+
+_ASSIMILATION_TH = _rule(
+    'pa.4.3',
+    'Tχ→TT: obstruent-laryngeal assimilation (toggle: enable-th-assimilation)',
+    'Assimilation',
+    _assimilation_th,
 )
 
 
@@ -200,7 +304,7 @@ def _assimilation_h1(toks: list[str], ctx: Context) -> list[str]:
     return toks
 
 _ASSIMILATION_H1 = _rule(
-    'pa.4.2',
+    'pa.4.4',
     'h₁ cluster assimilation: VRh₁V→VRRV, sh₁→ss, Th₁→TT (toggle: enable-h1-cluster-assimilation)',
     'Assimilation',
     _assimilation_h1,
@@ -214,7 +318,12 @@ def _e_lower(toks: list[str], ctx: Context) -> list[str]:
     e → a in three environments:
       (a) e _ R χ/χʷ
       (b) e _ {r,n} {T, #}
+    Toggle: enable-e-lowering (default False).
+    Not mandatory base: environment-conditioning is contested for Common PA.
     """
+    if not ctx.options.get('enable-e-lowering', False):
+        return toks
+
     RN = frozenset(['r', 'n'])
 
     def _is_obstruent(t: str) -> bool:
@@ -240,7 +349,7 @@ def _e_lower(toks: list[str], ctx: Context) -> list[str]:
 
 _E_LOWER = _rule(
     'pa.5.1',
-    'e-lowering: e→a / _Rχ, _Rχʷ, _{r,n}{T,#}',
+    'e-lowering: e→a / _Rχ, _Rχʷ, _{r,n}{T,#} (toggle: enable-e-lowering)',
     'Vowels',
     _e_lower,
 )
@@ -252,12 +361,14 @@ def _h1_loss(toks: list[str], ctx: Context) -> list[str]:
     """
     eh₁ → ǣ          (special case; checked before general rule)
     Vh₁ → V̄          (V ≠ e)
-    h₁ → ʔ / #_V     (toggle: enable-initial-h1-glottal-stop, default True)
+    h₁ → ʔ / #_V     (toggle: enable-initial-h1-glottal-stop, default False)
     h₁ → ∅ elsewhere
 
     ǣ is a distinct PA output; not normalized to ē at this stage.
+    Default changed False (was True in v0.7): initial h₁→ʔ is phonological
+    interpretation (Kloekhorst-like profile), not a base PIE→PA sound change.
     """
-    glottal = ctx.options.get('enable-initial-h1-glottal-stop', True)
+    glottal = ctx.options.get('enable-initial-h1-glottal-stop', False)
     out: list[str] = []
     i = 0
     word_initial = True
@@ -303,27 +414,62 @@ _H1_LOSS = _rule(
 )
 
 
-# ── Step 7: Syllabic resonant repairs ────────────────────────────────────────
+# ── Step 7: Syllabic resonants ────────────────────────────────────────────────
 
-def _syl_res_repair(toks: list[str], ctx: Context) -> list[str]:
+def _syl_res_handler(toks: list[str], ctx: Context) -> list[str]:
     """
-    R̥ retained except:
-      wR̥ → uR
-      kʷR̥ → kuR  (net +1 token; accent_index updated)
+    Three modes, checked in priority order:
+
+    1. enable-syllabic-vocalization (default False):
+         r̥→ar, l̥→al, m̥→am, n̥→an. Full PA-level vocalization; supersedes
+         specific repairs below. Accent moves to inserted 'a' if accent was
+         on R̥; shifts right by one for each R̥ expanded before it.
+
+    2. Specific repairs (default mode):
+         wR̥ → uR   (toggle: enable-w-syl-repair,  default True)
+         kʷR̥ → kuR (toggle: enable-kw-syl-repair, default True)
+         All other R̥ preserved abstractly.
+
+    Accent index updated for all token-count changes.
     """
-    RES = {'r̥': 'r', 'l̥': 'l', 'm̥': 'm', 'n̥': 'n'}
-    out: list[str] = []
+    if ctx.options.get('enable-syllabic-vocalization', False):
+        # Full vocalization: each R̥ expands to two tokens ('a' + consonant).
+        out: list[str] = []
+        shift = 0
+        new_accent: int | None = None
+        for j, tok in enumerate(toks):
+            if tok in _SYL_RES_MAP:
+                if ctx.accent_index is not None:
+                    if j == ctx.accent_index:
+                        new_accent = len(out)   # accent on inserted 'a'
+                    elif j < ctx.accent_index:
+                        shift += 1
+                out.append('a')
+                out.append(_SYL_RES_MAP[tok])
+            else:
+                out.append(tok)
+        if ctx.accent_index is not None:
+            ctx.accent_index = (
+                new_accent if new_accent is not None
+                else ctx.accent_index + shift
+            )
+        return out
+
+    # Default: specific context-repairs only.
+    w_repair  = ctx.options.get('enable-w-syl-repair',  True)
+    kw_repair = ctx.options.get('enable-kw-syl-repair', True)
+    out = []
     i = 0
     while i < len(toks):
         tok = toks[i]
         nxt = toks[i + 1] if i + 1 < len(toks) else None
 
-        if tok == 'w' and nxt and nxt in RES:
-            out.extend(['u', RES[nxt]])
+        if w_repair and tok == 'w' and nxt and nxt in _SYL_RES_MAP:
+            out.extend(['u', _SYL_RES_MAP[nxt]])
             i += 2
-        elif tok == 'kʷ' and nxt and nxt in RES:
+        elif kw_repair and tok == 'kʷ' and nxt and nxt in _SYL_RES_MAP:
             insert_at = len(out)
-            out.extend(['k', 'u', RES[nxt]])
+            out.extend(['k', 'u', _SYL_RES_MAP[nxt]])
             if ctx.accent_index is not None and ctx.accent_index > insert_at:
                 ctx.accent_index += 1
             i += 2
@@ -334,9 +480,10 @@ def _syl_res_repair(toks: list[str], ctx: Context) -> list[str]:
 
 _SYL_RES = _rule(
     'pa.7.1',
-    'Syllabic resonant repairs: wR̥→uR, kʷR̥→kuR; others retained',
+    'Syllabic resonants: wR̥→uR (enable-w-syl-repair), kʷR̥→kuR (enable-kw-syl-repair), '
+    'full vocalization r̥→ar etc. (enable-syllabic-vocalization)',
     'Syllabics',
-    _syl_res_repair,
+    _syl_res_handler,
 )
 
 
@@ -344,7 +491,7 @@ _SYL_RES = _rule(
 
 _ASPIRATES = _rule(
     'pa.8.1',
-    'Dʰ→D: voiced aspirates merge with voiced stops',
+    'Dʰ→D: voiced aspirates merge with voiced stops (catches gʰ from centum step pa.1.1)',
     'Stops',
     lambda toks, ctx: scan(toks, lambda t, i, ts: DEASPIRATE.get(t, t)),
 )
@@ -375,7 +522,7 @@ _TY_TS = _rule('pa.9.1', 'ty→ts: dental-yod affrication', 'Affricates', _ty_ts
 def _prosodic_voice(toks: list[str], ctx: Context) -> list[str]:
     """
     T→D / prosodically weak position. Toggle: enable-prosodic-stop-voicing.
-    T = {p, t, k, ḱ, kʷ}; ts, s, χ, χʷ immune.
+    T = {p, t, k, ḱ, kʷ} (ḱ merged to k only when enable-centum-merger is on); ts, s, χ, χʷ immune.
 
     Coda-biased syllabification: look right for next vowel/syl_res stopping
     at any boundary. If boundary intervenes, look left. Protect only if
@@ -419,14 +566,17 @@ _PROSODIC_VOICE = _rule(
 # ── Pipeline ──────────────────────────────────────────────────────────────────
 
 RULES: list[Rule] = [
-    _H_REALIZE,           # 2: h₂→χ, h₃→χʷ
-    _H_COLOR,             # 3: coloring
-    _ASSIMILATION_CORE,   # 4a: χ/χʷ cluster assimilation (core)
-    _ASSIMILATION_H1,     # 4b: h₁ cluster assimilation (toggle)
-    _E_LOWER,             # 5: e-lowering
-    _H1_LOSS,             # 6: h₁ loss; eh₁→ǣ, Vh₁→V̄
-    _SYL_RES,             # 7: syllabic resonant repairs
-    _ASPIRATES,           # 8: Dʰ→D
-    _TY_TS,               # 9: ty→ts
-    _PROSODIC_VOICE,      # 10: prosodic voicing (toggle)
+    _CENTUM,              # 1:  ḱ→k, ǵ→g, ǵʰ→gʰ  (toggle: enable-centum-merger, default False)
+    _H_REALIZE,           # 2:  h₂→χ, h₃→χʷ
+    _H_COLOR,             # 3:  laryngeal coloring
+    _ASSIMILATION_VRHV,   # 4a: VRχV→VRRV (toggle: enable-vrhv-assimilation, default True)
+    _ASSIMILATION_SH,     # 4b: sχ→ss    (toggle: enable-sh-assimilation,   default False)
+    _ASSIMILATION_TH,     # 4c: Tχ→TT    (toggle: enable-th-assimilation,   default False)
+    _ASSIMILATION_H1,     # 4d: h₁ cluster assimilation (toggle: enable-h1-cluster-assimilation)
+    _E_LOWER,             # 5:  e-lowering (toggle: enable-e-lowering, default False)
+    _H1_LOSS,             # 6:  h₁ loss; eh₁→ǣ, Vh₁→V̄
+    _SYL_RES,             # 7:  syllabic resonant handling
+    _ASPIRATES,           # 8:  Dʰ→D (catches gʰ from step 1 when enable-centum-merger is on)
+    _TY_TS,               # 9:  ty→ts
+    _PROSODIC_VOICE,      # 10: prosodic voicing (toggle: enable-prosodic-stop-voicing)
 ]

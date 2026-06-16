@@ -9,6 +9,7 @@ Rule ordering:
   1.1b  m > n / _non-labial
   1.2   Final-syllable accent retraction
   1.3   Trimoraic glide shortening: Vː+{j,w} > V+{j,w}
+  1.4   Final long vowel shortening: Vː# > V#
 
 Source: docs/daughters.md §2.1 Stage 1: Late Common Ghandwa.
 
@@ -21,7 +22,7 @@ Notes:
 """
 
 from ..rule import Rule, Context, scan
-from pie_core.tokens import is_vowel, is_long_vowel, shorten
+from pie_core.tokens import is_vowel, is_long_vowel, is_boundary, shorten
 from ._common import make_rule as _rule, next_seg as _next_seg
 
 # ── Category sets ──────────────────────────────────────────────────────────────
@@ -71,6 +72,25 @@ def _final_accent_retract(toks: list[str], ctx: Context) -> list[str]:
     return toks
 
 
+def _final_long_shorten(toks: list[str], ctx: Context) -> list[str]:
+    """1.4: Final long vowel shortening: Vː# > V#.
+
+    Shortens the last vowel in the form if it is long.
+    Blocked if that vowel carries the accent (monosyllables where
+    retraction was not possible).
+    """
+    out = list(toks)
+    for i in range(len(out) - 1, -1, -1):
+        if is_boundary(out[i]):
+            continue
+        if is_long_vowel(out[i]):
+            if ctx.accent_index is not None and ctx.accent_index == i:
+                break  # monosyllable; don't shorten
+            out[i] = shorten(out[i])
+        break  # only the final vowel
+    return out
+
+
 def _trimoraic_shorten(toks: list[str], ctx: Context) -> list[str]:
     """1.3: Vː + {j, w} > V + {j, w}: trimoraic glide-sequence regularization."""
     out = list(toks)
@@ -93,4 +113,6 @@ RULES_LCG: list[Rule] = [
           requires=['accent']),
     _rule('lcg.1.3',  'Trimoraic glide shortening: Vː{j,w} > V{j,w}',
           'Stage 1 (Late Common Ghandwa)', _trimoraic_shorten),
+    _rule('lcg.1.4',  'Final long vowel shortening: Vː# > V#',
+          'Stage 1 (Late Common Ghandwa)', _final_long_shorten),
 ]

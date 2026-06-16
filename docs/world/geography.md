@@ -1,7 +1,7 @@
 # Ghandwa Geographic Model
 
 ---
-last_updated: 2026-06-08
+last_updated: 2026-06-15
 status: draft
 related: docs/world/lore.md, docs/grammar/ch5-daughters/ch5-01-overview.md, docs/grammar/ch5-daughters/ch5-02-late-common-ghandwa.md, docs/world/ghandwa-historical-sociolinguistic-model.md
 ---
@@ -54,3 +54,82 @@ The "Seven Rivers" etymology is transparent (*septam* + *akvā-*). The city's my
 🔲 Both forms from `docs/handoffs/ghandwa-noodling-2026-05-24.md` (2026-05-24). Not yet checked against NocoDB. Verify before treating as canonical.
 
 🔲 The three specific rivers of the ethnonym are unspecified. Pending worldbuilding decision: are these the rivers converging at Septakvās, or a separate confluence?
+
+---
+
+## World Map Model
+
+The Ghandwa world is based on a modified Eurasian geography. The following
+alterations define the world's extent and shape.
+
+---
+
+### Boundary Modifications from Real-World Geography
+
+**Western ocean**
+The Adriatic extends northward as an open ocean rather than a closed inlet.
+The Italian peninsula and all of western Europe are absent — submerged or
+simply beyond the world's edge. The western land boundary runs:
+
+> Elbe mouth (North Sea coast, Jutland) → Elbe south → Vltava south →
+> Bohemian Forest continental divide → Inn → Alpine watershed → Adige →
+> northern Adriatic
+
+Everything west of this line is ocean.
+
+**Eastern ocean**
+The Buzan river serves as the eastern land boundary. The Caspian Sea and all
+territory east of it become open ocean. The world ends at the Buzan mouth.
+
+**Northern boundary**
+Scandinavia is compressed southward, with Denmark as the hinge point — the
+peninsula remains in its approximate real-world position while the rest of the
+Scandinavian landmass is rotated and pressed south to approximately the
+Moscow latitude. Finland occupies the position of the real-world Moscow
+region. The northern land boundary is the Baltic and Barents sea coasts.
+
+**Southern boundary**
+The Mediterranean coast, unmodified.
+
+---
+
+### World Boundary Summary
+
+| Direction | Boundary |
+|---|---|
+| West | Elbe → Vltava → Bohemian Forest → Inn → Alps → Adige → northern Adriatic (ocean) |
+| North | North Sea (Jutland) → Baltic → Barents |
+| East | Buzan river → eastern ocean |
+| South | Mediterranean |
+
+---
+
+### Key Interior Features
+
+**Black Sea** — the functional center of the world; equidistant from all four
+ocean boundaries. Access between northern interior and southern Mediterranean
+runs through the Bosphorus analog — the world's critical chokepoint.
+
+**Danube corridor** — runs west-to-east entirely within world boundaries,
+from the Inn confluence to the Black Sea delta. Primary inland highway
+connecting the western boundary zone to the central sea.
+
+**Bohemian basin** — enclosed by the Elbe/Vltava watershed to the west and
+the Sudetes/Carpathians to the east. Naturally bounded interior zone.
+
+**Carpathian arc** — separates the Danube valley from the northern plains;
+a major internal cultural boundary.
+
+**Compressed northern steppe** — the Pontic steppe corridor is narrower than
+its real-world counterpart, hemmed between the Baltic forest zone to the north
+and the Black Sea coast to the south. Mobile populations here are in sustained
+contact with both forest peoples and river merchants.
+
+---
+
+### 🔲 Pending
+
+- Map artifact (working draft)
+- Named rivers and seas in Ghandwa
+- Placement of daughter language homelands within this geography
+- Septakvās placement relative to these boundaries

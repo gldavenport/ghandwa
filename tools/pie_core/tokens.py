@@ -42,6 +42,9 @@ PHONEME_PATTERNS: list[str] = [
     'tː',
     # Glottal stop (laryngeal diagnostic)
     'ˀ',
+    # Abstract laryngeal representations (Proto-Anatolian research mode;
+    # produced by step 2 when enable-laryngeal-realization is False)
+    'H₂', 'H₃',
     # Unspecified laryngeal (bare H; neutral, no coloring)
     'H',
 ]
@@ -49,7 +52,7 @@ PHONEME_PATTERNS: list[str] = [
 
 # ── Category sets ──────────────────────────────────────────────────────────────
 
-LARYNGEALS: frozenset[str] = frozenset(['h₁', 'h₂', 'h₃', 'H'])
+LARYNGEALS: frozenset[str] = frozenset(['h₁', 'h₂', 'h₃', 'H', 'H₂', 'H₃'])
 
 VOWELS: frozenset[str] = frozenset([
     'a', 'e', 'i', 'o', 'u',
