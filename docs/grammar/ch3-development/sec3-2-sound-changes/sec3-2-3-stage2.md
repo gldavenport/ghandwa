@@ -1,6 +1,6 @@
 ---
 title: "§3.2.3 Stage 2: Late Western IE to Ghandwa"
-last_updated: 2026-05-31T00:00-04:00
+last_updated: 2026-06-18T00:00-04:00
 chapter: ch3-development
 section: sec3-2-sound-changes
 supersedes: "docs/grammar/ch3-development/phonological-history.md (§5)"
@@ -86,6 +86,8 @@ The voiceless fricative \*s becomes voiced *z* when flanked by voiced sounds (vo
 - \*snusós 'daughter-in-law' → snusos → snu**z**os → *snuzos*
 
 **Comparative note:** The PGmc parallel is Verner's Law, which conditions *s*-voicing on PIE accent position rather than on the voicing of adjacent segments. The two rules often produce the same surface result — *s* between vowels becomes *z* in both systems — but the conditioning is formally different. Ghandwa's rule is simpler (purely phonotactic) and makes no reference to accent.
+
+**Ordering note:** Obstruent devoicing (§3.2.2.4, rule 15 in the chronological overview at §3.2.4.1) precedes this rule by several steps (rule 22). Devoicing converts a voiced obstruent to its voiceless counterpart whenever it stands immediately before *t* or *s*, so by the time s-voicing applies, no voiced stop can survive in the position immediately preceding /s/ — that environment has already been pre-empted. The inclusion of voiced stops in the trigger set is therefore asymmetric in practice: a following voiced stop (as in *-sb-, -sd-, -sg-, -sgʷ-*) still conditions voicing normally, since nothing devoices a stop because a preceding /s/ wants to voice, but a preceding voiced stop never does. The asymmetry falls out of rule ordering; it is not a special exception built into this rule's statement.
 
 ## §3.2.3.5 Glide Respelling
 

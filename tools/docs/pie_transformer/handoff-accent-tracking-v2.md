@@ -39,7 +39,7 @@ if ctx.accent_index is not None:
 
 ### Pattern B — Same as A, but the `==` check fires before `extend`
 
-**Source:** `pipelines/old_wekwos.py :: _syl_res_vocalize`
+**Source:** `pipelines/wekwos_old.py :: _syl_res_vocalize`
 
 ```python
 if ctx.accent_index is not None:
@@ -50,7 +50,7 @@ if ctx.accent_index is not None:
 out.extend(['a', RES[tok]])
 ```
 
-**Difference from A:** The check happens before `extend`, so `len(out)` at the time of the `==` arm equals `insert_at` in Pattern A (they compute the same value). Functionally identical to A for the simple case. Old Wékʷos does not have the glottal-consumption branches, so Pattern B is simpler and easier to audit.
+**Difference from A:** The check happens before `extend`, so `len(out)` at the time of the `==` arm equals `insert_at` in Pattern A (they compute the same value). Functionally identical to A for the simple case. Wékʷos-Old does not have the glottal-consumption branches, so Pattern B is simpler and easier to audit.
 
 **Equivalence verdict:** A ≅ B for all practical PIE inputs. The numerical difference (check before vs. after extend) is immaterial because the `==` arm relocates to `len(out)` which is the same value either way.
 
@@ -81,7 +81,7 @@ continue
 
 ### Pattern D — `>= i` after `i += 1`
 
-**Source:** `pipelines/old_wekwos.py :: _h_vh`
+**Source:** `pipelines/wekwos_old.py :: _h_vh`
 
 ```python
 out.pop(); out.append(lengthen(prev)); i += 1
@@ -95,7 +95,7 @@ continue
 
 **Equivalence verdict: Pattern C ≡ Pattern D** for all practical inputs. Both shift the accent if and only if it was on a token strictly after the laryngeal. They produce the same `accent_index` output for all well-formed PIE inputs (where the accent is never on a laryngeal). The edge case (accent on the laryngeal) differs in implementation detail but is unreachable with real data.
 
-**Implication for refactor:** `ghandwa._h_vhv`, `_h_vh`, `_h_adj_v` and `old_wekwos._h_vh` can all be migrated to the same `shift_for_change(ctx, position, delta=-1)` call without behavioral difference on any live input.
+**Implication for refactor:** `ghandwa._h_vhv`, `_h_vh`, `_h_adj_v` and `wekwos_old._h_vh` can all be migrated to the same `shift_for_change(ctx, position, delta=-1)` call without behavioral difference on any live input.
 
 ---
 
@@ -212,7 +212,7 @@ def relocate(ctx: Context, new_position: int | None) -> None:
 
 ### Migration examples
 
-**Replacing Pattern B** (`old_wekwos._syl_res_vocalize`, simple case):
+**Replacing Pattern B** (`wekwos_old._syl_res_vocalize`, simple case):
 
 ```python
 # Before
@@ -296,9 +296,9 @@ The following tests must exist and pass before any rule's accent code is modifie
 - Accent on vowel after lost laryngeal → accent index shifts left by 1.
   - Synthetic: `*neh₂wós` — accent on `o`; after H-B2, `accent_index` decrements by 1.
 
-**4.3 Cross-pipeline equivalence: `ghandwa._h_vh` vs. `old_wekwos._h_vh` (C ≡ D)**
+**4.3 Cross-pipeline equivalence: `ghandwa._h_vh` vs. `wekwos_old._h_vh` (C ≡ D)**
 - Same form through both pipelines; assert `final_accent_index` is identical.
-  - Use `*bʰréh₂tēr`: accent on `e` which colors to `a` then lengthens. Run through both `ghandwa` and a hypothetical isolated `old_wekwos._h_vh` rule; confirm same `accent_index`.
+  - Use `*bʰréh₂tēr`: accent on `e` which colors to `a` then lengthens. Run through both `ghandwa` and a hypothetical isolated `wekwos_old._h_vh` rule; confirm same `accent_index`.
   - This test documents the equivalence proved in §1; it should remain green after refactor.
 
 **4.4 Daughter C deletion patterns (Pattern E)**
@@ -323,7 +323,7 @@ Execute in a future session, after all tests in §4 are written and passing.
 2. **Land §4 test suite.** Write `TestAccentTracking` in `test_pipelines.py`. All tests must pass before any rule migration.
 
 3. **Migrate rules one file at a time, green-to-green.**
-   - Recommended order: `old_wekwos.py` (Pattern B+D, simpler glottal handling) → `ghandwa.py` (Pattern A+C, complex glottal branches) → `proto_seldanic.py` (Pattern C) → `daughter_c.py` (Pattern E, five rules).
+   - Recommended order: `wekwos_old.py` (Pattern B+D, simpler glottal handling) → `ghandwa.py` (Pattern A+C, complex glottal branches) → `proto_seldanic.py` (Pattern C) → `daughter_c.py` (Pattern E, five rules).
    - For each file: replace accent code in each rule function with API calls, run full suite, commit.
    - **Do not refactor accent code in a rule if its test (§4) is missing or failing.** Skipped tests (Stage 3A) are acceptable; missing tests are not.
 
@@ -339,7 +339,7 @@ Execute in a future session, after all tests in §4 are written and passing.
 - `_ssc_simplify` (`gh.ssc`): one `s` deleted; uses `ctx.accent_index > i` shift. This is Pattern-C-adjacent but correct. Migrate opportunistically if Pattern C migration is in progress.
 - `_thorn`: two tokens swapped; net count unchanged; accent untouched. ✓
 - `_h_initial_c` (both files): initial H deleted; uses `ctx.accent_index > 0` shift (Pattern C). Migrate with `shift_for_change(ctx, 0, -1)`.
-- `neo_wekwos.py`: no accent arithmetic in rules (barytonesis is a no-op on tokens; other rules are pure token transforms). No migration needed.
+- `wekwos_neo.py`: no accent arithmetic in rules (barytonesis is a no-op on tokens; other rules are pure token transforms). No migration needed.
 - `proto_anatolian.py`: `_syl_res_repair` (kʷR̥→kuR, net +1) and `_h1_loss` use hand-rolled `>= i` pattern (Pattern D variant). Include in the D-to-API migration pass.
 
 ---

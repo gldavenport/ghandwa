@@ -1,18 +1,18 @@
 """
 Output rendering.
 
-Output modes:
-  surface  — pipeline's language-specific display form / orthography
-  ipa      — pipeline's pronunciation rendering
-  tokens   — internal token notation joined for debugging
+Three output tiers:
+  orth      — orthographic form (attested/constructed languages only; None for proto-languages)
+  citation  — conventional scholarly shorthand derivable from tokens; universal
+              proto-language reconstructions prefixed with *
+  ipa       — syllabified phonological IPA with stress mark; universal
+  tokens    — raw token join for debugging; universal
 
-render.py is a thin dispatcher. It receives a pipeline identifier, an output mode,
-and a final token stream, and calls the appropriate pipeline-specific renderer.
+render.py is a thin dispatcher. It receives a pipeline identifier, a mode,
+and a final token stream, and calls the appropriate renderer.
 
-The `tokens` mode renderer is shared across all pipelines.
-
-If a pipeline has no implemented surface renderer, returns 'renderer_missing'.
-If a pipeline has no implemented IPA renderer, returns 'renderer_missing'.
+Returns str | None. None signals that the requested tier is absent for this pipeline
+(e.g. orth for a proto-language). Callers should display '—' for None.
 """
 
 from __future__ import annotations
@@ -23,6 +23,7 @@ from .pipelines._common import (
     _base_form, _has_accent, _is_ipa_vowel,
     _valid_onset, _onset_split, _syllabify,
 )
+from .pipeline import PIPELINE_IS_RECONSTRUCTION
 
 
 # ── Accent application ─────────────────────────────────────────────────────────
@@ -30,9 +31,8 @@ from .pipelines._common import (
 def apply_accent_mark(tokens: list[str], accent_index: int | None) -> list[str]:
     """
     Return a copy of tokens with U+0301 (combining acute) appended to the token
-    at accent_index.  NFC-normalizes the result so precomposed forms are used
-    where they exist (á, é, í, ó, ú).  No-op if accent_index is None or
-    out of range.
+    at accent_index. NFC-normalizes so precomposed forms are used (á, é, í, ó, ú).
+    No-op if accent_index is None or out of range.
     """
     if accent_index is None or accent_index >= len(tokens):
         return list(tokens)
@@ -48,11 +48,67 @@ def render_tokens(tokens: list[str]) -> str:
     return tokens_to_string(tokens)
 
 
-# ── Ghandwa renderers ──────────────────────────────────────────────────────────
+# ── Shared IPA renderer ────────────────────────────────────────────────────────
 
-# Ghandwa orthographic conversions from token form.
-# Tokens not listed pass through unchanged.
-_GH_ORTH = {
+def _ipa_syllabified(tokens: list[str]) -> str:
+    """Shared IPA renderer: onset-maximization syllabification with ˈ stress mark.
+
+    Used by all pipelines whose token stream is phonologically interpretable as-is.
+    Boundary tokens stripped. Accent mark (U+0301) must already be applied to the
+    relevant token before calling (via apply_accent_mark in render()).
+
+    - Syllables separated by '.'.
+    - Stressed syllable prefixed with ˈ.
+    - Wrapped in /…/.
+    - Phonological, not phonetic (/n/ before velars stays /n/, etc.).
+    """
+    toks = [t for t in tokens if t not in ('-', '.')]
+    if not toks:
+        return '//'
+    syllables = _syllabify(toks)
+    accent_syl: int | None = None
+    for si, syl in enumerate(syllables):
+        for ti, t in enumerate(syl):
+            if _has_accent(t):
+                syllables[si][ti] = _base_form(t)
+                accent_syl = si
+                break
+        if accent_syl is not None:
+            break
+    parts: list[str] = []
+    for si, syl in enumerate(syllables):
+        s = ''.join(syl)
+        if si == accent_syl:
+            s = 'ˈ' + s
+        parts.append(s)
+    return '/' + '.'.join(parts) + '/'
+
+
+# ── Shared citation renderer ───────────────────────────────────────────────────
+
+# Labiovelar digraph substitutions for citation form.
+# Boundary tokens stripped; everything else passes through unchanged.
+_CIT_SUBS: dict[str, str] = {
+    'kʷ': 'kw',
+    'gʷ': 'gw',
+    'ɣʷ': 'ɣw',
+}
+
+
+def _citation_render(tokens: list[str], star: bool) -> str:
+    """Shared citation renderer.
+
+    Converts labiovelars to digraphs (kʷ→kw, gʷ→gw, ɣʷ→ɣw).
+    Everything else — β, ð, ɣ, j, w, all vowels — passes through unchanged.
+    Prepends * for reconstructions. Boundary tokens stripped.
+    """
+    body = ''.join(_CIT_SUBS.get(t, t) for t in tokens if t not in ('-', '.'))
+    return ('*' if star else '') + body
+
+
+# ── Ghandwa orthographic renderer ─────────────────────────────────────────────
+
+_GH_ORTH: dict[str, str] = {
     'kʷ': 'kv',
     'gʷ': 'gv',
     'ɣʷ': 'ɣv',
@@ -60,108 +116,40 @@ _GH_ORTH = {
     'w':  'v',
 }
 
-# IPA tokens are identical to Ghandwa tokens except labiovelars,
-# which are already in correct IPA form (kʷ, gʷ, ɣʷ).
-# j is correct IPA. No conversion needed — tokens ARE the IPA.
 
-
-def _ghandwa_surface(tokens: list[str]) -> str:
-    """
-    Ghandwa orthographic form.  Wrapped in ⟨ ⟩.
-    Conversions: kʷ→kv, gʷ→gv, ɣʷ→ɣv, j→i.
+def _ghandwa_orth(tokens: list[str]) -> str:
+    """Ghandwa orthographic form.
+    Conversions: kʷ→kv, gʷ→gv, ɣʷ→ɣv, j→i, w→v.
     Boundary tokens stripped. ˀ preserved as diagnostic tracer.
     """
-    body = ''.join(_GH_ORTH.get(t, t) for t in tokens if t not in ('-', '.'))
-    return body
-
-
+    return ''.join(_GH_ORTH.get(t, t) for t in tokens if t not in ('-', '.'))
 
 
 def _ghandwa_ipa(tokens: list[str]) -> str:
-    """
-    Ghandwa IPA form with syllabification and stress mark.
-
-    - Boundary tokens stripped.
-    - Onset-maximization syllabifier applied.
-    - Accented token (carrying U+0301) has its acute stripped; IPA ˈ is
-      placed immediately before the onset of that syllable.
-    - Syllables separated by '.'.
-    - Wrapped in /…/.
-
-    Phonological (not phonetic): /n/ is written /n/ even before velars.
-    """
-    toks = [t for t in tokens if t not in ('-', '.')]
-
-    if not toks:
-        return '//'
-
-    syllables = _syllabify(toks)
-
-    # Find which syllable contains the accented token; strip the acute there.
-    accent_syl: int | None = None
-    accent_tok: int | None = None
-
-    for si, syl in enumerate(syllables):
-        for ti, t in enumerate(syl):
-            if _has_accent(t):
-                syllables[si][ti] = _base_form(t)
-                accent_syl = si
-                accent_tok = ti
-                break
-        if accent_syl is not None:
-            break
-
-    # Render syllables as strings, prefixing the stressed syllable with ˈ.
-    parts: list[str] = []
-    for si, syl in enumerate(syllables):
-        s = ''.join(syl)
-        if si == accent_syl:
-            s = 'ˈ' + s
-        parts.append(s)
-
-    return '/' + '.'.join(parts) + '/'
+    """Ghandwa IPA form. Delegates to shared syllabifier."""
+    return _ipa_syllabified(tokens)
 
 
-# ── Proto-Seldanic renderers ───────────────────────────────────────────────────
-# No surface/orthographic form. IPA only: tokens joined, wrapped in /…/.
+# ── Proto-Seldanic IPA ─────────────────────────────────────────────────────────
 
 def _proto_seldanic_ipa(tokens: list[str]) -> str:
-    """Proto-Seldanic IPA form. Tokens joined, boundary marks stripped, wrapped in /…/."""
-    body = ''.join(t for t in tokens if t not in ('-', '.'))
-    return '/' + body + '/'
+    """Proto-Seldanic IPA form."""
+    return _ipa_syllabified(tokens)
 
 
-# ── Old Wékʷos renderers ───────────────────────────────────────────────────────
+# ── Wékʷos IPA ────────────────────────────────────────────────────────────────
 
-def _old_wekwos_surface(tokens: list[str]) -> str:
-    """Old Wékʷos surface form. Provisional: joins tokens, strips boundary marks."""
-    return ''.join(t for t in tokens if t not in ('-', '.'))
-
-
-def _old_wekwos_ipa(tokens: list[str]) -> str:
-    return 'renderer_missing'
+def _wekwos_old_ipa(tokens: list[str]) -> str:
+    """Wékʷos-Old IPA form."""
+    return _ipa_syllabified(tokens)
 
 
-# ── Neo-Wékʷos renderers ───────────────────────────────────────────────────────
-
-def _neo_wekwos_surface(tokens: list[str]) -> str:
-    """Neo-Wékʷos surface form. Provisional."""
-    return ''.join(t for t in tokens if t not in ('-', '.'))
+def _wekwos_neo_ipa(tokens: list[str]) -> str:
+    """Wékʷos-Neo IPA form."""
+    return _ipa_syllabified(tokens)
 
 
-def _neo_wekwos_ipa(tokens: list[str]) -> str:
-    return 'renderer_missing'
-
-
-# ── Provisional renderer (shared) ────────────────────────────────────────────
-
-def _provisional_surface(tokens: list[str]) -> str:
-    """Provisional surface renderer: joins tokens, strips boundary marks.
-    Used for pipelines without a designed orthography yet."""
-    return ''.join(t for t in tokens if t not in ('-', '.'))
-
-
-# ── Daughter A renderers ───────────────────────────────────────────────────────
+# ── Daughter A ─────────────────────────────────────────────────────────────────
 
 _DA_ORTH: dict[str, str] = {
     'ɸ':  'f',
@@ -172,43 +160,32 @@ _DA_ORTH: dict[str, str] = {
     'w':  'v',
 }
 
-def _daughter_a_surface(tokens: list[str]) -> str:
-    """Daughter A orthographic surface form.
+
+def _daughter_a_orth(tokens: list[str]) -> str:
+    """Daughter A orthographic form.
     ɸ→f, θ→þ, x→h, xʷ→hv, j→i, w→v. Boundary tokens stripped.
-    kʷ/gʷ already delabialized to k/g by Stage 2A; no further conversion needed.
     """
     return ''.join(_DA_ORTH.get(t, t) for t in tokens if t not in ('-', '.'))
 
 
 def _daughter_a_ipa(tokens: list[str]) -> str:
-    """Daughter A IPA form. Tokens are already phonological symbols.
-    Boundary tokens stripped, wrapped in /…/.
-    """
-    body = ''.join(t for t in tokens if t not in ('-', '.'))
-    return '/' + body + '/'
+    """Daughter A IPA form."""
+    return _ipa_syllabified(tokens)
 
 
-# ── Daughter B renderers ───────────────────────────────────────────────────────
-# Orthography inherited from Ghandwa (conservative scribal tradition).
-# Surface renderer delegates to _ghandwa_surface for now; divergence expected
-# as Stage 3B phonology is specified and the orth/IPA/token mapping changes.
+# ── Daughter B ─────────────────────────────────────────────────────────────────
 
-def _daughter_b_surface(tokens: list[str]) -> str:
-    """Daughter B surface form. Inherits Ghandwa orthography wholesale.
-    Replace delegation when B orthography diverges from Ghandwa.
-    """
-    return _ghandwa_surface(tokens)
+def _daughter_b_orth(tokens: list[str]) -> str:
+    """Daughter B orthographic form. Inherits Ghandwa orthography wholesale."""
+    return _ghandwa_orth(tokens)
 
 
 def _daughter_b_ipa(tokens: list[str]) -> str:
-    """Daughter B IPA form. Provisional: tokens joined, boundary marks stripped.
-    Replace with proper IPA mapping when Stage 3B phonology is committed.
-    """
-    body = ''.join(t for t in tokens if t not in ('-', '.'))
-    return '/' + body + '/'
+    """Daughter B IPA form. Provisional."""
+    return _ipa_syllabified(tokens)
 
 
-# ── Daughter C renderers ───────────────────────────────────────────────────────
+# ── Daughter C ─────────────────────────────────────────────────────────────────
 
 _DC_ORTH: dict[str, str] = {
     'ʁ': 'ŕ',
@@ -216,45 +193,40 @@ _DC_ORTH: dict[str, str] = {
     'w': 'v',
 }
 
-def _daughter_c_surface(tokens: list[str]) -> str:
-    """Daughter C orthographic surface form.
+
+def _daughter_c_orth(tokens: list[str]) -> str:
+    """Daughter C orthographic form.
     ʁ→ŕ, j→i, w→v. Boundary tokens stripped.
-    kʷ→p and gʷ→b already resolved by Stage 2C; labiovelars absent.
-    β ð ɣ ɣʷ already hardened to b d g gʷ then resolved; absent at surface.
-    Note: ŕ is unambiguous in C orthography — lexical acute is not used
-    (stress is fixed initial); ŕ marks the rhotacism-origin rhotic only.
+    kʷ→p and gʷ→b resolved by Stage 2C; β ð ɣ ɣʷ hardened and resolved.
     """
     return ''.join(_DC_ORTH.get(t, t) for t in tokens if t not in ('-', '.'))
 
 
 def _daughter_c_ipa(tokens: list[str]) -> str:
-    """Daughter C IPA form. Tokens are phonological symbols; ʁ is valid IPA.
-    Boundary tokens stripped, wrapped in /…/.
-    """
-    body = ''.join(t for t in tokens if t not in ('-', '.'))
-    return '/' + body + '/'
+    """Daughter C IPA form. ʁ is valid IPA; treated as plain consonant by syllabifier."""
+    return _ipa_syllabified(tokens)
 
 
-# ── Dispatch table ─────────────────────────────────────────────────────────────
+# ── Dispatch tables ────────────────────────────────────────────────────────────
 
-_SURFACE: dict[str, callable] = {
-    'ghandwa':         _ghandwa_surface,
-    'old-wekwos':      _old_wekwos_surface,
-    'neo-wekwos':      _neo_wekwos_surface,
-    # Provisional — orthography not yet designed; tokens rendered as-is
-    'proto-anatolian':    _provisional_surface,
-    'proto-seldanic':     _provisional_surface,
-    'ghandwa-daughter-a': _daughter_a_surface,
-    'ghandwa-daughter-b': _daughter_b_surface,
-    'ghandwa-daughter-c': _daughter_c_surface,
+# Only attested/constructed languages with a designed script.
+# Proto-languages are absent; render() returns None for them in orth mode.
+_ORTH: dict[str, callable] = {
+    'ghandwa':            _ghandwa_orth,
+    'ghandwa-daughter-a': _daughter_a_orth,
+    'ghandwa-daughter-b': _daughter_b_orth,
+    'ghandwa-daughter-c': _daughter_c_orth,
 }
+
+# Citation is universal — handled by _citation_render() with PIPELINE_IS_RECONSTRUCTION.
+# No dispatch table needed.
 
 _IPA: dict[str, callable] = {
     'ghandwa':            _ghandwa_ipa,
-    'old-wekwos':         _old_wekwos_ipa,
-    'neo-wekwos':         _neo_wekwos_ipa,
+    'wekwos-old':         _wekwos_old_ipa,
+    'wekwos-neo':         _wekwos_neo_ipa,
     'proto-seldanic':     _proto_seldanic_ipa,
-    # Provisional — tokens are already IPA-like
+    # Provisional — syllabification unverified for proto-anatolian
     'proto-anatolian':    tokens_to_string,
     'ghandwa-daughter-a': _daughter_a_ipa,
     'ghandwa-daughter-b': _daughter_b_ipa,
@@ -264,33 +236,47 @@ _IPA: dict[str, callable] = {
 
 # ── Main dispatch function ─────────────────────────────────────────────────────
 
-def render(pipeline: str, mode: str, tokens: list[str],
-           accent_index: int | None = None) -> str:
+def render(
+    pipeline: str,
+    mode: str,
+    tokens: list[str],
+    accent_index: int | None = None,
+    star: bool | None = None,
+) -> str | None:
     """
     Render a token stream for a given pipeline and output mode.
 
-    mode: 'surface' | 'ipa' | 'tokens'
-    accent_index: if provided, the acute accent is applied to that token before rendering.
-    Returns a string. Returns 'renderer_missing' if the renderer is not implemented.
+    mode: 'orth' | 'citation' | 'ipa' | 'tokens'
+
+    accent_index: if provided, acute accent applied to that token before rendering.
+
+    star: for citation mode — True prefixes *, False omits it, None uses
+          PIPELINE_IS_RECONSTRUCTION[pipeline] (default behaviour).
+
+    Returns str | None. None means the tier is absent for this pipeline
+    (currently only orth for proto-languages). Callers display '—' for None.
     """
     accented = apply_accent_mark(tokens, accent_index)
 
     if mode == 'tokens':
         return render_tokens(accented)
 
-    if mode == 'surface':
-        renderer = _SURFACE.get(pipeline)
+    if mode == 'orth':
+        renderer = _ORTH.get(pipeline)
         if renderer is None:
-            return 'renderer_missing'
+            return None
         return renderer(accented)
+
+    if mode == 'citation':
+        use_star = PIPELINE_IS_RECONSTRUCTION.get(pipeline, True) if star is None else star
+        return _citation_render(accented, use_star)
 
     if mode == 'ipa':
         renderer = _IPA.get(pipeline)
         if renderer is None:
-            return 'renderer_missing'
+            return None
         result = renderer(accented)
-        # Enforce /…/ wrapping uniformly regardless of renderer implementation.
-        if result and result not in ('renderer_missing',):
+        if result and result != 'renderer_missing':
             result = result.strip()
             if not result.startswith('/'):
                 result = '/' + result
@@ -312,9 +298,6 @@ def get_warnings(tokens: list[str]) -> list[str]:
     if has_unresolved_laryngeal(tokens):
         warnings.append('unresolved ˀ (surviving laryngeal)')
 
-    # Check for triple consonant cluster (CCC).
-    # Glides (j, w) are excluded: post-vocalic j/w form diphthongs and
-    # do not count as onset/coda consonants for cluster purposes.
     from pie_core.tokens import is_consonant, is_glottal, GLIDES
     run = 0
     for t in tokens:
@@ -322,9 +305,9 @@ def get_warnings(tokens: list[str]) -> list[str]:
             run = 0
             continue
         if t in GLIDES:
-            run = 0          # glide resets the count — treated as vocalic
+            run = 0
             continue
-        if (is_consonant(t) or is_glottal(t)):
+        if is_consonant(t) or is_glottal(t):
             run += 1
             if run >= 3:
                 warnings.append('CCC cluster')

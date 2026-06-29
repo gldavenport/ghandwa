@@ -1,15 +1,15 @@
 # NocoDB MCP Setup
 
-last_updated: 2026-06-06
+last_updated: 2026-06-19
 
 ## Infrastructure
 
 | Component | Value |
 |---|---|
 | Server | Mac Mini 2014, Ubuntu 24.04.4 LTS |
-| Server LAN IP | 10.1.1.103 (static) |
+| Server LAN IP | 10.1.1.10 (static) |
 | Server hostname | A1347-DB |
-| Desktop | iMac, macOS 15, IP 10.1.1.105 |
+| Desktop | iMac, macOS 15, IP 10.1.1.50 |
 | NocoDB | Docker, `nocodb/nocodb:latest` |
 | Docker Compose | `/home/g/nocodb/compose.yaml` |
 | Host data path | `/home/g/nocodb/data/` |
@@ -41,7 +41,7 @@ File: `~/Library/Application Support/Claude/claude_desktop_config.json`
 }
 ```
 
-The URL is `127.0.0.1:18080`, not `10.1.1.103:8080` — see tunnel section below.
+The URL is `127.0.0.1:18080`, not the server's LAN IP — see tunnel section below.
 
 ## MCP Token
 
@@ -78,7 +78,7 @@ curl -s -X POST http://localhost:8080/api/v1/auth/user/signin \
 
 ### Why
 
-Claude Desktop on macOS 15 cannot reach LAN IPs directly when using `mcp-remote` as a child process, even with Local Network privacy permission enabled in System Settings. The `mcp-remote` subprocess hits `EHOSTUNREACH` on `10.1.1.103:8080` despite the same URL being reachable from Terminal. This appears to be a sandbox entitlement limitation of Claude Desktop that goes beyond the standard Local Network toggle. Connections to `localhost`/`127.0.0.1` are not subject to this restriction.
+Claude Desktop on macOS 15 cannot reach LAN IPs directly when using `mcp-remote` as a child process, even with Local Network privacy permission enabled in System Settings. The `mcp-remote` subprocess hits `EHOSTUNREACH` on the server's LAN IP despite the same URL being reachable from Terminal. This appears to be a sandbox entitlement limitation of Claude Desktop that goes beyond the standard Local Network toggle. Connections to `localhost`/`127.0.0.1` are not subject to this restriction.
 
 The tunnel forwards `127.0.0.1:18080` on the desktop to `localhost:8080` on the server, bypassing the sandbox restriction.
 
@@ -104,7 +104,7 @@ Plist: `~/Library/LaunchAgents/com.ghandwa.nocodb-tunnel.plist`
     <string>ServerAliveInterval=60</string>
     <string>-L</string>
     <string>18080:localhost:8080</string>
-    <string>g@10.1.1.103</string>
+    <string>g@10.1.1.10</string>
   </array>
   <key>RunAtLoad</key>
   <true/>
@@ -119,7 +119,7 @@ Plist: `~/Library/LaunchAgents/com.ghandwa.nocodb-tunnel.plist`
 ```bash
 # Set up key-based auth (one time)
 ssh-keygen -t ed25519 -C "ghandwa-tunnel"   # no passphrase
-ssh-copy-id g@10.1.1.103
+ssh-copy-id g@10.1.1.10
 
 # Load the tunnel agent
 launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ghandwa.nocodb-tunnel.plist
@@ -130,7 +130,9 @@ curl -I http://127.0.0.1:18080   # should return HTTP 200
 
 **Note:** macOS will prompt "ssh is an item that can run in the background" — allow it.
 
-To unload: `launchctl bootout gui/$(id -u) com.ghandwa.nocodb-tunnel`
+To unload: `launchctl bootout gui/$(id -u)/com.ghandwa.nocodb-tunnel` — note domain and label are combined into a single `domain/label` target; `bootout` parses two separate arguments as `domain` + `path-to-plist`, not `domain` + `label`, and will fail with a generic "Input/output error" if given a bare label there.
+
+**Note on IP changes:** if the server's LAN IP changes again, update the `g@<ip>` entry in the plist's `ProgramArguments` array (not just the table above) — client-side `known_hosts` is keyed by address, so the first connection to a new IP will require accepting the host key fingerprint interactively before launchd can use it non-interactively.
 
 ## Failure Modes Encountered
 
@@ -138,10 +140,11 @@ To unload: `launchctl bootout gui/$(id -u) com.ghandwa.nocodb-tunnel`
 |---|---|---|
 | `Authentication required - MCP token missing` | Request/config did not send the `xc-mcp-token` header correctly, or the wrong endpoint/token pairing was used | Verify the MCP endpoint ID from `nc_mcp_tokens.id`, verify the token from `nc_mcp_tokens.token`, and make sure the client sends `xc-mcp-token: <MCP_TOKEN>` |
 | `Non-HTTPS URLs are only allowed for localhost` | `mcp-remote` blocks plain HTTP to non-localhost | Add `--allow-http` to args |
-| `EHOSTUNREACH 10.1.1.103:8080` | macOS 15 Claude Desktop sandbox blocks LAN IP in child processes | SSH tunnel; use `127.0.0.1:18080` |
+| `EHOSTUNREACH 10.1.1.103:8080` | macOS 15 Claude Desktop sandbox blocks LAN IP in child processes (IP was 10.1.1.103 at the time; server LAN IP later changed to 10.1.1.10) | SSH tunnel; use `127.0.0.1:18080` |
 | `Bootstrap failed: 5: Input/output error` | launchd plist wrapped in spurious `<key>New item</key><dict>` nesting (editor artifact) | Keys must be direct children of top-level `<dict>`; validate with `plutil` |
 | `Bootstrap failed: 5: Input/output error` (after plist fix) | SSH requires password; launchd cannot authenticate interactively | Set up passwordless key-based auth first |
 | MCP timeout during initialize | Forcing `--transport sse-only` caused/participated in initialize timeout with this setup | Remove `--transport sse-only`; let `mcp-remote` auto-detect transport |
+| `bootstrap` succeeds, job shows `running`, but `curl 127.0.0.1:18080` fails to connect | Plist was edited in a GUI text editor but the IP change didn't actually save to disk before `bootstrap` ran; launchd loaded the stale file and `ssh` is targeting a dead address | Edit with `sed -i ''` and `grep` the file to confirm the change landed before bootstrapping; `launchctl print gui/$(id -u)/<label>` shows the live `arguments` array, which exposes a stale IP immediately |
 
 ## Migration Notes
 

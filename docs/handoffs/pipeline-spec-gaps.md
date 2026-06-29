@@ -23,7 +23,7 @@ Pipeline spec docs live in `tools/docs/pie_transformer/`. The following pipeline
 |---|---|---|
 | `daughter_b.py` | `docs/grammar/ch5-daughters/ch5-03-comparative-phonology.md` §2B | No standalone `tools/docs/pie_transformer/` spec; ch5 doc is authoritative but not transformer-focused |
 | `daughter_c.py` | `docs/grammar/ch5-daughters/ch5-03-comparative-phonology.md` §2C, 3C | Same as above |
-| `old_wekwos.py` + `neo_wekwos.py` | `tools/docs/pie_transformer/crotonian-rules.md` | Doc predates pipeline split into Old/Neo; two rules in neo_wekwos.py (final nasal drop, final lateral rhotacism) not yet documented |
+| `wekwos_old.py` + `wekwos_neo.py` | `tools/docs/pie_transformer/crotonian-rules.md` | Doc predates pipeline split into Old/Neo; two rules in wekwos_neo.py (final nasal drop, final lateral rhotacism) not yet documented |
 
 ## Recommended next steps
 
@@ -31,4 +31,4 @@ Pipeline spec docs live in `tools/docs/pie_transformer/`. The following pipeline
 2. Write a standalone spec for `late_common_ghandwa.py`.
 3. Assess `proto_anatolian.py` — read the implementation and determine scope and status.
 4. Write a standalone spec for `daughter_a.py` (can largely reference ch5-03).
-5. Update `crotonian-rules.md` to document the two undocumented neo_wekwos.py rules: final nasal drop (VN# → Ṽ#) and final lateral rhotacism (l → r / _#).
+5. Update `crotonian-rules.md` to document the two undocumented wekwos_neo.py rules: final nasal drop (VN# → Ṽ#) and final lateral rhotacism (l → r / _#).

@@ -3,8 +3,8 @@ Pipeline registry and chaining logic.
 
 Registered pipelines:
   ghandwa         — implemented
-  old-wekwos      — implemented (provisional)
-  neo-wekwos      — implemented (provisional); downstream of old-wekwos
+  wekwos-old      — implemented (provisional)
+  wekwos-neo      — implemented (provisional); downstream of wekwos-old
   proto-anatolian — implemented
   proto-seldanic  — implemented
   ghandwa-daughter-a — implemented (Stage 2 only; Stage 3 stub)
@@ -12,8 +12,8 @@ Registered pipelines:
   ghandwa-daughter-c — implemented (Stage 2 + Stage 3)
 
 Pipeline chaining:
-  Neo-Wékʷos is downstream of Old Wékʷos. Its input token stream is the final
-  output of the Old Wékʷos pipeline. Re-tokenization does not occur.
+  Wékʷos-Neo is downstream of Wékʷos-Old. Its input token stream is the final
+  output of the Wékʷos-Old pipeline. Re-tokenization does not occur.
 
   Daughter pipelines (A, B, C) are all downstream of 'ghandwa'. Input token
   stream is the final output of the ghandwa pipeline. Re-tokenization does not occur.
@@ -27,9 +27,53 @@ from pie_core.tokenize import tokens_to_string
 
 # ── Pipeline registry ──────────────────────────────────────────────────────────
 
-_IMPLEMENTED = {'ghandwa', 'old-wekwos', 'neo-wekwos', 'proto-anatolian', 'proto-seldanic', 'ghandwa-daughter-a', 'ghandwa-daughter-b', 'ghandwa-daughter-c'}
+_IMPLEMENTED = {'ghandwa', 'wekwos-old', 'wekwos-neo', 'proto-anatolian', 'proto-seldanic', 'ghandwa-daughter-a', 'ghandwa-daughter-b', 'ghandwa-daughter-c'}
 _NOT_IMPLEMENTED: set[str] = set()
 ALL_PIPELINES = sorted(_IMPLEMENTED | _NOT_IMPLEMENTED)
+
+
+# ── Pipeline hierarchy ─────────────────────────────────────────────────────────
+
+PIPELINE_PARENTS: dict[str, str | None] = {
+    'ghandwa':            None,
+    'ghandwa-daughter-a': 'ghandwa',
+    'ghandwa-daughter-b': 'ghandwa',
+    'ghandwa-daughter-c': 'ghandwa',
+    'proto-anatolian':    None,
+    'proto-seldanic':     None,
+    'wekwos-old':         None,
+    'wekwos-neo':         'wekwos-old',
+}
+
+_DISPLAY_ROOTS = ['ghandwa', 'proto-anatolian', 'proto-seldanic', 'wekwos-old']
+
+PIPELINE_IS_RECONSTRUCTION: dict[str, bool] = {
+    'ghandwa':            False,
+    'ghandwa-daughter-a': False,
+    'ghandwa-daughter-b': False,
+    'ghandwa-daughter-c': False,
+    'proto-anatolian':    True,
+    'proto-seldanic':     True,
+    'wekwos-old':         True,
+    'wekwos-neo':         True,
+}
+
+
+def pipeline_display_order() -> list[tuple[str, int]]:
+    """Return (pipeline_name, depth) pairs in tree order for --all display."""
+    from collections import defaultdict
+    children: dict[str, list[str]] = defaultdict(list)
+    for name, parent in PIPELINE_PARENTS.items():
+        if parent is not None:
+            children[parent].append(name)
+    for lst in children.values():
+        lst.sort()
+    result: list[tuple[str, int]] = []
+    for root in _DISPLAY_ROOTS:
+        result.append((root, 0))
+        for child in children.get(root, []):
+            result.append((child, 1))
+    return result
 
 
 def _load_rules(name: str) -> list[Rule]:
@@ -37,11 +81,11 @@ def _load_rules(name: str) -> list[Rule]:
     if name == 'ghandwa':
         from .pipelines.ghandwa import RULES
         return RULES
-    if name == 'old-wekwos':
-        from .pipelines.old_wekwos import RULES
+    if name == 'wekwos-old':
+        from .pipelines.wekwos_old import RULES
         return RULES
-    if name == 'neo-wekwos':
-        from .pipelines.neo_wekwos import RULES
+    if name == 'wekwos-neo':
+        from .pipelines.wekwos_neo import RULES
         return RULES
     if name == 'proto-anatolian':
         from .pipelines.proto_anatolian import RULES
@@ -75,7 +119,7 @@ def run(
 
     Handles:
       - not_implemented pipelines → DerivationResult with status='not_implemented'
-      - neo-wekwos chaining → runs old-wekwos first, then neo-wekwos rules
+      - wekwos-neo chaining → runs wekwos-old first, then wekwos-neo rules
       - all other pipelines → runs rules directly
     """
     if pipeline_name in _NOT_IMPLEMENTED:
@@ -85,11 +129,11 @@ def run(
         return _error_result(pipeline_name, tokens, input_form,
                              f'Unknown pipeline: {pipeline_name!r}')
 
-    # Chain: neo-wekwos requires old-wekwos output as its input
-    if pipeline_name == 'neo-wekwos':
+    # Chain: wekwos-neo requires wekwos-old output as its input
+    if pipeline_name == 'wekwos-neo':
         return _run_chained(
-            upstream='old-wekwos',
-            downstream='neo-wekwos',
+            upstream='wekwos-old',
+            downstream='wekwos-neo',
             tokens=tokens,
             context=context,
             input_form=input_form,
@@ -147,7 +191,6 @@ def run_all(
     """Run all pipelines and return a dict of results keyed by pipeline name."""
     results: dict[str, DerivationResult] = {}
     for name in ALL_PIPELINES:
-        # Each pipeline gets its own copy of context and tokens
         import copy
         ctx_copy = copy.deepcopy(context)
         tok_copy = list(tokens)
@@ -180,11 +223,9 @@ def _run_chained(
     )
 
     if up_result.status not in ('ok',):
-        # Upstream blocked or errored — propagate
-        up_result.pipeline = downstream  # relabel as the downstream pipeline
+        up_result.pipeline = downstream
         return up_result
 
-    # Chain: pass upstream's final tokens into downstream rules
     down_rules = _load_rules(downstream)
     down_result = run_pipeline(
         pipeline_name=downstream,
@@ -195,7 +236,6 @@ def _run_chained(
         trace_mode=trace_mode,
     )
 
-    # Merge traces: upstream first, then downstream
     down_result.trace = up_result.trace + down_result.trace
     return down_result
 

@@ -70,7 +70,8 @@ class DerivationResult:
     status: str               # 'ok' | 'blocked_missing_accent' | 'error' | 'not_implemented'
     final_tokens: list[str] = field(default_factory=list)
     trace: list[TraceRow] = field(default_factory=list)
-    generated_surface: str = ''
+    generated_orth: str = ''
+    generated_citation: str = ''
     generated_ipa: str = ''
     generated_tokens: str = ''
     blocked_stage: str = ''

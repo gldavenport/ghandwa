@@ -1,7 +1,7 @@
 """
 Shared helpers for all pie_transformer pipeline modules.
 
-Imported by: ghandwa, old_wekwos, neo_wekwos, proto_anatolian, proto_seldanic,
+Imported by: ghandwa, wekwos_old, wekwos_neo, proto_anatolian, proto_seldanic,
              late_common_ghandwa, daughter_a, daughter_b, daughter_c.
 Also imported by render.py (..pipelines._common) for syllabification utilities.
 
@@ -53,7 +53,7 @@ UW: frozenset[str] = frozenset({'u', 'ū', 'w'})
 def laryngeal_color(h: str, v: str) -> str:
     """h₂ colors adjacent e→a, h₃ colors adjacent e→o.  h₁ and H are neutral.
 
-    This is the PIE / WIE flavor used by Ghandwa, Old Wékʷos, and Proto-Seldanic.
+    This is the PIE / WIE flavor used by Ghandwa, Wékʷos-Old, and Proto-Seldanic.
     Proto-Anatolian's χ/χʷ coloring is kept local to proto_anatolian.py.
     """
     if v != 'e':

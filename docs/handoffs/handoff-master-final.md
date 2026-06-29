@@ -892,9 +892,9 @@ cd tools && python3 -m unittest pie_transformer.tests.test_pipelines
 | `prev_seg(toks, i) -> tuple[str \| None, int \| None]` | `daughter_c.py::_prev_seg` | Same |
 | `is_word_initial(toks, i)` | `daughter_c.py` | Useful for B and wékʷos |
 | `is_word_final(toks, i)` | `daughter_c.py` | Same |
-| `laryngeal_color(h, v) -> str` | `ghandwa.py` (byte-identical to `old_wekwos.py` and `proto_seldanic.py`) | Anatolian's version stays local |
+| `laryngeal_color(h, v) -> str` | `ghandwa.py` (byte-identical to `wekwos_old.py` and `proto_seldanic.py`) | Anatolian's version stays local |
 | `centumize_rule(prefix)` factory | `ghandwa.py::_CENTUMIZE`'s body | Returns a `Rule` |
-| `labiovelarize(toks, ctx)` | `ghandwa.py` (byte-identical to `old_wekwos.py`) | Preserve accent code verbatim |
+| `labiovelarize(toks, ctx)` | `ghandwa.py` (byte-identical to `wekwos_old.py`) | Preserve accent code verbatim |
 | `UW: frozenset[str]` | `frozenset({'u', 'ū', 'w'})` | Replaces 3 inline definitions |
 
 #### Move `_syllabify` from `render.py` to `_common.py`
@@ -945,9 +945,9 @@ Execute after Phases 1–2. Covers: pattern catalog (A–E) with equivalence pro
 - `_rule` constructor: 9 files.
 - Boundary-skipping lookup: 5 variants across `daughters.py` (deleted Phase 1), `late_common_ghandwa.py`, `daughter_b.py` (2), `daughter_c.py` (2), plus inline in `ghandwa.py::_voiced_before_ts`.
 - Boundary-set constant: `tokens.BOUNDARIES` exists; redefined or inlined in 6 places.
-- `_laryngeal_color`: byte-identical in `ghandwa.py`, `old_wekwos.py`, `proto_seldanic.py`.
-- `_labiovelarize`: byte-identical in `ghandwa.py`, `old_wekwos.py`.
-- Centumize lambda: near-identical in `ghandwa.py`, `old_wekwos.py`, `proto_seldanic.py`.
+- `_laryngeal_color`: byte-identical in `ghandwa.py`, `wekwos_old.py`, `proto_seldanic.py`.
+- `_labiovelarize`: byte-identical in `ghandwa.py`, `wekwos_old.py`.
+- Centumize lambda: near-identical in `ghandwa.py`, `wekwos_old.py`, `proto_seldanic.py`.
 - `{u, ū, w}` set: 3 definitions plus inline literals.
 - `_syllabify`: in `render.py`, imported (wrong direction) by `daughter_b.py`.
 

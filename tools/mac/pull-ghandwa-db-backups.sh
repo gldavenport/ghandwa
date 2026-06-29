@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SERVER_USER="ghpull"
-SERVER_HOST="10.1.1.103"
+SERVER_HOST="10.1.1.10"
 REMOTE_DIR="/srv/backups/ghandwa-db/archives"
 LOCAL_DIR="$HOME/Library/Application Support/Ghandwa/NocoDB"
 LOG_DIR="$HOME/Library/Logs/ghandwa-db-backup"

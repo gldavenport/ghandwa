@@ -1,0 +1,181 @@
+{
+  "source_file": "olander-2022-ed-ie-language-family.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "olander-2022-ed-ie-language-family-front-matter.md",
+    "olander-2022-ed-ie-language-family-ch1.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch1.md",
+    "olander-2022-ed-ie-language-family-ch2.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch2.md",
+    "olander-2022-ed-ie-language-family-ch3.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch3.md",
+    "olander-2022-ed-ie-language-family-ch4.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch4.md",
+    "olander-2022-ed-ie-language-family-ch5.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch5.md",
+    "olander-2022-ed-ie-language-family-ch6.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch6.md",
+    "olander-2022-ed-ie-language-family-ch7.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch7.md",
+    "olander-2022-ed-ie-language-family-ch8.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch8.md",
+    "olander-2022-ed-ie-language-family-ch9.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch9.md",
+    "olander-2022-ed-ie-language-family-ch10.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch10.md",
+    "olander-2022-ed-ie-language-family-ch11.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch11.md",
+    "olander-2022-ed-ie-language-family-ch12.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch12.md",
+    "olander-2022-ed-ie-language-family-ch13.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch13.md",
+    "olander-2022-ed-ie-language-family-ch14.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch14.md",
+    "olander-2022-ed-ie-language-family-ch15.md",
+    "olander-2022-ed-ie-language-family-bibliography-ch15.md",
+    "olander-2022-ed-ie-language-family-index.md",
+    "olander-2022-ed-ie-language-family-extraction-report.md"
+  ],
+  "images": [
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig1-1.png",
+      "source_label": "Figure 1.1",
+      "page": 5,
+      "caption": "The “neo-traditional” model"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig1-2.png",
+      "source_label": "Figure 1.2",
+      "page": 6,
+      "caption": "Binary-branching model (Ringe group)"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig1-3.png",
+      "source_label": "Figure 1.3",
+      "page": 6,
+      "caption": "Binary-branching model (Gray group; Chang et al. 2015)"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig2-1.png",
+      "source_label": "Figure 2.1",
+      "page": 19,
+      "caption": "Family tree of the ABC language family"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig2-2.png",
+      "source_label": "Figure 2.2",
+      "page": 20,
+      "caption": "Schleicher’s tree diagram (Schleicher 1861: 7)."
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig4-1.png",
+      "source_label": "Figure 4.1",
+      "page": 53,
+      "caption": "Outgroup analysis of PGmc. *tūna- and PCelt. *dūn . . ."
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig5-1.png",
+      "source_label": "Figure 5.1",
+      "page": 70,
+      "caption": "The Luwic sub-branch of Anatolian"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig5-2.png",
+      "source_label": "Figure 5.2",
+      "page": 76,
+      "caption": "Tree model of the Anatolian languages"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig6-1.png",
+      "source_label": "Figure 6.1",
+      "page": 89,
+      "caption": "The position of Tocharian"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig7-1.png",
+      "source_label": "Figure 7.1",
+      "page": 109,
+      "caption": "Tentative tree showing the position of Italo-Celtic"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig8-1.png",
+      "source_label": "Figure 8.1",
+      "page": 115,
+      "caption": "The Italic languages"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig9-1.png",
+      "source_label": "Figure 9.1",
+      "page": 143,
+      "caption": "The Celtic languages"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig10-1.png",
+      "source_label": "Figure 10.1",
+      "page": 160,
+      "caption": "A tree model illustrating a binary split of Proto-Germanic into North-West vs. East Germanic"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig10-2.png",
+      "source_label": "Figure 10.2",
+      "page": 160,
+      "caption": "A unified tree-wave model of the Germanic dialect continuum"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig11-1.png",
+      "source_label": "Figure 11.1",
+      "page": 190,
+      "caption": "The Greek dialects"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig12-1.png",
+      "source_label": "Figure 12.1",
+      "page": 209,
+      "caption": "The position of Armenian"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig13-1.png",
+      "source_label": "Figure 13.1",
+      "page": 241,
+      "caption": "The position of Albanian"
+    },
+    {
+      "filename": "images/olander-2022-ed-ie-language-family-fig14-1.png",
+      "source_label": "Figure 14.1",
+      "page": 255,
+      "caption": "The Indo-Iranian languages"
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "applied; count unknown",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "applied; count unknown"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "laryngeals": {
+      "h1": 168,
+      "h2": 280,
+      "h3": 66
+    },
+    "macron_a": 423,
+    "macron_e": 167,
+    "macron_i": 144,
+    "macron_o": 194,
+    "macron_u": 88,
+    "schwa": 82,
+    "greek_chars": 3620,
+    "combining_diacritics": 1061,
+    "dagger": 5,
+    "note": "All counts are approximate and for cross-pass comparison only."
+  },
+  "unresolved_count": 0,
+  "notes": "Born-digital PDF extraction. Character fidelity prioritized. Counts approximate; the extraction report lists known caveats."
+}

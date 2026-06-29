@@ -134,8 +134,9 @@ def _run_transform(pie_form: str, pipeline: str, trace):
     accent_index = accent_char_pos_to_token_index(norm.accent_char_pos, tokens, char_offsets)
     ctx = Context(accent_index=accent_index)
     result = run(pipeline, tokens, ctx, pie_form, trace_mode=trace)
-    result.generated_surface = render(pipeline, 'surface', result.final_tokens, result.final_accent_index)
-    result.generated_ipa     = render(pipeline, 'ipa',     result.final_tokens, result.final_accent_index)
+    result.generated_orth     = render(pipeline, 'orth',     result.final_tokens, result.final_accent_index)
+    result.generated_citation = render(pipeline, 'citation', result.final_tokens, result.final_accent_index)
+    result.generated_ipa      = render(pipeline, 'ipa',      result.final_tokens, result.final_accent_index)
     return result
 
 
@@ -152,7 +153,7 @@ def _menu_transform() -> None:
 
     pipeline = _pick_from_list('Pipeline:', sorted(ALL_PIPELINES), default='ghandwa') or 'ghandwa'
     trace = 'changed'
-    mode = 'surface'
+    mode = 'orth'
 
     while True:
         _clear()
@@ -180,7 +181,7 @@ def _menu_transform() -> None:
             t = _pick_from_list('Trace level:', ['none', 'changed', 'full'], default=trace or 'none') or 'none'
             trace = None if t == 'none' else t
         elif action == 'mode':
-            mode = _pick_from_list('Output mode:', ['surface', 'ipa', 'tokens'], default=mode) or mode
+            mode = _pick_from_list('Output mode:', ['orth', 'citation', 'ipa', 'tokens'], default=mode) or mode
         elif action == 'save':
             md = format_terminal(result, mode=mode, show_trace=True)
             _save_markdown(md, default_stem=pie_form)

@@ -221,6 +221,7 @@ These require reference to Dunkel *LIPP* or Fortson §5 paradigm tables for part
 | `docs/grammar/ch4-ghandwa/paradigms-nominal.md` | Nominal paradigms |
 | `docs/grammar/ch4-ghandwa/verbs.md` | Verb classification schema |
 | `tools/pie_transformer/` | Transformer — authoritative for surface forms |
+| `vocab/lexicon-staging.md` | §r/n heteroclites has water word paradigm options |
 
 ---
 
@@ -772,7 +773,7 @@ stem_classes:
   cons-stem:       { sg: partial,  pl: partial, note: IPA pending }
   r-stem:          { sg: gap,      pl: gap }
   n-stem:          { sg: gap,      pl: gap }
-  r-n-heteroclite: { sg: partial,  pl: gap }
+  r-n-heteroclite: { sg: partial,  pl: gap, note: blocked on water word etymology §2.1 }
   adj-u:           { sg: partial,  pl: gap }
   adj-i:           { sg: gap,      pl: gap }
   adj-cons:        { sg: gap,      pl: gap }
@@ -821,6 +822,7 @@ Phases 1 and 2 are mechanical and can ship together. Phase 3 (accent-tracking re
 | 2 | Accent-on-deleted-token policy: the rule that consumes the accented token specifies where the accent now lives. | Generalization of existing `_syl_res_vocalize` behavior. |
 | 3 | Consolidate shared helpers into a new `pipelines/_common.py`. | Scopes pipeline-specific helpers separately from the rule engine (`rule.py`) and token inventory (`tokens.py`). |
 | 4 | Accent-tracking refactor is deferred to a future session. This session preserves accent code verbatim. | Risk-bounded scope. Accent refactor requires test coverage to land first. |
+| 5 | Rule IDs use `<prefix>.<stage>.<position>` numerical doc-mirror convention. | IDs anchor runner rules to their source documents. |
 
 ### §5.3 — Open decision
 
@@ -857,9 +859,9 @@ Execute after verifying Phases 1–2. Covers: pattern catalog (A–E) with equiv
 - `_rule` constructor: 9 files.
 - Boundary-skipping lookup: 5 variants across `daughters.py` (deleted Phase 1), `late_common_ghandwa.py`, `daughter_b.py` (2), `daughter_c.py` (2), plus inline in `ghandwa.py::_voiced_before_ts`.
 - Boundary-set constant: `tokens.BOUNDARIES` exists; redefined or inlined in 6 places.
-- `_laryngeal_color`: byte-identical in `ghandwa.py`, `old_wekwos.py`, `proto_seldanic.py`.
-- `_labiovelarize`: byte-identical in `ghandwa.py`, `old_wekwos.py`.
-- Centumize lambda: near-identical in `ghandwa.py`, `old_wekwos.py`, `proto_seldanic.py`.
+- `_laryngeal_color`: byte-identical in `ghandwa.py`, `wekwos_old.py`, `proto_seldanic.py`.
+- `_labiovelarize`: byte-identical in `ghandwa.py`, `wekwos_old.py`.
+- Centumize lambda: near-identical in `ghandwa.py`, `wekwos_old.py`, `proto_seldanic.py`.
 - `{u, ū, w}` set: 3 definitions plus inline literals.
 - `_syllabify`: in `render.py`, imported (wrong direction) by `daughter_b.py`.
 

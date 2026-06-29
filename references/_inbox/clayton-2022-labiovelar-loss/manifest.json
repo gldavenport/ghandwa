@@ -1,0 +1,52 @@
+{
+  "source_file": "clayton-2022-labiovelar loss.pdf",
+  "pass": "targeted character-authority pass",
+  "outputs": [
+    "clayton-2022-labiovelar-loss-character-pass.md",
+    "clayton-2022-labiovelar-loss-character-pass-report.md",
+    "README.md"
+  ],
+  "images": [
+    {
+      "filename": "images/clayton-2022-labiovelar-loss-p34-img1.png",
+      "source_pdf_page": 34,
+      "image_index": 1
+    },
+    {
+      "filename": "images/clayton-2022-labiovelar-loss-p34-img2.png",
+      "source_pdf_page": 34,
+      "image_index": 2
+    },
+    {
+      "filename": "images/clayton-2022-labiovelar-loss-p37-img1.png",
+      "source_pdf_page": 37,
+      "image_index": 1
+    },
+    {
+      "filename": "images/clayton-2022-labiovelar-loss-p38-img1.png",
+      "source_pdf_page": 38,
+      "image_index": 1
+    },
+    {
+      "filename": "images/clayton-2022-labiovelar-loss-p39-img1.png",
+      "source_pdf_page": 39,
+      "image_index": 1
+    },
+    {
+      "filename": "images/clayton-2022-labiovelar-loss-p39-img2.png",
+      "source_pdf_page": 39,
+      "image_index": 2
+    },
+    {
+      "filename": "images/clayton-2022-labiovelar-loss-p40-img1.png",
+      "source_pdf_page": 40,
+      "image_index": 1
+    },
+    {
+      "filename": "images/clayton-2022-labiovelar-loss-p55-img1.png",
+      "source_pdf_page": 55,
+      "image_index": 1
+    }
+  ],
+  "footnotes_extracted": 64
+}

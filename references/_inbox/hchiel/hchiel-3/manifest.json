@@ -1,0 +1,2441 @@
+{
+  "source_file": "978-3-11-054052-9.epub.zip",
+  "source_type": "epub",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-front-matter.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch80.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch80.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch81.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch81.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch82.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch82.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch83.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch83.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch84.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch84.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch85.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch85.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch86.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch86.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch87.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch87.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch88.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch88.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch89.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch89.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch90.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch90.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch91.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch91.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch92.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch92.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch93.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch93.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch94.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch94.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch95.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch95.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch96.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch96.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch97.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch97.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch98.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch98.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch99.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch99.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch100.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch100.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch101.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch101.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch102.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch102.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch103.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch103.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch104.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch104.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch105.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch105.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch106.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch106.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch107.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch107.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch108.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch108.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch109.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch109.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch110.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch110.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch111.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch111.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch112.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch112.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch113.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch113.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch114.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch114.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch115.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch115.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch116.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch116.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch117.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch117.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch118.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch118.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch119.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch119.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch120.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch120.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch121.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch121.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch122.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch122.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch123.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch123.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch124.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch124.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-ch125.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-bibliography-ch125.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-index.md",
+    "handbook-comparative-historical-indo-european-linguistics-volume-3-extraction-report.md",
+    "manifest.json"
+  ],
+  "images": [
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-cover.png",
+      "source_label": "EPUB internal graphic 01_Cover_fig_01",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-001.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_01",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-002.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_02",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-003.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_03",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-004.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_04",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-005.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_05",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-006.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_06",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-007.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_07",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-008.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_08",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-009.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_09",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-010.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_10",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-011.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_11",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-012.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_12",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-013.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_13",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-014.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_14",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-015.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_15",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-016.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_16",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-017.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_17",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-018.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_18",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-019.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_19",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-020.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_20",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-021.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_21",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-022.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_22",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-023.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_23",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-024.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_24",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-025.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_25",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-026.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_26",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-027.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_27",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-028.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_28",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-029.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_29",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-030.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_30",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-031.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_31",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-032.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_32",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-033.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_33",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-034.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_34",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-035.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_35",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-036.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_36",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-037.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_37",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-038.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_38",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-039.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_39",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-040.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_40",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-041.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_41",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-042.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_42",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-043.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_43",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-044.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_44",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-045.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_45",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-046.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_46",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-047.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_47",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-048.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_48",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-049.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_49",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-050.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_50",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-051.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_51",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-052.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_52",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-053.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_53",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-054.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_54",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-055.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_55",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-056.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_56",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-057.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_57",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-058.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_58",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-059.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_59",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-060.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_60",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-061.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_61",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-062.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_62",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-063.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_63",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-064.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_64",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-065.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_65",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-066.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_66",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-067.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_67",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-068.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_68",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-069.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_69",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-070.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_70",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-071.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_71",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-072.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_72",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-073.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_73",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-074.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_74",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-075.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_75",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-076.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_76",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-077.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_77",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-078.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_78",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-079.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_79",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-080.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_80",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-081.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_81",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-082.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_82",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-083.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_83",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-084.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_84",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-085.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_85",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-086.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_86",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-087.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_87",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-088.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_88",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-089.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_89",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-090.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_90",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-091.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_91",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-092.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_92",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-093.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_93",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-094.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_94",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-095.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_95",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-096.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_96",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-097.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_97",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-098.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_98",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-099.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_99",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-100.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_100",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-101.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_101",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-102.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_102",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-103.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_103",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-104.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_104",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-105.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_105",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-106.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_106",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-107.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_107",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-108.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_108",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-109.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_109",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-110.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_110",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-111.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_111",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-112.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_112",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-113.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_113",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-114.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_114",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-115.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_115",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-116.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_116",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-117.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_117",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-118.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_118",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-119.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_119",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-120.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_120",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-121.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_121",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-122.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_122",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-123.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_123",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-124.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_124",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-125.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_125",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-126.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_126",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-127.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_127",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-128.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_128",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-129.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_129",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-130.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_130",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-131.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_131",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-132.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_132",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-133.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_133",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-134.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_134",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-135.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_135",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-136.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_136",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-137.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_137",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-138.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_138",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-139.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_139",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-140.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_140",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-141.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_141",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-142.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_142",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-143.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_143",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-144.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_144",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-145.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_145",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-146.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_146",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-147.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_147",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-148.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_148",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-149.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_149",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-150.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_150",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-151.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_151",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-152.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_152",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-153.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_153",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-154.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_154",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-155.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_155",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-156.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_156",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-157.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_157",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-158.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_158",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-159.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_159",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-160.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_160",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-161.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_161",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-162.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_162",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-163.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_163",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-164.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_164",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-165.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_165",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-166.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_166",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-167.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_167",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-168.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_168",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-169.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_169",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-170.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_170",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-171.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_171",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-172.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_172",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-173.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_173",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-174.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_174",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-175.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_175",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-176.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_176",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-177.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_177",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-178.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_178",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-179.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_179",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-180.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_180",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-181.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_181",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-182.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_182",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-183.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_183",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-184.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_184",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-185.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_185",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-186.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_186",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-187.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_187",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-188.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_188",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-189.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_189",
+      "page": 0,
+      "caption": "Fig. 85.1"
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-190.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_190",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-191.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_191",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-192.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_192",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-193.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_193",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-194.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_194",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-195.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_195",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-196.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_196",
+      "page": 0,
+      "caption": "Fig. 86.1: Splitstree (Huson and Bryant 2006) neighbor net diagram of the Slavic languages after the application of 12 post-Proto-Slavic sound changes that spread easily between branches:<br> Reflex of *x in the second velar palatalization<br> *tl, *dl reflexes<br> *tˊ reflex<br> *ORT resolution<br> *TORT resolution<br> Reflexes of strong jers <i>(e</i>/<i>o, e, a</i>, etc.)<br> *TuRT resolution<br> *TRuT resolution<br> Lenition of * g<br> Retention/loss of tones<br> Retention/loss of vowel length<br> Retention/loss of free stress"
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-197.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_197",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-198.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_198",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-199.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_199",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-200.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_200",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-201.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_201",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-202.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_202",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-203.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_203",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-204.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_204",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-205.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_205",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-206.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_206",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter01-207.png",
+      "source_label": "EPUB internal graphic 07_chapter01_fig_207",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-001.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_01",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-002.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_02",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-003.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_03",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-004.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_04",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-005.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_05",
+      "page": 0,
+      "caption": "Map 92.1: Lithuanian dialects (compiled by the working group on the Atlas of Baltic languages of the Latvian Language Institute at the University of Latvia)."
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-006.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_06",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-007.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_07",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-008.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_08",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter02-009.png",
+      "source_label": "EPUB internal graphic 08_chapter02_fig_09",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-001.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_01",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-002.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_02",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-003.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_03",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-004.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_04",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-005.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_05",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-006.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_06",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-007.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_07",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-008.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_08",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-009.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_09",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-010.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_10",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-011.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_11",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-012.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_12",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-013.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_13",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-014.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_14",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-015.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_15",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-016.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_16",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-017.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_17",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-018.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_18",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-019.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_19",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-020.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_20",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-021.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_21",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-022.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_22",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-023.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_23",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-024.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_24",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-025.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_25",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-026.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_26",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-027.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_27",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-028.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_28",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-029.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_29",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-030.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_30",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-031.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_31",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-032.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_32",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-033.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_33",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-034.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_34",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-035.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_35",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-036.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_36",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-037.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_37",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-038.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_38",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-039.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_39",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-040.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_40",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-041.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_41",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-042.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_42",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter03-043.png",
+      "source_label": "EPUB internal graphic 09_chapter03_fig_43",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-001.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_01",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-002.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_02",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-003.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_03",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-004.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_04",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-005.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_05",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-006.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_06",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-007.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_07",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-008.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_08",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-009.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_09",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-010.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_10",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-011.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_11",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-012.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_12",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-013.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_13",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-014.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_14",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-015.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_15",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-016.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_16",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-017.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_17",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-018.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_18",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-019.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_19",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter04-021.png",
+      "source_label": "EPUB internal graphic 10_chapter04_fig_21",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-001.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_01",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-002.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_02",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-003.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_03",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-004.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_04",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-005.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_05",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-006.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_06",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-007.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_07",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-008.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_08",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-009.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_09",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-010.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_10",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-011.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_11",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-012.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_12",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-013.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_13",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-014.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_14",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-015.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_15",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-016.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_16",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-017.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_17",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-018.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_18",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-019.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_19",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-020.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_20",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-021.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_21",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-022.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_22",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-023.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_23",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-024.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_24",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-025.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_25",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-026.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_26",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter05-027.png",
+      "source_label": "EPUB internal graphic 11_chapter05_fig_27",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter06-001.png",
+      "source_label": "EPUB internal graphic 12_chapter06_fig_01",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter06-002.png",
+      "source_label": "EPUB internal graphic 12_chapter06_fig_02",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter06-003.png",
+      "source_label": "EPUB internal graphic 12_chapter06_fig_03",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter06-004.png",
+      "source_label": "EPUB internal graphic 12_chapter06_fig_04",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter06-005.png",
+      "source_label": "EPUB internal graphic 12_chapter06_fig_05",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter06-006.png",
+      "source_label": "EPUB internal graphic 12_chapter06_fig_06",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter06-007.png",
+      "source_label": "EPUB internal graphic 12_chapter06_fig_07",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-001.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_01",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-002.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_02",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-003.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_03",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-004.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_04",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-005.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_05",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-006.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_06",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-007.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_07",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-008.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_08",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-009.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_09",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-010.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_10",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-011.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_11",
+      "page": 0,
+      "caption": "Fig. 121.1: Prosodic hierarchy"
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-012.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_12",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-013.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_13",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-014.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_14",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-015.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_15",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-016.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_16",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-017.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_17",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-018.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_18",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-019.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_19",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-020.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_20",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-021.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_21",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-022.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_22",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-023.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_23",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-024.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_24",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-025.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_25",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-026.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_26",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-027.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_27",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-028.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_28",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-029.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_29",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-030.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_30",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-031.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_31",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-032.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_32",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-033.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_33",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-034.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_34",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-035.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_35",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-036.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_36",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-037.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_37",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-038.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_38",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-039.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_39",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-040.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_40",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-041.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_41",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-042.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_42",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-043.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_43",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-044.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_44",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-045.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_45",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-046.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_46",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-047.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_47",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-048.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_48",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-049.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_49",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-050.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_50",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-051.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_51",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-052.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_52",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-053.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_53",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-054.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_54",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-fig-chapter08-055.png",
+      "source_label": "EPUB internal graphic 14_chapter08_fig_55",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-a-dgrave.png",
+      "source_label": "EPUB internal graphic a_dgrave",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-ae-tilde.png",
+      "source_label": "EPUB internal graphic ae_Tilde",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-epsilon-hypine.png",
+      "source_label": "EPUB internal graphic epsilon_hypine",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-epsilon-tilde.png",
+      "source_label": "EPUB internal graphic epsilon_Tilde",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-i-mac.png",
+      "source_label": "EPUB internal graphic i_Mac",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-l-tilde.png",
+      "source_label": "EPUB internal graphic L_Tilde",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-o-tilde.png",
+      "source_label": "EPUB internal graphic O_Tilde",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-r-tilde.png",
+      "source_label": "EPUB internal graphic r_Tilde",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-reversed-c-tilde.png",
+      "source_label": "EPUB internal graphic Reversed_c_Tilde",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-schwa-breve.png",
+      "source_label": "EPUB internal graphic schwa_breve",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-teta.png",
+      "source_label": "EPUB internal graphic teta",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-u-mac.png",
+      "source_label": "EPUB internal graphic u_Mac",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-img-v-tilde.png",
+      "source_label": "EPUB internal graphic V_Tilde",
+      "page": 0,
+      "caption": ""
+    },
+    {
+      "filename": "images/handbook-comparative-historical-indo-european-linguistics-volume-3-title-page-image.png",
+      "source_label": "EPUB internal graphic 04_Title_fig_01",
+      "page": 0,
+      "caption": ""
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "unknown",
+    "laryngeal_normalization": "applied to subscript spans and common isolated ASCII h1/h2/h3 leakage outside links/images/comments",
+    "paragraph_rejoins": "derived from EPUB block structure; count unknown",
+    "ascii_laryngeal_repair_lines": 18,
+    "index_locator_links_removed": 16231,
+    "empty_spacer_spans_converted": 1298,
+    "references_sections_separated": 46
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 6,
+    "image_glyphs_substituted": 68,
+    "image_glyphs_unresolved": 117,
+    "image_references": 486,
+    "block_image_references": 316,
+    "inline_image_references": 170
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 541,
+      "h2": 885,
+      "h3": 158
+    },
+    "macron_a": 2506,
+    "macron_e": 881,
+    "macron_i": 893,
+    "macron_o": 845,
+    "macron_u": 640,
+    "schwa": 261,
+    "greek_chars": 8588,
+    "combining_diacritics": 5765,
+    "dagger": 49
+  },
+  "unresolved_count": 6,
+  "notes": "Chunked EPUB extraction from XHTML; images copied as-is from OPS/graphic into images/. Inline glyph images were either substituted when a clear Unicode equivalent was available or preserved with [image-glyph: ...] annotations. Print page ranges are not encoded in the EPUB text layer. References were separated into per-chapter bibliography files."
+}

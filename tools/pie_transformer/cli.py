@@ -7,8 +7,8 @@ Commands:
   extract-lexicon — extract a transformer-ready TSV from the human lexicon TSV
 
 Usage examples:
-  python -m pie_transformer form "*ǵʰoysós" --pipeline ghandwa --mode surface --trace changed
-  python -m pie_transformer form "*wĺ̥kʷos" --all --mode surface
+  python -m pie_transformer form "*ǵʰoysós" --pipeline ghandwa --mode orth --trace changed
+  python -m pie_transformer form "*wĺ̥kʷos" --all
   python -m pie_transformer batch transform-input.tsv --pipeline ghandwa --out generated.tsv
   python -m pie_transformer extract-lexicon vocab/lexicon.tsv --out transform-input.tsv
 """
@@ -24,7 +24,7 @@ from pathlib import Path
 from pie_core.normalize import normalize
 from pie_core.tokenize import tokenize, accent_char_pos_to_token_index, tokens_to_string
 from .rule import Context
-from .pipeline import run, run_all, ALL_PIPELINES
+from .pipeline import run, run_all, ALL_PIPELINES, pipeline_display_order, PIPELINE_IS_RECONSTRUCTION
 from .render import render, get_warnings
 from .reports import format_terminal, format_markdown, result_to_tsv_row, write_jsonl_report
 from .tsv_io import (
@@ -47,8 +47,8 @@ def main(argv: list[str] | None = None) -> int:
                         choices=ALL_PIPELINES, help='Target pipeline')
     p_form.add_argument('--all', dest='all_pipelines', action='store_true',
                         help='Run all pipelines')
-    p_form.add_argument('--mode', '-m', default='surface',
-                        choices=['surface', 'ipa', 'tokens'], help='Output mode')
+    p_form.add_argument('--mode', '-m', default='orth',
+                        choices=['orth', 'citation', 'ipa', 'tokens'], help='Output mode')
     p_form.add_argument('--no-clear', dest='no_clear', action='store_true',
                         help='Do not clear the screen before output')
     p_form.add_argument('--trace', '-t', default=None,
@@ -62,8 +62,8 @@ def main(argv: list[str] | None = None) -> int:
     p_batch.add_argument('--pipeline', '-p', default='ghandwa',
                          choices=ALL_PIPELINES)
     p_batch.add_argument('--all', dest='all_pipelines', action='store_true')
-    p_batch.add_argument('--mode', '-m', default='surface',
-                         choices=['surface', 'ipa', 'tokens'])
+    p_batch.add_argument('--mode', '-m', default='orth',
+                         choices=['orth', 'citation', 'ipa', 'tokens'])
     p_batch.add_argument('--trace', '-t', default=None,
                          choices=['changed', 'full'])
     p_batch.add_argument('--out', '-o', help='Output TSV path')
@@ -155,18 +155,19 @@ def _cmd_form(args) -> int:
     ctx = Context(accent_index=accent_index)
 
     if args.all_pipelines:
-        pipeline_names = ALL_PIPELINES
+        pipeline_display = pipeline_display_order()
     else:
-        pipeline_names = [args.pipeline]
+        pipeline_display = [(args.pipeline, 0)]
 
-    for name in pipeline_names:
+    for name, depth in pipeline_display:
         ctx_copy = copy.deepcopy(ctx)
         tok_copy = list(tokens)
         result = run(name, tok_copy, ctx_copy, raw, trace_mode=args.trace)
 
         # Attach rendered forms to result
-        result.generated_surface = render(name, 'surface', result.final_tokens, result.final_accent_index)
-        result.generated_ipa     = render(name, 'ipa', result.final_tokens, result.final_accent_index)
+        result.generated_orth     = render(name, 'orth',     result.final_tokens, result.final_accent_index)
+        result.generated_citation = render(name, 'citation', result.final_tokens, result.final_accent_index)
+        result.generated_ipa      = render(name, 'ipa',      result.final_tokens, result.final_accent_index)
 
         if args.format == 'markdown':
             print(format_markdown(result, mode=args.mode))
@@ -176,9 +177,10 @@ def _cmd_form(args) -> int:
         else:  # text
             show_trace = args.trace in ('changed', 'full')
             compact = args.all_pipelines and not show_trace
-            print(format_terminal(result, mode=args.mode, show_trace=show_trace, compact=compact))
+            print(format_terminal(result, mode=args.mode, show_trace=show_trace,
+                                  compact=compact, indent=depth))
 
-        if args.all_pipelines and name != pipeline_names[-1] and not compact:
+        if args.all_pipelines and (name, depth) != pipeline_display[-1] and not compact:
             print()
 
     return 0
@@ -202,7 +204,7 @@ def _cmd_batch(args) -> int:
         source_form = row.get('source_form', '')
         pipeline_col = row.get('pipeline', pipeline_names[0])
         item_id = row.get('item_id', _fallback_id(source_form))
-        expected_surface = row.get('expected_surface', '')
+        expected_orth = row.get('expected_orth', row.get('expected_surface', ''))
         expected_ipa = row.get('expected_ipa', '')
 
         if not source_form:
@@ -219,19 +221,20 @@ def _cmd_batch(args) -> int:
         for name in pipelines_to_run:
             ctx = Context(accent_index=accent_index)
             result = run(name, list(tokens), ctx, source_form, trace_mode=args.trace)
-            result.generated_surface = render(name, 'surface', result.final_tokens, result.final_accent_index)
-            result.generated_ipa     = render(name, 'ipa', result.final_tokens, result.final_accent_index)
+            result.generated_orth     = render(name, 'orth',     result.final_tokens, result.final_accent_index)
+            result.generated_citation = render(name, 'citation', result.final_tokens, result.final_accent_index)
+            result.generated_ipa      = render(name, 'ipa',      result.final_tokens, result.final_accent_index)
 
-            tsv_row = result_to_tsv_row(result, item_id, expected_surface, expected_ipa)
+            tsv_row = result_to_tsv_row(result, item_id, expected_orth, expected_ipa)
             tsv_row['notes'] = row.get('notes', '')
             output_rows.append(tsv_row)
             md_results.append((item_id, source_form, name, result))
             jsonl_results.append(result)
 
             # Terminal progress
-            match_tag = f'[{tsv_row["surface_match"] or result.status}]'
+            match_tag = f'[{tsv_row["orth_match"] or result.status}]'
             print(f'{item_id:30s}  {source_form:25s}  →  '
-                  f'{result.generated_surface:20s}  {match_tag}')
+                  f'{(result.generated_orth or result.generated_citation or "" ):20s}  {match_tag}')
 
     # Write outputs
     if args.out:
@@ -312,6 +315,6 @@ def _fallback_id(source_form: str) -> str:
 def _no_source_row(item_id: str, pipeline: str, original_row: dict) -> dict:
     row = empty_transformer_row(item_id, '', pipeline)
     row['result_status'] = 'no_source_form'
-    row['expected_surface'] = original_row.get('expected_surface', '')
+    row['expected_orth'] = original_row.get('expected_orth', original_row.get('expected_surface', ''))
     row['expected_ipa'] = original_row.get('expected_ipa', '')
     return row

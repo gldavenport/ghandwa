@@ -32,14 +32,14 @@ from ..render import render
 REVIEW_LOG: list[str] = []
 
 
-def _run_form(raw: str, pipeline: str = 'ghandwa') -> str:
-    """Normalize, tokenize, run pipeline, return surface form."""
+def _run_form(raw: str, pipeline: str = 'ghandwa', mode: str = 'orth') -> str:
+    """Normalize, tokenize, run pipeline, return rendered form."""
     norm = normalize(raw)
     tokens, offsets = tokenize(norm.clean)
     accent_idx = accent_char_pos_to_token_index(norm.accent_char_pos, tokens, offsets)
     ctx = Context(accent_index=accent_idx)
     result = run(pipeline, list(tokens), ctx, raw)
-    return render(pipeline, 'surface', result.final_tokens, result.final_accent_index), result.status
+    return render(pipeline, mode, result.final_tokens, result.final_accent_index), result.status
 
 
 def _run_ipa(raw: str, pipeline: str = 'ghandwa') -> str:
@@ -260,74 +260,74 @@ class TestGhandwaIPA(unittest.TestCase):
 
 class TestOldWekwos(unittest.TestCase):
     """
-    Stable tests for Old Wékʷos pipeline.
-    Expected outputs verified 2026-05-15.
+    Stable tests for Wékʷos-Old pipeline.
+    Expected outputs in citation form (*, kw digraph). Verified 2026-05-15.
     """
 
     def _check(self, raw: str, expected: str):
-        actual, status = _run_form(raw, 'old-wekwos')
+        actual, status = _run_form(raw, 'wekwos-old', mode='citation')
         self.assertEqual(actual, expected,
             f'{raw!r}: expected={expected!r} got={actual!r} status={status}')
 
     def test_wolf(self):
         # l̥→al; CVLC metathesis: walkʷos → wlakʷos; accent on a
-        self._check('*wĺ̥kʷos', 'wlákʷos')
+        self._check('*wĺ̥kʷos', '*wlákwos')
 
     def test_father(self):
         # CHC: ph₂t → pat; accent on ē
-        self._check('*ph₂tḗr', 'patḗr')
+        self._check('*ph₂tḗr', '*patḗr')
 
     def test_gorge(self):
         # gʰ→k, dʰ→t; CVLC metathesis: kórt → krótos; accent shifts to ó
-        self._check('*gʰórdʰos', 'krótos')
+        self._check('*gʰórdʰos', '*krótos')
 
     def test_woman(self):
         # H-A: e→a; H-B2: a+h₂→ā; gʷ preserved before e in Old
-        self._check('*gʷeneh₂', 'gʷenā')
+        self._check('*gʷeneh₂', '*gwenā')
 
     def test_horse(self):
         # H-A colors e→a; H-B2 lengthens; H-C: initial h₂ pre-vocalic → x
-        self._check('*h₂ékʷeh₂', 'xákʷā')
+        self._check('*h₂ékʷeh₂', '*xákwā')
 
     def test_brother(self):
         # H-A: e→a; H-B2: a+h₂→ā; bʰ→p (devoice); accent on ā
-        self._check('*bʰréh₂tēr', 'brā́tēr')
+        self._check('*bʰréh₂tēr', '*brā́tēr')
 
 
 class TestNeoWekwos(unittest.TestCase):
     """
-    Stable tests for Neo-Wékʷos pipeline (downstream of Old Wékʷos).
-    Expected outputs verified 2026-05-15.
+    Stable tests for Wékʷos-Neo pipeline (downstream of Wékʷos-Old).
+    Expected outputs in citation form (*). Verified 2026-05-15.
     """
 
     def _check(self, raw: str, expected: str):
-        actual, status = _run_form(raw, 'neo-wekwos')
+        actual, status = _run_form(raw, 'wekwos-neo', mode='citation')
         self.assertEqual(actual, expected,
             f'{raw!r}: expected={expected!r} got={actual!r} status={status}')
 
     def test_wolf(self):
         # Old: wlákʷos; #wlV→#blV; o→a; final voice s→z; Kʷ→K
-        self._check('*wĺ̥kʷos', 'blákaz')
+        self._check('*wĺ̥kʷos', '*blákaz')
 
     def test_father(self):
         # Old: patḗr; final ē shortens → patér
-        self._check('*ph₂tḗr', 'patér')
+        self._check('*ph₂tḗr', '*patér')
 
     def test_gorge(self):
         # Old: krótos; o→a; final voice s→z
-        self._check('*gʰórdʰos', 'krátaz')
+        self._check('*gʰórdʰos', '*krátaz')
 
     def test_woman(self):
         # Old: gʷenā; final ā shortens; Kʷ→K
-        self._check('*gʷeneh₂', 'gena')
+        self._check('*gʷeneh₂', '*gena')
 
     def test_horse(self):
         # Old: xákʷā; final ā shortens; Kʷ→K
-        self._check('*h₂ékʷeh₂', 'xáka')
+        self._check('*h₂ékʷeh₂', '*xáka')
 
     def test_brother(self):
         # Old: brā́tēr; final ē shortens → brā́ter
-        self._check('*bʰréh₂tēr', 'brā́ter')
+        self._check('*bʰréh₂tēr', '*brā́ter')
 
 
 # ── Review log reporting ───────────────────────────────────────────────────────

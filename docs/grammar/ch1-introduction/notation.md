@@ -1,7 +1,7 @@
 # §1 Introduction — Notation Conventions
 
 ---
-last_updated: 2026-05-22T00:00-04:00
+last_updated: 2026-06-18T00:00-04:00
 changelog:
   - 2026-05-22T00:00-04:00 | — | Split from `docs/notation.md`. Grammar-relevant content (script, transliteration, IPA, letter inventory, labiovelar notation, glide/semivowel conventions, Sharpscript long vowels) moved here as §1 of the grammar volume. Workflow content (entry status pipeline, lexicon field conventions, document conventions, transformer I/O conventions) remains in `docs/notation.md`.
 ---
@@ -75,6 +75,8 @@ Letters marked 'extrapolated' are predicted from the phonological system but not
 | 𐌘 | β | β | voiced bilabial fricative; see author shorthand note |
 | 𐌈 | ð | ð | voiced dental fricative |
 | 𐌙 | ɣ | ɣ | voiced velar fricative; see author shorthand note |
+
+There is no letter for [z]. [z] is a fully predictable, non-phonemic realization of /s/ (see Grammar §4.2.2.3); orthographic ⟨s⟩ covers both values, and the distinction is resolved only in IPA transcription.
 
 ---
 

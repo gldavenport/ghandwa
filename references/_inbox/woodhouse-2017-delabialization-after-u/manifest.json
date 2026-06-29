@@ -1,0 +1,11 @@
+{
+  "source_file": "woodhouse-2017-delabialization-after-u.pdf",
+  "main_markdown": "woodhouse-2017-delabialization-after-u.md",
+  "report": "woodhouse-2017-delabialization-after-u-extraction-report.md",
+  "readme": "README.md",
+  "passes": [
+    "initial clean extraction",
+    "targeted character-authority pass for appendix/table/high-risk glyphs"
+  ],
+  "updated": "2026-05-26"
+}

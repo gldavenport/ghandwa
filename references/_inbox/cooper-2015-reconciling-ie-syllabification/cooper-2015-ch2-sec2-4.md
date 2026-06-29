@@ -1,0 +1,17 @@
+---
+title: "Chapter 2, §2.4. Conclusion"
+author: "Adam I. Cooper"
+date: "2015"
+source_type: "born-digital"
+extraction_date: "2026-05-07"
+source_file: "cooper-2015-reconciling-ie-syllabification.pdf"
+chunk: "Chapter 2 §2.4"
+pages: "73"
+---
+## 2.4 Conclusion
+Our focus in this chapter comprised the practices and preferences involved in medial syllabification in Vedic. Surveying the evidence for two views on the treatment of medial biconsonantal sequences—so-called ‘onset maximization’ versus ‘consonant splitting’, yielding tautosyllabic V.CCV versus heterosyllabic VC.CV—we argued in 2.1 in favor of the evidence supporting the latter, because of the clear connection to syllable weight. Metrical practice and the reduplication patterns of certain aorist and intensive stem types in Vedic rely on a consonant in the position V_C counting as heavy; the same is suggested by the pre-Vedic operation of Brugmann’s Law. On the other hand, the evidence for the alternative position, including patterns of perfect stem reduplication and obstruent neutralization, can find explanation outside of the syllable; or, in the case of word-initial complex onsets and medial -vy- sequences, can be characterized as special syllable-related phenomena that need not be taken as necessarily indicative of word-internal syllabification in general. In 2.2 we extended the analysis of medial biconsontal clusters to sequences of three consonants. Based on the status of superheavy syllables in Vedic, as well as the attested distribution of VCCCV sequences, we proposed that a strong version of the sonority sequencing principle is operative in Vedic, permitting only those complex syllable margins that rise in sonority moving into the syllable nucleus and fall in sonority moving out of it. With a sonority hierarchy differentiating sonorants from obstruents—evidence for more fine-grained distinctions lacking—this yields VO.ORV, VRO.OV, and, based on the general dispreference for complex onsets in particular (by which we get VC.CV), VRO.RV. 37], cites the form jajántha, presumably the second person singular active perfect of jani-; such a form, however, is unattested in Vedic.) None of these roots provide conclusive evidence one way or the other. Babh,ūvitha and /āvitha meet the synchronic criteria for the perfect union vowel, since they would otherwise contain a sequence V̄C. (the other type of superheavy syllable); their i is thus expected (the form babh,ūtha, without i, is also attested, and in fact is more common). Ninétha shows in e the reflex of the diphthong *oi; the original laryngeal (*ne-nóiH-th₂e) is lost. As for vāvántha, if from vani- we could theorize that synchronic pressures have eliminated the laryngeal i. But given the alternative, identification with van-, we would have a rather ordinary form in vāvántha (vowel length in the reduplicated prefix notwithstanding); so our theory would be on shaky ground (see Kümmel 2000: 447ff. for discussion of the relationship between these two roots).
+
+<!-- pdf-page: 89; source-page: 74 -->
+Finally, in 2.3 we examined in some depth one phenomenon in particular, the distribution of the Vedic perfect union vowel i. Viewed within the system of Vedic medial syllabification we have constructed here, we analyze the appearance of this vowel as motivated synchronically by a relatively stronger dispreference within the perfect domain for marked syllable structures, specifically superheavy syllables (and complex codas) and complex onsets.
+
+<!-- pdf-page: 90; source-page: 75 -->

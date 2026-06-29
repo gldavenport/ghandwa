@@ -1,9 +1,10 @@
 # Ghandwa Comparanda — Source-Literature Rule Tracking
 
 ---
-last_updated: 2026-05-15T00:00-04:00
+last_updated: 2026-06-27T00:00-04:00
 session: "Merged ghandwa_comparanda_ringe_pgmc.md and ghandwa_comparanda_pic.md into single reference"
 changelog:
+  - 2026-06-27T00:00-04:00 | — | Corrected "DV" citation from "De Vaan 2009" to de Vaan 2008 EDL introduction (citation-year slip; de Vaan's actual 2009 publication is an unrelated ἵππος article). Added Deuf (Deuffic 2021) and StSm (Stuart-Smith 2004) as sources. Added StSm citation to the Aspirates→voiced-fricatives entry (Part I). Added Deuf citations to the "Already in Ghandwa" table and two new candidate-pool entries (*gʷ>*b, *Dʰ>D) in Part II. Corrected and sharpened the syllabic-resonant "Key divergence" note (Part I) — fixed an order/quality conflation (Ghandwa's *aR is vowel-before-resonant like PGmc, not "after" as previously stated) and replaced a vague "Celtic shows variable outcomes" with Deuf §4.1/§4.2-sourced specifics.
   - 2026-05-15T00:00-04:00 | — | Boukólos/KʷC entries split into two: "PIE-Internal Delabialization" (bidirectional, pre-stage, fires once) and "Ghandwa Boukólos Rule" (forward-only, standing rule post-S1/S2, broader environment). TT→ss entry updated to note dental+dental restriction and Ghandwa divergence from PGmc on dental+s (→ ts not ss).
   - 2026-03-14 | 345 lines | Created by merging `ghandwa_comparanda_ringe_pgmc.md` (Ringe 2017 PGmc rules) and `ghandwa_comparanda_pic.md` (De Vaan 2009 / Swanenvleugel 2021 PIC/PItal/PC rules). Both source files are superseded.
 ---
@@ -12,8 +13,10 @@ Rule-by-rule tracking of source-literature phonological rules against Ghandwa's 
 
 **Sources:**
 - **Ringe** = Ringe 2017, *From Proto-Indo-European to Proto-Germanic*, 2nd ed. — primary reference
-- **DV** = De Vaan 2009
-- **Sw** = Swanenvleugel 2021
+- **DV** = de Vaan 2008, *Etymological Dictionary of Latin and the Other Italic Languages*, introduction (`references/vaan-2008-latin-italic-dialects/vaan-2008-introduction.md`). Previously cited in this document as "De Vaan 2009" — corrected 2026-06-27. The staged sound-change content (DV 0.0–2.8 below) matches only the 2008 EDL's introduction; de Vaan's actual 2009 publication is an unrelated article on Greek ἵππος/ἱππεύς with no PItal/PC sound-change content.
+- **Sw** = Swanenvleugel 2021, *Reconstructing Proto-Italo-Celtic*
+- **Deuf** = Deuffic 2021, *The Relative Chronology of Sound Changes from PIE to Proto-Celtic* (Leiden MA thesis)
+- **StSm** = Stuart-Smith 2004, *Phonetics and Philology: Sound Change in Italic*
 
 ---
 
@@ -118,7 +121,7 @@ PGmc develops *uR instead of *aR (Ringe §2.2.2(i)):
 - *k´r̥n- 'horn' > PGmc *hurną (Goth. haúrn, OE horn) [Ghandwa: *karnom]
 - *n̥- 'un-' > PGmc *un- [Ghandwa: *an-]
 
-**Key divergence**: PGmc has *uR (vowel before resonant); Ghandwa has *aR (vowel after resonant). Both are well-attested IE outcomes — Greek, Armenian, and Indo-Iranian generally show the vowel before; Celtic and to some extent Italic show variable outcomes.
+**Key divergence**: both PGmc (*uR) and Ghandwa (*aR) put the vowel before the resonant — the divergence is in vowel *quality*, not order. PGmc generalizes *u*; Ghandwa generalizes *a*. Greek, Armenian, and Indo-Iranian also generally put the vowel before the resonant, with varying quality. Proto-Celtic shares Ghandwa's *a*-quality as its regular outcome (Deuf §4.2: *mr̥-uo- > OIr. marb 'dead', *krso- > OIr. carr 'wagon') but is not as fully generalized as Ghandwa or as Anatolian/Armenian outside NWIE: liquids immediately before a stop instead give *CLiT (Deuf §4.1: *ḱrd-yo- > OIr. cride 'heart'), and nasal environments show further conditioned variation (-aN-/-eN-/-iN- depending on the following segment, per McCone 1996). Italic shows its own variable outcomes (*e* or *a*, vowel-before-resonant). See §3.2.3.1 of the grammar for Ghandwa's own framing of this as a deliberate hybrid (Celtic-like quality, partially Germanic-like order), not a claim of branch-unique innovation.
 
 #### Aspirates → voiced fricatives: bʰ→β, dʰ→ð, gʰ→ɣ, gʷʰ→ɣʷ
 PGmc: same as third part of Grimm's Law (Ringe §2.2.4(i)):
@@ -126,6 +129,8 @@ PGmc: same as third part of Grimm's Law (Ringe §2.2.4(i)):
 - *dék´m̥d 'ten' > PGmc *tehun (dʰ → ð/d)
 - *gwhen- 'strike, kill' > PGmc *banō 'murderer' (gʷʰ → b/β)
 - *ánteros 'other' > PGmc *anþaraz (Goth. anþar, OE ōþer)
+
+Italic (StSm): Stuart-Smith 2004 is a book-length phonetic/philological treatment of the parallel Italic development, where the four PIE voiced aspirates merge to a single undifferentiated fricative outcome by place rather than four distinct ones (e.g. *bʰer- 'carry' > Lat. ferō; *dʰeh₁- 'suck(le)' > Lat. fē-mina; *gʰostis 'stranger' > Lat. hostis; *gʷʰer- 'warm' > Lat. for-ceps). Unlike Ghandwa (four distinct fricatives, place preserved) and PGmc (place-preserving fricatives prior to Grimm's/Verner's further changes), Italic collapses anlaut *bʰ/*dʰ/*gʰ/*gʷʰ to *f-/h- with no place distinction surviving. See StSm Ch2–Ch6 for the phonetic mechanism (voiced-fricative-first vs. voiceless-fricative-first orderings, attributed to Hartmann and Ascoli respectively) and the full philological evidence.
 
 Note: Ghandwa stops at voiced fricatives [β, ð, ɣ, ɣʷ]; PGmc went further, eventually devoicing some and merging others. But the initial step — breathy-voiced stops → voiced fricatives — is the same change.
 
@@ -148,7 +153,7 @@ This is a Ghandwa orthographic convention, not a sound change rule per se. In PG
 
 ---
 
-## Part II — PItal/Celtic Comparanda (De Vaan 2009 & Swanenvleugel 2021)
+## Part II — PItal/Celtic Comparanda (de Vaan 2008 — EDL introduction — & Swanenvleugel 2021)
 
 Rules attested for Proto-Italo-Celtic (PIC), Proto-Italic (PItal), or Proto-Celtic (PC) that are **not yet in Ghandwa** or differ from Ghandwa's current implementation. These are candidates for daughter-language innovations or staged refinements.
 
@@ -158,12 +163,12 @@ The following PIC/PItal/PC rules are already implemented and not discussed furth
 
 | Rule | Source | Ghandwa status |
 |---|---|---|
-| Centumization ḱ→k, ǵ→g | DV 0.0 / Sw -3 | ✓ Pre-stage |
-| Laryngeal coloring HV→V | DV 1.1 / Sw -2 | ✓ Stage 1 |
-| VH→V̄ (including iH→ī, uH→ū) | DV 1.2–1.3 / Sw -1 | ✓ Stage 1 |
-| CHC→CaC | DV 2.3 / Sw 7 | ✓ Stage 1 |
-| Osthoff's Law V̄RC→VRC | DV 2.1 | ✓ Stage 1 |
-| Aspirates→voiced fricatives | Sw 0 (partial) | ✓ Stage 2 (Ghandwa extends to all four: bʰ→β, dʰ→ð, gʰ→ɣ, gʷʰ→ɣʷ) |
+| Centumization ḱ→k, ǵ→g | DV 0.0 / Sw -3 / Deuf §2.3 | ✓ Pre-stage |
+| Laryngeal coloring HV→V | DV 1.1 / Sw -2 / Deuf §1.1 | ✓ Stage 1 |
+| VH→V̄ (including iH→ī, uH→ū) | DV 1.2–1.3 / Sw -1 / Deuf §1.3 | ✓ Stage 1 |
+| CHC→CaC | DV 2.3 / Sw 7 / Deuf §1.6 | ✓ Stage 1 (Deuffic also gives a second, narrower Celtic-specific reflex *CHC→*CC in certain environments, e.g. *dʰuǵh₂tēr→Gaul. duxtir 'daughter' — not paralleled in Ghandwa) |
+| Osthoff's Law V̄RC→VRC | DV 2.1 / Deuf §5.4 | ✓ Stage 1 |
+| Aspirates→voiced fricatives | Sw 0 (partial) | ✓ Stage 2 (Ghandwa extends to all four: bʰ→β, dʰ→ð, gʰ→ɣ, gʷʰ→ɣʷ; see Part I for the StSm Italic comparandum) |
 
 **Note on CRHC:** Both sources give CRHC→CRāC (with compensatory lengthening). Ghandwa gives CRaRC (vowel after resonant, no length). This is a known divergence — Ghandwa aligns with Celtic metathesis order but without the compensatory length, on the grounds that H drops before resonant vocalization rather than feeding it. Not listed below as a gap because the Ghandwa decision is deliberate.
 
@@ -173,7 +178,7 @@ The following PIC/PItal/PC rules are already implemented and not discussed furth
 
 #### DV 1.4 — Dental affrication before dental: Tt→Tˢt
 
-**Source:** De Vaan 2009, stage 1.4. Also noted with uncertainty for *-ddʰ-→-dˢd-*.
+**Source:** de Vaan 2008 (EDL intro), stage 1.4. Also noted with uncertainty for *-ddʰ-→-dˢd-*.
 
 **Description:** A dental stop before another dental becomes an affricate (sibilant-dental). This is the pre-stage of what feeds Latin *-ss-* and Celtic *-ss-* (via Tˢt→ss). Ghandwa goes directly to T{T,s}→ss, skipping the affricate intermediate.
 
@@ -185,7 +190,7 @@ The following PIC/PItal/PC rules are already implemented and not discussed furth
 
 #### DV 2.2 — Pius-rule: uHijV→wiHjV
 
-**Source:** De Vaan 2009, stage 2.2.
+**Source:** de Vaan 2008 (EDL intro), stage 2.2.
 
 **Description:** Reordering of a *u* before a laryngeal-glide-vowel sequence — the *u* becomes a *w* glide and the laryngeal shifts rightward. Primary motivation is Latin *pius* (< *piHios*?) and a small class of similar forms.
 
@@ -197,7 +202,7 @@ The following PIC/PItal/PC rules are already implemented and not discussed furth
 
 #### DV 2.5/2.6 — Environment-split for laryngeal-colored resonants
 
-**Source:** De Vaan 2009, stages 2.5–2.6.
+**Source:** de Vaan 2008 (EDL intro), stages 2.5–2.6.
 
 **Description:** De Vaan distinguishes the general CRHC→CRāC from:
 - **2.5:** CRHTC→CRaTC (Italic) / CRHt/s→CRat/s (Celtic) — laryngeal before dental or *s* gives short *a*, not long *ā*
@@ -213,7 +218,7 @@ The following PIC/PItal/PC rules are already implemented and not discussed furth
 
 #### DV 2.7 / Sw 4 — Syllabic resonant adjacent to voiced stop
 
-**Source:** De Vaan 2009, stage 2.7 (*R̥DC→RaDC*); Swanenvleugel 2021, stage 4 (*RD̉C→RHDC*).
+**Source:** de Vaan 2008 (EDL intro), stage 2.7 (*R̥DC→RaDC*); Swanenvleugel 2021, stage 4 (*RD̉C→RHDC*).
 
 **Description:** These two sources handle the same environment — a syllabic resonant adjacent to a voiced stop — but in opposite directions:
 - **De Vaan:** R̥DC → RaDC — resonant vocalizes with *a* inserted before the voiced stop
@@ -229,7 +234,7 @@ The following PIC/PItal/PC rules are already implemented and not discussed furth
 
 #### DV 2.8 — Four-consonant cluster breaking: CCCC→CaCCC
 
-**Source:** De Vaan 2009, stage 2.8.
+**Source:** de Vaan 2008 (EDL intro), stage 2.8.
 
 **Description:** A sequence of four consonants is broken by *a*-epenthesis after the first consonant.
 
@@ -323,6 +328,30 @@ The following PIC/PItal/PC rules are already implemented and not discussed furth
 
 ---
 
+#### Deuf §2.5 — *gʷ > *b (Celtic-specific labiovelar shift)
+
+**Source:** Deuffic 2021, §2.5, building on McCone 1996 and Cowgill 1980.
+
+**Description:** Proto-Celtic *gʷ shifts to *b independently of *gʷʰ (which instead goes to *gʷ or *gʰ, not *bʰ) — e.g. *gʷenh₂- 'woman' > OIr. bé; *gʷiH-uó- 'alive' > OIr. béo. Deuffic surveys both possible orderings of *gʷʰ>*gʷ relative to *gʷ>*b, and the typological motivations proposed (Cowgill's "*b was typologically rare" account; the glottalic-theory account of an unbalanced implosive series).
+
+**Relevance:** This is precisely the change Ghandwa's design brief names as something it does *not* undergo — Ghandwa retains labiovelars (*kʷe→-kve-, never -pe-) and does not delabialize *gʷ to *b. Deuffic gives the fullest available philological case for *why* Celtic did, useful as the explicit comparandum for documenting why Ghandwa diverges (preserved labiovelar series; no comparable phonemic-gap pressure on plain *b in Ghandwa's inventory).
+
+**Daughter potential:** Low for Ghandwa proper (already decided against). Could matter for a future daughter or substrate-contact scenario specifically modeling Celtic-style influence.
+
+---
+
+#### Deuf §2.6 — *Dʰ > D (Celtic voiced-aspirate merger; possible shared Italo-Celtic fricative stage)
+
+**Source:** Deuffic 2021, §2.6, especially §2.6.3 surveying Schrijver's Italo-Celtic hypothesis.
+
+**Description:** Proto-Celtic merges all four voiced aspirates (*bʰ, *dʰ, *gʰ, *gʷʰ) into the corresponding plain voiced stops (*b, *d, *g, *gʷ) — full loss of aspiration, not a fricative outcome. Deuffic surveys Schrijver's argument that this merger may have proceeded *through* a transient voiced-fricative stage (*Ð) shared with Proto-Italic during a hypothesized Italo-Celtic period: *Dʰ→*Ð word-initially and after a vowel/resonant, with Celtic's inherited plain *D independently lenited to the same *Ð, the two series later re-resolving by syllable position (fricative after vowel, stop after consonant/word-initial) rather than by historical source.
+
+**Relevance:** Important caveat, flagged by Deuffic himself: "the Celtic material does not prove (nor disprove)" the fricative-stage hypothesis — it depends entirely on accepting the Italo-Celtic node and Schrijver's specific reconstruction; Celtic's attested reflexes are equally compatible with direct *Dʰ→D with no fricative intermediate. With that caveat: *if* Schrijver is right, Ghandwa's retained four-way voiced-fricative series reads as a freeze of a stage that, on this hypothesis, both Italic (see StSm, Part I) and Celtic also passed through transiently — reinforcing the "early developmental position, not branch-defining" framing already used for the Italic comparandum, rather than treating Ghandwa's fricative stage as sui generis.
+
+**Daughter potential:** N/A for Ghandwa itself (already implemented, see Part I). Worth keeping in mind for any daughter or sub-branch that might independently re-merge the fricative series — Celtic's *D/Ð-by-position outcome is a concrete typological model for how such a merger could be conditioned.
+
+---
+
 ## Part III — Summary and Open Decisions
 
 ### PIC Candidate Pool Summary
@@ -339,6 +368,8 @@ The following PIC/PItal/PC rules are already implemented and not discussed furth
 | mj→nj | Sw 11 | Low-medium | Morpheme-boundary effect; daughter-level |
 | ei̯e→ii̯e / i̯e→i | Sw 12 | Medium | Yod-stem morphology; daughter-level |
 | sr→θr | Sw 13 | Medium-high | Lexically significant; interacts with Ghandwa's ð inventory |
+| *gʷ>*b (Celtic labiovelar shift) | Deuf §2.5 | **Resolved — already excluded** | Ghandwa retains labiovelars; Deuffic gives the fullest case for why Celtic didn't |
+| *Dʰ>D (Celtic aspirate merger) | Deuf §2.6 | N/A — Ghandwa already stops at fricative stage | Possible shared Italo-Celtic fricative stage per Schrijver (hedged by Deuffic, not proven); reinforces the StSm Italic comparandum in Part I |
 
 ### Decisions Flagged as Urgent
 

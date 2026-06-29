@@ -1,0 +1,81 @@
+{
+  "source_file": "cooper-2015-reconciling-ie-syllabification.pdf",
+  "source_type": "born-digital",
+  "extraction_date": "2026-05-07",
+  "output_files": [
+    "README.md",
+    "cooper-2015-front-matter.md",
+    "cooper-2015-ch1.md",
+    "cooper-2015-ch3.md",
+    "cooper-2015-ch4.md",
+    "cooper-2015-ch5.md",
+    "cooper-2015-ch6.md",
+    "cooper-2015-ch7.md",
+    "cooper-2015-ch9.md",
+    "cooper-2015-ch10.md",
+    "cooper-2015-ch11.md",
+    "cooper-2015-ch2-sec2-0.md",
+    "cooper-2015-ch2-sec2-1.md",
+    "cooper-2015-ch2-sec2-2.md",
+    "cooper-2015-ch2-sec2-3.md",
+    "cooper-2015-ch2-sec2-4.md",
+    "cooper-2015-ch8-sec8-0.md",
+    "cooper-2015-ch8-sec8-1.md",
+    "cooper-2015-ch8-sec8-2-1.md",
+    "cooper-2015-ch8-sec8-2-2.md",
+    "cooper-2015-ch8-sec8-3.md",
+    "cooper-2015-ch8-sec8-4.md",
+    "cooper-2015-ch8-sec8-5.md",
+    "cooper-2015-appendix.md",
+    "cooper-2015-bibliography.md",
+    "cooper-2015-index.md",
+    "cooper-2015-extraction-report.md",
+    "manifest.json",
+    "images/cooper-2015-cover.png",
+    "images/cooper-2015-p209-fig43.png"
+  ],
+  "images": [
+    {
+      "filename": "cooper-2015-cover.png",
+      "source_label": "cover illustration",
+      "page": 1,
+      "caption": "Cover illustration: Galen, De pulsibus (MS E 82, Venice, ca. 1550). Courtesy of the U.S. National Library of Medicine, Bethesda, Maryland."
+    },
+    {
+      "filename": "cooper-2015-p209-fig43.png",
+      "source_label": "example (43)",
+      "page": 209,
+      "caption": "Syllable-structure diagrams in Chapter 8, example (43); no printed caption."
+    }
+  ],
+  "corrections_applied": {
+    "ligature_repairs": "applied",
+    "laryngeal_normalization": "applied",
+    "paragraph_rejoins": "conservative/unknown count"
+  },
+  "markers_inserted": {
+    "unclear": 0,
+    "inferred_char": 0,
+    "image_glyphs_substituted": 0,
+    "image_glyphs_unresolved": 0
+  },
+  "approximate_counts": {
+    "note": "All counts are approximate and for cross-pass comparison only.",
+    "laryngeals": {
+      "h1": 68,
+      "h2": 133,
+      "h3": 3
+    },
+    "macron_a": 165,
+    "macron_e": 11,
+    "macron_i": 101,
+    "macron_o": 36,
+    "macron_u": 15,
+    "schwa": 88,
+    "greek_chars": 4371,
+    "combining_diacritics": 4518,
+    "dagger": 201
+  },
+  "unresolved_count": 3,
+  "notes": "Born-digital PDF extraction. Tables and diagrams should receive a targeted pass before character-authoritative use."
+}
