@@ -1,8 +1,9 @@
 # §4.4.2 Derivational Suffixes
 
 ---
-last_updated: 2026-05-31T12:00-04:00
+last_updated: 2026-06-30T00:00-04:00
 changelog:
+  - 2026-06-30T00:00-04:00 | — | Expanded *-man* section: added Layer 1/2 genitive split (*-méns* archaic vs. *-menés* standard, both from Yates and Ringe's amphikinetic *-mn̥ ~ -mén-*), comparative survey (Italic, Celtic, Germanic, Greek), and the man/men paradigm naming convention. Flagged unresolved Celtic *anman* vocalism question (McCone 1996 not in corpus).
   - 2026-05-31T12:00-04:00 | — | Added *-tis* (PIE *-ti-*) and *-no-* (PIE *-no-*) sections.
   - 2026-05-31T00:00-04:00 | — | Added instrument suffix family (-trom, -ðrom, -klom, -ɣlom) and agentive nt-stem suffix (-onts ~ -antés).
   - 2026-05-22T00:00-04:00 | — | Initial creation. *-el-* diminutive: inherited from PIE *\*-elo-*, thematic forms, comparanda, examples.
@@ -75,17 +76,19 @@ The clearest productive instance is *ɣvérīnos* 'having to do with wild animal
 
 ---
 
-## *-man* ~ *-méns* (PIE \**-mn̥*)
+## *-man* ~ *-méns* / *-menés* (PIE \**-mn̥* ~ \**-mén-*): the man/men paradigm
 
-**Source:** Inherited from PIE \**-mn̥*, forming neuter abstract nouns from verbal and nominal roots.
+**Source:** PIE \**-mn̥* ~ \**-mén-* (Yates and Ringe), an amphikinetic neuter formation: zero-grade root + suffix \**-mn̥* in the direct cases, full-grade root + suffix \**-mén-* in the oblique. The alternation is conventionally referred to as the **man/men paradigm** in Ghandwa lexical records.
 
-**Ghandwa development:** \**-mn̥* → *-man* via regular CaRC (§3.2.3.1). The suffix carries the accent in the oblique, producing the ablaut alternation nom/acc *-man* (root in full/e-grade) ~ gen *-méns* (root in zero-grade). See `docs/grammar/ch4-ghandwa/paradigms-nominal.md` for the full inflectional paradigm.
+**Ghandwa development:** \**-mn̥* → *-man* via regular CaRC (§3.2.3.1) in the nom/acc sg. The oblique retains the full-grade suffix \**-mén-*, with the root reduced to zero-grade. The genitive singular shows two coexisting endings, reflecting an inherited PIE-internal split rather than a single fixed form: an older shape with bare \**-s* directly on the full-grade suffix (*-méns*), and a later, more widely generalized shape with \**-és* (*-menés*). Both are live in Ghandwa as register variants — *-méns* in the older, more formal Layer 1 register, *-menés* in the standard Layer 2 register. See `docs/grammar/ch4-ghandwa/paradigms-nominal.md` for the full inflectional paradigm.
 
 **Note on nasal-final roots:** Where the root ends in a nasal, the morpheme boundary produces a double nasal. The nasal assimilation and degemination rule (§3.2) applies: *VN₁N₂V* → *V̄N₂V*. Thus *ménman* (root *men-* + *-mn̥*) → *mēman* 'understanding' (NocoDB still has *ménman*; update pending).
 
+**Comparative position.** Ghandwa's retention of the direct/oblique alternation, with both genitive endings live as register variants, stands apart from every WIE comparandum, each of which resolves the alternation by a different route. Italic preserves it most transparently (Lat. *nōmen* ~ *nōminis*), though the long vowel of *nōmen* is generally taken to be analogical — after *cognōmen*, under the influence of *cognōscō* — rather than directly inherited. Celtic eliminated the alternation by generalizing a single stem throughout the paradigm: PCelt \**anman* 'name' (OIr. *ainm*, MW *enw*, Gaul. *anuana*) shows the same leveling strategy independently applied to 'nail' (\**anglna*). The vocalism of \**anman* is better explained by the regular pan-Celtic development of syllabic \**m̥*, \**n̥* > \**am*, \**an* (Matasović 2009) than by a direct reflex of the full-grade oblique suffix; the relationship between this and Matasović's gloss of the form as derived from the oblique cases is not fully resolved, and would benefit from checking McCone 1996, which is not in the current reference corpus. Germanic replaced the formation outright: PGmc \**namō-* 'name' (with \**sēmō-* 'seed', \**ankwō-* 'butter', \**wīmō-* 'osier') is built on a stem in \**-ō-*, the same reanalysis of an old collective as a new n-stem nominative seen elsewhere in the branch (cf. 'water', 'fire'); the oblique cases take the innovated suffixes \**-in-/-an-*, not a continuation of \**-mén-* (Ringe 2017). Greek absorbed the class into a *t*-extended type of obscure origin: the oblique stem of neuter \**-mn̥* ~ *-mén-* nouns is uniformly *-ματ-* (gen. ὀνόματος, στόματος), with even the etymologically underived members of the class, ὄνομα and στόμα, drawn into the pattern (Ringe 2024).
+
 **Semantic function:** Denotes the characteristic quality or manifestation of the root — 'that which X-es', 'the condition of X'. Range from concrete (*sḗman* 'seed') to institutional (*térman* 'boundary marker') to cosmological (*éngman* 'sacred fire-nature').
 
-**Productivity:** Regular and productive.
+**Productivity:** Regular and productive. Attested lexicon entries currently reflect the Layer 1 (*-méns*) genitive; Layer 2 (*-menés*) forms are not yet attested in individual lexicon entries.
 
 **Attested forms:**
 
@@ -105,7 +108,7 @@ The clearest productive instance is *ɣvérīnos* 'having to do with wild animal
 
 **Ghandwa development:** *-n̥t-* > *-ant-* via regular CaRC (§3.2.3.1); combined with the neuter o-stem ending gives suffix-accented *-n̥tóm* > *-antóm*.
 
-**Semantic function:** Forms neuter nouns meaning ‘the X-substance’ or ‘material characterized by X’. The suffix encodes the inherent property of the base as the defining quality of the substance. Attested primarily in the metal vocabulary.
+**Semantic function:** Forms neuter nouns meaning 'the X-substance' or 'material characterized by X'. The suffix encodes the inherent property of the base as the defining quality of the substance. Attested primarily in the metal vocabulary.
 
 **Attachment:** Attaches to zero-grade of the PIE root or, where the paradigm has leveled, to the surviving Ghandwa stem. The resulting noun is synchronically opaque in its derivational source when the base is archaic.
 
@@ -115,10 +118,10 @@ The clearest productive instance is *ɣvérīnos* 'having to do with wild animal
 
 | Base | Source | Ghandwa | Gloss | Notes |
 |---|---|---|---|---|
-| *h₂erǵ-* ‘shine’ | *h₂r̥ǵ-n̥t-om* | *argantóm* | silver | canon; *r̥* > *ar* (CaRC); laryngeal drops |
-| *ǵʰelh₃-* ‘yellow/gold’ | *ǵʰl̥h₃-n̥t-om* | *ɣalantóm* | gold | draft; *ǵʰ* > *ɣ*; *l̥* > *al*; h₃ drops; areally differentiated |
-| *h₂ews-* ‘dawn’ | *h₂ews-n̥t-om* | *auzantóm* | gold | draft; dawn-root base; areally differentiated variant of *ɣalantóm* |
-| *sán-* ‘blood’ (leveled stem) | *san-n̥t-om* > *sanantóm* | *santóm* | iron | canon; denominal from leveled stem; haplology of *-anan-* |
+| *h₂erǵ-* 'shine' | *h₂r̥ǵ-n̥t-om* | *argantóm* | silver | canon; *r̥* > *ar* (CaRC); laryngeal drops |
+| *ǵʰelh₃-* 'yellow/gold' | *ǵʰl̥h₃-n̥t-om* | *ɣalantóm* | gold | draft; *ǵʰ* > *ɣ*; *l̥* > *al*; h₃ drops; areally differentiated |
+| *h₂ews-* 'dawn' | *h₂ews-n̥t-om* | *auzantóm* | gold | draft; dawn-root base; areally differentiated variant of *ɣalantóm* |
+| *sán-* 'blood' (leveled stem) | *san-n̥t-om* > *sanantóm* | *santóm* | iron | canon; denominal from leveled stem; haplology of *-anan-* |
 
 **Relationship to agentive *-onts ~ -antés*:** The two formations share the *-n̥t-* element but differ in gender/stem class (neuter o-stem vs. animate nt-stem), accentuation, and semantic function. They are probably not historically related as formations.
 

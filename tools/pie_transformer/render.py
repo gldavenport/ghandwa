@@ -114,6 +114,7 @@ _GH_ORTH: dict[str, str] = {
     'ɣʷ': 'ɣv',
     'j':  'i',
     'w':  'v',
+    'z':  's',   # [z] is allophonic, not phonemic; ⟨s⟩ is the sole orthographic form
 }
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Preface"
-last_updated: 2026-06-08
+last_updated: 2026-06-30
 ---
 
 # Preface
@@ -24,6 +24,14 @@ The daughter languages are descendants of regional varieties of Common Ghandwa, 
 ## Deliberate Phonological Tensions
 
 Not every phonological instability present at the Ghandwa stage is resolved. Certain features — the voiced fricatives, labiovelar stem allomorphy, unresolved VV hiatus, *sr* clusters, and others documented in §4.2.3 — are left as open tensions for daughter languages to resolve independently. This produces genuinely independent phonological developments across the daughters rather than predictable continuations of a resolved parent.
+
+## The man/men Paradigm Genitive Split
+
+Where comparative evidence for a PIE paradigm is genuinely split across attested daughters — each branch resolving an inherited alternation differently rather than converging on one outcome — Ghandwa does not default to picking a single winner. The neuter *-mn̥ ~ -mén-* ("man/men") paradigm is the clearest case: Italic, Celtic, Germanic, and Greek each handle the inherited genitive singular differently (preservation with analogical lengthening, paradigm leveling, outright replacement, and t-extension respectively), and none hands down an unremodeled form. Rather than adjudicate among them, Ghandwa retains the PIE-internal diachronic variation directly: the older bare *-s* genitive (*-méns*) and the later *-és* genitive (*-menés*), per Yates and Ringe's reconstruction of the paradigm, are both live in Ghandwa, mapped onto the existing Layer 1 (archaic/formal) and Layer 2 (standard) register distinction. This is the man/men paradigm's resolution of the broader "deliberate tensions" principle (see above): rather than letting the comparative gap force an arbitrary choice, the gap itself is preserved as productive register variation.
+
+This paradigm is referred to as the **man/men paradigm** in NocoDB and other lexical records, rather than by a single suffix citation form, since neither *-man* nor *-méns*/*-menés* alone names the alternation.
+
+The general question of the genitive singular ending for Ghandwa consonant stems as a class remains open; the man/men paradigm's resolution is specific to this formation and should not be generalized without separate justification.
 
 ## PIE Reconstruction Framework
 
